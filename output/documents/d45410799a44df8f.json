@@ -1,0 +1,152 @@
+{
+  "doc_id": "d45410799a44df8f",
+  "legacy_doc_id": "bd5586c366e2",
+  "filename": "MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 5.64,
+  "pages": 40,
+  "text_preview": "  \n \n \n \n \nMulti Observation Production Centre \nOcean Nutrient and Carbon profiles vertical distribution \nProduct \n \nMULTIOBS_GLO_BGC_NUTRIENTS_CARBON_ \nPROFILES_MYNRT_015_009 \n \n Issue: 5.0 \nContributors: Pannimpullath Remanan Renosh, Raphaëlle Sauzède, Hervé Claustre \nApproval date by the CMEMS product quality coordination team: 15/11/2024 \n \n \n \n \n  \n \nQUID for Ocean Nutrient and Carbon profiles vertical distribution Product \nMULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009  \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-009 \nNovember 2024 \n5.0 \n \n \n                                                     Page 2/ 40 \n \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Validated By \n0.0 January \n2019 \nAll Creation of the document R. Sauzède, H. \nClaustre  \nMercator Ocean \n1.0 December \n2019 \n Minor updates linked to the temporal \nextension of the time series \nR. Sauzède, H. \nClaustre \nMercator Ocean \n2.0 January \n2021 \n Minor updates linked to the temporal \nextension of the time series and the \naddition of Mediterranean Sea \nprofiles \nR. Sauzède, \nH.Claustre \n \nS. Guinehut \n3.0 November \n2022 \n Minor updates: the temporal \nextension of Nutrient profiles up to \nAugust 2022. \nMajor updates: the release of new \ncarbonate system variables ( i.e., total \nalkalinity, dissolved inorganic carbon, \npH and partial pressure of carbon \ndioxide). \nR. Sauzède, P.R. \nRenosh, H. \nClaustre \n \nH. Etienne \n4.0 November \n2023 \n Minor updates: the temporal \nextension of Nutrient and Carbonate \nsystem variable profiles up to August \n2023 depends upon the availability of \ndelayed mode profiles of pressure, \ntemperature, salinity and dissolved \noxygen in Argo global data assembly \ncenter (GDAC). \nSet up of Operational Temporal \nExtension \nR. Sauzède, P.R. \nRenosh, H. \nClaustre \n \nH. Etienne \n5.0 November \n2024 \n Major updates: transition to near \nreal-time product (up to Month-1) \nwith monthly data associated with \nrefined uncertainties. \nP.R. Renosh, R. \nSauzède, H. \nClaustre \nH. Etienne \n \n \n \n \n  \nQUID for Ocean Nutrient and Carbon profiles vertical distribution Product \nMULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009  \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-009 \nNovember 2024 \n5.0 \n \n \n                                                     Page 3/ 40 \n \nTABLE OF CONTENTS \nChange Record .................................................................................................................................................... 1 \nTable of contents ................................................................................................................................................. 3 \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nIII Validation framework ............................................................................................................................... 12 \nIV Validation results ...................................................................................................................................... 12 \nIV.1 Validation of CANYON-B and CONTENT using independent GLODAP-v2.2023 dataset ........................... 12 \nIV.2 Validation of CANYON-B and CONTENT using independent HOT time series dataset ............................. 15 \nIV.3 Validation of CANYON-MED using independent dataset ........................................................................ 16 \nIV.4 Validation of nitrate using BGC-Argo floats ............................................................................................ 17 \nIV.5 Validation of pH using BGC-Argo floats .................................................................................................. 22 \nV Error and Uncertainty in Near real-time nutrients and carbon profiles ..................................................... 25 \nVI System’s Noticeable events, outages or changes ...................................................................................... 38 \nVII Quality changes since previous version ................................................................................................. 39 \nVIII References ............................................................................................................................................ 40 \n \nQUID for Ocean Nutrient and Carbon ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Ocean Nutrient and Carbon profiles vertical distribution product, detailing its production system, validation framework, results, and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Mercator Ocean"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009",
+      "name": "Ocean Nutrient and Carbon profiles vertical distribution Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "nutrient_profiles",
+        "cf_standard_name": "ocean_nutrient_concentration",
+        "long_name": "Vertical distribution of ocean nutrients",
+        "unit": "umol/L",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "carbon_profiles",
+        "cf_standard_name": "ocean_carbon_concentration",
+        "long_name": "Vertical distribution of ocean carbon variables",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "total_alkalinity",
+        "cf_standard_name": "ocean_total_alkalinity_concentration",
+        "long_name": "Total alkalinity in seawater",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "dissolved_inorganic_carbon",
+        "cf_standard_name": "ocean_dissolved_inorganic_carbon_concentration",
+        "long_name": "Dissolved inorganic carbon concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pH",
+        "cf_standard_name": "seawater_ph_value",
+        "long_name": "Seawater pH value",
+        "unit": "dimensionless",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "partial_pressure_of_carbon_dioxide",
+        "cf_standard_name": "sea_water_partial_pressure_of_carbon_dioxide",
+        "long_name": "Partial pressure of carbon dioxide in seawater",
+        "unit": "Pa",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

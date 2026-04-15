@@ -1,0 +1,82 @@
+{
+  "doc_id": "938010f4d78a79c4",
+  "legacy_doc_id": "2d83a3beb792",
+  "filename": "MULTIOBS_GLO_PHY_MYNRT_015_003_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MULTIOBS_GLO_PHY_MYNRT_015_003_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.41,
+  "pages": 33,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n PRODUCT USER MANUAL \n \n \n \n \nFor Global Ocean Multi Observation \nProducts \nMULTIOBS_GLO_PHY_MYNRT_015_003 \nIssue:  2.0 \n \n \n \n \nContributors : H.Etienne \nApproval Date : November 2024 \n \n\n  \n  \nProduct User Manual for \nMULTIOBS_GLO_PHY_MYNRT_015_003 \n \nIssue : 2.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-003 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 \n \n2023/06 All \n \nCreation of the document for the new product \nMULTIOBS_GLO_PHY_MYNRT_015_003 \nreplacing MULTIOBS_GLO_PHY_NRT_015_003 \nand MULTIOBS_GLO_PHY_REP_015_004 \n \nH.Etienne H.Etienne \n2.0 2024/04  Update for November 2024 EIS : add tide current \nvariables and related uncertainties. \nH.Etienne H.Etienne \n \n  \n  \nProduct User Manual for \nMULTIOBS_GLO_PHY_MYNRT_015_003 \n \nIssue : 2.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-003 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 5 \nDATA ACCESS ....................................................................................................................................................... 6 \nI INTRODUCTION ............................................................................................................................................ 7 \nI.1 Summary......................................................................................................................................................... 7 \nI.2 History of changes .......................................................................................................................................... 8 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 9 \nII.1 General Information .................................................................................................................................... 9 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Production System Description ................................................................................................................. 12 \nII.3.1 NRT production ................................................................................................................................. 12 \nII.3.2 MY production ................................................................................................................................... 13 \nII.4 Grid .............................................................................................................................................................. 15 \nII.5 Vertical Levels ............................................................................................................................................ 15 \nII.6 Processing information .............................................................................................................................. 15 \nII.6.1 Update Time ....................................................................................................................................... 15 \nII.6.2 Temporal extent of MY product ........................................................................................................ 15 \nII.6.3 Time averaging .................................................................................................................................. 15 \nIII FILE FORMAT ......................................................................................................................................... 16 \nIV FILES NOMENCLATURE ........................................................................................................................... 17 \nIV.1 Nomenclature of files when downloaded through the Copernicus Marine Web Portal Subset Service\n ............................................................................................................................................................................. 17 \nIV.2 Nomenclature of original files .................................................................................................................. 17 \nIV.2.1 Dataset cmems_obs-mob_glo_phy-cur_my_0.25deg_PT1H-i ...................................................... 18 \nIV.2.2 Dataset cmems_obs-mob_glo_phy-cur_my_0.25deg_P1D-m ...................................................... 18 \nIV.2.3 Dataset cmems_obs-mob_glo_phy-cur_my_0.25deg_P1M-m .........................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Global Ocean Multi Observation Products, specifically MULTIOBS_GLO_PHY_MYNRT_015_003, detailing its specifications and updates as of November 2024.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_MYNRT_015_003",
+      "name": "Global Ocean Multi Observation Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-mob_glo_phy-cur_my_0.25deg_PT1H-i",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "tide_current_variables",
+        "cf_standard_name": null,
+        "long_name": "Tide current variables and related uncertainties",
+        "unit": null,
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "null"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

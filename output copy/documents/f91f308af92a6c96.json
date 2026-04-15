@@ -1,0 +1,169 @@
+{
+  "doc_id": "f91f308af92a6c96",
+  "legacy_doc_id": "92a1caba843b",
+  "filename": "MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 17,
+  "text_preview": " \n \n \n  \nMulti Observation  \nGlobal Ocean Sea Surface Salinity, Sea Surface Density \nand Spiciness Product \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \n \n \n Issue: 2.0  \nContributors: Nicolas Koldoziejczyk \nApproval date by the CMEMS product quality coordination team: 16/04/2024 \n \n \n \n \n  \n \nQUID for SSS, SSD, SSp Products \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-015 \n22 February 2024 \n2.0 \n \n                                                      Page 2/ 17 \nChange Record \n \nWhen the quality of the products changes, the QuID is updated  and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 June 2022 All Creation of the \ndocument \nNicolas \nKoldoziejczyk  \n1.0 August \n2022 All First version Nicolas \nKoldoziejczyk  \n1.0 October \n2022 All Revision Nicolas \nKoldoziejczyk H. Etienne \n2.0 January \n2024 All Extension of the series to \nSMOS+SMAP data \nNicolas \nKoldoziejczyk H.Etienne \n \n \n \n \n  \nQUID for SSS, SSD, SSp Products \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-015 \n22 February 2024 \n2.0 \n \n                                                      Page 3/ 17 \nTable of contents \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 6 \nII.1 MULTIOBS SSS/SSD/SSSp processing......................................................................................................... 6 \nII.2 Short description ....................................................................................................................................... 7 \nII.3 Data .......................................................................................................................................................... 7 \nII.4 Method ..................................................................................................................................................... 9 \nIII Validation framework ............................................................................................................................... 11 \nIII.1 Validation dataset .................................................................................................................................. 11 \nIII.2 Validation method and metrics .............................................................................................................. 11 \nIV Validation results ...................................................................................................................................... 12 \nV System’s Noticeable events, outages or changes ...................................................................................... 15 \nVI Quality changes since previous version ..................................................................................................... 16 \nVII References ............................................................................................................................................ 17 \n \n \n \nQUID for SSS, SSD, SSp Products \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-015 \n22 February 2024 \n2.0 \n \n                                                      Page 4/ 17 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \n This document describes the external product MULTIOBS_GLO_PHY_SSS_L4_MY_015_015, \ndeveloped by the Laboratory of Physical and Space Oceanography (LOPS, UMR6523 \nUBO/CNRS/Ifremer/IRD), which provides global Level 4 analyses of the Sea Surface Salinity (SSS), Sea \nSurface Density (SSD) and Sea Surface Spiciness (SSSp), along with Sea Surf ace Absolute Salinity (SSA), \nConservative Temperature (SCT), surface thermal expansion coefficient (alpha) and haline contraction \ncoefficient (beta). The SSS product is obtained using an optimal interpolation (OI) algorith m, that \ncombines ISAS in situ SSS OI analyses , ESA Soil Moisture Ocean Salinity (SMOS) satellite  and NASA Soil \nMoisture Active Passive images to reduce large scale and temporally varying bias. The SSS L4 product \noutcome is then combined with satellite SST products to compute thermodynamic sea water paramet",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes a global Level 4 analysis product for Sea Surface Salinity (SSS), Sea Surface Density (SSD), and Sea Surface Spiciness (SSSp) developed by the Laboratory of Physical and Space Oceanography (LOPS). The product combines in situ, satellite SMOS, and NASA Soil Moisture Active Passive data to provide accurate SSS analysis.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Laboratory of Physical and Space Oceanography (LOPS)"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_SSS_L4_MY_015_015",
+      "name": "Global Ocean Sea Surface Salinity, Sea Surface Density and Spiciness Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SSS",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SSD",
+        "cf_standard_name": "sea_surface_density",
+        "long_name": "Sea Surface Density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SSSp",
+        "cf_standard_name": "sea_surface_spiciness",
+        "long_name": "Sea Surface Spiciness",
+        "unit": "g/kg",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "absolute",
+        "framework": "teos10",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SSA",
+        "cf_standard_name": "sea_surface_absolute_salinity",
+        "long_name": "Sea Surface Absolute Salinity",
+        "unit": "g/kg",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "absolute",
+        "framework": "teos10",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SCT",
+        "cf_standard_name": "sea_surface_conservative_temperature",
+        "long_name": "Sea Surface Conservative Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "conservative",
+        "framework": "teos10",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "alpha",
+        "cf_standard_name": "surface_thermal_expansion_coefficient",
+        "long_name": "Surface Thermal Expansion Coefficient",
+        "unit": "1/K",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "beta",
+        "cf_standard_name": "surface_haline_contraction_coefficient",
+        "long_name": "Surface Haline Contraction Coefficient",
+        "unit": "1/psu",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2202,
+  "_tokens_out": 1260,
+  "_eval_s": 9.35
+}

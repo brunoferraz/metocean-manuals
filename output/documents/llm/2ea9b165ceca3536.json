@@ -1,0 +1,127 @@
+{
+  "doc_id": "2ea9b165ceca3536",
+  "legacy_doc_id": "c9d9242836ae",
+  "filename": "MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.05,
+  "pages": 29,
+  "text_preview": " \n  \nGlobal Ocean Multi Observation Products \nMULTIOBS_GLO_PHY_MYNRT_015_003 \n \n \n Issue: 2.0 \nContributors: H. Etienne \nApproval date by the CMEMS product quality coordination team:  \n \n \n \n \n  \n \n\nQUID for MOB TAC Products \nMULTIOBS_GLO_PHY_MYNRT_015_003 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-003 \n03 May 2024 \n2.0 \n \n                                                      Page 2/ 29 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The third \ncolumn specifies which sections or sub-sections have been updated.  The fourth column should mention \nthe version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 July 2023 All Creation of the document for the new \nproduct \nMULTIOBS_GLO_PHY_MYNRT_015_003 \nreplacing \nMULTIOBS_GLO_PHY_NRT_015_003 and \nMULTIOBS_GLO_PHY_REP_015_004 \nH. Etienne   H. Etienne \n2.0 May 2024  Update for new version of product including \ncurrent from tide. \nH. Etienne H. Etienne \n \n \n \n \n  \nQUID for MOB TAC Products \nMULTIOBS_GLO_PHY_MYNRT_015_003 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-003 \n03 May 2024 \n2.0 \n \n                                                      Page 3/ 29 \nTABLE OF CONTENTS \nI Executive summary ....................................................................................................................................... 4 \nI.1 Products covered by this document ............................................................................................................. 4 \nI.2 Summary of the results ................................................................................................................................ 5 \nI.3 Estimated Accuracy Numbers ....................................................................................................................... 5 \nII Production system description ...................................................................................................................... 6 \nII.1 Input datasets ............................................................................................................................................. 6 \nII.1.1 Geostrophy .............................................................................................................................................. 6 \nII.1.2 Mixed Layer Depth (MLD) ....................................................................................................................... 7 \nII.1.3 Wind datasets ......................................................................................................................................... 7 \nII.1.4 Current from tide .................................................................................................................................... 8 \nII.2 Method ....................................................................................................................................................... 9 \nII.2.1 Ekman model........................................................................................................................................... 9 \nII.2.2 Total current .......................................................................................................................................... 10 \nII.2.3 Uncertainties ......................................................................................................................................... 11 \nIII Validation framework .................................................................................................................................. 15 \nIV Validation results ......................................................................................................................................... 16 \nIV.1 Surface current versus YoMaHa’07 surface current................................................................................... 16 \nIV.1.1 Muti year total current .......................................................................................................................... 16 \nIV.1.2 Near Real Time (NRT) total current ....................................................................................................... 19 \nIV.2 Surface current versus Surface and Merged Ocean Currents (SMOC)  ........................................................ 20 \nIV.3 15 m current versus Surface Velocity Program drifters ............................................................................. 24 \nIV.3.1 Multi-year total current ........................................................................................................................ 24 \nIV.3.2 NRT total current ................................................................................................................................... 25 \nV System’s Noticeable events, outages or changes ......................................................................................... 26 \nVI Qu",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the Global Ocean Multi Observation Products, specifically version MULTIOBS_GLO_PHY_MYNRT_015_003, detailing changes and updates to the product including current from tide.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": null
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_MYNRT_015_003",
+      "name": "Global Ocean Multi Observation Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Geostrophy",
+        "cf_standard_name": null,
+        "long_name": "Geostrophic current calculation",
+        "unit": null,
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "Mixed Layer Depth (MLD)",
+        "cf_standard_name": null,
+        "long_name": "Depth of the mixed layer",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Wind datasets",
+        "cf_standard_name": null,
+        "long_name": "Surface wind data",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "Current from tide",
+        "cf_standard_name": null,
+        "long_name": "Tidal current data",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2016,
+  "_tokens_out": 831,
+  "_eval_s": 6.11
+}

@@ -1,0 +1,88 @@
+{
+  "doc_id": "3c52e62fb4110e9b",
+  "legacy_doc_id": "0f0f738d2918",
+  "filename": "OMI_CLIMATE_SST_IBI_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_SST_IBI_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.35,
+  "pages": 5,
+  "text_preview": " \n \n \n \nQUALITY INFORMATION DOCUMENT \n \nSea Surface Temperature Ocean Monitoring Indicator for the \nIberia-Biscay-Irish Seas: \n \nIBI_OMI_TEMPSAL_sst_area_averaged_anomalies \nIBI_OMI_TEMPSAL_sst_trend \n \n \n Issue: 1.1 \nContributors:  Emmanuelle Autret \nApproval Date: November 2021 \n \n \n \n \n  \n \nQUID for CMEMS OMIs:  \n IBI_OMI_TEMPSAL_sst_area_averaged_anomalies \nIBI_OMI_TEMPSAL_sst_trend \n  Ref: \nDate: \nIssue: \nCMEMS-OMI-QUID-IBI-SST \n10/09/2021 \n1.1 \n \n \n    Page 2/ 5 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 10/09/202\n0 \nAll Creation of the documents Emmanuelle Autret  \n1.1 10/09/202\n1 \nAll Update of the documents Emmanuelle Autret Marie Drevillon \n \n \n \n \nProduct name:  \nibi_omi_tempsal_sst_area_averaged_anomalies \nibi_omi_tempsal_sst_trend \n \nDataset name:  \nibi_omi_tempsal_sst_area_averaged_anomalies \nibi_omi_tempsal_sst_trend \n \nIndicator evaluation method:  \nThe Iberai -Biscay-Irish (IBI) Sea Surface Temperature (SST) Ocean Monitoring Indicators \n(OMIs) are derived from the CMEMS Reprocessed European North West Shelf Iberai -Biscay-\nIrish Seas (REP ATL) SST L4 product 1. The REP ATL L4 product provides the SSTs that are \nused to compute all the IBI SST OMIs, i.e. the time series of SST anomalies \n(ibi_omi_tempsal_sst_area_averaged_anomalies) and the 2D map of SST trend \n(ibi_omi_tempsal_sst_trend). Anomalies are computed against the 1993 -2014 reference period. \nThese indicators belong to the ocean temperature and salinity (TEMPSAL) OMI family. \n                                                           \n1 \n ? cmems_SST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nQUID for CMEMS OMIs:  \n IBI_OMI_TEMPSAL_sst_area_averaged_anomalies \nIBI_OMI_TEMPSAL_sst_trend \n  Ref: \nDate: \nIssue: \nCMEMS-OMI-QUID-IBI-SST \n10/09/2021 \n1.1 \n \n \n    Page 3/ 5 \nIn detail, daily maps of REP ATL L4 data from 1993 were averaged to obtain SST monthly \nmaps, which were then used to build the time series of monthly mean SST values averaged \nover the entire basin.  \nTrend analysis has been performed by using the X -11 seasonal adjustment pro cedure (Pezzulli \net al. 2005). This procedure decomposes the input SST time series into the sum of three distinct \ncomponents:  \nSSTt = Tt + St + It, \nwhere Tt is the trend component, St and It the seasonal and the irregular components. The X -11 \nprocedure has the effect of filtering the input time series with Tt acting as a low bandpass filter \nfor interannual variations. The only difference with respect to the standard X -11 procedure is \nthat we substituted the 13 -term moving-average window (used to estimate Tt ) with a 25 -term \nmoving-average window, i.e. from 1-year to 2-year low-pass filter. This makes more robust the \nestimation of the trend component Tt. \nMann-Kendall test (Mann, 1945; Kendall, 1975) was applied to Tt in order to assess whether \nthere is a monotonic upward or downward trend over time and Sens’s method (Sen, 1968) was \nsubsequently applied to estimate the slope (°C/year) of the trend component Tt and its 95% \nconfidence interval.  \n \n \nDataset name: ibi_omi_tempsal_sst_area_averaged_anomalies \nThis OMI product includes SST anomaly, given as monthly mean time series starting on 1993 \nand averaged over the Iberai-Biscay-Irish Seas. \n \nDataset name: ibi_omi_tempsal_sst_trend \nThis OMI product includes the  trend map for the Iberai -Biscay-Irish Seas , i.e. the r ate of \nchange of SST (°C/year). Trend computation is based on X-11 seasonal adjustment procedure. \n \nScientific validation: \nThe reliability of the IBI SST OMI products is strictly related to the quality and accuracy of the \nREP ATL L4 SST product, which is va lidated in the CMEMS REP ATL QUID (see \nhttp://marine.copernicus.eu/documents/QUID/CMEMS-SST-QUID-010-026.pdf). The \naccuracy of the REP ATL L4 product has been assessed  by comparison to independent in situ \ndata for the period 2005 -2016. Resul ts show an overall mean bias and root mean square \ndifference (RMSD) of the differences between REP ATL and in situ data of -0.07 and 0.46 K, \nrespectively. The time series of monthly averaged mean bias and RMSD is shown in Figure 1. \nThe overall validation i ndicates that this product represents a valuable SST dataset for climate \nstudies. \nWe recall that the REP ATL L4 product is a collection of 38 years of daily (nighttime)  \ninterpolated (level -4, L4) satellite -based estimates of the foundation SST over the Eu ropean \nQUID for CMEMS OMIs:  \n IBI_OMI_TEMPSAL_sst_area_averaged_anomalies \nIBI_OMI_TEMPSAL_sst_trend \n  Ref: \nDate: \nIssue: \nCMEMS-OMI-QUID-IBI-SST \n10/09/2021 \n1.1 \n \n \n    Page 4/ 5 \nNorth West Shelf Iberai -Biscay-Irish Seas (ATL) at 0.05° grid covering the period 1982 -2019. \nThis product is built from ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Sea Surface Temperature Ocean Monitoring Indicators for the Iberia-Biscay-Irish Seas, detailing two datasets: ibi_omi_tempsal_sst_area_averaged_anomalies and ibi_omi_tempsal_sst_trend.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "ibi_omi_tempsal_sst_area_averaged_anomalies",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "ibi_imedia_tempsal_sst_trend",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.05deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 35,
+        "lat_max": 60
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

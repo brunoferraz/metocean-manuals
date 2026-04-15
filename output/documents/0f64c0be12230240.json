@@ -1,0 +1,139 @@
+{
+  "doc_id": "0f64c0be12230240",
+  "legacy_doc_id": "def1feea10b1",
+  "filename": "MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.07,
+  "pages": 64,
+  "text_preview": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nMediterranean Sea Production Centre \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \n \n Issue: 2.6 \nContributors: L. Gualtieri, A.C. Goglio, E. Clementi, A. Grandi, A. Moulin, M. Giurato, A. Aydogdu, J. Pistoia,  \nP. Miraglio, E. Sadighrad, A. Mariani, M. Drudi \nApproval date by the Copernicus Marine Service product quality coordination team: 21/10/2025 \n \n \n \n \n  \n \n\nQUID for MED MFC Product \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-013 \n28 May 2025 \n2.6 \n \n   \n  Page 2/ 64 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated , and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies.  \nIssue Date § Description of Change Author Validated By \n1.0 25-09-2017 All Release of EAS2 version of the \nMed-Physics analysis and \nforecast product at 1/24° \nresolution \nE. Clementi, A. \nGrandi, P. DiPietro, J. \nPistoia, D. Delrosso, \nG. Mattia  \nE. Clementi (Med -\nMFC Deputy) \n1.1 18-01-2018 All Release of EAS3 version of \nthe Med-Physics analysis and \nforecast product at 1/24° \nresolution \nE. Clementi, A. \nGrandi, P. DiPietro, J. \nPistoia, D. Delrosso, \nG. Mattia  \nE. Clementi (Med -\nMFC Deputy) \n1.2 28-01-2019 All Release of EAS4 version of \nthe Med-Physics analysis and \nforecast product at 1/24° \nresolution \nE. Clementi, A. \nGrandi, R. Escudier, \nV. Lyubartsev \nE. Clementi (Med -\nMFC Deputy) \n1.3 06-12-2019 All Release of EAS5 version of \nthe Med-Physics analysis and \nforecast product at 1/24° \nresolution \nE. Clementi, A. \nGrandi, V. \nLyubartsev \nE. Clementi (Med -\nMFC Deputy) \n1.4 10-09-2020 II.1 \nII.2 \nII.3 \nV \nUse of higher resolution \nECMWF atmospheric forcing \nE. Clementi, A. \nGrandi, J. Pistoia \nE. Clementi (Med -\nMFC Deputy) \n2.0 15-01-2021 All Updated document for the \nnew product: modeling \nsystem including tides \nE. Clementi, A. \nGrandi, A.C. Goglio, \nA. Aydogdu, J. \nPistoia, V. \nLyubartsev \nE. Clementi (Med -\nMFC Deputy) \n2.1 10-09-2021 II, \nIV, \nV \nUpdated document for new \nupstream river data \nE. Clementi, A. \nGrandi, A.C. Goglio \nE. Clementi (Med -\nMFC Deputy) \n2.2 01-12-2021 IV, \nV \nUpdated document for SST \nsatellite upstream data \nchange and delivery of \nupdated timeseries \nE. Clementi E. Clementi (Med -\nMFC Deputy) \n2.2.1 23-09-2022 III.\n4, \nV \nUpdated document for \nupstream data change: SLA \nSentinel-6A assimilation \nE. Clementi, A. \nAydogdu, A. Grandi, \nA.C. Goglio \nE. Clementi (Med -\nMFC Deputy) \n \n \n \nQUID for MED MFC Product \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-013 \n28 May 2025 \n2.6 \n \n   \n  Page 3/ 64 \nIssue Date § Description of Change Author Validated By \n2.3 02-09-2022 All Model and data \nassimilation \nimprovements  \nA.C. Goglio, A. Grandi, \nE. Clementi, A. \nAydogdu, A. Mariani \nE. Clementi (Med-\nMFC Deputy) \n2.4 20-09-2023 All Model and data \nassimilation \nimprovements  \nA.C. Goglio, A. Grandi, \nE. Clementi, A. \nAydogdu, A. Moulin, \nP. Miraglio, J. Pistoia \nE. Clementi (Med-\nMFC Deputy) \n2.5 04-09-2024 All EAS9 release: model and \ndata assimilation \nimprovements \nL. Gualtieri, A.C. \nGoglio, E. Clementi, A. \nGrandi, A. Moulin, M. \nGiurato, A. Aydogdu, \nJ. Pistoia, P. Miraglio, \nE. Sadighrad, A. \nMariani, M. Drudi \nE. Clementi (Med-\nMFC Leader) \n2.6 28-05-2025 All EAS10 release: model and \ndata assimilation \nimprovements; update of \nthe operational forecast \nchain. \nL. Gualtieri, A.C. \nGoglio, E. Clementi, A. \nGrandi, A. Moulin, M. \nGiurato, A. Aydogdu, \nJ. Pistoia, P. Miraglio, \nE. Sadighrad, A. \nMariani, M. Drudi \nE. Clementi (Med-\nMFC Leader) \n \n  \nQUID for MED MFC Product \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-013 \n28 May 2025 \n2.6 \n \n   \n  Page 4/ 64 \nACRONYM TABLE \nALT Altimeters \nASSIM Data Assimilation \nCMCC Centro Euro-Mediterraneo sui Cambiamenti Climatici \nCMEMS Copernicus Marine Environment Monitoring Service \nCTD Conductivity, Temperature, and Depth; It refers to a package of electronic instruments \nthat measure these properties \nEAN Estimated Accuracy Number \nEAS European Analysis System \nECMWF European Centre for Medium range Weather Forecasting \nEOF Empirical Orthogonal Function \nEUR Europe \nGEBCO General Bathymetric Chart of the Oceans \nGLO Global \nGODAE Global Ocean Data Assimilation Experiment \nMed  Mediterranean \nMFC Monitoring and Forecasting Centre \nMLD Mixed Layer Depth \nMOOR Mooring \nMY Multi-Year \nNEMO Nucleus for European Modelling of the Ocean  \nNRT Near Real Time \nNWP Numerical Weather Prediction \nOBS Observation \nPHY PHYsics \nPQ Product Quality \nQUID for MED MFC Product \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-013 \n28 May 2025 \n2.6 \n \n   \n  Page 5/ 64 \nRMSD Root Mean Square Difference \nS Salinity \nSL Sea Level \nSLA Sea Level Anomaly \nSST Sea Surface Temperature \nT Temperature \nTAC Thema",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the MEDSEA_ANALYSISFORECAST_PHY_006_013 product, detailing its history of updates and contributors since its initial release in 2017.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_ANALYSISFORECAST_PHY_006_013",
+      "name": "Mediterranean Sea Analysis and Forecast Product",
+      "model_name": "NEMO v4.2.2",
+      "region": "Mediterranean",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential Temperature of Sea Water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Sea Water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "Zonal Velocity of Sea Water",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": "Meridional Velocity of Sea Water",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/24°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

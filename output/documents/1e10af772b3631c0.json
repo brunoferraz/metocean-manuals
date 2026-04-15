@@ -1,0 +1,166 @@
+{
+  "doc_id": "1e10af772b3631c0",
+  "legacy_doc_id": "8a015b3107f2",
+  "filename": "NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.01,
+  "pages": 49,
+  "text_preview": " \nNorth West European Shelf Production Centre \nNWSHELF_MULTIYEAR_BIO_004_011 \n \n Issue: 5.1 \nContributors: Susan Kay, Robert McEwan, David Ford \nApproval date by the CMEMS product quality coordination team: 22/03/2020 \n \n \n  \n \nQUID for NWS MFC Products  \nNWSHELF_MULTIYEAR_BIO_004_011 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-011 \n24 February 2021 \n5.1 \n \n \n2 \n \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0  January \n2014  \nAll  Creation of the document \nfor V4.0  \nSarah Wakelin   Ed Blockley  \n2.0  December \n2014  \nAll  Addition of biological \nproduct assessment  \n(BIO_004_011)   \nRobert McEwan  \n  \nEd Blockley  \n2.1  February \n2015  \nAll  Revision after acceptance \nV5  \n  Ed Blockley  \n2.2  13/03/2015  I.2, \nII  \nWarning remarks after \nevidence of 004_011 \ninterannual  nutrient drifts  \n  Ed Blockley  \n2.3  May 1 2015  all  Change format to fi t CMEMS \ngraphical rules  \n  L. Crosnier  \n3.0  21/01/2016  all  Update for V2 (time series \nextension to 2014 and \naddition of MLD)  \nSarah Wakelin, Jon \nTinker  \nMarina Tonani  \n3.0  01/04/2016  all  Revision after V2 AR  Marina Tonani  Marina Tonani  \n4.0 01/09/2018 all New version for Copernicus \nV4 (BIO only) \nSusan Kay, Robert \nMcEwan, David Ford \nIna Lorkowski \n4.1 17/01/2019 all The reanalysis was extended \nto Dec ember 2017, with no \nchanges in quality. \nSusan Kay Marina Tonani \n4.2 19/04/2019 all The reanalysis was extended \nto Dec ember 2018, with no \nchanges in quality. \nSusan Kay Marina Tonani \n5.0 10/09/2020  New version for Copernicus \nV5 \nSusan Kay, Robert \nMcEwan, David Ford \nMarina Tonani \n5.1 15/02/2021 all Add interim product INT and \n2018/9 rerun with Jan -June \n2020 extension \n \nSusan Kay, Robert \nMcEwan, David Ford \nMarina Tonani \n \n  \nQUID for NWS MFC Products  \nNWSHELF_MULTIYEAR_BIO_004_011 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-011 \n24 February 2021 \n5.1 \n \n \n3 \n \nTABLE OF CONTENTS \nTable of contents ................................................................................................................................................. 3 \nList of Data Tables ............................................................................................................................................... 4 \nList of Figures ...................................................................................................................................................... 5 \nI Executive summary ..................................................................................................................................... 7 \nI.1 Products covered by this document ........................................................................................................... 7 \nI.2 Summary of the results .............................................................................................................................. 7 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 8 \nII Production system description .................................................................................................................... 9 \nIII Validation framework ............................................................................................................................... 13 \nIV Validation results ...................................................................................................................................... 16 \nIV.1 Chlorophyll-a ......................................................................................................................................... 16 \nIV.2 Nitrate ................................................................................................................................................... 24 \nIV.3 Phosphate .............................................................................................................................................. 28 \nIV.4 Dissolved Oxygen ................................................................................................................................... 32 \nIV.5 Surface pCO2 .......................................................................................................................................... 36 \nIV.6 pH .......................................................................................................................................................... 39 \nIV.7 Light attenuation ................................................................................................................................... 42 \nV System’s Noticeable events, outages or changes ..............................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for NWSHELF_MULTIYEAR_BIO_004_011, detailing the production system description, validation framework, and results for various biogeochemical parameters on the North West European Shelf.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_MULTIYEAR_BIO_004_011",
+      "name": "North West European Shelf Multiyear Biogeochemistry Product",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll-a",
+        "cf_standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+        "long_name": "Chlorophyll-a concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate",
+        "cf_standard_name": "mole_concentration_of_nitrate_in_sea_water",
+        "long_name": "Nitrate concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate",
+        "cf_standard_name": "mole_concentration_of_phosphate_in_sea_water",
+        "long_name": "Phosphate concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "dissolved_oxygen",
+        "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+        "long_name": "Dissolved oxygen concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "surface_pCO2",
+        "cf_standard_name": "mole_concentration_of_carbon_dioxide_in_sea_water_at_surface",
+        "long_name": "Surface pCO2 concentration in sea water",
+        "unit": "uatm",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_photometric_hydrogen_index",
+        "long_name": "Sea water photometric hydrogen index (pH)",
+        "unit": "dimensionless",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "light_attenuation",
+        "cf_standard_name": "downwelling_photosynthetically_active_radiation_absorption_coefficient",
+        "long_name": "Downwelling photosynthetically active radiation absorption coefficient",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 49,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 1000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

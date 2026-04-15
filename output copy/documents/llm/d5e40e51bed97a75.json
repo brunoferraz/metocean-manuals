@@ -1,0 +1,102 @@
+{
+  "doc_id": "d5e40e51bed97a75",
+  "legacy_doc_id": "6ca5a02854b2",
+  "filename": "halliwell_vertical_vel.pdf",
+  "filepath": "docs/hycom_docs/halliwell_vertical_vel.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.09,
+  "pages": 7,
+  "text_preview": "Diagnosis of Kinematic Vertical Velocity in HYCOM \n \nBy George Halliwell, 28 November 2004 \n \n \nOverview \n \nThe vertical velocity w  in Cartesian coordinates is determined by vertically integrating the \ncontinuity equation \n ( ) z\nz\ndw\ndz =− ∇ ⋅ v  (1) \ndownward from the surface, where subscripts denote the variable held constant during partial \ndifferentiation. Model variables in HYCOM are stored on a non-Cartesian ( ),,xys  coordinate \nsystem, where the generalized vertical coordinates are surfaces of constant s , typically density in \nthe ocean interior and fixed pressure levels near the ocean surface and in shallow coastal regions. \nTo use equation (1) to estimate w  profiles at HYCOM grid points, horizontal velocity \ncomponents must be re-gridded to constant z  levels before integrating (1) downward from the \nsurface. This re-gridding must be performed at high vertical resolution to provide accurate \nvertical profiles of w . \n \nSince this high-resolution re-gridding is time consuming, a formula is derived here to \nestimate w  profiles directly from fields stored on the HYCOM generalized coordinate system. \nThis formula is now included in the HYCOM post-processing program (hycomproc) to estimate \nw  profiles from fields stored on model archives. A different formula is then derived to calculate \nw  during HYCOM runs for the purpose of advecting three-dimensional Lagrangian floats. This \nis accomplished by integrating the HYCOM continuity (thickness tendency) equation downward \nfrom the surface and combining it with the previously-derived w  profile equation. \n \n \nA Vertical Velocity Profile Equation Suitable for HYCOM Post-Processing \n \nSince HYCOM equations use pressure units for the vertical coordinate, HYCOM vertical \nvelocity is defined as \n .dpw dt=  (2) \nBy converting the vertical coordinate in (1) from z  to p , we obtain \n .s\ns\ndw\ndp\n⎛⎞ ⎟⎜ =− ∇ ⋅⎟⎜ ⎟⎝⎠ v  (3) \nSince the HYCOM generalized coordinate system is not Cartesian, integration of (3) downward \nfrom the surface introduces additional terms related to the sloping s  interfaces. The vertical \ndiscretization consists of layers 1, 2, ...,kN= , with each layer k  bounded by vertical \ncoordinate surfaces located at pressure depths ( ),,kpx y s  above and ( )1 ,,kpx y s+  below. From \nthis point forward, it is understood that s  is held constant in partial differentiation and the \nsubscript s  is dropped. \n \nAssuming 0w =  at the surface, vertical velocity at the base of model layer 1k =  is \n () ()\n2\n1\n11\n22 1 .\np\np\nuv u vwp d p p p xy x y\n−\n−− ⎛∂ ∂ ⎞ ⎛∂ ∂ ⎞⎟⎟⎜⎜=− + =− − + ⎟⎟⎜⎜ ⎟⎟⎜⎜⎝⎠ ⎝ ⎠∂∂ ∂ ∂∫  (4) \nwhere the integration is carried out from the surface down to an infinitesimal distance above \ninterface 2. To obtain the vertical velocity at the top of layer 2, the continuity equation is \nintegrated across interface 2 from 2p−  to 2p+ : \n ()\n2 2\n12\n2 .\npp\npp\nuv uvw p dp dp xy xy\n−+\n−\n+ ⎛∂ ∂ ⎞ ⎛∂ ∂ ⎞⎟⎟⎜⎜=− + − + ⎟⎟⎜⎜ ⎟⎟⎜⎜⎝⎠ ⎝⎠∂∂ ∂∂∫∫  (5) \nIf interface 2 is not level, then a jump condition arises in the evaluation of the rightmost integral \nin (5). This jump condition is obtained by evaluating the rightmost integral as illustrated for the \nx  direction in Figure 1. The x  derivative of u  is given by \n \n( ) ( )\n21\n21 22 .\nux u xuuu xx\nxx\nδδ\nδ\nδδ\n∂∂+− − −∂∂=  (6) \nThe vertical velocity jump across the interface is numerically evaluated by \n () () ( ) ( )\n21\n22 12 ,22\npu x u xwp wp u u xx x\nδδ δ\nδ\n+− ∂∂⎡ ⎤−= + − + ⎢ ⎥⎢ ⎥∂∂⎣ ⎦\n (7) \nwhere 22pp pδ +−=− . In the limit as the box defined by xδ  and pδ  in Figure 1 shrinks to zero \narea, //px p xδδ →∂ ∂  and /2 0xδ → . Thus, ( )2wp +  from (5) becomes, after adding the \njump condition in the y  direction \n () ()11 2 2\n21 21 2 12 () () . uv p pwp p p u u v v xy x y\n+ ⎛∂ ∂ ⎞ ∂ ∂ ⎟⎜=− − + + − + − ⎟⎜ ⎟⎜⎝⎠∂∂ ∂ ∂  (8) \nContinuing the integration downward, the vertical velocity at a pressure level P  within model \nlayer 2n ≥ , where \n ( )1 ,0 1 ,nn nPp q p p q +=+ − < <  (9) \nis \n \n() () ()\n() ()\n1\n11\n1\n11\n2\n.\nn\nkk nn\nkk nn\nk\nn\nkk\nkk k k\nk\nuv uvwP p p qp p xy xy\nppuu vv xy\n−\n++\n=\n−−\n=\n⎛∂ ∂ ⎞ ⎛∂ ∂ ⎞ ⎟⎟⎜⎜=− − + − − + ⎟⎟⎜⎜ ⎟⎟⎝⎠ ⎝ ⎠∂∂ ∂∂\n⎡∂ ∂ ⎤+− + −⎢⎥ ∂∂⎢⎥⎣⎦\n∑\n∑\n (10) \nIt is easy to show that \n () ( ) ()[] 1() nn nwP w p q w p w p+− +\n+=+ −  (11) \nThus, w  varies linearly in the vertical within each layer while discontinuities can exist at model \ninterfaces. Equation (10) is used to evaluate w  in the HYCOM post processing program \n(hycomproc). \n \nEquation (10) is validated by showing that it gives the correct bottom vertical velocity when \nintegrated from the surface to the bottom. If model layer N  is the layer intersecting the bottom \n(the deepest layer with nonzero thickness), then Equation (10) yields the following expression \nfor vertical velocity at the bottom: \n () () () ()11 1\n12\n,\nNN\nkk k k\nbk k k k k k\nkk\nuv p pwp p p u u v v xy x y+− −\n==\n⎛∂ ∂ ⎞ ⎡ ∂ ∂ ⎤ ⎟⎜=− − + + − + − ⎢ ⎥⎟⎜ ⎟⎜⎝⎠∂∂ ∂ ∂ ⎢ ⎥⎣ ⎦∑∑ (12) \nwhere 1bNpp +=  is the bottom pressure depth. For this bottom velocity to be correct, it must \nequal t",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the derivation of a formula to estimate vertical velocity profiles directly from fields stored on the HYCOM generalized coordinate system, and its implementation in the post-processing program (hycomproc). It also presents a method for calculating vertical velocity during HYCOM runs.",
+    "provider": {
+      "provider_id": "null",
+      "name": "George Halliwell"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "w",
+        "cf_standard_name": "upward_sea_water_velocity",
+        "long_name": "Vertical velocity in the ocean",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "u, v",
+        "cf_standard_name": [
+          "eastward_sea_water_velocity",
+          "northward_sea_water_velocity"
+        ],
+        "long_name": "Horizontal velocity components in the ocean",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "pressure",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2899,
+  "_tokens_out": 581,
+  "_eval_s": 4.33
+}

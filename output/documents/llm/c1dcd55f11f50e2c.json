@@ -1,0 +1,197 @@
+{
+  "doc_id": "c1dcd55f11f50e2c",
+  "legacy_doc_id": "b85742c7b426",
+  "filename": "ECMWF_ERA5_documentation.md",
+  "filepath": "docs/ecmwf_docs/ECMWF_ERA5_documentation.md",
+  "extension": ".md",
+  "file_size_mb": 0.14,
+  "pages": 47,
+  "text_preview": "# ECMWF Documentation\n\nSource: https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation\n\n---\n\nERA5: data documentation - Copernicus Knowledge Base - ECMWF Confluence Wiki\n\n-\n\n[](/pages/viewpage.action?pageId=55116796)[Copernicus Knowledge Base](/pages/viewpage.action?pageId=55116796)\n## Space shortcuts\n[ERA5: data documentation](/display/CKB/ERA5%3A+data+documentation)\n- [Software upgrade for geographical area extraction from data on regular lat-lon grids](/display/CKB/Software+upgrade+for+geographical+area+extraction+from+data+on+regular+lat-lon+grids)\n- [Service status](https://status.ecmwf.int/)\n- [ECMWF Training resources](https://www.ecmwf.int/en/learning/training/search)\n## Page tree\n\n[](/collector/pages.action?key=CKB)Browse pagesConfigureSpace tools[](#)\n\n-\n[\n\n](#)\n\n[\n\nAttachments (16)\n](/pages/viewpageattachments.action?pageId=76414402)\n\n-\n\n[\n\nPage History\n](/pages/viewpreviousversions.action?pageId=76414402)\n\n-\n\n[\n\nResolved comments\n](#)\n\n-\n\n[\n\nPage Information\n](/pages/viewinfo.action?pageId=76414402)\n\n-\n\n[\n\nView in Hierarchy\n](/pages/reorderpages.action?key=CKB&openId=76414402#selectedPageInHierarchy)\n\n-\n\n[\n\nView Source\n](/plugins/viewsource/viewpagesrc.action?pageId=76414402)\n\n-\n\n[\n\nExport to PDF\n](/spaces/flyingpdf/pdfpageexport.action?pageId=76414402)\n\n-\n\n[\n\nExport to Word\n](/exportword?pageId=76414402)\n\n-\n\n[\n\nHide Inline Comments\n](/pages/viewpage.action?pageId=76414402)\n\n- []()[](/pages/viewpageattachments.action?pageId=76414402&metadataLink=true)\n- [Jira links]()\n\n#\n[ERA5: data documentation](/display/CKB/ERA5%3A+data+documentation)\n\n-\n\nCreated by Unknown User (uskh), last modified by [Anabelle Menochet]( /display/~usag\n) on Jan 05, 2026\n\nLast modified on Jan 05, 2026 10:57\n\nTable of Contents\n\n## Introduction\n\nHere, we document the ERA5 dataset, which covers the period from January 1940 to the present and continues to be extended forward in near real time. For up to date information on ERA5, please consult the [C3S Announcements](https://forum.ecmwf.int/c/announcements/c3s-announcements/7) on the ECMWF forum.\n\nERA5 is produced using 4D-Var data assimilation and model forecasts in CY41R2 of the [ECMWF Integrated Forecast System (IFS)](https://confluence.ecmwf.int/display/CKB/ECMWF+Model+Documentation), with [137 hybrid sigma/pressure (model) levels](/display/UDOC/L137+model+level+definitions) in the vertical and the top level at 0.01 hPa. Atmospheric data are available on these levels and they are also interpolated to 37 pressure, 16 potential temperature and 1 potential vorticity level(s) by [FULL-POS](https://www.umr-cnrm.fr/gmapdoc/spip.php?article157) in the IFS. \"Surface or single level\" data are also available, containing 2D parameters such as precipitation, top of atmosphere radiation and vertical integrals over the entire depth of the atmosphere. The atmospheric model in the IFS is coupled to a land-surface model (HTESSEL), which produces parameters such as 2m temperature and soil temperatures, and an ocean wave model (WAM), the parameters of which are also designated as \"Surface or single level\" parameters.\n\nThe ERA5 dataset contains one (hourly, 31 km) high resolution realisation (referred to as \"reanalysis\" or \"HRES\") and a reduced resolution ten member ensemble (referred to as \"ensemble\" or \"EDA\"). The ensemble is required for the data assimilation procedure, but as a by-product also provides an estimate of the relative, random uncertainty. Generally, the data are available at a sub-daily and monthly frequency and consist of analyses and short (18 hour) forecasts, initialised twice daily from analyses at 06 and 18 UTC. Most analysed parameters are also available from the forecasts. However, there are a number of forecast parameters, e.g. [mean rates/fluxes and accumulations](https://confluence.ecmwf.int/display/CKB/ERA5%3A+data+documentation#ERA5:datadocumentation-Meanrates/fluxesandaccumulations), that are not available from the analyses.\n\nThe data are archived in the ECMWF data archive (MARS) and a pertinent sub-set of the data, interpolated to a regular latitude/longitude grid, has been copied to the C3S Climate Data Store ([CDS](https://cds.climate.copernicus.eu/#!/home)) disks. On the CDS disks, where single level and pressure level data are available, analyses are provided rather than forecasts, unless the parameter is only available from the forecasts. The interpolation software ([MIR](https://confluence.ecmwf.int/display/UDOC/MARS+interpolation+with+MIR)) was updated when the ERA5 production was moved to the new ATOS HPC on 24 October 2022.\n\nERA5.1 is a re-run of ERA5, for the years 2000 to 2006 only, and was produced to improve upon the [cold bias in the lower stratosphere seen in ERA5 during this period](https://www.ecmwf.int/en/elibrary/19362-global-stratospheric-temperature-bias-and-other-stratospheric-aspects-era5-and).\n\nThe original ERA5 release contained data from 1979 onwards. The final ERA5 back extension for 1940-1978 has been produced and is availab",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document provides comprehensive details about the ERA5 dataset, including its production process and data availability.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ERA5",
+      "model_name": "IFS CY41R2",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "twice_daily",
+        "forecast_length_hours": 18
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "air_temperature",
+        "long_name": "2m air temperature",
+        "unit": "K",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "precipitation",
+        "cf_standard_name": "lwe_precipitation_amount",
+        "long_name": "Total precipitation",
+        "unit": "kg m-2 s-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "radiation",
+        "cf_standard_name": "toa_outgoing_longwave_flux",
+        "long_name": "Top of atmosphere outgoing longwave radiation",
+        "unit": "W m-2",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind",
+        "cf_standard_name": "eastward_wind",
+        "long_name": "10m wind speed (u-component)",
+        "unit": "m s-1",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "eastward_wind"
+      },
+      {
+        "native_name": "wind",
+        "cf_standard_name": "northward_wind",
+        "long_name": "10m wind speed (v-component)",
+        "unit": "m s-1",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "northward_wind"
+      },
+      {
+        "native_name": "soil_temperature",
+        "cf_standard_name": "surface_sensible_heat_flux",
+        "long_name": "Soil temperature at various depths",
+        "unit": "K",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wave_height",
+        "cf_standard_name": "significant_wave_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wave_period",
+        "cf_standard_name": "mean_wave_period",
+        "long_name": "Mean wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wave_direction",
+        "cf_standard_name": "mean_wave_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "pressure",
+      "n_levels": 137,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cds_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2639,
+  "_tokens_out": 1384,
+  "_eval_s": 10.14
+}

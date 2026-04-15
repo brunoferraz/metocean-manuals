@@ -1,0 +1,85 @@
+{
+  "doc_id": "21338be896261ade",
+  "legacy_doc_id": "7b4c751cce85",
+  "filename": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.62,
+  "pages": 15,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n PRODUCT USER MANUAL \n \n \n \nMulti Observation Global Ocean Daily \nSMOS          Sea Surface Salinity Product  \n \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nIssue:  2.0 \n \n \nContributors : S. Tarot, A. Parracho \nApproval Date : November 2024 \n \n\n  \nCopernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nIssue : 2.0 \n2024/05/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-014 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 2022/05/13 All Creation of the document S. Tarot  \n1.1 2023/05/15 II.1 \nII.2 \nRecommendation on how to take into \naccount the error \nA. Parracho, S. Tarot H.Etienne \n2.0 2024/05/06 All Dataset split by orbit direction \nNew QC Flag \nS.Tarot, A. Parracho H.Etienne \n \n  \nCopernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nIssue : 2.0 \n2024/05/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-014 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ....................................................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ......................................................................................................................................... 9 \nII.3 Production System Description ................................................................................................................... 9 \nII.4 Grid ................................................................................................................................................................ 9 \nII.5 Vertical Levels ............................................................................................................................................ 10 \nII.6 Processing information .............................................................................................................................. 10 \nIII FILE FORMAT ......................................................................................................................................... 11 \nIV FILES NOMENCLATURE ........................................................................................................................... 12 \nIV.1 Nomenclature of original files in the Marine Data Store ....................................................................... 12 \nIV.2 File size ....................................................................................................................................................... 12 \nIV.3 Structure of files ........................................................................................................................................ 12 \nV REFERENCES .............................................................................................................................................. 13 \nVI ANNEX ........................................................................................................................................................... 14 \n  \nCopernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nIssue : 2.0 \n2024/05/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-014 \n4 \nGLOSSARY AND ABBREVIATIONS \nATBD Algorithm Theorical Basis Document \nCATDS Centre Aval de Traitement des Données du Satellite SMOS \n(Processing centre for high-level data from the SMOS satellite) \nCF Climate Forecast (convention for NetCDF) \nEASE Equal-Area Scalable Earth \nGIS Geographic Information System \nL3 Level-3 \nMFC Monitoring and Forecasting Centre \nNetCDF Network Common Data Form \nOTT Ocean Target Transformation \nPUM Product User Manual \nQC Quality Control \nSM",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Multi Observation Global Ocean Daily SMOS Sea Surface Salinity Product, detailing its specifications and usage instructions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014",
+      "name": "Multi Observation Global Ocean Daily SMOS Sea Surface Salinity Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sss",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2197,
+  "_tokens_out": 525,
+  "_eval_s": 3.79
+}

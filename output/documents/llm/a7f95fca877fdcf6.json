@@ -1,0 +1,70 @@
+{
+  "doc_id": "a7f95fca877fdcf6",
+  "legacy_doc_id": "441e516fd90e",
+  "filename": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.98,
+  "pages": 19,
+  "text_preview": " \n  \nSea Ice Thematic Assembly Centre \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007  \n \n Issue: 1.1 \nContributors: J. Buus-Hinkler \nApproval date by the CMEMS product quality coordination team: 05/11/2025 \n \n \n \n \n  \n \n\nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-007 \nSeptember 2025 \n1.1 \n \n                                                      Page 2/ 19 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column  specifies which sections or sub -sections have been updated.  The fourth column  \nshould mention the reason for updating the document . Column 5  should include the names of the \nauthor(s) doing the changes. Including the name in c olumn 6  shows that the document has been \nvalidated by the TAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation \nmeans the document was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 June 2023  Creation of the document, split from \nthe QUID for all the SITAC products. \nThe previous document including this \nproduct was CMEMS -SI-QUID-011-\n001to007-009to015-019-V2.17. \nJ. Buus-Hinkler \n \nC. Wettre \n1.1 May 2025  Expansion of geographical extent to \npan-Arctic. Addition of three new \ndatasets based on RCM. Figure 2 \n(on iceberg detection near the ice -\nedge) added. \nDocument adapted to the most \nrecent template. \nJ. Buus-Hinkler \n \nC. Wettre \n \n \n \n  \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-007 \nSeptember 2025 \n1.1 \n \n                                                      Page 3/ 19 \nACRONYM TABLE \nAcronym Description \nAIS Automatic Identification System \nCFAR Constant False Alarm Rate \nCNN Convolutional Neural Networks \nDIDA DMI Iceberg Detection Algorithm \nDMI Danish Meteorological Institute \nDMI-ASIP DMI Automated Sea Ice Products \nEW Extra Wide Swath (Sentinel-1 acquisition mode) \nHH Horizontal polarization transmit, Horizontal polarization receive \n(when considering radar signals)  \nHV Horizontal polarization transmit, Vertical polarization receive ( when \nconsidering radar signals) \nIW Interferometric Wide Swath (Sentinel-1 acquisition mode) \nNetCDF Network Common Data Form \nNRT Near Real Time \nPC Production Centre \nPU Production Unit \nRCM Radarsat Constellation Mission \nRCMLN RCM Low Noise (RCM acquisition mode) \nSAR Synthetic Aperture Radar \nSI TAC (Copernicus Marine Service) Sea Ice Thematic Assembly Centre \nWMO World Meteorolocical Organization \nNRT Near Real Time \n \nKEY DEFINITIONS \nTerm Definition \nAIS Automatic Identification System, a maritime safety system that \nships use to automatically inform about their location, course, and \nother data . Other ships in range (typically 40 -60 nautical miles, \ndepending on antenna height and weather) can receive the signals. \nCoastal base stations pick up AIS signals near ports and coastlines. \nSatellites with AIS receivers can capture signals over the open \nocean, providing near-global coverage. \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-007 \nSeptember 2025 \n1.1 \n \n                                                      Page 4/ 19 \nCFAR Constant False Alarm Rate (CFAR) detection is a method used in \nSynthetic Aperture Radar (SAR) imagery t o automatically detect \ntargets like icebergs, ships, or other objects  against cluttered \nbackgrounds such as e.g. the sea surface. Instead of using a fixed \nthreshold, CFAR adapts the threshold locally.  \nCNN A Convolutional Neural Network is a t ype of machine learning \nmodel - specifically a  deep learning neural network  - designed to \nanalyze grid-like data such as images. \n \n \nRELEVANT DOCUMENT LIST \n \nPUM https://catalogue.marine.copernicus.eu/documents/PUM/CMEMS-SEAICE-PUM-\n011-007.pdf \nSQO https://catalogue.marine.copernicus.eu/documents/SQO/CMEMS-SEAICE-SQO-\n011-007.pdf \n  \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-007 \nSeptember 2025 \n1.1 \n \n                                                      Page 5/ 19 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey Definitions .................................................................................................................................................... 3 \nRelevant document List ....................................................................................................................................... 4 \nI Executive summary ..................................................................................................................................... 6 \nI.1 Products covered by this document ....................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QuID) for SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007, providing details about the product's quality and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Sea Ice Thematic Assembly Centre"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007",
+      "name": "Near Real Time Sea Ice Observations",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2461,
+  "_tokens_out": 358,
+  "_eval_s": 2.64
+}

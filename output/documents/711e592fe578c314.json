@@ -1,0 +1,83 @@
+{
+  "doc_id": "711e592fe578c314",
+  "legacy_doc_id": "83e0055c48d8",
+  "filename": "MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.52,
+  "pages": 11,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n 2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nOMI_TEMPSAL \nSea Surface Temperature \nMEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies \nMEDSEA_OMI_TEMPSAL_sst_trend \n \nIssue 5.0 \n \nContributors: Andrea Pisano, Claudia Fanelli, Claudia Cesarini, Flavio La Padula, Bruno Buongiorno \nNardelli \nApproval Date: November 2024 \n \n \n \n \nCopernicus Marine Service Product User Manual for \nMEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies \nMEDSEA_OMI_TEMPSAL_sst_trend \nIssue : 5.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-MEDSEA-SST  \n \nRecord Table \n \nIssue Date § Description of Change Author Checked \nby \nValidated \nby \n1.0 2018/10/09 All Creation of the document Andrea Pisano, Bruno \nBuongiorno Nardelli \n  \n2.0 2019/02/20 All Reviewed document Andrea Pisano, Bruno \nBuongiorno Nardelli \n  \n3.0 2020/04/14 All Update time \ncoverage/filenames \nAndrea Pisano, Bruno \nBuongiorno Nardelli \n  \n3.1 2020/09/10 All Update of the upstream \nreference dataset and time \nextension to 2019 \nAndrea Pisano, Bruno \nBuongiorno Nardelli \n  \n3.2 2021/12/14 All Time extension to 2020 Andrea Pisano, Claudia \nFanelli, Bruno \nBuongiorno Nardelli \n  \n4.0 2022/06/16 All Addition of the year 2021 + \nautomatic temporal \nextension \nAndrea Pisano, Claudia \nFanelli, Claudia \nCesarini, Flavio La \nPadula, Bruno \nBuongiorno Nardelli \nA. Pisano  \n5.0 2025/05/31 All Update for 2023; Change of \nclimatology to 1991-2020; \nBackward extension to 1982 \nAndrea Pisano, Claudia \nFanelli, Claudia \nCesarini, Flavio La \nPadula, Bruno \nBuongiorno Nardelli \nA. Pisano  \n  \n \nCopernicus Marine Service Product User Manual for \nMEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies \nMEDSEA_OMI_TEMPSAL_sst_trend \nIssue : 5.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-MEDSEA-SST  \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMO Mercator Ocean \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nSST Sea Surface Temperature \nMED Mediterranean Sea \nREP Reprocessed \n \n \n \n \n \n  \n \nCopernicus Marine Service Product User Manual for \nMEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies \nMEDSEA_OMI_TEMPSAL_sst_trend \nIssue : 5.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-MEDSEA-SST  \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \nDATA ACCESS ............................................................................................................. 5 \n INTRODUCTION ..................................................................................................... 6 \nI.1. Summary ........................................................................................................... 6 \nI.2. History of changes ............................................................................................ 7 \n DESCRIPTION OF THE PRODUCT ........................................................................... 8 \nII.1. General information ......................................................................................... 8 \nII.2. Details of the datasets ...................................................................................... 9 \n MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies ........................... 9 \n MEDSEA_OMI_TEMPSAL_sst_trend .................................................................. 9 \nII.3. Product System Description ............................................................................. 9 \n MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies ........................... 9 \n MEDSEA_OMI_TEMPSAL_sst_trend ................................................................ 10 \n FILE FORMAT ........................................................................................................ 10 \n FILES NOMENCLATURE AND FORMAT ............................................................. 10 \nIV.1. Nomenclature of files .................................................................................. 10 \n \n  \n \nCopernicus Marine Service Product User Manual for \nMEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies \nMEDSEA_OMI_TEMPSAL_sst_trend \nIssue : 5.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-MEDSEA-SST  \nDATA ACCESS \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is \navailable, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Serv",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies and MEDSEA_OMI_TEMPSAL_sst_trend, detailing the product's history, datasets, system description, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies",
+      "name": "Sea Surface Temperature Area Averaged Anomalies and Trends",
+      "model_name": null,
+      "region": "Mediterranean Sea",
+      "product_types": [
+        "observation",
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies",
+        "temporal_resolution": "P1M",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature Anomalies and Trends",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "10km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -5.7,
+        "lon_max": 36.0,
+        "lat_min": 30.0,
+        "lat_max": 48.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

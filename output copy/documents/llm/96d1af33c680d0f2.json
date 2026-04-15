@@ -1,0 +1,85 @@
+{
+  "doc_id": "96d1af33c680d0f2",
+  "legacy_doc_id": "2d32f2691865",
+  "filename": "SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.66,
+  "pages": 20,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n1 \n \n \n \n \n  \nContributors : Ioanna Karagali, Wiebke Margitta Kolbe, Jacob L. Høyer  \n \nApproval Date : June 2025 \n \nPRODUCT USER MANUAL \nFor Baltic L4 Sea- Sea Surface Temperature \nReprocessed \n \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \nProduct User Manual for SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \n \n \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-016 \nIssue 4.0 – June 2025 \n2 \n \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2013/08/19 All Creation of the document. Jacob L. Høyer L. Crosnier \n1.1 2015/05/01 All Change format to fit CMEMS \ngraphical rules  L. Crosnier \n1.2 2016/01/15 All Rebranded for CMEMS Jacob L. Høyer B. Hackett \n1.3 2017/09/07 All Updated to include 2010+2011 \nresults Jacob L. Høyer  \n1.4 2020/09/09 All \nUpstream data change, \ntemporal extension and new \ntemplate \nJacob L. Høyer  \n1.5 2021/09/10 All Regular time extension \nWiebke Kolbe, \nIoanna \nKaragali, \nJacob L. Høyer \n \n2.0 2022/06/15 All \nCreation of the document in \nnew template, inclusion of \ninformation about the new L3S \nproduct \nIoanna \nKaragali \nCopernicus \nMarine \nProduct \nmanageme\nnt \n3.0 2023/06/15 I.2, \nII.3 Updated for EIS Nov 2023 \nJacob L. Høyer, \nMatilde B. \nKreiner \nCopernicus \nMarine \nProduct \nmanageme\nnt \n4.0 2025/06/15 All \nFull Reprocessing using ESA \nCCI SST v3.0 for the period \n1982-2021, ICDR SST for 2022-\n2024, New Template \nIoanna \nKaragali \nCopernicus \nMarine \nProduct \nmanageme\nnt \nProduct User Manual for SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \n \n \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-016 \nIssue 4.0 – June 2025 \n3 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details .................................................................................................... 10 \nd) Processing information ...................................................................................... 11 \ne) Catalogue updating ......................................................................................... 11 \nf) Time averaging ................................................................................................... 11 \ng) Product use and impact ................................................................................... 11 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE .................................................................................... 13 \n4.1)   FILE SIZE ............................................................................................................ 13 \n4.2)   STRUCTURE OF FILES ......................................................................................... 13 \n5) REFERENCES ..................................................................................................... 14 \n6) ANNEX ............................................................................................................. 15 \na) For dataset cmems_obs-sst_bal_phy-temp_my_l4_P1D-m .......................... 15 \n \n  \nProduct User Manual for SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \n \n \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-016 \nIssue 4.0 – June 2025 \n4 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made using \nnumerical models. \nHINDCAST \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Baltic Sea Level 4 Reprocessed Sea Surface Temperature Observations, providing details on product specifications, file format, and data access.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_BAL_SST_L4_REP_OBSERVATIONS_010_016",
+      "name": "Baltic Sea Level 4 Reprocessed SST Observations",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-sst_bal_phy-temp_my_l4_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2489,
+  "_tokens_out": 510,
+  "_eval_s": 3.71
+}

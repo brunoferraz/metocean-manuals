@@ -1,0 +1,82 @@
+{
+  "doc_id": "716c0a7dfbe44dd9",
+  "legacy_doc_id": "374a4660b9ee",
+  "filename": "SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.6,
+  "pages": 19,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, France \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \n \n \nFor Sea Level Altimeter products \n \n \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \nIssue:  4.0 \n \nContributors : Marie-Isabelle Pujol (CLS) \nApproval Date : November 2024 \n\n \nCopernicus Marine Product User Manual for \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 Issue : 4.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SL-PUM-008-057 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 2018/07/27 all Creation M Pujol  \n1.1 2021/01/15 \nErreur\n ! \nSourc\ne du \nrenvo\ni \nintrou\nvable. \nUpdate of C3S web links M Pujol M Pujol \n2.0 2021/09/10  Update with DT-2021 standards G Taburet M Pujol \n2.1 2021/12/16 \nErreur\n ! \nSourc\ne du \nrenvo\ni \nintrou\nvable. \nChange for MY automatic extensions M-I Pujol M-I Pujol \n3.0 2023/08/03  \nChange for MY interim production \nUse new template \nM-I Pujol M-I Pujol \n4.0 2024/07/17  Update for Nov2024 version (DT-2024 \nstandards) M-I Pujol M-I Pujol \n \n \nCopernicus Marine Product User Manual for \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 Issue : 4.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SL-PUM-008-057 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ....................................................................................................................................................... 6 \nI. INTRODUCTION ............................................................................................................................................ 7 \nI.1 Summary......................................................................................................................................................... 7 \nII. DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ......................................................................................................................................... 8 \nII.3 Additional Information on parameters .................................................................................................... 10 \nII.4 Production System Description ................................................................................................................. 11 \nII.5 Grid .............................................................................................................................................................. 11 \nII.6 Vertical Levels ............................................................................................................................................ 11 \nII.7 Processing information .............................................................................................................................. 11 \nIII. FILE FORMAT ......................................................................................................................................... 12 \nIV. FILES NOMENCLATURE ....................................................................................................................... 13 \nIII.1 Nomenclature of files when downloaded through the Copernicus Marine Web Portal Subset Service\n ............................................................................................................................................................................. 13 \nIV.2 Nomenclature of original files .................................................................................................................. 13 \nIV.3 File size ....................................................................................................................................................... 14 \nIV.4 Structure of files .......................................................................................................................................... 14 \nV. REFERENCES .............................................................................................................................................. 15 \nVI. ANNEX ...................................................................................................................................................... 16 \n \nCopernicus Marine Product User Manual for \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 Issue : 4.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SL-PUM-008-057 \n4 \nGLOSSARY AND ABBREVIATIONS \nADT Absolute Dynamic Top",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Sea Level Altimeter products, specifically SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057, detailing the product specification and usage guidelines.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057",
+      "name": "Global Sea Level Climate Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Level Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

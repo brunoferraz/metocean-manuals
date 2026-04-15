@@ -1,0 +1,86 @@
+{
+  "doc_id": "4fc5c6373b823d24",
+  "legacy_doc_id": "62c84d439524",
+  "filename": "ECMWF_forecast_datasets.md",
+  "filepath": "docs/ecmwf_docs/ECMWF_forecast_datasets.md",
+  "extension": ".md",
+  "file_size_mb": 0.0,
+  "pages": 1,
+  "text_preview": "# ECMWF Documentation\n\nSource: https://www.ecmwf.int/en/forecasts/datasets\n\n---\n\n-\n\nDatasets | ECMWF\n\n[\n](#main-content)\n\n# Datasets\n\nSearch\n\nECMWF produce and disseminate weather forecast data for the National Meteorological and Hydrological Services (NHMSs) of [ECMWF Member and Co-operating States](https://www.ecmwf.int/en/about/who-we-are/member-states) and their authorised users.\n\nECMWF also archives data and makes this available to authorised users. Some data is also made available under licence and some is publicly available.\n\nSee also\n\n[Parameter database](https://codes.ecmwf.int/grib/param-db/)\n\n- [MARS activity](https://apps.ecmwf.int/mars-activity/)\n\n[\n\n](/en/forecasts/datasets/search?f%5B0%5D=filter_by_type_%3AReal-time)\n\n[\n## Real-time forecast data\n](/en/forecasts/datasets/search?f%5B0%5D=filter_by_type_%3AReal-time)\n\nThese are the medium, extended, and long range forecast data produced by the [current IFS model](https://www.ecmwf.int/en/forecasts/documentation-and-support/changes-ecmwf-model) and the AIFS model.\n\n[Catalogue of ECMWF Real-time Products](/en/forecasts/datasets/catalogue-ecmwf-real-time-products)\n[WMO Core data](/en/forecasts/dataset/wmo-core)\n[WMO Recommended data](/en/forecasts/dataset/wmo-recommended)\n[Open data](/en/forecasts/datasets/open-data)\n[AIFS data](/en/forecasts/dataset/aifs-machine-learning-data)\n\n## Archived data\n\nThese are the historical meteorological data available from the ECMWF archive.\n\n[Popular: ERA5](/en/forecasts/dataset/ecmwf-reanalysis-v5)\n[Data in the MARS Catalogue](/en/forecasts/datasets/search?f%5B0%5D=filter_by_catalogue_%3Afield_dataset_mars_url)\n[Data in the Catalogue of ECMWF Archive Products](/en/forecasts/datasets/search?f%5B0%5D=filter_by_catalogue_%3Afield_dataset_archive_url)\n[Free public datasets](/en/forecasts/datasets/search?f%5B0%5D=filter_by_catalogue_%3Afield_dataset_public_url)\n[Reanalysis datasets](/en/forecasts/datasets/browse-reanalysis-datasets)\n[Copernicus Climate Data Store](https://cds.climate.copernicus.eu/)\n[Copernicus Atmosphere Data Store](https://ads.atmosphere.copernicus.eu/)\n\n[\n\n](/en/forecasts/accessing-forecasts)\n\n[\n## How to access ECMWF data\n](/en/forecasts/accessing-forecasts)\n\nWho you are and the agreement you have with ECMWF determines which data you can access. How you obtain the data depends on which data it is.\n\n[Computer access](/en/computing)\n[Web API access](/en/computing/software/ecmwf-web-api)\n[Service Agreements](/en/forecasts/accessing-forecasts/licences-available)\n[Ordering](/en/forecasts/access-forecasts/ordering)\n[Real-time data delivery](/en/forecasts/access-forecasts/data-delivery)\n\nexpand_less\n\nexpand_more",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document provides an overview of ECMWF's forecast datasets, including real-time and archived data available to authorized users.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "IFS | AIFS",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "temperature | salinity | density | pressure | velocity | sea_level | wave_height | wave_period | wave_direction | depth | ice_fraction | ice_thickness | wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "html",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1966,
+  "_tokens_out": 476,
+  "_eval_s": 3.4
+}

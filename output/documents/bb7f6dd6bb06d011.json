@@ -1,0 +1,110 @@
+{
+  "doc_id": "bb7f6dd6bb06d011",
+  "legacy_doc_id": "c8b36fb13880",
+  "filename": "GLOBAL_OMI_WMHE_voltrp_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_WMHE_voltrp_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.56,
+  "pages": 14,
+  "text_preview": " \nPRODUCT USER MANUAL \nOMI_WMHE \n \nWatermass and heat exchanges \nGLOBAL_OMI_WMHE_northward_mht \nGLOBAL_OMI_WMHE_voltrp \nGLOBAL_OMI_WMHE_heattrp \n \n \n \n \n \n Issue: 1.0 \nContributors: Clément Bricaud \n \nApproval Date: February 2019 \n \n \n \n \n  \nPUM for CMEMS Ocean Monitoring Indicator \nGLOBAL_OMI_WMHE \nRef: CMEMS-OMI-PUM-WMHE \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 2/ 14 \nCHANGE RECORD \n \nIssue Date § Description of \nChange Author Validated By \n1.0 31/01/2\n018 \nAll Creation of the \ndocument \nClément Bricaud  C. Derval \n \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nGLOBAL_OMI_WMHE \nRef: CMEMS-OMI-PUM-WMHE \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 3/ 14 \nTABLE OF CONTENTS\nGLOSSARY AND ABBREVIATIONS .................................................................................................................. 4 \nI INTRODUCTION ......................................................................................................................................... 5 \nI.1 Summary ...................................................................................................................................................... 5 \nI.2 History of change......................................................................................................................................... 5 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION .......................................................................... 6 \nII.1 General Information about products ....................................................................................................... 6 \nII.2 Details of the datasets ................................................................................................................................ 6 \nII.2.1 GLOBAL_OMI_WMHE_voltrp ....................................................................................................... 6 \nII.2.2 GLOBAL_OMI_WMHE_heattrp ..................................................................................................... 7 \nII.2.3 GLOBAL_OMI_WMHE_ northward_mht ....................................................................................... 8 \nII.3 Product System Description .................................................................................................................... 11 \nII.3.1 GLOBAL_OMI_WMHE_voltrp ..................................................................................................... 11 \nII.3.1 GLOBAL_OMI_WMHE_heattrp ................................................................................................... 11 \nII.3.1 GLOBAL_OMI_WMHE_northward_mht ...................................................................................... 11 \nII.4 Download a product through the CMEMS Web Portal Ftp Service .................................................. 11 \nIII FILES NOMENCLATURE and FORMAT ........................................................................................... 12 \nIII.1 Nomenclature of files when downloaded through the CMEMS FTP Services ................................. 12 \nIII.2 File Format: format name ..................................................................................................................... 12 \nIII.3 File size .................................................................................................................................................... 13 \nIII.4 Reading Softwares .................................................................................................................................. 13 \nIV References .................................................................................................................................................... 14 \n \nPUM for CMEMS Ocean Monitoring Indicator \nGLOBAL_OMI_WMHE \nRef: CMEMS-OMI-PUM-WMHE \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 4/ 14 \nGLOSSARY AND ABBREVIATIONS \nCGLOR C-GLORS reanalysis \nCMEMS Copernicus Marine Environment Monitoring Service \nFOAM FOAM reanalysis \nGLO Global \nGLOR GLORYS2V4 reanalysis \nGREP Global Reanalysis Ensemble Product \nMOI Mercator Océan International \nNetCDF Network Common Data Form \nOHC Ocean Heat Content \nOMI Ocean Monitoring Indicator \nORAS ORAS5 reanalysis \nPUM Product User Manual \nQUID Quality Information Document \nWMHE Water Mass  Heat Exchange \n \nPUM for CMEMS Ocean Monitoring Indicator \nGLOBAL_OMI_WMHE \nRef: CMEMS-OMI-PUM-WMHE \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 5/ 14 \nI INTRODUCTION \nI.1 Summary \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator (OMI) OMI_WMHE: it provides \nmean value of watermass and heat exchanges for the 1993-2014 period and the last full year. \n \nOMI_WMHE includes three products:",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Ocean Monitoring Indicator (OMI) OMI_WMHE, providing details on watermass and heat exchanges data products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_OMI_WMHE",
+      "name": "Global Ocean Monitoring Indicator Water Mass Heat Exchange",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "GLOBAL_OMI_WMHE_voltrp",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "voltrp",
+        "cf_standard_name": "volume_transport",
+        "long_name": "Volume transport of water masses",
+        "unit": "Sv",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "heattrp",
+        "cf_standard_name": "heat_transport",
+        "long_name": "Heat transport by ocean currents",
+        "unit": "PW",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "northward_mht",
+        "cf_standard_name": "northward_ocean_heat_transport",
+        "long_name": "Northward ocean heat transport",
+        "unit": "PW",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

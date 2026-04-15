@@ -1,0 +1,71 @@
+{
+  "doc_id": "52be947a934659a6",
+  "legacy_doc_id": "eaa9e9dadb2e",
+  "filename": "IFS_CY48R1_Part-VI_Technical-Procedures.pdf",
+  "filepath": "docs/ecmwf_docs/IFS_CY48R1_Part-VI_Technical-Procedures.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.29,
+  "pages": 245,
+  "text_preview": "Part VI: Technical and Computational Procedures\nIFS DOCUMENTA TION – Cy48r1\nOperational implementation 27 June 2023\nPART VI: TECHNICAL AND\nCOMPUTATIONAL PROCEDURES\n© Copyright 2020-\nEuropean Centre for Medium-Range Weather Forecasts\nShinﬁeld Park, Reading, RG2 9AX, UK\nThe content of this document is available for use under a Crea tive Commons Attribution 4.0 International\nPublic License. See the terms at https://creativecommons. org/licenses/by/4.0.\nIFS Documentation – Cy48r1 1\nREVISION HISTORY\nChanges since CY45R1\n• Add missing MPL routines\nChanges since CY43R1\nNone.\nChanges since CY41R2\n• Minor revisions to chapter 2 sections: High performance co mputer architecture; IFS parallelisation\nissues; EQ REGIONS; FOURIER transform; Legendre transform .\n• Deletion of outdated appendicies F and G.\nChanges since CY41R1\n• New chapter 3.\n2 IFS Documentation – Cy48r1\nPart VI: Technical and Computational Procedures\nChapter 1\nStructure, data ﬂow and standards\nT able of contents\n1.1 Introduction\n1.2 Conﬁgurations\n1.3 Structure\n1.4 Data ﬂow\n1.4.1 Input/Output\n1.4.2 Major data structures\n1.4.3 Integration of Atlas ﬁeld library\n1.5 Coding standards and conventions\n1.5.1 Style and layout\n1.5.2 Variables\n1.5.3 Banned features\n1.5.4 I/O\n1.5.5 Parallelisation\n1.1 INTRODUCTION\nDevelopment of what is now called the IFS was started in 1987, with the aim of providing a single\nsoftware system to deliver a state-of-the-art forecast mod el with an integrated 4D-V ar analysis scheme.\nSince then the code has been in a state of continuous developm ent, incorporating improvements to\nscientiﬁc formulations, modiﬁcations to allow efﬁcient us e of a range of high-performance computer\n(HPC) architectures, and technical changes to the structur e and expression of the code to improve both\nits efﬁciency and maintainability .\nThe IFS has, over time, grown to be a large and complex code. This chap ter aims to give an overview of\nthe high-level technical structure of the IFS , describing the conﬁgurations, control structure, data ﬂo w\nand coding standards employed. More detailed technical inf ormation is given in the Appendices.\n1.2 CONFIGURATIONS\nThe IFS contains many different functions within a single high leve l program structure, including:\n• 2D and 3D model integrations;\n• variational analysis (3D/4D-V ar);\n• Object Oriented Prediction System (OOPS) variational ana lysis (4D-V ar);\n• adjoint and tangent linear models;\n• calculation of singular vectors.\nFor any single execution of the program, the function is sele cted by means of a conﬁguration parameter.\nThe value of this parameter may be supplied to the IFS on the command line option (using the “ -n”\noption, see\nT able 1.1 on page 98 ), or by using the namelist variable NCONF in namelist NAMCT0 (see\nT able 3.3on page 102). A detailed description of the recognised values of NCONF is given in T able 4.11on\npage 107.\nIFS Documentation – Cy48r1 3\nChapter 1: Structure, data ﬂow and standards\n1.3 STRUCTURE\nAll IFS conﬁgurations share a single top-level call tree:\nMASTER ✄ CNT0\nThe routine MASTER calls CNT0 after calling routines to initialise functions such as perf ormance\nmonitoring and error trapping.\nCNT0 reads the conﬁguration information from the command line and namelists, and then uses the value\nof NCONF to call the control routine appropriate for the conﬁguratio n requested. T able 4.11on page 107\ndescribes which control routine is used for each conﬁgurati on. Once the required conﬁguration has\ncompleted, CNT0 does any necessary housekeeping and clearing up, and after p rinting any requested\nexecution statistics, exits.\nThe top level calling tree of the forecast integration conﬁg uration looks like this:\nMASTER ✄ CNT0 ✄ CNT1 ✄ CNT2 ✄ CNT3 ✄ CNT4\nwhere CNT4 repeatedly calls STEPO (which performs a single timestep of the forecast model) in a\ntimestepping loop. Other conﬁgurations will “hook” into th is (and into each other) at an appropriate\nlevel. For example, 4D-V ar has the following calling tree:\nMASTER ✄ CNT0 ✄ CVA1 ✄ CVA2 ✄ CONGRAD ✄ SIM4D ✄ CNT3\nHere we see SIM4D called by the minimisation function CONGRAD, and SIM4D then performs a forecast\nintegration by calling it at level 3 ( CNT3) since the previous control level was level 2 ( CVA2).\nA graphical representation of the IFS calling tree is shown in Figure 1.1 . In this “treemap” diagram,\neach box represents one subroutine (and all the subroutines called from it), and the size of the box is\nrepresentative of the number of lines of code it (and its chil dren) contain. The colour of the box is a\nfunction of the name of the routine, enabling identiﬁcation of the same routine that is being called from\nmultiple locations. It can be seen from the treemap that alth ough the forecast model integration ( CNT1\nand below) only form a small proportion of the code called fro m CNT0, it is actually called (at CNT3 level)\nfrom many parts of the IFS .\nThe Object Oriented Prediction Sytem (OOPS) is launched fro m a separate top-level program. Althou",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides technical and computational procedures for the Integrated Forecasting System (IFS) version CY48R1, detailing configurations, data flow, coding standards, and revisions.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "IFS CY48R1",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2604,
+  "_tokens_out": 329,
+  "_eval_s": 2.39
+}

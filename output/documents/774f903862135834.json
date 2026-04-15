@@ -1,0 +1,82 @@
+{
+  "doc_id": "774f903862135834",
+  "legacy_doc_id": "892d390d6670",
+  "filename": "GLOBAL_OMI_WMHE_voltrp_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_OMI_WMHE_voltrp_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 4,
+  "text_preview": " \nÎ  \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nWatermass and heat exchanges \nGLOBAL_OMI_WMHE_voltrp   \n \n \n Issue: 1.0 \nContributors: Clément Bricaud \nApproval date by the CMEMS product quality coordination team: July 2019 \n \n \n \n \n \n  \n \nQUID for CMEMS OMIs: volume transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_VOLTRP  \n31.01.2019 \n1.0 \n \n \n    Page 2/ 4 \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies.  \n \nIssue Date § Description of Change Author Validated By \n1.0 31/01/2019 All Creation of the document Clément Bricaud   \n \n \n \n \nProduct name: GLOBAL_OMI_WMHE_voltrp \nDataset name: global_omi_wmhe_voltrp \n \nIndicator evaluation method:  \nVolume transports across lines are defined by the integration of velocity fluxes along some \nsections and from top to bottom of the Ocean: \n, \n \n𝑉𝑂𝐿𝑇𝑅𝑃 =  ∫ ∫ 𝑣 ∗ 𝑆 𝑑𝑥 𝑑𝑧\n𝐵\n𝐴\n𝑧=𝑏𝑜𝑡𝑡𝑜𝑚\n𝑧=0 , \nwhere: \nA and B are the 2 extremities of the section, \nv is the horizontal model ocean velocity, \nand S in the surface of the section. \nThey are computed with reanalysis daily outputs and given in Sverdrup (Sv, 1 Sv=1.e6 m3.s-1) \n \nScientific validation: \nMore details  and full scientific evaluation can be found in the CMEMS Ocean State Report  \n(von Schuckmann et al., 2016; von Schuckmann et al., 2018). \nThe quality evaluation of GLOBAL_OMI_WMHE_VOLTRP is based on the “multi -product” \napproach as introduced in the second issue of the Ocean State Report (CMEMS OSR, 2017).  \nQUID for CMEMS OMIs: volume transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_VOLTRP  \n31.01.2019 \n1.0 \n \n \n    Page 3/ 4 \nThe transports are computed from an ensemble of 4 CMEMS Global Ocean reanalysis at ¼°: \nGLORYS2V4 from Mercator Ocean, ORAS5 from ECMWF, GloSea5 from Met Office and C-\nGLORS05 from CMCC. \nSome previous estimations from Lumpkin and Speer (2007) are proposed in the plot. \n \nFigure 1:  Volume transport (units SV) from the multi-product approach averaged over the period 1993-2014 and \nthe 2017 (both red). Estimates of Lumpkin and Speer (2007) have been added for comparison (blue). Uncertainty \nranges are derived from the ensemble standard deviation. Arrows indicate the direction of the mean flow through \nthe sections. \n \nProduct used for indicator evaluation: \nThe transports are computed from an ensemble of 4 CMEMS different Global Ocean reanalysis \nat ¼° (GLOBAL_REANALYSIS_PHY_001_02): GLORYS2V4 from Mercator Ocean, \nORAS5 from ECMWF, GloSea5 from Met Office and C-GLORS05 from CMCC. They are \nbased on NEMO OGCM (Madec, 2008), and using a data assimilation system. \n \nReferences: \nLumpkin R, Speer K. 2007. Global ocean meridional overturning. J. Phys. Oceanogr., 37, \n2550–2562, doi:10.1175/JPO3130.1. \n\nQUID for CMEMS OMIs: volume transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_VOLTRP  \n31.01.2019 \n1.0 \n \n \n    Page 4/ 4 \nMadec G : NEMO ocean engine, Note du Pôle de modélisation, Institut Pierre-Simon Laplace (IPSL), \nFrance, No 27, ISSN No 1288-1619, 2008 \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document describes the evaluation method and scientific validation of the GLOBAL_OMI_WMHE_voltrp product, which calculates volume transports across ocean sections using reanalysis data from multiple sources.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_OMI_WMHE_voltrp",
+      "name": "Watermass and heat exchanges",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "global_omi_wmhe_voltrp",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "voltrp",
+        "cf_standard_name": "volume_transport",
+        "long_name": "Volume transport across ocean sections",
+        "unit": "Sv (1 Sv = 1.e6 m3/s)",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

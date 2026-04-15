@@ -1,0 +1,85 @@
+{
+  "doc_id": "a46fd022e80fcf40",
+  "legacy_doc_id": "ffcb2cfbf5ac",
+  "filename": "SEAICE_ARC_PHY_AUTO_L4_MY_011_025_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ARC_PHY_AUTO_L4_MY_011_025_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.79,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Anton Korosov \n \nApproval Date March 2026 \nArctic Sea Ice Age \n \n SEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n2 Product User Manual for SEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-025 \nIssue 1.0 – March 2026 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2026/03/03 All Initial version Anton Korosov Cecilie Wettre \n      \n      \n \n \n3 Product User Manual for SEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-025 \nIssue 1.0 – March 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details .................................................................................................... 10 \nd) Input satellite data ............................................................................................. 13 \ne) Product use and impact ................................................................................... 13 \n3) FILE FORMAT .................................................................................................... 15 \n4) FILES NOMENCLATURE..................................................................................... 15 \n5) FILE SIZE ............................................................................................................ 15 \n6) STRUCTURE OF FILES ......................................................................................... 15 \n7) REFERENCES ..................................................................................................... 16 \n8) ANNEX ............................................................................................................. 17 \na) Structure of files .................................................................................................. 17 \n  \n \n \n4 Product User Manual for SEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-025 \nIssue 1.0 – March 2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observations and/or less accurate than in a \nbest-analysis). \nBEST-ANALYSIS: \nAn hindcast done with data assimilation for a period close to \npresent. The quality and the number of available observations \nit’s the best available (more observations and/or more accurate \nthan in a NRT-analysis).  \nMYI Multi-Year Ice \nFYI First-Year Ice \nSIAge Sea Ice Age \nGCOS Global Climate Observing System \nEASE Equal-Area Scalable Earth \nOSI SAF Ocean and Sea Ice Satellite Application Facilities \n \n  \n \n \n5 Product User Manual for SEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-025 \nIssue 1.0 – March 2026 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, \nour HelpCenter is available, and more specifically its section about download.  \nInformation on operational issues on products and services can be found on our User \nNotification Service. If you have any questions, please contact us.  \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SEAICE_ARC_PHY_SIAGE_L4_MY_011_025, detailing the Arctic Sea Ice Age product specifications and usage guidelines provided by MERCATOR OCEAN INTERNATIONAL under EU Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_PHY_SIAGE_L4_MY_011_025",
+      "name": "Arctic Sea Ice Age",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIAge",
+        "cf_standard_name": "sea_ice_age",
+        "long_name": "Sea Ice Age",
+        "unit": "year",
+        "physical_quantity": "ice",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 65.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2262,
+  "_tokens_out": 517,
+  "_eval_s": 3.82
+}

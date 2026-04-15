@@ -1,0 +1,67 @@
+{
+  "doc_id": "40c074d6a67cbe40",
+  "legacy_doc_id": "2afca780431e",
+  "filename": "IFS_CY46R1_Part-IV_Physical-Processes.pdf",
+  "filepath": "docs/ecmwf_docs/IFS_CY46R1_Part-IV_Physical-Processes.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 11.68,
+  "pages": 223,
+  "text_preview": "Part IV: Physical Processes\nIFS DOCUMENTATION – Cy46r1\nOperational implementation 6 June 2019\nPART IV: PHYSICAL PROCESSES\nTable of contents\nChapter 1 Overview\nChapter 2 Radiation\nChapter 3 Turbulent transport and interactions with the surface\nChapter 4 Subgrid-scale orographic drag\nChapter 5 Non-orographic gravity wave drag\nChapter 6 Convection\nChapter 7 Clouds and large-scale precipitation\nChapter 8 Surface parametrization\nChapter 9 Methane oxidation\nChapter 10 Ozone chemistry parametrization\nChapter 11 Climatological data\nChapter 12 Basic physical constants and thermodynamic functions\nReferences\nc⃝ Copyright 2019\nEuropean Centre for Medium-Range Weather Forecasts\nShinﬁeld Park, Reading, RG2 9AX, England\nLiterary and scientiﬁc copyrights belong to ECMWF and are reserved in all countries. This publication is not\nto be reprinted or translated in whole or in part without the written permission of the Director. Appropriate\nnon-commercial use will normally be granted under the condition that reference is made to ECMWF. The\ninformation within this publication is given in good faith and considered to be true, but ECMWF accepts no\nliability for error, omission and for loss or damage arising from its use.\nIFS Documentation – Cy46r1 1\nTABLE OF CONTENTS\nREVISION HISTORY\nChanges since CY43R3\n• Chapter 6. Updates to parcel perturbations, phase of shallow clouds, positiveness of CAPE closure\ndenominator, typos in previous versions. Added description of lightning parametrization.\n• Chapter 8. Updates for HRES now being coupled to NEMO.\nChanges since CY43R1\n• Chapter 2. Aerosol climatological revision.\n• Chapter 6. Updates to sections on Large-scale budget equations, Freezing in convective updraughts,\nGeneration of precipitation, Fallout of precipitation, Melting and freezing of precipitation, Link to\nthe cloud scheme.\n• Chapter 7. New section on Cloud height.\n• Chapter 11.Climatological data plots have been updated to new cubic octahedral grid and text\nmodiﬁed accordingly.\nChanges since CY41R2\n• Convection chapter updates in sections: Detrainment rates; Deep convection; Freezing in\nconvective updraughts; Generation of precipitation; Melting and freezing of precipitation; Temporal\ndiscretization; Diagnostics for postprocessing.\n• Climatological data chapter updates in section: Ozone\n• Surface parametrization chapter updates in sections: Sea Ice and Ocean Boundary Conditions.\n• Clouds chapter updates: New section on ’Description of output ﬁelds. Addition of 3 new ﬁgures.\n• Turbulent transport chapter updates: Removal of reference to ice in cloud description in section\nOuter Layer; section on Description of output ﬁelds changed to Diagnostic computations for post-\nprocessing and added to; corrections to equations in section Solution of the EDMF equations.\n2 IFS Documentation – Cy46r1\nPart IV: Physical Processes\nChapter 1\nOverview\nTable of contents\n1.1 Introduction\n1.2 Overview of the code\n1.1 INTRODUCTION\nThe physical processes associated with radiative transfer, turbulent mixing, convection, clouds, surface\nexchange, subgrid-scale orographic drag and non-orographic gravity wave drag have a strong impact on\nthe large scale ﬂow of the atmosphere. However, these mechanisms are often active at scales smaller than\nthe resolved scales of the model grid. Parametrization schemes are then necessary in order to properly\ndescribe the impact of these subgrid-scale mechanisms on the large scale ﬂow of the atmosphere. In other\nwords the ensemble eﬀect of the subgrid-scale processes has to be formulated in terms of the resolved grid-\nscale variables. Furthermore, forecast weather parameters, such as two-metre temperature, precipitation\nand cloud cover, are computed by the physical parametrization part of the model. This part (Part IV\n‘Physical processes’) of the IFS documentation describes the physical parametrization package.\nThe radiation scheme (Chapter 2) performs computations of the short-wave and long-wave radiative\nﬂuxes using the predicted values of temperature, humidity, cloud, and monthly-mean climatologies for\naerosols and the main trace gases (CO 2, O 3, CH 4, N 2O, CFCl 3 and CF 2Cl2). The radiation code is\nbased on the Rapid Radiation Transfer Model (RRTM, Mlawer et al., 1997; Iacono et al., 2008). Cloud-\nradiation interactions are taken into account in detail by using the values of cloud fraction and liquid,\nice and snow water contents from the cloud scheme using the McICA (Monte Carlo Independent Column\nApproximation) method (McRad, Morcretteet al., 2008a). The solution of the radiative transfer equations\nSubgrid-scale\norographic drag \nTurbulent diffusion\nDeep\nconvection\nCloud\nShallow\nconvection\nLong-wave\nflux\nShort-wave\nflux\nLatent\nheat\nflux\nNon-orographic\nwave drag \nSensible\nheat flux\nShort-wave\nradiation\nCloud\nO3 Chemistry\nWind Waves\nCH4 OxidationLong-wave\nradiation\nOcean model\nSurface\nFigure 1.1 Schematic diagram of the diﬀerent physical processes represented in the IFS model.\nIFS Documentation – Cy46r1 3\nChapter 1: O",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is part of the IFS CY46R1 documentation, focusing on physical processes such as radiation, turbulent transport, convection, clouds, surface parametrization, and more.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "IFS CY46R1",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

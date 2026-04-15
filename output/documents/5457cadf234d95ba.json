@@ -1,0 +1,82 @@
+{
+  "doc_id": "5457cadf234d95ba",
+  "legacy_doc_id": "c5b22d737f6e",
+  "filename": "SST_ATL_PHY_L3S_NRT_010_037_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_ATL_PHY_L3S_NRT_010_037_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.65,
+  "pages": 23,
+  "text_preview": "1 \n \nMERCATOR OCEAN  \nINTERNATIONAL \n \n \n \n \n  \nContributors : Jean-François Piollé, Emmanuelle Autret \n \nApproval Date : November 2025 \nFor ODYSSEA Product over the North-West Shelf-\nIrish-Biscay-Iberian Seas \n \n SST_ATL_PHY_L3S_NRT_010_037 \nIssue 2.0 \nIssue: 3.0 \nPRODUCT USER MANUAL \n\nProduct User Manual for SST_ATL_PHY_L3S_NRT_010_037 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-037 \nIssue 2.0 – November 2025 \n 2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 2019/01/21 All Initial version   \n1.1 07/06/2023  EIS Novembre 2023 - added \nMetop-C; addition of per \nsensor type multisensor grids. \nJean-François \nPiollé \nCopernicus \nMarine Product \nManagement \n2.0 28/05/2025 All EIS November 2025 – new PUM \nformat \nJean-François \nPiollé \nCopernicus \nMarine Product \nManagement \n  \nProduct User Manual for SST_ATL_PHY_L3S_NRT_010_037 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-037 \nIssue 2.0 – November 2025 \n 3 \nTABLE OF CONTENTS \nRECORD TABLE .......................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................ 4 \nDOWNLOAD A PRODUCT ......................................................................................... 5 \n1) INTRODUCTION ............................................................................................... 6 \na) Summary ............................................................................................................. 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................... 7 \na) General Information .......................................................................................... 7 \nb) Production System Description ........................................................................ 8 \nc) Dataset details ................................................................................................... 9 \nd) Additional information on some parameters .............................................. 11 \ne) Processing information .................................................................................... 13 \nf) Catalogue updating ....................................................................................... 13 \ng) Time averaging ................................................................................................ 13 \nh) Product use and impact................................................................................. 13 \n3) FILE FORMAT .................................................................................................. 14 \n4) FILES NOMENCLATURE .................................................................................. 14 \n5) FILE SIZE .......................................................................................................... 15 \n6) STRUCTURE AND SEMANTIC OF NetCDF MAP FILES .................................... 15 \n7) REFERENCES ................................................................................................... 16 \n8) ANNEX ........................................................................................................... 17 \na) Structure and semantic of NetCDF maps files .... Erreur ! Signet non défini. \n  \nProduct User Manual for SST_ATL_PHY_L3S_NRT_010_037 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-037 \nIssue 2.0 – November 2025 \n 4 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables \nmade using numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables \nmade using numerical models with or without data \nassimilation. Simulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very \nclose to present. The quality and the number of available \nobservations it’s not optimal (less observations and/or less \naccurate than in a best-analysis). \nBEST-ANALYSIS: \nAn hindcast done with data assimilation for a period close \nto present. The quality and the number of available \nobservations it’s the best available (more observations \nand/or more accurate than in a NRT-analysis).  \nProduct User Manual for SST_ATL_PHY_L3S_NRT_010_037 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-037 \nIssue 2.0 – November 2025 \n 5 \n \n \n \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our \nHelpCenter is av",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SST_ATL_PHY_L3S_NRT_010_037, detailing the product specification and usage guidelines for near real-time sea surface temperature data in the North-West Shelf-Irish-Biscay-Iberian Seas region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_ATL_PHY_L3S_NRT_010_037",
+      "name": "Near Real Time Sea Surface Temperature for Atlantic Ocean",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10.0,
+        "lon_max": 5.0,
+        "lat_min": 40.0,
+        "lat_max": 50.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

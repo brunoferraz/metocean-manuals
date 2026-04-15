@@ -1,0 +1,2227 @@
+===========================================================================
+CORRELATION REPORT
+Date: 2026-04-13 17:25
+Total occurrences: 1592
+===========================================================================
+
+───────────────────────────────────────────────────────────────────────────
+VARIABLES WITH MULTIPLE SOURCES (fallback candidates)
+───────────────────────────────────────────────────────────────────────────
+
+  10m_wind_speed
+  10m_wind_speed
+    wind                 [m/s   ] form=not_applicable  fw=?         <- ncepupp_postprocessor.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  air_pressure
+  air_pressure
+    pressure             [hPa   ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    pressure             [Pa    ] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  air_pressure_at_sea_level
+  air_pressure_at_sea_level
+    PRMSL                [Pa    ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    ps                   [Pa    ] form=not_applicable  fw=?         <- ON462_semi_lagrangian_equations.pdf
+    surface pressure     [Pa    ] form=not_applicable  fw=?         <- ICON_atmosphere.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  air_temperature
+  air_temperature
+    t4m                  [degC  ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    temperature          [K     ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    temperature          [K     ] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    2m_temperature       [degC  ] form=not_applicable  fw=?         <- GFSv16_SOO_evaluation.pdf
+    OK: Compatible — direct fallback possible
+
+  backscattering_coefficient
+  backscattering_coefficient
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_PUM.pdf
+    bbp443               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_PUM.pdf
+    bbp412               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_PUM.pdf
+    bbp490               [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_107_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  backscattering_coefficient_of_sea_water_due_to_particles
+  backscattering_coefficient_of_sea_water_due_to_particles
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_NRT_009_116_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_103_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_NRT_009_101_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_NRT_009_102_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  backscattering_coefficient_of_sea_water_due_to_particles_in_sea_water
+  backscattering_coefficient_of_sea_water_due_to_particles_in_sea_water
+    bbp                  [m^-1  ] form=not_applicable  fw=?         <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_MY_009_118_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_QUID.pdf
+    BBP                  [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_MY_009_104_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  backscattering_coefficient_of_sea_water_inherent_optical_properties
+  backscattering_coefficient_of_sea_water_inherent_optical_properties
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_QUID.pdf
+    BBP                  [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chl
+  chl
+    chlorophyll_concentration [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_PUM.pdf
+    chlorophyll          [mg/m^3] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chl_a
+  chl_a
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_NRT_009_132_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L3_NRT_009_141_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_PUM.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L3_MY_009_133_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_MY_009_134_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_NRT_009_132_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_npg_area_mean_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_sag_area_mean_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_spg_area_mean_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chl_conc
+  chl_conc
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L4_NRT_009_152_QUID.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L4_NRT_009_142_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chl_concentration
+  chl_concentration
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_PUM.pdf
+    chlorophyll          [log10(ug/L)] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+    chlorophyll-a concentration (CHL) [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L3_NRT_009_131_QUID.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L3_NRT_009_151_QUID.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_107_QUID.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L3_NRT_009_141_QUID.pdf
+    chlorophyll          [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_QUID.pdf
+    chlorophyll          [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BALTIC_OCEANCOLOUR_area_averaged_mean_QUID.pdf
+    chlorophyll-a concentration [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_nag_area_mean_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chlorophyll_a_concentration_in_sea_water
+  chlorophyll_a_concentration_in_sea_water
+    Chlorophyll-a concentration [mg/m^3] form=not_applicable  fw=?         <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_PUM.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L4_NRT_009_142_PUM.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_MEDSEA_OCEANCOLOUR_area_averaged_mean_PUM.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf
+    Chlorophyll          [mg m-3] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+    CPHL                 [?     ] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+    Chl                  [mg/m^3] form=not_applicable  fw=?         <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_QUID.pdf
+    plankton/CHL         [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L3_MY_009_123_QUID.pdf
+    plankton/CHL         [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L3_NRT_009_121_QUID.pdf
+    plankton/CHL         [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L4_MY_009_124_QUID.pdf
+    plankton/CHL         [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L4_NRT_009_122_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_MY_009_118_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_NRT_009_116_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_103_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_NRT_009_101_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_MY_009_104_QUID.pdf
+    CHL                  [mg/m³ ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_NRT_009_102_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_QUID.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ARCTIC_OCEANCOLOUR_area_averaged_mean_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_area_averaged_mean_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BALTIC_OCEANCOLOUR_trend_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_trend_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_MEDSEA_OCEANCOLOUR_area_averaged_mean_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  chlorophyll_concentration_in_sea_water
+  chlorophyll_concentration_in_sea_water
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_BGC_007_010_PUM.pdf
+    CHL                  [mg/m^3] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_PUM.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ARCTIC_OCEANCOLOUR_area_averaged_mean_PUM.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_area_averaged_mean_PUM.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_area_averaged_mean_PUM.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_trend_PUM.pdf
+    CHLT                 [?     ] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+    chlor_a              [mg/m^3] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_MY_009_108_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_area_averaged_mean_QUID.pdf
+    chl                  [mg/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_CHL_MEDSEA_OCEANCOLOUR_trend_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  diffuse_attenuation_coefficient
+  diffuse_attenuation_coefficient
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L4_NRT_009_152_QUID.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L4_NRT_009_142_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  diffuse_attenuation_coefficient_of_downwelling_photosynthetically_active_radiation_in_sea_water
+  diffuse_attenuation_coefficient_of_downwelling_photosynthetically_active_radiation_in_sea_water
+    Kd490                [m^-1  ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_MY_009_118_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_NRT_009_116_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_103_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_NRT_009_101_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_MY_009_104_QUID.pdf
+    KD                   [m⁻¹   ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_NRT_009_102_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  diffusive_attenuation_coefficient_of_light_in_sea_water
+  diffusive_attenuation_coefficient_of_light_in_sea_water
+    Kd                   [m^-1  ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf
+    Kd490                [m^-1  ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_BGC_004_002_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  dissolved_inorganic_carbon_concentration
+  dissolved_inorganic_carbon_concentration
+    DIC                  [mol/kg] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_BGC_007_010_PUM.pdf
+    DIC                  [umol/kg] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  dissolved_oxygen_concentration
+  dissolved_oxygen_concentration
+    O2                   [umol/kg] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf
+    DOX                  [ml/L  ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf
+    oxygen               [umol/kg] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+    DOX1                 [ml l-1] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+    DOX2                 [µmol kg-1] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+    DOXY                 [mmol m-3] form=not_applicable  fw=?         <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  downwelling_photosynthetically_active_radiation_absorption_coefficient
+  downwelling_photosynthetically_active_radiation_absorption_coefficient
+    light_attenuation    [m^-1  ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf
+    light_attenuation    [m^-1  ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  downwelling_photosynthetically_active_radiation_attenuation_coefficient
+  downwelling_photosynthetically_active_radiation_attenuation_coefficient
+    Light attenuation (kd) [m^-1  ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_PUM.pdf
+    Kd                   [m^-1  ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    light attenuation    [m-1   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  downwelling_radiance_coefficient
+  downwelling_radiance_coefficient
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L3_NRT_009_151_QUID.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_107_QUID.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L3_NRT_009_141_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  downwelling_radiance_coefficient_in_sea_water
+  downwelling_radiance_coefficient_in_sea_water
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_PUM.pdf
+    kd490                [m^-1  ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  eastward_sea_water_velocity
+  Eastward sea water velocity
+    uo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_002_001_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=unknown   <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=unknown   <- MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_PUM.pdf
+    u                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    v                    [m/s   ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_heattrp_QUID.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_QUID.pdf
+    u_velocity           [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_QUID.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    u                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_QUID.pdf
+    u_velocity           [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    u_velocity_detided   [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    mean_geostrophic_currents [m/s   ] form=not_applicable  fw=?         <- SEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067_QUID.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- ON461_sigma_pressure_coordinate.pdf
+    u, v                 [m/s   ] form=not_applicable  fw=?         <- halliwell_vertical_vel.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  eastward_sea_water_velocity, northward_sea_water_velocity
+  eastward_sea_water_velocity, northward_sea_water_velocity
+    velocity_field       [m/s   ] form=not_applicable  fw=?         <- OMI_CIRCULATION_MOC_MEDSEA_area_averaged_mean_QUID.pdf
+    geostrophic_currents [m/s   ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070_QUID.pdf
+    UV                   [m/s   ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_QUID.pdf
+    velocity             [m/s   ] form=not_applicable  fw=?         <- halliwell_float.pdf
+    u, v                 [m/s   ] form=not_applicable  fw=?         <- halliwell_giss.pdf
+    OK: Compatible — direct fallback possible
+
+  eastward_wind
+  10m U wind component
+    UGRD                 [m/s   ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    u10                  [m/s   ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    u10                  [m/s   ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_PUM.pdf
+    u10                  [m/s   ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    u10                  [m/s   ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    wind                 [m s-1 ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    u10                  [m/s   ] form=not_applicable  fw=unknown   <- ON441_solar_radiation.pdf
+    u10                  [m/s   ] form=not_applicable  fw=unknown   <- wallcraft_talk_COAPS_17a.pdf
+    3D wind              [m/s   ] form=not_applicable  fw=?         <- ICON_atmosphere.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  eddy_kinetic_energy
+  eddy_kinetic_energy
+    EKE                  [m^2/s^2] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    Eddy Kinetic Energy  [m^2/s^2] form=not_applicable  fw=?         <- OMI_CIRCULATION_BOUNDARY_PACIFIC_kuroshio_phase_area_averaged_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  geostrophic_velocity
+  geostrophic_velocity
+    mean_geostrophic_currents [m/s   ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_MDT_008_063_QUID.pdf
+    mean_geostrophic_currents [m/s   ] form=not_applicable  fw=?         <- SEALEVEL_MED_PHY_MDT_L4_STATIC_008_066_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  gross_primary_productivity
+  gross_primary_productivity
+    net primary production (daily accumulated values) [mgC/m^3/day] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    primary_production   [umol/m2/d] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  heat_transport
+  heat_transport
+    heattrp              [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_heattrp_PUM.pdf
+    heattrp              [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_northward_mht_PUM.pdf
+    heattrp              [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_voltrp_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  ice_surface_temperature
+  ice_surface_temperature
+    Ice Surface Temperature (IST) [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies_QUID.pdf
+    Ice Surface Temperature (IST) [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_trend_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  lwe_precipitation_amount
+  lwe_precipitation_amount
+    precipitation        [kg m-2 s-1] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    precipitation        [kg m-2 s-1] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    OK: Compatible — direct fallback possible
+
+  mass_concentration_of_chlorophyll_a_in_sea_water
+  mass_concentration_of_chlorophyll_a_in_sea_water
+    chlorophyll_a_concentration [mg/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    chlorophyll_a        [mg/m^3] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    chl                  [g/kg  ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    chl                  [g/m^3 ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    chl                  [g/m^3 ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    chlorophyll_a        [g/m^3 ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_QUID.pdf
+    chlorophyll_a        [g/m^3 ] form=not_applicable  fw=?         <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_QUID.pdf
+    chlorophyll_a        [mg/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    chlorophyll-a        [mg/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mean_wave_direction
+  mean_wave_direction
+    sea_surface_wave_from_direction [degree] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- ARCTIC_ANALYSIS_FORECAST_WAV_002_014_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_QUID.pdf
+    wave_direction       [degree] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    OK: Compatible — direct fallback possible
+
+  mean_wave_period
+  mean_wave_period
+    sea_surface_wave_period [s     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSIS_FORECAST_WAV_002_014_PUM.pdf
+    VTP01                [s     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_QUID.pdf
+    wave_period          [s     ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    OK: Compatible — direct fallback possible
+
+  meridional_sea_water_velocity
+  meridional_sea_water_velocity
+    v                    [m/s   ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_26N_profile_QUID.pdf
+    v                    [m/s   ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  mixed_layer_depth
+  mixed_layer_depth
+    MLD                  [m     ] form=not_applicable  fw=unknown   <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    MLD                  [m     ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf
+    MLD                  [m     ] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    MLD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mixed_layer_thickness
+  mixed_layer_thickness
+    mlotst               [m     ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    mixed_layer_depth    [m     ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf
+    mixed_layer_depth    [m     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_QUID.pdf
+    mixed_layer_depth    [m     ] form=not_applicable  fw=unknown   <- wallcraft_HYCOM_2.2_code_devel.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mole_concentration_of_carbon_dioxide_in_sea_water
+  mole_concentration_of_carbon_dioxide_in_sea_water
+    carbon_dioxide       [mol/m^3] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+    DIC                  [mol/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
+  mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
+    oxygen               [umol/kg] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    oxygen_concentration [mol/m^3] form=not_applicable  fw=?         <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_PUM.pdf
+    oxygen               [mol/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    dissolved_oxygen     [umol/kg] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+    oxygen_concentration [umol/kg] form=not_applicable  fw=?         <- OMI_HEALTH_TEMPSALOXY_BALTIC_cod_volume_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mole_concentration_of_molecular_dissolved_oxygen_in_sea_water
+  mole_concentration_of_molecular_dissolved_oxygen_in_sea_water
+    o2                   [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    o2                   [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  mole_concentration_of_nitrate_in_sea_water
+  mole_concentration_of_nitrate_in_sea_water
+    nitrate_concentration [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    nitrate              [umol/kg] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    no3                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    no3                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    nitrate              [mol/m^3] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+    nitrate              [mol/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    nitrate              [umol/kg] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mole_concentration_of_phosphate_in_sea_water
+  mole_concentration_of_phosphate_in_sea_water
+    phosphate_concentration [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    phosphate            [umol/kg] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    phosphate            [mol/m^3] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+    phosphate            [mol/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    phosphate            [umol/kg] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  mole_concentration_of_silicate_in_sea_water
+  mole_concentration_of_silicate_in_sea_water
+    silicate_concentration [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    silicate             [umol/kg] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    silicate             [mol/m^3] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+    silicate             [mol/m^3] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  nitrate_concentration_in_sea_water
+  nitrate_concentration_in_sea_water
+    NO3                  [umol/kg] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    nitrate              [umol/L] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  northward_ocean_heat_transport
+  northward_ocean_heat_transport
+    northward_mht        [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_heattrp_PUM.pdf
+    northward_mht        [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_voltrp_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  northward_sea_water_velocity
+  Northward sea water velocity
+    vo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_002_001_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=unknown   <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=unknown   <- MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_PUM.pdf
+    v                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_QUID.pdf
+    v_velocity           [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_QUID.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    v                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_QUID.pdf
+    v_velocity           [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    v_velocity_detided   [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    meridional_velocity  [m/s   ] form=not_applicable  fw=?         <- OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_QUID.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- ON461_sigma_pressure_coordinate.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  northward_wind
+  10m V wind component
+    VGRD                 [m/s   ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    v10                  [m/s   ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    v10                  [m/s   ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_PUM.pdf
+    v10                  [m/s   ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    v10                  [m/s   ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    wind                 [m s-1 ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    v10                  [m/s   ] form=not_applicable  fw=unknown   <- ON441_solar_radiation.pdf
+    v10                  [m/s   ] form=not_applicable  fw=unknown   <- wallcraft_talk_COAPS_17a.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  not_applicable
+  not_applicable
+    chlorophyll_a_fluorescence [mV    ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    primary_production_rate [mgC/m^2/day] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    zooplankton_biomass  [mgC/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    phytoplankton_biomass [mgC/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    nitrogen_cycle       [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    phosphorus_cycle     [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    silicate_cycle       [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    carbon_cycle         [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    oxygen_cycle         [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    sediment_cycle       [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    nutrient_cycle       [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    primary_production_cycle [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    zooplankton_cycle    [mol/m^3] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    q                    [m/s   ] form=not_applicable  fw=unknown   <- halliwell_mellor_yamada.pdf
+    l                    [m     ] form=not_applicable  fw=unknown   <- halliwell_mellor_yamada.pdf
+    r                    [kg/m^3] form=potential       fw=eos80    ref=0dbar  <- halliwell_mellor_yamada.pdf
+    2q                   [m^2/s^2] form=not_applicable  fw=unknown   <- halliwell_mellor_yamada.pdf
+    2ql                  [m^3/s^2] form=not_applicable  fw=unknown   <- halliwell_mellor_yamada.pdf
+    biogeochemical_tracers [various] form=not_applicable  fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: potential(eos80) ref=0, not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  null
+  null
+    scale_factor         [1     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    fill_value           [1     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    accumulated_flux     [1     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    euphotic_depth       [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+    meso-zooplankton     [gC/m^3] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+    micronekton          [gC/m^3] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+    mixed_layer_thickness [m     ] form=not_applicable  fw=unknown   <- halliwell_kta.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  ocean_heat_content_anomaly
+  ocean_heat_content_anomaly
+    OHC_anomaly          [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies_PUM.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_PUM.pdf
+    OHC_anomaly          [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies_PUM.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_GLOBAL_area_averaged_anomalies_0_2000_QUID.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_GLOBAL_area_averaged_anomalies_0_300_QUID.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_GLOBAL_area_averaged_anomalies_0_700_QUID.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_GLOBAL_trend_QUID.pdf
+    OHC                  [J/m^2 ] form=not_applicable  fw=?         <- OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  ocean_heat_transport
+  ocean_heat_transport
+    northward_mht        [PW    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_northward_mht_PUM.pdf
+    heat_transport       [PW (1 PW = 1.e15 Watt)] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_heattrp_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  ocean_transport
+  ocean_transport
+    AMOC_strength        [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_26N_profile_PUM.pdf
+    AMOC_profile         [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_26N_profile_PUM.pdf
+    AMOC_strength        [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries_PUM.pdf
+    AMOC_profile         [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_NATLANTIC_amoc_max26N_timeseries_PUM.pdf
+    transport            [Sv    ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  oxygen_concentration
+  oxygen_concentration
+    Oxygen               [mmol m-3] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+    oxygen_concentration [mmol/m³] form=not_applicable  fw=?         <- BLKSEA_OMI_HEALTH_oxygen_trend_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  oxygen_concentration_in_sea_water
+  oxygen_concentration_in_sea_water
+    O2                   [umol/kg] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    dissolved oxygen     [mg/L  ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  phosphate_concentration_in_sea_water
+  phosphate_concentration_in_sea_water
+    PO4                  [umol/kg] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    phosphate            [umol/L] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  remote_sensing_reflectance
+  remote_sensing_reflectance
+    rrs                  [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L3_NRT_009_151_QUID.pdf
+    rrs                  [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_L4_NRT_009_152_QUID.pdf
+    r_rs                 [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L3_NRT_009_141_QUID.pdf
+    r_rs                 [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L4_NRT_009_142_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  remote_sensing_reflectance_in_sea_water
+  remote_sensing_reflectance_in_sea_water
+    kd490                [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_NRT_009_132_PUM.pdf
+    kd490                [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_L3_NRT_009_141_PUM.pdf
+    reflectance/Rrs      [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L3_MY_009_123_QUID.pdf
+    reflectance/Rrs      [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L3_NRT_009_121_QUID.pdf
+    reflectance/Rrs      [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L4_MY_009_124_QUID.pdf
+    reflectance/Rrs      [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_L4_NRT_009_122_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_floor_depth_below_geoid
+  Sea floor depth below geoid
+    elevation            [m     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    land_sea_mask        [1     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    deptho               [m     ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    depth                [m     ] form=not_applicable  fw=unknown   <- ARCTIC_OMI_TEMPSAL_FWC_QUID.pdf
+    depth                [m     ] form=not_applicable  fw=?         <- INSITU_GLO_PHY_TS_OA_MY_013_052_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_floor_depth_below_mean_sea_level
+  sea_floor_depth_below_mean_sea_level
+    elevation            [m     ] form=not_applicable  fw=?         <- GEBCO_2019_grid_docs.md
+    depth                [meters] form=not_applicable  fw=?         <- GEBCO_Arctic_IBCAO_docs.md
+    bathymetry           [m     ] form=not_applicable  fw=?         <- GEBCO_Southern_IBCSO_docs.md
+    elevation            [meters] form=not_applicable  fw=?         <- GEBCO_gridded_bathymetry_overview.md
+    OK: Compatible — direct fallback possible
+
+  sea_ice_age
+  sea_ice_age
+    SIAge                [year  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MY_011_025_PUM.pdf
+    sea ice age          [years ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf
+    sea_ice_age          [years ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_QUID.pdf
+    SIAge                [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MY_011_025_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_area_fraction
+  Sea ice area fraction
+    siconc               [fraction (0-1)] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    SIE                  [1     ] form=not_applicable  fw=?         <- ANTARCTIC_OMI_SI_extent_PUM.pdf
+    sic                  [1     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    SIE                  [1     ] form=not_applicable  fw=?         <- ARCTIC_OMI_SI_extent_PUM.pdf
+    SIE                  [1     ] form=not_applicable  fw=?         <- ARCTIC_OMI_SI_extent_obs_PUM.pdf
+    sea_ice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_ANT_PHY_AUTO_L3_NRT_011_012_PUM.pdf
+    sea_ice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023_PUM.pdf
+    sea_ice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024_PUM.pdf
+    ice_fraction         [1     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_PUM.pdf
+    seaice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007_PUM.pdf
+    seaice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008_PUM.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_PUM.pdf
+    SIC                  [1     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_PUM.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_PUM.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_L4_NRT_011_014_PUM.pdf
+    sea_ice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_PUM.pdf
+    sea_ice_extent       [km²   ] form=not_applicable  fw=?         <- ANTARCTIC_OMI_SI_extent_QUID.pdf
+    seaice_extent        [1     ] form=not_applicable  fw=?         <- ANTARCTIC_OMI_SI_extent_obs_QUID.pdf
+    SI                   [1     ] form=not_applicable  fw=unknown   <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    sea ice concentration [%     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf
+    sea_ice_concentration [1     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    sea_ice_concentration [%     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_QUID.pdf
+    sea ice extent       [million km2] form=not_applicable  fw=?         <- ARCTIC_OMI_SI_extent_QUID.pdf
+    seaice_extent        [1     ] form=not_applicable  fw=?         <- ARCTIC_OMI_SI_extent_obs_QUID.pdf
+    siconc               [1     ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    sea_ice_concentration [1     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    SIC                  [1     ] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    SIE                  [%     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SI_BALTIC_extent_QUID.pdf
+    seaice_conc          [1     ] form=not_applicable  fw=?         <- SEAICE_ANT_PHY_AUTO_L3_NRT_011_012_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024_QUID.pdf
+    SIC                  [1     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_QUID.pdf
+    seaice_conc          [1     ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_QUID.pdf
+    seaice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_QUID.pdf
+    seaice_concentration [%     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SST_BAL_PHY_L3S_MY_010_040_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_QUID.pdf
+    ice_fraction         [1     ] form=not_applicable  fw=unknown   <- wallcraft_talk_COAPS_17a.pdf
+    ice_concentration    [1     ] form=not_applicable  fw=?         <- ICON_waves.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_ice_concentration
+  sea_ice_concentration
+    SIC                  [%     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SI_BALTIC_extent_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SI_BALTIC_volume_QUID.pdf
+    SIC                  [%     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MY_011_025_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_deformation
+  sea_ice_deformation
+    deformation parameters [?     ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_L4_MY_011_020_QUID.pdf
+    derived deformation parameters [?     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_drift_velocity
+  sea_ice_drift_velocity
+    SID                  [m/s   ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_PUM.pdf
+    SID                  [m/s   ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_PUM.pdf
+    SID                  [m/s   ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_PUM.pdf
+    sea ice drift        [m/s   ] form=not_applicable  fw=?         <- SEAICE_ANT_PHY_L3_MY_011_018_QUID.pdf
+    sea ice drift        [m/s   ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_QUID.pdf
+    SID                  [m/s   ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_QUID.pdf
+    SID                  [m/s   ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_QUID.pdf
+    sea ice drift        [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_L4_MY_011_020_QUID.pdf
+    sea ice drift        [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_edge_position
+  sea_ice_edge_position
+    sea_ice_edge         [m     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_PUM.pdf
+    seaice_edge_position [degrees_east] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_QUID.pdf
+    seaice_edge_position [degrees_east] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_extent
+  sea_ice_extent
+    SIE                  [1     ] form=not_applicable  fw=?         <- ANTARCTIC_OMI_SI_extent_obs_PUM.pdf
+    SIE                  [m^2   ] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    SIE                  [%     ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_ice_floe_size
+  sea_ice_floe_size
+    FLZ                  [m     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023_QUID.pdf
+    FLZ                  [m     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_surface_temperature
+  sea_ice_surface_temperature
+    IST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_QUID.pdf
+    IST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_QUID.pdf
+    IST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_temperature
+  sea_ice_temperature
+    Ice Surface Temperature (IST) [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_PUM.pdf
+    ice_surface_temperature [degC  ] form=in_situ         fw=unknown   <- SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_PUM.pdf
+    IST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_QUID.pdf
+    WARNING: DIFFERENT FORMS: in_situ(unknown), not_applicable(?)
+    -> Conversion required for direct comparison
+
+  sea_ice_thickness
+  Sea ice thickness
+    sithick              [m     ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    sithick              [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    ice_thickness        [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf
+    sea_ice_thickness    [m     ] form=not_applicable  fw=?         <- SEAICE_ANT_PHY_AUTO_L3_NRT_011_012_PUM.pdf
+    ice_thickness        [m     ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_PUM.pdf
+    seaice_thickness     [m     ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_007_PUM.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_PUM.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_PUM.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_PUM.pdf
+    sea_ice_thickness    [m     ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_CLIMATE_L3_MY_011_013_PUM.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_L4_NRT_011_014_PUM.pdf
+    SIT                  [m     ] form=not_applicable  fw=unknown   <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    sea ice thickness    [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf
+    sea_ice_thickness    [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    sea_ice_thickness    [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_QUID.pdf
+    ice_thickness        [m     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SI_BALTIC_extent_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SI_BALTIC_volume_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_PHY_L4_MY_011_019_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_QUID.pdf
+    SIT                  [m     ] form=not_applicable  fw=?         <- SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_QUID.pdf
+    seaice_thickness     [m     ] form=not_applicable  fw=?         <- SEAICE_GLO_PHY_CLIMATE_L3_MY_011_013_QUID.pdf
+    ice_thickness        [m     ] form=not_applicable  fw=unknown   <- wallcraft_talk_COAPS_17a.pdf
+    ice_thickness        [m     ] form=not_applicable  fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_ice_type
+  sea_ice_type
+    sea_ice_type         [1     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_PUM.pdf
+    sea ice type         [?     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf
+    sea_ice_type         [code  ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_QUID.pdf
+    seaice_type          [1     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_QUID.pdf
+    seaice_type          [1     ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_ice_velocity
+  sea_ice_velocity
+    ice_drift            [m/s   ] form=not_applicable  fw=?         <- SEAICE_ANT_PHY_L3_MY_011_018_PUM.pdf
+    seaice_drift         [m/s   ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_PUM.pdf
+    sea_ice_drift        [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_PUM.pdf
+    seaice_drift         [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006_PUM.pdf
+    sea ice drift        [m/s   ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf
+    sea_ice_drift        [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    sea_ice_drift        [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_QUID.pdf
+    seaice_drift         [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001_QUID.pdf
+    seaice_drift         [m/s   ] form=not_applicable  fw=?         <- SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_density
+  sea_surface_density
+    sea_surface_density  [kg/m^3] form=in_situ         fw=unknown   <- MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_PUM.pdf
+    SSD                  [kg/m^3] form=in_situ         fw=unknown   <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+    sea_surface_density  [kg/m^3] form=in_situ         fw=unknown   <- MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_foundation_temperature
+  sea_surface_foundation_temperature
+    sea_surface_foundation_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_NRT_010_037_QUID.pdf
+    sea_surface_foundation_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_SST_L4_NRT_OBSERVATIONS_010_025_QUID.pdf
+    sea_surface_foundation_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L4_NRT_010_005_QUID.pdf
+    sea_surface_foundation_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010_QUID.pdf
+    sea_surface_foundation_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_height_above_geoid
+  Sea surface height above geoid
+    zos                  [m     ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    zos                  [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_002_001_PUM.pdf
+    sea_surface_height_above_mean_sea_level [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=unknown   <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    ssh                  [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_PUM.pdf
+    SSH                  [m     ] form=not_applicable  fw=?         <- INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_PUM.pdf
+    mean_sea_level       [m     ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    SSH                  [m     ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    slev_mean            [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_SL_MEDSEA_slev_mean_and_anomaly_obs_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L3_MY_008_061_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L3_NRT_008_059_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L4_MY_008_068_PUM.pdf
+    sea_surface_height_above_mean_sea_level [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L4_NRT_008_060_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_L3_NRT_008_044_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_MDT_008_063_PUM.pdf
+    SLA                  [m     ] form=not_applicable  fw=unknown   <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    sea_level_anomalies  [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    sea_surface_height   [m     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    SSH                  [m     ] form=not_applicable  fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_QUID.pdf
+    SSH                  [m     ] form=not_applicable  fw=?         <- INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    ssh                  [m     ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    zos_detided          [m     ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    sea_surface_height_above_mean_sea_level [m     ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf
+    ADT                  [m     ] form=not_applicable  fw=?         <- OMI_CIRCULATION_BOUNDARY_ATLANTIC_gulf_stream_destabilization_point_QUID.pdf
+    sea_level_anomalies  [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_BALTIC_area_averaged_anomalies_QUID.pdf
+    sea_level_anomalies  [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_BLKSEA_area_averaged_anomalies_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_GLOBAL_regional_trends_QUID.pdf
+    sea_level_anomalies  [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_MEDSEA_area_averaged_anomalies_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_NORTHWESTSHELF_area_averaged_anomalies_QUID.pdf
+    slev                 [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_SL_BALTIC_slev_mean_and_anomaly_obs_QUID.pdf
+    slev                 [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_SL_IBI_slev_mean_and_anomaly_obs_QUID.pdf
+    slev                 [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_SL_MEDSEA_slev_mean_and_anomaly_obs_QUID.pdf
+    slev                 [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_SL_NORTHWESTSHELF_slev_mean_and_anomaly_obs_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L3_MY_008_061_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L4_MY_008_068_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_L4_NRT_008_060_QUID.pdf
+    SLA                  [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_QUID.pdf
+    ADT                  [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_L3_NRT_008_044_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_L4_MY_008_047_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_MED_PHY_MDT_L4_STATIC_008_066_QUID.pdf
+    zos                  [m     ] form=not_applicable  fw=unknown   <- ON441_solar_radiation.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- ON461_sigma_pressure_coordinate.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- hycom_users_manual_v2.0.01.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_height_above_mean_sea_level
+  sea_surface_height_above_mean_sea_level
+    zos                  [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_PUM.pdf
+    sla                  [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=unknown   <- MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_L4_MY_008_047_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_L4_NRT_008_046_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_MED_PHY_MDT_L4_STATIC_008_066_PUM.pdf
+    zos                  [m     ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- SEALEVEL_GLO_PHY_MDT_008_063_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_height_above_mean_sea_level_anomaly
+  sea_surface_height_above_mean_sea_level_anomaly
+    ThSL                 [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_THSL_GLOBAL_trend_PUM.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_EUROPE_area_averaged_anomalies_QUID.pdf
+    sea_level            [m     ] form=not_applicable  fw=?         <- OMI_CLIMATE_SL_IBI_area_averaged_anomalies_QUID.pdf
+    sla                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_salinity
+  sea_surface_salinity
+    sss                  [psu   ] form=practical       fw=eos80     <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    sss                  [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_PUM.pdf
+    SSS                  [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_PUM.pdf
+    sea_surface_salinity [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_PUM.pdf
+    SSS                  [psu   ] form=practical       fw=eos80     <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_PUM.pdf
+    SSS                  [psu   ] form=practical       fw=eos80     <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    sssalt               [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_QUID.pdf
+    SSS                  [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+    sea_surface_salinity [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_QUID.pdf
+    sss                  [psu   ] form=practical       fw=eos80     <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_skin_temperature
+  sea_surface_skin_temperature
+    sea_surface_skin_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_NRT_010_037_QUID.pdf
+    sea_surface_skin_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L4_NRT_010_005_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_subskin_temperature
+  sea_surface_subskin_temperature
+    sea_surface_subskin_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_NRT_010_037_QUID.pdf
+    sea_surface_subskin_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L4_NRT_010_005_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_temperature
+  sea_surface_temperature
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- BLKSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- BLKSEA_OMI_TEMPSAL_sst_trend_PUM.pdf
+    sst                  [degC  ] form=in_situ         fw=unknown   <- GLOBAL_OMI_TEMPSAL_sst_area_averaged_anomalies_PUM.pdf
+    temperature          [degC  ] form=in_situ         fw=unknown   <- MEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- MEDSEA_OMI_TEMPSAL_sst_trend_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- NORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_PUM.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_BAL_area_averaged_anomalies_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_BAL_trend_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IBI_area_averaged_anomalies_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IBI_trend_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_trend_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_NORTHWESTSHELF_trend_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_TEMPSAL_IBI_extreme_var_mean_and_anomaly_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_BALTIC_sst_mean_and_anomaly_obs_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_IBI_sst_mean_and_anomaly_obs_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_MEDSEA_sst_mean_and_anomaly_obs_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_NORTHWESTSHELF_sst_mean_and_anomaly_obs_PUM.pdf
+    Sea Surface Temperature (SST) [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_PUM.pdf
+    sea_surface_temperature [degC  ] form=in_situ         fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_PUM.pdf
+    sea_surface_temperature [degC  ] form=in_situ         fw=unknown   <- SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_PUM.pdf
+    sea_surface_temperature [degC  ] form=potential       fw=eos80    ref=0dbar  <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_MY_010_038_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_NRT_010_037_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_ATL_SST_L4_NRT_OBSERVATIONS_010_025_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_L3S_MY_010_040_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_PUM.pdf
+    sst                  [degC  ] form=in_situ         fw=unknown   <- SST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032_PUM.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BS_PHY_L3S_MY_010_041_PUM.pdf
+    sst                  [degC  ] form=in_situ         fw=?         <- SST_BS_PHY_SUBSKIN_L4_NRT_010_035_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L3S_NRT_OBSERVATIONS_010_013_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L4_NRT_OBSERVATIONS_010_006_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L4_REP_OBSERVATIONS_010_022_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L3S_MY_010_039_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L4_NRT_010_005_PUM.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010_PUM.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_PUM.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- SST_GLO_SST_L4_REP_OBSERVATIONS_010_024_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_MED_PHY_L3S_MY_010_042_PUM.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_MED_PHY_SUBSKIN_L4_NRT_010_036_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_MED_SST_L3S_NRT_OBSERVATIONS_010_012_PUM.pdf
+    sst                  [degC  ] form=in_situ         fw=unknown   <- SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_PUM.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_MED_SST_L4_REP_OBSERVATIONS_010_021_PUM.pdf
+    sosstsst             [degC  ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- BLKSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- BLKSEA_OMI_TEMPSAL_sst_trend_QUID.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_TEMPSAL_sst_area_averaged_anomalies_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_TEMPSAL_sst_trend_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- MEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- MEDSEA_OMI_TEMPSAL_sst_area_averaged_anomalies_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- MEDSEA_OMI_TEMPSAL_sst_trend_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_BAL_area_averaged_anomalies_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_BAL_trend_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IBI_area_averaged_anomalies_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IBI_trend_QUID.pdf
+    Sea Surface Temperature (SST) [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies_QUID.pdf
+    Sea Surface Temperature (SST) [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_trend_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies_QUID.pdf
+    nws_omi_tempsal_sst_area_averaged_anomalies [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_NORTHWESTSHELF_trend_QUID.pdf
+    sea_temperature      [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_TEMPSAL_IBI_extreme_var_mean_and_anomaly_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_BALTIC_sst_mean_and_anomaly_obs_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_IBI_sst_mean_and_anomaly_obs_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_MEDSEA_sst_mean_and_anomaly_obs_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- OMI_EXTREME_SST_NORTHWESTSHELF_sst_mean_and_anomaly_obs_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_QUID.pdf
+    SSTskin              [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_QUID.pdf
+    SSTsub-skin          [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_QUID.pdf
+    SSTfoundation        [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008_QUID.pdf
+    adjusted_sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_MY_010_038_QUID.pdf
+    analysed_sst         [degC  ] form=not_applicable  fw=?         <- SST_ATL_PHY_L3S_MY_010_038_QUID.pdf
+    analysed_sst         [degC  ] form=not_applicable  fw=?         <- SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_QUID.pdf
+    adjusted_sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_L3S_MY_010_040_QUID.pdf
+    SSTsub-skin          [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf
+    SSTfoundation        [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf
+    SST                  [degC  ] form=in_situ         fw=unknown   <- SST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_BS_PHY_L3S_MY_010_041_QUID.pdf
+    analysed_sst         [degC  ] form=not_applicable  fw=?         <- SST_BS_PHY_SUBSKIN_L4_NRT_010_035_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L3S_NRT_OBSERVATIONS_010_013_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L4_NRT_OBSERVATIONS_010_006_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_BS_SST_L4_REP_OBSERVATIONS_010_022_QUID.pdf
+    adjusted_sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L3S_MY_010_039_QUID.pdf
+    analysed_sst         [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L3S_MY_010_039_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_PHY_L4_NRT_010_005_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_GLO_SST_L4_REP_OBSERVATIONS_010_024_QUID.pdf
+    sea_surface_temperature [degC  ] form=not_applicable  fw=?         <- SST_MED_PHY_L3S_MY_010_042_QUID.pdf
+    analysed_sst         [degC  ] form=not_applicable  fw=?         <- SST_MED_PHY_SUBSKIN_L4_NRT_010_036_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_MED_SST_L3S_NRT_OBSERVATIONS_010_012_QUID.pdf
+    sst                  [degC  ] form=not_applicable  fw=?         <- SST_MED_SST_L4_NRT_OBSERVATIONS_010_004_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- SST_MED_SST_L4_REP_OBSERVATIONS_010_021_QUID.pdf
+    SST                  [degC  ] form=not_applicable  fw=?         <- TIN_GFS_2014.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- ncepupp_postprocessor.pdf
+    sea_surface_temperature [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_HYCOM_2.2_code_devel.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown), potential(eos80) ref=0, in_situ(unknown), in_situ(?)
+    -> Conversion required for direct comparison
+
+  sea_surface_temperature_anomaly
+  sea_surface_temperature_anomaly
+    sst_anom             [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_CLIMVAR_enso_Tzt_anomaly_PUM.pdf
+    sst_anom             [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_CLIMVAR_enso_sst_area_averaged_anomalies_PUM.pdf
+    sst_area_averaged_anomalies [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_TEMPSAL_sst_trend_PUM.pdf
+    SST_anomaly          [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_anomaly_PUM.pdf
+    SST_anomaly          [degC  ] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_anomaly_QUID.pdf
+    temperature anomaly  [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_EXTREME_MHW_ARCTIC_area_averaged_anomalies_QUID.pdf
+    WARNING: DIFFERENT FORMS: potential(eos80) ref=0, not_applicable(?)
+    -> Conversion required for direct comparison
+
+  sea_surface_temperature_trend
+  sea_surface_temperature_trend
+    sst_trend            [degC/year] form=not_applicable  fw=?         <- GLOBAL_OMI_TEMPSAL_sst_trend_PUM.pdf
+    SST_trend            [degC/year] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_IST_ARCTIC_anomaly_PUM.pdf
+    nws_omi_tempsal_sst_trend [degC/year] form=not_applicable  fw=?         <- OMI_CLIMATE_SST_NORTHWESTSHELF_trend_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_from_direction
+  Mean wave direction
+    VDIR                 [degree] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    MWD                  [degree] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_QUID.pdf
+    Mdir                 [degree] form=not_applicable  fw=?         <- MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf
+    Mdir                 [degree] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_mean_direction
+  sea_surface_wave_mean_direction
+    VMDR                 [degree] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_WAV_002_013_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=unknown   <- BLKSEA_ANALYSISFORECAST_WAV_007_003_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_WAV_001_027_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- NWSHELF_REANALYSIS_WAV_004_015_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_PUM.pdf
+    VMDR                 [degree] form=not_applicable  fw=unknown   <- GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=?         <- IBI_MULTIYEAR_WAV_005_006_QUID.pdf
+    VMDR                 [degree] form=not_applicable  fw=unknown   <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_QUID.pdf
+    VMD0                 [degree] form=not_applicable  fw=unknown   <- wallcraft_talk_COAPS_17a.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_wave_mean_period
+  sea_surface_wave_mean_period
+    Tm01                 [s     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_QUID.pdf
+    MWT                  [s     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_QUID.pdf
+    MWP                  [s     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_mean_period_from_variance_spectral_density
+  sea_surface_wave_mean_period_from_variance_spectral_density
+    Tp                   [s     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSIS_FORECAST_WAV_002_014_QUID.pdf
+    Tp                   [s     ] form=not_applicable  fw=unknown   <- ARCTIC_MULTIYEAR_WAV_002_013_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth
+  sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth
+    VPED                 [s     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=unknown   <- BLKSEA_ANALYSISFORECAST_WAV_007_003_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_PUM.pdf
+    VTPK                 [s     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_PUM.pdf
+    VTPK                 [s     ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_QUID.pdf
+    VTPK                 [s     ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_WAV_005_006_QUID.pdf
+    MWP                  [s     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_QUID.pdf
+    VTPK                 [s     ] form=not_applicable  fw=unknown   <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_wave_peak_period
+  sea_surface_wave_peak_period
+    VPED                 [s     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- NWSHELF_REANALYSIS_WAV_004_015_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_PUM.pdf
+    WTPK                 [s     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_QUID.pdf
+    Tp                   [s     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_QUID.pdf
+    VTPK                 [s     ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_period
+  sea_surface_wave_period
+    VPED                 [s     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_PUM.pdf
+    VPED                 [s     ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_WAV_001_027_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_period_at_variance_spectral_density_maximum
+  Peak wave period
+    VTPK                 [s     ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_PUM.pdf
+    VTPK                 [s     ] form=not_applicable  fw=unknown   <- GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf
+    PWP                  [s     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf
+    Tp                   [s     ] form=not_applicable  fw=?         <- GFSv16_wave_evaluation.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_wave_period_from_variance_spectral_density_first_frequency_moment
+  sea_surface_wave_period_from_variance_spectral_density_first_frequency_moment
+    VTP1                 [s     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_WAV_002_013_PUM.pdf
+    VTP1                 [s     ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_PUM.pdf
+    VTP1                 [s     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_surface_wave_significant_height
+  Significant wave height
+    wave_height          [m     ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    VHM0                 [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_WAV_002_013_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=unknown   <- BLKSEA_ANALYSISFORECAST_WAV_007_003_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_PUM.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- BLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_WAV_001_027_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_PUM.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- IBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_PUM.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_PUM.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- MEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- NWSHELF_REANALYSIS_WAV_004_015_PUM.pdf
+    swh_mean_and_anomaly_obs [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_BALTIC_swh_mean_and_anomaly_obs_PUM.pdf
+    swh_mean_and_anomaly_obs [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_IBI_swh_mean_and_anomaly_obs_PUM.pdf
+    swh_mean_and_anomaly_obs [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_MEDSEA_swh_mean_and_anomaly_obs_PUM.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_NORTHWESTSHELF_swh_mean_and_anomaly_obs_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_PUM.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_MY_014_005_PUM.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_NRT_014_001_PUM.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L4_MY_014_007_PUM.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L4_NRT_014_003_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSIS_FORECAST_WAV_002_014_QUID.pdf
+    Hs                   [m     ] form=not_applicable  fw=unknown   <- ARCTIC_MULTIYEAR_WAV_002_013_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_WAV_003_015_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- BLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=unknown   <- GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_WAV_005_005_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_WAV_005_006_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- IBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- IBI_OMI_SEASTATE_swi_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_QUID.pdf
+    Hm0                  [m     ] form=not_applicable  fw=?         <- MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf
+    Hm0                  [m     ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- MEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- NWSHELF_ANALYSISFORECAST_WAV_004_014_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_STATE_GLOBAL_trend_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_BALTIC_swh_mean_and_anomaly_obs_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_BLKSEA_recent_changes_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_BLKSEA_wave_power_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_IBI_swh_mean_and_anomaly_obs_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_MEDSEA_swh_mean_and_anomaly_obs_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- OMI_EXTREME_WAVE_NORTHWESTSHELF_swh_mean_and_anomaly_obs_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=unknown   <- WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_QUID.pdf
+    swh                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_MY_014_005_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_NRT_014_001_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L4_MY_014_007_QUID.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L4_NRT_014_003_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    Hs                   [m     ] form=not_applicable  fw=?         <- GFSv16_wave_evaluation.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_surface_wave_spectral_direction
+  sea_surface_wave_spectral_direction
+    spc                  [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_MY_014_005_PUM.pdf
+    SPC                  [degree] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L4_MY_014_007_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_absolute_salinity
+  Sea water absolute salinity (TEOS-10)
+    p                    [dbar  ] form=not_applicable  fw=unknown   <- OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies_QUID.pdf
+    pressure             [g/kg  ] form=absolute        fw=teos10    <- halliwell_kta.pdf
+    WARNING: DIFFERENT FORMS: absolute(teos10), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_carbon_dioxide_saturation_state
+  sea_water_carbon_dioxide_saturation_state
+    spco2                [1     ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_PUM.pdf
+    Surface partial pressure of carbon dioxide [Pa    ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_PUM.pdf
+    partial pressure of CO2 [uatm  ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    pCO2                 [uatm  ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+    spCO2                [Pa    ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf
+    Surface partial pressure of CO2 [uatm  ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_density
+  Sea water in-situ density
+    density              [kg/m^3] form=in_situ         fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    rho                  [kg/m^3] form=in_situ         fw=unknown   <- OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies_QUID.pdf
+    density              [kg/m^3] form=in_situ         fw=unknown   <- halliwell_kta.pdf
+    density              [kg/m^3] form=in_situ         fw=unknown   <- halliwell_ktb.pdf
+    density              [kg/m^3] form=in_situ         fw=unknown   <- halliwell_pwp.pdf
+    density              [kg/m^3] form=potential (density) fw=eos80    ref=0dbar  <- halliwell_state.pdf
+    density              [kg/m^3] form=in_situ         fw=unknown   <- wallcraft_HYCOM_2.2_features.pdf
+    density              [kg/m^3] form=in_situ         fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: in_situ(unknown), potential (density)(eos80) ref=0
+    -> Conversion required for direct comparison
+
+  sea_water_dissolved_inorganic_carbon_concentration
+  sea_water_dissolved_inorganic_carbon_concentration
+    Dissolved inorganic carbon [mol/kg] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_PUM.pdf
+    Dissolved inorganic carbon [umol/kg] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_mixed_layer_thickness
+  sea_water_mixed_layer_thickness
+    mixed_layer_depths   [m     ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    mixed_layer_depth    [m     ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+    mixed_layer_depth    [m     ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_partial_pressure_of_carbon_dioxide
+  sea_water_partial_pressure_of_carbon_dioxide
+    spCO2                [Pa    ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf
+    partial_pressure_of_carbon_dioxide [Pa    ] form=not_applicable  fw=?         <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_phosphate_concentration
+  sea_water_phosphate_concentration
+    pH                   [umol/kg] form=not_applicable  fw=unknown   <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    ph                   [mol m-3] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_PUM.pdf
+    pH                   [1     ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf
+    pH                   [mol/kg] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_PUM.pdf
+    ph                   [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    po4                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    ph                   [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    po4                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    pH                   [dimensionless] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+    pH                   [mmol m-3] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+    ph                   [dimensionless] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+    pH                   [1     ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf
+    pH                   [umol/kg] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_phosphate_excess
+  sea_water_phosphate_excess
+    pH                   [1     ] form=not_applicable  fw=?         <- GLOBAL_OMI_HEALTH_carbon_ph_area_averaged_QUID.pdf
+    pH                   [yr-1 (converted to decade-1 for presentation)] form=not_applicable  fw=?         <- GLOBAL_OMI_HEALTH_carbon_ph_trend_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_potential_temperature
+  Sea water potential temperature
+    in_situ_temperature  [degC  ] form=in_situ         fw=unknown   <- cdw_conversoes.md
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- cdw_variable_cross_reference.md
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_ANALYSISFORECAST_PHY_002_001_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_MULTIYEAR_PHY_002_003_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0.0dbar  <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_ANALYSISFORECAST_PHY_007_001_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_MULTIYEAR_PHY_007_004_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_ANALYSISFORECAST_PHY_001_024_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0.0dbar  <- MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- MEDSEA_MULTIYEAR_PHY_006_004_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- IBI_MULTIYEAR_PHY_005_002_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    geopotential_heights [m2 s-2] form=potential       fw=eos80    ref=0dbar  <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0.0dbar  <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    Tref                 [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies_QUID.pdf
+    Tp                   [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ON441_solar_radiation.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- ON461_sigma_pressure_coordinate.pdf
+    q                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_diapycnal.pdf
+    potential temperature [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_kpp.pdf
+    f                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_momentum.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_state.pdf
+    potential temperature [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_vdiff.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- hycom_users_manual_v2.0.01.pdf
+    Potential Temperature [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_new_features_lom2013.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_talk_COAPS_17a.pdf
+    WARNING: DIFFERENT FORMS: in_situ(unknown), potential(eos80) ref=0
+    -> Conversion required for direct comparison
+
+  sea_water_practical_salinity
+  Sea water practical salinity (PSS-78)
+    salinity             [PSU   ] form=practical       fw=eos80     <- cdw_variable_cross_reference.md
+    so                   [psu   ] form=practical       fw=eos80     <- ARCTIC_ANALYSISFORECAST_PHY_002_001_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- ARCTIC_MULTIYEAR_PHY_002_003_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- BLKSEA_ANALYSISFORECAST_PHY_007_001_PUM.pdf
+    so                   [PSU   ] form=practical       fw=eos80     <- BLKSEA_MULTIYEAR_PHY_007_004_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- GLOBAL_ANALYSISFORECAST_PHY_001_024_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_GLO_PHY_TS_OA_NRT_013_002_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_PUM.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- MEDSEA_MULTIYEAR_PHY_006_004_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    Ocean_Salinity_Content [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_OSC_MEDSEA_volume_mean_PUM.pdf
+    bottom_salinity      [psu   ] form=practical       fw=eos80     <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm_PUM.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_PUM.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- ARCTIC_OMI_TEMPSAL_FWC_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    sosaline             [psu   ] form=practical       fw=eos80     <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- BLKSEA_MULTIYEAR_PHY_007_004_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- IBI_MULTIYEAR_PHY_005_002_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- IBI_OMI_WMHE_mow_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_QUID.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_QUID.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_GLO_PHY_TS_OA_MY_013_052_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_GLO_PHY_TS_OA_NRT_013_002_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_OSC_MEDSEA_volume_mean_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend_QUID.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_2000_QUID.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_700_QUID.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- OMI_CLIMATE_THSL_GLOBAL_trend_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- OMI_HEALTH_TEMPSALOXY_BALTIC_cod_volume_QUID.pdf
+    bottom_salinity      [psu   ] form=practical       fw=eos80     <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm_QUID.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_QUID.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- ON441_solar_radiation.pdf
+    so                   [PSU   ] form=practical       fw=eos80     <- ON461_sigma_pressure_coordinate.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- halliwell_advdiff.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- halliwell_boundary.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- halliwell_diapycnal.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- halliwell_giss.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- halliwell_kpp.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- halliwell_kta.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- halliwell_ktb.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- halliwell_pwp.pdf
+    salinity             [PSU   ] form=practical       fw=eos80     <- halliwell_state.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- halliwell_vdiff.pdf
+    so                   [PSU   ] form=practical       fw=eos80     <- hycom_users_manual_v2.0.01.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- wallcraft_HYCOM_2.2_code_devel.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- wallcraft_HYCOM_2.2_features.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- wallcraft_new_features_lom2011.pdf
+    Salinity             [psu   ] form=practical       fw=eos80     <- wallcraft_new_features_lom2013.pdf
+    so                   [psu   ] form=practical       fw=eos80     <- wallcraft_talk_COAPS_17a.pdf
+    salinity             [psu   ] form=practical       fw=eos80     <- ICON_ocean.md
+    OK: Compatible — direct fallback possible
+
+  sea_water_pressure
+  Sea water pressure
+    p                    [Pa    ] form=not_applicable  fw=unknown   <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_2000_QUID.pdf
+    p                    [Pa    ] form=not_applicable  fw=?         <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_700_QUID.pdf
+    p                    [Pa    ] form=not_applicable  fw=unknown   <- halliwell_boundary.pdf
+    P                    [Pa    ] form=not_applicable  fw=?         <- halliwell_mesh.pdf
+    p                    [Pa    ] form=not_applicable  fw=unknown   <- halliwell_momentum.pdf
+    pressure             [Pa    ] form=not_applicable  fw=unknown   <- wallcraft_HYCOM_2.2_features.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_salinity
+  sea_water_salinity
+    salinity             [psu   ] form=practical       fw=eos80     <- BLKSEA_OMI_HEALTH_oxygen_trend_QUID.pdf
+    S                    [psu   ] form=practical       fw=eos80     <- GLOBAL_OMI_WMHE_heattrp_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_silicate_concentration
+  sea_water_silicate_concentration
+    si                   [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    si4                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+    si6                  [mol/m^3] form=not_applicable  fw=?         <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_temperature
+  Sea water in-situ temperature
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- cdw_conversoes.md
+    water_temp           [degC  ] form=in_situ         fw=unknown   <- cdw_variable_cross_reference.md
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_PUM.pdf
+    temperature          [degC  ] form=in_situ         fw=unknown   <- INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHY_TS_OA_NRT_013_002_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0.0dbar  <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_PUM.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BALTICSEA_ANALYSISFORECAST_PHY_003_006_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_MULTIYEAR_PHY_007_004_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- BLKSEA_OMI_HEALTH_oxygen_trend_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- GLOBAL_OMI_WMHE_heattrp_QUID.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- IBI_OMI_CURRENTS_cui_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHY_TS_OA_MY_013_052_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_GLO_PHY_TS_OA_NRT_013_002_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf
+    thetao               [degC  ] form=potential       fw=eos80    ref=0dbar  <- NORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies_QUID.pdf
+    Tclim                [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_QUID.pdf
+    T mth                [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_TEMPSAL_BALTIC_Ttz_trend_QUID.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_2000_QUID.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_700_QUID.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_CLIMATE_THSL_GLOBAL_trend_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_HEALTH_TEMPSALOXY_BALTIC_cod_volume_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_QUID.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_advdiff.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_boundary.pdf
+    T                    [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_giss.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_kta.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_ktb.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- halliwell_pwp.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_HYCOM_2.2_code_devel.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_HYCOM_2.2_features.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- wallcraft_new_features_lom2011.pdf
+    temperature          [degC  ] form=potential       fw=eos80    ref=0dbar  <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: potential(eos80) ref=0, in_situ(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_x_velocity
+  sea_water_x_velocity
+    water_u              [m/s   ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    vo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_PUM.pdf
+    geostrophic_currents [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf
+    u_velocity           [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_QUID.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf
+    v                    [m/s   ] form=not_applicable  fw=unknown   <- halliwell_diapycnal.pdf
+    U                    [m/s   ] form=not_applicable  fw=?         <- halliwell_mesh.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- hycom_users_manual_v2.0.01.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_x_velocity sea_water_y_velocity
+  sea_water_x_velocity sea_water_y_velocity
+    geostrophic_currents [m s-1 ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf
+    V                    [m/s   ] form=not_applicable  fw=?         <- OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  sea_water_x_velocity, sea_water_y_velocity
+  sea_water_x_velocity, sea_water_y_velocity
+    horizontal_velocity  [m/s   ] form=not_applicable  fw=?         <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+    currents             [m/s   ] form=not_applicable  fw=?         <- GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf
+    momentum             [m/s   ] form=not_applicable  fw=?         <- halliwell_kpp.pdf
+    momentum             [m/s   ] form=not_applicable  fw=unknown   <- halliwell_pwp.pdf
+    momentum             [m/s   ] form=not_applicable  fw=unknown   <- halliwell_vdiff.pdf
+    velocity             [m/s   ] form=not_applicable  fw=unknown   <- wallcraft_HYCOM_2.2_code_devel.pdf
+    velocity             [m/s   ] form=not_applicable  fw=unknown   <- wallcraft_HYCOM_2.2_features.pdf
+    velocity             [m/s   ] form=not_applicable  fw=?         <- wallcraft_new_features_lom2011.pdf
+    velocity             [m/s   ] form=not_applicable  fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  sea_water_y_velocity
+  sea_water_y_velocity
+    water_v              [m/s   ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    uo                   [m/s   ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_PHY_001_024_PUM.pdf
+    v_velocity           [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    uo                   [m/s   ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_PHY_007_004_QUID.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- MEDSEA_ANALYSISFORECAST_PHY_006_013_QUID.pdf
+    u                    [m/s   ] form=not_applicable  fw=unknown   <- halliwell_diapycnal.pdf
+    V                    [m/s   ] form=not_applicable  fw=?         <- halliwell_mesh.pdf
+    vo                   [m/s   ] form=not_applicable  fw=?         <- hycom_users_manual_v2.0.01.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  secchi_disk_depth
+  secchi_disk_depth
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_MY_009_118_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_NRT_009_116_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_MY_009_103_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L3_NRT_009_101_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_MY_009_104_QUID.pdf
+    ZSD                  [m     ] form=not_applicable  fw=?         <- OCEANCOLOUR_GLO_BGC_L4_NRT_009_102_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  significant_wave_height
+  significant_wave_height
+    swh                  [m     ] form=not_applicable  fw=unknown   <- cdw_variable_cross_reference.md
+    sea_surface_wave_significant_height [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- ARCTIC_ANALYSIS_FORECAST_WAV_002_014_PUM.pdf
+    swi                  [m     ] form=not_applicable  fw=?         <- IBI_OMI_SEASTATE_swi_PUM.pdf
+    SWH                  [m     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002_QUID.pdf
+    VHM0                 [m     ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SPC_L3_MY_014_006_QUID.pdf
+    wave_height          [m     ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    wave_height          [m     ] form=not_applicable  fw=unknown   <- ICON_ocean.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  specific_humidity
+  specific_humidity
+    humidity             [kg kg-1] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    mass fractions of atmospheric water constituents and trace gases [kg/kg ] form=not_applicable  fw=?         <- ICON_atmosphere.md
+    OK: Compatible — direct fallback possible
+
+  subsurface_temperature_anomaly
+  subsurface_temperature_anomaly
+    Tzt_anom             [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_CLIMVAR_enso_Tzt_anomaly_PUM.pdf
+    zt_anom              [degC  ] form=not_applicable  fw=?         <- GLOBAL_OMI_CLIMVAR_enso_sst_area_averaged_anomalies_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  surface_altitude
+  surface_altitude
+    elevation            [m     ] form=not_applicable  fw=?         <- GEBCO_2022_grid_docs.md
+    elevation            [m     ] form=not_applicable  fw=?         <- GEBCO_2023_grid_docs.md
+    elevation            [m     ] form=not_applicable  fw=?         <- GEBCO_2024_grid_docs.md
+    elevation            [m     ] form=not_applicable  fw=?         <- GEBCO_2025_grid_docs.md
+    OK: Compatible — direct fallback possible
+
+  surface_downward_eastward_stress
+  surface_downward_eastward_stress
+    taux                 [Pa    ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    wind_stress          [Pa    ] form=not_applicable  fw=?         <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_PUM.pdf
+    wind_stress          [Pa    ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_PUM.pdf
+    wind_stress          [Pa    ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+    taux                 [Pa    ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    taux                 [Pa    ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    taux                 [Pa    ] form=not_applicable  fw=unknown   <- ON441_solar_radiation.pdf
+    taux                 [Pa    ] form=not_applicable  fw=?         <- hycom_users_manual_v2.0.01.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  surface_downward_northward_stress
+  surface_downward_northward_stress
+    tauy                 [Pa    ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    wind_stress          [Pa    ] form=not_applicable  fw=?         <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_PUM.pdf
+    wind_stress          [Pa    ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_PUM.pdf
+    tauy                 [Pa    ] form=not_applicable  fw=?         <- BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf
+    tauy                 [Pa    ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_PHY_006_004_QUID.pdf
+    tauy                 [Pa    ] form=not_applicable  fw=unknown   <- ON441_solar_radiation.pdf
+    tauy                 [Pa    ] form=not_applicable  fw=?         <- hycom_users_manual_v2.0.01.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  surface_wind_from_direction
+  surface_wind_from_direction
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_NRT_012_004_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  surface_wind_speed
+  surface_wind_speed
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_NRT_012_004_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  suspended_sediment_concentration
+  suspended_sediment_concentration
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  suspended_sediment_concentration_in_sea_water
+  suspended_sediment_concentration_in_sea_water
+    SPM                  [g/m³  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+    SPM                  [g/m³  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L3_NRT_009_111_QUID.pdf
+    SPM                  [g/m³  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_MY_009_118_QUID.pdf
+    SPM                  [g/m³  ] form=not_applicable  fw=?         <- OCEANCOLOUR_ATL_BGC_L4_NRT_009_116_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_QUID.pdf
+    SPM                  [g/m^3 ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  toa_outgoing_longwave_flux
+  toa_outgoing_longwave_flux
+    radiation            [W m-2 ] form=not_applicable  fw=?         <- ECMWF_ERA5_documentation.md
+    radiation            [W m-2 ] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    OK: Compatible — direct fallback possible
+
+  turbidity_in_sea_water
+  turbidity_in_sea_water
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211_QUID.pdf
+    TUR                  [NTU   ] form=not_applicable  fw=?         <- OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  upward_sea_water_velocity
+  upward_sea_water_velocity
+    vvel                 [m/s   ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_PHY_005_002_PUM.pdf
+    w                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_PUM.pdf
+    vertical_velocity    [m/s   ] form=not_applicable  fw=unknown   <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+    w                    [m/s   ] form=not_applicable  fw=?         <- IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf
+    w                    [m/s   ] form=not_applicable  fw=?         <- MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_QUID.pdf
+    w                    [m/s   ] form=not_applicable  fw=?         <- halliwell_vertical_vel.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  volume_transport
+  volume_transport
+    voltrp               [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_heattrp_PUM.pdf
+    voltrp               [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_northward_mht_PUM.pdf
+    voltrp               [Sv    ] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_voltrp_PUM.pdf
+    voltrp               [Sv (1 Sv = 1.e6 m3/s)] form=not_applicable  fw=?         <- GLOBAL_OMI_WMHE_voltrp_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  water_leaving_radiance
+  water_leaving_radiance
+    remote-sensing reflectance [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L3_MY_009_133_QUID.pdf
+    remote-sensing reflectances (Rrs) [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L3_NRT_009_131_QUID.pdf
+    remote-sensing reflectance [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_MY_009_134_QUID.pdf
+    remote-sensing reflectance [sr^-1 ] form=not_applicable  fw=?         <- OCEANCOLOUR_BAL_BGC_L4_NRT_009_132_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  wave_height
+  wave_height
+    Hmax                 [m     ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf
+    waves                [m     ] form=not_applicable  fw=?         <- ICON_waves.md
+    OK: Compatible — direct fallback possible
+
+  wind_curl
+  wind_curl
+    curl                 [s^-2  ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_MY_012_005_PUM.pdf
+    curl                 [s^-2  ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_NRT_012_002_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  wind_divergence
+  wind_divergence
+    divergence           [s^-2  ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_MY_012_005_PUM.pdf
+    divergence           [s^-2  ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_NRT_012_002_PUM.pdf
+    OK: Compatible — direct fallback possible
+
+  wind_from_direction
+  wind_from_direction
+    wind_direction       [degree] form=not_applicable  fw=?         <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_MY_012_105_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_NRT_012_100_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_MY_012_106_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_NRT_012_101_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_MY_012_107_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_NRT_012_102_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_MY_012_108_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_NRT_012_103_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_MY_012_109_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_NRT_012_104_PUM.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_MY_012_105_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_NRT_012_100_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_MY_012_106_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_NRT_012_101_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_MY_012_107_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_NRT_012_102_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_MY_012_108_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_NRT_012_103_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_MY_012_005_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_NRT_012_002_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_MY_012_109_QUID.pdf
+    wind_direction       [degree] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_NRT_012_104_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  wind_speed
+  wind_speed
+    wind_speed           [m/s   ] form=not_applicable  fw=unknown   <- cdw_conversoes.md
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_MY_012_105_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_NRT_012_100_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_MY_012_106_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_NRT_012_101_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_MY_012_107_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_NRT_012_102_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_MY_012_108_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_NRT_012_103_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_PUM.pdf
+    U10S                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_MY_012_005_PUM.pdf
+    U10S                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_NRT_012_002_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_MY_012_109_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_NRT_012_104_PUM.pdf
+    U10                  [m/s   ] form=not_applicable  fw=?         <- BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_QUID.pdf
+    U10                  [m/s   ] form=not_applicable  fw=?         <- MEDSEA_MULTIYEAR_WAV_006_012_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WAVE_GLO_PHY_SWH_L3_NRT_014_001_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_MY_012_105_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ARC_PHY_HR_L3_NRT_012_100_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_MY_012_106_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_ATL_PHY_HR_L3_NRT_012_101_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_MY_012_107_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BAL_PHY_HR_L3_NRT_012_102_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_MY_012_108_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_BLK_PHY_HR_L3_NRT_012_103_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_MY_012_005_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L3_NRT_012_002_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_MY_012_109_QUID.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- WIND_MED_PHY_HR_L3_NRT_012_104_QUID.pdf
+    wind_speed           [m s-1 ] form=not_applicable  fw=?         <- ERA5__data_documentation.md
+    wind speed           [m/s   ] form=not_applicable  fw=?         <- TIN_GFS_2014.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=unknown   <- wallcraft_HYCOM_2.2_code_devel.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- ICON_waves.md
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  wind_speed_of_gust
+  wind_speed_of_gust
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_PUM.pdf
+    VSPD                 [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    VWND                 [m/s   ] form=not_applicable  fw=?         <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+    wind_speed           [m/s   ] form=not_applicable  fw=?         <- INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf
+    wind gusts           [m/s   ] form=not_applicable  fw=?         <- ICON_atmosphere.md
+    OK: Compatible — direct fallback possible
+
+  wind_speed_of_gust_from_direction
+  wind_speed_of_gust_from_direction
+    U10S                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_QUID.pdf
+    VRMS                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_MY_012_006_QUID.pdf
+    U10S                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_NRT_012_004_QUID.pdf
+    VRMS                 [m/s   ] form=not_applicable  fw=?         <- WIND_GLO_PHY_L4_NRT_012_004_QUID.pdf
+    OK: Compatible — direct fallback possible
+
+  zooplankton_biomass_concentration
+  zooplankton_biomass_concentration
+    zooplankton          [g/m^3 ] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf
+    ZOOC                 [g/m^3 ] form=not_applicable  fw=?         <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+    zooplankton_biomass  [g/m^3 ] form=not_applicable  fw=?         <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+    ZOOC                 [g/m3  ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+  zooplankton_concentration
+  zooplankton_concentration
+    zooplankton (zooc)   [g/m^3 ] form=not_applicable  fw=?         <- IBI_MULTIYEAR_BGC_005_003_PUM.pdf
+    zooplankton          [kg/m^3] form=not_applicable  fw=unknown   <- IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf
+    WARNING: DIFFERENT FORMS: not_applicable(?), not_applicable(unknown)
+    -> Conversion required for direct comparison
+
+───────────────────────────────────────────────────────────────────────────
+VARIABLES WITH SINGLE SOURCE (no fallback in corpus)
+───────────────────────────────────────────────────────────────────────────
+  total air density    -> air_density  <- ICON_atmosphere.md
+  virtual potential temperature -> air_potential_temperature  <- ICON_atmosphere.md
+  surface_heat_flux    -> air_sea_heat_flux  <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+  ALKW                 -> alkalinity  <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+  ammonium             -> ammonium_concentration_in_sea_water  <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+  Potential Vorticity  -> atmosphere_potential_vorticity  <- Reports_on_ICON_2019_02.pdf
+  instability          -> atmospheric_instability_index  <- GFSv16_SOO_evaluation.pdf
+  potential vorticity  -> atmospheric_potential_vorticity  <- ICON_atmosphere.md
+  Particulate Backscattering coefficient -> backscatter_coefficient_of_sea_water_due_to_particles_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_PUM.pdf
+  bbp490               -> backscattering_coefficient_in_sea_water  <- OCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208_PUM.pdf
+  bbp490               -> backscattering_coefficient_of_sea_water  <- OCEANCOLOUR_GLO_BGC_L4_MY_009_108_QUID.pdf
+  elevation            -> bathymetry  <- GEBCO_2021_grid_docs.md
+  transp/KD            -> beam_transmissivity_in_sea_water  <- OCEANCOLOUR_ARC_BGC_L3_NRT_009_121_QUID.pdf
+  transp/KD            -> beam_transmittance_in_sea_water  <- OCEANCOLOUR_ARC_BGC_L4_MY_009_124_QUID.pdf
+  N                    -> brunt_vaisala_frequency  <- halliwell_giss.pdf
+  Carbonate system     -> carbonate_concentration  <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+  FLU2                 -> chlorophyll_a_fluorescence_in_sea_water  <- INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf
+  chl_trend            -> chlorophyll_concentration_in_sea_water_trend  <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_PUM.pdf
+  cloud_cover          -> cloud_area_fraction  <- ERA5__data_documentation.md
+  elevation            -> depth  <- GEBCO_2020_grid_docs.md
+  2m_dew_point_temperature -> dew_point_temperature  <- GFSv16_SOO_evaluation.pdf
+  fgco2                -> downward_ocean_carbon_flux_in_sea_water  <- GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_QUID.pdf
+  ED380                -> downwelling_irradiance_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf
+  PAR                  -> downwelling_photosynthetic_active_radiation_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf
+  Downwelling Irradiance -> downwelling_photosynthetically_active_radiation_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_PUM.pdf
+  kd490                -> downwelling_radiance_in_sea_water  <- OCEANCOLOUR_GLO_BGC_L4_MY_009_108_QUID.pdf
+  kd490                -> downwelling_spectral_irradiance_in_sea_water  <- OCEANCOLOUR_MED_BGC_L4_NRT_009_142_PUM.pdf
+  u, v, t, lnp, moisture, tracers -> eastward_sea_water_velocity, northward_sea_water_velocity, sea_water_potential_temperature, air_pressure, specific_humidity, tracer_concentration  <- ON462_semi_lagrangian_equations.pdf
+  taux                 -> eastward_wind_stress  <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+  valid_time           -> forecast_reference_time  <- cdw_conversoes.md
+  IST_anomaly          -> ice_surface_temperature_anomaly  <- OMI_CLIMATE_SST_IST_ARCTIC_anomaly_QUID.pdf
+  OSC                  -> integral_of_salt_wrt_depth  <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+  OHC                  -> integral_of_sea_water_heat_content  <- OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_QUID.pdf
+  OHC                  -> integral_of_temp_anomaly_wrt_depth  <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+  snow depth           -> land_snow_depth_water_equivalent  <- TIN_GFS_2014.pdf
+  vegetation_fraction  -> land_surface_fractions  <- ERA5__data_documentation.md
+  longitude            -> longitude  <- cdw_conversoes.md
+  snow_depth           -> lwe_thickness_of_snow_layer  <- ERA5__data_documentation.md
+  sea_surface_wave_to_direction -> mean_wave_to_direction  <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_PUM.pdf
+  moc                  -> meridional_overturning_circulation  <- OMI_CIRCULATION_MOC_MEDSEA_area_averaged_mean_PUM.pdf
+  mixed_layer_depth    -> mlotst  <- wallcraft_new_features_lom2011.pdf
+  surface_pCO2         -> mole_concentration_of_carbon_dioxide_in_sea_water_at_surface  <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+  oxygen_concentration -> mole_concentration_of_dissolved_oxygen_in_sea_water  <- BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf
+  no2                  -> mole_concentration_of_nitrite_in_sea_water  <- NWSHELF_MULTIYEAR_PHY_004_009_PUM.pdf
+  tco2                 -> mole_concentration_of_total_carbon_dioxide_in_sea_water  <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+  ALK                  -> mole_concentration_of_total_carbonate_in_sea_water  <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+  pCO2                 -> mole_fraction_of_carbon_dioxide_in_sea_water  <- MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf
+  M                    -> montgomery_potential  <- halliwell_momentum.pdf
+  NPP                  -> net_primary_production  <- GLOBAL_MULTIYEAR_BGC_001_033_QUID.pdf
+  nutrient_concentration -> nitrate_concentration  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_PUM.pdf
+  nutrients            -> nitrate_concentration, phosphate_concentration, silicate_concentration  <- INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf
+  nitrate              -> no3  <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+  nir_a                -> non-pigment_absorption_coefficient  <- OCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210_PUM.pdf
+  tauy                 -> northward_wind_stress  <- ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf
+  Nutricline           -> nutrient_concentration  <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+  carbon_profiles      -> ocean_carbon_concentration  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+  GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated -> ocean_carbon_dioxide_uptake  <- GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_PUM.pdf
+  dissolved_inorganic_carbon -> ocean_dissolved_inorganic_carbon_concentration  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+  northward_heat_transport -> ocean_heat_content  <- GLOBAL_OMI_WMHE_northward_mht_QUID.pdf
+  iron                 -> ocean_iron_concentration  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  mixed_layer_depth    -> ocean_mixed_layer_thickness  <- OMI_EXTREME_WMF_MEDSEA_area_averaged_mean_QUID.pdf
+  nitrate              -> ocean_nitrate_concentration  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  nutrient_profiles    -> ocean_nutrient_concentration  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+  oxygen_penetration_density -> ocean_oxygen_penetration_density  <- BLKSEA_OMI_HEALTH_oxygen_trend_PUM.pdf
+  oxygen_penetration_depth -> ocean_oxygen_penetration_depth  <- BLKSEA_OMI_HEALTH_oxygen_trend_PUM.pdf
+  phosphate            -> ocean_phosphate_concentration  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  silicate             -> ocean_silicate_concentration  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  GLOBAL_OMI_HEALTH_carbon_ph_area_averaged -> ocean_surface_sea_water_ph  <- GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_PUM.pdf
+  total_alkalinity     -> ocean_total_alkalinity_concentration  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+  vertically_integrated_oxygen_content -> ocean_vertically_integrated_oxygen_content  <- BLKSEA_OMI_HEALTH_oxygen_trend_PUM.pdf
+  Particulate Organic Carbon -> particulate_org_carbon_concentration_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_PUM.pdf
+  POC                  -> particulate_organic_carbon_concentration_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf
+  VPED                 -> peak_wave_direction  <- WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002_QUID.pdf
+  VTPK                 -> peak_wave_period  <- WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002_QUID.pdf
+  PHOW                 -> photosynthetic_harvesting_of_water  <- INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf
+  Photosynthetic Available Radiation -> photosynthetically_available_radiation_in_sea_water  <- MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_PUM.pdf
+  phytoplankton_concentration_in_carbon -> phytoplankton_biomass_carbon_concentration  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  PHYC                 -> phytoplankton_biomass_concentration  <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+  phosphate            -> po4  <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+  QPF                  -> precipitation_amount  <- GFSv16_SOO_evaluation.pdf
+  NPPV                 -> primary_production_rate_in_sea_water  <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+  PP                   -> primary_production_rate_of_carbon_in_sea_water  <- OCEANCOLOUR_ATL_BGC_L3_MY_009_113_QUID.pdf
+  river_discharge      -> river_transport  <- wallcraft_HYCOM_2.2_code_devel.pdf
+  depth                -> sea_floor_depth_below_sea_level  <- halliwell_float.pdf
+  bathymetry           -> sea_floor_depth_below_sea_surface  <- BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001_QUID.pdf
+  ice_concentration, ice_thickness -> sea_ice_area_fraction, sea_ice_thickness  <- BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf
+  SID                  -> sea_ice_drift  <- SEAICE_ARC_PHY_AUTO_L4_MY_011_025_QUID.pdf
+  snow_depths          -> sea_ice_snow_thickness  <- ARCTIC_MULTIYEAR_PHY_002_003_QUID.pdf
+  seaice_drift_y       -> sea_ice_velocity_y  <- SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_PUM.pdf
+  SIV                  -> sea_ice_volume  <- OMI_CLIMATE_SI_BALTIC_volume_QUID.pdf
+  seaice_drift_u       -> sea_ice_x_velocity  <- SEAICE_GLO_PHY_L4_MY_011_020_PUM.pdf
+  seaice_drift_v       -> sea_ice_y_velocity  <- SEAICE_GLO_PHY_L4_MY_011_020_PUM.pdf
+  SSA                  -> sea_surface_absolute_salinity  <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+  SLCW                 -> sea_surface_carbonate_waters  <- INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf
+  SCT                  -> sea_surface_conservative_temperature  <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+  SSC                  -> sea_surface_current_velocity  <- NWSHELF_ANALYSISFORECAST_PHY_LR_004_001_PUM.pdf
+  slev_anomaly         -> sea_surface_height_above_geoid_anomaly  <- OMI_EXTREME_SL_MEDSEA_slev_mean_and_anomaly_obs_PUM.pdf
+  sea_surface_salinity -> sea_surface_practical_salinity  <- wallcraft_HYCOM_2.2_code_devel.pdf
+  SSSp                 -> sea_surface_spiciness  <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+  NINO34 SST Anomaly   -> sea_surface_temperature_anomalies  <- GLOBAL_OMI_CLIMVAR_enso_sst_area_averaged_anomalies_QUID.pdf
+  TIR                  -> sea_surface_temperature_from_infrared_measurement  <- SST_BAL_PHY_L3S_MY_010_040_QUID.pdf
+  PMW                  -> sea_surface_temperature_from_passive_microwave_measurement  <- SST_BAL_PHY_L3S_MY_010_040_QUID.pdf
+  VMAX                 -> sea_surface_wave_maximum_height  <- GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf
+  VTM10                -> sea_surface_wave_mean_period_from_variance_moment  <- OMI_EXTREME_WAVE_BLKSEA_wave_power_QUID.pdf
+  VTPD                 -> sea_surface_wave_mean_period_from_variance_spectral_density_direction  <- INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf
+  VTP01                -> sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment  <- INSITU_GLO_WAV_DISCRETE_MY_013_045_QUID.pdf
+  VTM02                -> sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment  <- NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf
+  TP10                 -> sea_surface_wave_period_at_variance_spectral_density_peak  <- BALTICSEA_ANALYSISFORECAST_WAV_003_010_QUID.pdf
+  VTPK                 -> sea_surface_wave_period_at_variance_spectral_peak  <- NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf
+  Tp                   -> sea_surface_wave_period_from_variance_spectral_density_peak_frequency  <- MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf
+  VHM0                 -> sea_surface_wave_signiﬁcant_height  <- wallcraft_talk_COAPS_17a.pdf
+  SPC                  -> sea_surface_wave_spectral_directional_variance_density  <- WAVE_GLO_PHY_SWH_L4_NRT_014_003_PUM.pdf
+  spco2                -> sea_water_carbon_dioxide_saturation_ratio  <- GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf
+  DIC                  -> sea_water_carbonate_borate_dissolved_inorganic_carbon_concentration  <- IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf
+  DIC                  -> sea_water_carbonate_concentration  <- IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf
+  FWC                  -> sea_water_mass_content_of_freshwater  <- ARCTIC_OMI_TEMPSAL_FWC_PUM.pdf
+  pH                   -> sea_water_photometric_hydrogen_index  <- NWSHELF_MULTIYEAR_BGC_004_011_QUID.pdf
+  density              -> sea_water_potential_density_anomaly  <- OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_QUID.pdf
+  Tzt_anomaly          -> sea_water_temperature_anomaly  <- GLOBAL_OMI_CLIMVAR_enso_Tzt_anomaly_QUID.pdf
+  tph                  -> sea_water_total_phosphate_concentration  <- NWSHELF_MULTIYEAR_BGC_004_011_PUM.pdf
+  tracer               -> sea_water_tracer_concentration  <- wallcraft_HYCOM_2.2_features.pdf
+  a                    -> sea_water_volume_excess  <- halliwell_momentum.pdf
+  Q                    -> sea_water_vorticity  <- halliwell_mesh.pdf
+  pH                   -> seawater_ph_value  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_QUID.pdf
+  Secchi depth (noon values) -> secchi_depth  <- BALTICSEA_MULTIYEAR_BGC_003_012_QUID.pdf
+  s                    -> sigma_coordinate  <- halliwell_momentum.pdf
+  Si                   -> silicate_concentration_in_sea_water  <- ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf
+  soil_temperature     -> soil_temperature  <- ERA5__data_documentation.md
+  cp                   -> specific_heat_capacity_of_sea_water  <- OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies_QUID.pdf
+  STD                  -> standard_deviation_of_temperature_anomaly  <- GLOBAL_MULTIYEAR_PHY_ENS_001_031_QUID.pdf
+  albedo               -> surface_albedo  <- ERA5__data_documentation.md
+  fgco2                -> surface_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon  <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_QUID.pdf
+  atmospheric_forcing  -> surface_downward_water_flux_in_storm, surface_upward_sensible_heat_flux, surface_upward_latent_heat_flux  <- wallcraft_HYCOM_2.2_code_devel.pdf
+  beta                 -> surface_haline_contraction_coefficient  <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+  pH_trend             -> surface_sea_water_phosphate_trend  <- GLOBAL_OMI_HEALTH_carbon_ph_trend_PUM.pdf
+  pH_uncertainty       -> surface_sea_water_phosphate_uncertainty  <- GLOBAL_OMI_HEALTH_carbon_ph_trend_PUM.pdf
+  spco2                -> surface_seawater_partial_pressure_of_carbon_dioxide_expressed_as_carbon  <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_QUID.pdf
+  pH                   -> surface_seawater_ph_on_total_scale  <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_QUID.pdf
+  omega_ar             -> surface_seawater_saturation_state_with_respect_to_aragonite  <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_QUID.pdf
+  omega_ca             -> surface_seawater_saturation_state_with_respect_to_calcite  <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_QUID.pdf
+  soil_temperature     -> surface_sensible_heat_flux  <- ECMWF_ERA5_documentation.md
+  alpha                -> surface_thermal_expansion_coefficient  <- MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_QUID.pdf
+  nir_spm              -> suspended_matter_concentration_in_sea_water  <- OCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206_PUM.pdf
+  time                 -> time  <- cdw_conversoes.md
+  PMW                  -> toa_brightness_temperature  <- SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_QUID.pdf
+  TIR                  -> toa_infrared_radiance  <- SST_BAL_SST_L4_REP_OBSERVATIONS_010_016_QUID.pdf
+  carbonate_system_variables -> total_alkalinity, dissolved_inorganic_carbon, pH, partial_pressure_of_carbon_dioxide  <- MULTIOBS_GLO_BGC_NUTRIENTS_CARBON_PROFILES_MYNRT_015_009_PUM.pdf
+  Alk                  -> total_alkalinity_concentration  <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+  Total alkalinity     -> total_alkalinity_in_sea_water  <- BLKSEA_MULTIYEAR_BGC_007_005_QUID.pdf
+  DIC                  -> total_carbon_dioxide_concentration  <- GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf
+  e                    -> turbulent_kinetic_energy_dissipation_rate  <- halliwell_giss.pdf
+  upwelling_index      -> upwelling_index  <- IBI_OMI_CURRENTS_cui_PUM.pdf
+  soil_moisture        -> volumetric_soil_water_content  <- ERA5__data_documentation.md
+  evaporation          -> water_evapotranspiration_flux  <- ERA5__data_documentation.md
+  WMF                  -> water_mass_formation_rate  <- OMI_EXTREME_WMF_MEDSEA_area_averaged_mean_PUM.pdf
+  runoff               -> water_runoff_flux  <- ERA5__data_documentation.md
+  Tp                   -> wave_period  <- BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf
+  udir                 -> wind_from_direction_at_10m  <- GFSv16_wave_evaluation.pdf
+  u10                  -> wind_speed_at_10m  <- GFSv16_wave_evaluation.pdf
+  U10                  -> wind_speed_of_gust_at_10m  <- MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf
+  wind_stress          -> wind_stress  <- WIND_GLO_PHY_CLIMATE_L4_MY_012_003_QUID.pdf
+
+───────────────────────────────────────────────────────────────────────────
+UNRESOLVED VARIABLES (149)
+───────────────────────────────────────────────────────────────────────────
+  ?                    [?] <- ARCTIC_ANALYSISFORECAST_BGC_002_004_PUM.pdf
+  ?                    [?] <- BALTICSEA_MULTIYEAR_PHY_003_011_PUM.pdf
+  dissolved_inorganic_carbon [mol/kg] <- GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf
+  total_alkalinity     [mol/kg] <- GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf
+  light_attenuation_coefficient [m^-1] <- GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf
+  total_zooplankton    [g/m^3] <- GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf
+  ?                    [?] <- GLOBAL_MULTIYEAR_PHY_001_030_PUM.pdf
+  GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated [PgC/yr] <- GLOBAL_OMI_HEALTH_carbon_ph_area_averaged_PUM.pdf
+  GLOBAL_OMI_HEALTH_carbon_ph_area_averaged [pH units] <- GLOBAL_OMI_HEALTH_carbon_ph_area_averaged_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf
+  ?                    [?] <- IBI_OMI_WMHE_mow_PUM.pdf
+  ?                    [?] <- INSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050_PUM.pdf
+  EWCT_UNCERTAINTY     [m/s] <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_PUM.pdf
+  NSCT_UNCERTAINTY     [m/s] <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_PUM.pdf
+  DROGUE_TEST          [1] <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_PUM.pdf
+  EWCT_QC              [1] <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_PUM.pdf
+  NSCT_QC              [1] <- INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_PUM.pdf
+  drifter variables    [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_PUM.pdf
+  radar_total dimensions [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_PUM.pdf
+  ?                    [?] <- MEDSEA_ANALYSISFORECAST_BGC_006_014_PUM.pdf
+  ?                    [?] <- MEDSEA_MULTIYEAR_BGC_006_008_PUM.pdf
+  ?                    [?] <- MULTIOBS_GLO_BGC_CARBON_SURFACE_MYNRT_015_008_PUM.pdf
+  sargassum_index      [1] <- MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_PUM.pdf
+  tide_current_variables [?] <- MULTIOBS_GLO_PHY_MYNRT_015_003_PUM.pdf
+  light_attenuation    [m-1] <- NWSHELF_ANALYSISFORECAST_BGC_004_002_PUM.pdf
+  detided_surface_currents [?] <- NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf
+  ?                    [?] <- OCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202_PUM.pdf
+  ?                    [?] <- OCEANCOLOUR_GLO_BGC_L4_NRT_009_102_PUM.pdf
+  BSRCI                [dimensionless] <- OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index_PUM.pdf
+  area_averaged_anomalies [m] <- OMI_CLIMATE_SL_EUROPE_area_averaged_anomalies_PUM.pdf
+  area_averaged_anomalies [m] <- OMI_CLIMATE_SL_GLOBAL_regional_trends_PUM.pdf
+  regional_trends      [m/yr] <- OMI_CLIMATE_SL_GLOBAL_regional_trends_PUM.pdf
+  area_averaged_anomalies [m] <- OMI_CLIMATE_SL_NORTHWESTSHELF_area_averaged_anomalies_PUM.pdf
+  slev_mean_and_anomaly_obs [m] <- OMI_EXTREME_SL_BALTIC_slev_mean_and_anomaly_obs_PUM.pdf
+  slev_mean_and_anomaly_obs [m] <- OMI_EXTREME_SL_IBI_slev_mean_and_anomaly_obs_PUM.pdf
+  slev_mean_and_anomaly_obs [m] <- OMI_EXTREME_SL_NORTHWESTSHELF_slev_mean_and_anomaly_obs_PUM.pdf
+  SIType               [?] <- SEAICE_GLO_PHY_L4_NRT_011_014_PUM.pdf
+  coccolithophores     [cells/m^3] <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+  CaCO3                [mol/m^3] <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+  detritus_sinking_speed [m/day] <- ARCTIC_ANALYSISFORECAST_BGC_002_004_QUID.pdf
+  ?                    [m] <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_QUID.pdf
+  ?                    [m, rad] <- ARCTIC_ANALYSISFORECAST_PHY_TIDE_002_015_QUID.pdf
+  CIL                  [°C] <- BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf
+  ?                    [degC, PSU, m, mg/m^3, umol/kg, umol/kg, umol/kg, ml/l] <- INSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034_QUID.pdf
+  drifter              [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf
+  radar_total          [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf
+  radar_radial         [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf
+  argo                 [?] <- INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf
+  ?                    [degC, PSU, m, mg/m^3, umol/kg, umol/kg, umol/kg, ml/l] <- INSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033_QUID.pdf
+  ?                    [degC] <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_QUID.pdf
+  ?                    [PSU] <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_QUID.pdf
+  ?                    [m] <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_QUID.pdf
+  ?                    [m/s] <- INSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035_QUID.pdf
+  Hc,max               [m] <- MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf
+  NFAI                 [?] <- MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_QUID.pdf
+  MCI                  [?] <- MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_QUID.pdf
+  FAIA                 [?] <- MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_QUID.pdf
+  Geostrophy           [?] <- MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf
+  Mixed Layer Depth (MLD) [m] <- MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf
+  Wind datasets        [m/s] <- MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf
+  Current from tide    [m/s] <- MULTIOBS_GLO_PHY_MYNRT_015_003_QUID.pdf
+  ?                    [Sverdrups (1 Sv = 10^6 m3s^-1)] <- OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged_QUID.pdf
+  ?                    [Sverdrups (1 Sv = 10^6 m3s^-1)] <- OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged_QUID.pdf
+  sea-ice area and volume transport [km^2 month^-1 for area; km^3 month^-1 for volume] <- OMI_CLIMATE_SI_ARCTIC_transport_QUID.pdf
+  density_threshold    [kg/m3] <- OMI_EXTREME_WMF_MEDSEA_area_averaged_mean_QUID.pdf
+  CYANOBLOOM           [?] <- OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage_QUID.pdf
+  omi_health_chl_global_oceanclour_trend [% year^-1] <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_QUID.pdf
+  omi_health_chl_global_oceancolour_area_averaged_anomaly [log10(chlorophyll concentration)] <- OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_QUID.pdf
+  dissolved_oxygen     [mMol] <- OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_sto2tz_gotland_QUID.pdf
+  mean_dynamic_topography_height [m] <- SEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067_QUID.pdf
+  2D spectral data     [?] <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_QUID.pdf
+  Partition mask       [?] <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_QUID.pdf
+  Hs, direction, wavelength [m, s, degree] <- WAVE_GLO_PHY_SPC_L3_NRT_014_009_QUID.pdf
+  ?                    [?] <- ECMWF_forecast_datasets.md
+  ?                    [?] <- ECMWF_open_data.md
+  ?                    [?] <- ECMWF_wave_products.md
+  ?                    [?] <- ECMWF_wave_products.md
+  ?                    [?] <- IFS_CY45R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY45R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY45R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY46R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY46R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY46R1_Part-VII_Wave-Model.pdf
+  ?                    [?] <- IFS_CY46R1_Part-VII_Wave-Model.pdf
+  T2m                  [K] <- IFS_CY49R1_Part-I_Observations.pdf
+  varno                [?] <- IFS_CY49R1_Part-I_Observations.pdf
+  NVAR                 [?] <- IFS_CY49R1_Part-I_Observations.pdf
+  ?                    [?] <- IFS_CY49R1_Part-VII_Wave-Model.pdf
+  TID                  [?] <- GEBCO_2021_grid_docs.md
+  ?                    [?] <- IHO-IOC_GEBCO_CookBook_2019.pdf
+  synoptic_performance [?] <- GFSv16_SOO_evaluation.pdf
+  soundings            [?] <- GFSv16_SOO_evaluation.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  ?                    [?] <- ON442_GFS_atmospheric_model.pdf
+  RHSU, RHSV, RHST     [m/s/s, m/s/s, degC/s] <- ON462_semi_lagrangian_equations.pdf
+  ice analysis data    [?] <- TIN_GFS_2014.pdf
+  radiance data        [?] <- TIN_GFS_2014.pdf
+  TRi                  [?] <- halliwell_giss.pdf
+  ?                    [degC] <- halliwell_ice.pdf
+  ?                    [W/m^2] <- halliwell_ice.pdf
+  ?                    [degC] <- halliwell_ice.pdf
+  ?                    [m] <- halliwell_ktc.pdf
+  ?                    [degC] <- halliwell_ktc.pdf
+  ?                    [psu] <- halliwell_ktc.pdf
+  ?                    [kg/m^3] <- halliwell_ktc.pdf
+  ?                    [W/m^2] <- halliwell_surface.pdf
+  ?                    [kg/m^2/s] <- halliwell_surface.pdf
+  ?                    [W/m^2] <- halliwell_surface.pdf
+  ?                    [degC] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [psu] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m/s] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [Pa] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [1] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m/s] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [s] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [degree] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [m] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [1/s] <- wallcraft_HYCOM_2.1.03_code.pdf
+  ?                    [?] <- wallcraft_HYCOM_2.1.03_model_devel.pdf
+  ?                    [W/m^2] <- ICON_land.md
+  ?                    [kg/m^2/s] <- ICON_land.md
+  ?                    [N/m^2] <- ICON_land.md
+  ?                    [?] <- ICON_quickstart.md
+  ?                    [?] <- Reports_on_ICON_2021_07.pdf
+
+───────────────────────────────────────────────────────────────────────────
+THERMODYNAMIC FAMILIES FOUND
+───────────────────────────────────────────────────────────────────────────
+  density: in_situ, potential, potential (density)
+  other: potential
+  salinity: absolute, practical
+  temperature: conservative, in_situ, potential
+  temperature | salinity | depth | chlorophyll_a | nitrate | phosphate | silicate | dissolved_oxygen: practical | not_applicable
+  velocity | temperature | pressure | moisture | tracer: potential | not_applicable
+
+───────────────────────────────────────────────────────────────────────────
+SUMMARY
+───────────────────────────────────────────────────────────────────────────
+  Unique CF standard_names: 299
+  Multi-source (fallback OK): 138
+  Single-source: 161
+  Unresolved: 149
+  Thermodynamic incompatibilities: 51
+
+===========================================================================

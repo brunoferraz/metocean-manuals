@@ -1,0 +1,99 @@
+{
+  "doc_id": "7191e0dc5ecdcebd",
+  "legacy_doc_id": "bb385ccf7ef8",
+  "filename": "OCEANCOLOUR_BAL_BGC_L3_MY_009_133_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OCEANCOLOUR_BAL_BGC_L3_MY_009_133_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.6,
+  "pages": 39,
+  "text_preview": " \n \n  \n \n  \nOcean Colour Production Centre \n \nBaltic Sea Observation Products \nOCEANCOLOUR_BAL_BGC_L3_NRT_009_131 \nOCEANCOLOUR_BAL_BGC_L4_NRT_009_132 \nOCEANCOLOUR_BAL_BGC_L3_MY_009_133 \nOCEANCOLOUR_BAL_BGC_L4_MY_009_134 \n \n Issue: 2.0 \nContributors: V.E. Brando, L. Gonzalez Vilas, A. Di Cicco, M. Sammartino, S. Colella, D D’Alimonte, T. Kajiyama, \nS. Kaitala, J. Attila \n \n \n \n \nApproval date by the CMEMS product quality coordination team: 23/04/2025 \n \n \n \n \n \n  \n \n \n \nQUID for the OC TAC Products \nBaltic Sea Observation \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-131to134  \n15July 2024 \n2.0 \n \n     Page 2/ 39 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated and a row is added to this \ntable.  The third column specifies which sections or sub-sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Checked By \n1.0 30/08/2022  First version of document  \nMerge of CMEMS-OC-QUID-\n009-131to132_v1.0 and \nCMEMS-OC-QUID-009-\n133to134_v1.0 in this \ndocument. \nNew product 009-134 \nUpdates for EIS November 2022 \nfor all products \nV.E. Brando, L. \nGonzalez Vilas, A. Di \nCicco, M. \nSammartino, S. \nColella, D \nD’Alimonte, T. \nKajiyama, S. Kaitala, \nJ. Attila \nA. Mangin, S. \nSathyendranath,  \n1.1 13/01/2023 II.3 Better explanation about \nProduction temporal coverage  \nV.E. Brando, L. \nGonzalez Vilas, A. Di \nCicco, M. \nSammartino, S. \nColella, D \nD’Alimonte, T. \nKajiyama, S. Kaitala, \nJ. Attila \nV.E. Brando \n2.0 15/07/ 2024 all Updates for EIS November 2024 V.E. Brando, L. \nGonzalez Vilas, A. Di \nCicco, M. \nSammartino, S. \nColella, D \nD’Alimonte, T. \nKajiyama, S. Kaitala, \nJ. Attila \nV.E. Brando \n  \n \n \nQUID for the OC TAC Products \nBaltic Sea Observation \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-131to134  \n15July 2024 \n2.0 \n \n     Page 3/ 39 \nTABLE OF CONTENTS \n \nI EXECUTIVE SUMMARY 4 \nI.1 Products covered by this document 4 \nI.2 Summary of the results 5 \nI.3 Estimated Accuracy Numbers 6 \nII PRODUCTION SYSTEM DESCRIPTION 7 \nII.1 Production Centre: Ocean Colour (OC) TAC 7 \nII.2 Production subsystem: OC-CNR-ROME-IT 7 \nII.3 Production temporal coverage 7 \nII.4 Production chain 8 \nII.4.1 Level-3 (L3) remote-sensing reflectances 8 \nII.4.1.1 OLCI remote-sensing reflectances 8 \nII.5 Multi-sensor remote-sensing reflectances 9 \nII.6 Chlorophyll algorithm 9 \nII.6.1 Background ensemble scheme 9 \n Regional chlorophyll algorithm: generalized 10 \nII.7 ensemble scheme to combine Chl-a obtained with different MLPs 10 \nII.7.1 Elements underlying operational applications of the CDF ensemble for the Chl-a \nretrieval in the Baltic Sea 14 \nII.7.2 PFT/PSC algorithm 16 \nII.7.3 Cyanobacterial subsurface and surface summer blooms 19 \nIII VALIDATION FRAMEWORK 20 \nIII.1 Offline Validation 20 \nIV VALIDATION RESULTS 25 \nIV.1 Remote Sensing Reflectance 25 \nIV.2 NRT and MY OLCI datasets  25 \nIV.2.1 MY multi-sensor datasets 27 \nIV.3 CHL 28 \nIV.4 PFT/PSC 29 \nV SYSTEM’S NOTICEABLE EVENTS, OUTAGES OR CHANGES 34 \nVI QUALITY CHANGES SINCE PREVIOUS VERSION 35 \nVII REFERENCES 36 \n \n \n  \n \n \nQUID for the OC TAC Products \nBaltic Sea Observation \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-131to134  \n15July 2024 \n2.0 \n \n     Page 4/ 39 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document covers the Copernicus Marine Service Baltic (BAL) regional observation datasets for the  \nnear-real time (NRT) and reprocessed  (MY) products. Table 1 show the list of products available \nthrough the Ocean Colour Thematic Assembly Centre (OCTAC) of the Copernicus Marine Service  \n(CMEMS), the scientific validation of which is provided in this document.  \nThe BAL chlorophyll-a and the water reflectance datasets based on Sentinel -3 OLCI at ~300m spatial \nresolution are produced both in NRT and in MY  (from 2016 onwards) based on the EUMETSAT OLCI \nV3.0.1 reprocessing completed in 2022 as the daily Level-3 (L3) and monthly Level 4 (L4) (Table 1, Table \n2). \nThe BAL 1997-2023 reprocessed MY time series includes surface chlorophyll concentration (CHL), both \nas daily L3 and monthly L4, and daily L3 remote-sensing reflectances (Rrs)  at ~1 km spatial resolution \n(Table 1, Table 2). This subset of remote sensing reflectances (bands 412-443-490-510-555-670) were \ndirectly extracted from ESA OC-CCI (European Space Agency Ocean Colour Climate Change Initiative)  \nRrs input daily composites, provided for Copernicus Marine Service by the Plymouth Marine \nLaboratory (PML), which uses the OC-CCI processor (version 6.01) to merge at high resolution MERIS, \nMODIS-AQUA, SeaWiFS, VIIRS and OLCI data. These data are remapped over the Baltic grid and \nrepacked for complianc e with the CMEMS format standards. The global quality information of the \ninput data is presented in OC-CCI global MY QUID (CMEMS-OC-QUID-009-107to1082). \n \nTable 1: List of products for which the scientific validation info is provided in this document  \nEPST name (OC-CNR-ROME-IT) Zon",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document provides a quality information document (QUID) for Baltic Sea observation products from the Ocean Colour Thematic Assembly Centre of the Copernicus Marine Service, covering near-real time and reprocessed datasets.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OCEANCOLOUR_BAL_BGC_L3_MY_009_133",
+      "name": "Baltic Sea Ocean Colour Observation Products",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "OCEANCOLOUR_BAL_BGC_L3_MY_009_133",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll-a",
+        "cf_standard_name": "chl_a",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "remote-sensing reflectance",
+        "cf_standard_name": "water_leaving_radiance",
+        "long_name": "Remote sensing reflectances at 412-443-490-510-555-670 nm",
+        "unit": "sr^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "~1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -20.0,
+        "lon_max": 25.0,
+        "lat_min": 54.0,
+        "lat_max": 67.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2972,
+  "_tokens_out": 688,
+  "_eval_s": 5.35
+}

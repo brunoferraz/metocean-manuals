@@ -1,0 +1,111 @@
+{
+  "doc_id": "0a6d3f90d04ac5d9",
+  "legacy_doc_id": "86b124565bf2",
+  "filename": "BALTICSEA_ANALYSISFORECAST_WAV_003_010_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BALTICSEA_ANALYSISFORECAST_WAV_003_010_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.46,
+  "pages": 25,
+  "text_preview": " \n  \nBaltic Sea Production Centre \nBALTICSEA_ANALYSISFORECAST_WAV_003_010 \n \n \n Issue: 2.4 \nContributors: : Hedi Kanarik, Laura Tuomi \n \nApproval date by the CMEMS product quality coordination team: 11/11/2024 \n \n \n \n \n  \n \n\nQUID for BAL MFC Products \nBALTICSEA_ANALYSISFORECAST_WAV_003_010 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-010 \nOctober 2024 \n2.4 \n \n \n                                                      Page 2/ 25 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \n \n \nIssue Date § Description of Change Author Validated By \n1.0 January \n2017 \nAll Creation of the \ndocument \nLaura Tuomi, Olga \nVähä-Piikkiö, Victor \nAlari \nLaura Tuomi, A. Melet \n1.1 January \n2018 \nL,III,IV,V Updated to describe the \nquality of V4 upgrade \nOlga Vähä -Piikkiö, \nLaura Tuomi \nMercator Oceàn \n2.0 April 2019 L,III,IV,V Updated to describe the \nquality of the EIS July \n2019 upgrade \nOlga Vähä -Piikkiö, \nLaura Tuomi, \nVibeke Huess \nMercator Oceàn \n2.1 September \n2020 \nL,III,IV,V Updated to describe the \nquality of the EIS \nDecember 2020 upgrade \nOlga Vähä -Piikkiö, \nLaura Tuomi \nVibeke Huess  \n2.2 September \n2022 \nL,III,IV,V \n \nUpdated to describe the \nquality of the EIS \nNovember 2022 \nHedi Kanarik,  \nLaura Tuomi \nVibeke Huess \n2.3 September \n2023 \nI, II, III, \nIV, V, VI \nUpdated to describe the \nquality of the EIS \nNovember 2023 \nHedi Kanarik  \nLaura Tuomi \nVibeke Huess \n2.4 May 2024  \n& October \n2024 \nI,II, III, V Updated to describe \nforecast length extension \nand dataset names \nHedi Kanarik Vibeke Huess \n \n \n  \nQUID for BAL MFC Products \nBALTICSEA_ANALYSISFORECAST_WAV_003_010 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-010 \nOctober 2024 \n2.4 \n \n \n                                                      Page 3/ 25 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nIII Validation framework ................................................................................................................................. 9 \nIII.2 Wave in-situ measurement sites ............................................................................................................ 11 \nIII.3 Wave altimeter measurements .............................................................................................................. 12 \nIV Validation results ...................................................................................................................................... 13 \nI.1 Significant wave height .................................................................................................................... 13 \nI.2 Wave period at spectral peak ........................................................................................................... 15 \nI.3 Mean wave period ........................................................................................................................... 18 \nV System’s Noticeable events, outages or changes ...................................................................................... 19 \nVI Quality changes since previous version ..................................................................................................... 20 \nVII References ............................................................................................................................................ 21 \nAppendix 1 Scatter plots of Significant wave height For Qualification Period 01/2020-12/2021 ....................... 22 \nAppendix 2 Scatter plots of PeaK WAVE PERIOD For Qualification Period 01/2020-12/2021 ............................. 24 \nAppendix 3 Scatter plots of MEAN WAVE PERIOD For Qualification Period 01/2020 -12/2021 ........................... 25 \nQUID for BAL MFC Products \nBALTICSEA_ANALYSISFORECAST_WAV_003_010 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-010 \nOctober 2024 \n2.4 \n \n \n                                                      Page 4/ 25 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThe aim of this Quality Information Document (QUID) is to qualify the product by a comprehensive \nvalidation against observ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Baltic Sea wave analysis and forecast products, detailing validation results, production system description, and changes in product quality over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_ANALYSISFORECAST_WAV_003_010",
+      "name": "Baltic Sea Wave Analysis and Forecast",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Baltic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "TP10",
+        "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_density_peak",
+        "long_name": "Wave period at spectral peak",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tm01",
+        "cf_standard_name": "sea_surface_wave_mean_period",
+        "long_name": "Mean wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 10,
+        "lon_max": 30,
+        "lat_min": 54,
+        "lat_max": 66
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

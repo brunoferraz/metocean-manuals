@@ -1,0 +1,167 @@
+{
+  "doc_id": "0b02da4957281d0f",
+  "legacy_doc_id": "cc06f8092136",
+  "filename": "GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_ANALYSISFORECAST_BGC_001_028_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 9.0,
+  "pages": 64,
+  "text_preview": "  \n \n \n \n \n \n  \nGlobal Production Center \nGLOBAL_ANALYSISFORECAST_BGC_001_028 \n \n \n Issue: 1.4 \nContributors: Julien Lamouroux, Coralie Perruche, Alexandre Mignot, Julien Paul, Camille Szczypta , Elodie \nGutknecht \nApproval date by the CMEMS product quality coordination team: 17/10/2025 \n \n \n \n \n  \n \n\nQUID for GLO MFC Products \nGLOBAL_ANALYSISFORECAST_BGC_001_028 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-028 \n30 May 2025 \n1.4 \n \n                                                      Page 2/ 64 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.  The \nthird column specifies which sections, or sub-sections have been updated.  The fourth column should \nmention the version of the product to which the change applies.  \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 April 2019 All Creation of the document J. Lamouroux M. Drevillon \n1.1 September \n2022 I.1, I.2 Update with DIC and Alk mentions J. Lamouroux M. Drevillon \n1.1 September \n2022 III \nAddition of a mention of GLODAPv2 \nclimatologies of DIC and Alk \nAddition of a mention of Taylor Diagram \nJ. Lamouroux M. Drevillon \n1.1 September \n2022 IV.1.11 New paragraph for validation of DIC J. Lamouroux M. Drevillon \n1.1 September \n2022 IV.1.12 New paragraph for validation of Alkalinity J. Lamouroux M. Drevillon \n1.1 September \n2022 VI Addition of Bittig et al (2018) in References J. Lamouroux M. Drevillon \n1.2 June 2023 I.2, III, V \nSection added on diffusive attenuation \ncoefficient of light in sea water (Kd), in \nsection I.2 \nAdded Kd490 reference product/dataset \nfor model Kd validation, in section III \nAdded a subsection “V.1.1 Update of \ndynamical forcing: impact on the BGC \nmodel”, in section V \nJ. Lamouroux M. Drevillon \n1.3 May 2024 I.2,IV.14 Section added IV.14 on biomass of \nZooplankton J. Lamouroux M. Drevillon \n1.3 Sept. 2024 All Update of template + details added on \nsome descriptions J. Lamouroux M. Drevillon \n1.4 May 2025 V.1.2 \nSection added V.1.2 “Weekly to daily 10-\nday forecast: impact on the quality of \nforecasted fields” \nJ. Lamouroux M. Drevillon \n \n  \nQUID for GLO MFC Products \nGLOBAL_ANALYSISFORECAST_BGC_001_028 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-028 \n30 May 2025 \n1.4 \n \n                                                      Page 3/ 64 \nTABLE OF CONTENTS \nI Executive Summary ....................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results ............................................................................................................................... 4 \nI.3 Estimated Accuracy Numbers .................................................................................................................... 5 \nII Production Subsystem description ................................................................................................................ 8 \nII.1 Biogeochemical model PISCES ................................................................................................................ 8 \nII.2 Description of Data Assimilation scheme .............................................................................................. 10 \nII.3 Physical model NEMO ............................................................................................................................ 11 \nIII Validation framework ............................................................................................................................. 12 \nIV Validation results ......................................................................................................................................... 14 \nIV.1 Chlorophyll ............................................................................................................................................. 14 \nIV.1.1 Climatological biases .................................................................................................................. 14 \nIV.1.2 Seasonal cycle and its interannual variability ............................................................................. 19 \nIV.1.3 Vertical distribution of chlorophyll............................................................................................. 23 \nIV.2 Nitrate ..................................................................................................................................................... 25 \nIV.2.1 Comparison to WOA-13 climatology and BATS station ............................................................ 25 \nIV.2.2 Comparison to BGC-Argo data .................................................................................................. 28 \nIV.3 Phosphate ...............................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the GLOBAL_ANALYSISFORECAST_BGC_001_028 product, detailing its production subsystems, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_ANALYSISFORECAST_BGC_001_028",
+      "name": "Global Biogeochemical Analysis and Forecast",
+      "model_name": "PISCES, NEMO",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll",
+        "cf_standard_name": "chl",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate",
+        "cf_standard_name": "no3",
+        "long_name": "Nitrate concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate",
+        "cf_standard_name": "po4",
+        "long_name": "Phosphate concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DIC",
+        "cf_standard_name": "total_carbon_dioxide_concentration",
+        "long_name": "Dissolved Inorganic Carbon concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Alk",
+        "cf_standard_name": "total_alkalinity_concentration",
+        "long_name": "Total Alkalinity concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Kd490",
+        "cf_standard_name": "diffuse_attenuation_coefficient_of_downwelling_photosynthetically_active_radiation_in_sea_water",
+        "long_name": "Diffusive attenuation coefficient of light in sea water at 490nm",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton_biomass",
+        "cf_standard_name": "zooplankton_biomass_concentration",
+        "long_name": "Zooplankton biomass concentration",
+        "unit": "g/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0.02,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,226 @@
+{
+  "doc_id": "8f4d81a03968ec7e",
+  "legacy_doc_id": "b8d0cc9fa2d1",
+  "filename": "NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/NWSHELF_ANALYSISFORECAST_PHY_004_013_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.3,
+  "pages": 77,
+  "text_preview": "   \n \n \n \n \n \n  \nNorth West European Shelf Production Centre \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \n \n \n Issue: 3.0 \nContributors: Jonathan Tinker, Robert King, Niall McConnell, Christine Pequignet, Peter Sykes, Thorger Brüning, \nSimon Good, Susan Kay, Daniel Lea, Matthew Martin, Andrea Rochner, Andrew Saulter, Christopher Stokes. \nApproval date by the Copernicus Marine Service product quality coordination team: 04/11/2025 \n \n \n \n \n  \n \n\nQUID for NWS MFC Products \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-013 \n28 May 2025 \n3.0 \n \n \nPage 2/77 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 12/09/2018 All First release M. Tonani, C. \nPequignet, R. King, P. \nSykes, N. McConnell, J. \nSiddorn \nJ. Polton and I. \nGolbeck \n   Review  Mercator Ocean \n1.1 06/02/2019  Small corrections M. Tonani  \n 25/04/2019  Review  Mercator Ocean \n1.2 29/08/2019  Small corrections and updated \nreference \nM. Tonani I. Ascione \n 11/10/19  Review  Mercator Ocean \n1.3 10/09/2020  Science Update – Coupled Ocean-Wave \nModel. \nAddition of IV.9 SST forecast skills \nsection. \nM. Tonani, D. \nBruciaferri \nI. Ascione \n1.4 03/09/2021 VI.1.1 Addition of the reference of a scientific \npublication \nM. Tonani I. Ascione \n1.5 31/01/2022 IV.7.I \nV \nBoundary conditions upgrade and \nforcing update \nA. Saulter, I. Ascione, P. \nSykes, N. McConnell \nA. Saulter \n2.0  31/07/2023  All  [EIS September 2023] Complete system \nupdate implying changes of the \nmodelling system configuration and \nresolution.  \nB. Levier, G. Reffray, R. \nEscudier, E. Gutknecht, \nS. Ciliberti, A. Amo, R. \nAznar  \nS. Cailleau and \nM. G. Sotillo  \n2.1  30/05/2024  Added \nIV.1.3  \n[EIS November 2024]  \nAddition of new variables: vertical \nvelocity and de-tided SSH and surface \nB. Levier, G. Reffray, R. \nEscudier, E. Gutknecht, \nS. Ciliberti, R. Aznar  \nS. Cailleau and \nM.G. Sotillo  \nQUID for NWS MFC Products \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-013 \n28 May 2025 \n3.0 \n \n \nPage 3/77 \nIssue Date § Description of Change Author Validated By \nUV using Doodson filter. Extension of \nthe forecast duration from 5 to 10 days.  \n3.0 28/05/2025 All Updating for re-entry into service. \nNovember EiS 2025 \nJ. Tinker, R. King, N. \nMcConnell, C. \nPequignet, P. Sykes, T. \nBrüning, S. Good, S. \nKay, D. Lea, M. Martin, \nA. Rochner, A. Saulter, \nK. Stokes.  \nA.Kumar and \nT.Brüning \n \n \n \n \n \n  \nQUID for NWS MFC Products \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-013 \n28 May 2025 \n3.0 \n \n \nPage 4/77 \nACRONYM TABLE \n \nAcronym Description \nAMSR2 Advanced Microwave Scanning Radiometer \nAVHRR Advanced Very High Resolution Radiometer \nArgo International profiling float network (www.argo.net) \nCTD CTD refers to an electronic device equipped with sensors that \nmeasure Conductivity, Temperature, and Depth \nDJF December, January, February – Meteorological winter. \nEAN Estimated Accuracy Number \nEiS Enter into Service \nEOF Extended Orthogonal Function \nERSEM European Regional Seas Ecosystem Model Biogeochemistry model \n(Butenschön et al., 2016). \nGHRSST Group for High-Resolution Sea Surface Temperature \nwww.ghrsst.org \nICES International Council for the Exploration of the Sea \nJJA June, July, August – Meteorological summer. \nMAM March, April, May – Meteorological spring. \nMDS Marine Data Store \nMLD Mixed Layer Depth \nMY Multi-year \nNBS Near (sea) Bed Salinity \nNBT Near (sea) Bed Temperature \nNRT Near Real Time \nNWS-IBI The NWS-MFC system run by the IBI-MFC from 2023-2025 \nPUM Product User Manual \nREP Reprocessing \nRMSD Root Mean Square Difference \nSEVIRI Spinning Enhanced Visible Infra-Red Imager \nSLA Sea Level Anomaly \nSLSTR Sea and Land Surface Temperature Radiometer \nSON September, October, November – Meteorological autumn. \nSSH Sea Surface Height \nSSS Sea Surface Salinity \nSST Sea Surface Temperature \nT4m  Temperature at 4m depth \nQUID for NWS MFC Products \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-013 \n28 May 2025 \n3.0 \n \n \nPage 5/77 \nAcronym Description \n \nTAC Copernicus Marine Service Thematic Assembly Centre \nUM Unified Model - the Met Office weather and atmospheric model \nVIIRS Visible Infrared Imager Radiometer Suite \nXBT Expendable Bathythermograph \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for North West European Shelf MFC products, detailing updates and changes to the product specifications as of May 28, 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_ANALYSISFORECAST_PHY_004_013",
+      "name": "North West European Shelf Analysis and Forecast Products",
+      "model_name": "NEMO v4.2.2 | NEMO",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": null,
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0.0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": null,
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": null,
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "u_velocity",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v_velocity"
+      },
+      {
+        "native_name": "v_velocity",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "u_velocity"
+      },
+      {
+        "native_name": "ssh",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": null,
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sss",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": null,
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": null,
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos_detided",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": null,
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "v_velocity_detided",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_1d": false,
+        "is_vector_component": true,
+        "vector_pair": "u_velocity_detided"
+      },
+      {
+        "native_name": "u_velocity_detided",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "v_velocity_detided"
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 10,
+        "lat_min": 49,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0.0,
+      "depth_max_m": 1000.0
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2853,
+  "_tokens_out": 1485,
+  "_eval_s": 11.22
+}

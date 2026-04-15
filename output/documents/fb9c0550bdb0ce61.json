@@ -1,0 +1,83 @@
+{
+  "doc_id": "fb9c0550bdb0ce61",
+  "legacy_doc_id": "78171e2a3b75",
+  "filename": "OMI_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.63,
+  "pages": 11,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : C Boone \nApproval Date: November 2025 \nFor North Pacific Gyre Oscillation \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla\n_eof_mode_projection \n  \nIssue: 4.0 \nQUALITY INFORMATION DOCUMENT \n\n \n \n \n2 Quality Information Document for \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-VAR_EXTREME-\nCLIMVAR-NPGO \nIssue 4.0 –November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2019/01/21 All Creation B. Tranchant MI Pujol \n1.1 2020/03/25 Ref Reference update J.-F. Legeais  \n1.2 2020/05/06 Ann\nex A \nAddition of the Ocean State \nReport #3, section 2.6 \nJ.-F. Legeais  \n2.0 2022/04/04 All Update template; typos C. Pegliasco MI Pujol \n2.1 2023/04/05  Update upstream products list MI Pujol MI Pujol \n \n3.0 \n2023/06/15  OMI nomenclature change \nUse « myint » dataset \nMI Pujol MI Pujol \n4.0 2025/05/28  Reprocessing DT2024 MI Pujol \n \nK Grassi \n \n \n \n3 Quality Information Document for \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-VAR_EXTREME-\nCLIMVAR-NPGO \nIssue 4.0 –November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................4 \nb) Indicator Evaluation Method ...........................................................................4 \nc) Copernicus Marine products used as input for the computation ................5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \n3) REFERENCES ....................................................................................................... 6 \n4) Annex ................................................................................................................ 8 \n  \n \n \n \n4 Quality Information Document for \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-VAR_EXTREME-\nCLIMVAR-NPGO \nIssue 4.0 –November 2025 \n1) INTRODUCTION \na) Product Name  \n \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection. \n \nb) Indicator Evaluation Method \n \nThe North Pacific Gyre Oscillation (NPGO) is a climate pattern introduced by Di \nLorenzo et al. (2008). The NPGO is defined as the second dominant mode of variability \nof Sea Surface Height (SSH) anomaly in Northeast Pacific (25°–62°N, 180°–250°E, see \nFigure 2 of Di Lorenzo et al. (2008). From the principal component analysis, the EOF’s \namplitude pattern or correlation map has been inferred and projected on the SSH \nanomalies from an historical eddy-permitting model hindcast of the Northeast Pacific \nover the period 1950-2004. \nFrom 2004 onward, the CMEMS NPGO index OMI is derived from the last version (DT-\n2024, see https://catalogue.marine.copernicus.eu/documents/QUID/CMEMS-SL-QUID-\n008-032-068.pdf) of the reprocessed altimeter sea level delayed-time record \n(SEALEVEL_GLO_PHY_L4_MY_008_047) and from the near real time altimeter sea level \n(SEALEVEL_GLO_PHY_L4_NRT _008_046).  \nSea level change time series have a strong seasonal signal and long-term trend. The \naltimeter data record is used from year 1993 to fit a model on annual, semi-annual sea \nlevel variability, and linear trend changes. This model is then used to remove these \nsignals on each grid points of the altimeter map series. The temporal variations \ncorresponding to the NPGO EOF mode are deduced from the series of sea level grid \nobtained. The NPGO index obtained is centered and normalized to fit with the Di \nLorenzo index (Di Lorenzo et al., 2008), over the [1993, 2003] period. Finally, NPGO \nindex deduced from altimetry in completed with historical index from Di Lorenzo et al \n(2008) from 2004 downward.  \n \nA detailed description of the North Pacific Gyre Oscillation index has been provided \nby Tranchant et al. (2019) in section 2.6 of the CMEMS Ocean State Report #3 and this \nsection is included in Erreur ! Source du renvoi introuvable. of this document. \n \n \n \n \n5 Quality Information Document for \nOMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_pr",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the evaluation method for the OMI_VAR_EXTREME_CLIMVAR_PACIFIC_npgo_sla_eof_mode_projection product, focusing on the North Pacific Gyre Oscillation (NPGO) index derived from altimeter sea level data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Northeast Pacific",
+      "product_types": [
+        "hindcast",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEALEVEL_GLO_PHY_L4_MY_008_047",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sla",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level_anomaly",
+        "long_name": "Sea Level Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 25,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

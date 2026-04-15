@@ -1,0 +1,85 @@
+{
+  "doc_id": "13c17a16fb5d364f",
+  "legacy_doc_id": "382a965c4b25",
+  "filename": "ARCTIC_OMI_SI_extent_obs_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_OMI_SI_extent_obs_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.32,
+  "pages": 6,
+  "text_preview": " \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nSEAICE EXTENT INDICATOR \nARCTIC_OMI_SI_extent \nANTARCTIC_OMI_SI_extent  \n \n Issue: 2.1 \nContributors: Thomas Lavergne, Signe Aaboe, Cecilie Wettre \nApproval date by the CMEMS product quality coordination team: November 2025 \n \n \n \n \n  \n \nQUID for CMEMS OMIs: SIE Ref: \nDate: \nIssue: \n      OMI_SI_extent \n11/2025 \nV2.1 \n \n \n     Page 2/ 6 \nI CHANGE RECORD \nWhen the quality of the products changes, the QuID  is updated and a row is added to this table.  The third \ncolumn specifies which sections or sub-sections have been updated.  The fourth column should mention the \nversion of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 25.01.2018 all First draft version \nextracted from CMEMS -\nTARGETED-OSI-QUID-002-\nV1.2 \nC. Wettre T. Lavergne \n2.0 12.04.2019 all Revision for updated OMI \nthat now covers Arctic and \nAntarctic, and is based on \nOSI SAF OSI -450 and OSI -\n430-b \nT. Lavergne C. Wettre \n2.1 25.08.2023 All New version of the OMI , \nbased on the OSI SAF Sea \nIce Index (OSI -420) v2.2, \nitself derived from SIC CDR \nv3 (OSI-430-a and OSI-430-\na) \nT. Lavergne C.Wettre \n \nProduct name: OMI_SI_extent \nDataset names: arctic_omi_si_extent, antarctic_omi_si_extent \nQUID for CMEMS OMIs: SIE Ref: \nDate: \nIssue: \n      OMI_SI_extent \n11/2025 \nV2.1 \n \n \n     Page 3/ 6 \nII INTRODUCTION \nThis document provides to CMEMS users information on the quality of the OMI monthly Sea Ice Extent (SIE) \nindex for the Arctic and Antarctic.  \nThe data are monthly averaged SIE values. They are extracted and reformatted from the OSI SAF Sea Ice Index \n(SII, OSI-420) v2.2 product. See the PUM for a description of the CMEMS OMI product and its relation to the \nOSI SAF SII. \nSIE is an integrated quantity and no ground-truth is available for its validation. It is here compared to a similar \nindicator from the US National Snow and Ice Data Center (NSIDC): the NSIDC Sea Ice Index (SII) v3. \n \nQUID for CMEMS OMIs: SIE Ref: \nDate: \nIssue: \n      OMI_SI_extent \n11/2025 \nV2.1 \n \n \n     Page 4/ 6 \nIII SCIENTIFIC VALIDATION \nAn evaluation of the monthly SIE values is documented in dedicated OSI SAF reports for the OSI SAF Sea Ice \nIndex v2.2, accessible from https://osi-saf.eumetsat.int/products/osi-420 \nIn summary, the SIE values from the OSI SAF are similar but not identical to those of NSIDC (stemming from \ndifferences in the processing of SIC maps). The OSI SAF values are in general larger than those of NSIDC, with \ndifferences reaching 0.5 millions km2 in Northern Hemisphere summer. Average differences in the Southern \nHemisphere are about 0.3 millions km2 in all months. The two time series agree in terms of SIE trends in both \nhemispheres, with the NSIDC data showing slightly larger relative trends than OSI SAF during summer, mostly \ndue to the early period in the time series (1979-1987). \nThe current OSI SAF sea ice index, version 2.3, is still in the demonstration stage, and preliminary quality \nassessments are available in the Product User Manual (PUM, version 1.3,  https://osi-\nsaf.eumetsat.int/products/osi-420). The official index product, version 3.0, is scheduled for review soon, with \nthe final versions of the validation report, PUM, and the Algorithm Theoretical Baseline Document (ATBD) \nexpected to be released in January 2026. Methodological details and comp lete validation results will be \ndocumented in these upcoming OSI SAF publications. \nQUID for CMEMS OMIs: SIE Ref: \nDate: \nIssue: \n      OMI_SI_extent \n11/2025 \nV2.1 \n \n \n     Page 5/ 6 \nIV QUALITY CHANGES SINCE PREVIOUS VERSION \nThis is the third version for the OMI SIE. \nThe second version was based on the OSI SAF Sea Ice Index v2.1, that was itself based on the OSI SAF SIC CDR \nv2 (OSI-450 and OSI-430-b). \nThe first version of the OMI had only coverage of the Northern Hemisphere, and was using an older version \nof the EUMETSAT OSI SAF sea-ice concentration data (OSI-409 and OSI-430). \nThe new version of the OMI delivered in CMEMS is of higher quality (in accuracy, coverage, and robustness) \nthan the previous versions. Compared to the second version, the new version is closer to the NSIDC values in \nthe Northern Hemisphere. \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Ocean Monitoring Indicator (OMI) for Sea Ice Extent (SIE) in the Arctic and Antarctic, providing details on its quality, validation, and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_OMI_SI_extent_obs_QUID.pdf",
+      "name": "Sea Ice Extent Indicator",
+      "model_name": null,
+      "region": "Arctic, Antarctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "arctic_omi_si_extent, antarctic_omi_si_extent",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "seaice_extent",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Monthly averaged Sea Ice Extent (SIE) values",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2500,
+  "_tokens_out": 503,
+  "_eval_s": 3.7
+}

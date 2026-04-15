@@ -1,0 +1,106 @@
+{
+  "doc_id": "3057e077b9264f75",
+  "legacy_doc_id": "0f68ddf9f0ee",
+  "filename": "GLOBAL_OMI_NATLANTIC_amoc_26N_profile_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_NATLANTIC_amoc_26N_profile_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.51,
+  "pages": 10,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nOMI_AMOC \nAtlantic meridional Overturning \nCirculation  \nGLOBAL_OMI_amoc_max26N_timeseries \nGLOBAL_OMI_amoc_26N_profile \n \nIssue 3.0 \n \n \nContributors: Olivier Le Galloudec \nApproval Date: November 2024 \n \nApproval Date: Nov. 2021 \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nOMI_AMOC \nIssue : 3.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-AMOC  \n2 \n \nRECORD TABLE \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2018/06/05 All Creation of the \ndocument \nLaura Jackson   \n2.0 2022/04/04 All Update of \ntemplate \nFlora Gues  Marie Drevillon \n3.0 2024/06/30 All Update with new \nproduct and \nextension year \n2023 \nOlivier Le Galloudec  Marie Drévillon \n       \n       \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_AMOC \nIssue : 3.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-AMOC  \n3 \nGLOSSARY AND ABBREVIATIONS \nMOI Mercator Ocean International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \nAMOC Atlantic Meridional Overturning Circulation \n \nCGLOR C-GLORSv7 reanalysis \n \nCMEMS Copernicus Marine Environment Monitoring Service \n \nGLO Global \n \nGLORYS GLORYS2V4 reanalysis \n \nORAS5 ORAS5 reanalysis \n \nGREP Global Reanalysis Ensemble Product \n \n \n \n \n \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_AMOC \nIssue : 3.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-AMOC  \n4 \nTable of Content \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 6 \nII.1. General information ......................................................................................... 7 \nII.2. Details of datasets ............................................................................................ 8 \nII.3. Product System Description ............................................................................. 9 \n GLOBAL_OMI_amoc_max26N_timeseries ..................................................... 9 \n GLOBAL_OMI_amoc_26N_profile ................................................................... 9 \nIV.1. Nomenclature of files .................................................................................. 10 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_AMOC \nIssue : 3.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-AMOC  \n5 \nDATA ACCESS \nAfter registration, you will be able to download our data. To assist you, our \nHelpCenter is available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our \nUser Notification Service. If you have any questions, please contact us. \n \n INTRODUCTION \nI.1. Summary \n \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator \n(OMI) OMI_AMOC : it provides time series of AMOC strength at 26.5oN, and time \nmean profiles of the AMOC at 26.5 oN. See QUID document for more details of \ncalculation. \nOMI_AMOC has two datasets :  \n•  GLOBAL_OMI_amoc_max26N_timeseries which contains monthly mean \ntime series of the AMOC strength calculated as the maximum in depth of \neach monthly profile at 26.5oN from 1993-2023 \n• GLOBAL_OMI_amoc_26N_profile which contains time mean (1993 -2023) \nprofiles of the AMOC at 26.5oN. Profiles are 1D (depth). \nThese data are computed using GLORYS, CGLOR and ORAS reanalysis (GREP1 ). \n \n \nThe product is published on the CMEMS dissemination server after automatic \nand delayed -mode quality controls. The produc t is available online and \ndisseminated through the CMEMS Information System. Files downloaded are in \nNetCDF format and follow CF-1.7 convention. \n \nDisclaimer: The quality of the product may vary during the proposed time series \ndepending on the possible update of the system. \n \nProducts  GLOBAL_OMI_amoc_max26N_timeseries and \nGLOBAL_OMI_amoc_26N_profile are described in the Quality Information \nDocument (QUID) CMEMS -QUID-OMI-amoc.pdf (CMEMS-QUID-OMI_amoc.pdf \n(copernicus.eu) ).  \n \n                                                      \n \n1 GLOBAL_MULTIYEAR_PHY_ENS_001_031 ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Ocean Monitoring Indicator OMI_AMOC, providing details on AMOC strength and profiles at 26.5oN from 1993-2023 using GLORYS, CGLOR, and ORAS reanalysis data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_OMI_amoc_max26N_timeseries | GLOBAL_OMI_amoc_26N_profile",
+      "name": "OMI_AMOC",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "reanalysis",
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "GLOBAL_OMI_amoc_max26N_timeseries",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "GLOBAL_OMI_amoc_26N_profile",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "AMOC_strength",
+        "cf_standard_name": "ocean_transport",
+        "long_name": "Atlantic Meridional Overturning Circulation strength at 26.5N",
+        "unit": "Sv",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "AMOC_profile",
+        "cf_standard_name": "ocean_transport",
+        "long_name": "Atlantic Meridional Overturning Circulation profile at 26.5N",
+        "unit": "Sv",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/4 degree",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -80,
+        "lon_max": 40,
+        "lat_min": 0,
+        "lat_max": 5
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2542,
+  "_tokens_out": 720,
+  "_eval_s": 5.3
+}

@@ -1,0 +1,138 @@
+{
+  "doc_id": "a7acc05de597638d",
+  "legacy_doc_id": "fa8bea45dd08",
+  "filename": "IBI_MULTIYEAR_PHY_005_002_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/IBI_MULTIYEAR_PHY_005_002_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 8.89,
+  "pages": 63,
+  "text_preview": " \n  \nAtlantic -Iberia Biscay Ireland- IBI Production Centre  \nIBI_MULTIYEAR_PHY_005_002 \n \n \n Issue: 6.0 \nContributors: Bruno Levier, Guillaume Reffray, Roland Aznar, Stefania Ciliberti, Marcos G. Sotillo, Sylvain Cailleau. \nApproval date by the Product Quality Coordination Team of the Copernicus Marine Service:23/10/2025 \n \n \n \n \n \n  \n \n\nQUID for IBI MFC Products \nIBI_MULTIYEAR_PHY_005_002 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-002 \n28 May 2025 \n6.0 \n \n \n                                                      Page 2/ 63 \n  CHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated. The fourth column should \nmention the version of the product to which the change applies.  \n \nIssue Date § Description of Change Author Validated By \n0.0 \n \n06/05/2014 \n \nAll \n \nCreation of the document \n \nBruno Levier, \nMarcos G. Sotillo, \nGuillaume Reffray \n \n \n0.1 07/05/2014 \n \nAll Update with High-Frequency \nCLASS2 metrics from the \nvalidation with data from PdE \nmoorings   \nMarcos G. Sotillo, \nRoland Aznar \n \n1.0 12/05/2014 All Minor changes. Bruno Levier, \nMarcos G. Sotillo \nEnrique  \nAlvarez Fanjul \n1.1  01/05/2015 All Change format to fit CMEMS \ngraphical rules \n Laurence \nCrosnier \n2.0 14/12/2015 All Inclusion of new metrics \nconsidering temporal extension: \n2012-2014. \nBruno Levier, \nMarcos G. Sotillo \nEnrique \nÁlvarez Fanjul \n3.0 15/12/2017 All New IBI reanalysis set-up and \nrun. Associated to the CMEMS \nV4 release.  \nBruno Levier, \nPablo Lorente, \nMarcos G. Sotillo \n \n4.0 15/02/2018 All [CMEMS IBI-V4] New release of \nthe system: 1992-2016. \n  \n4.1 15/02/2019 All [CMEMS Apr 2019] Update of \nthe MY Product: \n- Extension of the temporal \ncoverage until year 2017. \n- Including re-run of years 2014 \nto 2016. \n  \n4.2 15/04/2019 All [CMEMS Jul 2019] Extension of \nthe reanalysis: \n-2018 produced \n-years 2014 to 2017 re-run \n  \n4.3 03/04/2020  [CMEMS Jul 2020] Extension of \nthe reanalysis:  \n- 2019 produced. \n- Impact of ERA5 atmospheric \nforcing. \n- New Interim temporal \nextension. \nBruno Levier, \nRoland Aznar \n \n \n \n \nQUID for IBI MFC Products \nIBI_MULTIYEAR_PHY_005_002 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-002 \n28 May 2025 \n6.0 \n \n \n                                                      Page 3/ 63 \n \n \nIssue Date § Description of Change Author Validated By \n5.0 10/09/2020  [CMEMS Dec 2020] New \nreanalysis product (update of the \nwhole catalogue): 1993-2019. \nModification of product/datasets \nnames following new \nconvention. \nBruno Levier, \nRoland Aznar \n \n5.1 16/06/2022  [EIS Nov 2022] Extension of the \nreanalysis:  from 11/10/2019 to \n2020/12/28.  \nBruno Levier  \nGuillaume Reffray  \nMarcos G. Sotillo \n5.2 30/06/2024  [EIS Nov 2024] Extension of the \nreanalysis from 28/12/2021 to \n31/12/2023. Launch of the \nINTERIM production from Jan \n2024. Including information \nabout the validation of Air-Sea \nFluxes. \nBruno Levier, \nGuillaume \nReffray, \nRoland Aznar, \nStefania Ciliberti \nSylvain Cailleau \n6.0 28/05/2025 All [EIS Nov 2025] New reanalysis \nproduct (update of the whole \ncatalogue): 1993-2023. \nBruno Levier, \nRomain Escudier, \nGuillaume \nReffray, \nRoland Aznar, \nStefania Ciliberti \nSylvain Cailleau, \nStefania Ciliberti \n \n \n \nQUID for IBI MFC Products \nIBI_MULTIYEAR_PHY_005_002 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-002 \n28 May 2025 \n6.0 \n \n \n                                                      Page 4/ 63 \n ACRONYM TABLE \nAcronym Description \nATL Atlantic \nBGC Biogeochemistry \nEANs Estimated Accuracy Numbers  \nECMWF European Centre for Medium-Range Weather Forecasts \nEIS Entry into Service \nESA CCI European Spatial Agency Climate Change Initiative \nGLO Global Ocean \nIAU Incremental Analysis Update \nIBI Iberia-Biscay-Ireland  \nIFS Integrated Forecasting System \nL3 Processing level 3 \nL4 Processing level 4 \nMFC Monitoring and Forecasting Centre \nMKE Mean Kinetic Energy \nMOB Multi-obs  \nMY Multiyear \nNEMO Nucleus for European Modelling of the Ocean \nNOW Nologin Oceanic Weather \nOBS Observation \nOPA Ocean Physics Component \nPHY Physics \nRAN Reanalysis \nRMSD Root Mean Square Difference \nSAM Système d’assimilation Mercator \nSLA Sea Level Anomaly \nSSH Sea Surface Height \nSST Sea Surface Temperature \nSTD Standard deviation  \nTAC Thematic Assembly Centre \n \n \n \n \n \nQUID for IBI MFC Products \nIBI_MULTIYEAR_PHY_005_002 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-002 \n28 May 2025 \n6.0 \n \n \n                                                      Page 5/ 63 \nKEY DEFINITIONS \nData Assimilation Data assimilation is a branch of numerical modelling that uses \ntechniques to reduce the errors (differences) between observations \nand models. The model forecast is called the ‘first guess’ before the \nobservations are incorporated. The result of data assimilation (first \nguess corrected with observations) is called an analysis. \nIBI36 Iberian-Biscay-Irish system at 1/36° horizontal resolution. \nInterim It serves as",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Underpinning Information Document (QUID) for IBI MFC Products, specifically version IBI_MULTIYEAR_PHY_005_002, detailing the product's history and updates from its creation to the latest issue on May 28, 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_MULTIYEAR_PHY_005_002",
+      "name": "IBI Multi-Year Physical Reanalysis Product",
+      "model_name": "NEMO v4.2.2",
+      "region": "Atlantic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1Y",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Sea Water Potential Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": "Eastward Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Northward Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/36deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -90,
+        "lon_max": 50,
+        "lat_min": 30,
+        "lat_max": 70
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 42,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

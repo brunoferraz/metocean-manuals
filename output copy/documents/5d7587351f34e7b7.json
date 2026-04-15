@@ -1,0 +1,141 @@
+{
+  "doc_id": "5d7587351f34e7b7",
+  "legacy_doc_id": "ff69af319b5d",
+  "filename": "halliwell_momentum.pdf",
+  "filepath": "docs/hycom_docs/halliwell_momentum.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.02,
+  "pages": 3,
+  "text_preview": "The Momentum Balance in HYCOM  \n \nBy Rainer Bleck, 27 February 2000 \n \nUpdated for HYCOM 1.0/2.0 by George Halliwell, 27 August 2001 \n \n \nGeneral Remarks \n \nExcept for the vertical diffusion term, the momentum equation in HYCOM is the same as in \nMICOM with a few exceptions. The momentum balance has, of course, been modified to handle \nhorizontally varying density in all model layers. Surface momentum flux accelerates only the \nfluid in layer 1 except when the Kraus-Turner mixed layer model Is used, when the momentum \nchange is distributed over the full mixed layer depth that was calculated during the previous time \nstep. \n \nThe most significant modification of the momentum equation in hybrid vertical coordinates \nconcerns the horizontal pressure gradient force (PGF), which is discussed in detail below. \n \nThe Horizontal Pressure Gradient Force in Generalized Coordinates \n \nIn a hydrostatic fluid ( // spsja∂∂=−∂∂ ), where f  is the geopotential, a is the specific \nvolume, and s  is the generalized vertical coordinate, the layer mass-weighted PGF satisfies \n [ ] ( ).ssss\npp pppsssafaf∂∂∂ ∇+∇=∇+∇ ∂∂∂ \n (1) \nThe three-dimensional gradient form on the right indicates that only boundary forces can cause \nnet accelerations of the fluid system. This has well known implications for vortex spinup and \nspindown.  Given that the curl of the right side of (1) reduces to  \n ( ),ss\ns\nf∂ ∇×∇∂  \nthe interface pressure torques governing vortex spinup and spindown in individual s  coordinate \nlayers have the form ( )ss p f∇×∇ . It is important to preserve these properties when numerically \nsolving the fluid dynamics equations. \n \nIt is therefore necessary to find a finite-difference expression for the PGF term \n[ ]sspaf∇+∇  in the horizontal momentum equation that can, after multiplication by layer \npressure thickness, be transformed by finite difference operations into an analog of the right side \nof (1). To illustrate this, the x  component of the rightmost term of (1) is written in the simplest \npossible, and thus plausible, form ( )\nx\nsx pddf . Finite difference product differentiation rules \nallow this to be expanded as follows: \n \n( ) ( )\n( ) ( ) ( )\n( ) ( ) ( )\nxxxxs\nsxsxxs\nxxxxs\nsxsxxs\nxxxsxs\nsxsxxssx\nppp\npppp\npppppp\nddfddfddf\nddfddfdad\nddfddfdadadd\n=+\n=−\n=−+\n \nA finite difference equation analogous to (1) is obtained by rearranging terms and adding the \nanalogous equation for the y component: \n \n( ) ( ) ( )\n( ) ( ) ( ).\nxsxssx\nsxsxxssx\nysyssy\nsysyyssy\npppppp\npppppp\naddddfdadddf\naddddfdadddf\n+=+\n+=+\n \nTo preserve the conservation properties expressed by (1), the finite-difference PGF term must be \nevaluated in the form \n .\nx\nsss\nxxx\ns\nss y\nsss\nyyy\ns\np p\npp\np p\np\nad ddf\ndaf\nad ddf\nd\n\n+\n∇+∇= \n +\n (2) \nThe salient result of this analysis is that writing the undifferentiated factor a  in the PGF formula \nas simply x\na  or y\na  can lead to spurious momentum and vorticity generation. To avoid this \npitfall, a  must be weighted by layer thickness in the PGF formula. \n \nFor use in isopycnic or quasi-isopycnic models, it is convenient to express the PGF in terms \nof the Montgomery potential Mp fa=+ . The proper finite difference analog of M  in a \nstaggered vertical grid ( p  and f  carried on layer interfaces and a  carried within layers) is \n .ss\nMp fa=+  \nThe identity ( )\nss\nsss pppdaadda =+  enables the s  derivative of M  to be expanded into \n ,s\nssssMppddadfad=++  \nfrom which the finite difference analogs of the two common forms of the hydrostatic equation \ncan be extracted: \n \nss\nss\npp\nM pMp\nf adfad\nddaa\n∂ =−→=−∂\n∂ =→=∂\n \nThe x  component of (2) becomes \n ( ) .\nxx\nssssss\nxxxxxxx\nss\npp\npMpp\npp\nadad ddfddda\ndd\n\n+=+− \n\n (3) \nMaking use of the relation \n ( ) ( )1 '',4\nxxx\nxxABABAB dd−=  \nwhere 'xd  represents the difference between two neighboring grid points; i.e., 'xx xdd =Δ , the \nterm within square brackets in (3) can be expanded into \n \n( ) ( ) ( )\n( ) ( )( )\n11 ''\n4 .\n11 ''4\n4\nxxxssxssx\nssxxxsxxxxx\nss\nxxxssxssxx\nssxxxsxsxxx\nss\nppppppp\npp\npppppppp\npp\nadadddadddadda\ndd\nadadddaddddda\ndd\n−−=−\n−−=− \n \nThe above expression involves a total of four p  points located one grid distance xΔ  apart on \ntwo consecutive s  surfaces. Substantial simplification is possible by labeling the four grid points \nas \n \n12\n34\n,,\n2222 .\n,,2222\nxsxsppxsppxs\nxsxsppxsppxs\nΔΔΔΔ=−−=+−\nΔΔΔΔ=−+=++\n \nWith a modest amount of algebra, the term within square brackets in (3) reduces to \n \n( ) ( )\n1234\n4231\n.x\npppp\npppp\nda−\n−+−\n \nSubstitution of this expression inside the brackets of (3) yields the sought-after expression for the \nx  component of the PGF force. An analogous can be derived for the y  component. \n  \n \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses modifications to the momentum equation in HYCOM, focusing on the horizontal pressure gradient force in generalized coordinates and its implications for vortex spinup and spindown.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "p",
+        "cf_standard_name": "sea_water_pressure",
+        "long_name": "Sea water pressure",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "a",
+        "cf_standard_name": "sea_water_volume_excess",
+        "long_name": "Sea water volume excess",
+        "unit": "m^3/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "f",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Sea water potential temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "s",
+        "cf_standard_name": "sigma_coordinate",
+        "long_name": "Sigma coordinate",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "M",
+        "cf_standard_name": "montgomery_potential",
+        "long_name": "Montgomery potential",
+        "unit": "Pa",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "unknown",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "hybrid",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2805,
+  "_tokens_out": 901,
+  "_eval_s": 6.83
+}

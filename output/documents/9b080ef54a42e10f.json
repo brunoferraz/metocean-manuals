@@ -1,0 +1,82 @@
+{
+  "doc_id": "9b080ef54a42e10f",
+  "legacy_doc_id": "74aa3c6bd261",
+  "filename": "SST_GLO_PHY_L4_NRT_010_005_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_GLO_PHY_L4_NRT_010_005_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.87,
+  "pages": 18,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : M. Martin, A. McLaren, S. Good, C. Mao, Met Office, UK \n \nApproval Date: March 2026 \n \nFor Global Ocean GMPE Sea Surface \nTemperature Multi Product Ensemble \n \n SST_GLO_PHY_L4_NRT_010_005 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for SST_GLO_PHY_L4_NRT_010_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-005 \nIssue v1.0 – March 2026 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/11/12 All Initial version, based on \nCMEMS-SST-PUM-010-005-V3.5 \nChongyuan \nMao, Simon \nGood \nCopernicus M\narine Product \nManagement \n      \n      \n \n \n \n3 Product User Manual for SST_GLO_PHY_L4_NRT_010_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-005 \nIssue v1.0 – March 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary.............................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Dataset details .................................................................................................10 \nd) Additional information on some parameters ...............................................11 \ne) Processing information ....................................................................................12 \nf) Catalogue updating .......................................................................................12 \ng) Time averaging ................................................................................................12 \nh) Product use and impact .................................................................................12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE..................................................................................... 13 \n5) FILE SIZE ............................................................................................................ 13 \n6) STRUCTURE OF FILES ......................................................................................... 13 \n7) REFERENCES ..................................................................................................... 14 \n8) ANNEX ............................................................................................................. 15 \na) Structure and semantic of NetCDF maps files ..............................................15 \n  \n \n \n \n4 Product User Manual for SST_GLO_PHY_L4_NRT_010_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-005 \nIssue v1.0 – March 2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF Climate Forecast (convention for NetCDF) \nCHL Chlorophyll \nCMEMS Copernicus Marine Environment Monitoring Service \nGDS GHRSST Data Specification \nGHRSST Group for High Resolution SST \nGMPE GHRSST Multi-Product Ensemble \nMDS Marine Data Store \nMFC Monitoring and Forecasting Centre \nMFWAM Meteo France WAve Model \nMY Multi Year \nNetCDF Network Common Data Form \nNRT Near Real Time \nPUM Product User Manual \nQUID Quality Information Document \nTAC Thematic Assembly Center \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observations and/or less accurate than in a \nbest-analysis). \nBEST-ANALYSIS: \nAn hindcast done with data assimilation for a period close to \npresent. The quality and the number of available observations \nit’s the best available (more observations and/or more accurate \nthan in a NRT-analysis).  \n \n \n \n \n5 Product User Manual for SST_GLO_PHY_L4_NRT_010_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-005 \nIssue v1.0 – March 2026 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SST_GLO_PHY_L4_NRT_010_005, providing details about the Global Ocean GMPE Sea Surface Temperature Multi Product Ensemble product from MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SST_GLO_PHY_L4_NRT_010_005",
+      "name": "Global Ocean GMPE Sea Surface Temperature Multi Product Ensemble",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

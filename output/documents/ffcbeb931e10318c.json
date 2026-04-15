@@ -1,0 +1,138 @@
+{
+  "doc_id": "ffcbeb931e10318c",
+  "legacy_doc_id": "ebc03d247c1c",
+  "filename": "IBI_MULTIYEAR_BGC_005_003_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/IBI_MULTIYEAR_BGC_005_003_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.59,
+  "pages": 27,
+  "text_preview": " \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nFor Atlantic -Iberian Biscay Irish- Biogeochemistry \nMulti-Year Non-Assimilative Hindcast Product \n \n IBI_MULTIYEAR_BGC_005_003 \nIssue: 5.0 \nContributors: Lluís Castrillo-Acuña, Elodie Gutknecht, Roland Aznar, Stefania Ciliberti \n \nApproval Date: November 2025 \n \nPRODUCT USER MANUAL \n\n \n \n \n \n \n2 Product User Manual for IBI_MULTIYEAR_BGC_005_003 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-PUM-005-003 \nIssue 5.0 – November 2025 \nRECORD TABLE \n \nIssue Date § Description of Change Author Validated \nBy \n0.0 \n \n05/05/2014 \n \nall \n \nCreation of the document. M. G. Sotillo   \n1.0 13/5/2014 all Inclusion of information on model and \nproduct download interfaces  \nS. Caillau  \nM. G. Sotillo \nA. Amo \nE. Álvarez \nFanjul   \nL. Crosnier \n1.1 01/05/2015 all Change format to fit CMEMS graphical rules  L. Crosnier \n2.0 14/12/2015 all First release of the IBI-MFC PHY-V2 MY \nhindcast. \nTemporal coverage fom 2002 to 2014. \nM. G. Sotillo \nB. Levier \nE. Álvarez \nFanjul  \n3.0 18/01/2018 all [EIS March 2018: IBI-V4 version] \nFirst release of the IBI-MFC MY PHY/BGC-V4 \nproduct.  \nTemporal coverage from 01/01/1993 to \n31/12/2016. \nA. Amo \nE. \nGutknecht \nM. G. Sotillo \n \nE. Álvarez \nFanjul \nA. Melet \n3.1 15/01/2019 all [EIS April 2019: IBI-V4 version] \nTemporal extension: from 01/01/2014 to \n24/12/2017. \nA. Amo \nE. \nGutknecht \nM. G. Sotillo \nM. G. \nSotillo \n3.2 08/04/2019 all [EIS July 2019: IBI-V4 version] \nTemporal Extension from: 01/01/2014 to \n24/12/2018.  \nNew dataset for static files. \nA. Amo \nE. \nGutknecht \nM. G. Sotillo \nM. G. \nSotillo \n3.3 03/04/2020  [EIS July 2020: IBI-V4 version] \nTemporal Extension from: from 01/01/2018 to \n24/12/2019. \nA. Amo \nE. \nGutknecht \nM. G. Sotillo \nR. Aznar \nM. G. \nSotillo \n4.0 10/09/2020  [EIS December 2019: IBI-V5 version] \nFirst release of the IBI-MFC MY PHY/BGC-V5 \nproduct \nAdditional variables:  \n- Surface partial pressure of carbon \ndioxide \n- Dissolved inorganic carbon \n- pH \nModification of product/datasets names \nfollowing new convention. \nA. Amo \nE. \nGutknecht \nM. G. Sotillo \nR. Aznar \nM. G. \nSotillo \n4.1 08/08/2022 all [EIS November 2022: IBI-V5 version] \nTemporal Extension: from 11/10/2019 to \n2020/12/28.  \nAdaptation of the document to the new \ntemplate. \nNew yearly and climatological datasets. \nA. Amo \nE. \nGutknecht \nR. Aznar \nM. G. \nSotillo \n4.2 31/05/2024 All [EIS November 2024: IBI-V5 version] \nAutomatic temporal extension \nNew variable zooplankton (zooc) \nNew Multi-Year Interim system to extend the \nL. Castrillo \nE. \nGutknecht \nR. Aznar \nM. G. \nSotillo \n \n \n \n \n \n3 Product User Manual for IBI_MULTIYEAR_BGC_005_003 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-PUM-005-003 \nIssue 5.0 – November 2025 \nMY timeseries closer to the present time \n4.3 28/03/2025  [ Climatology files ] Metadata modification \nand addition of the new variable \nclimatology_bounds. \nL. Castrillo \nE. \nGutknecht \nR. Aznar \nS. Ciliberti \n5.0 28/05/2025 All  [EIS November 2025: IBI-V6 version] \nFirst release of the IBI-MFC MY PHY/BGC-V6 \nproduct. \nIncreased spatial resolution up to 1/36º. \nLight attenuation (kd) new variable. \nUpdated physical and biogeochemical \nmodels. \nRevised river inputs and permanent burial. \nModification of datasets configuration \nfollowing new convention. \nL. Castrillo \nE. \nGutknecht \nR. Aznar \nS. Ciliberti \nS. Ciliberti \n \n  \n \n \n \n \n \n4 Product User Manual for IBI_MULTIYEAR_BGC_005_003 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-PUM-005-003 \nIssue 5.0 – November 2025 \nTABLE OF CONTENTS \n \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 5 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary ................................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Dataset details .................................................................................................... 10 \nd) Additional information on some parameters ................................................ 13 \ne) Processing infor",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the IBI_MULTIYEAR_BGC_005_003 product, detailing its specifications and updates from various contributors at MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "IBI_MULTIYEAR_BGC_005_003",
+      "name": "Atlantic - Iberian Biscay Irish Biogeochemistry Multi-Year Non-Assimilative Hindcast Product",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "hindcast"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Surface partial pressure of carbon dioxide",
+        "cf_standard_name": "sea_water_carbon_dioxide_saturation_state",
+        "long_name": "Partial Pressure of Carbon Dioxide in Sea Water",
+        "unit": "Pa",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Dissolved inorganic carbon",
+        "cf_standard_name": "sea_water_dissolved_inorganic_carbon_concentration",
+        "long_name": "Concentration of Dissolved Inorganic Carbon in Sea Water",
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_concentration",
+        "long_name": "Concentration of Phosphate in Sea Water",
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton (zooc)",
+        "cf_standard_name": "zooplankton_concentration",
+        "long_name": "Concentration of Zooplankton in Sea Water",
+        "unit": "g/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Light attenuation (kd)",
+        "cf_standard_name": "downwelling_photosynthetically_active_radiation_attenuation_coefficient",
+        "long_name": "Attenuation Coefficient for Downwelling Photosynthetically Active Radiation in Sea Water",
+        "unit": "m^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/36º",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -90,
+        "lon_max": 90,
+        "lat_min": 25,
+        "lat_max": 70
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

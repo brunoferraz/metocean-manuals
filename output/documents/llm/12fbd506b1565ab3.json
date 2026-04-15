@@ -1,0 +1,113 @@
+{
+  "doc_id": "12fbd506b1565ab3",
+  "legacy_doc_id": "4790b2835870",
+  "filename": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.79,
+  "pages": 17,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \nP\nA\nG\nE \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : Juha Karvonen (FMI) \nApproval Date : MARCH 2026 \nFor Baltic Sea Ice Observations \n \n SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004 \nIssue: 1.2 \n \n\n Product User Manual for Baltic Sea Ice 011_004 \n \n \n \n \n \nP\nA\nG\nE \n19 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-004 \nIssue 1.2–  March 2026 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.2 28/02/2025 All Adaptation to the new template Juha Karvonen C. Wettre \n      \n      \n Product User Manual for Baltic Sea Ice 011_004 \n \n \n \n \n \nP\nA\nG\nE \n19 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-004 \nIssue 1.2–  March 2026 \nTABLE OF CONTENTS \nTable des matières \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nData Access ............................................................................................................... 6 \na) Summary ................................................................................................................ 7 \na) General Information ............................................................................................ 8 \nb) Production System Description ........................................................................ 10 \nc) Dataset details .................................................................................................... 10 \nd) Additional information on some parameters ................................................ 11 \ne) Processing information ...................................................................................... 12 \nf) Catalogue updating ......................................................................................... 12 \ng) Time averaging ................................................................................................... 12 \nh) Product use and impact ................................................................................... 12 \na) Structure of files .................................................................................................. 14 \n \n  \n Product User Manual for Baltic Sea Ice 011_004 \n \n \n \n \n \nP\nA\nG\nE \n19 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-004 \nIssue 1.2–  March 2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nMDS Marine Data Store \nRMS Root mean square \nPC Production Centre \nPU Production Unit \nSIC Sea ice concentration \nSIT Sea ice thickness \nIC Ice chart \nITC Ice thickness chart \nASIC Automated SIC \nASIT Automated SIT \nSIE Sea ice extent \n Product User Manual for Baltic Sea Ice 011_004 \n \n \n \n \n \nP\nA\nG\nE \n19 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-004 \nIssue 1.2–  March 2026 \nSID Sea ice drift \nIDC Ice drift chart \nCSK Cosmo-SkyMED, Itlaian X-band SAR (constellation) \nTSX TerraSAR-X, German X band SAR \nPAZ Spanish X-band SAR \nRCM Radarsat constellation mission, Canadian C-band SAR constellation \nRS-2 Radarsat-2, Canadian C-band SAR \nS-1 Sentinel-1. C-band SAR constellation of ESA \nFMI Finnish Meteorological Institute \nSMHI Swedish Meteorological and Hydrological Institute \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Baltic Sea Ice Observations, providing details on data access, production system description, dataset specifics, and processing information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004",
+      "name": "Baltic Sea Ice Observations",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea ice concentration",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIT",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea ice thickness",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SID",
+        "cf_standard_name": "sea_ice_drift_velocity",
+        "long_name": "Sea ice drift",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "SID"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2191,
+  "_tokens_out": 693,
+  "_eval_s": 5.17
+}

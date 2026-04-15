@@ -1,0 +1,85 @@
+{
+  "doc_id": "fb58b8c5c499c75f",
+  "legacy_doc_id": "f62630e266db",
+  "filename": "OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.48,
+  "pages": 9,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nOcean Health Atlantic Eutrophication \nIssue: 3.0 \n \n \n \n \n \n \nContributors: Silvia Pardo, Shubha Sathyendranath, Jane Netting \nApproval date by the CMEMS product quality coordination team: November 2022 \n \n  \n\n CMEMS Quality Information Document for \nOcean Health Atlantic Eutrophication \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nChange Record \n \nWhen the quality of the products change s, the QuID  is updated and a row is added to this \ntable.  The third column specifies which sections or sub -sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 2021/01/15 All Creation of the \ndocument \nS. Pardo, S. \nSathyendranath, J. \nNetting \n \n2.0 2021/09/10 All December 2021 EiS S. Pardo, S. \nSathyendranath, J. \nNetting \n \n3.0 2022/06/16 All November 2022 EiS S. Pardo, S. \nSathyendranath, J. \nNetting \n \n      \n \n \n \n  \n CMEMS Quality Information Document for \nOcean Health Atlantic Eutrophication \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION 4 \nI.1 Product name 4 \nI.2 Indicator evaluation method 4 \nI.3 CMEMS products used as input for the computations 5 \nII SCIENTIFIC VALIDATION 6 \nII.1 Input datasets 6 \nII.2 Eutrophication Indicator 6 \nIII REFERENCES 8 \n \n \n \n CMEMS Quality Information Document for \nOcean Health Atlantic Eutrophication \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nProduct name Dataset name \nOMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication omi_health_atlantic_oceancolour_eutrophication \nI.2 Indicator evaluation method \nThe CMEMS Ocean Colour OMIs are derived from the reprocessed (MY) and regional gridded \nchlorophyll products generated and distributed by the CMEMS OC -TAC. The input dataset to \nproduce ARC, ATL, and GLO MY are the spectral remote sensing reflectances (Rrs) produced \nby the Plymouth Marine Laboratory (PML) using an ad -hoc configuration for CMEMS of the \nESA OC-CCI processor version 5.0 to merge at 1km resolution (rather than at 4km as for OC -\nCCI) MERIS, MODIS -AQUA, SeaWiFS, VIIRS and OLCI -S3A data. The regional  MY chlorophyll \ndatasets are then computed using algorithms optimized for each region of the European \nwaters. \n \nProduct: OMI_HEALTH_ATLANTIC_OceanColour_eutrophication \nThe North Atlantic CMEMS MY Ocean Colour dataset was used to derive a P90 and P10 daily \nclimatologies for the 1998 -2017 period. For a given pixel, P90 and P10 were defined as \ndynamic thresholds such as 90% of the 1998-2017 chlorophyll values for that pixel were below \nthe P90 value, and 10% of the chlorophyll values were below the P10 value.  \nWe then computed time series daily area -averaged chlorophyll concentration, daily P90 \nclimatology and daily P10 climatology. Pixel -area weighted averages were used to calculate \nthe daily values. Finally, to generate the indicator eutrophication and oligotr ophication maps \nfor a given year, we compared every valid daily observation over the year with the \ncorresponding daily climatology on a pixel -by-pixel basis, to determine if values were above \nthe P90 threshold, below the P10 threshold or within the [P10, P 90] range. Values above the \nP90 threshold or below the P10 were flagged as anomalous. The number of anomalous and \ntotal valid observations were stored during this process.  \nWe then calculated the percentage of valid anomalous observations (above/below the \nP90/P10 thresholds) for each pixel, to create percentile anomaly maps in terms of % days per \nyear.  \nFinally, we derived an annual indicator map for eutrophication levels: if 25% of the valid \nobservations for a given pixel and year were above the P90 thresh old, the pixel was flagged as \n CMEMS Quality Information Document for \nOcean Health Atlantic Eutrophication \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n5 \neutrophic. Similarly, if 25% of the observations for a given pixel were below the P10 threshold, \nthe pixel was flagged as oligotrophic. \n \nI.3 CMEMS products used as input for the computations \nProduct name Dataset Name Documentation \n \nOCEANCOLOUR_ATL_BGC_L3_MY_00\n9_113 \n \ncmems_obs-\noc_atl_bgc-\nplankton_my_l3-multi-\n1km_P1M \nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/QUID\n/CMEMS-OC-QUID-009-111to114-121to124.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/PUM\n/CMEMS-OC-PUM.pdf ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the Ocean Monitoring Indicator for eutrophication levels in the Atlantic Ocean, detailing its evaluation method and input datasets used by CMEMS.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Ocean Health Atlantic Eutrophication",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-oc_atl_bgc-plankton_my_l3-multi-1km_P1M",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll",
+        "cf_standard_name": "chl_concentration",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -80.0,
+        "lon_max": 40.0,
+        "lat_min": 0.0,
+        "lat_max": 75.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2731,
+  "_tokens_out": 514,
+  "_eval_s": 3.78
+}

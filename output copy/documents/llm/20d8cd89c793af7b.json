@@ -1,0 +1,113 @@
+{
+  "doc_id": "20d8cd89c793af7b",
+  "legacy_doc_id": "a8d9da92b046",
+  "filename": "BLKSEA_OMI_HEALTH_oxygen_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BLKSEA_OMI_HEALTH_oxygen_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.49,
+  "pages": 10,
+  "text_preview": "  \n \n \nMERCATOR OCEAN                                                                                                          \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, France \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nBLKSEA-OMI-HEALTH-OXYGEN-TREND \nBlack Sea OMI for O2 penetration depth, O2 \npenetration density and vertically integrated \noxygen content \nBLKSEA_OMI_HEALTH_oxygen_trend \n \nIssue 1.4 \n \n \nContributors: Arthur Capet, Luc Vandenbulcke, Marilaure Gregoire, Rita Lecci \nApproval Date: Nov. 2022 \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nBLKSEA_OMI_HEALTH_OXYGEN_TREND \nIssue : 1.4 \n2022/11/29 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BLKSEA-OMI-HEALTH-OXYGEN-TREND  \n2 \n \nChange Record \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 19/02/2019 all Creation of the \ndocument \nArthur Capet   \n1.1 10/09/2020 All Datasets updates Arthur Capet   \n1.2 13/10/2020 All Merging files Arthur Capet   \n1.3 10/09/2021 All Update for 2021 \nrelease \nArthur Capet Rita Lecci  \n1.4 29/11/2022 All Extension of \ntimeseries \nArthur Capet Rita Lecci  \n  \n \nCopernicus Marine Service Product User \nManual for \nBLKSEA_OMI_HEALTH_OXYGEN_TREND \nIssue : 1.4 \n2022/11/29 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BLKSEA-OMI-HEALTH-OXYGEN-TREND  \n3 \nGLOSSARY AND ABBREVIATIONS \nCMEMS  Copernicus Marine Service \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \nMDS Marine Data Store \n \n \n \n \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nBLKSEA_OMI_HEALTH_OXYGEN_TREND \nIssue : 1.4 \n2022/11/29 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BLKSEA-OMI-HEALTH-OXYGEN-TREND  \n4 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ................................................................................ 3 \nTABLE OF CONTENT ...................................................................................................... 4 \nI INTRODUCTION ...................................................................................................... 5 \nI.1. Summary ............................................................................................................ 5 \nI.2. History of changes ............................................................................................. 6 \nII DESCRIPTION OF THE PRODUCT ............................................................................ 7 \nII.1. General information .......................................................................................... 7 \nII.2. Details of the datasets ....................................................................................... 8 \nII.3. Product System Description .............................................................................. 9 \nIII DOWNLOAD A PRODUCT ................................................................................... 9 \nIV FILES NOMENCLATURE AND FORMAT ................................................................ 9 \nIV.1. Nomenclature of files ..................................................................................... 9 \nIV.2. File Format ....................................................................................................... 9 \nIV.3. Reading Softwares ....................................................................................... 10 \nV REFERENCES ......................................................................................................... 10 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nBLKSEA_OMI_HEALTH_OXYGEN_TREND \nIssue : 1.4 \n2022/11/29 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BLKSEA-OMI-HEALTH-OXYGEN-TREND  \n5 \nI INTRODUCTION \nI.1. Summary \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator (OMI) \nBLKSEA_OMI_HEALTH_OXYGEN_TREND, that includes three variables:   \n- Oxygen penetration depth , which provides time series describing the evolution of the oxygen \npenetration depth in the Black Sea, derived from ship casts and autonomous Argo profiles. The oxygen \npenetration depth, [m], is the depth at which the dissolved oxygen con centration [O2] < 20µM. \n- Oxygen penetration density , which provides time series describing the evolution of the oxygen \npenetration depth in the Black Sea, on a potential density  anomaly vertical scale.  This diagnostic is \nderived from ship casts and autonomo us Argo profiles. The oxygen penetration density, [kg/m³], is the \npotential density anomaly at the oxygen penetration depth defined above.  \n- Vertically integrated oxygen content, which provides time series describing the evoluti",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the CMEMS Ocean Monitoring Indicator BLKSEA_OMI_HEALTH_OXYGEN_TREND, detailing three variables related to oxygen penetration depth, density, and vertically integrated content in the Black Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_OMI_HEALTH_OXYGEN_TREND",
+      "name": "Black Sea OMI for Oxygen Penetration Depth, Density and Vertically Integrated Content",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "oxygen_penetration_depth",
+        "cf_standard_name": "ocean_oxygen_penetration_depth",
+        "long_name": "Depth at which dissolved oxygen concentration is less than 20µM",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen_penetration_density",
+        "cf_standard_name": "ocean_oxygen_penetration_density",
+        "long_name": "Potential density anomaly at the oxygen penetration depth",
+        "unit": "kg/m³",
+        "physical_quantity": "density",
+        "thermodynamic_form": "potential",
+        "framework": null,
+        "reference_pressure_dbar": 2000.0,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "vertically_integrated_oxygen_content",
+        "cf_standard_name": "ocean_vertically_integrated_oxygen_content",
+        "long_name": "Vertically integrated oxygen content in the Black Sea",
+        "unit": "mol/m²",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2412,
+  "_tokens_out": 748,
+  "_eval_s": 5.4
+}

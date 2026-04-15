@@ -1,0 +1,97 @@
+{
+  "doc_id": "a6f1c1efae2b19f3",
+  "legacy_doc_id": "159867afcdea",
+  "filename": "WIND_GLO_PHY_L4_NRT_012_004_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WIND_GLO_PHY_L4_NRT_012_004_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.26,
+  "pages": 36,
+  "text_preview": " \n  \n \n \nWIND Production Centre \nHourly Global Ocean Sea Surface Wind and Stress  \nfrom Scatterometer and Model Products \n \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \n \n \n Issue: 1.4 \nContributors: Rianne Giesen, Ad Stoffelen \nApproval date by the CMEMS product quality coordination team: 02/02/2026 \n \n \n \n \n  \n \n\nQUID for Wind TAC Products \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-004-006 \n18 November 2025 \n1.4 \n \n                                                      Page 2/ 36 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 March 2022 All Creation of the \ndocument \nRianne Giesen and \nAd Stoffelen \nAd Stoffelen \n1.0 May 2022 II, III Update regarding \nvariables included in the \nproduct \nRianne Giesen Ad Stoffelen \n1.0 July 2022 All Mercator review \nresponse \nRianne Giesen and \nAd Stoffelen \nRianne Giesen \n1.1 September \n2022 \nAll Add quality information \nfor MY product, update \nmetrics for NRT product   \nRianne Giesen Ad Stoffelen \n1.2 September \n2023 \nVI Improved quality in \ncoastal regions for NRT \nproduct \nRianne Giesen Ad Stoffelen \n1.3 March 2024 All Backward extension MY \nproduct to 1994 \nRianne Giesen Ad Stoffelen \n1.4 November \n2025 \nV, VI Change of ECMWF \nmodel winds in L3 NRT \nproduct, add acronym \nand key definitions \ntables \nRianne Giesen Rianne Giesen \n \n \n \n \n  \nQUID for Wind TAC Products \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-004-006 \n18 November 2025 \n1.4 \n \n                                                      Page 3/ 36 \nACRONYM TABLE \nAcronym Description \nASCAT Advanced Scatterometer instrument \nEAN Estimated Accuracy Number \nECMWF European Centre for Medium-range Weather Forecasts \nERA5 ECMWF Reanalysis version 5 \nKNMI Royal Netherlands Meteorological Institute \nL2 Level-2 (satellite data processing level) \nL3 Level-3 (satellite data processing level) \nL4 Level-4 (satellite data processing level) \nLSM Land-sea mask \nMARS Meteorological Archival and Retrieval System (ECMWF) \nMetop Meteorological Operational satellite \nMY Multi-year \nNRT Near Real Time \nNWP Numerical Weather Prediction \nOSI SAF Ocean and Sea Ice Satellite Application Facility \nPDF Probability distribution function \nREP Reprocessing \nSC Scatterometer correction \nSDD Standard deviation of the differences \nSST Sea Surface Temperature \nTAC Copernicus Marine Service Thematic Assembly Centre \nU10S 10-m stress-equivalent wind \nVRMS vector root-mean-square \n \nKEY DEFINITIONS \nZonal wind Eastward wind component, in west-east direction \nMeridional wind Northward wind component, in south-north direction \nEquivalent neutral \nwind \nWind that would be observed under a neutral atmospheric \nstratification, i.e. corrected for air-mass stability  \nStress-equivalent \nwind \nWind that would be observed in an atmosphere with a constant \nreference air density and neutral atmospheric stratification. This \nwind is more directly related to the surface winds derived from \nocean surface roughness as measured by scatterometers \n  \nQUID for Wind TAC Products \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-004-006 \n18 November 2025 \n1.4 \n \n                                                      Page 4/ 36 \nRELEVANT DOCUMENT LIST \nProduct User Manual \nL3 global wind \nproducts \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-\nWIND-PUM-012-002-005.pdf  \nProduct User Manual \nL4 global wind \nproducts \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-\nWIND-PUM-012-004-006.pdf  \n  \nQUID for Wind TAC Products \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-004-006 \n18 November 2025 \n1.4 \n \n                                                      Page 5/ 36 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey definitions .................................................................................................................................................... 3 \nRelevant document List ....................................................................................................................................... 4 \nI Executive summary ..................................................................................................................................... 6 \nI.1 Products covered by this document ........................................................................................................... 6 \nI.2 Summary of the results .............................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for WIND_GLO_PHY_L4_NRT_012_004 and WIND_GLO_PHY_L4_MY_012_006 products, detailing their production process, quality control measures, and updates. It includes an acronym table, key definitions, change records, and relevant document lists.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WIND_GLO_PHY_L4_NRT_012_004 | WIND_GLO_PHY_L4_MY_012_006",
+      "name": "Hourly Global Ocean Sea Surface Wind and Stress from Scatterometer and Model Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "U10S",
+        "cf_standard_name": "wind_speed_of_gust_from_direction",
+        "long_name": "Stress-equivalent wind speed",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "V10S"
+      },
+      {
+        "native_name": "VRMS",
+        "cf_standard_name": "wind_speed_of_gust_from_direction",
+        "long_name": "Vector root-mean-square wind speed",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

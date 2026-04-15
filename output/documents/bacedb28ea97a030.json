@@ -1,0 +1,82 @@
+{
+  "doc_id": "bacedb28ea97a030",
+  "legacy_doc_id": "87b4e04bc982",
+  "filename": "GEBCO_2019_grid_docs.md",
+  "filepath": "docs/gebco_docs/GEBCO_2019_grid_docs.md",
+  "extension": ".md",
+  "file_size_mb": 0.04,
+  "pages": 12,
+  "text_preview": "# GEBCO Documentation\n\nSource: https://www.gebco.net/data-products/gridded-bathymetry-data/gebco-2019\n\n---\n\n-\n\nGEBCO_2019 Grid | GEBCO\n\n[\nSkip to main content\n](#main-content)\n\n# GEBCO_2019 Grid\n\n#### 1.0 Introduction\n\nPlease note that this data set has now been superseded by a later release of the [GEBCO Grid](https://www.gebco.net/data-products/gridded-bathymetry-data).\n\nThe GEBCO_2019 Grid was the first global bathymetric grid released by the General Bathymetric Chart of the Oceans (GEBCO) that had been developed through the Nippon Foundation-GEBCO [Seabed 2030 Project](https://seabed2030.org). This is a collaborative project between the Nippon Foundation of Japan and GEBCO. The Seabed 2030 Project aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor and make it available to all.\n\nThe Nippon Foundation of Japan is a non-profit philanthropic organisation active around the world. GEBCO is an international group of mapping experts developing a range of bathymetric data sets and data products, operating under the joint auspices of the International Hydrographic Organization (IHO) and UNESCO's Intergovernmental Oceanographic Commission (IOC).\n\nThe GEBCO_2019 product provides global coverage, spanning 89° 59' 52.5''N, 179° 59' 52.5''W to 89° 59' 52.5''S, 179° 59' 52.5''E on a 15 arc-second grid. It consists of 43200 rows x 86400 columns, giving 3,732,480,000 data points. The data values are pixel-centre registered i.e. they refer to elevations at the centre of grid cells.\n\nThe data are available to download according to the Terms of Use provided in Section 8 below, via several routes including: single-click download of the entire grid in NetCDF format, selection of subsets and creation of output in alternative data formats (see Section 5).\n\n#### 1.1 Seabed 2030 Data Center structure\n\nThis latest GEBCO product has been developed by the Seabed 2030 data centers, comprised of four Regional Centers and a Global Center.\n\nThe Regional Centers are responsible for championing mapping activities; assembling and compiling bathymetric information and collaborating with existing mapping initiatives in their regions. The Global Center is responsible for producing and delivering centralized GEBCO products, such as bathymetric grids.\n\n### Seabed 2030 Centers\n[Southern Ocean](https://seabed2030.org/centers/southern-ocean-regional-center) - hosted at the Alfred Wegener Institute (AWI), Germany\n- [South and West Pacific Ocean](https://seabed2030.org/) - hosted at the National Institute of Water and Atmospheric Research (NIWA), New Zealand\n- [Atlantic and Indian Oceans](https://seabed2030.org/) - hosted at the Lamont Doherty Earth Observatory (LDEO), Columbia University, USA\n- [Arctic and North Pacific Oceans](https://seabed2030.org/) - hosted at Stockholm University (SU), Sweden and the Center for Coastal and Ocean Mapping at the University of New Hampshire (UNH), USA\n- [Global Data Center](https://seabed2030.org/) - hosted at the British Oceanographic Data Centre (BODC), National Oceanography Centre (NOC), UK\n#### 2.0 Grid Development\n\nThe GEBCO_2019 Grid is a continuous, global terrain model for ocean and land with a spatial resolution of 15 arc seconds.\n\nThe grid uses as a ‘base’ Version 1 of the SRTM15+ data set (Olson et al, 2014). This data set is a fusion of land topography with measured and estimated seafloor topography. It is largely based on version 11 of SRTM30+ (Becker et al, 2009; Sandwell et al, 2014), augmented with the gridded bathymetric data sets developed by the four Seabed 2030 Regional Centers. The published data were recalculated on a cell-registered grid for use by GEBCO.\n\nThe Regional Centers have compiled gridded bathymetric data sets, largely based on multibeam data, on a sub-set of the global grid for their areas of responsibility. These regional grids were then provided these to the Global Center. For areas outside of the polar regions (primarily south of 60N and north of 50S), these data sets are in the form of 'sparse grids', i.e. only grid cells that contain data were populated. For the polar regions, complete grids were provided due to the complexities of incorporating data held in polar coordinates.\n\nThe compilation of the GEBCO_2019 Grid from these regional data grids, with some additional source data sets, was carried out at the Global Center, with the aim of producing a seamless global terrain model.\n\nThe majority of the work, for the non-polar regions, was done using the 'remove-restore' procedure (Smith and Sandwell, 1997; Becker, Sandwell and Smith, 2009 and Hell and Jakobsson, 2011). This is a two stage process of computing the difference between the new data and the 'base' grid, gridding the difference and adding this difference back to the existing 'base' grid. The aim is to achieve a smooth transition between the 'new' and 'base' data sets with the minimum of perturbation of the existing base data set.\n\nFor the polar data sets, an",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "The document describes the GEBCO_2019 Grid, a global bathymetric grid developed through the Seabed 2030 Project by the General Bathymetric Chart of the Oceans (GEBCO). It covers the entire globe with a resolution of 15 arc seconds and is available for download in NetCDF format.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "General Bathymetric Chart of the Oceans"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "GEBCO_2019 Grid",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "elevation",
+        "cf_standard_name": "sea_floor_depth_below_mean_sea_level",
+        "long_name": "Bathymetry (depth below mean sea level)",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "15 arc-seconds",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -179.998125,
+        "lon_max": 179.998125,
+        "lat_min": -89.998125,
+        "lat_max": 89.998125
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

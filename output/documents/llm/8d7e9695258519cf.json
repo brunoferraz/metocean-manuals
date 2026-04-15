@@ -1,0 +1,85 @@
+{
+  "doc_id": "8d7e9695258519cf",
+  "legacy_doc_id": "654d8d8735da",
+  "filename": "OMI_CLIMATE_SL_MEDSEA_area_averaged_anomalies_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_SL_MEDSEA_area_averaged_anomalies_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.54,
+  "pages": 14,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 Avenue de l’Aérodrome de Montaudran 31400 Toulouse , FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \nQuality Information Document \n \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring \nService \nOMI_CLIMATE_SL_GLOBAL_area_averaged_anomalies \nOMI_CLIMATE_SL_GLOBAL_regional_trends \nOMI_CLIMATE_SL_BALTIC_area_averaged_anomalies \nOMI_CLIMATE_SL_BLKSEA_area_averaged_anomalies \nOMI_CLIMATE_SL_EUROPE_area_averaged_anomalies \nOMI_CLIMATE_SL_IBI_area_averaged_anomalies \nOMI_CLIMATE_SL_MEDSEA_area_averaged_anomalies \nOMI_CLIMATE_SL_NORTHWESTSHELF_area_averaged_anomalies \nOMI_CLIMATE_SL_EUROPE_area_averaged_anomalies \n \nIssue: 7.0 \nApproval Date : June 2025 \n \nContributors : Victor Quet, Guillaume Taburet, Isabelle Pujol, V. Quet \nApproval date by the CMEMS \nproduct \nquality \ncoordination team :  \n\n CMEMS Quality Information Document for \nOMI_CLIMATE_SL_*_area_averaged_anomalies \n& OMI_CLIMATE_SL_GLOBA_regional_trends \nIssue : 7.0 \n06/2025 \n \n \n© EU Copernicus Marine Service – Public   \n2 \n CHANGE RECORD \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 19/01/2018 All Creation JF Legeais  \n2.0 26/07/2018 All New supporting material, new \nregional MSL. Use of the reprocessed \nDUACS DT -2018 products with \nupdated temporal coverage \nJF Legeais  \n2.1 25/01/2019 All Changes after review comments \nfrom Moi \nJF Legeais  \n2.2 16/01/2020  Addition of global mean sea level \ncorrected for TOPEX-A drift \nJF Legeais  \n2.3 25/03/2020 Ref Update of reference JF Legeais  \n2.4 20/08/2020  Regional uncertainties and reference \nupdate \nJF Legeais  \n3.0 10/09/2021  Update after full OMI reprocessing G Taburet M-I Pujol \n4.0 05/05/2022 All Use new template \nrevised after MOi review \nG.Taburet  M-I Pujol \n4.1 05/04/2023 II \nIII \nGlobal uncertainties and reference \nupdate \nP Veillard M-I Pujol \n5.0 15/06/2023  Use “myinteruim” datasets \nNomenclature change \nM-I Pujol M-I Pujol \n6.0 001/02/2024 All Applying global TPA correction and \nupdated regional GIA mean to \nregional timeseries. \nApplying global TPA correction and \nregional GIA to map of trends. \nAdding global uncertainty envelope \ntimeseries. \nAdding Europe region. \nP. Veillard  MI. Pujol \n CMEMS Quality Information Document for \nOMI_CLIMATE_SL_*_area_averaged_anomalies \n& OMI_CLIMATE_SL_GLOBA_regional_trends \nIssue : 7.0 \n06/2025 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n7.0 31/01/2025 All Update with new v2024 C3S \nproducts \nNo global TPA correction applied \n(no longer consistent with new v2024 \nproducts) \nNew temporary reference period for \nthe computation of the GMSL \nparameters (trend and acceleration) \nV. Quet K Grassi \n  \n \n \n \n  \n CMEMS Quality Information Document for \nOMI_CLIMATE_SL_*_area_averaged_anomalies \n& OMI_CLIMATE_SL_GLOBA_regional_trends \nIssue : 7.0 \n06/2025 \n \n \n© EU Copernicus Marine Service – Public   \n4 \n \nI INTRODUCTION ..................................................................................................... 5 \nI.1 Product name ..................................................................................................... 5 \nI.2 Indicator evaluation method ............................................................................ 5 \nI.3 CMEMS products used as input for the computations.................................... 9 \nII SCIENTIFIC VALIDATION ..................................................................................... 10 \nIII REFERENCES ..................................................................................................................................... 12 \n \n \n CMEMS Quality Information Document for \nOMI_CLIMATE_SL_*_area_averaged_anomalies \n& OMI_CLIMATE_SL_GLOBA_regional_trends \nIssue : 7.0 \n06/2025 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nI INTRODUCTION \nI.1 Product name  \nOMI_CLIMATE_SL_GLOBAL_area_averaged_anomalies \nOMI_CLIMATE_SL_GLOBAL_regional_trends \nOMI_CLIMATE_SL_BALTIC_area_averaged_anomalies \nOMI_CLIMATE_SL_BLKSEA_area_averaged_anomalies \nOMI_CLIMATE_SL_EUROPE_area_averaged_anomalies \nOMI_CLIMATE_SL_IBI_area_averaged_anomalies \nOMI_CLIMATE_SL_MEDSEA_area_averaged_anomalies \nOMI_CLIMATE_SL_NORTHWESTSHELF_area_averaged_anomalies \nI.2 Dataset:  \nomi_climate_sl_global_area_averaged_anomalies \nomi_climate_sl_global_regional_trends \nomi_climate_sl_baltic_area_averaged_anomalies \nomi_climate_sl_blksea_area_averaged_anomalies \nomi_climate_sl_europe_area_averaged_anomalies \nomi_climate_sl_ibi_area_averaged_anomalies \nomi_climate_sl_medsea_area_averaged_anomalies \nomi_climate_sl_northwestshelf_area_averaged_anomalies \nI.3 Indicator evaluation method \nThe CMEMS sea level OMIs are derived from the DUACS delayed -time two -\nsatellite merged altimeter sea level gridded produ cts, in DT -2024 version, \ndistributed by the Copernicus C",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for Ocean Monitoring Indicators (OMIs) of the Copernicus Marine Environment Monitoring Service, focusing on sea level anomalies and trends in various regions including the Mediterranean Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CLIMATE_SL_*_area_averaged_anomalies & OMI_CLIMATE_SL_GLOBA_regional_trends",
+      "model_name": null,
+      "region": "Global, Baltic Sea, Black Sea, Europe, IBI, Mediterranean Sea, Northwest Shelf",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_level_anomalies",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Level Anomalies",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/4 degree",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2764,
+  "_tokens_out": 528,
+  "_eval_s": 3.91
+}

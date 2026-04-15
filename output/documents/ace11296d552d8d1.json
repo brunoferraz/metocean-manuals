@@ -1,0 +1,96 @@
+{
+  "doc_id": "ace11296d552d8d1",
+  "legacy_doc_id": "1f7b7ffda29a",
+  "filename": "GLOBAL_MULTIYEAR_WAV_001_032_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_MULTIYEAR_WAV_001_032_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.59,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : Stéphane Law-Chune \nApproval Date : February 2026 \n \nFor the Global Ocean Wave Multi Year product \n  \nGLOBAL_MULTIYEAR_WAV_001_032 \nIssue: 1.6\n \n\n \n \n \n \n2 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_WAV_001_032 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-032 \nIssue 1.6 – February 2026 \nRECORD TABLE \n \n \n  \nIssue Date § Description \nof Change Author Validated By \n1.0 2019/09/01 all Initial version LAW-CHUNE \nStéphane C. Derval \n1.1 2021/08/01  \nAdded \ndescription \nabout wave \ndirection + \n2020 time \nseries \nextension \nLAW-CHUNE \nStéphane C. Derval \n1.2 2022/11/01  \n2021 time \nseries \nextension \nLAW-CHUNE \nStéphane C. Derval \n1.3 2023/06/16  \nInterim + \nclimatology +  \nRename \ndataset \nLAW-CHUNE \nStéphane \n \nCopernicus \nMarine \nProduct \nManagement \n1.4 2024/05/31  \nInterim Month \n-2 \nStart dataset \nin 1980 \nLAW-CHUNE \nStéphane \n \nO. Le \nGalloudec \n1.5 2025/05/30  \nMerge My \ndataset and \nMyinterim \ndataset \nLAW-CHUNE \nStéphane \n \nO. Le \nGalloudec \n1.6 2026/02/01  Correction \ndump file \nO. Le \nGalloudec \nO. Le \nGalloudec \n \n \n \n \n3 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_WAV_001_032 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-032 \nIssue 1.6 – February 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary.............................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Processing information ......................................................................................9 \nd) Details of datasets ...........................................................................................10 \n3) FILE FORMAT .................................................................................................... 11 \n4)  FILES NOMENCLATURE ......................................................................................... 12 \na) Nomenclature of files when downloaded through the Copernicus Marine \nService Web Portal Subset Service ..........................................................................12 \nb) Nomenclature of original files ........................................................................12 \nc) Other information: mean centre of products, land mask value, missing \nvalue 12 \nd) File size ..............................................................................................................13 \ne) Structure of  files ...............................................................................................13 \n5)  REFERENCES ......................................................................................................... 14 \nANNEX ....................................................................................................................... 15 \n  \n \n \n \n \n4 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_WAV_001_032 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-032 \nIssue 1.6 – February 2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF Climate Forecast (convention for NetCDF) \nCMEMS Copernicus Marine Environment Monitoring Service \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNetCDF Network Common Data Form \nPUM Product User Manual \nQUID Quality Information Document \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_WAV_001_032 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-032 \nIssue 1.6 – February 2026 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our  User \nNotification Service. If you have any questions, please contact us. \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Global Ocean Wave Multi Year product, detailing its specifications and usage instructions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_MULTIYEAR_WAV_001_032",
+      "name": "Global Ocean Wave Multi Year Product",
+      "model_name": "WAM 4.7",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

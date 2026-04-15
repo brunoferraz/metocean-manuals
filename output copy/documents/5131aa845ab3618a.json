@@ -1,0 +1,324 @@
+{
+  "doc_id": "5131aa845ab3618a",
+  "legacy_doc_id": "0290f5246ec0",
+  "filename": "ON442_GFS_atmospheric_model.pdf",
+  "filepath": "docs/gfs_docs/ON442_GFS_atmospheric_model.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.17,
+  "pages": 14,
+  "text_preview": "U.S. Department of Commerce \nNational Oceanic and Atmospheric Administration \nNational Weather Service \nNational Centers for Environmental Prediction \n4700 Silver Hill Road, Mail Stop 9910 \nWashington D.C. 20233-9910 \n \n \n \n \n \n \n \n \nNCEP Office Note 442 \n \n \n \nThe GFS Atmospheric Model \n \n \n \n \n \n \nLead Author1 \nEnvironmental Modeling Center \n \n \n \n \n \n \n \n \n \nNovember 2003 \n \n \n \n \n \n \n \n \n \n \n \n \n \n1Corresponding author.  Global Climate and Weather Modeling Branch, EMC, Camp Springs, Maryland \n \nTABLE OF CONTENTS \n \n1. Introduction \n \n2. Numerical/Computational Properties \n 2.1 Horizontal Properties \n 2.2 Vertical Properties \n 2.3 Computational Properties \n 2.4 Initialization \n 2.5 Time Integration Scheme(s) \n 2.6 Smoothing/Filling \n  \n3. Dynamical/Physical Properties \n3.1. Atmospheric Dynamics \n3.2 Horizontal Diffusion \n3.3 Vertical Diffusion \n3.4 Gravity-wave Drag \n3.5 Radiation \n3.6 Convection \n3.7 Shallow convection \n3.8 Cloud Fraction \n3.9 Grid-scale Condensation and Precipitation \n3.10 Planetary Boundary Layer \n3.11 Orography \n3.12 Ocean \n3.13 Sea Ice \n3.14 Snow Cover \n3.15 Surface Characteristics \n3.16 Surface Fluxes \n3.17 Land Surface Processes \n3.18 Chemistry \n \n4. References \n \n \n \n \n \n \n \n \n \n \n \n \n \n1. Introduction \n \nThis is a brief documentation of the current version of the atmospheric model of NCEP's \nGlobal Forecast System (GFS).  The GFS model, formerly known as the Medium Range \nForecast model (MRF) was initially developed by J. Sela(1980,1982). \n \nThe highly detailed original model documentation (NMC Staff, 1988) may be viewed at \nhttp://wwwt.emc.ncep.noaa.gov/gmb/wd23ja/doc/web2/tocold1.html. \n \nThere has been no update of this to reflect the myriad of changes that have occurred since \nthen. We suggest that interested scientists use the current Office Note and the brief \nsummary noted below to facilitate the use of the model in its present form: \nhttp://wwwt.emc.ncep.noaa.gov/gmb/STATS/html/model_changes.html. \n \nThis chronological summary contains short descriptions of all changes in the forecast \nmodel and in the assimilation/analysis system, as well as references to more complete \ndescriptions found in a series of Office of Meteorology Technical Procedures Bulletins.  \nAnother source of information is the published articles referenced below (Caplan, et \nal.,1997; Kanamitsu, et al.,1991) containing descriptions of major changes and further \nreferences to supporting material in the literature.   The Environmental Modeling Center \nintends to provide an updated Technical Note every 2-3 years. \n2. Numerical/Computational Properties \n \n2.1 Horizontal Properties \nHorizontal Representation:  Spectral (spherical harmonic basis functions) with \ntransformation to a Gaussian grid for calculation of nonlinear quantities and physics.  \n \nHorizontal Resolution:  Spectral triangular 254 (T254); Gaussian grid of 768X384, \nroughly equivalent to 0.5 X 0.5 degree latitude/longitude.  \n \n2.2 Vertical Properties \nVertical Domain:  The vertical domain is from the earth's surface (sigma=1) to the top of \nthe atmosphere (sigma=0). This domain is divided into 64 layers with enhanced \nresolution near the bottom and the top. For a surface pressure of 1000 hPa, the lowest \natmospheric level is at a pressure of about 997.3 hPa and the top level is at about 0.27 \nhPa.  \n \nVertical Representation:  Sigma coordinate. Lorenz grid. Quadratic-conserving finite \ndifference scheme by Arakawa and Mintz (1974).  \n \nVertical Resolution:  64 unequally-spaced sigma levels. For a surface pressure of 1000 \nhPa, 15 levels are below 800 hPa, and 24 levels are above 100 hPa. \n  \n2.3 Computer Properties \nComputer/Operating System:  IBM RS/6000 SP (Class VIII) in an AIX environment.  \n \nComputational Performance:  About 12 minutes computation time on the IBM per one-\nday forecast at T254.  \n \n2.4 Initialization:  Initialization is not necessary because the statistical spectral \ninterpolation analysis scheme eliminates the unbalanced initial state.  \n \n2.5 Time Integration Scheme(s):  The main time integration is leapfrog for nonlinear \nadvection terms, and semi-implicit for gravity waves and for zonal advection of vorticity \nand moisture. An Asselin (1972) time filter is used to reduce computational modes. The \ndynamics and physics are split. The physics are written in the form of an adjustment and \nexecuted in sequence. For physical processes, implicit integration with a special time \nfilter (Kalnay and Kanamitsu, 1988) is used for vertical diffusion. In order to incorporate \nphysical tendencies into the semi-implicit integration scheme, a special adjustment \nscheme is performed (Kanamitsu et al., 1991). The time step is 7.5 minutes for \ncomputation of dynamics and physics, except that the full calculation of longwave \nradiation is done once every 3 hours and shortwave radiation every hour (but with \ncorrections made at every time step for diurnal variations in the shortwave fluxes and in \nthe surface upward longwave flux).  \n \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document provides detailed information about the GFS atmospheric model, including its numerical and computational properties, dynamical and physical properties, and references to further documentation.",
+    "provider": {
+      "provider_id": "noaa",
+      "name": "National Centers for Environmental Prediction"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "GFS Atmospheric Model",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Atmospheric Dynamics",
+        "unit": null,
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Horizontal Diffusion",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Vertical Diffusion",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Gravity-wave Drag",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Radiation",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Convection",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Shallow convection",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Cloud Fraction",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Grid-scale Condensation and Precipitation",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Planetary Boundary Layer",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Orography",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Ocean",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Sea Ice",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Snow Cover",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Surface Characteristics",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Surface Fluxes",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Land Surface Processes",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Chemistry",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.5 X 0.5 degree latitude/longitude",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "sigma",
+      "n_levels": 64,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2504,
+  "_tokens_out": 2213,
+  "_eval_s": 16.7
+}

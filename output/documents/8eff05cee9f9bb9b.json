@@ -1,0 +1,264 @@
+{
+  "doc_id": "8eff05cee9f9bb9b",
+  "legacy_doc_id": "a34abc9236aa",
+  "filename": "wallcraft_HYCOM_2.1.03_code.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_HYCOM_2.1.03_code.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 5.01,
+  "pages": 36,
+  "text_preview": "HYCOM code development\nAlan J. Wallcraft\nNaval Research Laboratory\n2003 Layered Ocean Model Users’ Workshop\nFebruary 10, 2003\nHYCOM 2.1.03 (I)\n/AF First public release of HYCOM 2.1\nÆ September, 2001\n/AF Maintain all features of HYCOM 2.0\nÆ Requires Fortran 90\nÆ Can use HYCOM for pure iso-pycnal cases\nÆ KPP or Kraus-Turner mixed-layer\nÆ Energy-Loan (passive) ice model\nÆ High frequency atmospheric forcing\nÆ New I/O scheme (.a and .b ﬁles)\nÆ Scalability via OpenMP or MPI or both\n/A3 Bit-for-bit multi-cpu reproducibility\nHYCOM 2.1.03 (II)\n/AF Orthogonal curvilinear grids\n/AF Fully global domains\nÆ Near-global Mercator already in HYCOM 2.0\nÆ Pan-Am grid with closed Bering Strait\n/A3 Open Bering Strait requires a special halo\nexchange\n/A3 Available “soon”\n/AF Multiple tracers\nÆ Passive\nÆ Simple biology (NPZ or NPZD)\n/A3 Most of infrastructure in place\n/A3 More work needed on biology and boundary\nconditions\n/AF Rivers as bogused surface precipitation\nÆ Annual or monthly climatology\nHYCOM 2.1.03 (III)\n/AF Off-line one-way nesting\nÆ Similar to MICOM\n/A3 Exact b.c. for depth averaged component\n/A3 Relaxation for 3-D T/S/pressure/velocity\n/A1 Based on relaxation to climatology\n/A1 But with addition of velocity relaxation\nÆ Interpolate to target domain off-line\n/A3 Source domain to target domain archive ﬁles\n/A3 Nested model does not “know” about\nenclosing domain\n/A3 Can discard deep iso-pycnal layers\n/A3 Can remap to new vertical coordinate\nÆ Get boundary data from input archive ﬁles\n/A3 Simpliﬁes scalability\n/A3 At the cost of more I/O and bigger ﬁles\n/AF Same resolution nesting unexpectedly useful\nÆ No need to rerun large domain\nÆ Change atmospheric forcing (e.g. use MM5)\nÆ Change vertical structure\nÆ Tracer studies (e.g. add biology)\nHYCOM 2.1.03 (IV)\n/AF More general ﬁxed (sigma/Z) vertical coordinate\nÆ Emulate Z or Sigma or Sigma-Z models\nÆ HYCOM has partial cells\n/A3 Emulate full cell Z models with the\nappropriate bathymetry\n/AF Alternative mixed-layer models\nÆ Mellor-Y amada 2.5\nÆ Price-Weller-Pinkel\n/AF Explicit support for 1-D and 2-D domains\nÆ Tiling allows periodic domains\nÆ 1-D is 2x2 doubly periodic domain\n/A3 Only read/write .b ﬁles\nÆ 2-D is Nx2 periodic domain\n/A3 Inﬁnite f-plane",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the development of HYCOM version 2.1.03, including new features such as scalability via OpenMP or MPI, support for multiple tracers, and off-line one-way nesting capabilities.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Pressure",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Ice Fraction",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Ice Thickness",
+        "unit": "m",
+        "physical_quantity": "ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Wind Speed",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Wave Direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Bathymetry",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Mixed Layer Depth",
+        "unit": "m",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Vorticity",
+        "unit": "1/s",
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "sigma | z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,85 @@
+{
+  "doc_id": "69d0a8b5972da0de",
+  "legacy_doc_id": "be2b79d7ffdb",
+  "filename": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.46,
+  "pages": 14,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Emmanuelle Autret (Ifremer), Jean-François Piollé (Ifremer) \n \nApproval Date : November 2025 \n \nFor Level 4 ODYSSEA Sea Surface Temperature \nmulti-year Product over the European North West \nShelf / Iberia Biscay Irish areas \n \n SST_ATL_L4_REP_OBSERVATIONS_010_026 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for SST_ATL_SST-REP-OBSERVATION_010_026 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-026 \nIssue 1.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/13 All Initial version E. Autret \nCopernicus \nMarine \nProduct \nManagement \n \n      \n      \n \n \n \n3 Product User Manual for SST_ATL_SST-REP-OBSERVATION_010_026 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-026 \nIssue 1.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDOWNLOAD A PRODUCT ............................................................................................ 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details .................................................................................................... 10 \nd) Additional information on some parameters ................................................ 10 \ne) Processing information ...................................................................................... 11 \nf) Catalogue updating ......................................................................................... 11 \ng) Time averaging ................................................................................................... 11 \nh) Product use and impact ................................................................................... 11 \n3) FILE FORMAT .................................................................................................... 12 \n4) FILES NOMENCLATURE .................................................................................... 12 \n5) FILE SIZE ............................................................................................................ 12 \n6) STRUCTURE AND SEMANTIC OF NetCDF MAP FILES....................................... 12 \n7) REFERENCES ..................................................................................................... 13 \n8) ANNEX ............................................................................................................. 13 \na) Structure and semantic of NetCDF maps files ....... Erreur ! Signet non défini. \n  \n \n \n \n4 Product User Manual for SST_ATL_SST-REP-OBSERVATION_010_026 \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-026 \nIssue 1.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observations and/or less accurate than in a \nbest-analysis). \nBEST-ANALYSIS: \nAn hindcast done with data assimilation for a period close to \npresent. The quality and the number of available observations \nit’s the best available (more observations and/or more accurate \nthan in a NRT-analysis).  \n \n \n \n5 Product User Manual for SST_ATL_SST-REP-OBSERVATI",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Level 4 ODYSSEA Sea Surface Temperature multi-year product over the European North West Shelf / Iberia Biscay Irish areas, providing details on its production system, dataset specifics, and file format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_PUM",
+      "name": "Level 4 ODYSSEA Sea Surface Temperature multi-year product over the European North West Shelf / Iberia Biscay Irish areas",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_PUM",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10.0,
+        "lon_max": 5.0,
+        "lat_min": 40.0,
+        "lat_max": 60.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2308,
+  "_tokens_out": 556,
+  "_eval_s": 4.11
+}

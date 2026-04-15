@@ -1,0 +1,97 @@
+{
+  "doc_id": "73a756705ffff2c4",
+  "legacy_doc_id": "b3ce4109ea71",
+  "filename": "SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.38,
+  "pages": 41,
+  "text_preview": " \n  \nSea Ice Thematic Assembly Centre  \nArctic Ocean - High Resolution Sea Ice Information  \nL3 and L4 \n \nSEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 \nSEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024 \n Issue: 1.1 \nContributors: A. Korosov and M. Babiker (NERSC), T. Wulf, J. Buus-Hinkler and M. B. Kreiner (DMI). \nApproval date by the CMEMS product quality coordination team: 17/11/2025 \n \n \n \n \n  \n \n\nQUID for SI TAC Products \nSEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 \nSEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-023-024 \nNovember 2025 \n1.1 \n \n \n                                                      Page 2/ 41 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated an d a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. Column 5 should include the names of \nthe author(s) doing the changes. Including the name in c olumn 6 shows that the document has been \nvalidated by the TAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation \nmeans the document was checked for contents, formats and consistency with other documents. \n \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 November \n2024 \nAll Creation of the document. A. Korosov, M. Babiker \n(NERSC), T. Wulf, J. Buus-\nHinkler, M. B. Kreiner \n(DMI). \nC. Wettre \n1.1 May 2025 II, V Added information about new \nupstream data from Sentinel-1 \nand Radarsat Constellation \nMission. \nM. B. Kreiner, T. Wulf, C. Wettre \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nQUID for SI TAC Products \nSEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 \nSEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-023-024 \nNovember 2025 \n1.1 \n \n \n                                                      Page 3/ 41 \nACRONYM TABLE \nAI Artificial Intelligence \nAMSR2 Advanced Scanning Microwave Radiometer 2  \nASIC Automatic Sea Ice Concentration \nASIP Automated Sea Ice Products \nAVHRR Advanced Very High Resolution Radiometer \nCDR Climate Data Record \nCMEMS Copernicus Marine Environment Monitoring Service \nCF Climate Forecast (convention for NetCDF) \nDL Deep Learning \nDMI Danish Meteorological Institute \n(I)CDR (Interim) Climate Data Record \nEUMETSAT European Organisation for the Exploitation of Meteorological Satellites \nEW Extra-Wide Swath \nFLZ Floe Size \nFORECAST An assessment of the future state of the ocean variables made using numerical \nmodels. \nFTP Protocol to download files \nGLO Global \nGRDM Ground Range Detected Multilooked \nHH Horizontal transmit, Horizontal receive SAR polarization \nHV Horizontal transmit, Vertical receive SAR polarization \nICDR Interim Climate Data Record \nL3 Level-3 \nL4 Level-4 \nMDS Marine Data Store \nMET Norwegian Meteorological Institute \nMFC Monitoring and Forecasting Centre \nmIoU Mean Intersection over Union \nMSIC Manually derived ice chart \nMY Multi-year \nQUID for SI TAC Products \nSEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 \nSEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-023-024 \nNovember 2025 \n1.1 \n \n \n                                                      Page 4/ 41 \nMYNRT Mylti-year and near-real-time \nNERSC Nansen Environmental Remote Sensing Centre \nNetCDF Network Common Data Form  \nNOAA National Oceanic and Atmospheric Administration \nNRT Near Real Time \nOSI SAF Ocean & Sea Ice Satellite Application Facility \nPUM Product User Manual \nQUID Quality Information Document \nRCM Radarsat Constellation Mission \nRMSD Root Mean Square Difference \nSAR Synthetic Aperture Radar \nSI Sea Ice \nSIC Sea Ice Concentration \nSSMIS Special Sensor Microwave Imager / Sounder \nSOD Stage-of-development \nSST Sea Surface Temperature \nTAC Thematic Assembly Center \nVIIRS Visible Infrared Imaging Radiometer Suite \nWMO World Meteorological Organization \n \n \n \n \n \n \n \n \n \n \n \n \n \nQUID for SI TAC Products \nSEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 \nSEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-023-024 \nNovember 2025 \n1.1 \n \n \n                                                      Page 5/ 41 \nKEY DEFINITIONS \nGlacier ice Ice that has formed by the accumulation and compression of snow over \ntime. \nMarginal ice zone The region of an ice cover which is affected by waves and swell \npenetrating into the ice from the open ocean\". It is a transitional zone \nbetween open water and dense pack ice. \nMulti-year ice Sea ice that has survived at least one summer melt season \nPack ice Sea ice that is not attached to the shoreline and drifts freely on the ocean, \ndriven by winds and currents. \nSea Ice Concentration  Fraction (percentage) of the sea surface area of the grid cell  containing \nsea-ice. \nSea Ice floe size An ice floe is a relatively flat piece of floating ice that is at least 20 meters \nin width.  Sea ice floes are classified by size, from the smallest to the \nlargest: ice cakes (less than 20 meters), small floes (20–100 m)",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Sea Ice Thematic Assembly Centre products, specifically SEAICE_ARC_PHY_AUTO_L3_MYNRT_011_023 and SEAICE_ARC_PHY_AUTO_L4_MYNRT_011_024. It provides details about the product's quality changes, contributors, and acronyms used in the context of Arctic Ocean sea ice information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Sea Ice Thematic Assembly Centre Products",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation",
+        "climatology"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "FLZ",
+        "cf_standard_name": "sea_ice_floe_size",
+        "long_name": "Sea Ice Floe Size",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

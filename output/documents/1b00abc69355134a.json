@@ -1,0 +1,124 @@
+{
+  "doc_id": "1b00abc69355134a",
+  "legacy_doc_id": "e33b99de7643",
+  "filename": "wallcraft_new_features_lom2011.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_new_features_lom2011.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.98,
+  "pages": 25,
+  "text_preview": "New Features of HYCOM\nAlan J. Wallcraft\nNaval Research Laboratory\n15th Layered Ocean Model Workshop\nFebruary 9, 2011\nHYCOM 2.2 (I)\n• Maintain all features of HYCOM 2.1\n◦ Orthogonal curvilinear grids\n◦ Can emulate Z or Sigma or Sigma-Z models\n⋄ It is “Arbitrary Lagrangian-Eulerian”, see:\nAdcroft and Hallberg, O. Modelling 11 224-233.\n◦ Explicit support for 1-D and 2-D domains\n◦ KPP or Kraus-Turner or\nMellor-Y amada 2.5 or Price-Weller-Pinkel\n◦ Rivers as bogused surface precipitation\n◦ Multiple tracers\n◦ Off-line one-way nesting\n◦ Scalability via OpenMP or MPI or both\n⋄ Bit-for-bit multi-cpu reproducibility\n• Special halo exchange for tripole global grid\n◦ Arctic dipole patch on standard Mercator globe\n◦ Logically rectangular domain\n⋄ Two halves of top edge “fold” together\n⋄ V-velocity changes sign across the fold\nHYCOM 2.2 (IIa)\n• Alternative LeapFrog barotropic time splitting\n◦ Provided by SHOM\n◦ Twice as expensive as standard scheme\n⋄ Still a small fraction of total run time\n◦ Signiﬁcantly more stable\n◦ May allow 2x longer baroclinic time step\n• Alternative scalar advection techniques\n◦ Provided by Mohamed Iskandarani\n◦ Donor Cell, FCT (2nd and 4th order), MPDATA\n◦ FCT2 replaces MPDATA as standard scheme\n• Mixed layer changes\n◦ GISS mixed layer model\n⋄ Provided by Armando Howard\n◦ KPP bottom boundary layer\n⋄ Provided by George Halliwell\n◦ KPP tuning\nHYCOM 2.2 (IIb)\n• Initial vertical coordinate changes\n◦ Must always use PCM for isopycnal layers\n◦ Vertical remapping used PLM for ﬁxed\ncoordinate layers\n◦ Thin deep iso-pycnal layers\n◦ Stability from locally referenced potential density\n◦ Spatially varying layer target densities\n⋄ Different isopycnal layers in semi-enclosed seas\n•\nRecent vertical coordinate changes (2.2.18)\n◦ hybrlx only active below “ﬁxed coordinate”\nsurface layers\n◦ Major re-write of HYBGEN by\nGeorge Halliwell and Alan Wallcraft\n⋄ Must always use PCM for isopycnal layers\n⋄ Vertical remapping uses PLM or PPM or\nWENO-like PPM (Alexander Shchepetkin) for\nﬁxed and non-isopycnal coordinate layers\n⋄ More layers are identiﬁed as non-isopycnal\n⋄ Updated logic for two layers\n(one too dense, other too light)\nANNUAL MEAN EQUATORIAL PACIFIC\nGLBt0.72 HYCOM VERSION 2.2.03\n3M TOP LAYER, GDEM3, 7-T EOS",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes new features and enhancements of HYCOM version 2.2, including improvements to vertical coordinate systems, mixed layer models, and alternative advection techniques.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "velocity",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Sea water velocity components",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      },
+      {
+        "native_name": "mixed_layer_depth",
+        "cf_standard_name": "mlotst",
+        "long_name": "Mixed layer depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "isopycnal",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

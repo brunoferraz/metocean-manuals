@@ -1,0 +1,82 @@
+{
+  "doc_id": "ab3633398334735e",
+  "legacy_doc_id": "bda5e91204ed",
+  "filename": "WAVE_GLO_PHY_SWH_L4_MY_014_007_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WAVE_GLO_PHY_SWH_L4_MY_014_007_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.36,
+  "pages": 41,
+  "text_preview": " \n  \nWAVE Thematic Assembly Centre: \nWAVE_GLO_PHY_SWH_L4_MY_014_007 \ncmems_obs-wave_glo_phy-swh_my_multi-l4-2deg_P1D-m \ncmems_obs-wave_glo_phy-swh_my_multi-l4-0.5deg_P1D-i \n Issue: 2.0 \nContributors: E. Charles, C. Béchonnet \nApproval date by the CMEMS product quality coordination team: 08/11/2024 \n \n \n \n \n  \n \n\nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L4_MY_014_007 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-007 \n27/05/2024 \n2.0 \n \n \n          \nPage 2/ 41 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table. The \nthird column specifies which Sections or Sub-sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 September \n2021 \nAll First version of document E Charles E Charles \n2.0 June 2024 I.2, I.3,  \nII.4.2, IV, V \nChange of the mapping method \nfor VAVH_INST and reprocessing \nof this parameter \nC Béchonnet P Zunino \nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L4_MY_014_007 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-007 \n27/05/2024 \n2.0 \n \n \n          \nPage 3/ 41 \nLIST OF ACRONYMS \nAL Saral/AltiKa mission \nC2 Cryosat-2 mission \nCalVal Calibration/Validation \nCF Climate Forecast (convention for NetCDF) \nCFO CFOSAT mission \nCLS  Collecte Localisation Satellite \nCMEMS Copernicus Marine Environment Monitoring Service \nDGF Direct Get File (FTP-like CMEMS service tool to download a NetCDF file) \nDT Delayed Time \nDU Dissemination Unit \nEN Envisat Mission \nERA5  European reanalysis v5 \nFTP File Transfer Protocol \nGDR Geophysical Data Record \nGOP Geophysical Ocean Product \nHY-2B Hai Yang-2B mission \nIGDR Intermediate Geophysical Data Record \nJ1 / J2 / J3 Jason-1 / Jason-2 / Jason-3 missions \nL2/L2P/L3/L4 Level 2 / Level 2 Plus / Level 3 / Level 4 \nLRM Low Resolution Mode \nMIOST Multiscale Inversion of Ocean Surface Topography \nMOTU Web server allowing the distribution of met/ocean gridded data files through the web \n(https://github.com/clstoulouse/motu) \nNetCDF Network Common Data Form \nNOP NRT Ocean Product \nNRT  Near Real Time \nOE Orbit Error \nOGDR Operational Geophysical data record \nPLRM Pseudo LRM \nQUID QUality Information Document \nRMS Root Mean Square \nRPC Remote Protocol Client \nRT Real Time \nS3A Sentinel-3A mission \nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L4_MY_014_007 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-007 \n27/05/2024 \n2.0 \n \n \n          \nPage 4/ 41 \nS3B Sentinel-3B mission \nSAR Synthetic Aperture Radar \nSARIn SAR Interferometric \nSPC SPeCtral \nSubsetter CMEMS service tool to download a NetCDF file of a selected geographical box and \ntime range \nSWH Significant Wave Height \nTAC Thematic Assembly Center \nTDS Thredds Data Server \nVAVH Visual AVerage Height \nWMS Web Map Service \n  \nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L4_MY_014_007 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-007 \n27/05/2024 \n2.0 \n \n \n          \nPage 5/ 41 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 6 \nI.2 Summary of the results .............................................................................................................................. 6 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 7 \nII Production system description .................................................................................................................... 8 \nII.1 Production center name ............................................................................................................................ 8 \nII.2 Multi-year system name ........................................................................................................................... 8 \nII.3 Overview of the altimeter-derived SWH measurements ........................................................................... 8 \nII.4 Production centre description for the version covered by this document  ............................................... 10 \nII.4.1 Pre-processing ............................................................................................................................... 10 \nII.4.2 Interpolation .................................................................................................................................. 12 \nII.4.3 Masking .......................................................................................................................................... 13 \nII.4.4 File generation ............................................................................................................................... 13 \nIII Validation framework .............",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the WAVE_GLO_PHY_SWH_L4_MY_014_007 product, detailing its production system and validation framework.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SWH_L4_MY_014_007",
+      "name": "Global Significant Wave Height Multi-Year Level 4 Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-wave_glo_phy-swh_my_multi-l4-2deg_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.0deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

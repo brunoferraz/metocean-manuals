@@ -1,0 +1,113 @@
+{
+  "doc_id": "4617309e0e76e4e4",
+  "legacy_doc_id": "1651a926875e",
+  "filename": "WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.08,
+  "pages": 35,
+  "text_preview": "  \nWAVE Thematic Assembly Centre: \nWAVE_GLO_PHY_SPC_L4_NRT_014_004 \ncmems_obs-wave_glo_phy-spc_nrt_multi-l4-1deg_PT3H \n Issue: 1.1 \nContributors: R. Husson, J. Estimbre, M. Nedellec (CLS/CELAD), A. Mouche (IFREMER) and H. Wang (NOTC) \nApproval date by the CMEMS product quality coordination team: 04/01/2024. \n \n \n \n \n \n  \n \n\nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L3_NRT_ 014_004 \nRef: \nDate: \nIssue: \nCMEMS-WAV-QUID-014-004 \n20/10/2023 \n1.1 \n \n Page 2/ 35 \n CHANGE RECORD  \n \nWhen the quality of the products change s, the QuID is updated, and a row is added to this table. The \nthird column specifies which Sections or Sub-sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \nIssue Date § Description of Change Author Validated By \n1.0 September \n2021 \nAll First version of document with \nrevisions from Mercator Ocean \nInt. \nR Husson, G. \nGoimard, JJ. \nEstimbre (CLS) \nE. Charles \n1.1 October \n2023 \nAll Updated version of document \nwith detailed about CFOSAT \nIntegration \nR. Husson (CLS), M. \nNedellec (CLS) \nP. Zunino \nQUID for WAVE TAC Product \nWAVE_GLO_PHY_SWH_L3_NRT_ 014_004 \nRef: \nDate: \nIssue: \nCMEMS-WAV-QUID-014-004 \n20/10/2023 \n1.1 \n \n Page 3/ 35 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 7 \nII.1 Main principles of the SAR-derived spectral measurements ..................................................................... 7 \n Production system description ............................................................................................................. 13 \nII.1.1 SPC Wave chain overview ................................................................................................................. 13 \nII.1.2 Data acquisition ............................................................................................................................... 14 \nII.1.3 Product generation ........................................................................................................................... 15 \nII.1.3.1 Objective ................................................................................................................................... 15 \nII.1.3.2 Background hypothesis ............................................................................................................. 15 \nII.1.3.3 Overall methodology ................................................................................................................. 16 \nIII Validation framework ............................................................................................................................... 17 \nIV Validation results ...................................................................................................................................... 18 \nIV.1.1 Data availability and spatio-temporal coverage ........................................................................... 18 \nIV.1.2 Strategy for validation .................................................................................................................. 18 \nIV.2 Case studies ........................................................................................................................................... 19 \nIV.2.1 Case study #1 ............................................................................................................................... 19 \nIV.2.2 Case study #2 ............................................................................................................................... 25 \nIV.3 Statistical validation .............................................................................................................................. 28 \nV System’s Noticeable events, outages or changes ...................................................................................... 31 \nV.1 System version changes .......................................................................................................................... 31 \nV.2 Main constellation events impacting data availability and quality .......................................................... 31 \nVI Quality changes since previous version ..............................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical note for WAVE TAC Product, providing details on product validation and production system description.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SPC_L4_NRT_014_004",
+      "name": "Global Wave Spectra and Significant Wave Height L4 NRT Product",
+      "model_name": "WW3",
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-wave_glo_phy-spc_nrt_multi-l4-1deg_PT3H",
+        "temporal_resolution": "PT3H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean Wave Direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth",
+        "long_name": "Mean Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2076,
+  "_tokens_out": 749,
+  "_eval_s": 5.37
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "dffaacd1ddb3bb28",
+  "legacy_doc_id": "e0b1a153ac63",
+  "filename": "GLOBAL_OMI_HEALTH_carbon_ph_area_averaged_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_OMI_HEALTH_carbon_ph_area_averaged_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.76,
+  "pages": 8,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring Service \nGlobal yearly pH time series \nIssue: 6.0 \n \n \n \n \n \n \nContributors : Thi Tuyet Trang Chau, Marion Gehlen, Frédéric Chevallier \nApproval date by the CMEMS product quality coordination team: January 2024 \n \n  \n\n CMEMS Quality Information Document for \nGlobal yearly pH time series \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nCHANGE RECORD \n \n \nIssu\ne \nDate § Description of Change Author Validated \nBy \n1.0  2019/10  all  Creation of the document  Marion Gehlen, Thi Tuyet \nTrang Chau  \n  \n1.1 2019/10 / Update of Figure 1 Thi Tuyet Trang Chau  \n2.0  2019/12  /  Update of Figure 1 (temporal \nextension) \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \n  \n3.0  2020/09  /  Update of Figure 1 (temporal \nextension and uncertainty \nquantification) \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \n  \n4.0  2021/09  /  Update of Figure 1 (temporal \nextension) \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \nStéphanie \nGuinehut  \n4.1  2021/11    Correction following MOi \nreview  \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \nSandrine \nMulet  \n5.0 2022/09 / Update of Figure 1 (temporal \nextension) \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier \nM. \nDrevillon \n6.0 2023/09 / Update of Figure 1 (temporal \nextension and uncertainty \nqualification) \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier \nHélène \nEtienne \n \n \n \n \n \n \n  \n CMEMS Quality Information Document for \nGlobal yearly pH time series \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 CMEMS products used as input for the computations ............................................................................... 4 \nII SCIENTIFIC EVALUATION ............................................................................................................................. 6 \nIII REFERENCES ............................................................................................................................................... 8 \n \n \n \n CMEMS Quality Information Document for \nGlobal yearly pH time series \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \n \nI.1 Product name  \nGLOBAL_OMI_HEALTH_carbon_ph_area_averaged \n \nI.2 Indicator evaluation method \nThe OMI yearly mean surface sea water pH reported on total hydrogen ion scale is computed \nfrom monthly pH values which are distributed as part of the CMEMS product \nMULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008.  \nAt each grid cell and monthly resolution,  the speciation software CO2sys (Lewis and Wallace, \n1998; Van Heuven et al., 2011)  is applied to obtain  the best estimate of pH (µij,m). Monthly \nuncertainty per cell (σij,m) is evaluated from the contributions of (1) model randomness, (2) \nsystematic errors. The uncertainty of (1) is derived from the standard deviation of 100 ensemble \nmembers of the reconstructed spco2 (Chau et al. 2022). Systematic uncertainty (2) is evaluated \nthrough uncertainty propagation following Orr et al. (2018) within the speciation software \nCO2sys. Inputs to the CO2sys uncertainty propagation routine are default values for dissociation \nconstants, systematic errors, ensemble-based uncertainty estimates of spco2, and analysis \nerrors from temperature, salinity, and nutrients (see Chau et al, 2023 for further details). Taking \nthese propagated uncertainties results in standard uncertainties ( σij,m) of monthly pH fields. \nThe OMI corresponds to the yearly mean of global area-weighted monthly mean pH values (µyr) \nand total uncertainty (σyr). The two quanties are computed as follows \nµyr  =  (Σm Σij µ ij,m ×Aij) / (12 × ΣijAij);  σyr2  =  (Σm Σij σij,m2 ×Aij) / (12 × ΣijAij) \nwhere (µij,m; σij,m) are the best estimate and uncertainty of CO2sys pH at the unit of month and \ngrid cell and Aij is the cell area.        \nI.3 CMEMS products used as input for the computations \n \nProduct name (and Type) Documentation \n CMEMS Quality Information Document for \nGlobal yearly pH time series \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicu",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for the Global yearly pH time series of the Copernicus Marine Environment Monitoring Service, detailing the evaluation method and contributors.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "GLOBAL_OMI_HEALTH_carbon_ph_area_averaged",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_excess",
+        "long_name": "Surface sea water pH on total hydrogen ion scale",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

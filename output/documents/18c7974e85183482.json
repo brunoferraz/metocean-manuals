@@ -1,0 +1,124 @@
+{
+  "doc_id": "18c7974e85183482",
+  "legacy_doc_id": "0a412afe01b6",
+  "filename": "NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/NWSHELF_MULTIYEAR_PHY_004_009_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 8.74,
+  "pages": 74,
+  "text_preview": " \n  \nNorth West European Shelf Production Centre \nNWSHELF_MULTIYEAR_PHY_004_009  \n \n \n Issue: 5.2 \nContributors: Richard Renshaw, Sarah Wakelin, Inga Golbeck, Enda O’Dea \nApproval date by the CMEMS product quality coordination team: 01/12/2021 \n \n \n \n \n  \n \nQUID for NWS MFC Reanalysis (Physical) \nNWSHELF_MULTIYEAR_PHY_004_009 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-009 \n03-09-2021 \n5.2 \n \n    Page 2/ 74 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \nIssue Date § Description of Change Author Validated By \n1.0 January \n2014 \nAll Creation of the document  \nfor V4.0 \nSarah Wakelin  Ed Blockley \n2.0 December \n2014 \nAll Addition of biological \nproduct assessment  \n(BIO_004_011)  \nRobert McEwan Ed Blockley \n2.1 February \n2015 \nAll Revision after acceptance \nV5 \n Ed Blockley \n2.2 13/03/2015 I.2, \nII \nWarning remarks after \nevidence of  004_011 \ninterannual  nutrient drifts \n Ed Blockley \n2.3 01/05/2015 all Change format to fit CMEMS \ngraphical rules \n L. Crosnier \n3.0 21/01/2016 all Update for V2 (time series \nextension to 2014 and \naddition of MLD) \nSarah Wakelin, Jon Tinker Marina Tonani \n3.0 01/04/2016 all Revision after V2 AR Marina Tonani Marina Tonani \n4.0 06/08/2018 all New version for Copernicus \nV4 \nRichard Renshaw, Sarah \nWakelin, Enda O’Dea, Jon \nTinker, Marina Tonani \nIna Lorkowsky \n4.1 26/02/2019 V Text added explaining \nreanalysis extensions beyond \n2016 \nRichard Renshaw  \n4.2 19/04/2019  \nIII,V \nText added to explain updates \nof reanalysis beyond 2017  \nRichard Renshaw Marina Tonani \n5.0 04/09/2020  Update for V5 reanalysis Richard Renshaw \nSarah Wakelin \nInga Golbeck \nEnda O’Dea \nMarina Tonani \n \n \n \nQUID for NWS MFC Reanalysis (Physical) \nNWSHELF_MULTIYEAR_PHY_004_009 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-009 \n03-09-2021 \n5.2 \n \n    Page 3/ 74 \n \nIssue Date § Description of Change Author Validated By \n5.1 15/02/2021 all RAN extension to June 2020 \nAdd interim product INT Richard Renshaw \nSarah Wakelin \nMarina Tonani \n5.2 03/09/2021  Update MME (temperature & \nsalinity) \nAdd hourly verification \n \nTabea Rebekka Panteleit \nRichard Renshaw \nMarina Tonani \n \n \n \nQUID for NWS MFC Reanalysis (Physical) \nNWSHELF_MULTIYEAR_PHY_004_009 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-009 \n03-09-2021 \n5.2 \n \n    Page 4/ 74 \nTable of contents \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 7 \nII Production system description .................................................................................................................... 8 \nIII Validation framework ............................................................................................................................... 12 \nIV Validation results ...................................................................................................................................... 13 \nIV.1 Temperature .......................................................................................................................................... 13 \nIV.1.1 World Ocean Database .................................................................................................................. 13 \nIV.1.2 Satellite SST .................................................................................................................................... 17 \nIV.1.3 Mooring data ................................................................................................................................. 19 \nIV.1.4 Multi-Model Ensemble mean ........................................................................................................ 32 \nIV.1.5 Temperature for Interim updates .................................................................................................. 35 \nIV.2 Salinity ................................................................................................................................................... 40 \nIV.2.1 World Ocean Database .................................................................................................................. 40 \nIV.2.2 Mooring data ................................................................................................................................. 44 \nIV.2.3 Multi-Model Ensemb",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the North West European Shelf Multi-Year Physical Reanalysis product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_MULTIYEAR_PHY_004_009",
+      "name": "North West European Shelf Multi-Year Physical Reanalysis",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_height_above_mean_sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Mean Sea Level",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 49,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

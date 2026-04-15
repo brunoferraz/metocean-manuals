@@ -1,0 +1,124 @@
+{
+  "doc_id": "11073f155095f05e",
+  "legacy_doc_id": "9490bf63574a",
+  "filename": "INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.49,
+  "pages": 48,
+  "text_preview": " \n  \nNear Real-Time IN SITU production centre  \nINSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \n \n Issue: 2.4 \nContributors: Nathalie Verbrugge, Hélène Etienne, L. Corgnati, C. Mantovani, E. Reyes, L. Solabarrieta, A. Rubio, \nT. Carval, Julien Mader, L. Drouineau \nApproval date by the Copernicus Marine Service product quality coordination team: 26/03/2024 \n \n \n \n \n  \n \n\nQUID for Near Real-Time IN SITU product \nINSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-048 \n22 January 2024 \n2.4 \n \n                                                      Page 2/ 48 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 14/01/2019 All Creation of the document Nathalie Verbrugge, \nHélène Etienne, Julien \nMader, L. Corgnati, C. \nMantovani, E. Reyes, A. \nRubio \nL. Petit de la \nVilléon  \n1.1 03/04/2019  Minor changes and \napprovement by the Product \nQuality group (Mercator -\nOcean) \n  \n2.0 29/11/2019 All 1st update of the document:  \nUpdate of existing dataset \n(radar_total) \nAddition of a new dataset \n(radar_radial) \nLorenzo Corgnati, Carlo \nMantovani, Emma \nReyes, Anna Rubio, \nJulien Mader, Paz \nRotllán, Nathalie \nVerbrugge, Hélène \nEtienne \n \n2.1 02/09/2020 All Addition of Argo currents \ndataset \nThierry Carval Stéphane Tarot \n2.2 24/05/2022 All New template, \ndrifter_filt_removal, new \ndata in MED, renaming of \nthe product and datasets \nN. Verbrugge, L. \nDrouineau, L. Corgnati, \nE Reyes \nStéphane Tarot \n2.2 31/08/2022 §1.2.3 \n§2.3 \n§3.4 \nUpdate of Argo dataset \nfigures \nThierry Carval Stéphane Tarot \n2.3 11/04/2023 I.2.1 \nII.1 \n \n \nI.2.3 \nII.3 \nIV.3 \nAdd undrogued drifters. \nUpdate §V with mention of \nthe decline in the number of \ndrifters \n \nUpdate of figures and \nnumbers \nH.Etienne, N. \nVerbrugge,  \n \n \n \nThierry Carval \nStéphane Tarot \n2.4 22/01/2024 I.2.1,I.3 \nII.1,III.1 \nIV.1, V, \nVI \nUpdate with drifter new \nvariables (wind slippage). \nH.Etienne Stéphane Tarot \n \nQUID for Near Real-Time IN SITU product \nINSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-048 \n22 January 2024 \n2.4 \n \n                                                      Page 3/ 48 \nTABLE OF CONTENTS \nGLOSSARY AND ABBREVIATIONS ......................................................................................................................... 4 \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 7 \nI.2.1 Dataset drifter ...................................................................................................................................... 7 \nI.2.2 Dataset radar_total and radar_radial .................................................................................................. 9 \nI.2.3 Dataset Argo ....................................................................................................................................... 10 \nI.3 Estimated Accuracy Numbers ................................................................................................................... 11 \nII Production system description .................................................................................................................. 12 \nII.1 Dataset drifter ......................................................................................................................................... 12 \nII.2 Dataset radar_total and radar_radial ...................................................................................................... 15 \nII.3 Dataset Argo ........................................................................................................................................... 18 \nIII Validation framework ............................................................................................................................... 21 \nIII.1 Dataset drifter ........................................................................................................................................ 21 \nIII.2 Dataset radar_total ................................................................................................................................ 21 \nIII.3 Dataset radar_radial .............................................................................................................................. 24 \nIII.4 Dataset argo .................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Near Real-Time IN SITU products, specifically INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048, detailing the product's history, contributors, and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048",
+      "name": "Near Real-Time IN SITU product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "drifter",
+        "cf_standard_name": null,
+        "long_name": "Drifters dataset",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "radar_total",
+        "cf_standard_name": null,
+        "long_name": "Radar total dataset",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "radar_radial",
+        "cf_standard_name": null,
+        "long_name": "Radar radial dataset",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "argo",
+        "cf_standard_name": null,
+        "long_name": "Argo dataset",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

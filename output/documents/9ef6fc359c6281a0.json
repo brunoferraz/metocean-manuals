@@ -1,0 +1,82 @@
+{
+  "doc_id": "9ef6fc359c6281a0",
+  "legacy_doc_id": "4755f88c1ce6",
+  "filename": "SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.83,
+  "pages": 35,
+  "text_preview": " \n \n \n  \nSST TAC Production Centre \nBaltic Sea- Sea Surface Temperature Analysis L4 and \nNorth Sea/Baltic Sea - Sea Surface Temperature \nAnalysis L3S \nSST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b, \nSST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032 \n \n Issue: 6.0 \nContributors: Ioanna Karagali, Guisella Gacitua, Ida Lundtorp Olsen, Wiebke M. Kolbe, Magnus Barfod Suhr, Jacob \nL. Høyer \nApproval date by the CMEMS product quality coordination team: 06/11/2025 \n \n \n \n \n  \n \n\nProducts \nSST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b \nSST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-007-032 \n09 May 2025 \n6.0 \n \n                                                      Page 2/ 35 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n0.0 January \n2013 \nAll First draft version for OSI TAC V3 SST \nproducts \nH. Roquet Lars-Anders \nBreivik \n0.1 January \n2013 \nS.IV4 \n \nUpdated statistics for the SST analysis \nover the Baltic Sea (product 010-007) \nHervé Roquet Lars-Anders \nBreivik \n0.2 February \n2013 \nAll Update to include multi-sensor SST \nproduct over European Seas \n(product 010-009) \nHervé Roquet Lars-Anders \nBreivik \n1.0 March \n2013 \nS.II2, \nS.V \nSST inland water upgrade Ed Blockley Lars-Anders \nBreivik \n1.2 March \n2014 \nS.I1 \nS.IV1\nS.IV2 \nS.V2 \nUpdated with MED and BS L4 data \nAdded Summary of the impact of the \nchanges in High Resolution SST \nanalysis over the Mediterranean \n(010-004a) \nAndrea Pisano, \nBruno \nBuongiorno \nNardelli \n \n1.3 May 2015 All Remove info about product 010-001 \nand 010-004, 006, 012 and 013 \nalready covered in other QUIDs \nChange format to fit CMEMS \ngraphical rules \n L. Crosnier \n1.4 Septemb\ner 2015 \nAll Remove info about product 010-009-\na,b which is now found in separate \nQUIDs. \nUpdate satellite info. \nBruce Hackett, \nCristina Luis, \nJacob L. Høyer, \nJ.-F. Piollé \n \n1.5 January \n2016 \nAll Complete CMEMS rebranding Bruce Hackett  \n1.6 January \n2018 \nBaltic \nSea \nRebranded Baltic Sea part for SST \nTAC. \nJacob L. Høyer  \n1.7 October \n2018 \nBaltic \nSea \nIncluded Sentinel 3A observations. \nRevised after review: removed Arctic \nand NW SST products \nJacob L. Høyer B.Buongiorno \nNardelli \nMercator \nOcean \n \n \n \nProducts \nSST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b \nSST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-007-032 \n09 May 2025 \n6.0 \n \n                                                      Page 3/ 35 \nIssue Date § Description of Change Author Validated By \n1.8 January \n2019 \nAll Updated with L3S validation using \nMarnet results from Baltic Sea \nJacob L. Høyer  \n1.9 March \n2019 \nAll Review of the document Jacob L. Høyer Mercator Ocean \n2.0 October \n2019 \nAll Updated due to integration of \nSLSTR B and NOAA 20 \nJacob L. Høyer Mercator Ocean \n2.1 September \n2021 \nAll Updated after improved SST under \nsea ice \nIoanna Karagali \nJacob L. Høyer \n \n3.0 June 2022 All Updated template, new \ninformation on analysis of provided \nuncertainties \nIoanna Karagali \nMagnus Barfod \nSuhr \nAndrea Pisano \n4.0 June 2023 All Updated information on effective \nspatial resolution \nIoanna Karagali Andrea Pisano \n5.0 July 2024 All Updated information on salinity -\nbased updates of freezing point \ntemperature and new land mask \nIoanna Karagali \nGuisella Gacitúa \nAndrea Pisano \n6.0 July 2025 All Updated template, inclusion of \nVIIRS on NOAA21 \nIoanna Karagali \nGuisella Gacitúa \nAndrea Pisano \n \n \n  \nProducts \nSST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b \nSST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-007-032 \n09 May 2025 \n6.0 \n \n                                                      Page 4/ 35 \nACRONYM TABLE \n \nAcronym Description \nArgo International profiling float network (www.argo.net) \nAVHRR Advanced Very High Resolution Radiometer \nDMI Danish Meteorological Institute \nEiS Entry into Service \nESA European Space Agency \nEUMETSAT European Meteorological Satellites \nGHRSST Group for High Resolution Sea Surface Temperature \nMetOp Meteorological Operational Satellites \nMSG Meteosat Second Generation \nNASA National Aeronautics and Space Administration \nNOAA National Oceanic and Atmospheric Administration \nNPP National Polar-orbiting Partnership \nNRT Near Real Time \nOI Optimal Interpolation \nOSTIA Operational Sea Surface Temperature and Ice Analysis \nSAF Satellite Application Facility \nSEVIRI Spinning Enhanced Visible and Infrared Imager \nSIC Sea Ice Concentration \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Sea Surface Temperature Analysis products for the Baltic Sea and North Sea/Baltic Sea, including SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b and SST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032. It outlines changes made to these products over time and includes an acronym table for reference.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b, SST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032",
+      "name": "Baltic Sea and North Sea/Baltic Sea - Sea Surface Temperature Analysis",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_BAL_SST_L4_NRT_OBSERVATIONS_010_007_b, SST_BAL_SST_L3S_NRT_OBSERVATIONS_010_032",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 30,
+        "lat_min": 54,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

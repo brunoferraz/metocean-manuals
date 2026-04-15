@@ -1,0 +1,208 @@
+{
+  "doc_id": "2c1a52512b24c5ab",
+  "legacy_doc_id": "94d3a83fc30b",
+  "filename": "GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_MULTIYEAR_BGC_001_029_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.47,
+  "pages": 40,
+  "text_preview": " \n \n \n \n  \nGlobal Production Centre \nGLOBAL_MULTIYEAR_BGC_001_029 \n \n \n Issue: 1.2 \nContributors: Coralie Perruche, Camille Szczypta, Julien Paul, Marie Drévillon \nApproval date by the CMEMS product quality coordination team: 23/09/2024 \n \n \n \n \n  \n \n\nQUID for GLO MFC Products \nGLOBAL_MULTIYEAR_BGC_001_029 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-029 \n31 May 2024 \n1.2 \n \n \n \n    \nPage 2/ 40 \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Validated By \n1.0 September \n2018 \nAll Creation of the document Coralie \nPerruche  \nMarie Drévillon \n1.1 \n \n \nApril 2019 IV.9 (new) \nIV.10 (new) \nIV.11 (updated) \nExtension in 2018 + addition \nof 2 new variables: ph and \nspco2 \nCoralie \nPerruche \nMarie Drévillon \n1.2 May 2024 All Change of template Coralie \nPerruche \nOlivier \nLegalloudec \n \n \n \n \n  \nQUID for GLO MFC Products \nGLOBAL_MULTIYEAR_BGC_001_029 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-029 \n31 May 2024 \n1.2 \n \n \n \n    \nPage 3/ 40 \nTABLE OF CONTENTS \nI Executive summary ....................................................................................................... 4 \nI.1 Products covered by this document ................................ ................................ .........................  4 \nI.2 Summary of the results ................................ ................................ ................................ ........... 4 \nI.3 Estimated Accuracy Numbers ................................ ................................ ................................ .. 5 \nI.3.1 Chlorophyll in Log10 ............................................................................................................................. 5 \nII Production system description ....................................................................................... 8 \nII.1 PISCES Biogeochemical model description ................................ ................................ .............. 8 \nII.2 Ocean physics and sea ice forcings: FREEGLORYS2V4 ................................ ..............................  9 \nII.3 Atmospheric forcings: ERA-Interim and ERA5 from 2019 on ................................ .................. 10 \nIII Validation framework .............................................................................................. 11 \nIV Validation results .................................................................................................... 13 \nIV.1 Chlorophyll ................................ ................................ ................................ .........................  13 \nIV.1.1 Climatological biases ...................................................................................................................... 13 \nIV.1.2 Seasonal cycle and its interannual variability ................................................................................ 14 \nIV.1.3 Vertical distribution ....................................................................................................................... 19 \nIV.2 Nitrate ................................ ................................ ................................ ................................  20 \nIV.3 Phosphate ................................ ................................ ................................ ..........................  23 \nIV.4 Silicate ................................ ................................ ................................ ...............................  24 \nIV.5 Dissolved oxygen ................................ ................................ ................................ ................ 25 \nIV.6 Phytoplankton concentration in carbon ................................ ................................ ............... 28 \nIV.7 Iron ................................ ................................ ................................ ................................ .... 29 \nIV.8 Primary production ................................ ................................ ................................ ............. 30 \nIV.9 Surface partial pressure of carbon dioxide ................................ ................................ ........... 30 \nIV.10 pH ................................ ................................ ................................ ................................ .... 31 \nIV.11 Global balances................................ ................................ ................................ ................. 33 \nV System’s Noticeable events, outages or changes ......................................................... 35 \nV.1 Change from ERA-Interim to ERA5 ................................ ................................ ........................  35 \nV.2 Interim production ................................ ................................ ................................ .............. 35 \nVI Quality changes since previous version .................................................................... 36 \nVII References ........................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Underpinning Information Document (QUID) for GLO MFC products, detailing validation results and system descriptions for biogeochemical variables such as chlorophyll, nitrate, phosphate, silicate, dissolved oxygen, phytoplankton concentration in carbon, iron, primary production, surface partial pressure of carbon dioxide, pH, and global balances.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_MULTIYEAR_BGC_001_029",
+      "name": "Global Multi-Year Biogeochemical Model",
+      "model_name": "PISCES Biogeochemical model",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll",
+        "cf_standard_name": "chl_concentration",
+        "long_name": "Chlorophyll concentration in Log10",
+        "unit": "log10(ug/L)",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate",
+        "cf_standard_name": "ocean_nitrate_concentration",
+        "long_name": "Nitrate concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate",
+        "cf_standard_name": "ocean_phosphate_concentration",
+        "long_name": "Phosphate concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "silicate",
+        "cf_standard_name": "ocean_silicate_concentration",
+        "long_name": "Silicate concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved oxygen concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phytoplankton_concentration_in_carbon",
+        "cf_standard_name": "phytoplankton_biomass_carbon_concentration",
+        "long_name": "Phytoplankton concentration in carbon",
+        "unit": "mgC/m3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "iron",
+        "cf_standard_name": "ocean_iron_concentration",
+        "long_name": "Iron concentration",
+        "unit": "nmol/kg",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "primary_production",
+        "cf_standard_name": "gross_primary_productivity",
+        "long_name": "Primary production",
+        "unit": "umol/m2/d",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "spco2",
+        "cf_standard_name": "sea_water_carbon_dioxide_saturation_ratio",
+        "long_name": "Surface partial pressure of carbon dioxide",
+        "unit": "uatm",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ph",
+        "cf_standard_name": "sea_water_phosphate_concentration",
+        "long_name": "pH",
+        "unit": "dimensionless",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,116 @@
+{
+  "doc_id": "c32a54907c62d5d0",
+  "legacy_doc_id": "9910a25cde1f",
+  "filename": "ON462_semi_lagrangian_equations.pdf",
+  "filepath": "docs/gfs_docs/ON462_semi_lagrangian_equations.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.19,
+  "pages": 31,
+  "text_preview": "/CD/BA/CB/BA /BW/CT/D4/CP/D6/D8/D1/CT/D2 /D8 /D3/CU /BV/D3/D1/D1/CT/D6/CR/CT\n/C6/CP/D8/CX/D3/D2/CP/D0 /C7/CR/CT/CP/D2/CX/CR /CP/D2/CS /BT /D8/D1/D3/D7/D4/CW/CT/D6/CX/CR /BT /CS/D1/CX/D2/CX/D7/D8/D6/CP/D8/CX/D3/D2\n/C6/CP/D8/CX/D3/D2/CP/D0 /CF /CT/CP/D8/CW/CT/D6 /CB/CT/D6/DA/CX/CR/CT\n/C6/CP/D8/CX/D3/D2/CP/D0 /BV/CT/D2 /D8/CT/D6/D7 /CU/D3/D6 /BX/D2 /DA/CX/D6/D3/D2/D1/CT/D2 /D8/CP/D0 /C8/D6/CT/CS/CX/CR/D8/CX/D3/D2\n/BH/BE/BC/BC /BT/D9/D8/CW /CA/D3/CP/CS\n/BV/CP/D1/D4 /CB/D4/D6/CX/D2/CV/D7/B8 /C5/BW /BE/BC/BJ/BG/BI/B9/BG/BF/BC/BG\n/C7Ꜷ/CR/CT /C6/D3/D8/CT /BG/BI/BE\n/CC/CW/CT /BW/CT/D6/CX/DA /CP/D8/CX/D3/D2 /D3/CU /D8/CW/CT /CB/CX/CV/D1/CP /C8/D6/CT/D7/D7/D9/D6/CT\n/C0/DD/CQ/D6/CX/CS /BV/D3 /D3/D6/CS/CX/D2/CP/D8/CT /CB/CT/D1/CX/B9/C4/CP/CV/D6/CP/D2/CV/CX/CP/D2\n/C5/D3 /CS/CT/D0 /BX/D5/D9/CP/D8/CX/D3/D2/D7 /CU/D3/D6 /D8/CW/CT /BZ/BY/CB\n/C2/D3/D7/CT/D4/CW /CB/CT/D0/CP/B6\n/C2/CP/D2 /D9/CP/D6/DD /BE/BC/BD/BC\n/CC/C0/C1/CB /C1/CB /BT/C6 /CD/C6/CA/BX/CE/C1/BX/CF/BX/BW /C5/BT/C6/CD/CB/BV/CA/C1/C8/CC/B8 /C8/CA/C1/C5/BT/CA/C1/C4 /CH/C1 /C6 /CC /BX /C6 /BW /BX /BW /BY /C7/CA /C1/C6/BY /C7/CA/C5/BT/C4\n/BX/CG /BV/C0/BT/C6/BZ/BX /C7/BY /C1/C6/BY /C7/CA/C5/BT /CC/C1/C7/C6 /BT/C5/C7/C6/BZ /CC/C0/BX /C6/BV/BX/C8 /CB/CC /BT/BY/BY /C5/BX/C5/BU/BX/CA/CB\n/B6 /CT/D1/CP/CX/D0/BM /CY/D3 /CT/BA/D7/CT/D0/CP/BS/D2/D3/CP/CP/BA/CV/D3 /DA\n/BD\n/C0/DD/CS/D6/D3 /CS/DD/D2/CP/D1/CX/CR/D7\n/BD /BW/CT/D6/CX/DA /CP/D8/CX/D3/D2 /D3/CU /D8/CW/CT /C5/D3 /CS/CT/D0/B3/D7 /BX/D5/D9/CP/D8/CX/D3/D2/D7\n/CC/CW/CT /CS/CT/D6/CX/DA /CP/D8/CX/D3/D2 /CX/D7 /CQ/CP/D7/CT/CS /D3/D2 /BX/BV/C5/CF/BY/B3/D7 /D4/D9/CQ/D0/CX/CR/CP/D8/CX/D3/D2/D7/BA /CC/CW/CT/D7/CT /CS/CT/D8/CP/CX/D0/CT/CS /D2/D3/D8/CT/D7\n/CX/D2 /D8/CT/D2/CS /D8/D3 /D4/D6/D3 /DA/CX/CS/CT /CP /CS/D3 /CR/D9/D1/CT/D2 /D8/CP/D8/CX/D3/D2 /D3/CU /DB/CW/CP/D8 /DB /CP/D7 /CP/CR/D8/D9/CP/D0/D0/DD /CS/CT/D6/CX/DA /CT/CS /CP/D2/CS /CR/D3 /CS/CT/CS /CX/D2 /D8/D3\n/D8/CW/CT /CT/DC/CX/D7/D8/CX/D2/CV /BZ/BY/CB /BX/D9/D0/CT/D6/CX/CP/D2 /D3 /DA /CT/D6/B9/D7/D8/D6/D9/CR/D8/D9/D6/CT/BA\n/CC/CW/CT /D1/D3 /CS/CT/D0 /CT/D5/D9/CP/D8/CX/D3/D2/D7 /D4/D6/CT/D7/CT/D2 /D8/CT/CS /CX/D2 /D8/CW/CX/D7 /CS/D3 /CR/D9/D1/CT/D2 /D8 /CP/D6/CT /D8/CW/CT /CT/D5/D9/CP/D8/CX/D3/D2/D7 /CU/D3/D9/D2/CS /CX/D2\n/C7Ꜷ/CR/CT /C6/D3/D8/CT /BG/BI/BD /CQ/D9/D8 /CR/CP/D7/D8 /CX/D2 /CP /CB/CT/D1/CX/B9/C4/CP/CV/D6/CP/D2/CV/CX/CP/D2 /AG/D6/CT/CP/CS/DD/AH /CU/D3/D6/D1/BA /C6/CP/D1/CT/D0/DD/BM\nd\nd t (u, v, t, lnp, moisture, tracers) = (RHSU, RHSV, RHST, ... )\n/CB/D4 /CT/CR/CX/AS/CR/CP/D0/D0/DD /B8 /D8/CW/CT /D1/D3/D1/CT/D2 /D8/D9/D1 /CT/D5/D9/CP/D8/CX/D3/D2/D7 /CP/D6/CT /D2/D3/D8 /D7/CR/CP/D0/CT/CS (U, V)=c o s θ(u, v) ,\n/CP/D2/CS /D8/CW/CT /D7/D9/D6/CU/CP/CR/CT /D4/D6/CT/D7/D7/D9/D6/CT /CT/D5/D9/CP/D8/CX/D3/D2 /CX/D7 /CT/DC/D4/D6/CT/D7/D7/CT/CS /CX/D2 /D8/CT/D6/D1/D7 /D3/CU\ndps\ndt\n/B8 /D2/D3/D8\n∂ps\n∂t\n/BA /CC/CW/CT\n/D8/CW/CT/D6/D1/D3 /CS/DD/D2/CP/D1/CX/CR /CT/D5/D9/CP/D8/CX/D3/D2 /CX/D7 /CX/D2/CR/D0/D9/CS/CT/CS /CU/D3/D6 /CR/D3/D1/D4/D0/CT/D8/CT/D2/CT/D7/D7/B8 /CP/D2/CS /D8/CW/CT /CP/CS/CX/CP/CQ/CP/D8/CX/CR /D1/D3/CX/D7/B9\n/D8/D9/D6/CT /CT/D5/D9/CP/D8/CX/D3/D2 /D7/CX/D1/D4/D0/DD /CT/DC/D4/D6/CT/D7/D7/CT/D7 /D8/CW/CT /DA /CP/D2/CX/D7/CW/CX/D2/CV /D3/CU /D8/CW/CT /D1/D3/CX/D7/D8/D9/D6/CT/B3/D7 /D8/D3/D8/CP/D0 /D8/CX/D1/CT /CS/CT/D6/CX/DA /CP/B9\n/D8/CX/DA /CT/BA /CC/CW/CT /CR/D3/D2 /D8/D6/CX/CQ/D9/D8/CX/D3/D2/D7 /D3/CU /D8/CW/CT /D4/CW /DD/D7/CX/CR/CP/D0 /D4/CP/D6/CP/D1/CT/D8/CT/D6/CX/DE/CP/D8/CX/D3/D2 /CP/D6/CT /CP/CS/CS/CT/CS /CX/D2 /CP /D7/CT/D4/CP/D6/CP/D8/CT\n/D7/CR/CP/D2 /D3/CU /D8/CW/CT /CV/D6/CX/CS /D9/D7/CX/D2/CV /D8/CW/CT /D7/D4/D0/CX/D8/D8/CX/D2/CV /D1/CT/D8/CW/D3 /CS/BA /BT /D8 /CX/D8/D7 /D3/D6/CX/CV/CX/D2/B8 /D8/CW/CT /D7/D4 /CT/CR/D8/D6/CP/D0 /D1/D3 /CS/CT/D0\n/DB /CP/D7 /CR/CP/D7/D8 /CX/D2 /D8/CT/D6/D1/D7 /D3/CU /CS/CX/DA /CT/D6/CV/CT/D2/CR/CT /CP/D2/CS /DA /D3/D6/D8/CX/CR/CX/D8 /DD /BA /CC/CW/CT /D8/D6/CP/D2/D7/CX/D8/CX/D3/D2 /D8/D3 /CP /DA /CT/D0/D3 /CR/CX/D8 /DD/CU /D3 /D6 /B9\n/D1 /D9/D0/CP/D8/CX/D3/D2 /DB /CP/D7 /D1/CP/CS/CT /CX/D2 /CP/D2 /D8/CX/CR/CX/D4/CP/D8/CX/D3/D2 /D3/CU /CP /CB/CT/D1/CX/B9/C4/CP/CV/D6/CP/D2/CV/CT /CX/D1/D4/D0/CT/D1/CT/D2 /D8/CP/D8/CX/D3/D2/BA /CC/CW/CX/D7\n/CU/D3/D6/D1 /D9/D0/CP/D8/CX/D3/D2 /D4 /CT/D6/D1/CX/D8/D7 /D8/CW/CT /CT/DA /CP/D0/D9/CP/D8/CX/D3/D2 /D3/CU /D8/D3/D8/CP/D0 /D8/CX/D1/CT /CS/CT/D6/CX/DA /CP/D8/CX/DA /CT/D7 /CX/D2 /D8/CT/D6/D1/D7 /D3/CU /D9/D4/D7/D8/D6/CT/CP/D1\n/DA /CP/D0/D9/CT/D7 /CX/D2 /D7/D4/CP/CR/CT /CP/D2/CS /D8/CX/D1/CT/BA /CC/CW/CT /D7/D4 /CT/CR/CX/AS/CR /CR /CW/D3/CX/CR/CT /D3/CU /CP /D8/CX/D1/CT /CS/CX/AR/CT/D6/CT/D2/CR/CX/D2/CV /D7/CR /CW/CT/D1/CT /CR/CP/D2\n/CQ /CT /CS/CT/CU/CT/D6/D6/CT/CS /D8/D3 /D8/CW/CT /AS/D2/CP/D0 /D7/D8/CP/CV/CT /D3/CU /D8/CW/CT /CS/CT/D6/CX/DA /CP/D8/CX/D3/D2/B8 /D2/CP/D1/CT/D0/DD /B8 /CP/CU/D8/CT/D6 /D8/CW/CT /D7/D4/CP/CR/CT /CS/CX/D7/CR/D6/CT/D8/CX/DE/CP/B9\n/D8/CX/D3/D2/D7 /CP/D6/CT /CR/D3/D1/D4/D0/CT/D8/CT/CS/BA /CC/CW/CX/D7 /D4/CP/D4 /CT/D6 /DB/CX/D0/D0 /D8/D6/CP/CR/CT /D8/CW/CT /CS/CT/D8/CP/CX/D0/CT/CS /D7/D8/CT/D4/D7 /D6/CT/D5/D9/CX/D6/CT/CS /D8/D3 /CT/DC/D4/D6/CT/D7/D7\n/D8/CW/CT ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses semi-Lagrangian equations applied to oceanographic models, focusing on numerical methods and their implementation.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "NEMO v4.2.2 | WAM 4.7 | WW3 | ICON-O | HYCOM | null",
+      "region": "Global | Baltic | Black Sea | Arctic | Atlantic | null",
+      "product_types": [
+        "forecast",
+        "analysis",
+        "reanalysis",
+        "hindcast",
+        "observation",
+        "static",
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "P1D | P1M | static | null",
+        "update_frequency": "daily | twice_daily | weekly | monthly | static | null",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "u, v, t, lnp, moisture, tracers",
+        "cf_standard_name": "eastward_sea_water_velocity, northward_sea_water_velocity, sea_water_potential_temperature, air_pressure, specific_humidity, tracer_concentration",
+        "long_name": "Eastward velocity, Northward velocity, Potential temperature, Air pressure, Specific humidity, Tracer concentration",
+        "unit": "m/s, m/s, degC, Pa, g/kg, 1",
+        "physical_quantity": "velocity | temperature | pressure | moisture | tracer",
+        "thermodynamic_form": "potential | not_applicable",
+        "framework": "eos80 | teos10 | unknown",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v"
+      },
+      {
+        "native_name": "RHSU, RHSV, RHST",
+        "cf_standard_name": null,
+        "long_name": "Right-hand side of the semi-Lagrangian equations for u, v, and t",
+        "unit": "m/s/s, m/s/s, degC/s",
+        "physical_quantity": "acceleration | temperature_change_rate",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ps",
+        "cf_standard_name": "air_pressure_at_sea_level",
+        "long_name": "Air pressure at sea level",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon | curvilinear | unstructured | icosahedral | tripolar | polar_stereographic | null",
+      "horizontal_resolution": "2.5km, 0.083deg, 100m, R2B6 or null",
+      "crs": "EPSG:4326 or other or null",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels | z_star | sigma | hybrid | pressure | surface_only | seafloor_only | isopycnal | null",
+      "n_levels": 40,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "opendap | http | cmems_api | cds_api | azure_blob | erddap | thredds | null",
+        "format": "netcdf3 | netcdf4 | grib2 | geotiff | zarr | tuv | null",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

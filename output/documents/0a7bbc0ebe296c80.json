@@ -1,0 +1,125 @@
+{
+  "doc_id": "0a7bbc0ebe296c80",
+  "legacy_doc_id": "1922e4011193",
+  "filename": "SST_BAL_PHY_L3S_MY_010_040_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_BAL_PHY_L3S_MY_010_040_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.94,
+  "pages": 36,
+  "text_preview": " \n  \nSea Surface Temperature Production Centre \nBaltic Sea Sea Surface Temperature L4 & L3S \nReprocessed Products \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 & \nSST_BAL_PHY_L3S_MY_010_040 \n \n Issue: 4.0 \nContributors: Ioanna Karagali, Guisella Gacitúa, Ida Lundtorp Olsen, Wiebke Margitta Kolbe, Jacob L. Høyer \nApproval date by the CMEMS product quality coordination team: 22/04/2025 \n \n \n \n \n  \n \n\nProducts \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \nSST_BAL_PHY_L3S_MY_010_040 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-010-016-040 \n14 February 2025 \n4.0 \n \n                                                      Page 2/ 36 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column  specifies which sections or sub -sections have been updated.  The fourth column  \nshould mention the reason for updating the document. Column 5  should include the names of the \nauthor(s) doing the changes. Including the name in c olumn 6  shows that the document has been \nvalidated by the TAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation \nmeans the document was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 August \n2013 \nAll Creation of the document J. L. Høyer  \n1.1 Septembe\nr 2015 \nAll Change format to fit \nCMEMS graphical rules. \nIntroduce references to \nCMEMS. \nB. Hackett L. Crosnier \n1.2 Septembe\nr 2017 \nAll Included results from 2010 \nand 2011 extension \nJ. L. Høyer  \n1.3 Septembe\nr 2020 \nAll Upstream data change and \ntemporal extension \nJ. L. Høyer B. Buongiorno Nardelli \n1.4 Septembe\nr 2021 \nAll Regular time extension J. L. Høyer  \n2.0 June 2022 All Update to new template \nand inclusion of \ninformation regarding the \nnew L3S product \nI. Karagali, W. M. \nKolbe \nA. Pisano \n3.0 June 2023 I.1 Temporal Extension I. Karagali A. Pisano \n4.0 February \n2025 \nAll New template, Full \nreprocessing using ESA CCI \nSST v3.0 \nI. Karagali A. Pisano \n \n \n \n  \nProducts \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \nSST_BAL_PHY_L3S_MY_010_040 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-010-016-040 \n14 February 2025 \n4.0 \n \n                                                      Page 3/ 36 \nACRONYM TABLE \n \nAcronym Description \nTAC Copernicus Marine Service Thematic Assembly Centre \nNRT Near Real Time \nREP Reprocessing \nMY Multi-year \nESA European Space Agency \nSST Sea Surface Temperature \nIST Sea-Ice Surface Temperature \nCCI Climate Change Initiative \nArgo International profiling float network (www.argo.net) \nC3S Copernicus Climate Change Service \nDMI Danish Meteorological Institute \nEAN Estimated Accuracy Number \nOI Optimal Interpolation \nSI Sea Ice \nSIC Sea Ice Concentration \nPMW Passive Microwave \nTIR Thermal Infrared \nCDR Climate Data Record \nICDR Interim Climate Data Record \nGCOS Global Climate Observing System \n \n  \nProducts \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \nSST_BAL_PHY_L3S_MY_010_040 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-010-016-040 \n14 February 2025 \n4.0 \n \n                                                      Page 4/ 36 \nKEY DEFINITIONS \n \nSea Surface Tempereture The temperature of the ocean water close to the surface. \nSea-Ice Surface \nTemperature \nRepresentative of the surface temperature over sea ice. \nSST20cm Sea Surface Temperature adjusted for the standard depth of 0.2 m and \ntime \nrepresentative of the daily mean, representative of the water temperature \nfree, or almost free of \nany diurnal warming. \nSea Ice Concentration  Fraction (percentage) of the sea surface area of the grid cell \ncontaining sea-ice. \nSea Ice Corresponds to ocean surface covered by sea ice (>70%) thus the surface \ntemperature is \nclassified as sea-ice surface temperature (IST). \nClimate Data Record A time series of measurements of \nsufficient length, consistency, and continuity to determine climate \nvariability and change. Further \nsatellite-based CDRs can be segmented into Fundamental CDRs (FCDRs), \nwhich are calibrated and \nquality-controlled sensor data that have been improved over time, and \nThematic CDRs (TCDRs), \nwhich are geophysical variables derived from the FCDRs, such as sea \nsurface temperature and cloud \nfraction. \nInterim Climate Data \nRecord \nA dataset that has been forward processed, using the \nbaselined Climate Data Record algorithm and processing environment but \nwhose consistency and \ncontinuity have not been verified. Eventually, it will be necessary to \nperform a new reprocessing of \nthe CDR and ICDR parts together to guarantee consistency, and the new \nreprocessed data record \nwill replace the old CDR. \nLevel-2 Pre processed \n(L2P) data product \nGeophysical variables derived from Level 1 source data \non the Level 1 grid (typically the satellite swath projection). Ancillary data \nand metadata added \nfollowing GHRSST Data Specification. \n \n \n \nProducts \nSST_BAL_SST_L4_REP_OBSERVATIONS_010_016 \nSST_BAL_PHY_L3S_MY_010_040 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-010-016-040",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes reprocessed Sea Surface Temperature products for the Baltic Sea, including SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 and SST_BAL_PHY_L3S_MY_010_040, detailing their updates and changes over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 | SST_BAL_PHY_L3S_MY_010_040",
+      "name": "Baltic Sea Sea Surface Temperature Reprocessed Products",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_BAL_SST_L4_REP_OBSERVATIONS_010_016 | SST_BAL_PHY_L3S_MY_010_040",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "TIR",
+        "cf_standard_name": "sea_surface_temperature_from_infrared_measurement",
+        "long_name": "Sea Surface Temperature from Thermal Infrared Measurement",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PMW",
+        "cf_standard_name": "sea_surface_temperature_from_passive_microwave_measurement",
+        "long_name": "Sea Surface Temperature from Passive Microwave Measurement",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 10,
+        "lon_max": 28,
+        "lat_min": 54,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

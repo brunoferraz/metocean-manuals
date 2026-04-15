@@ -1,0 +1,128 @@
+{
+  "doc_id": "7b56792938b3de2a",
+  "legacy_doc_id": "52e3625bb7c4",
+  "filename": "ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/ARCTIC_MULTIYEAR_PHY_ICE_002_016_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.54,
+  "pages": 19,
+  "text_preview": "1 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors: Timothy Williams (NERSC) Laurent Bertino (NERSC) \n \nApproval Date : November 2025 \nFor Arctic Ocean Sea Ice Reanalyis Product \n \n \n \n \nARCTIC_MULTIYEAR_PHY_ICE_002_016 \nIssue: 1.0  \n \n\n2 \n \n \n \n Product User Manual for Arctic PHY, ICE and BGC products \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-016 \nIssue 1.0 – November 2025 \n \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 \n 15th May 2025 All \n \nCreation of the document \n \nTimothy Williams,  \nLaurent Bertino \n(NERSC) \nL. Bertino \n3 \n \n \n \n Product User Manual for Arctic PHY, ICE and BGC products \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-016 \nIssue 1.0 – November 2025 \n \n \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 6 \nINTRODUCTION ........................................................................................................... 7 \na) Summary ........................................................................................................... 7 \nb) Polar projections ............................................................................................... 7 \nDESCRIPTION OF THE PRODUCT SPECIFICATION ....................................................... 8 \na) General Information ......................................................................................... 8 \nb) Production System Description ....................................................................... 8 \nc) Dataset details ................................................................................................ 10 \nd) Additional information on some parameters .............................................. 10 \ne) Processing information ................................................................................... 11 \nf) Catalogue updating ...................................................................................... 11 \ng) Time averaging ............................................................................................... 12 \nh) Product use and impact ................................................................................ 13 \nFILE FORMAT .............................................................................................................. 14 \nFILES NOMENCLATURE .............................................................................................. 14 \na. FILE SIZE ............................................................................................................ 15 \nb. STRUCTURE OF FILES ......................................................................................... 15 \nREFERENCES ............................................................................................................... 16 \nANNEX ....................................................................................................................... 17 \n  \n4 \n \n \n \n Product User Manual for Arctic PHY, ICE and BGC products \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-016 \nIssue 1.0 – November 2025 \n \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nHYCOM Hybrid Coordinates Ocean Model \nWAM WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observations and/or less accurate than in a \nbest-analysis). \nBEST-ANALYSIS: An hindcast done with data assimilation for a period close to \npresent. The quality and the number of available observations \n5 \n \n \n \n Product User Manual for Arctic PHY, ICE and BGC products \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-P",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Arctic Ocean Sea Ice Reanalysis Product, detailing specifications and usage information for ocean physics, ice, and biogeochemistry products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_MULTIYEAR_PHY_ICE_002_016",
+      "name": "Arctic Multiyear Physics and Ice Product",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics",
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential Temperature of Sea Water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Sea Water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ice_thickness",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea Ice Thickness",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind Speed at 10m",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind_direction"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2215,
+  "_tokens_out": 854,
+  "_eval_s": 6.09
+}

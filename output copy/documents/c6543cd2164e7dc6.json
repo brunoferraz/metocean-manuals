@@ -1,0 +1,113 @@
+{
+  "doc_id": "c6543cd2164e7dc6",
+  "legacy_doc_id": "ff4fa8bc5b17",
+  "filename": "MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.02,
+  "pages": 33,
+  "text_preview": " \n  \nMulti Observation Production Centre \nGlobal Ocean Multi Observation OMEGA3D product \nMULTIOBS_GLO_PHY_ UVW_3D_MYNRT _015_007 \n \n \n Issue: 3.0 \nContributors: B.Buongiorno Nardelli, S. Asdar, L. Della Cioppa \nApproval date by the CMEMS product quality coordination team: 13/11/2025 \n \n \n \n \n  \n \n\nProduct \nMULTIOBS_GLO_PHY_ UVW_3D_MYNRT_015_007 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-007 \n May 2025 \n3.0 \n \n \n                                                      Page 2/ 33 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0  December \n2019  \nAll  Initial version of the document  B. Buongiorno \nNardelli  \nMercator Ocean  \n2.0  May 2024  All Used new template. Updated \ncontent to NOV24 release \n B. Buongiorno \nNardelli, S. Asdar \nH.Etienne \n3.0 May 2025  All Updated content to NOV25 \nrelease \n B. Buongiorno \nNardelli, S. Asdar, L. \nDella Cioppa \nH.Etienne \n \n \n \n \n  \nProduct \nMULTIOBS_GLO_PHY_ UVW_3D_MYNRT_015_007 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-007 \n May 2025 \n3.0 \n \n \n                                                      Page 3/ 33 \nACRONYM TABLE  \n \nAcronym  Description  \nTAC  Copernicus Marine Service Thematic Assembly Centre  \nNRT  Near Real Time  \nREP  Reprocessing  \nMY  Multi-year  \nSLA  Sea Level Anomaly  \nSST  Sea Surface Temperature  \nSSS  Sea Surface Salinity  \nArgo  International profiling float network (www.argo.net)  \nXBT  Expendable Bathythermograph  \nCTD  Conductivity, Temperature, and Depth; It refers to a package \nof electronic instruments that measure these properties  \nEAN  Estimated Accuracy Number  \nEOF  Extended Orthogonal Function  \nMLD  Mixed Layer Depth  \n \nKEY DEFINITIONS  \nN/A \n  \nRELEVANT DOCUMENT LIST  \nN/A \n \nProduct \nMULTIOBS_GLO_PHY_ UVW_3D_MYNRT_015_007 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-007 \n May 2025 \n3.0 \n \n \n                                                      Page 4/ 33 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 8 \nII.1 Input datasets ........................................................................................................................................... 8 \nII.2 OMEGA3D processing ............................................................................................................................... 8 \nII.2.1 Omega equation ................................................................................................................................... 9 \nII.2.2 Diabatic forcing term estimation ....................................................................................................... 10 \nII.2.3 Omega solution .................................................................................................................................. 11 \nIII Validation framework ............................................................................................................................... 13 \nIV Validation results ...................................................................................................................................... 14 \nIV.1 Surface and 15 m current versus SVP drifters......................................................................................... 14 \nIV.2 Deep quasi-geostrophic currents versus YoMaHa’07 currents at 1000 m ............................................... 24 \nIV.3 Diabatic component of vertical velocities and Ekman pumping ............................................................. 27 \nV System Noticiable Events, Outages Or Changes ........................................................................................ 30 \nVI Quality changes since previous version ..................................................................................................... 31 \nVII References ............................................................................................................................................ 32 \nProduct \nMULTIOBS_GLO_PHY_ UVW_3D_MYNRT_015_007 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-007 \n May 2025 \n3.0 \n \n \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Global Ocean Multi Observation OMEGA3D product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_UVW_3D_MYNRT_015_007",
+      "name": "Global Ocean Multi Observation OMEGA3D product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "u",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": "Eastward sea water velocity component",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v"
+      },
+      {
+        "native_name": "v",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Northward sea water velocity component",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "u"
+      },
+      {
+        "native_name": "w",
+        "cf_standard_name": "upward_sea_water_velocity",
+        "long_name": "Upward sea water velocity component",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2268,
+  "_tokens_out": 696,
+  "_eval_s": 5.21
+}

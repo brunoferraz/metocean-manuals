@@ -1,0 +1,82 @@
+{
+  "doc_id": "f36b17ee689b10cf",
+  "legacy_doc_id": "c18bf833dc7f",
+  "filename": "SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.79,
+  "pages": 22,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Jean-François Piollé, Emmanuelle Autret \n \nApproval Date : November 2025 \n \nFor ODYSSEA Product over the Global Ocean \n \n SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010 \n \nIssue: 3.0 \nPRODUCT USER MANUAL \n\n \n \n2 Product User Manual for SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-010 \nIssue 3.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2019/01/21 All Initial version   \n1.1 2019/03/25  Modified after Review of the \ndocument \nEmmanuelle \nAutret \n \n1.2 2019/04/17  Modified time period covered \nby the product (extended) \nEmmanuelle \nAutret \n \n1.3 2019/09/10  EIS December 2019 - Data \nfrom VIIRS instruments added \nto the input dataset \nEmmanuelle \nAutret \n \n1.4 2020/09/10  EIS December 2020 - Data \nfrom NPP, N20,  Sentinel-3A & \n3B, Himawari, GOES-17, GOES-\n16, MSG Indian, added to the \ninput datasets \nJean-\nFrançois \nPiollé \n \n2.0 2022/06/03  EIS Novembre 2022 – changed \nintercalibration method \nJean-\nFrançois \nPiollé \nCopernicus \nMarine Product \nManagement \n2.1 2023/06/07  EIS Novembre 2023 - added \nMetop-C; addition of per \nsensor type multisensor grids. \nJean-\nFrançois \nPiollé \nCopernicus \nMarine Product \nManagement \n3.0 2025/05/28  EIS November 2025 – new PUM \nformat. NOOA21 VIIRS SSTs \nadded as additional input. \nJean-\nFrançois \nPiollé \nCopernicus \nMarine Product \nManagement \n \n \n3 Product User Manual for SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-010 \nIssue 3.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 6 \na) General Information ............................................................................................ 6 \nb) Production System Description .......................................................................... 7 \nc) Dataset details ...................................................................................................... 8 \nd) Additional information on some parameters ................................................ 10 \ne) Processing information ...................................................................................... 12 \nf) Catalogue updating ......................................................................................... 12 \ng) Time averaging ................................................................................................... 12 \nh) Product use and impact ................................................................................... 12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE..................................................................................... 13 \n4.1  FILE SIZE ............................................................................................................... 14 \n4.2   STRUCTURE OF FILES .......................................................................................... 14 \n5) REFERENCES ..................................................................................................... 15 \n6) ANNEX ............................................................................................................. 16 \n  \n \n \n4 Product User Manual for SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-010 \nIssue 3.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010, detailing the specifications and usage of near real-time sea surface temperature observations over the global ocean.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_GLO_SST_L3S_NRT_OBSERVATIONS_010_010",
+      "name": "Global Ocean Near Real Time Sea Surface Temperature Observations",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

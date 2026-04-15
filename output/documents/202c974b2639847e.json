@@ -1,0 +1,82 @@
+{
+  "doc_id": "202c974b2639847e",
+  "legacy_doc_id": "4066268f84f2",
+  "filename": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.64,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \nParc Technologique du Canal - 8-10 rue Hermès - 31520 Ramonville-Saint-Agne, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nGlobal Ocean OSTIA Sea Surface Temperature \nReprocessing \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \nIssue:  1.4 \n \nContributors: M. Worsfold, S. Good, M. Martin, A. McLaren, J. Roberts -Jones, E. Fiedler, Met \nOffice, UK. \nApproval Date : APRIL 2022 \n \n \n\n \nCMEMS Product User Manual  \n \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \nIssue : 1.4 \n2022/03 \n \n \n© EU Copernicus Marine Service – Public   \nRef : SST-PUM-010-002-011 \n2 \nRECORD TABLE \n \nIssue Date § Description of Change Author Validated By \n1.0 109/12/06 All EIS March 2020 version M. Worsfold, S. Good  \n1.1 2019/12/13 All Changed dataset name M. Worsfold, S. Good \n \n1.2 2020/12/10 All \nTemporal extension, ups tream \ndata change, new document \ntemplate \nS. Good \n \n1.3 2021/01/15 \nI.1, \nI.2,II.1, \nII.4.2 \nTemporal extensions S. Good \nC. Derval \n1.4 2022/03/29 I.2 Upstream data change S. Good \nC. Derval \n \n  \n \nCMEMS Product User Manual  \n \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \nIssue : 1.4 \n2022/03 \n \n \n© EU Copernicus Marine Service – Public   \nRef : SST-PUM-010-002-011 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 6 \nI.3 Reference documents ..................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ......................................................................................................................................... 9 \nII.3 Product System Description ...................................................................................................................... 10 \nII.4 Processing information .............................................................................................................................. 12 \nII.4.1 Update Time ....................................................................................................................................... 12 \nII.4.2 Time coverage .................................................................................................................................... 12 \nII.4.3 Time averaging .................................................................................................................................. 12 \nIII DOWNLOAD DATA .................................................................................................................................. 13 \nIV NOMENCLATURE OF FILES .................................................................................................................... 14 \nIV.1 Nomenclature of files when downloaded through the Subsetter Service ............................................. 14 \nIV.2 Nomenclature   of   files   when   downloaded   through   FTP Services ............................................... 14 \nV FILE FORMAT ............................................................................................................................................. 15 \nV.1 NetCDF ........................................................................................................................................................ 15 \nV.2 File size ........................................................................................................................................................ 16 \nV.3 Remember: scale_factor  & add_offset / missing_value / land mask ..................................................... 16 \nV.4 Reading Software ........................................................................................................................................ 16 \nV.5 Structure and semantic of netCDF maps files .......................................................................................... 16 \n \nCMEMS Product User Manual  \n \nSST-GLO-SST-L4-REP-OBSERVATI",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Global Ocean OSTIA Sea Surface Temperature Reprocessing, providing details on product specifications, dataset information, and file formats.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST-GLO-SST-L4-REP-OBSERVATIONS-010-011",
+      "name": "Global Ocean OSTIA Sea Surface Temperature Reprocessing",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

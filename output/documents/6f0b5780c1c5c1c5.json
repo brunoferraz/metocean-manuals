@@ -1,0 +1,110 @@
+{
+  "doc_id": "6f0b5780c1c5c1c5",
+  "legacy_doc_id": "a18bab8dc239",
+  "filename": "INSITU_GLO_WAV_DISCRETE_MY_013_045_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_WAV_DISCRETE_MY_013_045_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.6,
+  "pages": 24,
+  "text_preview": " \n \n  \nIN SITU TAC \nINSITU_GLO_WAV_DISCRETE_MY_013_045 \n \n Issue: 5.2 \nContributors: Marta de Alfonso, Fernando Manzano, Alejandro Gallardo \nApproval date by the Copernicus Marine Service product quality coordination team: 24/09/2024 \n \n \n \n \n  \n \n\nQUID for In Situ TAC Product \n INSITU_GLO_WAV_DISCRETE_MY_013_045 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-045 \n24 May 2024 \n5.2 \n \n                                                      Page 2/ 24 \n \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 10/12/2017  all First version of document Marta de Alfonso \nFernando Manzano \n \n2.0 10/01/2018 all Modifications with the \nfinal configuration of the \nIn Situ TAC  wave REP \nproduct \nMarta de Alfonso  \n3.0 14/01/2019 all Upgrade for CMEMS \nPhase2 and after In Situ \nTAC wave REP product \nupdate \nMarta de Alfonso \nAlejandro Gallardo \nFernando Manzano \nLoïc Petit de la Villéon \n4.0 04/09/2020 all Wave REP product \nupdate and inclusion of \nwave spectra \nMarta de Alfonso \nAlejandro Gallardo \nFernando Manzano \nJerome Gourrion \n4.0 30/11/2021 all Correction of external \nlinks \nStéphane Tarot Stéphane Tarot \n4.1 21/02/2022 all Update for Copernicus \nMarine 2 & added \nupdate frequency \nMarta de Alfonso, \nFernando Manzano, \nAlex Gallardo \nStéphane Tarot \n5.0 06/06/2022 all New product naming, \nnew Production Centre \nand new template  \nMarta de Alfonso, \nFernando Manzano, \nAlex Gallardo \nStéphane Tarot \n5.1 02/08/2023 I.1, \nI.3.1 \nNew dataset with hourly \ndata  \nMarta de Alfonso, \nFernando Manzano, \nAlex Gallardo \nStéphane Tarot \n5.2 24/05/2024 I.1, \nII, \nIV, \nVI \nUpdate of In Situ Tac \ncomponents figure, full \nreprocessing and metrics \nupdate \nMarta de Alfonso, \nFernando Manzano, \nAlex Gallardo \nStéphane Tarot \n  \nQUID for In Situ TAC Product \n INSITU_GLO_WAV_DISCRETE_MY_013_045 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-045 \n24 May 2024 \n5.2 \n \n                                                      Page 3/ 24 \n \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nI.3.1 Hourly dataset ...................................................................................................................................... 6 \nII Production system description .................................................................................................................... 9 \nIII Validation framework ............................................................................................................................... 11 \nIII.1 Automatic delayed mode quality checks ................................................................................................ 12 \nIII.2 Visual inspection of wave parameter series and scatter plots of wave height -period ............................ 13 \nIII.3 Visual inspection of wave spectra .......................................................................................................... 14 \nIV Validation results ...................................................................................................................................... 16 \nIV.1 Temporal coverage of the wave product ................................................................................................ 16 \nIV.2 Spatial coverage of the wave product .................................................................................................... 17 \nIV.3 Information on the quality of the data ................................................................................................... 21 \nV System’s Noticeable events, outages or changes ...................................................................................... 22 \nVI Quality changes since previous version ..................................................................................................... 23 \nVII References ............................................................................................................................................ 24 \nQUID for In Situ TAC Product \n INSITU_GLO_WAV_DISCRETE_MY_013_045 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-045 \n24 May 2024 \n5.2 \n \n                                                      Page 4/ 24 \n \nI EXECUTIV",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the In Situ TAC wave product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_WAV_DISCRETE_MY_013_045",
+      "name": "In Situ TAC Wave Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTP01",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_first_frequency_moment",
+        "long_name": "Mean wave period from variance spectral density first frequency moment",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Wave from direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

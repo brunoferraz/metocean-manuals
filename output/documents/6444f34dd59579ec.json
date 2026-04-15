@@ -1,0 +1,153 @@
+{
+  "doc_id": "6444f34dd59579ec",
+  "legacy_doc_id": "173e75c9c6d1",
+  "filename": "IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/IBI_ANALYSISFORECAST_PHY_005_001_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.73,
+  "pages": 63,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse , FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \n \nFor Atlantic -Iberian Biscay Irish- \nOcean Physics Analysis and Forecast \nProduct  \nIBI_ANALYSISFORECAST_PHY_005_001 \n \n \nIssue:  8.3 \n \nContributors :  Lluís Castrillo Acuña , Guillaume Reffray, Bruno Levier, Romain \nEscudier, Elodie Gutknecht, Roland Aznar, Marcos G. Sotillo, Sylvain Cailleau  \n \nApproval Date : June 2025 \n\n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_PHY_005_001 \nIssue : 8.3 \n2025/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-001 \nRECORD TABLE \nIssu\ne Date § Description of Change Author Validated \nBy \n1.0 \n 19/10/2012 All \n[MyOcean IBI-V2 version] \nMyOcean Document. \n \nM. G. \nSotillo \nJ. Chanut \nJ.Chanut \n2.0 09/01/2013 All \n[MyOcean IBI-V3 version] \nUpdate to MyO2 and V3 changes. \n \nM. G. \nSotillo \nS. Cailleau \nE. Álvarez \nFanjul \n2.1 07/02/2013  \n[MyOcean IBI-V3 version] \nMinor changes after V3 Acceptance \nReview. \n \nM. G. \nSotillo \nE. Álvarez \nFanjul \n3.0 23/12/2013  [MyOcean IBI-V4 version] \nUpdate for IBI V4. \nM. G. \nSotillo \nS. Cailleau \nE. Álvarez \nFanjul \nL. Crosnier \n3.1 17/03/2013  \n[MyOcean IBI-V4 version] \nMinor changes after V4 Acceptance \nReview. \n \nM. G. \nSotillo L. Crosnier \n3.2 01/05/2015 All \n[IBI-V2 version] \nChange format to fit Copernicus \nMarine graphical rules. \n \n L. Crosnier \n4.0 14/12/2015 All [IBI-V2 version] \nUpgrade including V2 changes. \nM. G. \nSotillo \nG. Reffray \nE. Álvarez \nFanjul \n4.1 12/09/2016 All \n[IBI-V2 version] \nInformation on the change of IBI \nboundary conditions (use of a new \nupgraded Copernicus Marine GLOBAL \nsystem) and its impact on the IBI \nsolution. \n \nM. G. \nSotillo \nB. Levier \nE. Álvarez \nFanjul \n5.0 18/01/2017 All \n[EIS Apr 2017: IBI-V3 version] \nUpdate of the fresh water forcing: \ninclusion of  an additional \nclimatological runoff forcing (in \nmonthly frequency) to complement \nthe previous forcing based only on 33 \nriver point daily freshwater sources. \n \nM. G. \nSotillo \nG. Reffray \nA. Amo \nE. Álvarez \nFanjul \n6.0 18/01/2018 All \n[EIS Mar 2018: IBI-V4 version] \nNew Data Assimilation scheme based \non SAMv2 in place. \nM. G. \nSotillo \nG. Reffray \nA. Amo \nE. Álvarez \nFanjul \n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_PHY_005_001 \nIssue : 8.3 \n2025/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-001 \nNew hourly3D dataset, covering the \ncoastal and shelf IBI regions. \nUpdate of the historic best estimates \non the catalogue. \n \n6.1 17/04/2019  [EIS Jul 2019: IBI-V4 version] \nNew dataset for static files. \nM. G. \nSotillo \nG. Reffray \n \nA. Amo \nM. G. \nSotillo \n6.2 03/12/2019  \n[EIS Dec 2019: IBI-V4 version] \nDelivery of new dataset with 15 \nminutes frequency data for sea level \nand surface currents. \n \nA. Amo \nK. Guihou \nM. G. \nSotillo \n6.3 03/04/2020  \n[EIS Jul 2020: IBI-V4 version] \nIntegration of new tidal forcing. \nUse of ECMWF hourly atmospheric \nforcing. \n \nA. Amo \nK. Guihou \nR. Aznar \nM. G. \nSotillo \n7.0 10/09/2020  \n[EIS Dec 2020: IBI-V5 version] \nImplementation of the  wave forcing  \n(only forecast run). \nModel upgrade. \nNetCDF-4 file format. \nUpdate of the historic best estimates \non the catalogue. \nModification of product/datasets \nnames following new convention. \n \nA. Amo \nK. Guihou \nR. Aznar \nM. G. \nSotillo \n7.1 15/01/2021 I.2 \n[EIS May 2021: IBI-V5 version] \nUpdate of freshwater forcing (upgrade \nof coastal runoff). \n \nA. Amo \nK. Guihou \nR. Aznar \nM. G. \nSotillo \n8.0 08/08/2022 All \n[EIS November 2022: IBI-V6 version] \nData Assimilation module update (new \nmodes, MDT derived for a long free run, \nnew model equivalent of SLA, SST HR \n+4D…). \nAdjustment of Gibraltar transport \n(correction of SSH at Med OBC). \nChange from average to \ninstantaneous values in the 15-min \ndataset. \nUpdate of the historic best estimates \non the catalogue. \nAdaptation of the document to the \nnew template. \n \nA. Amo \nG. Reffray \nB. Levier \nR. Escudier \nE. \nGutknecht \nR. Aznar \n \nM. G. \nSotillo \n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_PHY_005_001 \nIssue : 8.3 \n2025/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-001 \n8.1 16/06/2023 II.4 \n[EIS November 2023: IBI-V6 version] \nUpdate to the new NRT GLO PHY open \nboundary conditions (1/12°). \n \nA. Amo \nG. Reffray \nB. Levier \nR. Escudier \nE. \nGutknecht \nR. Aznar \nS. Cailleau \nM. G. \nSotillo \n8.2 31/05/2024 All \n[EIS November 2024: IBI-V7 version] \nNew variables distributed: Detided \nsurface currents and mean sea level, \nand vertical velocity. \nUpdated product mask.  \nForecast horizon increased from 5 to 10 \ndays.  \n \n \nL. Castrillo \nG. Reffray \nB. Levier \nR. Escudier \nE. \nGutknecht \nR. Aznar \nS. Cailleau \nM. G. \nSotillo \n8.3 14/02/202",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the IBI_ANALYSISFORECAST_PHY_005_001 product, detailing its updates and changes from version 1.0 to 8.3 as of June 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_ANALYSISFORECAST_PHY_005_001",
+      "name": "Atlantic - Iberian Biscay Irish Ocean Physics Analysis and Forecast Product",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT15M | PT1H | P1D | P1M | static",
+        "update_frequency": "daily | twice_daily | weekly | monthly | static",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0.0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km, 0.083deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 10,
+        "lat_min": 30,
+        "lat_max": 60
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels | z_star | sigma | hybrid",
+      "n_levels": 50,
+      "depth_min_m": 0.0,
+      "depth_max_m": 1000.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

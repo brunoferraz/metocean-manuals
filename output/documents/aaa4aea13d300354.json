@@ -1,0 +1,139 @@
+{
+  "doc_id": "aaa4aea13d300354",
+  "legacy_doc_id": "ea1ee145ebe0",
+  "filename": "halliwell_kta.pdf",
+  "filepath": "docs/hycom_docs/halliwell_kta.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.13,
+  "pages": 3,
+  "text_preview": " 1\nThe Full Kraus-Turner Mixed Layer Model for Hybrid Coordinates (KTA)  \n \nThe full Kraus-Turner slab mixed layer model (KTA) carries the mixed layer thickness as a \nfull prognostic variable. Since the mixed layer base (MLB) does not coincide with a model \ninterface as it does in MICOM, extra bookkeeping is required to keep track of the MLB. A key \nstep in the implementation of KT mixing in a hybrid coordinate model is unmixing the water \ncolumn within model layer k  that contains the MLB. The first step is to make a first guess of the \nvalue of each model variable in the upper sublayer between the MLB and the model interface k  \nabove (Fig. 1). Between individual implementations of KT mixing, water properties in layer k  \nchange due to processes such as horizontal advection, diffusion, and penetrating shortwave \nradiation. Since inaccurate estimates of upper sublayer values can lead to erroneous property \nfluxes across the MLB, information from the previous call to the KT mixing algorithm is saved \nto help make these estimates. \nThe KTA model is implemented as follows: Thermodynamical variables are mixed first at the \npressure grid points. A search is conducted to determine the model layer k  that contains the \nmixed layer base, the depth of which was saved from the second previous time step due to the \nleapfrog time integration scheme. The KTA mixed layer thickness is carried at both leap frog \ntime steps and is temporally averaged in exactly the same manner as model interface pressure. \nTemperature and salinity are then averaged over layers 1 through 1k\n− . Before proceeding \nfurther, convection is performed if necessary. The density associated with the averaged values of \ntemperature and salinity over the upper 1k -  layers is calculated, and if it is greater than the \ndensity of layer k, the MLB is moved to the base of layer k  (interface k+1). Temperature and \nsalinity are then averaged from the surface through layer k , and if the resulting density is greater \nthan the density of layer 1k + , the MLB is moved down to interface 2k + . This process is \nrepeated until a layer with greater density than the mixed layer is encountered. \nIf convection occurs, the MLB will reside on a model interface, so no unmixing is required. In \npractice, whenever the MLB is located within one centimeter of a model interface, it is moved \nthere and no unmixing is required. If the MLB is located within a model layer, the following \nunmixing algorithm is performed. If $kk≠ , where $k  is the model layer that contained the MLB \nduring the previous time step, then the following first guesses are made for upper sublayer \ntemperature and salinity: \n 11,.upkupkTTSS −−==  (1) \nIf $kk= , the following first guesses are made: \n µ µ $ $,,upk upkupkupkTTTTSSSS=+−=+−  (2) \nwhere the hats denote values saved during the second previous call to the KT mixing subroutine \ndue to the leap frog time step. The upper sublayer variables are therefore assumed to have \nchanged by an amount equal to the change that occurred in the full layer k  variables. Lower \nsublayer variables are then estimated using \n ( )1\nmk\ndnkup\nkm\nppTTT pp+\n−\n=−\n−  (3) \nand \n ( )1\n,mk\ndnkup\nkm\nppSSS pp+\n−\n=−\n−  (4) \n \nwhere mp  is the pressure level of the MLB. Spurious extrema of T  and S  are prevented by \nrequiring that dnT  be within the envelope of values defined by ( )1,,upkkTTT +  and S be within the \nenvelope of values defined by ( )1,,upkkSSS + . If dnT  has to be adjusted, then upT  is recomputed \nusing \n ( )1 .km\nupupdnk\nmk\nppTTTT pp\n+ −\n−+−\n−  (5) \nIf dnS  has to be adjusted, then upS  is recomputed using \n ( )1 .km\nupupdnk\nmk\nppSSSS pp\n+ −\n−+−\n−  (6) \nAfter the unmixing is completed, the density profile is provided to the TKE algorithm to \ncalculate the new mixed layer depth. There are two possibilities here: First, density could be \naveraged over the mixed layer to provide a homogeneous slab mixed layer profile with a \ndiscontinuity at the mixed layer base. Second, the unmixed density profile above the mixed layer \nbase (including the upper sublayer) could be provided to the TKE algorithm. This turns out to be \na significant consideration. Since the previous time step, differential advection and diffusion \nwithin the mixed layer results in an inhomogeneous vertical profile in the mixed layer. \nHomogenizing the mixed layer prior to calling the TKE algorithm then alters the energetics of \nthe mixed layer, and generally leads to a different MLB depth being calculated by the KTA \nalgorithm. Tests conducted in the Atlantic Ocean revealed that providing the inhomogeneous \nprofile to the KTA algorithm improved the realism of the simulated fields, in particular at high \nlatitudes. \nTemperature and salinity are homogenized over the maximum of the old and new mixed layer \ndepths, and the surface fluxes are distributed over the new depth. The final step is to store the \nlayer number k  containing the mixed layer base, the upper sublayer temperature and salinity, \nan",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the implementation of the full Kraus-Turner mixed layer model (KTA) for hybrid coordinates, detailing how it handles mixed layer thickness as a prognostic variable and the process of unmixing water properties within layers containing the mixed layer base.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "NEMO or similar ocean model",
+      "region": "Global",
+      "product_types": [
+        "analysis",
+        "hindcast"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Sea water density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pressure",
+        "cf_standard_name": "sea_water_absolute_salinity",
+        "long_name": "Sea water absolute salinity",
+        "unit": "g/kg",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "absolute",
+        "framework": "teos10",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mixed_layer_thickness",
+        "cf_standard_name": "null",
+        "long_name": "Mixed layer thickness",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "hybrid",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

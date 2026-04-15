@@ -1,0 +1,105 @@
+{
+  "doc_id": "dac153c9747aa3af",
+  "legacy_doc_id": "f372cf8305f9",
+  "filename": "GLOBAL_OMI_CLIMVAR_enso_Tzt_anomaly_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_CLIMVAR_enso_Tzt_anomaly_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.48,
+  "pages": 11,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \n \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nOMI_CLIMATE-VARIABILITY \nVariability on average in the NINO 3.4 area \nGLOBAL_OMI_CLIMATE-\nVARIABILITY_NINO34_SST_anom \nGLOBAL_OMI_ CLIMATE-\nVARIABILITY_NINO34_Tzt_anom \n \nIssue 3.0 \n \nContributors: A; Gounou, M. Drevillon, M.Monier, F. Gues, O.Le Galloudec \nApproval Date: November 2024 \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nOMI_CLIMATE-VARIABILITY \nIssue : 3.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-CLIMATE-VARIABILITY  \n2 \n \nRECORD TABLE \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2018/09/20 all Creation of \nthe document \nA. Gounou   \n2.0 2022/03/30 All Update of \ntemplate \nF Gues  Marie Drévillon \n3.0 2024/06/30 All Update with new \nproduct and \nextension year \n2023 \nO. Le Galloudec  O. Le Galloudec \n       \n       \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_CLIMATE-VARIABILITY \nIssue : 3.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-CLIMATE-VARIABILITY  \n3 \nGLOSSARY AND ABBREVIATIONS \nMOI Mercator Ocean International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \nARC Artic Ocean \n \nCGLOR C-GLORS reanalysis \n \nCMEMS Copernicus Marine Environment Monitoring Service \n \nFWC Freshwater Content \n \nGLO Global \n \nGLOR GLORYS2V4 reanalysis \n \nGREP Global Reanalysis Ensemble Product \n \nNINO34 Nino 3.4 area in the Tropical Pacific 170°W-120°W 5°S-5°N \n \nSST Sea Surface Temperature \n \n \n \n \n \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_CLIMATE-VARIABILITY \nIssue : 3.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-CLIMATE-VARIABILITY  \n4 \nTable of Content \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 6 \nII.1. General information ......................................................................................... 7 \nII.2. Details of datasets ............................................................................................ 8 \nII.3. Product System Description ............................................................................. 9 \n GLOBAL_OMI_CLIMATE-VARIABILITY_NINO34_SST_anom ........................... 9 \n GLOBAL_OMI_CLIMATE-VARIABILITY_NINO34_Tzt_anom .......................... 10 \nIII   FILE FORMAT ........................................................................................................ 10 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI_CLIMATE-VARIABILITY \nIssue : 3.0 \n2024/11 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-GLO-CLIMATE-VARIABILITY  \n5 \nDATA ACCESS \nAfter registration, you will be able to download our data. To assist you, our \nHelpCenter is available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our \nUser Notification Service. If you have any questions, please contact us. \n \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator \n(OMI) family OMI_CLIMATE -VARIABILITY made from global product : it provides \ntime series of climate variability indices such as the Sea Surface Tempature \nanomaly (sst_anom) and sub surface temperature anomaly (zt) averaged in the \nNINO3.4 area. \n \nIt contains 1D (time dimension) and 2D (depth time) anomaly information \ncomputed from GREP ensemble product of renanalysis. The time series are \navailable over the 1993 -2023 period. The temporal sampling is one month. The \ntime series will be extended monthly (and closer to present time) starting in 2020.   \n \nGLOBAL_OMI_CLIMATE-VARIABILITY includes two products:  \n• global_omi_climate-variability_nino34_sst_anom contains monthly m ean \ntime series of SST anomaly computed  over NINO3.4  Area for  1993 – 2023 \nperiod. This dataset is produced using G REP ensemble mean of three \nglobal reanalyses (GLOBAL_MULTIYEAR_PHY_ENS_001_031). \n• global_omi_climate-variability_nino34_Tzt_anom contains mo nthly mean \ntime series of sub-surface temperature anomaly computed  over NINO3.4  \nArea for  1993 – 2023 period. This dataset is produced using GREP \nensemble mean of three global reanalyses \n(GLOBAL_MULTIYEAR_PHY_ENS_001_031). \n \nThe product is published on the CMEMS dissemination server after automatic \nand delayed -mode quality co",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Ocean Monitoring Indicator (OMI) family OMI_CLIMATE-VARIABILITY, providing time series of climate variability indices such as Sea Surface Temperature anomaly and sub-surface temperature anomaly averaged in the NINO3.4 area.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-OMI-PUM-GLO-CLIMATE-VARIABILITY",
+      "name": "OMI_CLIMATE-VARIABILITY",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "GLOBAL_OMI_CLIMATE-VARIABILITY_NINO34_SST_anom",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "GLOBAL_OMI_CLIMATE-VARIABILITY_NINO34_Tzt_anom",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst_anom",
+        "cf_standard_name": "sea_surface_temperature_anomaly",
+        "long_name": "Sea Surface Temperature Anomaly",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tzt_anom",
+        "cf_standard_name": "subsurface_temperature_anomaly",
+        "long_name": "Sub-surface Temperature Anomaly",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -170.0,
+        "lon_max": -120.0,
+        "lat_min": -5.0,
+        "lat_max": 5.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2620,
+  "_tokens_out": 707,
+  "_eval_s": 5.13
+}

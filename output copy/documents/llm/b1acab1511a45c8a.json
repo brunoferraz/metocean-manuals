@@ -1,0 +1,85 @@
+{
+  "doc_id": "b1acab1511a45c8a",
+  "legacy_doc_id": "2ad79741dbc3",
+  "filename": "ECMWF_open_data.md",
+  "filepath": "docs/ecmwf_docs/ECMWF_open_data.md",
+  "extension": ".md",
+  "file_size_mb": 0.02,
+  "pages": 6,
+  "text_preview": "# ECMWF Documentation\n\nSource: https://www.ecmwf.int/en/forecasts/datasets/open-data\n\n---\n\n-\n\nOpen data | ECMWF\n\n[\n](#main-content)\n\n# Open data\n\n[ECMWF Terms of Use](https://apps.ecmwf.int/datasets/licences/general/)\n\n[Browse the data files](https://data.ecmwf.int/forecasts/)\n\nLicence:\n[description View licence](http://apps.ecmwf.int/datasets/licences/general)\n\nA subset of ECMWF real-time forecast data from the IFS and AIFS models is made available to the public free of charge. Their use is governed by the [Creative Commons CC-BY-4.0 licence](https://creativecommons.org/licenses/by/4.0/deed.en) and the [ECMWF Terms of Use](https://apps.ecmwf.int/datasets/licences/general/). This means that the data may be redistributed and used commercially, subject to [appropriate attribution](https://apps.ecmwf.int/datasets/licences/general/).\n\nAccessing this data, or arranging for any open data to be delivered directly to you, may be subject to [Service Charges](https://confluence.ecmwf.int/display/DAC/Service+Charges%3A+From+01+July+2024) and a Service Agreement. If you are interested in this, please see our [Service Agreement and Use Cases](https://www.ecmwf.int/en/forecasts/accessing-forecasts/licences-available) page.\n\nFor more information, please refer to the [User Documentation](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS) or visit the [ECMWF Support Portal.](https://confluence.ecmwf.int/site/support)\n\nThis page outlines the subset of free and open IFS and AIFS parameters available.\n\n[Sign up](mailto:open-data-community-subscribe@lists.ecmwf.int?subject=subscribe) for an open data community mailing list, a joint project with EUMETSAT, Met Norway and German national meteorological service DWD to share new and updated open datasets, relevant resources, conferences and articles [>>>](mailto:open-data-community-subscribe@lists.ecmwf.int?subject=subscribe)\n\n## Product description\n\nThese products are a subset of the full [Catalogue of ECMWF Real-time Products](/en/forecasts/datasets/catalogue-ecmwf-real-time-products) and are based on the medium-range ([high-resolution and ensemble](/en/forecasts/documentation-and-support/medium-range-forecasts)) and [seasonal](/en/forecasts/documentation-and-support/long-range) forecast models.\n\nIFS data are released at the end of the [real-time dissemination schedule](https://confluence.ecmwf.int/display/DAC/Dissemination+schedule). AIFS data are released as soon the data are produced.\n\nFor further details about the available AIFS products, see the dataset descriptions for the [Deterministic AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-ix) and [Ensemble AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-x).\n\nProducts are available at 0.25 degrees resolution in GRIB2 format unless stated otherwise. Future updates to the Open Data catalog may include further resolution improvement, in line with developments in the ECMWF product catalogue. Since July 2023, the [ending of products in GRIB2 has changed to use CCSDS compression](https://confluence.ecmwf.int/display/FCST/Implementation+of+IFS+Cycle+48r1#ImplementationofIFSCycle48r1-Technicalcontent).\n\nImportant:\n\nHigher-resolution products: Higher-resolution versions of the same products are available via the [Product Requirements Catalogue](https://products.ecmwf.int/requirements/) and are subject to a Real-time Dissemination Service Agreement. Please see the [Service Agreements and Use cases](https://www.ecmwf.int/en/forecasts/accessing-forecasts/licences-available) for more information.\n\n-\n\nSystem stability and access limits: To ensure the stability of our systems and to preserve resources for operational activities, access to the Open-Data Portal is currently limited to 500 simultaneous connections. This limit helps guarantee reliable service for operational users, especially during periods of high demand.\n\n-\n\nRolling archive and data availability: ECMWF Open Data provides access to real-time forecast data on a rolling archive basis. Data are retained for the most recent 12 forecast runs, corresponding to approximately 2–3 days of forecasts based on the four daily IFS and AIFS cycles (00, 06, 12 and 18 UTC). If you are interested in accessing the full historical data archive, please see the [Service Agreements and Use cases](https://www.ecmwf.int/en/forecasts/accessing-forecasts/licences-available) for more information.\n\nAlternative access methods and cloud platforms\n\nFor improved global accessibility and added redundancy, ECMWF Open Data subset is replicated and available on major public cloud platforms, including [Amazon Web Services (AWS)](https://registry.opendata.aws/ecmwf-forecasts/), [Microsoft Azure](https://ai4edataeuwest.blob.core.windows.net/ecmwf/) and [Google Cloud Platform (GCP)](https://console.cloud.google.com/marketplace/product/bigquery-public-data/open-data-ecmwf). These alternative access methods can be particularly useful for users who experience conne",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes ECMWF's open data subset of real-time forecast data from IFS and AIFS models, available free of charge under the Creative Commons CC-BY-4.0 license.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ECMWF Real-time Forecast Data",
+      "model_name": "IFS | AIFS",
+      "region": "Global",
+      "product_types": [
+        "forecast"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "grib2",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2404,
+  "_tokens_out": 474,
+  "_eval_s": 3.4
+}

@@ -1,0 +1,113 @@
+{
+  "doc_id": "b15ab5e06ecdae0c",
+  "legacy_doc_id": "3c043fe5592b",
+  "filename": "MEDSEA_MULTIYEAR_WAV_006_012_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MEDSEA_MULTIYEAR_WAV_006_012_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.59,
+  "pages": 17,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor Mediterranean Sea Waves Reanalysis \nProduct \nMEDSEA_MULTIYEAR_WAV_006_012 \n \n \nIssue:  2.5 \n \n \n \n \n \nContributors: D. Denaxa, G. Korres, Rafael Gomes de Menezes  \nApproval Date: November 2025 \n\n Copernicus Marine Product User Manual for \nMEDSEA_MULTIYEAR_WAV_006_012 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_012 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 25.09.17 all First version of document \nG. Korres, M. Ravdas, A. \nZacharioudaki, A. \nChalkiopoulos, D. \nDenaxa,  A. \nKonstantinidou, R. Lecci \n \n1.1 16.02.18 all \nChanges for CMEMS EISv4.1. \nInclusion to the time series of \nadditional year (2016) \nR. Lecci, G. Korres, M. \nRavdas, A. \nZacharioudaki, A. \nChalkiopoulos, D. \nDenaxa, \n \n1.2 21.01.19 all Inclusion to the time series of \nadditional year (2017) R. Lecci, D. Denaxa  \n1.3 10.09.19 all New template and general \nrevision R. Lecci C. Derval \n2.0 15.01.21 all New product R. Lecci, D. Denaxa C. Derval \n2.1 10.09.21 all Addition of interim dataset R. Lecci, D. Denaxa C. Derval \n2.2 29.11.22 all Additional dataset  R. Lecci, D. Denaxa \nCopernicus \nMarine \nProduct \nManagemen\nt \n2.3 30.11.23 all Additional dataset  R. Lecci, D. Denaxa \nCopernicus \nMarine \nProduct \nManagemen\nt \n2.4 26.11.24 all Backward temporal extension R. Lecci, D. Denaxa \nCopernicus \nMarine \nProduct \nManagemen\nt \n2.5 28.05.25 all \nMerging of MY and MY interim \ndataset; renaming of MY \ndataset \nR. G. de Menezes, D. \nDenaxa \nCopernicus \nMarine \nProduct \nManagemen\nt \n \n Copernicus Marine Product User Manual for \nMEDSEA_MULTIYEAR_WAV_006_012 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_012 \n3 \nTATBLE OF CONTENTS \nRECORD TABLE ....................................................................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS ...................................................................................................................... 4 \nDOWNLOAD A PRODUCT ..................................................................................................................................... 5 \n1) INTRODUCTION .............................................................................................................................................. 6 \na) Summary ................................................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ................................................................................... 7 \na) General Information ........................................................................................................................... 7 \nb) Dataset details ..................................................................................................................................... 8 \nc) Production System Description ...................................................................................................... 10 \nd) Processing information .................................................................................................................... 11 \ne) Catalogue updating ......................................................................................................................... 11 \nf) Time averaging ...................................................................................................................................... 12 \n3) FILE FORMAT ................................................................................................................................................. 13 \n4) FILES NOMENCLATURE ............................................................................................................................... 14 \n5) File size .......................................................................................................................................................... 16 \n6) REFERENCES .................................................................................................................................................. 17 \n Copernicus Marine Product User Manual for \nMEDSEA_MULTIYEAR_WAV_006_012 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_012 \n4 \nGLOSSARY AND ABBREVIATIONS \nAnalysis (Numerical) A detailed study of the state of the ocean done in Near real Time \nbased on observations and numerical model. The operational \nprediction centre produces 3D time-space analysis systems. \nA long series of analyses is of gre",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Mediterranean Sea Waves Reanalysis product, providing details on its specifications, production system, processing information, file format, and nomenclature.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_MULTIYEAR_WAV_006_012",
+      "name": "Mediterranean Sea Waves Reanalysis",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Mediterranean",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height at the sea surface",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction at the sea surface",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth",
+        "long_name": "Mean wave period at the sea surface from variance spectral density directional bandwidth",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2414,
+  "_tokens_out": 749,
+  "_eval_s": 5.54
+}

@@ -1,0 +1,153 @@
+{
+  "doc_id": "9b58b33ee0f66bbe",
+  "legacy_doc_id": "9a6684144aa0",
+  "filename": "GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_ANALYSISFORECAST_PHY_001_024_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 10.88,
+  "pages": 93,
+  "text_preview": " \n  \nGlobal Production Centre \nGLO_ANALYSISFORECAST_PHY_001_024 \n \n \n Issue: 1.3 \nContributors: J.-M. Lellouche, O. Le Galloudec, C. Regnier, S. Van Gennip, S. Law Chune, B. Levier, E. Greiner, \nM. Drevillon, C. Szczypta \nApproval date by the Copernicus Marine Service product quality coordination team: 25/06/2025 \n \n \n \n \n  \n \n\n \nQUID for Global Sea Physical Analysis and Forecasting \nProduct \nGLOBAL_ANALYSISFORECAST_PHY_001_024   \nRef: CMEMS-GLO-QUID-001-024 \nDate  : May 2025 \nIssue : 1.3 \n \n                                                      Page 2/ 93 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.  The \nthird column specifies which sections , or sub-sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 April 2022 All Creation of the document: major \nrelease of 001_024 \nMarie Drevillon Marie Drevillon  \n1.1 October \n2023 \nII.3 Creation of a new section for the \ndataset SST uncertainty \nCharly Regnier, \nJean-Michel \nLellouche \nMarie Drevillon \n1.1 November \n2023 \nAll Correcting/rephrasing of the entire \ntext   \nJean-Michel \nLellouche \nMarie Drevillon \n1.1 March 2024  Minor corrections following \npostponement of system updates to \nJune 2024 Release. \nRenaud \nDussurget \nOlivier Le \nGalloudec \n1.2 June 2024  High frequency seal level dataset \nSST error maps  \nStéphane Law \nChune, Charly \nRegnier, Jean-\nMichel \nLellouche  \nOlivier Le \nGalloudec \n1.2 December \n2024 \nAll Correcting/rephrasing/reviewing of \nthe entire document   \nJean-Michel \nLellouche \nOlivier Le \nGalloudec \n1.3 May 2025 All Impact of correction in November \n2024 \nJean-Michel \nLellouche \nOlivier Le \nGalloudec \n \n \n \n  \n \nQUID for Global Sea Physical Analysis and Forecasting \nProduct \nGLOBAL_ANALYSISFORECAST_PHY_001_024   \nRef: CMEMS-GLO-QUID-001-024 \nDate  : May 2025 \nIssue : 1.3 \n \n                                                      Page 3/ 93 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 6 \nI.2.1 Water masses: temperature and salinity ............................................................................................. 7 \nI.2.2 Sea Surface Temperature (SST) ............................................................................................................ 7 \nI.2.3 Sea Level Anomalies (SLA) .................................................................................................................... 7 \nI.2.4 Surface currents ................................................................................................................................... 7 \nI.2.5 Sea Ice Cover ........................................................................................................................................ 7 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 8 \nI.3.1 Temperature ........................................................................................................................................ 8 \nI.3.2 Salinity .................................................................................................................................................. 9 \nI.3.3 SST ........................................................................................................................................................ 9 \nI.3.4 SLA ........................................................................................................................................................ 9 \nI.3.5 Sea Ice Cover ...................................................................................................................................... 10 \nI.3.6 Surface currents ................................................................................................................................. 10 \nII Production system description .................................................................................................................. 11 \nII.1 The physical high resolution global system ............................................................................................. 11 \nII.1.1 Model configuration ........................................................................................................................... 11 \nII.1.2 Parameterizations .......................................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the Global Sea Physical Analysis and Forecasting product, detailing its production system, accuracy estimates, and changes over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_ANALYSISFORECAST_PHY_001_024",
+      "name": "Global Sea Physical Analysis and Forecasting",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Sea Water Potential Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level",
+        "long_name": "Sea Surface Height Above Mean Sea Level",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": "Eastward Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Northward Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      },
+      {
+        "native_name": "siconc",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Area Fraction",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,139 @@
+{
+  "doc_id": "8bd6b8c46801fb81",
+  "legacy_doc_id": "89fce3a5e552",
+  "filename": "MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MEDSEA_ANALYSISFORECAST_PHY_006_013_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.8,
+  "pages": 25,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n PRODUCT USER MANUAL \n \nFor  \nMediterranean Sea Physical Analysis and \nForecasting Product \n \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \n \nIssue: 2.5 \n \nContributors: Rafael Gomes de Menezes, Massimiliano Drudi, Alessandro Grandi, \nEmanuela Clementi \nApproval Date: November 2025 \n \n\n Copernicus Marine Product User Manual for \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_013 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 25/09/2017 all Initial version \nR. Lecci, M. Drudi, \nA. Grandi, C. \nFratianni, D. \nPadeletti \n \n1.1 25/01/2018 all Changes for product \nupgrade \nR. Lecci, A. Grandi, \nC. Fratianni, E. \nClementi, M. Drudi \n \n1.2 21/01/2019 all New template and new \ndatasets \nR. Lecci, A. Grandi, \nE. Clementi, M. \nDrudi \n \n1.3 06/12/2019 all \nRelease of daily-mean \nproducts centred at 12:00Z \ninstead of 00:00Z \nR. Lecci, A. Grandi, \nM. Drudi, E. \nClementi \n \n1.4 10/09/2020 all \nRevision of timeseries \ntemporal coverage and new \natmospheric forcing \nR. Lecci, A. Grandi, \nE. Clementi C. Derval \n2.0 15/01/2021 all New product and new \ndatasets \nR. Lecci, A. Grandi, \nE. Clementi C. Derval \n2.1 10/09/2021 all Upgrade of forcing R. Lecci, A. Grandi C. Derval \n2.2 29/11/2022 all \nAddition of datasets, update \nof nomenclature and hourly \ntime series forecast extension \nto 10 days  \nR. Lecci, A. Grandi, \nE. Clementi, M. \nDrudi \nCopernicus \nMarine \nProduct \nManagement \n2.3 30/11/2023 all Addition of datasets. \nRemoval of hts datasets \nR. Lecci, A. Grandi, \nE. Clementi, M. \nDrudi \n \n2.4 26/11/2024 all \nRe-delivery of entire time \nseries starting from 2 years \nbefore present \nR. Lecci, A. Grandi, \nE. Clementi  \n2.5 28/05/2025 all \nRename of the detided \ndatasets and re-delivery of \nentire time series starting from \n2 years before present \nR. Gomes de \nMenezes, A. \nGrandi, E. \nClementi, M. Drudi \nCopernicus \nMarine \nProduct \nManagement \n  \n Copernicus Marine Product User Manual for \nMEDSEA_ANALYSISFORECAST_PHY_006_013 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_013 \n3 \n \nTABLE OF CONTENTS \n \nRECORD TABLE ....................................................................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS ...................................................................................................................... 4 \nDATA ACCESS ........................................................................................................................................................ 6 \nI INTRODUCTION .............................................................................................................................................. 7 \nI.1 Summary ....................................................................................................................................................... 7 \nI.2 History of changes ...................................................................................................................................... 9 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ................................................................................. 10 \nII.1 General Information ................................................................................................................................ 10 \nII.2 Datasets details ........................................................................................................................................ 12 \nII.3 Additional Information on parameters .............................................................................................. 14 \nII.4 Production System Description ............................................................................................................ 14 \nII.5 Grid .............................................................................................................................................................. 16 \nII.6 Vertical Levels .......................................................................................................................................... 17 \nII.7 Processing information ........................................................................................................................... 17 \nII.7.1 Update Time .............................................................................................................................. 17 \nII.7.2 Temporal extent of analysis and forecast stored on delivery mechanism  .............. 17 \nII.7.3 Time averaging ........................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Mediterranean Sea Physical Analysis and Forecasting product, detailing its specifications, datasets, and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_ANALYSISFORECAST_PHY_006_013",
+      "name": "Mediterranean Sea Physical Analysis and Forecasting Product",
+      "model_name": null,
+      "region": "Mediterranean",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 10
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": null,
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0.0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": null,
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level",
+        "long_name": null,
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

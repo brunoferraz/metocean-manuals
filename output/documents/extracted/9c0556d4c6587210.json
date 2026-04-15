@@ -1,0 +1,14 @@
+{
+  "doc_id": "9c0556d4c6587210",
+  "legacy_doc_id": "d26906b64231",
+  "filename": "wallcraft_new_features_lom2015.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_new_features_lom2015.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.56,
+  "pages": 18,
+  "text_preview": "New Features of HYCOM\nAlan J. Wallcraft\nNaval Research Laboratory\n2015 Layered Ocean Model Workshop\nJune 3, 2015\nDYNAMIC MEMORY ALLOCATION\n• HYCOM had all arrays in common blocks\n◦ Re-compile for every region, every number of layers,\nand for a selected range of processors\n− Static memory allocation, typically more memory than necessary\n− Compile-time dimensions provide more opportunities for compiler\noptimization\n◦ ESMF has a single executable, with multiple coupled components\neach potentially running on separate cpus\n− HYCOM arrays on all cpus\n• HYCOM now fully region-independent\n◦ Compile once (with macro RELO), run on any region and any number\nof processors (still select equation of state at compile time)\n− Run-time memory allocation, less memory used but still allocates\nfor the largest tile\n− Changes performance\n· Compilers make different optimizations\n· Arrays not over-sized (better cache behavior)\n− Retains the option to specify dimensions at compile time and use\ncommon blocks\n◦ For ESMF, HYCOM arrays allocated only on HYCOM cpus\nSKIPPING LAND\n• HYCOM used loop indexes to skip land, margin is for the halo\ndo j=1-margin,jj+margin\ndo l=1,isp(j)\ndo i=max(1-margin,ifp(j,l)),min(ii+margin,ilp(j,l))\n...\nenddo !i\nenddo !l\nenddo !j\n• This isn’t optimal for GPGPUs - so HYCOM now uses a mask\n#define SEA_P ip(i,j).ne.0\ndo j=1-margin,jj+margin\ndo i=1-margin,ii+margin\nif (SEA_P) then\n...\nendif !ip\nenddo !i\nenddo !j\n• These two approaches are interchangeable, and not all do-loops have been\nconverted to masks\nDOMAIN DECOMPOSITION\n• Simplest domain decomposition is equal-sized rectangular tiles\n◦ Each tile has four neighbors\n− Eight neighbors including halo corners\n• HYCOM decomposes each axis separately\n◦ Still have rectangular tiling\n◦ All tiles in same row are equal height\n◦ Two East-West neighbors\n◦ Potentially many North-South neighbors\n• Heuristic: we skip land, so only ocean points matter\n◦ variable size “equal-ocean” tiles, or\n◦ double-up equal-sized tiles if less than half ocean\n◦ Does not work well with optimizing compilers on recent cpus\n− Still available, might be best in some cases\n• Now best for global: optimized equal-sized rectangular tiles\n◦ Shift tiles to ﬁt coastline\n◦ Discard all-land tiles\nHYCOM 1/25◦ GLOBAL TILE MAP\n• 40 by 35 tiling, 1018 tiles used out of 1400 (73%)\n• 200 by 126 tiling, 16342 tiles used out of 25200 (65%)",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": null,
+  "classification_error": null
+}

@@ -1,0 +1,139 @@
+{
+  "doc_id": "8ea9a06feba8f654",
+  "legacy_doc_id": "b48a3378317a",
+  "filename": "MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MEDSEA_ANALYSISFORECAST_WAV_006_017_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.95,
+  "pages": 48,
+  "text_preview": " \n  \nMediterranean Production Centre \nMEDSEA_ANALYSISFORECAST_WAV_006_017 \n \n Issue: 2.4 \nContributors: Charikleia Oikonomou, Dimitra Denaxa, Gerasimos Korres. \nApproval date by the CMEMS product quality coordination team: 15/11/2025 \n \n \n \n \n  \n \n\nQUID for MED MFC Products \nMEDSEA_ANALYSISFORECAST_WAV_006_017 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-017 \n28 May 2025 \n2.4  \n \n                                                      Page 2/ 48 \nCHANGE RECORD \n \nIssue Date § Description of Change Author Validated By \n1.2 January \n2019 \nAll Release of the new version \n(MEDWAM3) of the Med -\nwaves analysis and forecast \nproduct at 1/24° \nresolution. Upgrades since \nprevious version (Q2/2018) \ninclude: i) upgrade of WAM \nmodel version from V4.5.4 \nto V4.6.2, ii) inclusion of \nnon-linear wave -wave \ninteractions for shallow \nwater, iii) tuning of WAM \ninput and dissipation \nsource terms, and iv) \ntuning of spectral \nsteepness. \nAnna \nZacharioudaki \nVladyslav Lyubartsev (PQ \nResponsible) \n1.3 December \n2019 \nI.3, II.1, \nII.2, V, \nVI \nUpdates of the new version \nQ1/2020 with respect to \nthe previous version \nQ1/2019 include: i) daily \nforecast cycle starting at \n00:00 UTC instead of 12:00 \nUTC. This is a technical \nchange with no changes in \nproduct quality, and ii) \nadditional assimilation of \nSENTINEL-3B observations. \nQuality changes are \nmarginal and are described \nin Section VI. \nAnna \nZacharioudaki \nVladyslav Lyubartsev (PQ \nResponsible) \n2.0 January \n2021 \nAll New Product (Q2/2021), \nincluding the following \nupdates with respect to \nthe previous version \n(Q1/2020):   \ni) one-way coupling with \nhourly currents and sea \nlevel from MedPHY  \nii) additional assimilation \nof CFOSAT and HAIYANG-\n2B observations, and  \niii) inclusion of a 2nd \nforecast cycle \nAnna \nZacharioudaki \nEmanuela Clementi (Med-MFC \nDeputy) \n2.1 September \n2021 \nII, V, VI Updates of the new \nversion (Q4/2021) with \nrespect to the previous \nversion (Q2/2021) include \nthe following upstream \nAnna \nZacharioudaki \nEmanuela Clementi (MedMFC \nDeputy) \nQUID for MED MFC Products \nMEDSEA_ANALYSISFORECAST_WAV_006_017 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-017 \n28 May 2025 \n2.4  \n \n                                                      Page 3/ 48 \ndata changes (Q4/2021):   \ni) nesting with GLO-waves \nii) use of higher spatial \n(1/10°) and temporal \nresolution ECMWF winds \nQuality changes are \nmarginal and are described \nin Section VI. \n2.2 November \n2022 \nAll Updates of the new \nversion (Q4/2022) with \nrespect to the previous \nversion (Q4/2021) include:  \ni) upgrade of WAM model \nversion from Cycle 4.6.2 to \nCycle 6,   \nii) tuning of WAM model \nphysics,    \niii) implementation of \nCharnock parameter \nreduction for strong winds, \niv)  Additional assimilation \nof Sentinel-6A \nobservations.   \nCharikleia \nOikonomou \nAnna Chiara Goglio (PQ \nLeader) \n2.3 September \n2023 \nAll Updates of the new \nversion (Q4/2023) with \nrespect to the previous \nversion (Q4/2022) include: \ni) Implementation of wind \ngustiness \nparameterisation,  \nii) Improved error \ncovariance matrix in the \ndata assimilation module \nfor significant wave height \nobservations,  \niii) Delivery of new \nvariables: height of the \nhighest crest and \nmaximum crest trough \nwave height. \nCharikleia \nOikonomou \nAnna Chiara Goglio (PQ \nLeader) \n2.4 May 2025 All Assimilation of wind speed \nobservations.  \nCharikleia \nOikonomou \nLucia Gualtieri (PQ Leader) \n \n \n \n  \nQUID for MED MFC Products \nMEDSEA_ANALYSISFORECAST_WAV_006_017 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-017 \n28 May 2025 \n2.4  \n \n                                                      Page 4/ 48 \nACRONYM TABLE \nAcronym Definition \nADR, ION, Aeg, LEV, SWM,NWM, TYR, ATL, ALB Sub-regions: Adriatic, Ionian, Aegean, Levantine, \nSouthwest Med,Northwest Med, Tyrrhenian, \nAtlantic, Alboran \nCMEMS Copernicus Marine Environment Monitoring \nService \nCORR  Pearson Correlation Coefficient \nEAN Estimated Accuracy Number  \nECMWF European Centre for Medium-Range Weather \nForecasts \nGEBCO General Bathymetric Chart of the Oceans \nGLO-WAVES Copernicus Marine Global Wave Model \ncomponent \nHc,max Maximum crest trough wave height \nHCMR Hellenic Centre for Marine Research \nHmax Maximum Wave Height \nHm0 Spectral Significant Wave Height (zero-moment) \nIFS Integrated Forecasting System (ECMWF \noperational model) \nLR_SLOPE Linear Regression Slope \nMdir Mean Wave Direction \nMed-MFC Mediterranean Monitoring and Forecasting \nCentre \nMFC Monitoring and Forecasting Centre \nMWP Mean Wave Period \nNRT Near-Real-Time \nNWP Numerical Weather Prediction \nPU Production Unit \nPQ Product Quality \nRMSD Root-Mean-Square Difference \nSWH Significant Wave Height \nSI Scatter Index \nTAC Thematic Assembly Centre  \nTm02 Spectral moments (0,2) wave period \nTp Peak Wave Period \nU10 Wind speed at 10 m height \nWAM WAve Model (third-generation spectral wave \nmodel) \n \n \nQUID for MED MFC Products \nMEDSEA_ANALYSISFORECAST_WAV_006_017 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-017 \n28 May 2025 \n2.4  \n \n   ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a QUID for the MEDSEA_ANALYSISFORECAST_WAV_006_017 product, detailing its updates and changes from previous versions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_ANALYSISFORECAST_WAV_006_017",
+      "name": "Mediterranean Sea Wave Analysis and Forecast",
+      "model_name": "WAM 4.7",
+      "region": "Mediterranean",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Hm0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Spectral Significant Wave Height (zero-moment)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tp",
+        "cf_standard_name": "sea_surface_wave_period_from_variance_spectral_density_peak_frequency",
+        "long_name": "Peak Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Mdir",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Mean Wave Direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Hc,max",
+        "cf_standard_name": null,
+        "long_name": "Maximum crest trough wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "U10",
+        "cf_standard_name": "wind_speed_of_gust_at_10m",
+        "long_name": "Wind speed at 10 m height",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "V10"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/24°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

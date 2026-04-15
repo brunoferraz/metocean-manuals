@@ -1,0 +1,70 @@
+{
+  "doc_id": "e2eb48b570a8e558",
+  "legacy_doc_id": "15287eba1da8",
+  "filename": "GEBCO_CookBook_page.md",
+  "filepath": "docs/gebco_docs/GEBCO_CookBook_page.md",
+  "extension": ".md",
+  "file_size_mb": 0.01,
+  "pages": 3,
+  "text_preview": "# GEBCO Documentation\n\nSource: https://www.gebco.net/data-products/gebco-cook-book\n\n---\n\n-\n\nIHO-IOC GEBCO Cook Book | GEBCO\n\n[\nSkip to main content\n](#main-content)\n\n# IHO-IOC GEBCO Cook Book\n\n## A technical reference manual on how to build bathymetric grids\n\n[\n\nImage:\n\n](https://www.star.nesdis.noaa.gov/socd/lsa/GEBCO_Cookbook/documents/CookBook_20191031.pdf)\n\nAccess a copy of the IHO-IOC GEBCO Cook Book as a PDF from the US National Oceanic and Atmospheric Administration (NOAA) Laboratory for Satellite Altimetry\n\nGEBCO aims to provide the most authoritative publicly available bathymetric data sets for the world's oceans.\n\nIn order to assist and encourage further participation in bathymetric grid development work, GEBCO has created a technical reference manual, the IHO-IOC GEBCO Cook Book, on how to build bathymetric grids.\n\nAccess a copy of the IHO-IOC GEBCO Cook Book, as ad PDF document, from [web pages](https://www.star.nesdis.noaa.gov/socd/lsa/GEBCO_Cookbook/documents/CookBook_20191031.pdf) hosted at the US Dept. of Commerce, National Oceanic and Atmospheric Administration (NOAA) Laboratory for Satellite Altimetry.\n\nA wide range of topics are included, for example\ngathering data\n- data cleaning\n- gridding examples\n- software overviews\n\nThe IHO-IOC GEBCO Cook Book includes input from a number of individuals and organisations, all of whom are experts in their respective fields.\n\nOriginally released in October 2012, find out [what’s new](#update_history) in the latest (October 2019) release.\n\n### Publication citation\n\nThe citation for this publication is: International Hydrographic Organization, Intergovernmental Oceanographic Commission, The IHO-IOC GEBCO Cook Book, IHO Publication B-11, Monaco, Sep. 2018, 416 pp - IOC Manuals and Guides 63, France, Sep. 2018, 429 pp\n\n### IHO-IOC GEBCO Cook Book update history\n\nThe IHO-IOC GEBCO Cook Book was originally released in October 2012. It is updated periodically as new contributions become available. The table below lists the updates to the IHO-IOC GEBCO Cook Book.\n\nRelease dateChangeSeptember 2018\n\nNew chapter added: Chapter 16.0 Finding Gaps to Map\n\nThis chapter presents two visualizations to help identify gaps in sounding coverage of the ocean floor as well as a GIS method for prioritizing how to fill the gaps.\n\n16.1 - Google Earth Pro and SRTM30_PLUS Overlays\n\nContributors: David Sandwell, Scripps Institution of Oceanography, USA and Karen M. Marks, NOAA Laboratory for Satellite Altimetry, USA\n\n16.2 - Assessing Gaps via Bathymetric Sounding Density\n\nContributors: Meredith Westington, NOAA Office of Coast Survey, USA and Jesse Varner, NOAA National Centers for Environmental Information, USA\n\n16.3 - A GIS Approach to Prioritizing the Gaps to Map\n\nContributors: Jennifer Jencks, NOAA National Centers for Environmental Information, USA and Anne-Cathrin Wölf, GEOMAR Helmholtz Centre for Ocean Research, Germany\nDecember 2016\n\nNew sections added to Chapter 13\n\n13.2 - Generation of useful layers and files in a BASE surface to ease data processing with CARIS (Version 9)\n\n13.3 - Generation of a file in CARIS to distinguish areas with few soundings\n\nContributor: Lt. Commander Gustavo Adolfo Gomez-Pimpollo Crespo, Instituto Hidrografico de la Marina, Spain\nJuly 2016\n\nNew chapter and new topic added: Chapter 15.0 - Map Digitizer Program Version 2.1.0\n\nContributor: Chaim Keller, The Chai Tables, Israel and John K. Hall, Geological Survey of Israel (Retired), Israel\nDecember 2015\n\nNew chapter and new topic added: 13.0 Mosaics in CARIS\n\nContributor: Lt. Commander Gustavo Adolfo Gomez-Pimpollo Crespo, Instituto Hidrografico de la Marina, Spain\n\nNew chapter and new topic added: 14.0 Nautical Chart Adequacy\n\nContributors: A. Klemm and J. Nyberg , National Oceanic and Atmospheric Administration, USA; S. Pe'eri and R. Wigley, Center for Coastal and Ocean Mapping, USA; Limor Gur-Arieh, Survey of Israel, Israel; Y. Kamaruddin, National Hydrographic Center of Malaysia, Malaysia; A. Kimeli, H. Kurita, I.B. Prasetyawan, J. Roperez, N. Samarakoon, and M. Vallee, General Bathymetric Chart of the Oceans; J-Y Roh, Korean Hydrographic and Oceanic Administration, Korea; J. Sydenham, United Kingdom Hydrographic, U.K\n\nChapter 8, Section 8.2.11, References regarding the \"remove-restore\" procedure have been updated.\n\nCorrections contributed by: Peter Doucette, National Geospatial-Intelligence Agency, USA.\n\nChapter 11, \"LANDSAT 8 Satellite-Derived Bathymetry\" has been replaced with an updated version.\n\nContributors: S. Pe'eri,B. Madore and L. Alexander, Center for Coastal and Ocean Mapping, USA, A. Klemm and A. Armstrong, National Oceanic and Atmospheric Administration, USA, C. Parrish, Oregon State University, USA, C. Azuike, Nigerian Navy Hydrographic Office Lagos, Nigeria, and Eunice N. Tetteh, Ghana National Oceanographic Data Centre, Ghana\nSeptember 2014\n\nNew chapter added: 12.0: Digital Terrain Map Editing (DTMediting V1.6)\n\nContributors: Chaim Keller, The Chai Tables, Israel and John K. ",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "The IHO-IOC GEBCO Cook Book is a technical reference manual providing guidance on how to build bathymetric grids, including data gathering and cleaning techniques, gridding examples, and software overviews.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "General Bathymetric Chart of the Oceans"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": null,
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2578,
+  "_tokens_out": 330,
+  "_eval_s": 2.37
+}

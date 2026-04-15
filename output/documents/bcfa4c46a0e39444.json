@@ -1,0 +1,110 @@
+{
+  "doc_id": "bcfa4c46a0e39444",
+  "legacy_doc_id": "e00b08fcc917",
+  "filename": "OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.42,
+  "pages": 7,
+  "text_preview": " \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : P. Lagemaa, U. Raudsepp, I. Maljutenko, V. Huess \n \nApproval Date : November 2025 \n \nFor  \nOMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies \n \n Issue: 2.0 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n \n \n \n \n \n \n2 Quality Information Document \nCLIMATE_OHC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-OHC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/09/01 All Creation of the document U. Raudsepp  \nI. Maljutenko  \nP. Lagemaa \n2.0 2025/05/22 all Template change+ minor \nchanges \nP. Lagemaa  V. Huess \n      \n \n \n \n \n \n \n \n \n \n3 Quality Information Document \nCLIMATE_OHC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-OHC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 4 \n2) SCIENTIFIC VALIDATION ................................................................................... 5 \na) Baltic Sea Ocean Freshwater Content ............................................................. 5 \n3) REFERENCES ....................................................................................................... 7 \n  \n \n \n \n \n \n \n \n \n \n4 Quality Information Document \nCLIMATE_OHC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-OHC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \n1) INTRODUCTION \na) Product Name  \nOMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies. \nb) Indicator Evaluation Method \nOcean heat content anomaly is defined here as the deviation from a reference period \n(1993-2014) and is closely proportional to the average temperature change from z1 = 0 \nm to z2 = 300 m depth: \n2\n0 p mth clim\n1\nz\nOHC = ρ c (T - T )dz\nz\n\n, \nwith a spatially varying density 0 and specific heat capacity cp. \nAveraged time series for ocean heat content and their error bars are calculated for the \nBaltic Sea. \nc) Copernicus Marine products used as input for the computation \nProduct name (and Type) Documentation \nBALTICSEA_MULTIYEAR_PHY_003\n_011 (model reanalysis) \nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/\nQUID/CMEMS-BAL-QUID-003-011.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/P\nUM/CMEMS-BAL-PUM-003-011_012.pdf \n  \n \n \n \n \n \n \n \n \n \n5 Quality Information Document \nCLIMATE_OHC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-OHC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \n2) SCIENTIFIC VALIDATION  \na) Baltic Sea Ocean Freshwater Content \nThe method for calculating the ocean heat content anomaly is based on the daily \nmean sea water potential temperature fields (Tp) derived from the Baltic Sea reanalysis \nproduct BALTICSEA_MULTIYEAR_PHY_003_011. The total heat content is determined \nusing the following formula: \n \nHC =  ρ * cp * ( Tp  +273.15). \n \nHere, ρ and cp represent spatially varying sea water density and specific heat, \nrespectively, which are computed based on potential temperature, salinity and \npressure using the UNESCO 1983 polynomial developed by Fofonoff and Millard (1983). \nThe vertical integral is computed using the static cell vertical thicknesses sourced from \nthe reanalysis product BALTICSEA_MULTIYEAR_PHY_003_011 dataset \ncmems_mod_bal_phy_my_static, spanning from the sea surface to the ocean bottom. \nSpatial averaging is performed over the Baltic Sea spatial domain, defined as the region \nbetween 13° - 31° E and 53° - 66° N. To obtain the OHC annual anomaly time series in \n(J/m2), the mean heat content over the reference period of 1993-2014 was subtracted \nfrom the annual mean total heat content. \n \nWe evaluate the uncertainty from the mean annual error of the potential temperature \ncompared to the observations from t",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies product, detailing its method for calculating ocean heat content anomalies in the Baltic Sea based on Copernicus Marine Service data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-BAL-OMI-QUID-CLIMATE-OHC-area-averaged-anomalies",
+      "name": "OMI_CLIMATE_OHC_BALTIC_area_averaged_anomalies",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_bal_phy_my_static",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Tp",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Daily mean sea water potential temperature fields",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "rho",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Spatially varying sea water density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "cp",
+        "cf_standard_name": "specific_heat_capacity_of_sea_water",
+        "long_name": "Spatially varying specific heat capacity of sea water",
+        "unit": "J/(kg*K)",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "unknown",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 13.0,
+        "lon_max": 31.0,
+        "lat_min": 53.0,
+        "lat_max": 66.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 300.0
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

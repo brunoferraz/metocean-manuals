@@ -1,0 +1,155 @@
+{
+  "doc_id": "df7d0a32fa1f636c",
+  "legacy_doc_id": "8927c08f9fe5",
+  "filename": "wallcraft_HYCOM_2.2_features.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_HYCOM_2.2_features.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.11,
+  "pages": 19,
+  "text_preview": "New Features of HYCOM\nAlan J. Wallcraft\nNaval Research Laboratory\n10th HYCOM Consortium Meeting\nNovember 7-9, 2006\nHYCOM 2.2 (I)\n\u000f Maintain all features of HYCOM 2.1\n\u000e Orthogonal curvilinear grids\n\u000e Can emulate Z or Sigma or Sigma-Z models\n\u0005 It is “Arbitrary Lagrangian-Eulerian”, see:\nAdcroft and Hallberg, O. Modelling 11 224-233.\n\u000e Explicit support for 1-D and 2-D domains\n\u000e KPP or Kraus-Turner or\nMellor-Yamada 2.5 or Price-Weller-Pinkel\n\u000e Rivers as bogused surface precipitation\n\u000e Multiple tracers\n\u000e Off-line one-way nesting\n\u000e Scalability via OpenMP or MPI or both\n\u0005 Bit-for-bit multi-cpu reproducibility\nHYCOM 2.2 (IIa)\n\u000f Alternative scalar advection techniques\n\u000e Provided by Mohamed Iskandarani\n\u000e Donor Cell, FCT (2nd and 4th order), MPDATA\n\u000e FCT2 replaces MPDATA as standard scheme\n\u000f Vertical coordinate changes\n\u000e Vertical remapping uses PLM for ﬁxed\ncoordinate layers\n\u000e Thin deep iso-pycnal layers\n\u000e Stability from locally referenced potential density\n\u000e Spatially varying layer target densities\n\u0005 Different isopycnal layers in semi-enclosed seas\nHYCOM 2.2 (IIb)\n\u000f Equation of state that is quadratic in salinity\n\u000e HYCOM must “invert” the equation of state\n\u0005 tofsig(r,s) and sofsig(r,t)\n\u000e Traditional version is cubic in T and linear in S\n\u0005 Finding the root of a cubic is expensive,\nbut exact\n\u0005 Linear in S is not accuarate at low salinity\n\u000e Optional version is cubic in T and quadratic in S\n\u0005 Coefﬁcentsprovided by Shan Sun\n\u0005 More accurate at low salinity\n\u0001 Rivers, Black Sea, Caspian Sea\n\u0005 Not much more expensive\nHYCOM 2.2 (IIc)\n\u000f Special halo exchange for tripole global grid\n\u000e Arctic dipole patch on standard Mercator globe\n\u000e Logically rectangular domain\n\u0005 Two halves of top edge “fold” together\n\u0005 V-velocity changes sign across the fold\n\u000f Improved thermobaricity\n\u000e No single reference state is approriate\nfor the global ocean\n\u0005 Hallberg, Ocean Modelling, 8, 279-300\n\u000e Use a linear combination of pressure gradients\nfrom two out of three reference states\n\u0005 Atlantic (3\u000eC, 35.0 psu)\n\u0005 Arctic/Antarctic (0\u000eC, 34.5 psu)\n\u0005 Mediterranean (13\u000eC, 38.5 psu)\n\u000e Most locations use just one reference state\n\u0005 Linear combinations allow smooth transition\nbetween states\n\u0001 Do this in shallow water if possible\n\u000e In deep water, constrain the T&S used for\nthermobaricity to be close to the reference state",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document outlines new features of HYCOM version 2.2, including alternative scalar advection techniques, vertical coordinate changes, an improved equation of state, and special halo exchange for a tripole global grid.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Sea water density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "velocity",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Sea water velocity components",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "pressure",
+        "cf_standard_name": "sea_water_pressure",
+        "long_name": "Sea water pressure",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "tracer",
+        "cf_standard_name": "sea_water_tracer_concentration",
+        "long_name": "Sea water tracer concentration",
+        "unit": "g/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "sigma",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1902,
+  "_tokens_out": 1054,
+  "_eval_s": 7.53
+}

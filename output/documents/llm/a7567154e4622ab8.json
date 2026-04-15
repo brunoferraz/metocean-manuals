@@ -1,0 +1,99 @@
+{
+  "doc_id": "a7567154e4622ab8",
+  "legacy_doc_id": "5d57d7128136",
+  "filename": "OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.46,
+  "pages": 6,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nOcean Health Chl GLOBAL OceanColour \nIssue: 3.0 \n \n \n \n \n \nContributors: Jane Netting \nApproval date by the CMEMS product quality coordination team: November 2022 \n \n  \n\n CMEMS Quality Information Document for \nOcean Health Chl GLOBAL OceanColour \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nChange Record \n \nWhen the quality of the products change s, the QuID  is updated and a row is added to this \ntable.  The third column specifies which sections or sub -sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 2021/01/15 all Creation of the \ndocument. The content \nhas been extracted and \nupdated from the former \nOCTAC OMI PUM v4.0 \nS. Pardo, J. Netting  \n2.0 2021/09/10 all Update for EIS December \n2021 \nJ. Netting  \n3.0 2022/06/16 All EIS November 2022 Jane Netting  \n      \n      \n      \n \n \n \n \n  \n CMEMS Quality Information Document for \nOcean Health Chl GLOBAL OceanColour \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION 4 \nI.1 Product name 4 \nI.2 Indicator evaluation method 4 \nI.3 CMEMS products used as input for the computations 4 \nII REFERENCES 6 \n \n \n \n CMEMS Quality Information Document for \nOcean Health Chl GLOBAL OceanColour \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nProduct name Dataset name \nOMI_HEALTH_CHL_GLOBAL_OceanColour_trend omi_health_chl_global_oceanclour_trend \nI.2 Indicator evaluation method \nThe CMEMS Ocean Colour OMIs are derived from the reprocessed (MY) regional gridded \nchlorophyll products generated and distributed by the CMEMS OC -TAC. The input dataset are \nthe spectral remote sensing reflectances (Rrs) provided by the ESA Ocean Colour Cli mate \nChange Initiative (ESA OC-CCI, Sathyendranath et al. 2019; Jackson 2020). \nThe MY chlorophyll dataset was used to compute the anomaly map, with respect to reference \nclimatology (1997-2014), and trend map. \nTrend map was obtained by applying the Census-I algorithm as described by Vantrepotte et al. \n(2009), where the time series is decomposed as a fixed seasonal cycle plus a linear trend \ncomponent plus a residual component.  The linear trend is expressed in % year -1, and its level \nof significance (p) calculated using a t-test. Only significant trends (p < 0.05) are included. \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_trend \nThis product includes the trend map obtained by using the trend detection method is based \non the Census -I algorithm as described by Vantrepotte et al. (2009), where the time series is \ndecomposed as a fixed seasonal cycle plus a linear trend component plus a residual \ncomponent. The linear trend is expressed in % year -1, and its level of significance (p) \ncalculated using a t-test. Only significant trends (p < 0.05) are included. \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_area_averaged_anomaly \nThe global annual chlorophyll anomaly is computed by subtracting a reference climatology  \n(1997-2014) from the annual chlorophyll mean, on a pixel-by-pixel basis and in log10 space. \nI.3 CMEMS products used as input for the computations \nProduct name Dataset Name Documentation \nOCEANCOLOUR_GLO_BGC_L4_MY_0\n09_108 \nc3s_obs-oc_glo_bgc-\nplankton_my_l4-multi-\nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/QUI\n CMEMS Quality Information Document for \nOcean Health Chl GLOBAL OceanColour \nIssue : 3.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n5 \n4km_P1M D/CMEMS-OC-QUID-009-107to108.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/PUM\n/CMEMS-OC-PUM.pdf ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for the Ocean Health Chl GLOBAL OceanColour product, detailing its evaluation method and input datasets used by MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Ocean Health Chl GLOBAL OceanColour",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "OCEANCOLOUR_GLO_BGC_L4_MY_009_108",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "omi_health_chl_global_oceanclour_trend",
+        "cf_standard_name": null,
+        "long_name": "Trend map of global ocean chlorophyll anomaly",
+        "unit": "% year^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "omi_health_chl_global_oceancolour_area_averaged_anomaly",
+        "cf_standard_name": null,
+        "long_name": "Global annual chlorophyll anomaly",
+        "unit": "log10(chlorophyll concentration)",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "4km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2477,
+  "_tokens_out": 650,
+  "_eval_s": 4.89
+}

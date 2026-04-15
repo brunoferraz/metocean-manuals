@@ -1,0 +1,70 @@
+{
+  "doc_id": "536d6ee5c5e14023",
+  "legacy_doc_id": "9d859165f474",
+  "filename": "wallcraft_HYCOM_2.2_code_devel_2.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_HYCOM_2.2_code_devel_2.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.85,
+  "pages": 18,
+  "text_preview": "HYCOM Code Development\nAlan J. Wallcraft\nNaval Research Laboratory\n2005 HYCOM MEETING\nDecember 8, 2005\nHYCOM 2.2 (I)\n\u000f Maintain all features of HYCOM 2.1\n\u000e Orthogonal curvilinear grids\n\u000e Can emulate Z or Sigma or Sigma-Z models\n\u0005 It is “Arbitrary Lagrangian-Eulerian”, see:\nAdcroft and Hallberg, O. Modelling 11 224-233.\n\u000e Explicit support for 1-D and 2-D domains\n\u000e KPP or Kraus-Turner or\nMellor-Yamada 2.5 or Price-Weller-Pinkel\n\u000e Rivers as bogused surface precipitation\n\u000e Multiple tracers\n\u000e Off-line one-way nesting\n\u000e Scalability via OpenMP or MPI or both\n\u0005 Bit-for-bit multi-cpu reproducibility\nHYCOM 2.2 (IIa)\n\u000f Alternative scalar advection techniques\n\u000e Donor Cell, FCT (2nd and 4th order), MPDATA\n\u000e FCT2 replaces MPDATA as standard scheme\n\u000f Vertical coordinate changes\n\u000e Vertical remapping uses PLM for ﬁxed\ncoordinate layers\n\u000e Thin deep iso-pycnal layers\n\u000e Stability from locally referenced potential density\n\u000e Spatially varying layer target densities\n\u0005 Different isopycnal layers in semi-enclosed seas\nHYCOM 2.2 (IIb)\n\u000f Special halo exchange for tripole global grid\n\u000e Arctic dipole patch on standard Mercator globe\n\u000e Logically rectangular domain\n\u0005 Two halves of top edge “fold” together\n\u0005 V-velocity changes sign across the fold\n\u000f Improved thermobaricity\n\u000e No single reference state is approriate\nfor the global ocean\n\u0005 Hallberg, Ocean Modelling, 8, 279-300\n\u000e Use a linear combination of two out of three\nreference states\n\u0005 Atlantic (3\u000eC, 35.0 psu)\n\u0005 Arctic/Antarctic (0\u000eC, 34.5 psu)\n\u0005 Mediterranean (13\u000eC, 38.5 psu)\n\u000e Most locations use just one reference state\n\u0005 Linear combinations allow smooth transition\nbetween states\n\u0001 Do this in shallow water if possible\n1/12\u000e GLOBAL THERMOBARIC REFERENCE\nSTATE",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the development of HYCOM version 2.2, detailing improvements and features over version 2.1 including new advection techniques, vertical coordinate changes, special halo exchange for tripole global grid, and improved thermobaricity.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "isopycnal",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1750,
+  "_tokens_out": 342,
+  "_eval_s": 2.44
+}

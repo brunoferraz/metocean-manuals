@@ -1,0 +1,114 @@
+{
+  "doc_id": "c99554c5fb796ae2",
+  "legacy_doc_id": "c4070f615e3c",
+  "filename": "SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.99,
+  "pages": 17,
+  "text_preview": "                                                       \n \n  \nSea Level TAC  - DUACS products: \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \n \n Issue: 3.0  \nContributors: Maxime Ballarotta , Marie-Isabelle Pujol and SL-TAC team. \nApproval date by the CMEMS product quality coordination team: 8/11/2024 \n \n \n \n \n  \n \n\nQUID for C3S DUACS Products \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-057 \n06 November 2024 \n3.0 \n \n                                                      Page 2/ 17 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \nIssue Date § Description of Change Author Validated \nBy \n1.0 2018/07/27 all Creation M. Pujol  \n 2018/10/11  Accepted   Mercator \nOcean \n1.1 2021/01/15 VII Update of C3S web links M. Pujol M. Pujol \n2.0 2021/09/10  Update with DT-2021 standards G. Taburet M. Pujol \n2.1 2021/12/16 II Change for MY automatic extensions M-I Pujol M-I Pujol \n3.0 2024/11/06 all \nUse new template \nUpgrade for CMEMS Nov2024 MY & NRT \nrelease \n- Full reprocessing DT-2024 \n \nM. \nBallarotta M-I Pujol \n \n  \nQUID for C3S DUACS Products \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-057 \n06 November 2024 \n3.0 \n \n                                                      Page 3/ 17 \nTABLE OF CONTENTS \nI Executive summary .................................................................................................................................. 4 \nI.1 Products covered by this document ........................................................................................................ 4 \nI.1.1 CMEMS product and C3S product ..................................................................................................... 4 \nI.2 Summary of the results ........................................................................................................................... 6 \nI.3 Estimated Accuracy Numbers .................................................................................................................. 6 \nII Production system description and validation results .............................................................................. 7 \nIII Validation framework .............................................................................................................................. 8 \nIII.1 The main sources of errors .................................................................................................................... 8 \nIII.2 Validation methodology ........................................................................................................................ 8 \nIV Validation results ..................................................................................................................................... 9 \nIV.1 Variable SLA (Level-4 gridded) .............................................................................................................. 9 \nIV.2 Variable ADT=SLA+MDT ...................................................................................................................... 12 \nIV.3 Variable UV ......................................................................................................................................... 12 \nV System’s Noticeable events, outages or changes ................................................................................... 15 \nVI Quality changes since previous version .................................................................................................. 16 \nVII References ......................................................................................................................................... 17 \nQUID for C3S DUACS Products \nSEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-057 \n06 November 2024 \n3.0 \n \n                                                      Page 4/ 17 \nI  EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document describes the quality of the reprocessed (REP/DT)  Data Unification and Altimeter \nCombination System (DUACS) products in the frame of the Climate Change Copernicus Service (C3S),  \nlisted here after. The REP product featured in this document covers the period from 1993 to present. \nThe dataset is regularly updated with a nearly 6-month delay. \n \nProduct SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057 \nArea Global ocean \nSatellites Merging measurements from two different altimeters with orbits like/close to Topex/Poseidon and ERS-1 \nhistorical orbits \nSpatial resolution 1/4° x 1/4° Cartesian grid \nTemporal resolution 1 day \n \nThe number of altimeter data processed by the system varies with time, according to satellite  \navailability. The reader can refer to the C3S Product User Guide Specification (PUGS, see the ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the quality of reprocessed DUACS products for C3S, focusing on sea level anomalies and related variables over a global ocean grid with daily temporal resolution.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057",
+      "name": "Global Ocean Sea Level Climate Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation",
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEALEVEL_GLO_PHY_CLIMATE_L4_MY_008_057",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SLA",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Level Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ADT",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Along-Track Sea Level Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "UV",
+        "cf_standard_name": "eastward_sea_water_velocity, northward_sea_water_velocity",
+        "long_name": "Ocean Current Velocity Components",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "VU"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/4° x 1/4° Cartesian grid",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2287,
+  "_tokens_out": 767,
+  "_eval_s": 5.66
+}

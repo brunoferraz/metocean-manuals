@@ -1,0 +1,85 @@
+{
+  "doc_id": "4a309d68ad7d3d70",
+  "legacy_doc_id": "efba739a6f31",
+  "filename": "GEBCO_Southern_IBCSO_docs.md",
+  "filepath": "docs/gebco_docs/GEBCO_Southern_IBCSO_docs.md",
+  "extension": ".md",
+  "file_size_mb": 0.0,
+  "pages": 1,
+  "text_preview": "# GEBCO Documentation\n\nSource: https://www.gebco.net/data-products/gridded-bathymetry-data/southern-ocean\n\n---\n\n-\n\nInternational Bathymetric Chart of the Southern Ocean (IBCSO) | GEBCO\n\n[\nSkip to main content\n](#main-content)\n\n# International Bathymetric Chart of the Southern Ocean (IBCSO)\n\nThe IBCSO is the authoritative map of the Southern Ocean. It is based on billions of soundings contributed by organisations across the globe.\n\nImage:\n\n### IBCSO 2025 Annual Release\n\nThe IBCSO 2025 Annual Release was published in September 2025 - this is an update to Version 2 of the IBCSO Grid. The data set can be [accessed](https://ibcso.org/ibcso-2025-annual-release/) from the IBCSO web site.\n\n### Version 2 of the IBCSO\n\nVersion 2 of the IBCSO Grid was released in 2022 and is [available to download](https://doi.pangaea.de/10.1594/PANGAEA.937574) from PANGAEA's web site. It has a resolution of 500 m × 500 m in a Polar Stereographic projection (EPSG: 9354). The total data coverage of the seafloor is 23.79% with a multibeam-only data coverage of 22.32%. The remaining 1.47% include singlebeam and other data. IBCSO v2 is the most authoritative seafloor map of the area south of 50°S.\n\nFind out more from the release paper: Dorschel, B., Hehemann, L., Viquerat, S. et al. The International Bathymetric Chart of the Southern Ocean Version 2. Sci Data 9, 275 (2022). [https://doi.org/10.1038/s41597-022-01366-7](https://doi.org/10.1038/s41597-022-01366-7).\n\nThe Alfred Wegener Institute chairs the IBCSO and, in addition, is the Southern Ocean Regional Center for the Nippon Foundation-GEBCO [Seabed 2030 Project](https://seabed2030.org/centers/southern-ocean-regional-center).\n\nFind out more about the [IBCSO](https://ibcso.org/).\n\n[Home](/)\n\n-\n[Data & Products](/data-products)\n\n[Gridded Bathymetry Data](/data-products/gridded-bathymetry-data)\n\n[Regional grid - Arctic Ocean (IBCAO)](/data-products/gridded-bathymetry-data/arctic-ocean)\n\n-\n[Regional grid - Southern Ocean (IBCSO)](/data-products/gridded-bathymetry-data/southern-ocean)\n\n-\n[Errata and known issues](/data-products/gridded-bathymetry-data/data-set-errata)\n\n-\n[GEBCO_2025 Grid](/data-products-gridded-bathymetry-data/gebco2025-grid)\n\n-\n[GEBCO_2024 Grid](/data-products-gridded-bathymetry-data/gebco2024-grid)\n\n-\n[GEBCO_2023 Grid](/data-products/gridded-bathymetry-data/gebco2023-grid)\n\n-\n[GEBCO_2022 Grid](/data-products/gridded-bathymetry-data/gebco-2022)\n\n-\n[GEBCO_2021 Grid](/data-products/gridded-bathymetry-data/gebco-2021)\n\n-\n[GEBCO_2020 Grid](/data-products/gridded-bathymetry-data/gebco-2020)\n\n-\n[GEBCO_2019 Grid](/data-products/gridded-bathymetry-data/gebco-2019)\n\n-\n[Undersea Feature Names](/data-products/undersea-feature-names)\n\n-\n[GEBCO Web Services](/data-products/gebco-web-services)\n\n[Web Map Service](/data-products/gebco-web-services/web-map-service)\n\n-\n[Previous GEBCO WMS](/data-products/gebco-web-services/previous-wms)\n\n-\n[Printable Maps](/data-products/printable-maps)\n\n-\n[IHO-IOC GEBCO Cook Book](/data-products/gebco-cook-book)\n\n-\n[Historical GEBCO Charts](/data-products/historical-gebco-charts)\n\n-\n[Historical Data Sets](/data-products/historical-data-sets)\n\n-\n[Imagery](/data-products/imagery)\n\n-\n[History of GEBCO](/data-products/history-gebco)\n\n-\n[GEBCO Digital Atlas](/data-products/gebco-digital-atlas)\n\n-\n[Seabed 2030](https://seabed2030.org)\n\n-\n[Training](/training)\n\n-\n[News & Media](/news)\n\n-\n[About](/about-us)\n\n[Overview](/about-us/overview)\n\n-\n[GEBCO Strategy](/about-us/gebco-strategy)\n\n-\n[Project History](/about-us/project-history)\n\n-\n[Seabed 2030](/about-us/seabed2030-project)\n\n-\n[Acknowledgements](/about-us/acknowledgements)\n\n[Our Data Contributors](/about-us/acknowledgements/our-data-contributors)\n\n-\n[Working With Industry](/about-us/acknowledgements/working-with-industry)\n\n-\n[Contributing Data](/about-us/contributing-data)\n\n-\n[Presentations and Publications](/about-us/presentations-publications)\n\n-\n[Committees and Groups](/about-us/committees-groups)\n\n[Guiding Committee](/about-us/committees-groups/guiding-committee)\n\n-\n[Regional Mapping](/about-us/committees-groups/scrum)\n\n[Mapping projects](/about/committees-and-groups/scrum/mapping-projects)\n\n-\n[Undersea Features Names](/about-us/committees-groups/scufn)\n\n-\n[Technical Mapping](/about-us/committees-groups/tscom)\n\n-\n[Communication and Outreach](/about-us/committees-groups/scope)\n\n-\n[Meetings and Minutes](/about-us/meetings-minutes)\n\n-\n[GEBCO Symposium](/about-us/gebco-symposium)\n\n-\n[Frequently Asked Questions](/about-us/faq)\n\n-\n[Useful links](/about-us/links)\n\n-\n[Contact](/contact)",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the International Bathymetric Chart of the Southern Ocean (IBCSO) and its latest version, including details about data coverage, resolution, and availability.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "General Bathymetric Chart of the Oceans"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Southern Ocean",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "ibcso_v2",
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "bathymetry",
+        "cf_standard_name": "sea_floor_depth_below_mean_sea_level",
+        "long_name": "Depth of the seafloor below mean sea level",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "polar_stereographic",
+      "horizontal_resolution": "500m x 500m",
+      "crs": "EPSG:9354",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -60,
+        "lat_max": -50
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2700,
+  "_tokens_out": 497,
+  "_eval_s": 3.61
+}

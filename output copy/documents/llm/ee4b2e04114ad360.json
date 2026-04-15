@@ -1,0 +1,99 @@
+{
+  "doc_id": "ee4b2e04114ad360",
+  "legacy_doc_id": "0fd9a68628d4",
+  "filename": "OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.5,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Mehmet Ilicak, Leonardo Lima, Rita Lecci, Eric Jansen \n \nApproval Date : NOVEMBER 2024 \n \nFor the Ocean Monitoring Indicator on the Black Sea \nOverturning Circulation \n \n Issue: 1.0 \nQUALITY INFORMATION \nDOCUMENT \n\nOMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean  \n \n \n2 Quality Information Document for OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean \n© EU Copernicus Marine Service – Public   \nCMEMS-BLK-OMI-QUID-CIRCULATION-MOC \nIssue 1.0 – November 2024 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/11/26 All Initial version L. Lima, M. Ilicak, \nE. Jansen  \n      \n      \nOMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean  \n \n \n3 Quality Information Document for OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean \n© EU Copernicus Marine Service – Public   \nCMEMS-BLK-OMI-QUID-CIRCULATION-MOC \nIssue 1.0 – November 2024 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \na) Black Sea Overturning Circulation Indicator ................................................... 6 \n3) REFERENCES ....................................................................................................... 7 \n  \nOMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean  \n \n \n4 Quality Information Document for OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean \n© EU Copernicus Marine Service – Public   \nCMEMS-BLK-OMI-QUID-CIRCULATION-MOC \nIssue 1.0 – November 2024 \n1) INTRODUCTION \na) Product Name  \n \nOMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean. \n \nb) Indicator Evaluation Method \nTo understand the overturning circulation of the Black Sea, we compute the residual \nmeridional overturning circulation in density space. Residual overturning as a function \nof latitude (𝑦) and density (𝜎̅) bins can be computed as follows: \n \n𝜓∗(𝑦, 𝜎̅) = − 1\n𝑇 ∫ ∫ ∫ ℋ[𝜎̅ − 𝜎(𝑥, 𝑦, 𝑧, 𝑡)]\n0\n−𝐻\n× 𝜈(𝑥, 𝑦, 𝑧, 𝑡)𝑑𝑧𝑑𝑥𝑑𝑡,\n𝑥𝐵2\n𝑥𝐵1\n𝑡1\n𝑡0\n \n \nwhere ℋ is the Heaviside function and 𝜈 is the meridional velocity. We used 100 𝜎2  \n(potential density anomaly with reference pressure of 2000 dbar) density bins to \nremap the mass flux fields.   \nOMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean  \n \n \n5 Quality Information Document for OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean \n© EU Copernicus Marine Service – Public   \nCMEMS-BLK-OMI-QUID-CIRCULATION-MOC \nIssue 1.0 – November 2024 \nc) Copernicus Marine products used as input for the computation \n \nProduct name (and Type) Documentation \nBLKSEA_MULTIYEAR_PHY_007_004 QUID: \nhttps://catalogue.marine.copernicus.eu/documents/\nQUID/CMEMS-BLK-QUID-007-004.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/P\nUM/CMEMS-BLK-PUM-007-004.pdf \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the evaluation method for the Ocean Monitoring Indicator on Black Sea Overturning Circulation, detailing the computation of residual meridional overturning circulation in density space using Copernicus Marine products as input.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_MULTIYEAR_PHY_007_004",
+      "name": "Black Sea Multiyear Physical Fields",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_blk_phy-temp_anfc_2.5km_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_potential_density_anomaly",
+        "long_name": "Potential density anomaly with reference pressure of 2000 dbar",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 2000,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "meridional_velocity",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Meridional velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "zonal_velocity"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2323,
+  "_tokens_out": 650,
+  "_eval_s": 4.88
+}

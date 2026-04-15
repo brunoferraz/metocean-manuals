@@ -1,0 +1,110 @@
+{
+  "doc_id": "d0a0e865f06e4d00",
+  "legacy_doc_id": "04832e8e5476",
+  "filename": "halliwell_surface.pdf",
+  "filepath": "docs/hycom_docs/halliwell_surface.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.01,
+  "pages": 2,
+  "text_preview": "HYCOM Surface Fluxes \n \nBy George Halliwell, 25 August 2001 \n \n \nGeneral Remarks \n \nThis note summarizes how surface fluxes are handled in HYCOM versions 1.0 and 2.0, \nfocusing first on how the surface fluxes are input, then on the bulk formula parameterizations. \n \nSurface fluxes of heat and mass, except for shortwave thermal radiation are absorbed in \nmodel layer 1, which is the full surface mixed layer when HYCOM is run in MICOM mode \nShortwave radiation can penetrate to deeper layers, with the penetration depth depending on \nwater clarity. The two-component (red and blue light) exponential decay model of Jerlov (1976) \nis used to calculate penetrating shortwave radiation in HYCOM. If HYCOM is run in MICOM \nmode, or if the simple Kraus-Turner mixed layer model 2 (see the HYCOM Kraus-Turner mixed \nlayer model documentation) is used, all shortwave radiation is absorbed in the mixed layer. If the \nfull Kraus-Turner mixed layer model 1 is used, penetrating shortwave radiation can be invoked \nas an option; otherwise, all shortwave radiation is absorbed in the mixed layer. Penetrating \nshortwave radiation is always used for KPP mixing and all non-slab mixed layer models that will \nbe included in the future. \n \nThe depth of penetration is a function of water clarity, represented by the Jerlov water type. \nThe water type is assigned integer values from 1 through 5, with 1 representing the clearest \nwater. Given the incoming shortwave radiation flux 0S  at the surface, the flux passing through \nmodel interface k  located at pressure kp  is \n 11\n0 exp(1)exp,kk\nk\nRB\npp\nSSrr\nbb\n++ −−\n=+−  \n \nwhere r  is the fraction of light that is red, Rb  is the penetration depth scale of red light, and Bb  \nis the penetration depth scale of blue light. The parameters for all five Jerlov water types are \nsummarized in the following table: \n \n \nJerlov Water Type r Rb  Bb  \n1 0.58 0.35 23.0 \n2 0.62 0.60 20.0 \n3 0.67 1.00 17.0 \n4 0.77 1.50 14.0 \n5 0.78 1.40 7.9 \n \nPresently, Jerlov water type is specified by the user for each grid point at the beginning of the \nmodel run. In the future, water type could be determined by biological or suspended sediment \nmodels. \n \nThere are two choices for bulk parameterization of surface fluxes in HYCOM. The first is \nthe standard constant bulk coefficients. The second is the sophisticated parameterization scheme \nof Kara et al. (2000) that has been extensively tested by researchers at the Naval Research \nLaboratory, and that was embedded in HYCOM by Alan Wallcraft of NRL. The user also has the \noption of relaxing nearsurface temperature or salinity to climatology. \n \nReferences \n \nJerlov, N. G., 1976: Marine Optics. Elsevier, New York \n \nKara, A. B., P A. Rochford, and H. E. Hurlburt, 2000: Efficient and accurate bulk \nparameterizations of air-sea fluxes for use in general circulation models. J. Atmos. Ocean \nTech., 17, 1421-1438. ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This technical note by George Halliwell discusses how surface fluxes are handled in HYCOM versions 1.0 and 2.0, including the absorption of shortwave radiation based on Jerlov water types and the use of bulk formula parameterizations for heat and mass transfer.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "other"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Surface heat flux",
+        "unit": "W/m^2",
+        "physical_quantity": "heat_flux",
+        "thermodynamic_form": "not_applicable",
+        "framework": "null",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Surface mass flux",
+        "unit": "kg/m^2/s",
+        "physical_quantity": "mass_flux",
+        "thermodynamic_form": "not_applicable",
+        "framework": "null",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Shortwave radiation flux",
+        "unit": "W/m^2",
+        "physical_quantity": "radiation_flux",
+        "thermodynamic_form": "not_applicable",
+        "framework": "null",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,85 @@
+{
+  "doc_id": "cf8b776967d8056c",
+  "legacy_doc_id": "28498770fde5",
+  "filename": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_GLO_SST_L4_REP_OBSERVATIONS_010_011_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.7,
+  "pages": 24,
+  "text_preview": " \n \nQUALITY INFORMATION DOCUMENT  \nGlobal Ocean OSTIA Sea Surface Temperature \nReprocessing  \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \n Issue:  3.0 \nContributors:  M. Worsfold, S. Good, A. McLaren, E. Fiedler, J. Roberts-Jones and M. Martin (Met Office) \nApproval Date by Quality Assurance Review Group: 17/03/2023 \n \n \n \n \n \n \n \n \n \n  \n\nQUID for Global Ocean OSTIA Sea Surface Temperature \nReprocessing \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \nRef: CMEMS-SST-QUID-010-011 \nDate: 22 December 2022 \nIssue: 3.0 \n \n     Page 2/ 24 \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Validated By \n1.0 24/03/2014 all First version of document A. McLaren et al.  \n1.1 15/09/2014 all Update following review A. McLaren et al.  \n1.2 1/9/2015 all Change format to fit CMEMS \ngraphical rules. Introduce \nreferences to CMEMS. \nB. Hackett L. Crosnier \n2.0 15/11/2019 All Full update of the \nreprocessing. \nM. Worsfold, S. Good  \n2.0.1 06/12/2019 All Version for EIS March 2020. M. Worsfold, S. Good Mercator Ocean \n2.1 10/10/2020 All Version for EIS December \n2020. M. Worsfold, S. Good  Bruno Buongiorno \nNardelli \n2.2 15/01/2021 I.1, II.3, \nII.4.1 \nTemporal extensions. S. Good, M. Worsfold  Bruno Buongiorno \nNardelli \n2.3 29/03/2022 II.4.1, V Upstream data change. S. Good, M. Worsfold Andrea Pisano \n3.0 15/12/2022 I Frozen product due to Brexit A. Pisano Andrea Pisano \n \n \n \n \n \nQUID for Global Ocean OSTIA Sea Surface Temperature \nReprocessing \nSST-GLO-SST-L4-REP-OBSERVATIONS-010-011 \nRef: CMEMS-SST-QUID-010-011 \nDate: 22 December 2022 \nIssue: 3.0 \n \n     Page 3/ 24 \nTABLE OF CONTENTS \n \nI Executive summary ....................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results ............................................................................................................................... 5 \nI.3 Estimated Accuracy Numbers .................................................................................................................... 6 \nII Production Subsystem description ................................................................................................................ 7 \nII.1 Production centre ...................................................................................................................................... 7 \nII.2 Production subsystem ................................................................................................................................ 7 \nII.3 Product description ................................................................................................................................... 7 \nII.4 Processing system and algorithms ............................................................................................................ 7 \nII.4.1 Collection of inputs ........................................................................................................................... 9 \nII.4.2 Quality control and pre-processing of input data ............................................................................ 12 \nII.4.3 Bias correction of input satellite data .............................................................................................. 13 \nII.4.4 Creation of the L4 analysis and uncertainty estimate ...................................................................... 14 \nIII Validation framework ............................................................................................................................. 15 \nIII.1 Drifting buoy comparison...................................................................................................................... 15 \nIII.2 Near-surface Argo comparison ............................................................................................................. 16 \nIV Validation results ......................................................................................................................................... 18 \nIV.1 Comparison of validation datasets ........................................................................................................ 18 \nIV.2 Drifter buoy comparison........................................................................................................................ 19 \nIV.3 Near-surface Argo comparison ............................................................................................................. 20 \nIV.4 OSTIA analysis standard deviation comparison ................................................................................. 20 \nIV.5 Summary ................................................................................................................................................. 21 \nV System’s Noticeable events, outages or changes ............",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for Global Ocean OSTIA Sea Surface Temperature Reprocessing, detailing product descriptions, production subsystems, validation frameworks, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "European Marine Observation and Data Network (EMODNET)"
+    },
+    "product_line": {
+      "product_id": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_011",
+      "name": "Global Ocean OSTIA Sea Surface Temperature Reprocessing",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_011",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.05deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2202,
+  "_tokens_out": 522,
+  "_eval_s": 3.83
+}

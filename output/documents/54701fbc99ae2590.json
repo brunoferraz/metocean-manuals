@@ -1,0 +1,96 @@
+{
+  "doc_id": "54701fbc99ae2590",
+  "legacy_doc_id": "6f0adb70f86f",
+  "filename": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.66,
+  "pages": 25,
+  "text_preview": " \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \nPRODUCT USER MANUAL \n \n \n \nFor Arctic Time series of ice drift \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n \n \nIssue:  3.0 \n \nContributors : Fanny Ardhuin, Cédric Prévost, Dominique Briand \nApproval Date: November 2024 \n \n \n  \n \n\n \n      \n \nProduct User Manual for SI TAC Arctic Ice Drift Time Series \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nMay 2024      \nIssue : 3.0       \n \n© EU Copernicus Marine Service – Public   \n \nRef : SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n                         Page 2/ 25 \n \n RECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 04.04.2011 All Creation of the document Fanny Ardhuin, \nDenis Croizé -\nFillon \nLars-Anders \nBreivik \n2.0 28.10.2011 layout Adaptation to new template   \n2.1 01 2013  Update of product name   \n2.2 23.09.2014 VI.2 Corrected url reference \nCorrected download mechanisms \nCorrected temporal coverage \nFanny Ardhuin Bruce Hackett \nL. Crosnier \n2.3 May 1 2015 all Change format to fit CMEMS \ngraphical rules \n L. Crosnier \n2.4 \n \n26.01.2016 \n \nAll Complete CMEMS rebranding \n \nB. Hackett \n \n \n2.5 29.09.2016  Change final date of time series in \nIII.1 table 1 \nAdjust names in III.2 table 2 \nAdd details in IV.4  \nFanny Ardhuin C. Wettre \n2.6 12.08.2019 Doc \nname \nand \nheader \n \nIII.1, \nTable 1 \nChanged name from OSI to SI \n \n \nChanged from updated “yearly” to \n“twice a year” \nC. Wettre C. Wettre \n2.7 03.04.2020 All Temporal extension  \nand \nUpdate frequency  \nC. Prevost C. Wettre \n2.8 11.09.2020 III; IV Addition of new datasets C. Prevost C. Wettre \n2.9 20.06.2022 III.1 \nIV.4 \nAdd automatic temporal extension D. Briand C. Wettre \n \n      \n \nProduct User Manual for SI TAC Arctic Ice Drift Time Series \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nMay 2024      \nIssue : 3.0       \n \n© EU Copernicus Marine Service – Public   \n \nRef : SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n                         Page 3/ 25 \n \n2.10 16.06.2023 V.2 New SSMI datasets and format \nhomogenization \nD. Briand C. Wettre \n3.0 31.05.2024 III, IV Add CFOSAT datasets C. Prevost C. Wettre \n  \n \n      \n \nProduct User Manual for SI TAC Arctic Ice Drift Time Series \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nMay 2024      \nIssue : 3.0       \n \n© EU Copernicus Marine Service – Public   \n \nRef : SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n                         Page 4/ 25 \n \nTABLE OF CONTENTS \n \nGLOSSARY AND ABBREVIATIONS 5 \nDATA ACCESS 6 \nI INTRODUCTION 7 \nII PRODUCT DESCRIPTION 8 \nII.1 General information 8 \nII.2 Details of datasets 9 \nIII   FILE FORMAT 14 \nIV   ADDITIONAL INFORMATION ABOUT PRODUCT 14 \nIV.1   File Nomenclature 14 \nIV.2   Grid 15 \nIV.3   Domain coverage 15 \nIV.4   Update Time 16 \nIV.5   Temporal extension of analysis and forecast stored on delivery mechanism 16 \nIV.6   Other information: mean centre of product, land mask value, missing value 17 \nV   VALIDATION AND ASSESSMENT/ QUALITY CONTROL DONE ON PRODUCTS 18 \nVI ANNEX 18 \nStructure of files 18 \n \n \n \n \n  \n \n      \n \nProduct User Manual for SI TAC Arctic Ice Drift Time Series \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nMay 2024      \nIssue : 3.0       \n \n© EU Copernicus Marine Service – Public   \n \nRef : SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n                         Page 5/ 25 \n \nGLOSSARY AND ABBREVIATIONS \n \nTAC Thematic Assembly Centre \n \nSIW Sea Ice and Wind \n \nNetCDF Network Common Data Form \n \nCF Climate Forecast (convention for NetCDF) \n \nRMS Root mean square \n \nSDN SeaDataNet (climatology) \n \nPC Production Centre \n \nPU Production Unit \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Arctic Time series of ice drift, providing details on datasets, file format, and additional information about the product.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010",
+      "name": "Arctic Time series of ice drift",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010",
+        "temporal_resolution": "static",
+        "update_frequency": "twice_daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "seaice_drift",
+        "cf_standard_name": "sea_ice_velocity",
+        "long_name": "Sea ice drift velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "seaice_drift_y"
+      },
+      {
+        "native_name": "seaice_drift_y",
+        "cf_standard_name": "sea_ice_velocity_y",
+        "long_name": "Sea ice drift velocity in y direction",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "seaice_drift"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

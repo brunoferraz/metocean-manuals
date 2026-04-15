@@ -1,0 +1,82 @@
+{
+  "doc_id": "417b59371d8c9fd2",
+  "legacy_doc_id": "3ae25a7bce29",
+  "filename": "OMI_EXTREME_WMF_MEDSEA_area_averaged_mean_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_EXTREME_WMF_MEDSEA_area_averaged_mean_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.57,
+  "pages": 8,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nApproval Date : NOVEMBER 2025 \n \n \n \n \n  \n \n \n \n \nPRODUCT USER MANUAL \n \nFor \nMediterranean Water Mass Formation \nRates from Reanalysis \n \nOMI_EXTREME_WMF_MEDSEA_area_averaged_\nmean \n \nIssue 1.2 \n \nContributors: Rafael Gomes de Menezes, Vladyslav Lyubartsev, Pietro Miraglio, Ali Aydogdu, Lucia \nGualtieri \n \n \n \n \n \n  \n2 Product User Manual for OMI_EXTREME_WMF_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-EXTREME_WMF \nIssue 1.2 – May 2025 \nChange Record \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 16-June-2022 all Creation of the \ndocument \nEmanuela Clementi Rita Lecci  \n1.1 16-June-2023 all Extension of the \ntime series to year \n2021 \nEmanuela Clementi, \nPietro Miraglio \nRita Lecci Copernicus Marine \nProduct Management \n1.2 28-May-2025 all Temporal \nextension, Setup of \noperational \nextension and \nrenaming of the \nproduct name \nRafael Gomes de \nMenezes \nEmanuela Clementi Copernicus Marine \nProduct Management \n       \n  \n \n \n  \n3 Product User Manual for OMI_EXTREME_WMF_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-EXTREME_WMF \nIssue 1.2 – May 2025 \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMED Mediterranean \nMEDREA Mediterranean Sea (Med-MFC) Reanalysis \nMFC Monitoring and Forecasting Center \nMOI Mercator Océan International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nWMF Water Mass Formation \n  \n \n \n  \n4 Product User Manual for OMI_EXTREME_WMF_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-EXTREME_WMF \nIssue 1.2 – May 2025 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \nDATA ACCESS ................................................................................................................. 5 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 6 \n DESCRIPTION OF THE PRODUCT ........................................................................... 6 \nII.1. General information ......................................................................................... 6 \nII.2. Details of the dataset ....................................................................................... 7 \nII.3. Product System Description ............................................................................. 7 \n FILES NOMENCLATURE AND FORMAT ............................................................... 8 \nIII.1. Nomenclature of files .................................................................................... 8 \nIII.2. File Format ...................................................................................................... 8 \n REFERENCES ....................................................................................................... 8 \n \n  \n \n \n  \n5 Product User Manual for OMI_EXTREME_WMF_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-EXTREME_WMF \nIssue 1.2 – May 2025 \nDATA ACCESS \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is \navailable, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Ocean Monitoring Indicator (OMI) \nOMI_EXTREME_WMF_MEDSEA_area_averaged_mean: it provides time series of Water Mass \nFormation Rates (WMF) area averaged time series calculated in four areas of the \nMediterranean Sea  from 1987 to the year preceding the current one [ -1Y] (including both \nReanalysis and Interim data), operationally extended yearly (see the QUID document for more \ndetails on the calculation method). \nIt contains 1D (time dimension) WMF information computed from the Mediterranean Sea \nReanalysis (Escudier et al., 2020). \nOMI_EXTREME_WMF_MEDSEA_area_averaged_mean product is available in four areas \ncharacterized by dense water formation: (1) the Gulf of Lions for the Western Mediterranean \nDeep Waters (WMDW); (2) the Southern Adriatic Sea Pit for the Eastern Mediterranean Deep \nWaters (EMDW); (3) th e Cretan Sea for Cretan Intermediate Wat",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_EXTREME_WMF_MEDSEA, providing details on Water Mass Formation Rates in the Mediterranean Sea from reanalysis data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OMI_EXTREME_WMF_MEDSEA_area_averaged_mean",
+      "name": "Mediterranean Water Mass Formation Rates from Reanalysis",
+      "model_name": null,
+      "region": "Mediterranean Sea",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "yearly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "WMF",
+        "cf_standard_name": "water_mass_formation_rate",
+        "long_name": "Water Mass Formation Rate",
+        "unit": "Sv (10^6 m^3/s)",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "15c2165cf52ef2fc",
+  "legacy_doc_id": "cd042fa882fc",
+  "filename": "ANTARCTIC_OMI_SI_extent_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ANTARCTIC_OMI_SI_extent_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.67,
+  "pages": 6,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 (0)5 61 39 38 02 - Fax : +33 (0)5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \nmercator-ocean.eu \n \n \n \nQuality Information Document \n \n \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring \nService \nAntartica Sea Ice Extent \n \nIssue: 3.0 \n \nApproval date by the CMEMS product quality coordination team : November 2024 \n  \n\n CMEMS Quality Information Document for \nAntarctica Sea Ice Extent \nIssue : 3.0 \n29.09.2024 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nRECORD TABLE \n \nWhen the quality of the products change s, the QuID  is updated and a row is added to this \ntable.  The third column specifies which sections or sub -sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \nIssu\ne \nDate § Description of Change Author Validated By \n1.0 2018/01/23 All Creation of the \ndocument \nGilles Garric  \n1.1 2018/01/XX All Refinement of the \ndocument after internal \nrevision  \n \nKarina von \nSchuckmann, Maeva \nMonier \n \n2.0 2022/04/21 All  Update Flora Gues Marie Drevillon \n3.0 2024/09/29 All Update Flora Gues Olivier Le \nGalloudec \n      \n      \n \n \n \n \n  \n CMEMS Quality Information Document for \nAntarctica Sea Ice Extent \nIssue : 3.0 \n29.09.2024 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION ............................................................................................................ 4 \nI.1 Product name ............................................................................................................. 4 \nI.2 Indicator evaluation method ....................................................................................... 4 \nI.3 CMEMS products used as input for the computations .................................................. 4 \nII SCIENTIFIC VALIDATION ................................................................................................ 5 \nIII REFERENCES ................................................................................................................. 6 \n \n \n CMEMS Quality Information Document for \nAntarctica Sea Ice Extent \nIssue : 3.0 \n29.09.2024 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \n \nI.1 Product name  \nANTARCTIC_OMI_SI_extent \n \nI.2 Indicator evaluation method \nSea ice extent is defined here as the measurement of the area of the ocean covered at least by \n15% of sea ice. Monthly mean (1993-2014) seasonal cycle time series of total area for sea ice \nextent are calculated for the southern hemisphere, e.g. Antarctica. Total area annual mean time \nseries 1993 -2023 for sea ice extent are calculated for the same domain. Sea Ice Extent is \nexpressed here in millions of km². \nI.3 CMEMS products used as input for the computations \n \nProduct name (and Type) Documentation \nGLOBAL_MULTIYEAR_PHY_ENS_00\n1_031 \nQUID : CMEMS-GLO-QUID-001-031.pdf  \nPUM:CMEMS-GLO-PUM-001-031.pdf \n(copernicus.eu)  \n \n \n CMEMS Quality Information Document for \nAntarctica Sea Ice Extent \nIssue : 3.0 \n29.09.2024 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nII SCIENTIFIC VALIDATION \nMore details and full scientific evaluation can be found in the CMEMS Ocean State Report \n(Samuelsen et al., 2016; Samuelsen et al., 2018).  \nThe quality evaluation of ANTARCTIC_OMI_SI_exten t is based on the “multi -product” \napproach as introduced in the second issue of the Ocean State Report (CMEMS OSR, 2017). \nFive global products have been used to build the ensemble mean, and its associated ensemble \nspread (Figure 1, dark red line and blue s haded area). Results of Fig. 1 indicate how different \nproducts compare to each other in view of their mean seasonal cycle and their interannual \nvariability, e.g. annual means. \n \n \nFigure 1: A ntarctica sea ice extent of seasonal means (top panel) and annual mean (bottom panel). \nUnits are in millions of km 2. Time series are based on different data products, i.e. global ocean \nreanalysis GLORYS (blue), C -GLORS (orange), ORAS5 (green), FOAM (purple) and the ensemble mean \n(red) and the ensemble spread (light blue). Details on the products are given in the corresponding PUM \nfor this OMI. \n \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the Ocean Monitoring Indicator for Antarctic Sea Ice Extent, detailing its methodology and validation process based on multiple global ocean reanalysis products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ANTARCTIC_OMI_SI_extent",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_ice_extent",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea ice extent defined as the area of ocean covered at least by 15% sea ice.",
+        "unit": "km²",
+        "physical_quantity": "ice",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 0.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,67 @@
+{
+  "doc_id": "7c27e900a6091a8a",
+  "legacy_doc_id": "e97823e829fd",
+  "filename": "OMI_EXTREME_STATE_GLOBAL_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_EXTREME_STATE_GLOBAL_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.41,
+  "pages": 10,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Cécile Béchonnet (CLS) \n \nApproval Date: November 2025 \n \nFor OMI_EXTREME_STATE_GLOBAL_trend \n \n \n Issue: 2.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for OMI_EXTREME_ \nSTATE_GLOBAL_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-PUM-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/04/22 all Creation of the document C. Béchonnet P.Zunino \n2.0 2025/04/22 all Add time series uncertainties.Add a \nnew dataset with global trend maps. \nRename product and datasets \nC.Béchonnet P.Zunino \n      \n \n \n \n3 Product User Manual for OMI_EXTREME_ \nSTATE_GLOBAL_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-PUM-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details ...................................................................................................... 8 \n3) FILE FORMAT .................................................................................................... 10 \n4) FILES NOMENCLATURE .................................................................................... 10 \n5) REFERENCES ..................................................................................................... 10 \n  \n \n \n \n4 Product User Manual for OMI_EXTREME_ \nSTATE_GLOBAL_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-PUM-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCMEMS Copernicus Marine Environment Monitoring Service \n \nCLS Collecte Localisation Satellite  \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \nSWH Significant Wave Height \n \nL4 Level-4  \n \nJFM \n \nJanuary-February-March \nJAS July-August-September \n \n \n  \n \n \n \n5 Product User Manual for OMI_EXTREME_ \nSTATE_GLOBAL_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-PUM-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_EXTREME_STATE_GLOBAL_trend, version 2.0, published by MERCATOR OCEAN INTERNATIONAL in November 2025. It provides details about the product specification, file format, and data access.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": null,
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,99 @@
+{
+  "doc_id": "2b90a4b834f97133",
+  "legacy_doc_id": "7532a0bcd223",
+  "filename": "WIND_GLO_PHY_L4_NRT_012_004_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/WIND_GLO_PHY_L4_NRT_012_004_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.9,
+  "pages": 29,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor Global Ocean Hourly Sea Surface Wind and \nStress from Scatterometer and Model Products \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \n \nIssue:  1.3 \n \n \n \n \n \n \nContributors : Rianne Giesen, Ad Stoffelen, Anton Verhoef \nApproval Date : June 2024 \n\n Copernicus Marine Product User Manual for \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nIssue : 1.3 \n2024/02 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-TAC-WIND-PUM-012-004-006 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 \n \n2022/02/23 All \n \nCreation of the document \n \nRianne Giesen, Ad \nStoffelen, Anton \nVerhoef \n \n 2022/05/16 II, IV, V Update regarding variables included in \nthe product and calculation of \nadditional variables \nRianne Giesen  \n1.1 2022/06/16 All Add multi-year product information Rianne Giesen  \n 2022/09/05 All Update information about QuikSCAT \ndataset \nRianne Giesen Copernicus \nMarine \nProduct \nManagement \n1.2 2023/06/16 I, II Update regarding backward extension \nwith ERS SCAT instruments ; inclusion \nof winds closer to the coast in 0.125o \ndataset \nRianne Giesen Copernicus \nMarine \nProduct \nManagement \n1.3 2024/02/01 I, II Backward extension MY product to \n1991 \nRianne Giesen Copernicus \nMarine \nProduct \nManagement \n 2024/03/11 I, II Update starting date MY dataset to \n1994 \nRianne Giesen  \n \n Copernicus Marine Product User Manual for \nWIND_GLO_PHY_L4_NRT_012_004 \nWIND_GLO_PHY_L4_MY_012_006 \nIssue : 1.3 \n2024/02 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-TAC-WIND-PUM-012-004-006 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS ........................................................................................................................ 4 \nI INTRODUCTION .......................................................................................................................................... 6 \nI.1 Summary ................................................................................................................................................... 6 \nI.2 History of changes ..................................................................................................................................... 8 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ......................................................................................... 9 \nII.1 General Information ................................................................................................................................. 9 \nII.2 Details of datasets .................................................................................................................................. 10 \nII.3 Additional Information on parameters ................................................................................................... 12 \nII.4 Production System Description ............................................................................................................... 13 \nII.5 Grid ......................................................................................................................................................... 15 \nII.6 Domain ................................................................................................................................................... 15 \nII.7 Update Time ........................................................................................................................................... 15 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 16 \nIV FILES NOMENCLATURE ............................................................................................................................. 17 \nIV.1 Nomenclature of files when downloaded through the Web Portal Subsetter Service  ............................ 17 \nIV.2 Nomenclature of files when downloaded through the FTP Service  ........................................................ 17 \nIV.3 Other information: mean centre of Products, land mask value, missing value  ...................................... 18 \nIV.4 File size .................................................................................................................................................. 18 \nV FILE FORMAT ............................................................................................................................................ 19 \nV.1 Format and reading software ................................................................................................................. 19 \nV.2 Structure and semantic of netCDF maps files ...........",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Global Ocean Hourly Sea Surface Wind and Stress from Scatterometer and Model Products, detailing specifications and updates of the WIND_GLO_PHY_L4_NRT_012_004 and WIND_GLO_PHY_L4_MY_012_006 products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WIND_GLO_PHY_L4_NRT_012_004",
+      "name": "Global Ocean Hourly Sea Surface Wind and Stress from Scatterometer and Model Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "WIND_GLO_PHY_L4_NRT_012_004",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "surface_wind_speed",
+        "long_name": "Wind speed at the surface of the ocean",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_direction",
+        "cf_standard_name": "surface_wind_from_direction",
+        "long_name": "Wind direction at the surface of the ocean",
+        "unit": "degree",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.125deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2276,
+  "_tokens_out": 668,
+  "_eval_s": 4.98
+}

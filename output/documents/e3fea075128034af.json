@@ -1,0 +1,110 @@
+{
+  "doc_id": "e3fea075128034af",
+  "legacy_doc_id": "ba5e018effbd",
+  "filename": "BLKSEA_OMI_HEALTH_oxygen_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BLKSEA_OMI_HEALTH_oxygen_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.73,
+  "pages": 5,
+  "text_preview": " \n  \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nBLKSEA_OMI_HEALTH_trend \n \n \n Issue: 1.3 \nContributors: Arthur Capet, Luc Vandenbulcke, Marilaure Grégoire  \nApproval date by the CMEMS product quality coordination team: November 2022 \n \n \n \n \n  \n \nQUID for CMEMS OMIs: \nBLKSEA_OMI_HEALTH_OXYGEN_trend \nRef:  CMEMS-OMI-QUID-BLKSEA-OMI-HEALTH-\nOXYGEN-TREND \nDate: 10/06/2022 \nIssue: 1.3 \n \n \n     Page 2/ 5 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should  \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 19/02/2019 all Creation of the document Arthur Capet  \n1.1 13/10/2020 all Added figures Arthur Capet  \n1.2 18/08/2020 All 2020 Update Arthur Capet  \n1.3 10/06/2022 All 2022 Update Arthur Capet  \n \n \n \n \nProducts name:  \nBLKSEA_OMI_HEALTH_OXYGEN_trend \nIndicator evaluation method:  \nThe oxygenation status of the Black Sea open basin is monitored through three complementary \nindicators, that are derived from vertical profiles of oxygen concentration, salinity and temperature \n(Capet et al, 2016). \n(1) The oxygen penetration depth is defined as the depth below which oxygen concentrations are \nbelow 20 mmol/m³ (Fig. 1). This threshold is chose n to minimize the sensitivity of the indicators to the \naccuracy of different sensors at very low oxygen concentrations. \n(2) The oxygen penetration density is defined as the potential density anomaly at the oxygen \npenetration depth (Fig. 2). Using pycnal vertical coordinates minimizes the uncertainty stemming from \nthe spatial variability of oxygen penetration depth, currently undersampled by the limited number of \nArgo profilers. It is considered that this spatial variability, combined with the limited spatia l cover of \nArgo sampling is the main source of error in the basin average. \nQUID for CMEMS OMIs: \nBLKSEA_OMI_HEALTH_OXYGEN_trend \nRef:  CMEMS-OMI-QUID-BLKSEA-OMI-HEALTH-\nOXYGEN-TREND \nDate: 10/06/2022 \nIssue: 1.3 \n \n \n     Page 3/ 5 \n \n(3) The oxygen inventory is the vertical integral of oxygen concentration (Fig 3.). This metric is sensitive \nto other aspect of the oxygen dynamics, such as decrease in the surfac e oxygen content due to limited \noxygen solubility in warm conditions.  \n \nFigure 1 : Oxygen penetration depth in the open Black Sea. Upper panel: Annual trends \nfrom ship -cast (1955 -2005) and autonomous platforms (Argo, 2012 -2021) in -situ \nobservations. Lower Panel: Monthly trends from Argo in -situ observations. Shaded area \nrepresent the standard error. \nEach metric is extracted from individual Argo profiles, and used to compute monthly and annual \naverages, for the Argo Era (2012 -2021). In addition, historical s hip casts are gathered to extract \ninterannual trend for each metric using the DIVA detrending protocol (Capet et al, 2014). \nScientific validation: \nThe methodology to define and estimate those indicators on the basis of in -situ ship-casts is presented \nand d iscussed extensively in (Capet et al, 2016). Ship -cast are processed with the DIVA detrending \nprotocol (Capet et al, 2014) to dissociate spatial variability from seasonnal and interannual trends. This \nmethodology is validated on the basis of synthetic data sets and by considering the better documented \ncase of the mixed layer depth. Years with insufficient data coverage were discarded from the trend \nanalyses. The results are concomittant with similar descriptions gathered from independent litterature as \nconcern the oxygenation trends (eg. Konovalov et al., 2001, Pakhomova et al., 2014 ) and modern \noxygen conditions (eg. Stanev et al, 2013). Additional details can be found in the CMEMS Ocean State \nReport (Capet et al., 2018). \n \n \n\nQUID for CMEMS OMIs: \nBLKSEA_OMI_HEALTH_OXYGEN_trend \nRef:  CMEMS-OMI-QUID-BLKSEA-OMI-HEALTH-\nOXYGEN-TREND \nDate: 10/06/2022 \nIssue: 1.3 \n \n \n     Page 4/ 5 \n \nFigure 2: Potential density anomaly at the oxygen penetration depth in the open Black Sea.  \nUpper panel: Annual trends from ship -cast (1955-2005) and autonomous platforms (Argo, \n2012-2021) in -situ observations. Lower Panel: Monthly trends from Argo in -situ \nobservations. Shaded area represent the standard error. \n \n \nFigure 3: Oxygen inventory in the open Black Sea.  Upper panel: Annual trends from ship -\ncast (1955-2005) and autonomous platforms (Argo, 2012 -2021) in-situ observations. Lower \nPanel: Monthly trends from all Argo in -situ obse rvations. Shaded area represent the \nstandard error. \n\nQUID for CMEMS OMIs: \nBLKSEA_OMI_HEALTH_OXYGEN_trend \nRef:  CMEMS-OMI-QUID-BLKSEA-OMI-HEALTH-\nOXYGEN-TREND \nDate: 10/06/2022 \nIssue: 1.3 \n \n \n     Page 5/ 5 \nProduct used for indicator evaluation: \nThe indicators have been evaluated on the basis of historical ship -casts (1955 -2005) and more recent \nArgo prof",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Indicator Document (QUID) for the BLKSEA_OMI_HEALTH_OXYGEN_trend product, detailing the methodology and validation of oxygen indicators in the Black Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "BLKSEA_OMI_HEALTH_OXYGEN_trend",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "oxygen_concentration",
+        "cf_standard_name": "oxygen_concentration",
+        "long_name": "Oxygen concentration in the water column",
+        "unit": "mmol/m³",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_salinity",
+        "long_name": "Salinity of the water column",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Temperature of the water column",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 25.0,
+        "lon_max": 41.0,
+        "lat_min": 39.0,
+        "lat_max": 47.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

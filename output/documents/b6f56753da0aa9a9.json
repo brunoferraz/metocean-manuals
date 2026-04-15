@@ -1,0 +1,67 @@
+{
+  "doc_id": "b6f56753da0aa9a9",
+  "legacy_doc_id": "35ce47cf863b",
+  "filename": "BB86_for_dummies.pdf",
+  "filepath": "docs/hycom_docs/BB86_for_dummies.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.94,
+  "pages": 20,
+  "text_preview": " 1 \nHYBRID COORDINATE OCEAN MODEL  HYCOM for Dummies   How to create a double gyre configuration with HYCOM from scratch? June 2013 Alexandra Bozec abozec@coaps.fsu.edu                          \n\n 2 \nForeword\t\r  ..................................................................................................\t\r  3\t\r  1.\t\r  BB86_PACKAGE\t\r  and\t\r  what’s\t\r  in\t\r  it\t\r  .........................................................\t\r  3\t\r  2.\t\r  The\t\r  Double\t\r  Gyre\t\r  configuration\t\r  or\t\r  BB86\t\r  ..............................................\t\r  4\t\r  3.\t\r  HYCOM-­‐BB86\t\r  .....................................................................................\t\r  5\t\r  a.\t\r  What\t\r  you\t\r  need\t\r  to\t\r  get\t\r  HYCOM\t\r  running\t\r  ...............................................\t\r  5\t\r  i.\t\r  Create\t\r  input\t\r  files\t\r  .................................................................................\t\r  6\t\r  ii.\t\r  Compiling\t\r  the\t\r  HYCOM\t\r  source\t\r  code\t\r  .....................................................\t\r  8\t\r  b.\t\r  Let’s\t\r  make\t\r  it\t\r  run\t\r  ...............................................................................\t\r  10\t\r  i.\t\r  blkdat.input\t\r  ......................................................................................\t\r  10\t\r  ii.\t\r  script_exe.com\t\r  .................................................................................\t\r  14\t\r  c.\t\r  How\t\r  to\t\r  restart\t\r  the\t\r  simulation\t\r  ...........................................................\t\r  16\t\r  4.\t\r  Plotting\t\r  the\t\r  outputs\t\r  .........................................................................\t\r  17\t\r  Appendix\t\r  ................................................................................................\t\r  18\t\r  References\t\r  .............................................................................................\t\r  20\t\r  \t\r                      \n 3 \nForeword\t\r  This document is destined to people who wants to use HYCOM but have no idea where to start, how to create HYCOM format input files, how to read HYCOM format outputs files or just want to play with a double gyre configuration and see what it does. A small disclaimer, as much as one can check their codes, it is still possible for bugs to dig their way into our otherwise well-tested scripts. If you find one, first, I apologize in advance (Good Job for finding it!) and second I would appreciate if you can fix it and send me the fix (Even a Better Job!), so I can continue improving the package (Many Thank You!).   1. BB86_PACKAGE\t\r  and\t\r  what’s\t\r  in\t\r  it\t\r  \t\r   The BB86_package is available on the HYCOM website (http://www.hycom.org).  Once downloaded, untar it:  ~/> tar xvf BB86_PACKAGE.tar.gz BB86_PACKAGE/ BB86_PACKAGE/IDL/ BB86_PACKAGE/IDL/UTILITIES/ BB86_PACKAGE/IDL/UTILITIES/write_depth_hycom.pro BB86_PACKAGE/IDL/UTILITIES/write_grid_hycom.pro BB86_PACKAGE/IDL/UTILITIES/spherdist.pro BB86_PACKAGE/IDL/UTILITIES/sigma2_hycom.pro BB86_PACKAGE/IDL/UTILITIES/read_depth_hycom.pro BB86_PACKAGE/IDL/UTILITIES/read_grid_hycom.pro BB86_PACKAGE/IDL/UTILITIES/colorbar2.pro BB86_PACKAGE/IDL/UTILITIES/sofsig.pro BB86_PACKAGE/IDL/UTILITIES/tofsig.pro BB86_PACKAGE/IDL/UTILITIES/write_relax_hycom.pro . . . BB86_PACKAGE/BB86/bb86.f BB86_PACKAGE/BB86/input BB86_PACKAGE/PS/ BB86_PACKAGE/PS/uv_dp_d100_bb86-hycom.ps BB86_PACKAGE/PS/uv_dp_d200_bb86-hycom.ps BB86_PACKAGE/PS/uv_dp_d360_bb86-hycom.ps ~/> ls BB86_PACKAGE  BB86_PACKAGE.tar.gz  ~/> cd BB86_PACKAGE ~/BB86_PACKAGE> ls BB86  config  expt_01.0  force  IDL  MATLAB  PS  relax  src_2.2.18_3_one  topo ~/BB86_PACKAGE >  \n 4 \nYour PACKAGE is now ready to be used. The layout is described Figure 2.  \n Fig 2: Double gyre configuration directories  2. The\t\r  Double\t\r  Gyre\t\r  configuration\t\r  or\t\r  BB86\t\r   The double gyre configuration that we are going to run here is a relatively simple configuration based on the publication of Bleck and Boudra (1986). The model domain is 101x101 rectangular basin with a horizontal resolution of 20km and a flat bottom at 5000m. Coriolis varies with Beta and an eastward wind-stress is applied as described Figure 1.   Fig 1: eastward wind-stress profile          \n\n 5 \nWe are now going to run a HYCOM version of this simple configuration, named hereafter HYCOM-BB86. 3. HYCOM-­‐BB86\t\r  a. What\t\r  you\t\r  need\t\r  to\t\r  get\t\r  HYCOM\t\r  running\t\r   For those who do not know anything about HYCOM, I would recommend to and take a look at the HYCOM for Dummies (v2.2):  http://hycom.org/attachments/349_HYCOM_for_Dummies.pdf.  and/or browse the website documentation:  http://www.hycom.org/hycom/documentation   (N.B.: Before starting and as a reminder, one must know that all inputs and outputs are presented as a couple of .a and .b files. The .a file actually contains the binary data and the .b file describes what is in the .a file and how it is stored.  In the following, the notation *.[ab] will correspond to the couple *.a and *.b.)  As any ocean model, HYCOM requires a grid, a bathymetry, an ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides a guide for setting up and running HYCOM with a double gyre configuration, including necessary files, compilation steps, and basic plotting instructions.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alexandra Bozec"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM BB86 Package",
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "20km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 5000.0
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

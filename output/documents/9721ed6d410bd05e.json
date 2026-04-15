@@ -1,0 +1,125 @@
+{
+  "doc_id": "9721ed6d410bd05e",
+  "legacy_doc_id": "280188d79e37",
+  "filename": "halliwell_pwp.pdf",
+  "filepath": "docs/hycom_docs/halliwell_pwp.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.08,
+  "pages": 2,
+  "text_preview": "The Price-Weller-Pinkel Dynamical Instability Model  \n \nThe Price-Weller-Pinkel (PWP) vertical mixing model (Price et al., 1986) has been adapted to \nprovide vertical mixing in HYCOM. The PWP algorithm is executed at p  grid points where \nthermodynamical variables are mixed. To perform these calculations, momentum components \nare horizontally interpolated to the p  points. After the thermodynamical variables have been \nmixed at the p  points, a special algorithm described below is executed to perform momentum \nmixing at the ,uv  grid points. \nThe first step is to apply the surface boundary conditions. Surface momentum fluxes are \napplied when the momentum equation is solved, with the surface fluxes acting to accelerate the \nwater in model layer 1 only. When the PWP subroutine is called, the surface fluxes of heat and \nmass are distributed over model layer 1 except for penetrating shortwave radiation, which is \ndistributed over multiple layers. If static instability is present near the ocean surface after \napplying the surface fluxes, it is relieved as follows: If model layer 2 is less dense that layer 1, \nthe water in both layers is completely mixed. If the water in layer 3 is less dense than this mixed \nwater, it is completely mixed with the water from layers 1 and 2. This process is repeated until a \nmodel layer is encountered that is denser than the mixed water above. \nAn initial diagnosis of mixed layer depth is performed next. Moving down from the surface, \nthe mixed layer depth is set to the depth of the first interface across which the density jump \nexceeds a prescribed value. The mixed layer base always resides on a model interface in the \nPWP model. All model variables on \np  grid points, including the interpolated momentum \ncomponents, are homogenized within the mixed layer. \nTo perform bulk Richardson number mixing, this number is calculated using \n ( ) ( )22\n0\n,b\ngh\nR uv\nr\nr\nD= éù D+Dëû\n (1) \nwhere h  is the diagnosed mixed layer thickness. Density and velocity differences are taken \nbetween the mixed layer and the model layer immediately below. If 0.65bR < , the mixed layer \nentrains the layer immediately below it and all variables are homogenized within the new mixed \nlayer. The process in then repeated, with the mixed layer entraining additional layers, until \n0.65bR ³ . \nTo perform gradient Richardson number mixing, this number is estimated using  \n ( ) ( )22\n0\n,g\ngz\nR uv\nr\nr\nDD= éù D+Dëû\n (2) \nand mixing is performed if 0.25gR < . At each interface, rD , uD , and vD  are estimated as \nthe difference between the layer above and the layer below, while zD  is estimated as the \naverage thickness of the layers above and below.  \nThe following procedure is used to perform the shear instability mixing. The number gR  is \nestimated at all vertical interfaces between the one upon which the mixed layer base resides and \nthe bottom. The interface with the smallest value of gR  is identified. If this value is less than \n0.25, the layers above and below the interface are partially mixed so that the value of gR  is \nincreased to 0.30. New values of gR  are calculated, and then the new interface with the smallest \nvalue of gR  is identified. If this value is less than 0.25, the two adjacent layers are partially \nmixed in the same manner. This process is repeated until the minimum value of gR  over all \nlayers exceeds 0.25. \nAfter this mixing process has been completed, the depth of the mixed layer base is again \ndiagnosed as the depth of the first interface below the surface where the density jump exceeds a \nprescribed value. The final vertical homogenization is performed only for thermodynamical \nvariables and other scalars that are stored at p  grid points. After completing the mixing process \nat pressure grid points, the depth of the mixed layer base is horizontally interpolated to u  and v  \ngrid points, and the velocity components are homogenized within the mixed layer. On both sets \nof grids, the model interface closest to the interpolated mixed layer depth is identified as the \nmixed layer base, and vertical homogenization is performed between the surface and the \nidentified interface. Although the PWP algorithm provides for shear instability mixing beneath \nthe surface mixed layer, it does not provide for background mixing due to other processes such \nas internal wave breaking. When the PWP model is selected, the hybrid explicit (MICOM-like) \ndiapycnal-mixing algorithm is also activated to provide this additional mixing. \n \nREFERENCE \n \nPrice, J. F., R. A. Weller, and R. Pinkel, 1986: Diurnal cycling: Observations and models of the \nupper ocean response to diurnal heating, cooling, and wind mixing. J. Geophys. Res., 91, \n8411-8427.  \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the adaptation of the Price-Weller-Pinkel vertical mixing model for use in HYCOM, detailing its application and mixing processes.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Density of seawater",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Temperature of seawater",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity of seawater",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "momentum",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Horizontal components of seawater velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "momentum"
+      }
+    ],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "pressure",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

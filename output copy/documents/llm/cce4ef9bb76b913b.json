@@ -1,0 +1,86 @@
+{
+  "doc_id": "cce4ef9bb76b913b",
+  "legacy_doc_id": "ef9910813b6c",
+  "filename": "MEDSEA_ANALYSISFORECAST_BGC_006_014_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MEDSEA_ANALYSISFORECAST_BGC_006_014_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.78,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n PRODUCT USER MANUAL \n \nFor  \nMediterranean Sea Biogeochemical \nAnalysis and Forecasting Product \n \nMEDSEA_ANALYSISFORECAST_BGC_006_014 \n \nIssue: 2.5 \n \nContributors: Rafael Gomes de Menezes, Stefano Salon, Giorgio Bolzon, \nGianpiero Cossarini  \nApproval Date: November 2025 \n\n Copernicus Marine Product User Manual for \nMEDSEA_ANALYSISFORECAST_BGC_006_014 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_014 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 25/09/2017 all Initial version R. Lecci, G. Bolzon, S. \nSalon, G. Cossarini  \n1.1 30/04/2018 all Update after v4.1 R. Lecci, G. Bolzon, S. \nSalon, G. Cossarini  \n1.2 31/05/2018 all Update of section III R. Lecci  \n1.3 21/01/2019 all \nNew template and \ninclusion of new \ndatasets \nR. Lecci, G. Bolzon, S. \nSalon, G. Cossarini   \n1.4 06/12/2019 all New datasets R. Lecci, G. Bolzon, S. \nSalon, G. Cossarini C. Derval \n2.0 15/01/2021 all New product and new \ndatasets \nR. Lecci, G. Bolzon, S. \nSalon, G. Cossarini C. Derval \n2.1 10/09/2021 all Upgrade of forcing R. Lecci, G. Bolzon, S. \nSalon C. Derval \n2.2 29/11/2022 all Quality improvement \nand additional dataset \nR. Lecci, G. Bolzon, S. \nSalon \nCopernicu\ns Marine \nProduct \nManagem\nent \n2.3 30/11/2023 all Updated datasets R. Lecci, G. Bolzon, S. \nSalon  \n2.4 26/11/2024 all \nRe-delivery of entire \ntime series from 2 years \nbefore present \nR. Lecci, G. Bolzon, S. \nSalon, G. Cossarini \nCopernicu\ns Marine \nProduct \nManagem\nent \n2.5 28/05/2025 all \nRe-delivery of entire \ntime series from 2 years \nbefore present \nR. G. de Menezes, G. \nBolzon, S. Salon, G. \nCossarini \nCopernicu\ns Marine \nProduct \nManagem\nent \n \n  \n Copernicus Marine Product User Manual for \nMEDSEA_ANALYSISFORECAST_BGC_006_014 \nIssue: 2.5 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006_014 \n3 \n \nTATBLE OF CONTENTS \n \nRECORD TABLE ....................................................................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS ...................................................................................................................... 4 \nDATA ACCESS ........................................................................................................................................................ 5 \nI INTRODUCTION .............................................................................................................................................. 6 \nI.1 Summary ....................................................................................................................................................... 6 \nI.2 History of changes ...................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ................................................................................... 8 \nII.1 General Information .................................................................................................................................. 8 \nII.2 Datasets details ........................................................................................................................................ 10 \nII.3 Production System Description ............................................................................................................ 12 \nII.4 Processing information ........................................................................................................................... 15 \nII.4.1 Update Time .............................................................................................................................. 15 \nII.4.2 Temporal extent of analysis and forecast stored on delivery mechanism  .............. 15 \nII.4.3 Time averaging ......................................................................................................................... 15 \nIII. FILE FORMAT ............................................................................................................................................ 16 \nIV   FILES NOMENCLATURE ................................................................................................................................. 17 \nIV.1   Nomenclature of original files .......................................................................................................... 17 \nIV.3   Other information: mean centre of Products, land mask value, missing value  ................. 18 \nIV.4   File size ....................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for the Mediterranean Sea Biogeochemical Analysis and Forecasting Product, detailing its specifications, datasets, production system, processing information, file format, and nomenclature.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_ANALYSISFORECAST_BGC_006_014",
+      "name": "Mediterranean Sea Biogeochemical Analysis and Forecasting Product",
+      "model_name": null,
+      "region": "Mediterranean",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2437,
+  "_tokens_out": 467,
+  "_eval_s": 3.58
+}

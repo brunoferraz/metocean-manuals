@@ -1,0 +1,70 @@
+{
+  "doc_id": "b2422ed4ff997a55",
+  "legacy_doc_id": "2f1543aeb0c0",
+  "filename": "OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.42,
+  "pages": 10,
+  "text_preview": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPRODUCT USER MANUAL \n \nFor OMI_CIRCULATION_MOC_BLKSEA_area_averaged_mean \n \n \nIssue: 1.0 \n \n \n \nContributors : Leonardo Lima, Eric Jansen, Mehmet Ilicak, Rita Lecci \n \nApproval Date: NOVEMBER 2024 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n \nmarine.copernicus.eu  \nmercator-ocean.eu \n \n \n \nProduct User Manual for OMI_CIRCULATION_MOC_BLKSEA 2 \n \n \n \n \nRECORD TABLE \n \n \n \n \n \nIssue Date § Description of Change Author Validated By \n      \n1.0 2024/11/26 All Initial version \nL. Lima, E.  \nJansen, M. Ilicak,  \n    R. Lecci  \n      \n       \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM-CIRCULATION_MOC_BLKSEA \nIssue 1.0 – November 2024  \n \n \n \nProduct User Manual for OMI_CIRCULATION_MOC_BLKSEA 3 \n \n \n \n \nTABLE OF CONTENTS \n \nRECORD TABLE ................................................................................................................................................. 2 \n \nGLOSSARY AND ABBREVIATIONS ......................................................................................................... 4 \n \nDATA ACCESS .................................................................................................................................................. 5 \n \n1) INTRODUCTION ................................................................................................................................... 6  \na) Summary ................................................................................................................................................ 6 \n \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................. 7  \na) General Information ....................................................................................................................... 7  \nb) Production System Description ................................................................................................ 8  \nc) Dataset details ................................................................................................................................... 8 \n \n3) FILE FORMAT ......................................................................................................................................... 9 \n \n4) FILES NOMENCLATURE .................................................................................................................... 9 \n \n5) REFERENCES ....................................................................................................................................... 10  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM-CIRCULATION_MOC_BLKSEA \nIssue 1.0 – November 2024  \n \n \n \nProduct User Manual for OMI_CIRCULATION_MOC_BLKSEA 4 \n \n \n \n \nGLOSSARY AND ABBREVIATIONS  \n \n \n \nMOI Mercator Ocean International \n \nNetCDF Network Common Data Form  \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual  \n \nQUID Quality Information Document  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM-CIRCULATION_MOC_BLKSEA \nIssue 1.0 – November 2024  \n \n \n \nProduct User Manual for OMI_CIRCULATION_MOC_BLKSEA 5 \n \n \n \n \n   DATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is available, \nand more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User Notification \nService. If needed, you can contact us .   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM-CIRCULATION_MOC_BLKSEA \nIssue 1.0 – November 2024  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_CIRCULATION_MOC_BLKSEA, providing details about the product specification, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CIRCULATION_MOC_BLKSEA",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1998,
+  "_tokens_out": 335,
+  "_eval_s": 2.5
+}

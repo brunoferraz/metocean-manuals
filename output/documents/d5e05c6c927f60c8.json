@@ -1,0 +1,110 @@
+{
+  "doc_id": "d5e05c6c927f60c8",
+  "legacy_doc_id": "c5e8efe22346",
+  "filename": "WAVE_GLO_PHY_SPC_L3_NRT_014_009_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WAVE_GLO_PHY_SPC_L3_NRT_014_009_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.64,
+  "pages": 27,
+  "text_preview": "   \n \n   \n \n \n \n \n \n \n \n  \nWAVE Thematic Assembly Centre: \nWAVE_GLO_PHY_SPC_L3_NRT_014_009 \n \n Issue: 1.0 \nContributors: Annabelle Ollivier, Adrien Nigou, Charles Peureux \nApproval date by the CMEMS product quality coordination team: 28/05/2024 \n \n \n \n \n \n  \n \n\nProduct: \nWAVE_GLO_PHY_SPC_L3_NRT_009 \nRef: \nDate: \nIssue: \nCMEMS-WAV-QUID-014_009 \n13/03/2024 \n1.0 \n \n                                                      Page 2/ 27 \n \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 May 2024 All Creation of the \ndocument \nC. Peureux, A. Nigou, \nA. Ollivier P. Zunino, R. Husson \n      \n      \n      \n      \n \n \n \n \n  \nProduct: \nWAVE_GLO_PHY_SPC_L3_NRT_009 \nRef: \nDate: \nIssue: \nCMEMS-WAV-QUID-014_009 \n13/03/2024 \n1.0 \n \n                                                      Page 3/ 27 \n \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 6 \nII.1 Production center name ............................................................................................................................ 6 \nII.2 Operational system name ......................................................................................................................... 6 \nII.3 Production centre description for the version covered by this document  ................................................. 6 \nII.3.1 Acquisition ............................................................................................................................................ 6 \nII.3.2 L3 generation ................................................................................................................................... 7 \nIII Validation framework ................................................................................................................................. 8 \nIV Validation results ........................................................................................................................................ 9 \nIV.1 SWIM 2D spectral matrix ......................................................................................................................... 9 \nIV.2 Quality assessment, limitation ................................................................................................................. 9 \nIV.2.1 Integrated parameters data (Hs, direction, wavelength) .............................................................. 11 \nIV.2.2 Integrated parameters data (Hs, direction, wavelength) from partition spectra  .......................... 13 \nV System’s Noticeable events, outages or changes ...................................................................................... 19 \nVI Quality changes since previous version ..................................................................................................... 20 \nVII References ............................................................................................................................................ 27 \n \nProduct: \nWAVE_GLO_PHY_SPC_L3_NRT_009 \nRef: \nDate: \nIssue: \nCMEMS-WAV-QUID-014_009 \n13/03/2024 \n1.0 \n \n                                                      Page 4/ 27 \n \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThe WAVE_GLO_PHY_SPC_L3_NRT_009 CFOSAT 2D spectral product is an innovative product, providing \na characterization of sea states. Its assessment is presented and assessed by comparison with WAM \nmodel and Sentinel-1 data.   \nThis document describes the estimation process and the quality of the operational (NRT) spectral \nproducts listed hereafter: \nProduct WAVE_GLO_PHY_SPC_L3_SPC_NRT_009 \nArea Global ocean \nMissions CFOSAT \nMain information - 2D spectral data \n- Partition mask \n- Parameters integrated from the 2D spectral data  \n- Parameters integrated from the 2D spectrum after partitioning of the \nsea states \nSpatial resolution 70 km along track with left and right positioning, 45 km apart from the nadir \nground track \nTemporal resolution 3-hour \nTable 1: Presentation of product’s main information ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is an evaluation report for the WAVE_GLO_PHY_SPC_L3_NRT_009 product, detailing its production process and quality assessment based on comparisons with WAM model and Sentinel-1 data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SPC_L3_NRT_009",
+      "name": "Global Ocean Wave Spectra Product (NRT)",
+      "model_name": "CFOSAT",
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT3H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "2D spectral data",
+        "cf_standard_name": null,
+        "long_name": "Wave spectra in two dimensions",
+        "unit": null,
+        "physical_quantity": "wave_height | wave_period | wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Partition mask",
+        "cf_standard_name": null,
+        "long_name": "Mask indicating partitioned sea states",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Hs, direction, wavelength",
+        "cf_standard_name": null,
+        "long_name": "Significant wave height, mean wave period and peak wave direction",
+        "unit": "m, s, degree",
+        "physical_quantity": "wave_height | wave_period | wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "70km along track, 45km cross-track",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

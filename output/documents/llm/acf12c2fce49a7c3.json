@@ -1,0 +1,113 @@
+{
+  "doc_id": "acf12c2fce49a7c3",
+  "legacy_doc_id": "8a8c5fc32850",
+  "filename": "SST_ATL_PHY_L3S_NRT_010_037_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_ATL_PHY_L3S_NRT_010_037_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.75,
+  "pages": 19,
+  "text_preview": " \n \n \n \n \n \n  \nSea Surface Temperature Thematic Assembly Centre  \nLevel 3S ODYSSEA Sea Surface Temperature Near Real \nTime product over the European North-West \nShelf/Iberia Biscay Irish Sea area \nSST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037 \n \n Issue: 2.0 \n \nContributors: Jean-François Piollé, Emmanuelle Autret  \nApproval date by the CMEMS product quality coordination team: 04/11/2025 \n \n \n \n \n  \n \n\n \nProducts \nSST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-037 \n28 May 2025 \n2.0 \n \n \n                                                      Page 2/ 19 \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID  is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 16 June \n2022 \nAll Initial release Jean-François Piollé A. Pisano \n1.1 24 June \n2022 \n1 updated statistics  in version \n1.0 \nJean-François Piollé A. Pisano \n1.2 08 June \n2023 \nAll Update for EIS Nov 2023 \nadded Metop -C; addition of \nper sensor type multisensor \ngrids. \nJean-François Piollé  A. Pisano \n2.0 28/05/2025  Update for EIS Nov 2025 \nadded NOAA-21 VIIRS as input \nsensor (table 3) \nJean-François Piollé A. Pisano \n \n \n \n \n \n  \n \nProducts \nSST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-037 \n28 May 2025 \n2.0 \n \n \n                                                      Page 3/ 19 \n \nACRONYM TABLE \n \nAcronym Description \nArgo International profiling float network (www.argo.net) \nEAN Estimated Accuracy Number \nGHRSST Group for High Resolution Sea Surface Temperature \nL2P Level 2 Pre-processed \nL4 Level 4 (Analysed) \nNRT Near Real Time \nMY Multi-year \nNRT Near Real Time \nOSI SAF Eumetsat Ocean and Sea Ice Satellite Application Facility \nREP Reprocessing \nSST Sea Surface Temperature \nTAC Copernicus Marine Service Thematic Assembly Centre \n \n \nProducts \nSST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-037 \n28 May 2025 \n2.0 \n \n \n                                                      Page 4/ 19 \n \nKEY DEFINITIONS \n \nsea surface foundation \ntemperature \nCF Definition: The surface called \"surface\" means the lower boundary of \nthe atmosphere. The sea surface foundation temperature is the water \ntemperature that is not influenced by a thermally stratified layer of \ndiurnal temperature variability (either by daytime warming or nocturnal \ncooling). The foundation temperature is named to indicate that it is the \ntemperature from which the growth of the diurnal thermocline develops \neach day, noting that on some occasions with a deep mixed layer there is \nno clear foundation temperatu re in the surface layer. In general, sea \nsurface foundation temperature will be similar to a night-time minimum \nor pre-dawn value at depths of between approximately 1 and 5 meters. \nIn the absence of any diurnal signal, the foundation temperature is \nconsidered equivalent to the quantity with standard name \nsea_surface_subskin_temperature.  \n \nThe sea surface foundation temperature defines a level in the upper \nwater column that varies in depth, space, and time depending on the \nlocal balance between thermal stratification and turbulent energy and is \nexpected to change slowly over the course of a day. If possible, a data \nvariable with the standard name sea_surface_foundation_temperature \nshould be used with a scalar vertical coordinate variable to specify the \ndepth of the foundation level. Sea surface foundation temperature is \nmeasured at the base of the diurnal thermocline or as close to the water \nsurface as possible in the absence of thermal stratification. Only in situ \ncontact thermometry is able to measure the sea surface foundation \ntemperature. Analysis procedures must be used to estimate sea su rface \nfoundation temperature value from radiometric satellite measurements \nof the quantities with standard names sea_surface_skin_temperature \nand sea_surface_subskin_temperature. Sea surface foundation \ntemperature provides a connection with the historical concept of a \"bulk\" \nsea surface temperature considered representative of the oceanic mixed \nlayer temperature that is typically represented by any sea temperature \nmeasurement within the upper ocean over a depth range of 1 to \napproximately 20 meters. The gen eral term, \"bulk\" sea surface \ntemperature, has the standard name sea_surface_temperature with no \nassociated vertical coordinate axis. Sea surface foundation temperature \nprovides a more precise, well -defined quantity than \"bulk\" sea surface \ntemperature and,  consequently, is more representative of the mixed \nlayer temperature. The temperature of sea water at a particular depth \n(other than the foundation level) should be reported using the standard \nname sea_water_temperature and, wherever possible, supplying a \nvertical coordinate axi",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the SST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037 product, a Level 3S ODYSSEA Sea Surface Temperature Near Real Time product over the European North-West Shelf/Iberia Biscay Irish Sea area.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037",
+      "name": "Level 3S ODYSSEA Sea Surface Temperature Near Real Time product over the European North-West Shelf/Iberia Biscay Irish Sea area",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_ATL_PHY_L3S_NRT_OBSERVATIONS_010_037",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_skin_temperature",
+        "cf_standard_name": "sea_surface_skin_temperature",
+        "long_name": "Sea Surface Skin Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_subskin_temperature",
+        "cf_standard_name": "sea_surface_subskin_temperature",
+        "long_name": "Sea Surface Subskin Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_foundation_temperature",
+        "cf_standard_name": "sea_surface_foundation_temperature",
+        "long_name": "Sea Surface Foundation Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.083deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -15,
+        "lon_max": 15,
+        "lat_min": 47,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2480,
+  "_tokens_out": 800,
+  "_eval_s": 5.97
+}

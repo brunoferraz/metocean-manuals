@@ -1,0 +1,129 @@
+{
+  "doc_id": "051852f09423afef",
+  "legacy_doc_id": "c2fb411fc311",
+  "filename": "INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHY_UV_DISCRETE_MY_013_044_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 8.14,
+  "pages": 87,
+  "text_preview": " \n                                                      \n \n  \nIn Situ Production Centre  \nGlobal Ocean-Delayed Mode in-situ Observations of \nsurface and sub-surface ocean currents \nINSITU_GLO_PHY_UV_DISCRETE_MY_013_044  \n \n Issue: 3.7 \nContributors: Hélène Etienne, Nathalie Verbrugge, Christine Boone, Anna Rubio, Lohitzune Solabarrieta, Lorenzo \nCorgnati, Carlo Mantovani, Emma Reyes, Marina Chifflet, Julien Mader, Corentin Guyot, Patricia Zunino \nApproval date by the CMEMS product quality coordination team: 06/11/2025 \n \n \n \n \n  \n \n\nProducts \nINSITU_GLO_PHY_UV_DISCRETE_MY_013_044 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-044 \n19/05/2025 \n3.7 \n \n                                                      Page 2/ 87 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Authors Validated By \n3.1 06.09.2021  Update of the entire HF Radar \ntime series. \nAddition of new radial and \ntotal HF systems \nA.Rubio & L. \nSolabarrieta \nS. Tarot \n   Extension of the drifter dataset N. Verbrugge  \n3.1 30.11.2021  Correction of external links S. Tarot S. Tarot \n3.2 16.02.2022 §II.2.1 update frequency added, \nupdate of some figures for \ndrifters \nN. Verbrugge S. Tarot \n3.3 06.05.2022 All Update information \nconcerning HF radar products + \nproduct and datasets  \nrenaming + new template \nA. Rubio, L. \nSolabarrieta, E. \nReyes, N. \nVerbrugge \nS. Tarot \n3.3 31/08/2022 All Update ADCP and HF radar \nnumbers and figures \nA. Rubio, T. Carval S. Tarot \n3.4 22/02/2023 §1.2.3 \n§2.1.3 \n§2.2.3 \n§3.3 \n§4.3 \nADCP: Brazilian cruises and \nsaildrone additions \nT. Carval \nL. Drouineau \nN. Verbrugge \nS. Tarot \n3.5 22/03/2023 §I.2.1 \n§II.1.1 \n§II.2.1 \n§III.1 \n§IV.1 \n§V \nUpdate of the wind slippage \ncorrection upstream data \nH. Etienne \nN. Verbrugge \nS. Tarot \n3.5 30/05/2023 §I.2.2 \n§II.1.2 \n§II.2.2 \n§III.2 \n§IV.2, §V \nUpdate of the radar quality \nplots and inclusion of a new \nsystem \nL. Solabarrieta, I. \nManso-Narvarte \nN. Verbrugge \nS. Tarot \nProducts \nINSITU_GLO_PHY_UV_DISCRETE_MY_013_044 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-044 \n19/05/2025 \n3.7 \n \n                                                      Page 3/ 87 \n \n \n  \nIssue Date § Description of Change Authors Validated By \n3.5 09/06/2023 §I.1 \n§I.2.4 \n§II.1.4 \n§II.2.4 \n§III.4 \n§IV.4 \nAdd Argo currents dataset Thierry Carval \nN. Verbrugge \nS. Tarot \n3.5 23/06/2023 §I.2.3.4 November 2023 ADCP data \naddition \nRe-organization of the doc \nThierry Carval \n N. Verbrugge \nS. Tarot \n3.6 31/07/2024 all New upstream data for drifters \nNew gliders dataset \nNew platforms for ADCP and \nHF radar \nN. Verbrugge, H. \nEtienne, P. Zunino, \nL. Solabarietta, C. \nGuyot \nS. Tarot \n3.7 19/05/2025 I \nII.1.1, II.2 \nIII, \nIV \nV \nVI \nInclusion of new HF radar \nnetworks \nDrifters: update of figures and \nEAN because of an increase of \nthe number of platforms; \ndescription of QC tests \nArgo: inclusion of the latest \nversion of Andro \nADCP, gliders: updates of the \nfigures (additional data) \nL. Solabarrieta, P. \nZunino, N. \nVerbrugge, C. \nGuyot \nS. Tarot \nProducts \nINSITU_GLO_PHY_UV_DISCRETE_MY_013_044 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-044 \n19/05/2025 \n3.7 \n \n                                                      Page 4/ 87 \nACRONYM TABLE \nAcronym Description \nArgo International profiling float network (www.argo.net) \nCCMP Cross-Calibrated Multi-Platform \nDAC Data Assembly Center \nGDAC  Global Data Assembly Center \nMY Multi-year \nmy_adcp cmems_obs-ins_glo_phy-cur_my_adcp_irr dataset \nmy_argo cmems_obs-ins_glo_phy-cur_my_argo_irr \nmy_drifter cmems_obs-ins_glo_phy-cur_my_drifter_PT1H dataset \nmy_glider cmems_obs-ins_glo_phy-cur_my_glider_irr \nmy_radar_radial cmems_obs-ins_glo_phy-cur_my_radar-radial_irr dataset \nmy_radar_total cmems_obs-ins_glo_phy-cur_my_radar-total_irr \nNRT Near Real Time \nTAC Copernicus Marine Service Thematic Assembly Centre \nTf Transmit frequency \nWMLE  Weighted Maximum Likelihood Estimate \n \n  \n \nRELEVANT DOCUMENT LIST \nCMEMS-INS-PUM-013-044 https://doi.org/10.13155/41257 \nCMEMS-MOB-QUID-015_003 https://catalogue.marine.copernicus.eu/documents\n/QUID/CMEMS-MOB-QUID-015-003.pdf \nSEALEVEL_GLO_PHY_L4_MY_008_047 product https://doi.org/10.48670/moi-00148 \n  \nProducts \nINSITU_GLO_PHY_UV_DISCRETE_MY_013_044 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-044 \n19/05/2025 \n3.7 \n \n                                                      Page 5/ 87 \nTABLE OF CONTENTS \nAcronym Table ......................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the INSITU_GLO_PHY_UV_DISCRETE_MY_013_044 product, detailing changes and updates to in-situ observations of surface and sub-surface ocean currents.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_UV_DISCRETE_MY_013_044",
+      "name": "Global Ocean-Delayed Mode in-situ Observations of surface and sub-surface ocean currents",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_adcp_irr",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_argo_irr",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_drifter_PT1H",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "hourly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_glider_irr",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_radar-radial_irr",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "hourly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-ins_glo_phy-cur_my_radar-total_irr",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "hourly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "u_velocity",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": "Eastward sea water velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v_velocity"
+      },
+      {
+        "native_name": "v_velocity",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Northward sea water velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "u_velocity"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 3017,
+  "_tokens_out": 922,
+  "_eval_s": 6.96
+}

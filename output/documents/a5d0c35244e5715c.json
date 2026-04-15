@@ -1,0 +1,96 @@
+{
+  "doc_id": "a5d0c35244e5715c",
+  "legacy_doc_id": "a11df18f4766",
+  "filename": "OMI_CLIMATE_SST_NORTHWESTSHELF_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_SST_NORTHWESTSHELF_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.62,
+  "pages": 8,
+  "text_preview": " \n \n \n \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring \nService \nSea Surface Temperature OMI for the \nEuropean Northwest Shelf \nOMI_CLIMATE_SST_NORTHWESTSHELF_area_a\nveraged_anom alies \nOMI_CLIMATE_SST_NORTHWESTSHELF_trend \n \n \nIssue: 3.0 \n \n \n \nContributors : Emmanuelle Autret \nApproval date by the CMEMS product quality coordination team : \nNovember 2024 \n \n \n \n \n \n \n \n \n \n \n \n \nMERCATOR OCEAN \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran – 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \n \nmarine.copernicus.eu \nmercator-ocean.eu \nCMEMS Quality Information Document for Issue : 3.0 \n2024/11 \nOMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies \nOMI_CLIMATE_SST_NORTHWESTSHELF_trend \n2 \n© EU Copernicus Marine Service – Public \n \n \n \n \nCHANGE RECORD \n \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table. \nThe third column specifies which sections or sub -sections have been updated. The fourth  \ncolumn should mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 10/09/2019 All Creation of the \ndocuments \nEmmanuelle Autret  \n1.1 10/09/2020 All Update of the \ndocuments \nEmmanuelle Autret  \n1.2 10/09/2021 All Update of the \ndocuments \nEmmanuelle Autret  \n2.0 16/06/2022 All Update of the \ndocuments. Temporal \nextension. \nEmmanuelle Autret A. Pisano \n2.1 16/06/2023 All Temporal extension. Emmanuelle Autret A. Pisano \n3.0 31/05/2024  TO UTemporal \nextension and a new \nreference from 1991 to \n2020 \nEmmanuelle Autret A. Pisano \n      \nCMEMS Quality Information Document for Issue : 3.0 \n2024/11 \nOMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies \nOMI_CLIMATE_SST_NORTHWESTSHELF_trend \n3 \n© EU Copernicus Marine Service – Public \n \n \n \n \n \n         Table of contents \nI INTRODUCTION ............................................................................................................................................................ 4 \nI.1 Product name ............................................................................................................................................................... 4 \nI.2 Indicator evaluation method ......................................................................................................................................... 4 \nI.3 CMEMS products used as input for the computations .................................................................................................... 5 \nII SCIENTIFIC VALIDATION .................................................................................................................................................. 6 \nIII REFERENCES ................................................................................................................................................................. 8 \n \nCMEMS Quality Information Document for Issue : 3.0 \n2024/11 \nOMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies \nOMI_CLIMATE_SST_NORTHWESTSHELF_trend \n4 \n© EU Copernicus Marine Service – Public \n \n \nI INTRODUCTION  \n \n \n \nI.1 Product name \n \nOMI_CLIMATE_SST_NORTHWESTSHELF_ area_averaged_anomalies \nOMI_CLIMATE_SST_NORTHWESTSHELF_ trend \n \n \nI.2 Indicator evaluation method \n \nThe European Northwest Shelf Sea Surface Temperature (SST) Ocean Monitoring Indicators  \n(OMIs) are derived from the CMEMS Reprocessed European North West Shelf Iberia -Biscay- \nIrish areas (REP ATL) SST L4 product1. The REP ATL L4 product provides the SSTs that are used to \ncompute all the IBI SST OMIs, i.e. the time series of SST anomalies \n(nws_omi_tempsal_sst_area_averaged_anomalies) and the 2D map of SST trend \n(nws_omi_tempsal_sst_trend). Anomalies are computed against the 1991-2020 reference \nperiod. In detail, daily maps of REP ATL L4 data from 1982 were averaged to obtain SST monthly \nmaps, which were then used to build the time series of monthly mean SST values averaged over \nthe entire basin. \nTrend analysis has been performed by using the X -11 seasonal adjustment procedure (Pezzulli \net al. 2005). This procedure decomposes the input SST time series into the sum of three distinct \ncomponents: \nSSTt = Tt + St + It, \nwhere Tt is the trend component, St and It the seasonal and the irregular components. The X - \n11 procedure has the effect of filtering the input time series with Tt acting as a low  bandpass \nfilter for interannual variations. The only difference with respect to the standard X-11 procedure \nis that we substituted the 13 -term moving-average window (used to estimate Tt)  with a 25 -\nterm moving-average window, i.e. from 1-year to 2-year low-pass filter. This makes more robust \nthe estimation of the trend component Tt. \n \n \n \n \n1 cmems_SST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nCMEMS Quality Information",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for the Ocean Monitoring Indicator (OMI) of Sea Surface Temperature (SST) on the European Northwest Shelf, detailing its evaluation method and scientific validation.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "OMI_CLIMATE_SST_NORTHWESTSHELF_area_averaged_anomalies, OMI_CLIMATE_SST_NORTHWESTSHELF_trend",
+      "name": "Sea Surface Temperature Ocean Monitoring Indicators for the European Northwest Shelf",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_SST_ATL_SST_L4_REP_OBSERVATIONS_010_026",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "nws_omi_tempsal_sst_area_averaged_anomalies",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature Anomalies",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nws_omi_tempsal_sst_trend",
+        "cf_standard_name": "sea_surface_temperature_trend",
+        "long_name": "Sea Surface Temperature Trend",
+        "unit": "degC/year",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 49,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

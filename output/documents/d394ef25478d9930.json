@@ -1,0 +1,111 @@
+{
+  "doc_id": "d394ef25478d9930",
+  "legacy_doc_id": "30f73792ae7b",
+  "filename": "GLOBAL_ANALYSISFORECAST_WAV_001_027_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_ANALYSISFORECAST_WAV_001_027_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.68,
+  "pages": 23,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : A. Dalphinet, L.Aouf, S. Law-Chune, Marc Tressol \nApproval Date : NOV 2024 \n \nFor Global Ocean Wave Analysis and \nForecasting Product \n  \nGLOBAL_ANALYSISFORECAST_WAV_001_027 \nIssue: 1.5 \n\nProduct User Manual for GLOBAL_ANALYSISFORECAST_WAV_001_027 \n \n \n \n2 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-027 \nIssue 1.5 – November 2024 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2018/01/18 all Initial version E. Fernandez, L. \nAouf L. Nouel \n1.1 2020/11/16  \nExtension to 10 days \nUse of SWIM-nadir SWH in the \nassimilation system \nA. Dalphinet, \nL.Aouf, S. Law-\nChune \nC. Derval \n1.2 2022/03/31  Update of the update frequency: \ntwice-daily \nM. Tressol, C. \nDerval C. Derval \n1.3 2022/11/29  New template A. Biardeau \nCopernicus \nMarine \nProduct \nManagement \n1.4 2023/06/16 all New variable + File format section \nupdated \nA. Dalphinet, M. \nTressol \nCopernicus \nMarine \nProduct \nManagement \n1.5 2024/05/31  New variable L. Aouf O. Le \nGalloudec \nProduct User Manual for GLOBAL_ANALYSISFORECAST_WAV_001_027 \n \n \n \n3 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-027 \nIssue 1.5 – November 2024 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \nb) History of changes................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Details of the datasets ....................................................................................... 10 \nd) Catalogue updating ......................................................................................... 12 \ne) Time averaging ................................................................................................... 13 \n3) FILE FORMAT .................................................................................................... 14 \n4) FILES NOMENCLATURE..................................................................................... 15 \na) Nomenclature of files when downloaded through the Subset Service .... 15 \nb) Nomenclature of original files .......................................................................... 15 \nc) Additional Information ...................................................................................... 16 \n5) FILE SIZE ............................................................................................................ 16 \n6) STRUCTURE OF FILES ......................................................................................... 16 \n7) REFERENCES ..................................................................................................... 17 \n8) ANNEX ............................................................................................................. 18 \n \n  \nProduct User Manual for GLOBAL_ANALYSISFORECAST_WAV_001_027 \n \n \n \n4 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-027 \nIssue 1.5 – November 2024 \nGLOSSARY AND ABBREVIATIONS \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus MMarine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts. \nSIMULATION:  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close to \npresent. ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the GLOBAL_ANALYSISFORECAST_WAV_001_027 product, detailing its history of changes, description, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_ANALYSISFORECAST_WAV_001_027",
+      "name": "Global Ocean Wave Analysis and Forecasting Product",
+      "model_name": "WAM 4.7",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "twice_daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "adbce176087a6534",
+  "legacy_doc_id": "8c516e385a74",
+  "filename": "Reports_on_ICON_2019_03.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2019_03.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.73,
+  "pages": 11,
+  "text_preview": "New features with YAC 1.5.0\nMoritz Hanke and Ren´ e Redler\nApril 2019\nMax-Planck-Institut\n für Meteorologie\nIssue\n003 Reports on ICON\nDOI: 10.5676/DWDpub/nwv/icon003\nISSN: 2628-4898\nDOI: 10.5676/DWDpub/nwv/icon003\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRen´e Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nYAC 1.5.0 Moritz Hanke and Ren ´e Redler\nNew features with YAC 1.5.0\nMoritz Hanke(1) and Ren´ e Redler(2)\n(1) Deutsches Klimarechenzentrum, (2) Max-Planck-Institut f¨ ur Meteorologie\nThis document refers to release icon-2.5.0.\nAbstract\nThe YAC library has been developed as a joint initiative between the German Climate\nComputing Center (DKRZ) and the Max Planck Institute for Meteorology (MPI-M) to realise\nthe coupling of Earth system model components. While targeting ICON in the ﬁrst place\nthe library can be used to exchange any 2-dimensional ﬁeld between a pair of source and\ntarget grids deﬁned on a sphere. The software provides a parallel 2-dimensional neighbourhood\nsearch, interpolation, and communication for the coupling between any two model components\nand oﬀers ﬂexible coupling of physical ﬁelds deﬁned on regular and irregular grids on the\nsphere without a priory assumptions about the particular grid structure or grid element types.\nIn this paper, we describe several new aspects of the YAC library that have been developed\nsince it was ﬁrst published in 2016. It is currently used for the coupling of model components\nin two global conﬁgurations of the ICON model, a version with 5 km horizontal resolution in\nboth atmosphere and ocean and a coarser resolution using roughly 160 km in the atmosphere\nand 40 km in the ocean.\nKeywords: Coupling, ICON-ESM\nCorrespondence to: Moritz Hanke (hanke@dkrz.de)\n1. From YAC 1.2 to YAC 1.5\nFor a general introduction to coupling in the context of Earth system modelling we refer the\nreader to Hanke et al. (2016) and the literature cited therein. In this note, we concentrate on the\ndevelopment of the YAC software after it was ﬁrst published by Hanke et al. (2016), and we only\nbrieﬂy recapture some basic features of YAC here.\nYAC is programmed as a library and provides a parallelised on-line neighbourhood search,\ninterpolation and communication for the exchange of physical 2-dimensional ﬁelds which are\ndeﬁned on regular or irregular grids on the sphere. For ICON users YAC is available as part\nof the ICON git repository. While YAC was programmed with the ICON software in mind,\nit is suﬃciently general in functionality and design to allow for the coupling outside of ICON.\nThe coupling (or interpolation) is performed on a per-ﬁeld basis. The interpolation methods\nand the exchange periods for all ﬁelds are deﬁned in an Extendable Markup Language (XML)\nconﬁguration ﬁle, which is read during the initialisation phase of a model run.\nReports on ICON - Issue 003 3\nYAC 1.5.0 Moritz Hanke and Ren ´e Redler\nWith version 1.2.0 we provide for the ﬁrst time a fully functional implementation of YAC\nsuitable for the needs of Earth system models, and the ﬁrst version that was used in the coupled\nICON-based Earth System Model (ICON-ESM). In particular version 1.2.0 provides\n• 1st order conservative remapping\n• patch recovery (Zienkiewicz and Zhu, 1992, Gu et al., 2003, Khoei and Gharehbaghi, 2007)\n• n-nearest-neighbour\n• average\n• ﬁle\n• ﬁxed-value\nas interpolation methods. A unique feature compared to all other currently available coupling\nsolutions is the option to combine interpolation methods into the interpolation stack. Needless to\nsay that for each ﬁeld a diﬀerent interpolation stack can be provided.\nAll interpolation methods work only on the overlapping part between source and target grids.\nIf a source grid contains holes - geographical regions where no grid cells are provided - any target\ncells that are located in such regions will not receive any values.\nSince the release of version 1.2.0 we did a lot of the usual code clean up and bug ﬁxing and\nadded more functionality. Most visible to the user, with YAC version 1.5 we now provide\n• 2nd order conservative remapping (Kritsikis et al., 2017)\n• hybrid cubic spherical Bernstein-B´ ezier patch (Alfeld et al., 1996, Liu and Schumaker, 1996)\n• source to target mapping\n• radial basis functions (Reinheimer, 2018)\nas additional interpolation methods, which we describe in more detail in section 2.\nTo improve the internal functionality and user ﬂexibility, we\n• redesigned the n-nearest-neighbour interpolation method,\n• signiﬁcantly improved the performance of the sphere part ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses new features and developments of the YAC library, a software tool for coupling Earth system model components, specifically focusing on its use in the ICON-ESM.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O | ICON-A",
+      "region": "Global",
+      "product_types": [
+        "reanalysis",
+        "hindcast"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "icosahedral",
+      "horizontal_resolution": "5km, 160km (atmosphere), 40km (ocean)",
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

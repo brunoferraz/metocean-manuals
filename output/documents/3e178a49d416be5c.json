@@ -1,0 +1,68 @@
+{
+  "doc_id": "3e178a49d416be5c",
+  "legacy_doc_id": "e49f0735d86c",
+  "filename": "OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.36,
+  "pages": 9,
+  "text_preview": "1 \n \nMERCATOR OCEAN  \nINTERNATIONAL \n \n \n \n \n  \nContributors : Vittorio Brando \n \nApproval Date : NOVEMBER 2025 \nFor OMI Ocean Health Chl OceanColour \n \n Issue: 1.0 \nPRODUCT USER MANUAL \n\nProduct User Manual for OMI Ocean Health Bloom OceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-PUM-BLOOM-BALTIC \nIssue 1.0 – November 2025 \n2 \n \n \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/28 All Initial version V.E. Brando V.E. Brando \n      \n      \n  \nProduct User Manual for OMI Ocean Health Bloom OceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-PUM-BLOOM-BALTIC \nIssue 1.0 – November 2025 \n3 \n \n \nTABLE OF CONTENTS \n \nRECORD TABLE ................................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS .................................................................................. 4 \nDATA ACCESS ................................................................................................................. 5 \nINTRODUCTION ............................................................................................................... 6 \na) Summary ........................................................................................................... 6 \nDESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................ 7 \na) General Information ......................................................................................... 7 \nb) Production System Description ....................................................................... 8 \nc) Dataset details .................................................................................................. 8 \nFILE FORMAT .................................................................................................................... 9 \nFILES NOMENCLATURE .................................................................................................... 9 \nREFERENCES ..................................................................................................................... 9 \n  \nProduct User Manual for OMI Ocean Health Bloom OceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-PUM-BLOOM-BALTIC \nIssue 1.0 – November 2025 \n4 \n \n \nGLOSSARY AND ABBREVIATIONS \n \n \nCMEMS Copernicus Marine Environment Monitoring \nService \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nOC Ocean Colour \nBAL Baltic Sea \n \n \n  \nProduct User Manual for OMI Ocean Health Bloom OceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-PUM-BLOOM-BALTIC \nIssue 1.0 – November 2025 \n5 \n \n \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI Ocean Health Bloom OceanColour, providing details about the product specification and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-OC-OMI-PUM-BLOOM-BALTIC",
+      "name": "OMI Ocean Health Bloom OceanColour",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": null,
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,70 @@
+{
+  "doc_id": "e140f09e616e35bf",
+  "legacy_doc_id": "47a381e3ebdb",
+  "filename": "OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.3,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Álvaro de Pascual Collar, Roland Aznar, Bruno Levier, Marcos García \nSotillo \n \nApproval Date : March 2026 \n \nFor \nOMI_CIRCULATION_VOLTRANS_IBI_section_integrated_\nanomalies \n \n Issue: 1.1 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 Quality Information Document for OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-OMI-QUID-CIRCULATION-\nVOLTRANS-section-integrated-anomalies \nIssue 1.1 – March 2026 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/05/31 All Initial version de Pascual \nCollar, A.  \n1.1 2026/03/31 All \nThe new dataset IBI-INT is \nincluded as upstream product \nfor the OMI computation \nde Pascual \nCollar, A. \nCopernicus \nMarine \nProduct \nManageme\nnt \n      \n \n \n \n3 Quality Information Document for OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-OMI-QUID-CIRCULATION-\nVOLTRANS-section-integrated-anomalies \nIssue 1.1 – March 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................4 \nb) Indicator Evaluation Method ...........................................................................4 \nCopernicus Marine products used as input for the computation. ........................6 \n2) SCIENTIFIC VALIDATION ................................................................................... 7 \n3) REFERENCES ....................................................................................................... 8 \n  \n \n \n \n4 Quality Information Document for OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-OMI-QUID-CIRCULATION-\nVOLTRANS-section-integrated-anomalies \nIssue 1.1 – March 2026 \n1) INTRODUCTION \na) Product Name  \n \nOMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies. \n \nb) Indicator Evaluation Method \nThis OMI provides estimates of integrated volume transport across a set of vertical \nsections defined at various locations within the IBI domain. The selection of vertical \nsections is aimed at monitoring the temporal variability of four characteristic ocean  \ncurrents in the IBI area: water transport towards Scandinavian seas through Rockall \nTrough (Holliday et al., 2008; Lozier and Stewart, 2009), the Algerian Current (Tintoré et \nal, 1988; Benzohra and Millot, 1995; Font et al., 1998), the Canary Current (Kno ll et al. \n2002, Mason et al. 2011), and the Azores Current (Mason et al., 2011). This product is \ncalculated from an ensemble of Copernicus Marine products, thus providing results on \ntransport variability (ensemble mean) as well as uncertainties in the estimates \n(ensemble standard deviation). \n \nThe lateral and vertical boundaries of these sections were defined according to the \nresults of the analysis conducted by de Pascual -Collar et al., 2024. Thus , the lateral \nboundaries were determined based on the analysis of the average transport in each \nsection, while the vertical boundaries were defined according to the typical density \nvalues of the water mass being monitored. \n \nTable 1 shows the geographical boundaries (minimum and maximum latitude and \nlongitude) used for the calculation of transports associated with each current. As \nexplained in Pascual -Collar et al. (2024), the vertical limits of the monitoring sections \nwere de fined dynamically based on the characteristic density values of each \nmonitored water mass (Density column in Table 1). \n \nMonitoring Window \nAcronym \nLatitude Longitude Density \n(gr/m3) \nRockall Trough Eastward \nRTE \n52.7 / 53.8 -14.7 27.25 / 27.65 \n48º North \nN48 \n48 -19 / -4 Sfc / Sfl \nAzores Current \nAC \n32.9 / 36.5 -16.9 Sfc / 27.25 \nAlgerian Current \nALC \n36.6 / 37.3 1.5 Sfc / 27.25 \nCannary Current \nCC \n33.0 -9.5 / -8.8 Sfc / 26.7 \nTable 1: Description of the monitoring windows used to compute the volume transport \nOMI. Min/max values of latitude, longitude and density anomaly are detailed (sfc used \nfor surface, sfl for seafloor). \n \n \n \n \n5 Quality Information Document for OMI_CIRCULATION_VOLTRANS_IBI_section_integr",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies, detailing its computation method and the Copernicus Marine products used as input.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CIRCULATION_VOLTRANS_IBI_section_integrated_anomalies",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": -19.0,
+        "lon_max": -8.8,
+        "lat_min": 32.7,
+        "lat_max": 53.8
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2572,
+  "_tokens_out": 356,
+  "_eval_s": 2.65
+}

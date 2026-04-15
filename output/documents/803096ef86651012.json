@@ -1,0 +1,67 @@
+{
+  "doc_id": "803096ef86651012",
+  "legacy_doc_id": "1d0718bb3050",
+  "filename": "IFS_CY49R1_Part-VIII_Atmospheric-Composition.pdf",
+  "filepath": "docs/ecmwf_docs/IFS_CY49R1_Part-VIII_Atmospheric-Composition.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 53.11,
+  "pages": 109,
+  "text_preview": "Part VIII: Atmospheric Composition\nIFS DOCUMENTATION – Cy49r1\nOperational implementation 12 November 2024\nPART VIII: ATMOSPHERIC\nCOMPOSITION\n© Copyright 2020-\nEuropean Centre for Medium-Range Weather Forecasts\nShinfield Park, Reading, RG2 9AX, UK\nThe content of this document is available for use under a Creative Commons Attribution 4.0 International\nPublic License. See the terms at https://creativecommons.org/licenses/by/4.0.\nIFS Documentation – Cy49r1 1\nREVISION HISTORY\nChanges from CY48R1 to CY49R1\nChapter 2.2 - Atmospheric Aerosol\n• EQSAM4Clim module activated for gas-phase aerosol partitioning\n• Computation of aerosols, cloud and precipitation pH\n• Aerosol optical properties to account for hydrophilic and aspherical dust\n• Size distribution consistent with optics - revised PM2.5 formulae to reflect this\n• Implementation of the Gong 03 sea-salt aerosol emission scheme to replace Monahan 1986\n• Updates of dust source function\nChapter 2.1 - Tropspheric Chemistry\n• Updates to photolysis quantum yields and cross sections for selected trace gases in troposphere\nChapter 2.3 - Stratospheric Chemistry\n• Tuning of ozone depletion modeling in the stratosphere\nChapter 3 - Surface fluxes of atmospheric composition\n• New version of anthropogenic emissions\n• Application of local reduction of boreal NO GFAS emissions and tropical NH 4 GFAS peat\nemissions\n• dry deposition scheme to use IFS stomatal resistance\n• Activation of Lopez-lightning emission parameterisation for Lightning Nox emissions\n• Wetlands CH 4 emissions\n• Revision of Farquhar photosynthesis and ecosystem respiration reference values per PFT\n• New reference NEE climatology consistent with 49r1 climate fields\nChapter 5 - Aerosol optical diagnostics\n• Aerosol optical properties to account for hydrophilic and aspherical dust\nChapter 6 - data assimilation of atmospheric compisition retrievals\n• Assimilation of IASI SO 2 retrievals with altidude information\n• Updated background errors for CH 4 based on EDA\n• Passive monitoring of OMPS limb profiler data\n• Passive monitoring of GEMS O 3 and NO2 data\n2 IFS Documentation – Cy49r1\nPart VIII: Atmospheric Composition\nChapter 1\nIntroduction\nTable of contents\n1.1 Background\n1.2 Structure of the documentation\n1.3 Fundamentals\n1.3.1 Continuity equation for tracers\n1.3.2 Simulation of chemical conversion\n1.3.3 Units and measures of concentrations\n1.4 Overview of the code\n1.5 Configuration of atmospheric composition in the IFS\nThe simulation of greenhouse gases (GHG) and reactive trace gases and aerosol (COMPO) is a\nconfigurable extension of the IFS. These configurations are used in the operational forecast and re-\nanalysis applications of the IFS for the Copernicus Atmosphere Monitoring Service (CAMS). This part of\nthe documentation describes the simulation of the sink and source processes of atmospheric composition\nwith the IFS as well as the specifics of the data assimilation approach for atmospheric composition.\nThe other parts of IFS documentation also cover tracer related aspects such as transport, radiation and\ndata assimilation. In this part (8), we will refer to the respective parts. The transport by advection is\ndescribed in Part III Dynamics and Numerical Procedures. Only aspects specific to tracer advection\nsuch as the application of global mass fixers are covered in this part (8). The transport of tracers by\nturbulent diffusion and convection and the use of prognostic aerosols and ozone in the IFS radiation\nscheme are documented in Part IV Physical processes.\nAtmospheric composition is simulated “on-line” in the IFS, i.e. together with the simulation of the\ndynamical and physical processes using the same data flow, methods and routines as applied for the\nmeteorological tracers such as cloud water and humidity. This means that each forecast or analysis\nof the IFS with atmospheric composition also provides a meteorological forecast or analysis. The on-\nline approach enables a close coupling between meteorological and atmospheric composition processes.\nIt also makes it possible to use the data assimilation capability of the IFS to assimilate atmospheric\ncomposition observations to correct the simulated concentrations.\n1.1 BACKGROUND\nMonitoring and forecasting of global atmospheric composition are key objectives of the Copernicus\nAtmosphere Monitoring Service (CAMS), which is implemented by ECMWF on behalf of the European\nCommission (Peuch et al., 2022). Starting in the early 2000s, the IFS has been extended for the simulation\nof reactive trace gases (Flemming et al., 2015; Huijnen et al., 2016), aerosols (Morcrette et al., 2009; R´emy\net al., 2019, 2022, 2024) and greenhouse gases (Agust´ı-Panaredaet al., 2014). The on-line approach for the\nreactive trace gases superseded a two-way coupled system consisting of the IFS and Chemical Transport\nModels (Flemming et al., 2009). First attempts to assimilate stratospheric ozone at ECMWF started in the\nlate 1990, using a linear parameterization to describe stratospheric ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is part of the IFS CY49R1 documentation, focusing on atmospheric composition and detailing updates to aerosol, tropospheric and stratospheric chemistry, surface fluxes, and data assimilation techniques.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "IFS CY49R1",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

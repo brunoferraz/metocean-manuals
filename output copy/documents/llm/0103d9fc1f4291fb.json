@@ -1,0 +1,85 @@
+{
+  "doc_id": "0103d9fc1f4291fb",
+  "legacy_doc_id": "9a3e9634cbe7",
+  "filename": "BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 8.48,
+  "pages": 89,
+  "text_preview": "  \n  \nGlobal Monitoring and Forecasting Centre \n \nGlobal Static Coastal Satellite-Derived Bathymetry \nBATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \n \n \n Issue: 1.0 \nContributors: M. Reithmeier, E. Kras, R. White, G. Spoelstra, K. Hartmann. \nApproval date by the CMEMS product quality coordination team: 26/11/2025 \n \n \n \n \n  \n \n\nProducts \nBATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-SDB-016-001 \n15.07.2025 \n1.0 \n \n                                                      Page 2/ 89 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QUID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 May 2025 All Creation of the document M. Reithmeier, E. Kras, \nR. White, G. Spoelstra, \nK. Hartmann \n \n Nov2025 EANs Review of size and EANs M. Reithmeier, E. Kras, \nR. White, G. Spoelstra, \nK. Hartmann \nM. Reithmeier \n \n \n \n  \nProducts \nBATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-SDB-016-001 \n15.07.2025 \n1.0 \n \n                                                      Page 3/ 89 \nACRONYM TABLE \nAcronym Description \nAI Artificial Intelligence \nAPI Application Programming Interface \nEWS Earth Observation Workflow System \nFEM Finite Element Method \nFFT Fast-Fourier Transform \nHAT Highest Astronomical Tide \nLAT Lowest Astronomical Tide \nL4 Level-4 \nMBS Multisource Bathymetry \nMBES Multibeam Echosounder \nMIP Modular Inversion Program \nMSL Mean Sea Level \nOSW Optical Shallow Waters \nRT Radon Transform \nRTE Radiative Transfer Equation \nSDB Satellite-Derived Bathymetry \nSDD Secchi-Disc Depth \nSLB Satellite-Lidar Bathymetry \nSWH Significant Wave Height \nSWIFT Shallow Water Image Finder Tool \nWKB Wave Kinematics Bathymetry \n \nProducts \nBATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-SDB-016-001 \n15.07.2025 \n1.0 \n \n                                                      Page 4/ 89 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nI Executive summary ..................................................................................................................................... 6 \nI.1 Products covered by this document ........................................................................................................... 6 \nI.2 Summary of the results .............................................................................................................................. 6 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 7 \nII Production system description .................................................................................................................... 8 \nII.1 Production Centre ..................................................................................................................................... 8 \nII.2 Production subsystem ............................................................................................................................... 8 \nII.3 Input satellite data .................................................................................................................................... 8 \nII.4 Processing chains ...................................................................................................................................... 8 \nII.4.1 Processing steps intertidal SDB ........................................................................................................ 8 \nII.4.2 Processing steps physics-based optical SDB .................................................................................. 15 \nII.4.3 Processing steps wave kinematics SDB .......................................................................................... 22 \nII.5 Conclusion SDB methods ......................................................................................................................... 28 \nII.6 Creation of Level-4 products ................................................................................................................... 29 \nIII Validation framework ............................................................................................................................... 30 \nIII.1 Validation against Satellite-Lidar Bathymetry (SLB) data ....................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Global Static Coastal Satellite-Derived Bathymetry product, detailing its production system, validation framework, and change history.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Global Monitoring and Forecasting Centre"
+    },
+    "product_line": {
+      "product_id": "BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001",
+      "name": "Global Static Coastal Satellite-Derived Bathymetry",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "bathymetry",
+        "cf_standard_name": "sea_floor_depth_below_sea_surface",
+        "long_name": "Satellite-Derived Bathymetry",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2224,
+  "_tokens_out": 527,
+  "_eval_s": 3.85
+}

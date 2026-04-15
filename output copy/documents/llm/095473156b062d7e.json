@@ -1,0 +1,128 @@
+{
+  "doc_id": "095473156b062d7e",
+  "legacy_doc_id": "bd5a41cb395e",
+  "filename": "GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_ANALYSISFORECAST_BGC_001_028_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.64,
+  "pages": 28,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributor : J. Lamouroux, M. Tonani \nApproval Date : November 2025 \n \nFor Global Biogeochemical Analysis and \nForecasting Product \n  \nGLOBAL_ANALYSISFORECAST_BGC_001_028 \nIssue: 1.4 \n\n \n \n \n \n2 Copernicus Marine Service PUM for GLOBAL_ANALYSISFORECAST_BGC_001_028 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-028 \nIssue 1.4 – November 2025 \nRECORD TABLE \n \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 2018/10/17 All Creation of the document Julien PAUL  \n1.1 2022/06/16 I.1 \nAddition of name of the 2 new \nvariables (Dissolved Inorganic \nCarbon, Total alkalinity) \nJulien \nLAMOUROUX  \n1.1 2022/06/16 I.2, II.1, \nII.2, II.3 Info on the new variables added Julien \nLAMOUROUX  \n1.1 2022/06/16 IV.2 Correction of nomenclature Julien \nLAMOUROUX  \n1.1 2022/06/16 IV.4 Updated size file following the \naddition of the 2 new variables \nJulien \nLAMOUROUX  \n1.1 2022/06/16 V.3 \nUpdated netCDF header of \nreference dataset files, following the \naddition of the 2 new variables \nJulien \nLAMOUROUX \nMarina TONANI \nCopernicus \nMarine \nProduct \nManagement\n  \n1.2 2023/06/16 All Change in BGC product name, in \nPHY product name \nJulien \nLAMOUROUX \nOlivier \nLEGALLOUDEC  \n \n1.2 2023/06/16 All Reordering of the product into \nseveral datasets \nJulien \nLAMOUROUX \nOlivier \nLEGALLOUDEC \n \n1.2 2023/06/16 All New variable added (light \nattenuation coefficient) \nJulien \nLAMOUROUX \nOlivier \nLEGALLOUDEC \nCopernicus \nMarine \nProduct \nManagement \n1.3 2024/05/31 All New variable added (Total \nZooplankton) \nJulien \nLAMOUROUX \nO. Le \nGalloudec \n1.4 2025/05/30 All Daily forecast Julien \nLAMOUROUX \nO. Le \nGalloudec \n \n  \n \n \n \n \n3 Copernicus Marine Service PUM for GLOBAL_ANALYSISFORECAST_BGC_001_028 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-028 \nIssue 1.4 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \nb) History of changes................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Processing information ...................................................................................... 10 \nd) Details of datasets .............................................................................................. 13 \n3) FILE FORMAT .................................................................................................... 16 \n4) FILES NOMENCLATURE..................................................................................... 16 \na) Nomenclature of files when downloaded through the Copernicus Marine \nService Web Portal Subset Service ............................................................................ 16 \nb) Nomenclature of original files .......................................................................... 16 \nc) Other information: land mask value, compression ....................................... 16 \nd) File size .................................................................................................................. 16 \ne) Structure and semantic of NetCDF maps files ............................................... 17 \n5) REFERENCES ..................................................................................................... 18 \nANNEX ....................................................................................................................... 19 \n  \n \n \n \n \n4 Copernicus Marine Service PUM for GLOBAL_ANALYSISFORECAST_BGC_001_028 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-028 \nIssue 1.4 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF  Climate Forecast (convention for NetCDF)  \nCMEMS  Copernicus Marine Environment Monitoring Service  \nGLO  Global  \nNetCDF  Network Common Data Form  \nPUM  Product User Manual  \nQUID  Quality Information Document  \nFORECAST an ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Global Biogeochemical Analysis and Forecasting product, detailing its specifications, file format, nomenclature, and dataset information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_ANALYSISFORECAST_BGC_001_028",
+      "name": "Global Biogeochemical Analysis and Forecasting Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 24
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "dissolved_inorganic_carbon",
+        "cf_standard_name": null,
+        "long_name": "Dissolved Inorganic Carbon",
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "total_alkalinity",
+        "cf_standard_name": null,
+        "long_name": "Total Alkalinity",
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "light_attenuation_coefficient",
+        "cf_standard_name": null,
+        "long_name": "Light Attenuation Coefficient",
+        "unit": "m^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "total_zooplankton",
+        "cf_standard_name": null,
+        "long_name": "Total Zooplankton",
+        "unit": "g/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2479,
+  "_tokens_out": 854,
+  "_eval_s": 6.21
+}

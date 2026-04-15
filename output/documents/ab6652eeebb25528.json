@@ -1,0 +1,147 @@
+{
+  "doc_id": "ab6652eeebb25528",
+  "legacy_doc_id": "e4e1959434bb",
+  "filename": "ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_ANALYSISFORECAST_PHY_002_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.36,
+  "pages": 50,
+  "text_preview": " \n  \nArctic – Monitoring Forecast Centre \nARCTIC_ANALYSISFORECAST_PHY_002_001 \n \n \n Issue: 1.1 \nContributors: Arne Melsom, Laurent Bertino \nApproval date by the CMEMS product quality coordination team: 17/10/2025 \n \n \n  \n \n\nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_002_001 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-001 \n2 October 2025 \n1.1 \n \n \n                                                      Page 2/ 50 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID  is updated and a row is added to this table. The \nthird column specifies which sections or sub -sections have been updated. The fourth column should \nmention the version of the product to which the change applies.  \n \nIssue Date § Description of Change Author Validated By \n1.0 September 2023 All Creation of the \ndocument \nA. Melsom, \nL. Bertino \nL. Bertino, \nARC MFC \nleader \n1.1 October 2025 All New implementation \nfor river runoff; new \ntemplate \nA. Melsom L. Bertino \n \n \nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_002_001 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-001 \n2 October 2025 \n1.1 \n \n \n                                                      Page 3/ 50 \nACRONYM TABLE \nAcronym Description \nCMEMS Copernicus Marine Environment Monitoring Service \nPUM Product User Manual \nMLD Mixed Layer Depth \nSST Sea Surface Temperature   \nSLA Sea Level Anomaly \nT Temperature \nS Salinity \nSI, SIT Sea Ice, Sea Ice Thickness \nEAN Estimated Accuracy Number \nARC MFC ARCtic Monitoring and Forecasting Centre \nRMSD Root Mean Square Difference \nMCC Maximum Cross Correlation \nHYCOM The Hybrid Coordinate Ocean Model (HYCOM) \nCICE Community Ice CodE \nESMF Earth System Modeling Framework \nGloFAS Global Flood Awareness System \nECMWF European Centre for Medium-range Weather Forecasts \nNERSC Nansen Environmental and Remote Sensing Center \nMet Norway Norwegian Meteorological Institute \nUTC Coordinated Universal Time \nSVP Surface Velocity Program \nAVHRR Advanced Very-High-Resolution Radiometer \nAWI Alfred Wegener Institut \nCPOM UK Centre for Polar Observation and Modelling \nDTU Danmarks Tekniske Universitet (Technical University of Denmark) \nSSMIS Special Sensor Microwave Imager / Sounder \nCTD Conductivity, Temperature, and Depth \nOSISAF Ocean and Sea Ice Satellite Application Facility \nCS2SMOS CRyosat-2 / Soil Moisture and Ocean Salinity \nOSTIA Operational Sea Surface Temperature and Ice Analysis \nNOAA National Oceanic and Atmospheric Administration \n \nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_002_001 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-001 \n2 October 2025 \n1.1 \n \n \n                                                      Page 4/ 50 \nKEY DEFINITIONS \nGeostrophic current: The current resulting from the balance between  the horizontal pressure gradient \nand the Coriolis force. \nLow pass boxcar filter: A filter applying the boxcar function, which is zero over the entire real line except \nfor a single interval where it is equal to a constant > 0. \nMixed layer depth: The depth at which the density has increased by a magnitude of 0.03 kg/m3 from its \nvalue at a depth of 10m. This represents the layer which is close to being homogeneous due to mixing \nby surface fluxes, notably the wind stress. \nz-isopycnic surfaces: A hybrid set of surfaces based on distance to the surface at rest (z) and surfaces \nwhere the density is constant (isopycnic). \nIsopotential surfaces : Surfaces along which there is no component of the gravitational force, i.e., \nsurfaces with the same geopotential. Note that this is (nearly) identical to standard z surfaces.  \nRELEVANT DOCUMENT LIST \nCMEMS ARC MFC PUM Product User Manual for Arctic Ocean Physical and BGC Analysis \nand Forecasting Products1 \nThe TOPAZ system TOPAZ4: an ocean-sea ice data assimilation system for the North Atlantic \nand Arctic. doi:10.5194/os-8-633-20122 \n \n \n  \n \n1 https://documentation.marine.copernicus.eu/PUM/CMEMS-ARC-PUM-002-ALL.pdf \n2 https://os.copernicus.org/articles/8/633/2012/ \nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_002_001 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-001 \n2 October 2025 \n1.1 \n \n \n                                                      Page 5/ 50 \nTABLE OF CONTENTS \nI Executive summary ................................................................................................................................. 6 \nI.1 Products covered by this document ........................................................................................................ 6 \nI.2 Summary of the results ........................................................................................................................... 6 \nI.3 Estimated Accuracy Numbers ................................................................................................................. 8 \nII Production system description ............................................................................................................... 11 \nII.1 TOPAZ5 production cycle ..........................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for ARCTIC_ANALYSISFORECAST_PHY_002_001, detailing the product's specifications and updates as of October 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_ANALYSISFORECAST_PHY_002_001",
+      "name": "Arctic Ocean Physical Analysis and Forecasting Products",
+      "model_name": "HYCOM | CICE",
+      "region": "Arctic",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "T",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false
+      },
+      {
+        "native_name": "S",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false
+      },
+      {
+        "native_name": "MLD",
+        "cf_standard_name": "mixed_layer_depth",
+        "long_name": "Mixed Layer Depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false
+      },
+      {
+        "native_name": "SLA",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Level Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false
+      },
+      {
+        "native_name": "SI",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Area Fraction",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false
+      },
+      {
+        "native_name": "SIT",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea Ice Thickness",
+        "unit": "m",
+        "physical_quantity": "ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

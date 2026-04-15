@@ -1,0 +1,99 @@
+{
+  "doc_id": "6c21f97d4b6d662b",
+  "legacy_doc_id": "7e1785e027ed",
+  "filename": "INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.13,
+  "pages": 41,
+  "text_preview": " \n \n \n \nIn Situ Thematic Assembly Centre \nGlobal T&S Multi-Year product  \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \n \n \n Issue: 1.16 \nContributors: T. Szekely \nApproval date by the Copernicus Marine Service product quality coordination team: 05/11/2025 \n \n \n \n \n  \n \n\nQUID for In Situ TAC Products \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-001 \n28 April 2025 \n1.16 \n \n                             Page 2/ 41 \n \nCHANGE RECORD \n \nIssue Date § Description of Change Author Checked By \n1.0 20/06/2013 All First version of \ndocument \nAntoine GROUAZEL S. Pouliquen \n1.1 20/12/2013  Update for V4.0 or \nCORA-GLOBAL  \nAntoine GROUAZEL S. Pouliquen \n 1.2 14/02/2014  Update after QUARG \nreview \nS Pouliquen   \n 1.3 01/02/2014  Update for CORA -\nGLOBAL V4.1 \nT. Szekely  \n1.4 10/02/2015 All Revision after V5 \nacceptance \nT. Szekely  \n1.5 May 1 2015 All Change format to fit \nCMEMS graphical rules \n L. Crosnier \n 1.6 19/01/2016   Update for CORA -\nGLOBAL V4.2 \nT. Szekely  \n1.7 14/01/2017 All Update for CORA 5.0 T. Szekely  \n1.8 05/03/2018 All Update for CORA 5.1 T. Szekely  \n1.9 04/04/2019 All Update for CORA 5.2 and \nEasy CORA dataset \nT. Szekely, P. Roltan Mercator Ocean \n1.10 11/09/2020  Switch to the NetCDF file \nformat \nTanguy Szekely  \n1.11 24/08/2021  Major release update Tanguy Szekely  \n1.12 10/02/2022  Minor release update Tanguy Szekely S. Tarot \n1.13 25/11/2022  New template \nProduct name change  \nFull reprocessing \nTanguy Szekely S. Tarot \n1.14 28/08/2023  Major release update \nProduct extension up to \nDecember 2022 \nTanguy Szekely S. Tarot \n1.15 25/06/2024 §II \n§III \nMajor release update Tanguy Szekely S. Tarot \n1.16 28/04/2025  Major release update Tanguy Szekely S. Tarot \n \n \n  \nQUID for In Situ TAC Products \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-001 \n28 April 2025 \n1.16 \n \n                             Page 3/ 41 \n \nACRONYM TABLE \n \nAcronym Description \nCORA Coriolis Ocean Dataset for Reanalysis \nCTD Conductivity, Temperature, Depth sensor \nDU Distribution Unit \nECMWF European Center for Medium-Range Weather Forecasts \nEUROGOOS European Global Ocean Observing System \nIn-Situ TAC In-Situ Thematic Assembly Center \nMYNRT Multi-year Near Real Time \nNOAA National Oceanic and Atmospheric Adminitration of the United state of America \nNRT Near Real Time \nPUM Product User Manual \nPFL Profiling Float \nQC Quality Control \nTSG Thermosalinograph \nWOCE World Ocean Circulation Experiment \nXBT Expendable Bathy Thermograph \nXCTD Expendable Conductivity, Temperature, Depth sensor \n \n \n \n \n \n \n \n \nQUID for In Situ TAC Products \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-001 \n28 April 2025 \n1.16 \n \n                             Page 4/ 41 \n \nKEY DEFINITION \nARGO profiles  Measurement profile performed by an autonomous float deployed by the Argo \nprogram.  \nEasy CORA Easy Cora dataset in a user -friendly version of the CORA dataset that includes \nonly the best estimation of the measured parameters, a distribution of only good \nand probably good data and a time and vertical sub sampling of the profiles.  \n \nQUID for In Situ TAC Products \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-001 \n28 April 2025 \n1.16 \n \n                             Page 5/ 41 \n \nRELEVANT DOCUMENT LIST \nProduct User Manual CMEMS-INS-PUM-013-001 \nSynthesis Quality Overview CMEMS-INS-SQO-013-001 \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a QUID for In Situ TAC Products, specifically for INSITU_GLO_PHY_TS_DISCRETE_MY_013_001, detailing the product's history and updates through various versions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_TS_DISCRETE_MY_013_001",
+      "name": "In Situ Thematic Assembly Centre Global T&S Multi-Year product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2499,
+  "_tokens_out": 621,
+  "_eval_s": 4.73
+}

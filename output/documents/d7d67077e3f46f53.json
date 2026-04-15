@@ -1,0 +1,68 @@
+{
+  "doc_id": "d7d67077e3f46f53",
+  "legacy_doc_id": "e237b563e0b9",
+  "filename": "hycom_sdd_v2.2_metzger.pdf",
+  "filepath": "docs/hycom_docs/hycom_sdd_v2.2_metzger.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.8,
+  "pages": 155,
+  "text_preview": "Naval Research Laboratory\nStennis Space Center, MS 39529-5004\nNRL/MR/7320--09-9166\nApproved for public release; distribution is unlimited.\nSoftware Design Description for the \nHYbrid Coordinate Ocean Model (HYCOM) \nVersion 2.2\nA.J. WAl l c rAf t \nE.J. MEt z gEr\nOcean Dynamics and Prediction Branch \nOceanography Division\nS.N. c\nAr r o l l\nQinetIQ North America \nPlanning Systems, Inc. \nSlidell, LA\nFebruary 12, 2009\ni\nREPORT DOCUMENTATION PAGE\nForm Approved\nOMB No. 0704-0188\n3. DATES COVERED (From - To)\nStandard Form 298 (Rev. 8-98)\nPrescribed by ANSI Std. Z39.18\nPublic reporting burden for this collection of information is estimated to average 1 hour per response, including the time for reviewing instructions, searching existing data sources, gathering and \nmaintaining the data needed, and completing and reviewing this collection of information. Send comments regarding this burden estimate or any other aspect of this collection of information, including \nsuggestions for reducing this burden to Department of Defense, Washington Headquarters Services, Directorate for Information Operations and Reports (0704-0188), 1215 Jefferson Davis Highway, \nSuite 1204, Arlington, VA 22202-4302. Respondents should be aware that notwithstanding any other provision of law, no person shall be subject to any penalty for failing to comply with a collection of \ninformation if it does not display a currently valid OMB control number. PLEASE DO NOT RETURN YOUR FORM TO THE ABOVE ADDRESS.\n5a. CONTRACT NUMBER\n5b. GRANT NUMBER\n5c. PROGRAM ELEMENT NUMBER\n5d. PROJECT NUMBER\n5e. TASK NUMBER\n5f. WORK UNIT NUMBER\n2. REPORT TYPE1. REPORT DATE (DD-MM-YYYY)\n4. TITLE AND SUBTITLE\n6. AUTHOR(S)\n8. PERFORMING ORGANIZATION REPORT\n NUMBER\n7. PERFORMING ORGANIZATION NAME(S) AND ADDRESS(ES)\n10. SPONSOR / MONITOR’S ACRONYM(S)9. SPONSORING / MONITORING AGENCY NAME(S) AND ADDRESS(ES)\n11. SPONSOR / MONITOR’S REPORT\n NUMBER(S)\n12. DISTRIBUTION / AVAILABILITY STATEMENT\n13. SUPPLEMENTARY NOTES\n14. ABSTRACT\n15. SUBJECT TERMS\n16. SECURITY CLASSIFICATION OF:\na. REPORT\n19a. NAME OF RESPONSIBLE PERSON\n19b. TELEPHONE NUMBER (include area\ncode)\nb. ABSTRACT c. THIS PAGE\n18. NUMBER\nOF PAGES\n17. LIMITATION\nOF ABSTRACT\nSoftware Design Description for the HYbrid Coordinate Ocean Model (HYCOM) \nVersion 2.2\nA.J. Wallcraft, E.J. Metzger, and S.N. Carroll*\n*QinetIQ North America, Planning Systems, Inc., Slidell, LA\nNaval Research Laboratory\nOceanography Division\nStennis Space Center, MS 39529-5004 NRL/MR/7320--09-9166\nApproved for public release; distribution is unlimited.\nUnclassified Unclassified Unclassified\nUL 155\nE. Joseph Metzger\n(228) 688-4762\nThis document describes the software design and code of the HYbrid Coordinate Ocean Model (HYCOM) version 2.2.  It includes the \nmathematical formulation and solution procedures for HYCOM 2.2 as well as flow charts and descriptions of the programs, modules, and \nsubroutines.\n12-02-2009 Memorandum Report\nSpace & Naval Warfare Systems Command \n2451 Crystal Drive\nArlington, V A 22245-5200\n73-5094-19-5\nSPAWAR\n0603207N\nNumerical ocean modeling \nHYCOM\n \nTABLE OF CONTENTS \n \nTABLE OF CONTENTS ................................................................................................................................iii \nTABLES AND FIGURES ............................................................................................................................... vi \n1.0 SCOPE ................................................................................................................................................ 1 \n1.1 INTRODUCTION ................................................................................................................................. 1 \n1.2  DOCUMENT OVERVIEW .................................................................................................................... 2 \n2.0  REFERENCED DOCUMENTS ....................................................................................................... 3 \n2.1  GOVERNMENT DOCUMENTATION ..................................................................................................... 3 \n2.2 GENERAL TECHNICAL DOCUMENTATION ......................................................................................... 3 \n3.0 HYCOM 2.2 SOFTWARE SUMMARY .......................................................................................... 6 \n3.1  CODE MODIFICATIONS ..................................................................................................................... 6 \n4.0 HYCOM 2.2 SOFTWARE INVENTORY ....................................................................................... 7 \n4.1 HYCOM 2.2 COMPONENTS ............................................................................................................. 7 \n4.1.1 HYCOM 2.2 Source Files ........................................................................................................... 7 \n4.1.2 HYCOM 2.2 Subroutines ...............................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Software Design Description for version 2.2 of the HYbrid Coordinate Ocean Model (HYCOM), detailing its mathematical formulation, solution procedures, and software components.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Naval Research Laboratory"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,76 @@
+{
+  "doc_id": "4ca5e2a0d3d372fb",
+  "legacy_doc_id": "e167f64e18da",
+  "filename": "ICON_quickstart.md",
+  "filepath": "docs/icon_docs/ICON_quickstart.md",
+  "extension": ".md",
+  "file_size_mb": 0.01,
+  "pages": 2,
+  "text_preview": "# ICON Documentation\n\nSource: https://docs.icon-model.org/buildrun/buildrun_quickstart.html\n\n---\n\nQuick Start &#8212; ICON documentation\n\n-\n\n[Skip to main content](#main-content)\n\nBack to top\n\nCtrl+K\n\n[\nGitLab](https://gitlab.dkrz.de/icon/icon-model)\n\n-\n\n[\nicon-model.org](https://icon-model.org)\n\n# Quick Start[#](#quick-start)\n\n## Obtaining the Code[#](#obtaining-the-code)\n\nICON is simultaneously developed in several repositories. There is the primary repository [icon](https://gitlab.dkrz.de/icon/icon) and several secondary ones: [icon-nwp](https://gitlab.dkrz.de/icon/icon-nwp), [icon-mpim](https://gitlab.dkrz.de/icon/icon-mpim), etc. If unsure, use the primary repository. If you don’t have access to any of those, choose the public [icon-model](https://gitlab.dkrz.de/icon/icon-model) repository.\n\nClone the ICON repository of choice and its submodules using the following command:\n\ngit clone --recursive https://gitlab.dkrz.de/icon/icon-model.git\n\nUsers with a DKRZ GitLab account are recommended to clone the repository via the SSH protocol:\n\ngit clone --recursive git@gitlab.dkrz.de:icon/icon-model.git\n\n## Configuring and Building[#](#configuring-and-building)\n\nThe configuration step is typically executed by running the [configure](https://gitlab.dkrz.de/icon/icon-model/-/blob/icon-2025.10-2-public/configure) script with command-line arguments. These arguments specify the locations of libraries and tools needed for building. Note that the list of arguments required for successful configuration can be lengthy and complex, so it’s recommended to use a platform- or machine-specific configure wrapper, which automatically sets the necessary compiler and linker flags along with the recommended configuration options. You can find the configure wrappers in the respective subdirectories of the [config](https://gitlab.dkrz.de/icon/icon-model/-/blob/icon-2025.10-2-public/config) directory.\n\nFor example, to build ICON on [Levante&#64;DKRZ](https://docs.dkrz.de/doc/levante/index.html) with OpenMP enabled using the Intel compiler, run the following command:\n\n./config/dkrz/levante.intel --enable-openmp\n\nAlternatively, you can create a directory and perform an out-of-source build:\n\nmkdir build && cd build\n/path/to/icon/config/dkrz/levante.intel --enable-openmp\n\nUsing an out-of-source build, you can build ICON in multiple configurations using the same copy of the source code.\n\nThe building step is done by running make command with an optional argument specifying the number of jobs to run simultaneously. Usually, 8 is a good choice. For example:\n\nmake -j8\n\nThe result of the building — the executable file of ICON — is saved to the bin subdirectory of the build directory.\n\nICON on your system\n\nIf you want to build and run ICON on your personal computer, consider using the [generic configure wrapper](buildrun_building.html#ref-buildrun-configuration-wrappersgeneric).\nFor detailed information on [Configuration](buildrun_building.html#ref-buildrun-configuration) and [Building](buildrun_building.html#ref-buildrun-building) please refer to the respective section.\n\n## Running ICON[#](#running-icon)\n\nTo run ICON, you need to create a runscript that sets the required environment variables and calls the executable. One way to get started with running ICON is to use the [mkexp](https://gitlab.dkrz.de/esmenv/mkexp) utility to generate a runscript and experimental configuration for the “bubble” test.\n\n../utils/mkexp/mkexp bubble.config\n\nThe command above generates a runscript called ../experiments/bubble/scripts/bubble.run_start. To execute the experiment, navigate to the directory containing the script and submit it for the execution:\n\ncd ../experiments/bubble/scripts\nsbatch bubble.run_start\n\nThe output will be directed to the Work directory identified after the execution of mkexp.\n\nRunning ICON\n\nFor detailed information please refer to section [Running ICON](buildrun_running.html#ref-buildrun-running).\n\n# FAQ[#](#faq)\n\n-\n\n[I run the configure script without any arguments and it fails. What should I do?](#faq1)\n\nFirst, we recommend checking whether there is a suitable [Configure wrappers](buildrun_building.html#ref-buildrun-configuration-wrappers) in the [config](https://gitlab.dkrz.de/icon/icon-model/-/blob/icon-2025.10-2-public/config) directory that you could use instead of running the configure script directly. If that is not the case, you need at least to specify the LIBS variable telling the configure script which libraries to link the executables to. The content of the list depends on the configure options you specify (see [Table 1](buildrun_building.html#tab-icon-depgraph)), for example:\n\n./configure --disable-mpi --disable-coupling LIBS='-lnetcdff -lnetcdf -llapack -lblas'\n\nIf the libraries reside in nonstandard directories, you might also need to specify the FCFLAGS, CPPFLAGS, and LDFLAGS variables to tell the script which directories need to be searched for header and library files (see section [Configuration](buildrun_building.ht",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides a quick start guide for setting up and running the ICON atmospheric model, including instructions on obtaining code from GitLab repositories, configuring and building the model, and creating runscripts.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "icosahedral",
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "git",
+        "format": null,
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

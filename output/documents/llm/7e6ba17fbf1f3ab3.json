@@ -1,0 +1,70 @@
+{
+  "doc_id": "7e6ba17fbf1f3ab3",
+  "legacy_doc_id": "5ff3bc7c32f2",
+  "filename": "SEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.12,
+  "pages": 102,
+  "text_preview": "                                                      Page 1/ 102 \n \n  \n \nSea Level TAC - DUACS products \n \nSEALEVEL_GLO_PHY_L3_NRT _008_044 \nSEALEVEL_GLO_PHY_L4_NRT _008_046 \nSEALEVEL_EUR_PHY_L3_NRT _008_059 \nSEALEVEL_EUR_PHY_L4_NRT _008_060 \nSEALEVEL_GLO_PHY_L3_MY_008_062 \nSEALEVEL_GLO_PHY_L4_MY_008_047 \nSEALEVEL_EUR_PHY_L3_MY_008_061 \nSEALEVEL_EUR_PHY_L4_MY_008_068 \nSEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033 \n \n Issue: 13.0 \nContributors: Maxime Ballarotta , Marie-Isabelle Pujol and SL-TAC team. \nApproval date by the CMEMS product quality coordination team: 17/11/2025 \n \n \n \n  \n\nQUID for Sea Level TAC DUACS Products \nSEALEVEL_[GLO/EUR]_PHY_L[3/4]_[NRT/MY] _008_0* \nSEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-032-068 \n2025/05/28 \n14.0 \n \n                                                      Page 2/ 102 \nCHANGE RECORD \nThe third column specifies which sections or sub -sections have been updated.  The fourth column \nshould mention the reason for updating the document. Column 5 should include the names of the \nauthor(s) doing the changes. Including the name in c olumn 6  shows that the document has been \nvalidated by the TAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation \nmeans the document was checked for contents, formats and consistency with other documents. \n \nIssue Date Sections Description of Change Author Validated By \n1.0 2019/01/21 All upgrade for CMEMS VApr2019 G. Taburet M-I. Pujol \n1.1 2019/02/26  Correction after review MO M-I. Pujol,  \nG. Taburet M-I. Pujol \n1.2 2019/04/15 I,II, V Upgrade for CMEMS Jul2019 M-I Pujol, \nG. Taburet M-I. Pujol \n2.0 2019/09/10 I,II, V  Upgrade for CMEMS Nov2019 M-I. Pujol \nS. Mulet M-I. Pujol \n2.1 2019/10/02 I,II, V  Upgrade of constellation status G. Taburet M-I. Pujol \n3.0 2020/01/14 I,II, V Upgrade for SARAL-DP/AL GDR-F change in \nNRT M-I. Pujol M-I. Pujol \n4.0 2020/04/03 I,II, V, VI0  \nCorrection of temporal period processed by \nDUACS from the different altimeter (table1) \nUpgrade for CMEMS Jul2020 release \nG. Taburet M-I. Pujol \n4.1 2020/05/11 I,II, V Correction of some anomalies M-I. Pujol M-I. Pujol \n4.2 2020/10/13 III, V \nUpgrade for CMEMS Dec2020 DT release \nUpgrade for Jason-3 GDR-F standards \nchanges \nUpgrade for Cryosat-2 orbit change \nG. Taburet M-I. Pujol \n4.3 2021/01/15 III, V Upgrade for CMEMS May2021 DT & NRT \nrelease G. Taburet M-I. Pujol \n5.0 2021/10/07 All  \nUpgrade for CMEMS Dec2021 DT & NRT \nrelease \n- Full reprocessing DT-2021 \n- Upgrade of NRT processing \nG. Taburet M-I. Pujol \n5.1 2021/12/16 I,II, V, VI0  Change for MY automatic extensions \nCorrection of some references M-I. Pujol M-I. Pujol \n6.0 2022/03/28 II \n- Upgrade of constellation status in NRT \nconditions: add Sentinel-6A \n- Correction of some errors  \nM-I. Pujol M-I. Pujol \n7.0 2022/05/12 I,II, V, VI0  \n- Upgrade of constellation status in NRT \nconditions: add Jason -3 on interleaved \norbit \n- MAJ some references \nM-I. Pujol M-I. Pujol \n8.0 2022/11/02 All \nUpgrade for CMEMS Nov2022 DT & NRT \nrelease \n- Add L3 5 Hz datasets \n- Change “noise” product \n- Add temporal extension of MY series \n- Update of some figures \n \nM-I Pujol M-I Pujol \nQUID for Sea Level TAC DUACS Products \nSEALEVEL_[GLO/EUR]_PHY_L[3/4]_[NRT/MY] _008_0* \nSEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-032-068 \n2025/05/28 \n14.0 \n \n                                                      Page 3/ 102 \nIssue Date Sections Description of Change Author Validated By \n8.1 2022/12/08 II.4.5; V.2 Update Table 29 M-I Pujol M-I Pujol \n8.2 2023/01/16 V - Updated information for Sentinel -3A L3 \nMY product quality M-I Pujol M-I Pujol \n9.0 2023/10/15 All \nUse new template \nUpgrade for CMEMS Nov2023 DT & NRT \nrelease \n- Add L3 5 Hz datasets for global ocean \n- Add SWOT-nadir mission \nM-I Pujol M-I Pujol \n10.0 2024/05/13  MY interim temporal extension G Taburet M-I Pujol \n11.0 2024/07/01 \nI.3; II.4; \nV.3.7; \nVI.2; VII \nChange of the altimeter standards in NRT \nAdd H2B for L3 5 Hz production M-I Pujol M-I Pujol \n12.0 2024/09/23 All \nUpgrade for CMEMS Nov2024 DT & NRT \nrelease: \n- full reprocessing of the MY series with \nDT-2024 version \n- change of the mapping methodology in \nNRT \n- change of the L4 product spatial sampling \nM \nBallarotta \nM-I Pujol \nK Grassi \n13.0 2025/01/31  Upgrade for CMEMS Jun2025 NRT release: \n- Jason-3 orbit change M-I Pujol K Grassi \n14.0 2025/05/28  \nUpgrade for CMEMS Nov2025 NRT & MY \nrelease: \n- L4 NRT with SWOT-KaRIn \nmeasurements \n- L4 MY with improved MIOST mapping \n \nM \nBallarotta \nM-I Pujol \nK Grassi \n \n \n \n \n \n \n \n \n \n \n \n \nQUID for Sea Level TAC DUACS Products \nSEALEVEL_[GLO/EUR]_PHY_L[3/4]_[NRT/MY] _008_0* \nSEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-032-068 \n2025/05/28 \n14.0 \n \n                                                      Page 4/ 102 \nACRONYM TABLE \nAcronym Description \nADT Absolute Dynamic Topography \nAMR Advanced Microwave Radiometer \nAOML Atlantic Oceanogr",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical note for Sea Level TAC DUACS products, detailing updates and changes to various product versions from 2019 to 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033",
+      "name": "Global Sea Level Noise Product (Static)",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEALEVEL_GLO_PHY_NOISE_L4_STATIC_008_033",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 3226,
+  "_tokens_out": 398,
+  "_eval_s": 3.03
+}

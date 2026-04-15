@@ -1,0 +1,70 @@
+{
+  "doc_id": "f2e1d6f2729b7e9b",
+  "legacy_doc_id": "0a6134a197d3",
+  "filename": "OMI_EXTREME_MHW_ARCTIC_area_averaged_anomalies_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_EXTREME_MHW_ARCTIC_area_averaged_anomalies_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.34,
+  "pages": 10,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Roshin P. Raj, Vidar S. Lien \n \nApproval Date : November 2025 \n \nFor OMI_EXTREME_MHW_ARCTIC \n \n Issue: 1.1 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for OMI_EXTREME_MHW_ARCTIC \n© EU Copernicus Marine Service – Public   \nCMEMS_OMI_PUM_EXTREME_MHW_ARCTIC \nIssue 1.1 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/05/17 All Creation of the document R. P. Raj, V. S. \nLien L. Bertino \n1.1 2025/05/27 All Update of the document V. S. Lien L. Bertino \n \n \n \n3 Product User Manual for OMI_EXTREME_MHW_ARCTIC \n© EU Copernicus Marine Service – Public   \nCMEMS_OMI_PUM_EXTREME_MHW_ARCTIC \nIssue 1.1 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDOWNLOAD A PRODUCT ............................................................................................ 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details ...................................................................................................... 8 \n3) FILE FORMAT ...................................................................................................... 9 \n4) FILES NOMENCLATURE ...................................................................................... 9 \n5) REFERENCES ..................................................................................................... 10 \n  \n \n \n \n4 Product User Manual for OMI_EXTREME_MHW_ARCTIC \n© EU Copernicus Marine Service – Public   \nCMEMS_OMI_PUM_EXTREME_MHW_ARCTIC \nIssue 1.1 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nPUM Product User Manual \nOMI Ocean Monitoring Indicator \nMHW Marine Heatwave \nNetCDF Network Common Data Form \nQUID Quality Information Document \n \n  \n \n \n \n5 Product User Manual for OMI_EXTREME_MHW_ARCTIC \n© EU Copernicus Marine Service – Public   \nCMEMS_OMI_PUM_EXTREME_MHW_ARCTIC \nIssue 1.1 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_EXTREME_MHW_ARCTIC, providing details about the product specification, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS_OMI_PUM_EXTREME_MHW_ARCTIC",
+      "name": "OMI Extreme Marine Heatwave Arctic Area Averaged Anomalies",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1996,
+  "_tokens_out": 347,
+  "_eval_s": 2.53
+}

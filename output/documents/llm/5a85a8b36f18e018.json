@@ -1,0 +1,85 @@
+{
+  "doc_id": "5a85a8b36f18e018",
+  "legacy_doc_id": "ac48f8c96ce7",
+  "filename": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_024_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_GLO_SST_L4_REP_OBSERVATIONS_010_024_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.94,
+  "pages": 30,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n1 \n \n \n \n \n  \nContributors : I. Karagali, DMI, DK; S. Good, Met Office, UK \n \nApproval Date : March 2026 \n \nFor C3S Global L4 SST/IST analyses \nand ESA CCI SST analyses \n \n SST_GLO_SST_L4_REP_OBSERVATIONS_010_024 \nIssue: 6.0 \nPRODUCT USER MANUAL \n\nProduct User Manual for SST_GLO_SST_L4_REP_OBSERVATIONS_010_024 \n \n \n © EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-024 \nIssue 6.0 – March 2026 \n2 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2017/01/18 All Initial version (based on the \nESA SST CCI Product User \nGuide) \nSimon Good  \n1.1 2017/03/16 Title \npag\ne, \nsect\nion I \nAdded ESA and SST CCI logos \nand license details. \nSimon Good  \n2.0 2019/04/12  ESA SST CCI updated to \nversion CDR2.0 \nSimon Good  \n2.1 2019/09/10  C3S ICDR2.0 added Simon Good  \n2.2 2020/09/10 All Document extension to 2019 \nand update document \ntemplate \nSimon Good  \n2.3 2021/01/15 II.1, \nII.4 \nTemporal extensions Simon Good  \n3.0 2022/06/16 All New template ; data updated \nto version 2.1. \nSimon Good Copernicus \nMarine \nProduct \nmanagement \n4.0 31/01/2025 All New template, Replacement \nproduct \nIoanna Karagali Copernicus \nMarine \nProduct \nmanagement \n5.0 18/07/2025 All Reintroduce dataset ESACCI-\nGLO-SST-L4-REP-OBS-SST \nSimon Good Copernicus \nMarine \nProduct \nmanagement \n6.0 12/11/2025 All Updated version of dataset  \nESACCI-GLO-SST-L4-REP-OBS-\nSST \nSimon Good Copernicus \nMarine \nProduct \nmanagement \nProduct User Manual for SST_GLO_SST_L4_REP_OBSERVATIONS_010_024 \n \n \n © EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-024 \nIssue 6.0 – March 2026 \n3 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 5 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary.............................................................................................................7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ..........................................................................................8 \nC3S analyses : ..............................................................................................................8 \nESA SST CCI analyses : .................................................................................................8 \nb) Production System Description ......................................................................10 \nC3S analyses: .............................................................................................................10 \nESA SST CCI analyses : ...............................................................................................12 \nc) Dataset details .................................................................................................14 \nC3S analyses : ............................................................................................................14 \nESA SST CCI analyses: ................................................................................................15 \nd) Additional information on some parameters ...............................................15 \nC3S analyses: .............................................................................................................15 \nESA SST CCI analyses: ................................................................................................16 \ne) Processing information ....................................................................................16 \nC3S analysis product disseminating schedule : .....................................................16 \nf) Catalogue updating .......................................................................................16 \nC3S analyses: .............................................................................................................16 \nESA SST CCI analyses: ................................................................................................16 \ng) Time averaging ................................................................................................16 \nC3S analyses: .............................................................................................................16 \nESA SST CCI analyses: ................................................................................................17 ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SST_GLO_SST_L4_REP_OBSERVATIONS_010_024, providing details about the product specification, production system description, dataset information, and processing information for C3S Global L4 SST/IST analyses and ESA CCI SST analyses.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_024",
+      "name": "Global Level 4 Sea Surface Temperature Repetitive Observations",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_GLO_SST_L4_REP_OBSERVATIONS_010_024",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2308,
+  "_tokens_out": 555,
+  "_eval_s": 4.09
+}

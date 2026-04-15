@@ -1,0 +1,14 @@
+{
+  "doc_id": "c89d690aff0ed746",
+  "legacy_doc_id": "430fb2237b23",
+  "filename": "halliwell_mesh.pdf",
+  "filepath": "docs/hycom_docs/halliwell_mesh.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.01,
+  "pages": 1,
+  "text_preview": "HYCOM Horizontal Mesh  \n \nBy George Halliwell, 25 August 2001 \n \nBoth HYCOM and MICOM use the “C” grid, but use different horizontal meshes. In the \nMICOM mesh, the positive x direction was southward and the positive y direction was eastward. \nThe HYCOM mesh was converted to standard Cartesian coordinates, with the x axis pointing \neastward and the y axis pointing northward. The HYCOM mesh is illustrated below for pressure \n(P), velocity component (U and V), and vorticity (Q) grid points. This case is for 7 x 7 pressure \ngrid points. The grid meshes for the other variables have 8 x 8 grid points. All fields in this case \nwould be dimensioned 8 x 8, with the eighth row and column unused for variables on pressure \ngrid points. \n  \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": null,
+  "classification_error": null
+}

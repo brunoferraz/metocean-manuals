@@ -1,0 +1,85 @@
+{
+  "doc_id": "549f143a97d39cf4",
+  "legacy_doc_id": "6e7e36ef3f32",
+  "filename": "SST_MED_PHY_SUBSKIN_L4_NRT_010_036_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_MED_PHY_SUBSKIN_L4_NRT_010_036_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.73,
+  "pages": 23,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor SST products over the Mediterranean and Black \nSeas \n \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nIssue:  2.0 \n \nContributors :  Andrea Pisano, Claudia Fanelli, Cristina Tronconi, Claudia Cesarini, Bruno \nBuongiorno Nardelli \n \nApproval Date : JUNE 2023 \n \n \n\n Copernicus Marine Product User Manual for \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nIssue : 2.0 \n2023/06/16 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SST-PUM-010-035-036 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2021/01/15 All \n \nCreation of the document \n \n C. Derval \n2.0 16/06/2023 All Updated file format for the MED and \nBS Diurnal SubSkin Products \nAndrea Pisano, Claudia \nFanelli, Cristina \nTronconi, Claudia \nCesarini, Bruno \nBuongiorno Nardelli \nCopernicus \nMarine \nProduct \nManageme\nnt \n      \n \n Copernicus Marine Product User Manual for \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nIssue : 2.0 \n2023/06/16 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SST-PUM-010-035-036 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 5 \nI.1 Summary......................................................................................................................................................... 5 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Additional Information on parameters .................................................................................................... 10 \nII.4 Production System Description ................................................................................................................. 11 \nII.5 Vertical Levels ............................................................................................................................................ 13 \nII.6 Processing information .............................................................................................................................. 13 \nII.6.1 Update Time ....................................................................................................................................... 13 \nII.6.2 Temporal extent of analysis and forecast stored on delivery mechanism .......................................... 13 \nII.6.3 Time averaging .................................................................................................................................. 14 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 15 \nIV FILES NOMENCLATURE ........................................................................................................................... 16 \nIV.1 Nomenclature of files when downloaded through the Copernicus Marine Web Portal Subsetter \nService ................................................................................................................................................................ 16 \nIV.2 Nomenclature of files when downloaded through the Copernicus Marine FTP Service  .................... 16 \nIV.3 Other information: mean centre of Products, land mask value, missing value  ................................... 17 \nIV.4 File size ....................................................................................................................................................... 17 \nV FILE FORMAT ............................................................................................................................................. 18 \nV.1 Structure and semantic of netCDF maps files .......................................................................................... 18 \nVI REFERENCES ..................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SST products over the Mediterranean and Black Seas, detailing specifications and usage instructions for Copernicus Marine Service datasets.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_MED_PHY_SUBSKIN_L4_NRT_010_036, SST_BS_PHY_SUBSKIN_L4_NRT_010_035",
+      "name": "Sea Surface Temperature (SST) Products for Mediterranean and Black Seas",
+      "model_name": null,
+      "region": "Mediterranean | Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_med_phy-ssh_my_013_024, cmems_mod_blk_phy-ssh_my_013_024",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "10km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2176,
+  "_tokens_out": 552,
+  "_eval_s": 4.01
+}

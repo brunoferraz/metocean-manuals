@@ -1,0 +1,127 @@
+{
+  "doc_id": "784c91b853834a2c",
+  "legacy_doc_id": "1dcb0c152303",
+  "filename": "MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.56,
+  "pages": 16,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : N.Verbrugge \n \nApproval Date: November 2025 \n \nFor Multi Observation Global Ocean 3D \nTemperature Salinity Heights Geostrophic \nCurrents and MLD Product \n MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \nIssue: 2.0 \n \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n© EU Copernicus Marine Service – Public   \nCMEMS-MOB-PUM-015-012 \nIssue 2.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 15/09/20 All Initial version of the document \nCreated from CMEMS-MOB-\nPUM-015-001 and CMEMS-\nMOB-PUM-015-002 \nS. Guinehut C. Derval \n1.1 15/08/21 I.1, \nII.1, \nII.4.\n2 \nMinor changes to specify the \nupdate frequency and the \ntemporal coverage of rep \ndatasets \nS. Guinehut C. Derval  \n1.2 12/06/2023 I.2 Update template \nSSS Upstream  evolutions \nH. Etienne, \nN. Verbrugge \nCopernicus \nMarine \nProduct \nManagement \n2.0 28/05/2025 All New dataset for climatological \nuncertainties for T & S \nDatasets name change \nSpatio-temporal resolution \nchange (1/4° to 1/8° and weekly \nto daily) \nN. Verbrugge H.Etienne \n \n \n \n3 Product User Manual for MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n© EU Copernicus Marine Service – Public   \nCMEMS-MOB-PUM-015-012 \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDOWNLOAD A PRODUCT .................................................... Erreur ! Signet non défini. \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 9 \nc) Dataset details ...................................................................................................... 9 \nd) Catalogue updating ......................................................................................... 10 \ne) Time averaging ................................................................................................... 10 \nf) Product use and impact ................................................................................... 10 \n3) FILE FORMAT .................................................................................................... 11 \n4) FILES NOMENCLATURE .................................................................................... 11 \n5) FILE SIZE ............................................................................................................ 12 \n6) STRUCTURE AND SEMANTIC OF NetCDF MAP FILES....................................... 12 \n7) REFERENCES ..................................................................................................... 13 \n8) ANNEX ............................................................................................................. 14 \na) Structure and semantic of NetCDF maps files ....... Erreur ! Signet non défini. \n  \n \n \n \n4 Product User Manual for MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n© EU Copernicus Marine Service – Public   \nCMEMS-MOB-PUM-015-012 \nIssue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF Climate Forecast (convention for NetCDF) \nCMEMS Copernicus Marine Environment Monitoring Service \nGLO Global \nMULTIOBS Multi Observation \nNetCDF Network Common Data Form \nPUM Product User Manual \nQUID Quality Information Document \nMLD Mixed Layer Depth \nNRT Near-Real-Time \nREP REProcessed \nSST Sea Surface Temperature \nSSS Sea Surface Salinity \nMDT Mean Dynamic Topography \nSLA Sea Level Anomaly \nWOA World Ocean Atlas \nMFC Monitoring Forecasting System \n \n  \n \n \n \n5 Product User Manual for MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n© EU Copernicus Marine Service – Public   \nCMEMS-MOB-PUM-015-012 \nIssue 2.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 product, detailing its specifications and usage guidelines.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012",
+      "name": "Multi Observation Global Ocean 3D Temperature Salinity Heights Geostrophic Currents and MLD Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "geostrophic_currents",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "Geostrophic Currents (X-Component)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      },
+      {
+        "native_name": "mixed_layer_depth",
+        "cf_standard_name": "mixed_layer_thickness",
+        "long_name": "Mixed Layer Depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/8°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2439,
+  "_tokens_out": 871,
+  "_eval_s": 6.37
+}

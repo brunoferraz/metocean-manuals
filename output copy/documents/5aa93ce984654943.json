@@ -1,0 +1,197 @@
+{
+  "doc_id": "5aa93ce984654943",
+  "legacy_doc_id": "26d57db181e3",
+  "filename": "ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_MULTIYEAR_BGC_002_005_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.62,
+  "pages": 39,
+  "text_preview": " \n \n \nQUALITY INFORMATION DOCUMENT  \nFor Arctic Biological Reanalysis Product \nARCTIC_MULTIYEAR_BGC_002_005 \n \n \n   \n Issue: 1.2    \nContributors: Tsuyoshi Wakamatsu, Caglar Yumruktepe, Annette Samuelsen and Laurent Bertino    \nApproval date by the CMEMS product quality coordination team: 20/07/2022    \n \n   \n \n \n \n   \n  \n \nQUID for Arctic Ocean Biological Reanalysis Product \nARCTIC_MULTIYEAR_BGC_002_005 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-005 \nJuly 2022 \n1.2 \n \n2 \n \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated  and a row is added to this table.  \nThe third column specifies which sections or sub -sections have been updated.  The fourth column \nshould mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 21 Sep 2020 All Creation of the document T. Wakamatsu L. Bertino \n 15 Jan 2021 All Revised based on the 1st \nreview.  \nT. Wakamatsu L. Bertino \n1.1 16 Mar 2022 All Correction of quality issue \nwith deep nutrients.  \nValidation period is \nextended from 1 year to 5 \nyears. Comparison with \nclimatology is added \nT . Wakamatsu L. Bertino  \n1.2 11th July \n2022 \nV Note about Yearly dataset L. Bertino  A. Melsom  \n      \n \n \n \n \n \nQUID for Arctic Ocean Biological Reanalysis Product \nARCTIC_MULTIYEAR_BGC_002_005 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-005 \nJuly 2022 \n1.2 \n \n3 \n \nTABLE OF CONTENTS \nChange Record ........................................................................................................................................................ 2 \nTable of contents ......................................................................................................................................................... 3 \nI Executive summary ............................................................................................................................................. 4 \nI.1 Products covered by this document .......................................................................................................... 4 \nI.2 Summary of the results ............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers .................................................................................................................... 6 \nII Production system description ............................................................................................................................. 8 \nII.1 Model Description ................................................................................................................................ 8 \nII.2 Data Assimilation Description ............................................................................................................. 10 \nIII Validation framework ....................................................................................................................................... 16 \nIV Validation RESULTS ............................................................................................................................................ 17 \nIV.1 Surface Chl-a ....................................................................................................................................... 17 \nIV.2 Subsurface nutrients ........................................................................................................................... 24 \nV System’s Noticeable events, outages or changes ............................................................................................... 37 \nVI Quality changes since previous version ............................................................................................................. 38 \nReferences ................................................................................................................................................................. 39 \n \nQUID for Arctic Ocean Biological Reanalysis Product \nARCTIC_MULTIYEAR_BGC_002_005 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-005 \nJuly 2022 \n1.2 \n \n4 \n \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document describes the quality of the product ARCTIC_MULTIYEAR_BGC_002_005, the reanalysis \nproduct for the biogeochemical state of the Arctic Ocean from 2007 to 2019. The validation considers all \ndata in the Arctic region (North of 60 N). The ARC biogeochemical product contains 2D daily fields and 3D \nmonthly fields at 25 km horizontal resolution of nine variables grouped in 5 categories: \n \nPLANKTON:  Chlorophyll-a (CHL), Phytoplankton (PHYC), Zooplankton (ZOOC). \nNUTRIENTS: Nitrate (NO3), Phosphate (PO4), Silicate (Si). \nPRIMARY PRODUCTION: Primary Production (NPPV). \nOXYGEN: Oxygen (O2). \nTRANSPARENCY/TURBIDITY: Light Attenuation (Kd). \n  \nQUID for Arctic Ocean Biological Reanalysis Product \nARCTIC_MULTIYEAR_BGC_002_005 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-005 \nJuly 2022 ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for the Arctic Ocean Biological Reanalysis Product, detailing its validation and quality control measures.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_MULTIYEAR_BGC_002_005",
+      "name": "Arctic Multiyear Biogeochemical Reanalysis Product",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "CHL",
+        "cf_standard_name": "chlorophyll_a_concentration_in_sea_water",
+        "long_name": "Chlorophyll-a concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PHYC",
+        "cf_standard_name": "phytoplankton_biomass_concentration",
+        "long_name": "Phytoplankton biomass concentration",
+        "unit": "g/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ZOOC",
+        "cf_standard_name": "zooplankton_biomass_concentration",
+        "long_name": "Zooplankton biomass concentration",
+        "unit": "g/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "NO3",
+        "cf_standard_name": "nitrate_concentration_in_sea_water",
+        "long_name": "Nitrate concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PO4",
+        "cf_standard_name": "phosphate_concentration_in_sea_water",
+        "long_name": "Phosphate concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Si",
+        "cf_standard_name": "silicate_concentration_in_sea_water",
+        "long_name": "Silicate concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "NPPV",
+        "cf_standard_name": "primary_production_rate_in_sea_water",
+        "long_name": "Primary production rate in sea water",
+        "unit": "gC/m^2/day",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "O2",
+        "cf_standard_name": "oxygen_concentration_in_sea_water",
+        "long_name": "Dissolved oxygen concentration in sea water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Kd",
+        "cf_standard_name": "downwelling_photosynthetically_active_radiation_attenuation_coefficient",
+        "long_name": "Downwelling photosynthetically active radiation attenuation coefficient",
+        "unit": "m^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "25km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2233,
+  "_tokens_out": 1479,
+  "_eval_s": 10.99
+}

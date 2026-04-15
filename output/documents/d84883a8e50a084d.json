@@ -1,0 +1,82 @@
+{
+  "doc_id": "d84883a8e50a084d",
+  "legacy_doc_id": "fe5703f5bacc",
+  "filename": "GLOBAL_OMI_WMHE_northward_mht_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_OMI_WMHE_northward_mht_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.82,
+  "pages": 4,
+  "text_preview": " \n  \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nWatermass and heat exchanges \nGLOBAL_OMI_WMHE_northward_mht \n \n \n Issue: 1.0 \nContributors: Clément Bricaud \nApproval date by the CMEMS product quality coordination team: July 2019 \n \n \n \n \n  \n \nQUID for CMEMS OMIs: meridional heat transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_northward_mht \n31.01.2019 \n1.0 \n \n \n    Page 2/ 4 \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 31/01/2019 All Creation of the document Clément Bricaud   \n \n \n \n \nProduct name: GLOBAL_OMI_WMHE_northward_mht \nDataset name: global_omi_wmhe_northward_mht \n \nIndicator evaluation method:  \nNorthward Heat transports is defined by the integration of northward heat fluxes in the zonal direction \nand from top to bottom of the Ocean: \n, \n \n𝑀𝐻𝑇 =  𝜌 ∗  𝐶𝑝 ∗ ∫ ∫ 𝑇 ∗ 𝑣 ∗ 𝑆 𝑑𝑥 𝑑𝑧\n𝐵\n𝐴\n𝑧=𝑏𝑜𝑡𝑡𝑜𝑚\n𝑧=0 , \nwhere: \nA and B are 2 points with the same latitude, \nv is the horizontal ocean velocity, \nT is the ocean temperature, \nand S in the surface of the section, \n𝜌 is the reference Ocean density ( 1026 kg.m-3), \nand  𝐶𝑝 is the Ocean specific heat ( 4000 J kg-1 K-1) \n \nQUID for CMEMS OMIs: meridional heat transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_northward_mht \n31.01.2019 \n1.0 \n \n \n    Page 3/ 4 \nIt is computed with reanalysis 5 days averaged ou tputs (Crosnier et al, 2001)  and given in petaWatt \n(PW, 1 PW=1.e15 Watt) \nThe integration is done for the Global Ocean, the Atlantic basin and the Pacific + Indian basin. \nThey are computed with reanalysis daily outputs and given in petaWatt (PW, 1 PW=1.e15 Watt) \n \nScientific validation: \nMore details  and full scientific evaluation can be found in the CMEMS Ocean State Report  (von \nSchuckmann et al., 2016; von Schuckmann et al., 2018). \nThe quality evaluation of GLOBAL_OMI_WMHE_northward_mht \nis based on the “multi-product” approach as introduced in the second issue of the Ocean State Report \n(CMEMS OSR, 2017).  \nThe transports are computed from an ensemble of 4 CMEMS Global Ocean reanalysis at ¼°: \nGLORYS2V4 from Mercator Ocean, ORAS5 from ECMWF, GloSea5 from Met Office and C-GLORS05 \nfrom CMCC. \nSome previous estimations from Lumpkin and Speer (2007), Ganachaud, and Wunch(2003) are \nproposed in the plot. \n \n \nFigure 1:  Northward Heat Transport  (units PW) from the multi -product approach averaged over the \nperiod 1993-2014 ( black: ensemble mean, light blue: ensemble standard deviation) and the 2017 (red). \nEstimates of Lumpkin and Speer (2007) and Ganachaud, and Wunch(2003)  have been added for \ncomparison (orange).. \n \nProduct used for indicator evaluation: \nThe transports are computed from an ensemble of 4 CMEMS different Global Ocean reanalysis at ¼° \n(GLOBAL_REANALYSIS_PHY_001_02): GLORYS2V4 from Mercator Ocean, ORAS5 from ECMWF, \nGloSea5 from Met Office and C-GLORS05 from CMCC. They are based on NEMO OGCM (Madec, 2008), \nand using a data assimilation system. \n \n\nQUID for CMEMS OMIs: meridional heat transports Ref: \nDate: \nIssue: \nGLOBAL_OMI_WMHE_northward_mht \n31.01.2019 \n1.0 \n \n \n    Page 4/ 4 \nReferences: \nCrosnier L, Barnier B, Treguier AM, 2001. Aliasing inertial oscillations in a 1/6° Atlantic circulation \nmodel: impact on the mean meridional heat transport. Ocea n Modelling, vol 3, issues 1 -2, pp21-31. \nhttps://doi.org/10.1016/S1463-5003(00)00015-9 \nGanachaud, A. , Wunsch C. 2003. Large-Scale Ocean Heat and Freshwater Transports during the World \nOcean Circulation Experiment. J. Climate, 16, 696 –705, https://doi.org/10.1175/1520-\n0442(2003)016<0696:LSOHAF>2.0.CO;2 \nLumpkin R, Speer K. 2007. Global ocean meridional overturning. J. Phys. Oceanogr., 37, 2550 –2562, \ndoi:10.1175/JPO3130.1. \nMadec G : NEMO ocean engine, Note du Pôle de modélisation, Institut Pierre-Simon Laplace (IPSL), \nFrance, No 27, ISSN No 1288-1619, 2008 \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the Copernicus Marine Environment Monitoring Service's Ocean Monitoring Indicator (OMI) related to northward heat transport in the ocean, providing details on its computation and validation.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_OMI_WMHE_northward_mht",
+      "name": "Northward Heat Transport OMI",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "global_omi_wmhe_northward_mht",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "northward_heat_transport",
+        "cf_standard_name": "ocean_heat_content",
+        "long_name": "Northward Heat Transport",
+        "unit": "PW (1 PW = 1.e15 Watt)",
+        "physical_quantity": "heat",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/4°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

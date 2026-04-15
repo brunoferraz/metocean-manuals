@@ -1,0 +1,85 @@
+{
+  "doc_id": "a98d6dfafcfce205",
+  "legacy_doc_id": "471f705d4074",
+  "filename": "OMI_EXTREME_WAVE_IBI_swh_mean_and_anomaly_obs_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_WAVE_IBI_swh_mean_and_anomaly_obs_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.72,
+  "pages": 9,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \nParc Technologique du Canal - 8-10 rue Hermès - 31520 Ramonville-Saint-Agne, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Service \nEXTREME WAVE \nSignificant wave height \nIssue: 2.1 \n \n \n \n \n \nContributors : Marta de Alfonso, Alejandro Gallardo, Fernando Manzano, Begoña Pérez Gómez \nApproval date : November 2025 \n  \n\n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME WAVE  \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is \nadded to this table.  The third column specifies which sections  or sub-sections \nhave been updated.   The fourth column should mention the version of the \nproduct to which the change applies. \n \nIssu\ne \nDate § Description of \nChange \nAuthor Validated By \n \n \n \n22/07/2019 \n \nAll \n \nCreation of the \ndocument \n \nMarta de Alfonso, \nAlejandro Gallardo, \nFernando Manzano, \nBegoña Pérez Gómez \n \n \n1.0 \n \n02/10/2019 \n \nAll \n \nAdapt the document to \nthe new OMI structure \nand naming \n \nMarta de Alfonso \n \n \n2.0 02/09/2022  New Product naming  \nand new template \nMarta de Alfonso Stéphane Tarot \n2.1 07/05/2025  Estimation of uncertainties \nwith standard deviation \nof percentiles \nMarta de Alfonso, \nBegoña Pérez Gómez, \nAlex Gallardo \nStéphane Tarot \n \n \n \n \n  \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME WAVE  \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 Products used as input for the computations............................................................................................. 5 \nII SCIENTIFIC VALIDATION .............................................................................................................................. 6 \nIII REFERENCES ............................................................................................................................................... 8 \n \n \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME WAVE  \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nOMI_EXTREME_WAVE_BALTIC_swh_mean_and_anomaly_obs \nOMI_EXTREME_WAVE_NORTHWESTSHELF_swh_mean_and_anomaly_obs \nOMI_EXTREME_WAVE_IBI_swh_mean_and_anomaly_obs \nOMI_EXTREME_WAVE_MEDSEA_swh_mean_and_anomaly_obs \nI.2 Indicator evaluation method \nThe EXTREME WAVE indicators are based on the computation of the 99th and \nthe 1st percentiles (that represent approximately the 1% highest and lowest \nvalues, respectively) from in situ data (observations), following the same \napproach applied by Woodworth and Blackman (2004) to extrem e sea levels. \nThis method determines changes in the frequency distribution of the measured \nvariables. \nAll the data used for the computation of these indicators have been \ndownloaded from Copernicus Marine Service In Situ Thematic Assembly Centre \n(In Situ TAC) products. The analysis is performed for the following variable: \nsignificant wave height (swh) measured by in situ buoys.  \nThe periods selected are based on our analysis of the data available in the \ndifferent In Situ TAC  regions that fulfilled specific  criteria of data completeness \nand quality (Pérez Gómez et al 2016, Pérez Gómez et al 2018). Buoys were \nselected according to consolidated time series of hourly data in Copernicus \nMarine Service for the period 2000 to the target year. Within these periods,  a \nminimum number of 10 years with completeness index larger than 70% is \nrequired for a station to be included.  These numbers can be reduced to  8 \nyears and  60% in case that the coverage is not enough  to make the OMIs \nproperly representative. These data wer e then used to compute annually the \n99th and 1st percentile levels at each station. \nMore details can be found in the Copernicus Marine Service Ocean State \nReport (Pérez Gómez et al., 2016; Pérez Gómez et al., 2018). \n \n \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME WAVE  \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nI.3 Products used as input for the computations \n \nProduct name (and Type) Documentation \nINSITU_GLO_WAV_DISCRETE_MY_013_0\n45 \n \nQUID: ht",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the evaluation method for Ocean Monitoring Indicators (OMI) related to extreme wave conditions, specifically focusing on significant wave height data from in situ buoys.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI EXTREME WAVE",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "INSITU_GLO_WAV_DISCRETE_MY_013_045",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "swh",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height measured by in situ buoys",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "observation_qc",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2540,
+  "_tokens_out": 467,
+  "_eval_s": 3.41
+}

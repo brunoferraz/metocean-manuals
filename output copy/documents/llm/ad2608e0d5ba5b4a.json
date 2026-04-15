@@ -1,0 +1,176 @@
+{
+  "doc_id": "ad2608e0d5ba5b4a",
+  "legacy_doc_id": "d1282c21c50e",
+  "filename": "ICON_atmosphere.md",
+  "filepath": "docs/icon_docs/ICON_atmosphere.md",
+  "extension": ".md",
+  "file_size_mb": 0.01,
+  "pages": 3,
+  "text_preview": "# ICON Documentation\n\nSource: https://docs.icon-model.org/atmosphere/atmosphere.html\n\n---\n\nAtmosphere &#8212; ICON documentation\n\n-\n\n[Skip to main content](#main-content)\n\nBack to top\n\nCtrl+K\n\n[\nGitLab](https://gitlab.dkrz.de/icon/icon-model)\n\n-\n\n[\nicon-model.org](https://icon-model.org)\n\n# Atmosphere[#](#atmosphere)\n\nThe ICON atmosphere model predicts the spatio-temporal evolution\nof the atmospheric state in terms of the prognostic variables\nvirtual potential temperature, 3D wind, total air density\nand mass fractions of atmospheric water constituents and trace gases.\nIn addition, the model provides a comprehensive set of diagnostic quantities,\nsuch as surface pressure, wind gusts or potential vorticity\njust to name a few. An extensive, but still incomplete list of available\noutput variables is provided in Appendix A of the [ICON Tutorial](../literature/literature.html#term-ICON-Tutorial).\n\nIn mathematical terms, the ICON atmosphere model solves the fully compressible non-hydrostatic\nNavier-Stokes equations on the sphere. The explicitly resolved scales of\nmotion are treated by the so called [Dynamical Core](#ref-atmosphere-dycore).\nThe latter is accompanyied by a set of physical parameterizations which account for the effect motions\nthat fall below a chosen mesh size.\nICON offers two different physics packages which are known as the AES Physics Package and the NWP Physics Package.\n\nThe [AES Physics Package](#ref-atmosphere-aes-physics) was originally derived from the physics package of the ECHAM model and subsequently further developed.\nApplications range from general circulation model on long time scales to km-scale, storm-resolving climate simulations.\nThe [AES Physics Package](#ref-atmosphere-aes-physics) can be chosen by setting the namelist parameter [iforcing](#term-iforcing)=2.\n\nThe [NWP Physics Package](#ref-atmosphere-nwp-physics) parameterizations were chosen from different sources, most notably the [COSMO-Model](https://www.cosmo-model.org) and the [IFS model](https://www.ecmwf.int/en/forecasts/documentation-and-support/changes-ecmwf-model).\nOriginally developed for numerical weather prediction, the [NWP Physics Package](#ref-atmosphere-nwp-physics) was extended for seamless application across scales.\nThe [NWP Physics Package](#ref-atmosphere-nwp-physics) can be activated by setting [iforcing](#term-iforcing)=3.\n\n## Dynamical Core[#](#dynamical-core)\n\nThe dynamical core can be considered as the foundations of any numerical model.\nIt predicts the evolution in space and time of all\natmospheric motions which are resolvable on a given mesh.\nTo this end, the dynamical core solves the Euler equations which is a set\nof partial differential equations describing adiabatic and inviscid flow.\nThere exist various approximative forms of the Euler equations in which\ncertain types of motion are filtered out that are difficult to handle numerically.\nWell known examples are the hydrostatic form or the Boussinesq form,\nboth of them not supporting the propagation of acoustic waves.\n\nThe ICON dynamical core solves the fully compressible form of the Euler\nequations, which does support acoustic waves.\nNotable approximations to the exact Euler equations relate to the treatment\nof the Earth as a spherical geoid and the shallow atmosphere approximation\n(see e.g. [Thuburn & White 2013](../literature/literature.html#term-Thuburn-White-2013)).\nThe latter may be deactivated with the Namelist switch\n[ldeepatmo](#term-ldeepatmo)=.TRUE., leading to the so called deep atmosphere form of the\ngoverning equations ([Borchert et al. 2019](../literature/literature.html#term-Borchert-et-al.-2019)). Given a suitable set of physical\nparameterizations, this allows for simulations on model domains\nreaching all the way up to the lower thermosphere.\n\nThe governing set of equations is discretized on an Icosahedral-triangular C-grid\nin horizontal directions, while in vertical direction a height-based terrain following\ncoordinate with Lorenz-type staggering of the prognostic variables is used.\nThe discrete numerical operators, such as the divergence,\ngradient or laplace operator, are constructed using a mixture of finite\ndifference and finite volume discretizations of mostly second order-accuracy.\nThey are combined with a predictor-corrector type two-level time integration\nscheme, leading to a discretization which is mass conserving, but not strictly\nenergy conserving.\n\nFor additional details on the dynamical core, the reader is referred to [Zaengl et al. 2015](../literature/literature.html#term-Zaengl-et-al.-2015)\nand Chapter 3 of the [ICON Tutorial](../literature/literature.html#term-ICON-Tutorial).\n\n## Tracer Transport[#](#tracer-transport)\n\nThe tracer transport module is an important building block of any weather\nprediction or climate model.\nIt solves the tracer mass continuity equation,\nin order to describe the redistribution of gaseous, liquid or solid\natmospheric constituents such as water vapour or rain water due to air\nmotion or gravit",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "The document provides an overview of the ICON atmosphere model, detailing its prognostic and diagnostic variables, physics packages, dynamical core, and tracer transport module.",
+    "provider": {
+      "provider_id": "dkrz",
+      "name": "Deutsches Klimarechenzentrum (German Climate Computing Center)"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "virtual potential temperature",
+        "cf_standard_name": "air_potential_temperature",
+        "long_name": "Virtual potential temperature of the atmosphere",
+        "unit": "K",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "3D wind",
+        "cf_standard_name": [
+          "eastward_wind",
+          "northward_wind"
+        ],
+        "long_name": "Eastward and northward components of the 3-dimensional wind vector",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "northward_wind"
+      },
+      {
+        "native_name": "total air density",
+        "cf_standard_name": "air_density",
+        "long_name": "Total air density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mass fractions of atmospheric water constituents and trace gases",
+        "cf_standard_name": [
+          "specific_humidity",
+          "mixing_ratio_of_trace_gases"
+        ],
+        "long_name": "Mass fraction of atmospheric water vapor and trace gases",
+        "unit": "kg/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "surface pressure",
+        "cf_standard_name": "air_pressure_at_sea_level",
+        "long_name": "Surface air pressure",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind gusts",
+        "cf_standard_name": "wind_speed_of_gust",
+        "long_name": "Wind speed of gusts",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "potential vorticity",
+        "cf_standard_name": "atmospheric_potential_vorticity",
+        "long_name": "Atmospheric potential vorticity",
+        "unit": "m^2/s/kg",
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "icosahedral",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "html",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2371,
+  "_tokens_out": 1194,
+  "_eval_s": 8.65
+}

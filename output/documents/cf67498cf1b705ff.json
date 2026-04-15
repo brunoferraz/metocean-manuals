@@ -1,0 +1,82 @@
+{
+  "doc_id": "cf67498cf1b705ff",
+  "legacy_doc_id": "3692aac45d85",
+  "filename": "ARCTIC_OMI_TEMPSAL_FWC_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/ARCTIC_OMI_TEMPSAL_FWC_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.43,
+  "pages": 11,
+  "text_preview": " \nPRODUCT USER MANUAL \nOMI_TEMPSAL_FWC \nFreshwater Content \nARCTIC_OMI_TEMPSAL_FWC \n \n \n \n \n Issue:  1.0 \nContributors: M. Monier, G. Garric, O. Hernandez \n \nApproval Date:  \n \n \n \n \n  \n \nPUM for CMEMS Ocean Monitoring Indicator \nOMI_TEMPSAL_FWC \nRef: CMEMS-OMI-PUM-ARC-TEMPSAL-\nFWC \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 2/ 11 \nCHANGE RECORD \n \nIssue Date § Description of \nChange Author Validated By \n1.0 23 July \n2018 \nall Creation of the \ndocument \nM. Monier  \n \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nOMI_TEMPSAL_FWC \nRef: CMEMS-OMI-PUM-ARC-TEMPSAL-\nFWC \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 3/ 11 \nTABLE OF CONTENTS\nGLOSSARY AND ABBREVIATIONS .................................................................................................................. 4 \nI INTRODUCTION ......................................................................................................................................... 5 \nI.1 Summary ...................................................................................................................................................... 5 \nI.2 History of change......................................................................................................................................... 5 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION .......................................................................... 6 \nII.1 General Information about products ....................................................................................................... 6 \nII.2 Details of the datasets ................................................................................................................................ 6 \nII.2.1 ARCTIC_OMI_FWC ........................................................................................................................ 6 \nII.3 Product System Description...................................................................................................................... 8 \nII.3.1 ARCTIC_OMI_TEMPSAL_FWC .................................................................................................... 8 \nII.4 Download a product through the CMEMS Web Portal Ftp Service .................................................... 8 \nIII FILES NOMENCLATURE and FORMAT ............................................................................................. 9 \nIII.1 Nomenclature of files when downloaded through the CMEMS FTP Services  ................................... 9 \nIII.2 File Format: format name ....................................................................................................................... 9 \nIII.3 File size .................................................................................................................................................... 10 \nIII.4 Reading Softwares.................................................................................................................................. 10 \nIV References .................................................................................................................................................... 11 \n \nPUM for CMEMS Ocean Monitoring Indicator \nOMI_TEMPSAL_FWC \nRef: CMEMS-OMI-PUM-ARC-TEMPSAL-\nFWC \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 4/ 11 \nGLOSSARY AND ABBREVIATIONS \nARC Arctic Ocean \nCGLOR C-GLORS reanalysis \nCMEMS Copernicus Marine Environment Monitoring Service \nFWC Freshwater Content \nGLO Global \nGLOR GLORYS2V4 reanalysis \nGREP Global Reanalysis Ensemble Product \nMO Mercator Océan \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nORAS ORAS5 reanalysis \nPUM Product User Manual \nQUID Quality Information Document \n \nPUM for CMEMS Ocean Monitoring Indicator \nOMI_TEMPSAL_FWC \nRef: CMEMS-OMI-PUM-ARC-TEMPSAL-\nFWC \nDate  : 10 September 2018 \nIssue : 1.0 \n \n© EU Copernicus Marine Service Environment Monitoring Service – Public   Page 5/ 11 \nI INTRODUCTION \nI.1 Summary \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator (OMI)  OMI_TEMPSAL_FWC: it \nprovides time series of Freshwater Content (FWC). \nIt contains 1D (time dimension)  FWC information computed from different reanalysis  (“multi-model” \napproach). OMI_FWC product is available for Arctic region with a water depth greater than 500m  . The \nsampling between each data is one month. The ensemble mean, the spread and single members are \ndistributed in the corresponding NetCDF file. \n \nOMI_TEMPSAL_FWC includes one product:  \n ARCTIC_OMI_TEMPSAL_FWC which contains monthly mean time series of FWC averaged over the \nArctic Ocean.  \nThese data are computed using GLOR, CGLO, ORAS reanalysis. \nThe product is published on the CMEMS dissemination server after automatic and delayed-mode quality \ncontrols. ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Ocean Monitoring Indicator OMI_TEMPSAL_FWC, providing details on Freshwater Content (FWC) time series data in the Arctic region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_OMI_TEMPSAL_FWC",
+      "name": "OMI_TEMPSAL_FWC",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_arc_tempsal_fwc_anfc_1M-m",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "FWC",
+        "cf_standard_name": "sea_water_mass_content_of_freshwater",
+        "long_name": "Freshwater Content (FWC)",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 55.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 500.0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

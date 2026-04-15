@@ -1,0 +1,180 @@
+{
+  "doc_id": "86ad8871c052461f",
+  "legacy_doc_id": "12a06be8e60a",
+  "filename": "INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_WAV_DISCRETE_MY_013_045_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.86,
+  "pages": 27,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n    2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n PRODUCT USER MANUAL \n \nFor Multi-Year WAVE In Situ Product \n    INSITU_GLO_WAV_DISCRETE_MY_013_045 \n \n \nIssue:  2.3 \n \nContributors: Marta de Alfonso, Fernando Manzano, Alex Gallardo and In Situ TAC \npartners \nApproval Date: November 2025 \n\n Copernicus Marine Service Product User Manual for \nINSITU_GLO_WAV_DISCRETE_MY _013_045 \nIssue: 2.3 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-045 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 04/09/2020 all Creation of the document from the \nprevious doc with NRT products \nMarta de Alfonso, \nFernando Manzano, Alex \nGallardo and In Situ TAC \nPartners \n \n1.1 03/09/2021  Change in frequency variable name in \nspectra files  \nMarta de Alfonso, \nFernando Manzano, Alex \nGallardo and In Situ TAC \nPartners \nStéphane \nTarot \n1.1 30/11/2021  Correction of external links Stéphane Tarot Stéphane \nTarot \n1.2 21/02/2022  Update for Copernicus Marine 2 & \nadded update frequency \nMarta de Alfonso, \nFernando Manzano, Alex \nGallardo \nStéphane \nTarot \n2.0 06/06/2022  New product naming, new Production \nUnit and new template  \nMarta de Alfonso, \nFernando Manzano, Alex \nGallardo \nStéphane \nTarot \n2.1 02/06/2023  New dataset with hourly data Marta de Alfonso, \nFernando Manzano, Alex \nGallardo \nStéphane \nTarot \n2.2 24/05/2024  Update index format \nUpdate file access \nUpdate TS and WS files examples \nAlex Gallardo, Marta de \nAlfonso, Fernando \nManzano \n \nStéphane \nTarot \n \n2.3 09/05/2025 II.5.1 New directory “metadata” to store \nindexes \nAlex Gallardo, Marta de \nAlfonso \nStéphane \nTarot \n \n Copernicus Marine Service Product User Manual for \nINSITU_GLO_WAV_DISCRETE_MY _013_045 \nIssue: 2.3 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-045 \n3 \nTable of Contents \nRECORD TABLE \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ....................................................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 8 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 9 \nII.1 General Information .................................................................................................................................... 9 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Production System Description ................................................................................................................. 14 \nII.4 Processing information .............................................................................................................................. 15 \nII.4.1 Update Time .................................................................................................................................. 15 \nII.4.2 Time averaging .............................................................................................................................. 15 \nII.5 Data distribution......................................................................................................................................... 16 \nII.5.1 Data organisation ........................................................................................................................... 16 \nII.5.2 Index file ........................................................................................................................................ 17 \nII.5.3 File distribution rules ..................................................................................................................... 18 \nIII FILES NOMENCLATURE ....................................................................................................................... 19 \nIII.1.1 Nomenclature of files .................................................................................................................... 19 \nIV FILE FORMAT ................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for the Multi-Year WAVE In Situ product INSITU_GLO_WAV_DISCRETE_MY_013_045, detailing its specifications and updates as of November 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_WAV_DISCRETE_MY_013_045",
+      "name": "Multi-Year WAVE In Situ Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_peak_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPD",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_direction",
+        "long_name": "Mean wave period from variance spectral density direction",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_direction",
+        "long_name": "Mean wave period from variance spectral density direction",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VDIR",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Wave from direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VSPD",
+        "cf_standard_name": "wind_speed_of_gust",
+        "long_name": "Wind speed of gust",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VWND",
+        "cf_standard_name": "wind_speed_of_gust",
+        "long_name": "Wind speed of gust",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "VWND"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

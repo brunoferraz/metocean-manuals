@@ -1,0 +1,67 @@
+{
+  "doc_id": "7316f2543ba09321",
+  "legacy_doc_id": "e465b694c2fa",
+  "filename": "Reports_on_ICON_2019_01.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2019_01.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.64,
+  "pages": 11,
+  "text_preview": "Special Conﬁgurations of the\nAtmosphere\nSebastian Rast\nApril 2019\nMax-Planck-Institut\n für Meteorologie\nIssue\n001 Reports on ICON\nDOI: 10.5676/DWDpub/nwv/icon001\nISSN: 2628-4898\nDOI: 10.5676/DWDpub/nwv/icon001\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRen´e Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nSpecial Configurations Sebastian Rast\nRadiative-convective equilibrium simulations with ICON using\nclimate (“ECHAM”) physics\nSebastian Rast(1), Tobias Becker (1), Dagmar Fl¨ aschner (1),\nAiko Voigt (2)\n(1) Max-Planck-Institute for Meteorology,\n(2) Karlsruher Institut f¨ ur Technologie\nThis document refers to release icon-2.4.0.\nAbstract\nThe basic structure of the atmosphere is determined by radiative cooling of the atmosphere\nand heating mainly through the net release of latent heat through precipitation. In radiative-\nconvective equilibrium experiments this balance is explored on a global scale and needs\nspherically symmetric irradiation and switching oﬀ all eﬀects coming from the rotation of the\nEarth. The corresponding namelist settings are explained in this document for icon-2.4.0.\nKeywords: radiative-convection equilibrium, test case, ICON\nCorrespondence to: Sebastian Rast (sebastian.rast@mpimet.mpg.de)\n1. Introduction\nThe radiative–convective equilibrium (RCE) oﬀers a possibility to improve our fundamental\nunderstanding of processes in the atmosphere and their impact on climate change (e.g. Manabe\nand Strickler (1964)). The idea behind this simpliﬁed modeling of the atmosphere is that the basic\natmospheric structure, especially in the tropics, is determined by the balance between cooling\nof the atmosphere through radiative processes and a commensurate heating through convection,\nmainly by the net release of latent heat through precipitation.\nThe RCE has been investigated in models of diﬀerent complexity, ranging from simple energy\nbalance, 1–dimensional column models to high resolution LES simulations. The RCE is also\nimplemented into the general circulation model ICON by creating a model conﬁguration, where\nthe resulting climate is given merely through the balance of radiative processes and convection.\nColumns can interact with each other and thus create a mean three–dimensional circulation which\ndevelops interactively, although it is very diﬀerent from the general circulation we know from the\nreal Earth. E.g., the RCE results in slowly moving convective clusters of sometimes continental\nextension (Popke et al. (2013)).\nTo inhibit net energy transport from the tropics to the poles, homogeneous boundary conditions\nare speciﬁed, where every gridpoint of the sphere receives the same incoming solar radiation\nReports on ICON - Issue 001 3\nSpecial Configurations Sebastian Rast\n(e.g. about 340 W/m2). A diurnal cycle may be switched on, but is kept exactly the same for\neach column representing a pulsating light source shining from all directions equally. The Earth’s\nrotation velocity is set to zero. In the standard RCE conﬁguration, land–sea contrasts are removed\nand an underlying mixed–layer ocean with a constant ocean albedo should be switched on. The\nsurface temperature calculation of the mixed layer ocean is based on the vertical energy budget\nonly and meant for RCE simulations. Sea ice formation is excluded and there is no heat ﬂux\ncorrection. Land–sea contrasts may be included in idealized form for special studies (Becker and\nStevens (2014)). This model version has not been tested for possible equilibria dependence on\nthe initial boundary conditions yet, nor for complete isotropy of variables expected from the\nhomogeneous boundary conditions.\n2. Setting initial and boundary conditions and parameters for the\nRCE\nWe describe the settings in the standard example script exp.atm rce test here. The mixed layer\nocean is switched on by\nListing 1: Mixed-layer-ocean switch in exp.atm rce test\n& e c h a m _ p h y _ n m l\n...\ne c h a m _ p h y _ c o n f i g ( n ) % lmlo =. TRUE .[. FALSE .]\n...\n/\nwhere n is the domain number (e.g. n=1) for domain number 1, the global domain. We will use\nthe symbol n for the domain index from here on.\nFor the initialization of the RCE conﬁguration, we use the nh testcase nml namelist of\nListing 2.\nListing 2: Testcase namelist for RCE in exp.atm rce test\n& n h _ t e s t c a s e _ n m l\nn h _ t e s t _ n a m e = ’ RCE_glb ’\na p e _ s s t _ c a s e = ’ s s t _ c o n s t ’\na p e _ s s t _ v a l = 25.\ntp e_ tem p = 298.15\ntp e_ psf c = 1013.25 e2\n/\nIn the namelist nh testcase nml (Listing 2), the variable nh test name ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses radiative-convective equilibrium simulations using ICON with climate physics, focusing on namelist settings for version icon-2.4.0 and the initialization of boundary conditions.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O",
+      "region": "Global",
+      "product_types": [
+        "analysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

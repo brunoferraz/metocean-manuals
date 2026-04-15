@@ -1,0 +1,83 @@
+{
+  "doc_id": "ef8c71384ec28366",
+  "legacy_doc_id": "43c78aa01c31",
+  "filename": "OMI_CLIMATE_SST_BAL_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_SST_BAL_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.47,
+  "pages": 10,
+  "text_preview": "  \n \n  \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \nP\nA\nG\nE \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n  \nPRODUCT USER MANUAL \n \nOMI_Baltic_TEMPSAL \nOMI_CLIMATE_SST_BAL_area_averaged_anomalies \nOMI_CLIMATE_SST_BAL_trend \n \nIssue 4.0 \n \n \nContributors: Ioanna Karagali, Wiebke Margitta Kolbe, Jacob L. Høyer \nApproval Date: November 2024 \n \n \n \n \n \nCopernicus Marine Service Product User Manual \nfor \nOMI_CLIMATE_sst_BAL_area_averaged_anomalies  \nOMI_CLIMATE_sst_BAL_trend \nIssue: 4.0 \n2024/05/31 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BALTIC-SST \n \n \nPA\nGE \n11 \n \n \nRecord Table \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2018/09/10 all Creation of the \ndocument   C. Derval \n \n2.0 2019/07/09 all Update for the \nOMI 2018 \nJacob L. Høyer  C. Derval \n \n2.1 2020/09/09 all Update for the \nOMI 2019 \nJacob L. Høyer  C. Derval \n \n2.2 2021/09/10 all Update for the \nOMI 2020 \nWiebke Margitta \nKolbe, Ioanna \nKaragali, Sotirios \nSkarpalezos, Jacob L. \nHøyer \n C. Derval \n \n3.0 2022/06/15 all New template, \nupdate of the OMI \n2021 \nIoanna Karagali, \nWiebke Margitta \nKolbe, Jacob L. Høyer \n C. Derval \n \n3.1 2023/06/14 all Update for the \nOMI 2022 \nIoanna Karagali, \nWiebke Margitta \nKolbe, Jacob L. Høyer \n Copernicus Marine Product \nManagement \n4.0 2024/05/31  Update for 2023, \nChange of \nclimatology to \n1991-2020, \nbackwards \nextension to 1982 \nIoanna Karagali, \nWiebke Margitta \nKolbe, Jacob L. Høyer \n Copernicus Marine Product \nManagement \n  \n \n \nCopernicus Marine Service Product User Manual \nfor \nOMI_CLIMATE_sst_BAL_area_averaged_anomalies  \nOMI_CLIMATE_sst_BAL_trend \nIssue: 4.0 \n2024/05/31 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BALTIC-SST \n \n \nPA\nGE \n11 \nGLOSSARY AND ABBREVIATIONS \nMOI Mercator Ocean International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \n \n \n \n \n \n  \n \n \nCopernicus Marine Service Product User Manual \nfor \nOMI_CLIMATE_sst_BAL_area_averaged_anomalies  \nOMI_CLIMATE_sst_BAL_trend \nIssue: 4.0 \n2024/05/31 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BALTIC-SST \n \n \nPA\nGE \n11 \nTable of Content \n \nGLOSSARY AND ABBREVIATIONS 3 \nDATA ACCESS 5 \nI INTRODUCTION 5 \nI.1. Summary 5 \nI.2. History of changes 6 \nII DESCRIPTION OF THE PRODUCT 7 \nII.1. General information 7 \nII.2. Details of the datasets 8 \nII.3. Product System Description 8 \nIII FILE FORMAT 9 \nIV FILES NOMENCLATURE AND FORMAT 9 \nIV.1. Nomenclature of files 9 \nV REFERENCES 10 \n \n \n  \n \n \nCopernicus Marine Service Product User Manual \nfor \nOMI_CLIMATE_sst_BAL_area_averaged_anomalies  \nOMI_CLIMATE_sst_BAL_trend \nIssue: 4.0 \n2024/05/31 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-BALTIC-SST \n \n \nPA\nGE \n11 \nDATA ACCESS \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is \navailable, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If you have any questions, please contact us. \n \n \nI INTRODUCTION \nI.1. Summary \nThis document is the user manual for the CMEMS Ocean Monitoring Indicator (OMI) \nBALTIC_OMI_TEMPSAL. It contains 2 OMIs :  \n⚫ OMI_CLIMATE_sst_BAL_area_averaged_anomalies \n⚫ OMI_CLIMATE_sst_BAL_trend \n \nThe OMIs provide estimates of monthly area averaged SST anomalies and trends for the Baltic \nSea and North Sea, from 19 82 to 202 3. These estimates are derived from the Multi -Year \nReanalysis product SST_BAL_SST_L4_REP_OBSERVATIONS_ 010_016. The time series of \nanomalies are computed with respect to a monthly climatology of observations from 1991-2020 \n(30 years) . The climatology period is selected according to WMO recommendations (WMO, \n2017) and the most recent practice from the U.S. National Oceanic and Atmospheric \nAdministration practice (https://wmo.int/media/news/updated -30-year-reference-period-\nreflects-changing-climate). \n \nThe product is published on the Copernicus Marine dissemination server after automatic and \ndelayed-mode quality controls. The product is available online and disseminated through the \nCMEMS Information System. Files downloaded are in NetCDF format and follow CF -1.7 \nconvention. \n \n \nDisclaimer: The quality of the product may vary during the proposed time series depend ing on \nthe possible update of the system. \n \nThe two OMIs are described in the Quality Information Document (QUID) CMEMS -SST-OMI-\nQUID-010_027.pdf (see V).  \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Ocean Monitoring Indicators (OMIs) related to Baltic Sea and North Sea, providing monthly area averaged SST anomalies and trends from 1982 to 2023.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_Baltic_TEMPSAL",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation",
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

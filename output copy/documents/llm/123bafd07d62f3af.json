@@ -1,0 +1,85 @@
+{
+  "doc_id": "123bafd07d62f3af",
+  "legacy_doc_id": "41406d10b9b5",
+  "filename": "OMI_EXTREME_SL_IBI_slev_mean_and_anomaly_obs_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_SL_IBI_slev_mean_and_anomaly_obs_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.74,
+  "pages": 9,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \nParc Technologique du Canal - 8-10 rue Hermès - 31520 Ramonville-Saint-Agne, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Service \nEXTREME SL \nSea level \nIssue: 2.1 \n \n \n \n \n \nContributors : Marta de Alfonso, Alejandro Gallardo, Fernando Manzano, Begoña Pérez Gómez \nApproval date : November 2025 \n  \n\n Copernicus Marine Service Quality \nInformation Document for \nOMI EXTREME SL   \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is \nadded to this table.  The third column specifies which sections  or sub-sections \nhave been updated.   The fourth column should mention the version of the \nproduct to which the change applies. \n \nIssue Date § Description of \nChange \nAuthor Validated By \n \n \n \n22/07/2019 \n \nAll \n \nCreation of the \ndocument \n \nMarta de Alfonso, \nAlejandro Gallardo, \nFernando Manzano, \nBegoña Pérez Gómez \n \n \n1.0 \n \n02/10/2019 \n \nAll \n \nAdapt the document to \nthe new OMI structure \nand naming \n \nMarta de Alfonso \n \n \n2.0 02/09/2022  New Product naming \nand new template, \nmodified according to \nnew sea level REP \nproduct input \nMarta de Alfonso, \nBegoña Pérez Gómez \nStéphane Tarot \n2.1 07/05/2025  Estimation of uncertainties \nwith standard deviation \nof percentiles \nMarta de Alfonso, \nBegoña Pérez Gómez, \nAlex Gallardo \nStéphane Tarot \n \n \n \n \n  \n Copernicus Marine Service Quality \nInformation Document for \nOMI EXTREME SL   \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 Products used as input for the computations............................................................................................. 5 \nII SCIENTIFIC VALIDATION .............................................................................................................................. 6 \nIII REFERENCES ............................................................................................................................................... 8 \n \n \n Copernicus Marine Service Quality \nInformation Document for \nOMI EXTREME SL   \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nOMI_EXTREME_SL_BALTIC_slev_mean_and_anomaly_obs \nOMI_EXTREME_SL_NORTHWESTSHELF_slev_mean_and_anomaly_obs \nOMI_EXTREME_SL_IBI_slev_mean_and_anomaly_obs \nOMI_EXTREME_SL_MEDSEA_slev_mean_and_anomaly_obs \nI.2 Indicator evaluation method \nThe EXTREME SL indicators are based on the computation of the 99th and the \n1st percentiles (that represent approximately the 1% highest and lowest values, \nrespectively) of  hourly sea levels derived from in situ sea level observations , \nfollowing the same approach applied by Woodworth and Blackman (2004) to \nextreme sea levels. This me thod determines changes in the frequency \ndistribution of the measured variables. \nAll the data used for the computation of these indicators have been \ndownloaded from Copernicus Marine Service In Situ Thematic Assembly Centre \n(In Situ TAC ) products. The analysis is performed for the following variable: \ncoastal sea level (slev, total sea level at each tide gauge, including the tide) \nmeasured by in situ tide gauges (hourly values).  \nThe periods selected are based on our analysis of the data available in the  \ndifferent In Situ TAC  regions that fulfilled specific criteria of data completeness \nand quality (Pérez Gómez et al 2016, Pérez Gómez et al 2018). Tide gauges \nwere selected according to consolidated and reprocessed  time series of \nhourly sea level data in Copernicus Marine Service  for the period 1993 to the \ntarget year, product INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053. Within these \nperiods, a minimum number of 15 years with completeness index larger than \n70% is required for a station to be included. These data  were then used to \ncompute annually the 99th and 1st percentile levels at each station. \nMore details can be found in the Copernicus Marine Service  Ocean State \nReport (Pérez Gómez et al., 2016; Pérez Gómez et al., 2018). \n \n Copernicus Marine Service Quality \nInformation Document for \nOMI EXTREME SL   \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nI.3 Products used as input for t",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the evaluation method for Ocean Monitoring Indicators (OMI) related to extreme sea levels, focusing on the computation of percentiles from hourly in situ observations.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI EXTREME SL",
+      "model_name": null,
+      "region": "IBI (Iberian-Biscay-Irish Seas)",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "slev",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "coastal sea level (total sea level at each tide gauge, including the tide)",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "observation_qc",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2531,
+  "_tokens_out": 509,
+  "_eval_s": 3.71
+}

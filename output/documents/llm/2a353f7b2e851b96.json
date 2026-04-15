@@ -1,0 +1,353 @@
+{
+  "doc_id": "2a353f7b2e851b96",
+  "legacy_doc_id": "b2cc67a28766",
+  "filename": "BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BALTICSEA_ANALYSISFORECAST_BGC_003_007_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.21,
+  "pages": 40,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \nFor the two Baltic Sea Products: \n \n \n \nBiogeochemical Analysis and Forecasting Product \nBALTICSEA_ANALYSISFORECAST_BGC_003_007 \n& \nPhysical Analysis and Forecasting Product \nBALTICSEA_ANALYSISFORECAST_PHY_003_006 \n \nIssue:  1.3 \n \nContributors : Anja Lindenthal,  Patrik Ljungemyr, Vibeke Huess \nApproval Date : November 2025 \n \n \n \n \n\n Copernicus Marine Product User Manual for \nBALTICSEA_ANALYSISFORECAST_BGC_003_007 \nBALTICSEA_ANALYSISFORECAST_PHY_003_006 \nIssue : 1.3 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2022/06 All \n \nNew document now including both \nproducts: \nBALTICSEA_ANALYSISFORECAST_ \nBGC_003_007 \nBALTICSEA_ANALYSISFORECAST_ \nPHY_003_006 \n \nAnja Lindenthal, , Patrik \nLjungemyr,  \nVibeke \nHuess \n1.1 2023/06 All Updated to include the changes for \nthe November 2023 system upgrades \nAnja Lindenthal, Patrik \nLjungemyr \nV. Huess \n1.2 2024/11 All Updated to include the changes for \nthe November 2024 system upgrades \nV. Huess V. Huess \n1.3 2025/11  Slight update for the November 2025 \nproduction upgrade \n Patrik Ljungemyr, \nVibeke Huess \nV. Huess \n Copernicus Marine Product User Manual for \nBALTICSEA_ANALYSISFORECAST_BGC_003_007 \nBALTICSEA_ANALYSISFORECAST_PHY_003_006 \nIssue : 1.3 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n3 \nTable of Contents \nRECORD TABLE \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ......................................................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 10 \nII.1 General Information .................................................................................................................................. 10 \nII.2 Details of datasets ....................................................................................................................................... 13 \nII.3 Production System Description ................................................................................................................. 19 \nII.3.1 Boundary forcing ............................................................................................................................... 21 \nII.3.2 River and nutrients run-off: ........................................................................................................... 22 \nII.3.3 Surface forcing .............................................................................................................................. 22 \nII.3.4 Data assimilation ........................................................................................................................... 22 \nII.3.5 Description of the Mean Dynamic Topography data ..................................................................... 23 \nII.3.6 The runtime schedule ..................................................................................................................... 23 \nII.3.7 Summary of the operational model setups ..................................................................................... 25 \nII.4 Grid .............................................................................................................................................................. 26 \nII.5 Processing information .............................................................................................................................. 27 \nII.5.1 Update Time .................................................................................................................................. 27 \nII.5.2 Temporal extent of analysis and forecast stored on delivery mechanism ...................................... 27 \nII.5.3 Time averaging .............................................................................................................................. 27 \nIII FILE FOR",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for two Baltic Sea products, one biogeochemical and one physical, detailing their specifications, datasets, production system description, grid information, processing details, and access methods.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_ANALYSISFORECAST_BGC_003_007 | BALTICSEA_ANALYSISFORECAST_PHY_003_006",
+      "name": "Baltic Sea Analysis and Forecasting Products",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_balt_phy-anfc_0.1deg_P1D-m | cmems_mod_balt_bgc-anfc_0.1deg_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 24
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "chlorophyll_a_concentration",
+        "cf_standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+        "long_name": "Chlorophyll-a Concentration in Sea Water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate_concentration",
+        "cf_standard_name": "mole_concentration_of_nitrate_in_sea_water",
+        "long_name": "Nitrate Concentration in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate_concentration",
+        "cf_standard_name": "mole_concentration_of_phosphate_in_sea_water",
+        "long_name": "Phosphate Concentration in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "silicate_concentration",
+        "cf_standard_name": "mole_concentration_of_silicate_in_sea_water",
+        "long_name": "Silicate Concentration in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen_concentration",
+        "cf_standard_name": "mole_concentration_of_dissolved_oxygen_in_sea_water",
+        "long_name": "Dissolved Oxygen Concentration in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "chlorophyll_a_fluorescence",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Chlorophyll-a Fluorescence",
+        "unit": "mV",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "primary_production_rate",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Primary Production Rate",
+        "unit": "mgC/m^2/day",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton_biomass",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Zooplankton Biomass",
+        "unit": "mgC/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phytoplankton_biomass",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Phytoplankton Biomass",
+        "unit": "mgC/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrogen_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Nitrogen Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphorus_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Phosphorus Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "silicate_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Silicate Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "carbon_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Carbon Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Oxygen Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sediment_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Sediment Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nutrient_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Nutrient Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "primary_production_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Primary Production Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton_cycle",
+        "cf_standard_name": "not_applicable",
+        "long_name": "Zooplankton Cycle Variables",
+        "unit": "mol/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -5,
+        "lon_max": 30,
+        "lat_min": 54,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 21,
+      "depth_min_m": 0,
+      "depth_max_m": 800
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 7288,
+  "_tokens_out": 5661,
+  "_eval_s": 42.95
+}

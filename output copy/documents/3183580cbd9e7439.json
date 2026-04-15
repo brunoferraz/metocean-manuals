@@ -1,0 +1,198 @@
+{
+  "doc_id": "3183580cbd9e7439",
+  "legacy_doc_id": "980b000747b7",
+  "filename": "BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BLKSEA_ANALYSISFORECAST_PHY_007_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.04,
+  "pages": 60,
+  "text_preview": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \nBlack Sea Production Centre \nBLKSEA_ANALYSISFORECAST_PHY_007_001 \n \n \n Issue: 6.0 \nContributors: E. Jansen, D. Azevedo,  A. Aydogdu, S. Causio, M. Ilicak, F. Trotta, A. Maslo, A. Sözer, S.  Ciliberti, L. \nLima, F. Costa, E. Peneva, R. Lecci \nApproval date by the CMEMS product quality coordination team: 15/10/2025 \n \n \n \n \n  \n \n\nQUID for BLK MFC Product \nBLKSEA_ANALYSISFORECAST_PHY_007_001 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-001 \n28 May 2025 \n6.0 \n  \n \n                                                      Page 2/ 60 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies.  \n \nIssue Date § Description of Change Author Validated By \n2.0 31 January \n2017 \nall Creation of the document for V3 S. Ciliberti   \n 1 February \n2017 \nall Revision E. Peneva, A. Storto  \n2.1 24 February \n2019 \nall General revision of the text. Updated \nBLK-PHY NRT system and product \nquality  \nS. Cilberti Mercator \nOcean \n2.2 08 \nSeptember \n2019 \n Including quality control after BLK-PHY \nprocessing system upgrade. First draft \nhighlighted in yellow in Section VI.2 \nS. Ciliberti, E. Jansen, \nL. Stefanizzi \n \n 26 \nSeptember \n2019 \n$VI Updated statistics and addition of MLD \nevaluation in Section VII \nL. Stefanizzi, E. \nJansen, S. Ciliberti \nE. Peneva \n3.0 15 January \n2021 \nall Updated product S. Ciliberti, E. Jansen, \nD. Azevedo, L. \nStefanizzi, S. Causio, \nM. Ilicak \nE. Peneva \n 21 April \n2021 \nall Revision of plots S. Ciliberti E. Peneva \n3.1 10 \nSeptember \n2021 \n$II.1\n.1, \n$VI \nUpdated upstream data and updated \nstatistics observations) \nS. Ciliberti, E. Jansen, \nD. Azevedo, L. \nStefanizzi, S. Causio \nE. Peneva \n4.0 1 \nSeptember \n2022 \nall Updated product: modeling system \nincluding tides. \nE. Jansen, D. \nAzevedo, L. \nStefanizzi, S. Causio, \nM. Ilicak, S. Ciliberti \nE. Peneva \n4.1 15 \nSeptember \n2023 \nall Updated product: ocean circulation \nnemo model 2 way coupled with WW3 \nwave model. \nE. Jansen, D. \nAzevedo, S. Causio, \nM. Ilicak, A. Maslo, \nA. Sözer \nE. Peneva \n5.0 September \n2024 \nall Updated product: extending the \ndomain to include the Azov Sea. \nE. Jansen, D. \nAzevedo \nE. Peneva \n \n \nQUID for BLK MFC Product \nBLKSEA_ANALYSISFORECAST_PHY_007_001 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-001 \n28 May 2025 \n6.0 \n  \n \n                                                      Page 3/ 60 \nIssue Date § Description of Change Author Validated By \n6.0 May 2025 all Updated product: use of EFAS v5.0 \ndaily discharge data for 89 rivers, \ndelivery of sea-ice variables, updated \nDA system with barotropic model. \nE. Jansen, D. \nAzevedo, A. \nAydogdu \nE. Peneva, R. \nLecci \n \n \n  \nQUID for BLK MFC Product \nBLKSEA_ANALYSISFORECAST_PHY_007_001 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-001 \n28 May 2025 \n6.0 \n  \n \n                                                      Page 4/ 60 \nACRONYM TABLE \n \nAcronym Description \nArgo International profiling float network (www.argo.net) \nBLK-PHY Black Sea Physics and Analysis Forecast \nEAN Estimated Accuracy Number \nEAS European Analysis System \nEOF Empirical Orthogonal Function \nMLD Mixed Layer Depth \nMY Multi-year \nNEMO Nucleus for European Modelling of the Ocean \nNIHWM National Institute of Hydrology and Water Management \nNRT Near Real Time \nPSU Practical Salinity Units \nREP Reprocessing \nSLA Sea Level Anomaly \nSSS Sea Surface Salinity \nSST Sea Surface Temperature \nTAC Copernicus Marine Service Thematic Assembly Centre \nU-TSS Unstructured Turkish Strait System \nWW3 WaveWatch III \n \nKEY DEFINITIONS \n \nRim current  Permanent, basin -wide ocean current that flows counter -clockwise  \nprimarily along the continental slope of the Black Sea. \n      \nRELEVANT DOCUMENT LIST \n \nDA 1 07_EN_CCTP_21002-COP-MFC CMEMS Statement of Work \nQUID for BLK MFC Product \nBLKSEA_ANALYSISFORECAST_PHY_007_001 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-001 \n28 May 2025 \n6.0 \n  \n \n                                                      Page 5/ 60 \nDA 2 CMEMS-PQ-ScQP-BLK-PHY CMEMS BLK-PHY Scientific Pre \nOperational Qualification Plan \nDA 3 CMEMS-PQ-ScVP-BLK-PHY CMEMS BLK-PHY Scientific Validation \nPlan \nDA 4 CMEMS-PQ-Metrics-names-convention Convention on Metrics Name for \nProduct Quality Assessment \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the BLKSEA_ANALYSISFORECAST_PHY_007_001 product, detailing its updates and contributors since January 2017.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_ANALYSISFORECAST_PHY_007_001",
+      "name": "Black Sea Physics and Analysis Forecast",
+      "model_name": "NEMO v4.2.2",
+      "region": "Black Sea",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Sea Water Potential Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "u10",
+        "cf_standard_name": "eastward_wind",
+        "long_name": "Eastward Wind Speed at 10m",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "v10"
+      },
+      {
+        "native_name": "v10",
+        "cf_standard_name": "northward_wind",
+        "long_name": "Northward Wind Speed at 10m",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "u10"
+      },
+      {
+        "native_name": "taux",
+        "cf_standard_name": "surface_downward_eastward_stress",
+        "long_name": "Surface Downward Eastward Stress",
+        "unit": "Pa",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "tauy"
+      },
+      {
+        "native_name": "tauy",
+        "cf_standard_name": "surface_downward_northward_stress",
+        "long_name": "Surface Downward Northward Stress",
+        "unit": "Pa",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "taux"
+      },
+      {
+        "native_name": "sosstsst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature (SST)",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sosaline",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity (SSS)",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 45,
+        "lat_min": 39,
+        "lat_max": 48
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 20,
+      "depth_min_m": 0,
+      "depth_max_m": 1000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 8479,
+  "_tokens_out": 4473,
+  "_eval_s": 34.02
+}

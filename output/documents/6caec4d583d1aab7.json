@@ -1,0 +1,96 @@
+{
+  "doc_id": "6caec4d583d1aab7",
+  "legacy_doc_id": "07660ba90ce9",
+  "filename": "INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.08,
+  "pages": 56,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : N. Verbrugge, H. Etienne, Christine Boone, L. Corgnati, C. Mantovani, \nE. Reyes, L. Solabarrieta, A. Rubio, P. Rotllán, T. Carval, J. Mader, L. Drouineau \n \nApproval Date : November 2025 \n \nFor Near Real-Time INSITU UV product \n \n INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \nIssue: 2.6 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \n© EU Copernicus Marine Service – Public   \nCMEMS-INS-PUM-013-048 \nIssue 2.6 – November 2025 \nRECORD TABLE \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 15/01/2019 \n  \n  \n  \nAll \n  \n  \nCreation of the document \n  \n  \n  \nNathalie Verbrugge, \nHélène Etienne, Julien \nMader, Lorenzo \nCorgnati, Carlo \nMantovani, Emma \nReyes, Anna Rubio, Paz \nRotllán and Jose Luis \nAsensio. \nL. Petit de \nla Villéon \n2.0 29/11/2019 All 1st update of the document: \nUpdate of existing dataset \n(radar_total) \nAddition of a new dataset \n(radar_radial) \nLorenzo Corgnati, Carlo \nMantovani, Emma \nReyes, Anna Rubio, \nJulien Mader, Paz \nRotllán, Nathalie \nVerbrugge, Hélène \nEtienne \n  \n2.1 11/09/2020 All Use the new PUM template \nAddition of Argo currents dataset \nThierry Carval Stéphane \nTarot \n2.2 23/05/2022 All New template, renaming of product & \ndatasets, removal of drifter_filt \ndataset + additional data for the \nMediterranean Sea \nN. Verbrugge Stéphane \nTarot \n2.3 30/05/2023 II.1 \nV.3.1.1 \nAdd informations for undrogued \ndrifters \nH.Etienne, N. Verbrugge Stéphane \nTarot \n2.4 23/01/2024  Add drifters new wind slippage \ncorrection variables \nH.Etienne Stéphane \nTarot \n2.5 27/05/2024 All Update of the download description + \nupdate of the index files description \nN. Verbrugge S. Tarot \n2.6 20/05/2025 All  New document format, update of the \nFigure 1, with additional “metadata” \nfolder that contains index files.  \nN. Verbrugge S. Tarot \n \n  \n \n \n \n3 Product User Manual for INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048 \n© EU Copernicus Marine Service – Public   \nCMEMS-INS-PUM-013-048 \nIssue 2.6 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 5 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary ................................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 9 \na) General Information ............................................................................................ 9 \nb) Production System Description ........................................................................ 10 \nc) Dataset details .................................................................................................... 10 \nd) Data distribution ................................................................................................. 13 \na. Data organization ................................................................................................................................................................ 13 \nb. Index files ................................................................................................................................................................................ 15 \ne) Processing information ...................................................................................... 20 \nf) Product use and impact ................................................................................... 20 \n3) FILE FORMAT .................................................................................................... 21 \na) Structure of files .................................................................................................. 21 \na. Content: variables ............................................................................................................................................................... 21 \nDrifter variables ........................................................................................................................................................................ 21 \ndrifter dimensions .................................................................................................................................................................... 24 \nRadar_total dimensions .................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048, detailing the near real-time UV product from MERCATOR OCEAN INTERNATIONAL under the EU Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_UV_DISCRETE_NRT_013_048",
+      "name": "Near Real-Time INSITU UV Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "drifter variables",
+        "cf_standard_name": null,
+        "long_name": "Variables related to ocean drifters",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "radar_total dimensions",
+        "cf_standard_name": null,
+        "long_name": "Dimensions for radar total dataset",
+        "unit": null,
+        "physical_quantity": "observation_qc",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

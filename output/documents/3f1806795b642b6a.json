@@ -1,0 +1,111 @@
+{
+  "doc_id": "3f1806795b642b6a",
+  "legacy_doc_id": "0a3432c8c8d6",
+  "filename": "IBI_ANALYSISFORECAST_WAV_005_005_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/IBI_ANALYSISFORECAST_WAV_005_005_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 7.42,
+  "pages": 53,
+  "text_preview": " \n  \nAtlantic -Iberian Biscay Irish- IBI Production Centre  \nIBI_ANALYSISFORECAST_WAV_005_005  \n \n \n Issue: 5.1 \nContributors: Breogan Gomez, Lotfi Aouf, Alice Dalphinet, Louna Louis, Axel Alonso, Manuel Garcia, Jose Maria \nValdecasas, Stefania Ciliberti, Roland Aznar, Marcos García Sotillo \n \nApproval date by the CMEMS Product Quality Coordination Team: 21/11/2025 \n \n \n \n \n  \n \n\nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_WAV_005_005 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-005 \n16 September 2025 \n5.1 \n \n \n                                                    \n  Page 2/ 53 \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 \n \n \n \n23/12/2016 \n \n \n \nAll \n \n \n \n[EIS April 2017: IBI-V3 version]  \nCreation of the QUID document for \nthe IBI MFC NRT Wave forecast \nproduct (operational launch \ncoincident with V3 Copernicus \nMarine Service Release). \nM. G. Sotillo  \nL. Aouf \nM. Alfonso \nR. Renaud \nC. Toledano \nP. Lorente \nA. Dalphinet \nE. Álvarez \nFanjul  \nA. Melet \n \n \n \n2.0 23/01/2018 \n \n \n \nAll \n \n \n \n[EIS Mar 2018: IBI-V4 version]  \n Update of the QUID for the IBI NRT \nWave forecast product to include V4 \nchanges.   \n \nM. Sotillo \nL. Aouf \nM. Alfonso \nR. Renaud \nC. Toledano \nP. Lorente \nA. Dalphinet \nE. Álvarez \nFanjul  \nA. Melet \n \n \n3.0 18/04/2019 All [EIS Jul 2019: IBI-V5 version]  \nUpdate of the QUID for the new \nrelease of  IBI NRT Wave forecast \nproduct.  \nC. Toledano \nA. Dalphinet \nP. Lorente \nM. de Alfonso \nM. Ghantous \nL. Aouf \nM. G. Sotillo. \nMercator \nOcean \n3.1 04/09/2019 All [EIS Dec 2019: IBI-V5 version]  \nUpdate of QUID to include the \nchange in atmospheric forcing \nfrequency (from 3 -hour to hourly \nwinds). \nC. Toledano \nP. Lorente \nM. de Alfonso \nM. G. Sotillo \nMercator \nOcean \n4.0 27/03/2020 All [EIS Jul 2020: IBI-V6 version]  \nUpdate of the QUID for the new \nrelease of IBI NRT Wave forecast \nproduct. \nC. Toledano \nM. Ghantous \nA. Dalphinet \nP. Lorente \nM. de Alfonso \nL. Aouf \nM. G. Sotillo. \nMercator \nOcean \n4.1 10/09/2020 All [EIS Dec 2020: IBI-V6 version]  \nUpdated of the QUID to include the \nnew extension up to 10 forecast days \nfor IBI-WAV-NRT, cycle 12H \nC. Toledano \nM. Ghantous \nA. Dalphinet \nP. Lorente \nM. de Alfonso \nL. Aouf \nM. G. Sotillo. \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_WAV_005_005 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-005 \n16 September 2025 \n5.1 \n \n \n                                                    \n  Page 3/ 53 \n \nIssue Date § Description of Change Author Validated By \n4.2 16/06/2022 All [EIS Nov 2022: IBI-V6 version]  \nUpdate of the QUID to include the \nnew spectra data assimilation. \nC. Toledano \nA. Dalphinet  \nL. Aouf \n Marie \nDrevillon \n4.3 16/06/2023 I, II, \nV \n[EIS Nov 2023: IBI-V6 version]  \nUpgrade of the product catalogue to \ninclude new variables. \nC. Toledano \nA. Dalphinet  \nL. Aouf \nS. Ciliberti \nMarcos Garcia \nSotillo \n5.0 30/05/2024 All [EIS Nov 2024: IBI-V7 version] \nNew product at 1/36° resolution \nB. Gomez, L. \nAouf, A. \nDalphinet, A. \nAlonso, S. \nCiliberti \nS. Cailleau, M. \nG. Sotillo \n5.1 16/09/2025 All Inclusion of the validation of Hc,max. B. Gomez,       \nA. Alonso,         \nS. Ciliberti \nS. Cailleau,     \nS. Ciliberti \n \n  \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_WAV_005_005 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-005 \n16 September 2025 \n5.1 \n \n \n                                                    \n  Page 4/ 53 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nII Production system description .................................................................................................................... 8 \nIII Validation framework ............................................................................................................................... 11 \nIV Validation results ...................................................................................................................................... 13 \nIV.1 Qualification using satellite observations .............................................................................................. 13 \nIV.1.1 Significant Wave Height ................................................................................................................. 13 \nIV.2 Qualification using in-situ observations ..................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for IBI MFC products, specifically focusing on wave analysis and forecast data in the Atlantic-Iberian Biscay Irish region. It details changes to the product over various versions and includes validation results using satellite and in-situ observations.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_ANALYSISFORECAST_WAV_005_005",
+      "name": "Atlantic-Iberian Biscay Irish Wave Analysis and Forecast",
+      "model_name": "WAM | WW3",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean Wave Direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth",
+        "long_name": "Mean Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/36°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -90,
+        "lon_max": 50,
+        "lat_min": 28,
+        "lat_max": 70
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,142 @@
+{
+  "doc_id": "7f868ffac4a3985a",
+  "legacy_doc_id": "44fc292daee7",
+  "filename": "IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/IBI_ANALYSISFORECAST_BGC_005_004_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.39,
+  "pages": 50,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \n \n \nIBI_ANALYSISFORECAST_BGC_005_004 \n \nIssue:  4.2 \n \n \nContributors : Lluís Castrillo-Acuña, Elodie Gutknecht, Roland Aznar, Marcos G. Sotillo, Sylvain \nCailleau \nApproval Date : NOV 2024 \n \n\n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_BGC_005_004 \nIssue : 4.2 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-004 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 \n \n \n \n18/01/2017 \n \n \nAll \n \n \n[EIS April 2017: IBI-V3 version]  \nCreation of the PUM document. \nFirst release of the IBI biogeochemical \nanalysis and forecast product. \nOperational launch coincident with update \nof the physical product (IBI-V3 version). \nM.G. Sotillo \nT. Dabrowski \nA. Amo \nE. Gutknecht \n \nE. Álvarez \nFanjul \n \n \n2.0 18/01/2018 All [EIS March 2018: IBI-V4 version]  \nNew system version.  \nChanges on river inputs, permanent burial \nand atmospheric pCO2.  \nOperational launch coincident with update \nof the physical product. \nUpdate of the whole historical catalogue. \nA. Amo \nT. Dabrowski \nE. Gutknecht \nP. Bowyer \nM.G. Sotillo \nE. Álvarez \nFanjul \nA. Melet \n2.1 17/04/2019 All [EIS July 2019: IBI-V5 version] \nNew variables distributed: pH, DIC and \nspCO2 \nNew dataset for static files. \nA. Amo M.G. Sotillo \n2.2 03/04/2020  [EIS July 2020: IBI-V5 version]  \nForecast horizon extended to +10 days. \nR. Aznar M.G. Sotillo \n3.0 10/09/2020  [EIS December 2020: IBI-V6 version]  \nNew system version.  \nRevised river inputs.  \nPermanent burial function of bottom \nfriction.  \nCI and OBC from new global system.   \nEffect of wave -current coupling in forecast \nmode. \nOperational launch coincident with update \nof the physical product.  \nUpdate of the whole historical catalogue. \nNetCDF-4 file format. \nRenaming of product/datasets. \nA. Amo  \nE. Gutknecht \nM.G. Sotillo \n4.0 08/08/2022 All [EIS November 2022: IBI-V7 version]  \nNew system version.  \nNew variable distributed: zooplankton. \nOperational launch coincident with update \nof the physical product. \nUpdate of the whole historical catalogue. \nDelivery of IBI BIO best estimate: additional \nhindcast run (coupled to the best and \ndefinitive IBI PHY analysis). \nA. Amo  \nE. Gutknecht \nR. Aznar \nM.G. Sotillo \n4.1 16/06/2023 II.4 [EIS November 2023: IBI-V7version] A. Amo  \nE. Gutknecht \nS. Cailleau \nM. G. Sotillo \n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_BGC_005_004 \nIssue : 4.2 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-004 \n3 \n \nUpdate to the new NRT GLO PHY/BGC open \nboundary conditions (1/12°).  \n \nR. Aznar \n4.2 31/05/2024 All [EIS November 2024: IBI-V8 version]  \nNew variable distributed: light attenuation. \nUpdated product mask.  \n \nL. Castrillo \nR. Aznar \nS. Cailleau \nM. G. Sotillo \n Copernicus Marine Product User Manual for \nIBI_ANALYSISFORECAST_BGC_005_004 \nIssue : 4.2 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-IBI-PUM-005-004 \n4 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 5 \nDATA ACCESS ......................................................................................................................................................... 6 \nI. INTRODUCTION ................................................................................................................................................. 7 \nI.1 Summary......................................................................................................................................................... 7 \nI.2 History of changes .......................................................................................................................................... 9 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 11 \nII.1 General Information .................................................................................................................................. 11 \nII.2 Details of datasets ....................................................................................................................................... 12 \nII.3 Additional Information on parameters .................................................................................................... 15 \nII.4 Production System Description ................................................................................................................. 16 \nII.5 Grid ...................................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for IBI_ANALYSISFORECAST_BGC_005_004, detailing the product's specifications and updates from its creation to version 8 in November 2024.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_ANALYSISFORECAST_BGC_005_004",
+      "name": "IBI Analysis and Forecast Biogeochemistry Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_concentration",
+        "long_name": null,
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DIC",
+        "cf_standard_name": "sea_water_carbonate_borate_dissolved_inorganic_carbon_concentration",
+        "long_name": null,
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "spCO2",
+        "cf_standard_name": "sea_water_partial_pressure_of_carbon_dioxide",
+        "long_name": null,
+        "unit": "Pa",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton",
+        "cf_standard_name": "zooplankton_biomass_concentration",
+        "long_name": null,
+        "unit": "g/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "light_attenuation",
+        "cf_standard_name": "downwelling_photosynthetically_active_radiation_absorption_coefficient",
+        "long_name": null,
+        "unit": "m^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2616,
+  "_tokens_out": 996,
+  "_eval_s": 7.46
+}

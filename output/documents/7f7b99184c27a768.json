@@ -1,0 +1,166 @@
+{
+  "doc_id": "7f7b99184c27a768",
+  "legacy_doc_id": "e9e06e42c1b5",
+  "filename": "MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_BIO_BGC_3D_REP_015_010_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.11,
+  "pages": 63,
+  "text_preview": " \n \nMulti Observation Production Centre \nGlobal Ocean 3D Chlorophyll-a concentration, \nParticulate Backscattering coefficient, Particulate \nOrganic Carbon, Photosynthetic Available Radiation \nand Downwelling Irradiance Product  \nMULTIOBS_GLO_BIO_BGC_3D_REP_015_010 \n \n Issue: 5.0 \nContributors: R. Sauzède, P.R. Renosh, C. Schmechtig, J. Uitz and H. Claustre \nApproval date by the CMEMS product quality coordination team:  13/11/2025 \n \n \n \n \n  \n \n\nQUID for MOB TAC Products \nMULTIOBS_GLO_BIO_BGC_3D_REP_015_010 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-010 \nNovember 2025  \n5.0 \n \n \n                                                      Page 2/ 63 \n CHANGE RECORD  \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 April 2020 All Initial version of the document R. Sauzède, H. \nClaustre \nS. Guinehut \n2.0 February \n2021 \n Updates linked to the improvement \nof the vertical resolution, the POC \nquality retrieval and the temporal \nextension of the product \nR. Sauzède, H. \nClaustre \nS. Guinehut \n3.0 September \n2021 \n Upgraded Chl product replacing the \nprevious Uitz et al. 2006 \nparameterization method by a \nneural network-based method.  \nR. Sauzède, P.R. \nRenosh, J. Uitz and \nH. Claustre \nS. Guinehut \n4.0 November \n2024 \n Improvement of Chl and bbp /POC \nestimations thanks to new BGC-\nArgo data available and more \naccurate Chl BGC-Ago data used for \nthe neural network training. \nR. Sauzède, P.R. \nRenosh, C. \nSchmechtig, J. Uitz \nand H. Claustre \nH. Etienne \n5.0 November \n2025 \n A major update includes new light \nvariables: PAR, ED380, ED412, and \nED490. These are derived at local \ntime noon using SOCA-light models \n(Renosh et al., 2023). The SOCA-\nlight model was enhanced in 2025 \nthrough retraining, utilizing more \nprofiles and slightly revised input \nvariables. \nR. Sauzède, P.R. \nRenosh, C. \nSchmechtig, J. Uitz \nand H. Claustre \nH. Etienne \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nQUID for MOB TAC Products \nMULTIOBS_GLO_BIO_BGC_3D_REP_015_010 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-010 \nNovember 2025  \n5.0 \n \n \n                                                      Page 3/ 63 \nACRONYM TABLE \nAcronym Description \nbbp Particulate backscattering coefficient \nBGC Biogeochemical \nChl Chlorophyll-a concentration \nED Downwelling Irradiance \nED380 Downwelling Irradiance at 380 nanometers \nED412 Downwelling Irradiance at 412 nanometers \nED490 Downwelling Irradiance at 490 nanometers \nEMS Eastern Mediterranean Sea \nGLO Global \nHPLC High Performance Liquid Chromatography \nKD490 Diffuse Attenuation Coefficient at 490 nanometers \nMAPD Median Absolute Percent Difference \nMDS Marine Data Store \nMLD Mixed Layer Depth \nMLP Multilayer Perceptron \nMULTIOBS Multi Observation \nMY Multi Year \nNN Neural Network \nNASPG North Atlantic Subpolar Gyre \nNASTG North Atlantic Subtropical Gyre \nPAR Downwelling Photosynthetic Available Radiation \nPCA Principal Component Analysis \nPOC Particulate Organic Carbon \nPUM Product User Manual \nQUID Quality Information Document \nr2 Coefficient of Determination \nRMSD Root Mean Square Difference \nRrs Remote Sensing Reflectance \nSeaBASS SeaWiFS Bio-Optical Archive and Storage System \nSLA Sea-level Anomaly \nSO Southern Ocean \nSOCA Satellite Ocean Colour merged with Argo data \nTAC Thematic Assembly Center \nWMO World Meteorological Organization \nWMS Western Mediterranean Sea \n \nQUID for MOB TAC Products \nMULTIOBS_GLO_BIO_BGC_3D_REP_015_010 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-010 \nNovember 2025  \n5.0 \n \n \n                                                      Page 4/ 63 \nKEY DEFINITIONS  \nAccuracy Metrics \nThe accuracy of the derived products is evaluated using a comprehensive \nsuite of metrics computed on both the native and log -transformed data \nspaces to provide a complete picture of model performance. The RMSD \nis used to quantify the overall magnitude of the error in the original units, \nand the MAPD is used to assess the typical relative error; both of these \nmetrics are computed directly on the non -log-transformed (true) data. \nIn contrast, the slope and r 2 is used to measure the linearity and skill of \nthe estimates relative to the observations, and this metric is specifically \ncomputed from the linear regression performed on the log-transformed \ndata. \nerrors \nThe MULTIOBS_GLO_BIO_BGC_3D_REP_015_010 product provides the \nestimated error alongside each core biogeochemical variable (e.g., b bp, \nPOC, Chl, PAR, ED380, ED412, and ED490). The errors for all variables, \nincluding bbp and Chl from the SOCA2024 retrieval, as well as PAR, ED380, \nED412, and ED490 from the SOCA-light-2025 estimation, are determined \nusing a consistent method: measuring the dispersion within the \nensemble of neural network models used for the respective estim",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes a global ocean biogeochemical product that includes chlorophyll-a concentration, particulate backscattering coefficient, particulate organic carbon, photosynthetic available radiation, and downwelling irradiance data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_BIO_BGC_3D_REP_015_010",
+      "name": "Global Ocean Biogeochemistry Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Chl",
+        "cf_standard_name": "chlorophyll_a_concentration_in_sea_water",
+        "long_name": "Chlorophyll-a concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "bbp",
+        "cf_standard_name": "backscattering_coefficient_of_sea_water_due_to_particles_in_sea_water",
+        "long_name": "Particulate backscattering coefficient of sea water due to particles in sea water",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "POC",
+        "cf_standard_name": "particulate_organic_carbon_concentration_in_sea_water",
+        "long_name": "Particulate organic carbon concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PAR",
+        "cf_standard_name": "downwelling_photosynthetic_active_radiation_in_sea_water",
+        "long_name": "Downwelling photosynthetic active radiation in sea water",
+        "unit": "umol/m^2/s",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ED380",
+        "cf_standard_name": "downwelling_irradiance_in_sea_water",
+        "long_name": "Downwelling irradiance at 380 nanometers in sea water",
+        "unit": "W/m^2/nm",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ED412",
+        "cf_standard_name": "downwelling_irradiance_in_sea_water",
+        "long_name": "Downwelling irradiance at 412 nanometers in sea water",
+        "unit": "W/m^2/nm",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ED490",
+        "cf_standard_name": "downwelling_irradiance_in_sea_water",
+        "long_name": "Downwelling irradiance at 490 nanometers in sea water",
+        "unit": "W/m^2/nm",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/4 degree",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

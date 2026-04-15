@@ -1,0 +1,110 @@
+{
+  "doc_id": "575ccdb1cf900d67",
+  "legacy_doc_id": "5f37c3ece43a",
+  "filename": "MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_BGC_SURFACE_NRT_015_016_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.31,
+  "pages": 39,
+  "text_preview": " \n  \nMulti Observation Production Centre \nSargassum Floating Algae Detection Index Product \n MULTIOBS_GLO_BGC_SURFACE_NRT_015_016 \n Issue: 1.0 \nContributors: L. Meunier, O. Lauret, M. Lucas, V. Gastal. \nApproval date by the CMEMS product quality coordination team: 06/11/2025 \n \n \n \n \n  \n \n\nProducts \nMULTIOBS_GLO_BGC_SURFACE_NRT_015_016 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-016 \n28 May 2025 \n1.0 \n \n                                                      Page 2/ 39 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \n \nIssue Date § Description of Change Author Validated By \n1.0 May 2025 All Creation of the document L. Meunier, O. \nLauret, M. Lucas, \nV. Gastal \nH. Etienne \n \n \n \n  \nProducts \nMULTIOBS_GLO_BGC_SURFACE_NRT_015_016 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-016 \n28 May 2025 \n1.0 \n \n                                                      Page 3/ 39 \nACRONYM TABLE \n \nAcronym Description \nABI Advanced Baseline Imager \nAERIS/ICARE Cloud-Aerosol-water-Radiation Interactions Data and Services \nCentre \nAFAI Alternative Floating Algae Index \nBGC Biogeochemical \nCAR Caribbean Sea marine region \nCLS Collecte Localisation Satellites \nCMEMS Copernicus Marine Environment Monitoring Service \nFAI Floating Algae Index \nFAIA Floating Algae Index Anomaly \nGOES Geostationary Operational Environmental Satellite \nGLO Global \nHR High Resolution \nMCI Maximum Chlorophyll Index \nMERIS Medium Resolution Imaging Spectrometer \nMFC Monitoring and Forecasting Centre \nMOB Multi Observations \nMODIS Moderate-Resolution Imaging Spectroradiometer \nMR Medium Resolution \nMSI Multispectral Imager \nN/A Not Applicable \nNASA National Aeronautics and Space Administration \nNBS North Brazil Shelf marine area \nNetCDF Network Common Data Form \nNIR Near Infrared \nNFAI Normalized Floating Algae Index \nNRT Near Real Time \nOBPG Ocean Biology Processing Group \nOLCI Ocean and Land Color Instrument \nOLI Operational Land Imager \nProducts \nMULTIOBS_GLO_BGC_SURFACE_NRT_015_016 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-016 \n28 May 2025 \n1.0 \n \n                                                      Page 4/ 39 \nPQ Product Quality \nPUM Product User Manual \nQUID Quality Information Document \nSWIR Short Wave Infrared \nTAC Thematic Assembly Center \nVHR Very High Resolution \n \n  \nProducts \nMULTIOBS_GLO_BGC_SURFACE_NRT_015_016 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-016 \n28 May 2025 \n1.0 \n \n                                                      Page 5/ 39 \nKEY DEFINITIONS \nPrecision Measure of the number true positive predicted samples over the total \namount of samples labelled as positive. \nRecall Quantifies the proportion of true positive predicted samples  among the \ntotal amount of positive samples contained in the reference \nAccuracy Indication of the proportion of samples that were correctly classified (as \npositive or negative) among the total amount of samples. \nNormalized Floating \nAlgae Index (NFAI) \n \nThe Normalized Floating Algae Index is a normalized version of the \nFloating Algae Index (Hu, 2009) defined by Stum et al. 2019. It is a remote \nsensing index providing information on the presence of sargassum. The \nnormalization allows to limit the effects inherent to wide scale remote \nsensing monitoring such as different sensors, atmospheric  or oceanic \nconditions.  \nFlag Normalized Floating \nAlgae Index \nThis flag variable describes the validity of the NFAI observation within \neach pixel of the dataset. The values indicate whether the pixel was \ncovered by the day’s satellite images or masked because it is outside the \nimages available, affected by cloud cover or on land. It also provides \ninformation on whether the pixel is classified as sargassum-free ocean or \nas a valid sargassum observation.  \nMaximum Chlorophyll \nIndex (MCI) \nThe Maximum Chlorophyll Index  is a remote sensing index providing \ninformation on the presence of sargassum . It was defined by Gower et \nal., 2006, to highlight the presence of sargassum and chlorophyllous \nalgaes.  \nFlag Maximum \nChlorophyll Index \nThis flag variable describes the validity of the MCI observation within \neach pixel of the dataset. The values indicate whether the pixel was \ncovered by the day’s satellite images or masked because it is outside the \nimages available, affected by cloud cover  or on land. It also provides \ninformation on whether the pixel is classified as sargassum-free ocean or \nas a valid sargassum observation. \nFloating Algae Index \nAnomaly (FAIA) \nThe Fl",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the MULTIOBS_GLO_BGC_SURFACE_NRT_015_016 product, detailing its creation and updates by contributors from CMEMS. It includes an acronym table, key definitions of precision, recall, accuracy, NFAI, MCI, FAIA, and flag variables related to these indices.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_BGC_SURFACE_NRT_015_016",
+      "name": "Sargassum Floating Algae Detection Index Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "NFAI",
+        "cf_standard_name": null,
+        "long_name": "Normalized Floating Algae Index",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "MCI",
+        "cf_standard_name": null,
+        "long_name": "Maximum Chlorophyll Index",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "FAIA",
+        "cf_standard_name": null,
+        "long_name": "Floating Algae Index Anomaly",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

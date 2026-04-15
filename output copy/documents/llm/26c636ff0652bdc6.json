@@ -1,0 +1,99 @@
+{
+  "doc_id": "26c636ff0652bdc6",
+  "legacy_doc_id": "0590488d0bea",
+  "filename": "OMI_CLIMATE_SST_IST_ARCTIC_anomaly_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_SST_IST_ARCTIC_anomaly_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.31,
+  "pages": 12,
+  "text_preview": "marine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \n \n \n \nQuality Information Document \n \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring \nService \nArctic Sea & Sea-Ice Surface Temperature \nIssue: 2.0 \n \n \n \nContributors : Ioanna Karagali, Pia Nielsen-Englyst, Wiebke M. Kolbe, Jacob L. Høyer \nApproval date by the CMEMS product quality coordination team : November 2024 \n \n \n \n \n \n \n \n\n \nP\nA\nG\nE \n1\n0 \n \n CMEMS Quality Information Document for \nOMI_ARCTIC_SST_IST \nOMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies \nOMI_CLIMATE_SST_IST_ARCTIC_trend \nOMI_CLIMATE_SST_IST_ARCTIC_anomaly \nIssue : 2.0 \n30.05.2024 \n \n \n© EU Copernicus Marine Service – Public  \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID  is updated and a row is \nadded to this table.  The third column specifies which sections or sub -sections \nhave been updated.  The fourth column should mention the version of the \nproduct to which the change applies. \n \nIssue Date § Description of \nChange \nAuthor Validated By \n1.0 2022/06/16 All Creation of the \ndocument \nIoanna Karagali  \nx.0 2023/08/31 All Addition of text \ndescribing the adjusted \nversion for 2022, \nupdated numbers \nincluding the year \n2022. \nWiebke M Kolbe, \nMatilde Brandt \nKreiner, Ioanna \nKaragali \n \n2.0 2024/05/30 All Temporal extension, \nbackward temporal \nextension, updated \nclimatology \nIoanna Karagali C. Wettre \n      \n      \n \n \n \n \n  \n \nP\nA\nG\nE \n1\n0 \n \n CMEMS Quality Information Document for \nOMI_ARCTIC_SST_IST \nOMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies \nOMI_CLIMATE_SST_IST_ARCTIC_trend \nOMI_CLIMATE_SST_IST_ARCTIC_anomaly \nIssue : 2.0 \n30.05.2024 \n \n \n© EU Copernicus Marine Service – Public  \n \n \nTABLE OF CONTENT \nI Introduction ................................................................................................................................................ 4 \nI.1 Product name ......................................................................................................................................... 4 \nI.2 Indicator evaluation method .................................................................................................................. 4 \nI.3 CMEMS products used as input for the computations ............................................................................ 4 \nII SCIENTIFIC VALIDATION .............................................................................................................................. 6 \nII.1 Arctic Sea Surface & Ice Surface Temperature Anomalies .................................................................. 6 \nII.2 Regional map of Arctic Ocean SST & IST trends and anomaly ............................................................. 7 \nIII REFERENCES ............................................................................................................................................. 11 \n \n \nP\nA\nG\nE \n1\n0 \n \n CMEMS Quality Information Document for \nOMI_ARCTIC_SST_IST \nOMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies \nOMI_CLIMATE_SST_IST_ARCTIC_trend \nOMI_CLIMATE_SST_IST_ARCTIC_anomaly \nIssue : 2.0 \n30.05.2024 \n \n \n© EU Copernicus Marine Service – Public  \n \nI INTRODUCTION \n \nI.1 Product name  \nOMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies,  \nOMI_CLIMATE_SST_IST_ARCTIC_trend and \nOMI_CLIMATE_SST_IST_ARCTIC_anomaly \n \nI.2 Indicator evaluation method \nAll anomalies have been calculated with respect to a monthly climatology from \n1991-2020 (30 years), defined according to WMO recommendations (WMO, \n2017) and the most recent practice from the U.S. National Oceanic and \nAtmospheric Administration practice (ht tps://wmo.int/media/news/updated-\n30-year-reference-period-reflects-changing-climate). To calculate the trends in \nthe surface temperature time series and the confidence intervals on the trends, \nwe used the Mann-Kendall Tau-b non-parametric function with Sens method to \ncompute a coefficient representing a trend for equally spaced data (Mann \n1945; Sen 1968; Kendall 1975). A 95% confidence interval for the trend estimate \nis chosen here.  \nThe Sea Surface and Ice Surface Temperature Level 4 analysis product that \nprovides the input to the monthly averages is taken from the multi -year, \nreprocessed dataset SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016 with the \nregular updates based upon C3S observations.  \n \nI.3 CMEMS products used as input for the computations \nProduct name (and Type) Documentation \n \nP\nA\nG\nE \n1\n0 \n \n CMEMS Quality Information Document for \nOMI_ARCTIC_SST_IST \nOMI_CLIMATE_SST_IST_ARCTIC_area_averaged_anomalies \nOMI_CLIMATE_SST_IST_ARCTIC_trend \nOMI_CLIMATE_SST_IST_ARCTIC_anomaly \nIssue : 2.0 \n30.05.2024 \n \n \n© EU Copernicus Marine Service – Public  \n \nSEAICE_AR",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the Ocean Monitoring Indicator (OMI) for Arctic Sea Surface Temperature and Ice Surface Temperature anomalies, trends, and area-averaged anomalies using data from 1991 to 2020.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "OMI_CLIMATE_SST_IST_ARCTIC_anomaly",
+      "name": "Arctic Sea Surface Temperature and Ice Surface Temperature Anomalies, Trends, and Area-Averaged Anomalies",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST_anomaly",
+        "cf_standard_name": "sea_surface_temperature_anomaly",
+        "long_name": "Sea Surface Temperature Anomalies",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "IST_anomaly",
+        "cf_standard_name": "ice_surface_temperature_anomaly",
+        "long_name": "Ice Surface Temperature Anomalies",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2589,
+  "_tokens_out": 661,
+  "_eval_s": 4.82
+}

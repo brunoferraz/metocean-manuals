@@ -1,0 +1,85 @@
+{
+  "doc_id": "6f692c1caa6ae407",
+  "legacy_doc_id": "b6faf0e370f5",
+  "filename": "OMI_EXTREME_STATE_GLOBAL_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_STATE_GLOBAL_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.25,
+  "pages": 9,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors: Cécile Béchonnet (CLS) \n \nApproval Date: November 2025 \n \nFor  \nOMI_EXTREME_STATE_GLOBAL_trend \nIssue: 2.0 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 \nQuality Information Document for OMI_EXTREME_STATE_GLOBAL_trend  \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-QUID-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this \ntable.  The third column specifies which sections, or sub-sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/05/15 All Creation of the document C. Béchonnet P. Zunino \n2.0 2025/04/28 All \nAdd time series uncertainties. \nAdd a new dataset with global trend \nmaps. \nRename product and datasets \nC.Béchonnet P.Zunino \n      \n \n \n \n3 \nQuality Information Document for OMI_EXTREME_STATE_GLOBAL_trend  \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-QUID-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \na) Mean and 95th percentile of SWH .................................................................... 6 \n3) REFERENCES ....................................................................................................... 9 \n  \n \n \n \n4 \nQuality Information Document for OMI_EXTREME_STATE_GLOBAL_trend  \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-QUID-\nEXTREME_STATE \nIssue 2.0 – November 2025 \n1) INTRODUCTION \na) Product Name  \nOMI_EXTREME_STATE_GLOBAL_trend \n \nb) Indicator Evaluation Method \n \nThe significant wave height (SWH), expressed in metres, is the average height of the highest \none-third of waves. The extreme SWH is defined as the 95th percentile of the daily maximum \nof SWH over a chosen period and region. The 95th percentile (P95) represents the value \nbelow which 95% of the data points fall, indicating higher wave heights than usual. \nTo compute this OMI, we used the reprocessed L4 SWH product, which merges between one \nand four missions at a time (WAVE_GLO_PHY_SWH_L4_MY_014_007) and is available from \n2002 to 2020.  \n \nThen, following Laloue et al. [2024], three regions were selected to compute the regional time \nseries: North Atlantic, South of Australia, Antarctic Circumpolar Current. Both mean and \nextreme SWH were selected on a seasonal basis to account for the seasonal variability of the \nwaves (January, February and March , JFM, and July, August and September, JAS ). Daily \ndata were resampled into seasonal means and P95. Both statistics are in metres. To calculate \nthe 95% confidence interval on the seasonal mean and seasonal extreme time series, a \nbootstrap method was used by resampling the data and calculating the mean and extreme \nvalues 500 times before taking the 97.5 percentile for the upper bound and the 2.5 percentile \nfor the lower bound. Finally, the trends of each time  series were then assessed by linear \nregression as in Timmermans et al. (2020) and are expressed in cm yr -1. The confidence \ninterval for the trends is 90%. \n \nFinally, to produce  the global trend maps , daily data were first resampled into seasonal \ndatasets, distinguishing two main seasons of the year (JFM and JAS) to capture the seasonal \nvariability of wave conditions. The mean and 95th percentile of the significant wave height \n(SWH, in meters)  were then computed. Trends were derived using linear regression and are \nexpressed in cm/yr. If the p -value obtained from the linear regression is less than 0.05, the \ntrend is considered significant. \n \n \n \n \n5 \nQuality Information Document for OMI_EXTREME_STATE_GLOBAL_trend  \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-OMI-QUID-\nEXTREME_STATE \nIssue 2.0 – November 2025 \nc) Copernicus Marine products used as input for the computation \n \nProduct name (and Type) Documentation \nWAVE_GLO_PHY_SWH_L4_MY_014\n_007 \nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/QUID\n/CMEMS-WAV-QUID-01",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the evaluation method for OMI_EXTREME_STATE_GLOBAL_trend, focusing on significant wave height (SWH) and its extreme values over selected regions with seasonal variability analysis.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_EXTREME_STATE_GLOBAL_trend",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "WAVE_GLO_PHY_SWH_L4_MY_014_007",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2529,
+  "_tokens_out": 507,
+  "_eval_s": 3.73
+}

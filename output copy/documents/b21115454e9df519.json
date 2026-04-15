@@ -1,0 +1,127 @@
+{
+  "doc_id": "b21115454e9df519",
+  "legacy_doc_id": "1857f9cba39c",
+  "filename": "INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_BGC_DISCRETE_MY_013_046_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.47,
+  "pages": 18,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nFor Global Ocean Reprocessed in-situ \nObservations of biogeochemical Product \n \n INSITU_GLO_BGC_DISCRETE_MY_013_046 \nIssue: 3.0 \nContributors: Pierre Jaccard, Dag Øystein Hjermann, Jani Ruohola, Sabine Marty, \nTrond Kristiansen, Kai Sørensen, Seppo Kaitala, Antoine Mangin, Sylvie Pouliquen, \nTerry Hannant, Vidar S. Lien, Håvard Vindenes, Virginie Racapé, Jan Even Øie Nilsen, \nElizabeth M. Jones, R. Castano Primo \nApproval Date : November 2025 \n \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for INSITU_GLO_BGC_DISCRETE_MY_013_046 \n© EU Copernicus Marine Service – Public   \nCMEMS-INS-PUM-013-046 \nIssue 3. – November \n 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 13/04/2018  Creation of the document P. Jaccard, D. \nHjermann \n \n 18/04/2018  Reviewed S. Marty  \n 20/04/2018  Reviewed K. Sørensen  \n 20/04/2018  Reviewed S. Pouliquen  \n1.1 31/01/2019  Updated T. Hannant  \n1.2 28/11/2019  Added O2 variables V.S. Lien  \n2.0 29/03/2020  Added nutrients variables V.S. Lien, H. \nVindenes \nC. derval \n2.1 07/09/2020  New PUM format V.S. Lien, V. \nRacapé \n \n2.2 31/08/2021  EMODnet chemistry inclusion V.S. Lien, V. \nRacapé \nS. Tarot \n2.3 30/11/2021  Correction of external links S. Tarot S. Tarot \n2.4 21/02/2022  Added information on update \nfrequency \nV.S. Lien S. Tarot \n2.5 01/05/2022  New product name V.S. Lien S. Tarot \n2.6 01/06/2023  Inclusion of parameters SLCW \nand PHOW \nV.S. Lien S. Tarot \n2.7 17/05/2024  New download description V.S. Lien, J.E.Ø. \nNilsen \nS. Tarot \n3.0 20/05/2025  Inclusion of Easy BGC dataset \nand Carbon dataset \nE.M. Jones, V.S. \nLien, V. Racapé,  \nR. Castano Primo \nS. Tarot \n \n \n \n3 Product User Manual for INSITU_GLO_BGC_DISCRETE_MY_013_046 \n© EU Copernicus Marine Service – Public   \nCMEMS-INS-PUM-013-046 \nIssue 3. – November \n 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details ...................................................................................................... 9 \nd) Additional information on some parameters ................................................ 12 \ne) Processing information ...................................................................................... 12 \nf) Catalogue updating ......................................................................................... 12 \ng) Time averaging ................................................................................................... 12 \nh) Product use and impact ................................................................................... 12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE..................................................................................... 13 \n4.1  FILE SIZE ............................................................................................................... 13 \nThe size of each file depends on the type of instrument and the length of the \nseries of data. It varies from about 60 Kb to about 230 Mb. ................................ 13 \n4.2  STRUCTURE OF FILES ........................................................................................... 13 \n5) REFERENCES ..................................................................................................... 14 \n6) ANNEX ............................................................................................................. 15 \n  \n \n \n \n4 Product User Manual for INSITU_GLO_BGC_DISCRETE_MY_013_046 \n© EU Copernicus Marine Service – Public   \nCMEMS-INS-PUM-013-046 \nIssue 3. – November \n 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF Climate Forecast (convention for NetCDF) \nGLO Global \nMDS Marine Data Store \nMFC Monitoring and Forecasting Centre \nMY Multi",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for INSITU_GLO_BGC_DISCRETE_MY_013_046, detailing the reprocessed in-situ biogeochemical observations from MERCATOR OCEAN INTERNATIONAL. It covers product description, file format, nomenclature, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_BGC_DISCRETE_MY_013_046",
+      "name": "Global Ocean Reprocessed in-situ Observations of biogeochemical Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "O2",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved Oxygen Concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nutrients",
+        "cf_standard_name": "nitrate_concentration, phosphate_concentration, silicate_concentration",
+        "long_name": "Nutrient Concentrations (Nitrate, Phosphate, Silicate)",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SLCW",
+        "cf_standard_name": "sea_surface_carbonate_waters",
+        "long_name": "Sea Surface Carbonate Waters",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PHOW",
+        "cf_standard_name": "photosynthetic_harvesting_of_water",
+        "long_name": "Photosynthetic Harvesting of Water",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2554,
+  "_tokens_out": 872,
+  "_eval_s": 6.37
+}

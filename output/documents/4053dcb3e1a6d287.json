@@ -1,0 +1,195 @@
+{
+  "doc_id": "4053dcb3e1a6d287",
+  "legacy_doc_id": "4d5e19d611eb",
+  "filename": "BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BALTICSEA_MULTIYEAR_BGC_003_012_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.77,
+  "pages": 22,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \nFor the two Baltic Sea Products: \n \n \n \nBiogeochemical Multi Year Product \nBALTICSEA_MULTIYEAR_BGC_003_012 \n& \nPhysical Multi Year Product \nBALTICSEA_MULTIYEAR_PHY_003_011 \n \nIssue:  1.0 \nContributors : Ida Ringgaard, Vasily Korabel, Lena Spruch, Anja Lindenthal, Vibeke Huess  \nApproval Date : June 2024 \n \n \n \n \n\n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2022/11 \n \n \n \n \n \n \n2023/02 \n2024/06 \nAll \n \n \n \n \n \n \nIV \nNew document including both the PHY \nand BGC reanalysis products: \nBALTICSEA_ \nMULTIYEAR_PHY_003_011 \n& \nBALTICSEA_ \nMULTIYEAR_BGC_003_012 \n \nCorrected Product filenames \nMinor update to include operational \ntemporal extensions \nIda Ringgaard, Vasily \nKorabel, Lena Spruch, \nAnja Lindenthal, Vibeke \nHuess \n \n \n \n \nVibeke Huess \nVibeke Huess \nVibeke \nHuess \n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 5 \nI.1 Summary......................................................................................................................................................... 5 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Production System Description ................................................................................................................. 14 \nII.3.1 Model system ................................................................................................................................. 14 \nII.3.2 Multi year (MY) production system .............................................................................................. 15 \nII.4 Grid .............................................................................................................................................................. 18 \nII.5 Processing information .............................................................................................................................. 18 \nII.5.1 Update Time .................................................................................................................................. 18 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 19 \nIV FILES NOMENCLATURE ....................................................................................................................... 20 \nIV.1 Nomenclature of files when downloaded through the Web Portal Subsetter Service  ......................... 20 \nIV.2 Nomenclature of files when downloaded through the FTP Service ...................................................... 20 \nIV.3 Other information: mean centre of Products, land mask value, missing value  ................................... 21 \nIV.4 File size ....................................................................................................................................................... 21 \nV FILE FORMAT ............................................................................................................................................. 22 \n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n4 \nGLOSSARY AND ABBREVIATIONS \nMFC Monitoring and Forecasting Centre \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nBAL Baltic \nCF Climate Forecast (",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for two Baltic Sea products, Biogeochemical Multi Year Product and Physical Multi Year Product, detailing their specifications, datasets, production system description, grid information, processing details, download instructions, file nomenclature, and format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_MULTIYEAR_BGC_003_012 | BALTICSEA_MULTIYEAR_PHY_003_011",
+      "name": "Biogeochemical Multi Year Product and Physical Multi Year Product for Baltic Sea",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Sea Water Density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "chlorophyll_a",
+        "cf_standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+        "long_name": "Mass Concentration of Chlorophyll-a in Sea Water",
+        "unit": "mg/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate",
+        "cf_standard_name": "mole_concentration_of_nitrate_in_sea_water",
+        "long_name": "Mole Concentration of Nitrate in Sea Water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate",
+        "cf_standard_name": "mole_concentration_of_phosphate_in_sea_water",
+        "long_name": "Mole Concentration of Phosphate in Sea Water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "silicate",
+        "cf_standard_name": "mole_concentration_of_silicate_in_sea_water",
+        "long_name": "Mole Concentration of Silicate in Sea Water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen",
+        "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+        "long_name": "Mole Concentration of Dissolved Molecular Oxygen in Sea Water",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_concentration",
+        "long_name": "Sea Water Phosphate Concentration",
+        "unit": "umol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 28,
+        "lat_min": 54,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 30,
+      "depth_min_m": 0,
+      "depth_max_m": 1000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

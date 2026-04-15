@@ -1,0 +1,82 @@
+{
+  "doc_id": "6bb1b8158534a773",
+  "legacy_doc_id": "03611aaa0913",
+  "filename": "OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_area_averaged_mean_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_area_averaged_mean_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.51,
+  "pages": 15,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n \n \n \n \n \n \n \n \n \nPRODUCT USER MANUAL \n \nOMI Ocean Health Chl OceanColour  \n \n \nOMI_HEALTH_CHL_MEDSEA_OCEANCOLOUR_trend \nOMI_HEALTH_CHL_MEDSEA_OCEANCOLOUR_area_averaged_mean \nOMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_trend \nOMI_HEALTH_CHL_BLKSEA_OCEANCOLOUR_area_averaged_mean \nOMI_HEALTH_CHL_BALTIC_OCEANCOLOUR_trend \nOMI_HEALTH_CHL_BALTIC_OCEANCOLOUR_area_averaged_mean \n \nIssue 3.0 \n \n \nContributors: Simone Colella \nApproval Date: November 2024 \n \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 3.0 \n2024/11 \n \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-MEDSEA-BLKSEA-BALTIC-OCEANCOLOUR \n  \n2 \n  \n \nRECORD TABLE \n \n \nIssue Date § Description of \nChange Author Checked \nby Validated by \n1.0 2022/06/16 all Creation of \nthe \ndocument \nS. Colella   \n2.0 2023/06/16 all Update for EIS \nNovember \n2023 \nS. Colella  Copernicus \nMarine \nProduct \nManagement 3.0 2024/06/30 all Update for EIS \nNovember \n2024 \nS. Colella V.E. Brando Copernicus \nMarine \nProduct \nManagement        \n       \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 3.0 \n2024/11 \n \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-MEDSEA-BLKSEA-BALTIC-OCEANCOLOUR \n  \n3 \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nOC Ocean Colour \nMED Mediterranean Sea \nBLK Black Sea \nBAL Baltic Sea \n \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 3.0 \n2024/11 \n \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-MEDSEA-BLKSEA-BALTIC-OCEANCOLOUR \n  \n4 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \nDATA ACCESS ............................................................................................................. 5 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 6 \n DESCRIPTION OF THE PRODUCT ........................................................................... 7 \nII.1. General information ......................................................................................... 7 \n Mediterranean Sea .......................................................................................... 7 \n Black Sea ............................................................................................................ 7 \n Baltic Sea ........................................................................................................... 8 \nII.2. Details of the datasets .................................................................................... 10 \n Mediterranean Sea ........................................................................................ 10 \n Black Sea .......................................................................................................... 11 \n Baltic Sea ......................................................................................................... 12 \nII.3. Product System Description ........................................................................... 13 \n Ocean Colour Trend ...................................................................................... 13 \n Ocean Colour Monthly Mean Time Series .................................................. 13 \n FILE FORMAT ........................................................................................................ 13 \n FILES NOMENCLATURE..................................................................................... 15 \nIV.1. Nomenclature of files .................................................................................. 15 \n REFERENCES ........................................................................................................ 15 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 3.0 \n2024/11 \n \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-MEDSEA-BLKSEA-BALTIC-OCEANCOLOUR \n  \n5 \nDATA ACCESS \nAfter registration, you will be able to download our data.",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI Ocean Health Chl OceanColour, detailing trends and area-averaged means of chlorophyll concentration in the Mediterranean Sea, Black Sea, and Baltic Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI Ocean Health Chl OceanColour",
+      "model_name": null,
+      "region": "Mediterranean Sea | Black Sea | Baltic Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chl",
+        "cf_standard_name": "chlorophyll_concentration_in_sea_water",
+        "long_name": "Chlorophyll concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

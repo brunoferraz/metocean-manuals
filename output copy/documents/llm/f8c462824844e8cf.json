@@ -1,0 +1,114 @@
+{
+  "doc_id": "f8c462824844e8cf",
+  "legacy_doc_id": "393860ce8d34",
+  "filename": "ARCTIC_MULTIYEAR_WAV_002_013_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/ARCTIC_MULTIYEAR_WAV_002_013_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.85,
+  "pages": 28,
+  "text_preview": "1 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : Ana Carrasco, Arild Burud, Arne Melsom, Hiroshi Sumata \n \nApproval Date : November 2025 \n \nFor Arcctic Ocean Wave Multiyear Product \n \n ARCTIC_MULTIYEAR_WAV_002_003 \nIssue: 1.5 \n \n\n2 \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_WAV_002_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-013 \nIssue 1.5 – May 2025 \n \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 \n \n2020/09/10 All \n \nCreation of a multiyear wave product \nwith 3 km resolution that covers the \nperiod from 1993 to 2020 \nAna Carrasco, Arild \nBurud \nL. Bertino \n1.1 \n \n2021/01/15 All \n \nAutomatic updates twice a year Ana Carrasco, Arild \nBurud \nL. Bertino \n1.2 \n \n2022/01/24 II.1, II.5 \n \nAdjusted start date of product Ana Carrasco L. Bertino \n1.3 2023/06/01 All New dataset : monthly climatology; \nnew document template \nArne Melsom L. Bertino \n1.4 2024/04/15 All Extension of time series; new \ndistribution interface \nArne Melsom L. Bertino \n1.5 2025/05/28 All Extension of time series, new \ntemplate \nAna Carrasco, \nHiroshi Sumata \nL. Bertino   \n3 \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_WAV_002_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-013 \nIssue 1.5 – May 2025 \n \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 5 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary ........................................................................................................... 7 \nb) History of changes ............................................................................................ 7 \nc) Polar projections .................................................................................................... 8 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 9 \na) General Information ......................................................................................... 9 \nb) Production System Description ..................................................................... 11 \nc) Dataset details ................................................................................................ 13 \nd) Additional information on some parameters .............................................. 14 \ne) Processing information ................................................................................... 16 \nf) Catalogue updating ...................................................................................... 16 \ng) Time averaging ............................................................................................... 16 \nh) Product use and impact ................................................................................ 16 \n3) FILE FORMAT .................................................................................................... 17 \n4) FILES NOMENCLATURE .................................................................................... 17 \na) Other information: mean centre of Products, land mask and missing value\n 17 \n5) FILE SIZE ............................................................................................................ 18 \n6) STRUCTURE OF FILES ......................................................................................... 18 \n7) REFERENCES ..................................................................................................... 19 \n4 \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_WAV_002_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-013 \nIssue 1.5 – May 2025 \n \n8) ANNEX ............................................................................................................. 20 \n  \n5 \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_WAV_002_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-013 \nIssue 1.5 – May 2025 \n \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assess",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This Product User Manual describes the Arctic Ocean Wave Multiyear Product with a resolution of 3 km, covering the period from 1993 to 2025. It includes details on product specifications, file format, nomenclature, size, structure, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_MULTIYEAR_WAV_002_013",
+      "name": "Arctic Multiyear Wave Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis",
+        "climatology"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_arctic_wav_my_013_013",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTP1",
+        "cf_standard_name": "sea_surface_wave_period_from_variance_spectral_density_first_frequency_moment",
+        "long_name": "Mean wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "3km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 65.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2361,
+  "_tokens_out": 778,
+  "_eval_s": 5.58
+}

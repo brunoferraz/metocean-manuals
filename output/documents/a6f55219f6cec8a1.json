@@ -1,0 +1,82 @@
+{
+  "doc_id": "a6f55219f6cec8a1",
+  "legacy_doc_id": "ad83c930893a",
+  "filename": "MEDSEA_MULTIYEAR_BGC_006_008_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MEDSEA_MULTIYEAR_BGC_006_008_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.52,
+  "pages": 25,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, France \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor Mediterranean Sea Biogeochemical Reanalysis \nProduct \nMEDSEA_MULTIYEAR_BGC_006_008 \nIssue:  3.3 \n \n \n \nContributors: Rafael Gomes de Menezes , Anna Teruzzi, Stefano Salon, Giorgio \nBolzon, Gianpiero Cossarini  \nApproval Date: November 2025 \n\n  \nCMEMS Product User Manual for \nMEDSEA_MULTIYEAR_BGC_006_008 \nIssue: 3.3 \n11/2025/ \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006-008 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 26.01.16 all First version of document R.Lecci, G. Cossarini, S. Salon, \nG. Bolzon  \n1.1 01.04.16 all Change of file nomenclature, general revision. R. Lecci, S. Salon  \n2.0 18.01.17 all General revision for CMEMS EIS V3.0 R. Lecci, S. Salon, G. Bolzon, G. \nCossarini  \n2.1 16.02.18 all General revision for CMEMS EIS V4.1 R. Lecci, G.Bolzon, G. Cossarini  \n2.2 21.01.19 all Addition of 2017 year R. Lecci, G. Bolzon, S. Salon  \n2.3 10.09.19 all Addition of 2018 year \nNew template and general revision \nR.Lecci, G. Cossarini, S. Salon, \nG. Bolzon  \n3.0 15.01.21 all New product and new datasets R.Lecci, G. Cossarini, S. Salon, \nG. Bolzon  \n3.1 10.09.21 all Addition of interim dataset R.Lecci, G. Bolzon, S. Salon  \n3.2 29.11.22 all Additional dataset and upstream data change R.Lecci, G. Bolzon, S. Salon  \n3.3 28.05.25 all \nMerge of Interim and Reanalysis datasets  \nAddition of daily Interim files \nNew dataset nomenclature \nR. G. de Menezes, G. Cossarini, \nA. Teruzzi, G. Bolzon, S. Salon. \nCopernicus \nMarine \nProduct \nManagemen\nt \n \n \n  \nCMEMS Product User Manual for \nMEDSEA_MULTIYEAR_BGC_006_008 \nIssue: 3.3 \n11/2025/ \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MED-PUM-006-008 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ......................................................................................................................................................... 6 \nI INTRODUCTION ............................................................................................................................................ 7 \nI.1 Summary......................................................................................................................................................... 7 \nI.2 History of changes .......................................................................................................................................... 9 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 10 \nII.1 General Information .................................................................................................................................. 10 \nII.2 Details of datasets ....................................................................................................................................... 11 \nII.3 Production System Description ................................................................................................................. 15 \nII.4 Processing information .............................................................................................................................. 17 \nII.4.1 Update Time .................................................................................................................................. 17 \nII.4.2 Temporal extent of reanalysis stored on delivery mechanism ....................................................... 17 \nII.4.3 Time averaging .............................................................................................................................. 17 \nIII FILE FORMAT ......................................................................................................................................... 18 \nIV FILES NOMENCLATURE ....................................................................................................................... 19 \nInformation about nomenclature of files when downloaded can be found in this articles        “ How is \ndefined the nomenclature of Copernicus Marine data? | Copernicus Marine Help Center” . 19 \nIV.1 Nomenclature of files when downloaded through the CMEMS MDS Get Service  ............................. 19 \nIV.2 Nomenclature of the original files ............................................................................................................ 19 \nIV.3 Other information: mean centre of Products, land mask value, missing value  ................................... 21 \nIV.4 File size ....................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for the Mediterranean Sea Biogeochemical Reanalysis product MEDSEA_MULTIYEAR_BGC_006_008, detailing its specifications and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_MULTIYEAR_BGC_006_008",
+      "name": "Mediterranean Sea Biogeochemical Reanalysis",
+      "model_name": null,
+      "region": "Mediterranean",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

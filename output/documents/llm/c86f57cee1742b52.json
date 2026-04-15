@@ -1,0 +1,127 @@
+{
+  "doc_id": "c86f57cee1742b52",
+  "legacy_doc_id": "5bc8a605d61c",
+  "filename": "SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_BAL_PHY_SUBSKIN_L4_NRT_010_034_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.85,
+  "pages": 18,
+  "text_preview": " \n  \nSST TAC Production Centre \nBaltic Sea - Diurnal Subskin Sea Surface Temperature \nAnalysis \nSST_BAL_PHY_SUBSKIN_L4_NRT_010_034 \n \n Issue: 2.0 \nContributors: I. Karagali, W. Kolbe , J. Høyer. \nApproval date by the CMEMS product quality coordination team: 10/11/2025 \n \n \n \n \n  \n \nProducts \nSST_BAL_PHY_SUBSKIN_L4_NRT_010_034 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-034 \n07 November 2025 \n2.0 \n \n                                                      Page 2/ 18 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 June 2022 All Creation of the document I. Karagali, \nW. Kolbe, \nJ. Høyer \nA. Pisano \n2.0 May 2025 All Updated template, \ninclusion of VIIRS sensor on \nNOAA21. \nIoanna Karagali, \nJacob Høyer, \nMatilde B. Kreiner \nA. Pisano \n \n \n \n  \nProducts \nSST_BAL_PHY_SUBSKIN_L4_NRT_010_034 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-034 \n07 November 2025 \n2.0 \n \n                                                      Page 3/ 18 \nACRONYM TABLE \n \nAcronym Description \nAVHRR Advanced Very High Resolution Radiometer \nArgo International profiling float network (www.argo.net) \nDMI Danish Meteorological Institute \nEiS Entry into Service \nESA European Space Agency \nEUMETSAT European Meteorological Satellites \nGHRSST Group for High Resolution Sea Surface Temperature \nMetOp Meteorological Operational Satellites \nMSG Meteosat Second Generation \nNASA National Aeronautics and Space Administration \nNOAA National Oceanic and Atmospheric Administration \nNPP National Polar-orbiting Partnership \nNRT Near Real Time \nOI Optimal Interpolation \nSAF Satellite Application Facility \nSEVIRI Spinning Enhanced Visible and Infrared Imager \nSIC Sea Ice Concentration \nSLSTR Sea and Land Surface Temperature Radiometer \nSST Sea Surface Temperature \nTAC Copernicus Marine Service Thematic Assembly Centre \nVIIRS Visible Infrared Imaging Radiometer Suite \n \n \n \n \n \n \n \n \n \n \n \nProducts \nSST_BAL_PHY_SUBSKIN_L4_NRT_010_034 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-034 \n07 November 2025 \n2.0 \n \n                                                      Page 4/ 18 \nKEY DEFINITIONS \n \nLevel-2 Pre -processed \n(L2P) data product \nGeophysical variables derived from Level 1 source data on the Level 1 \ngrid (typically the satellite swath projection). They are ancillary data and \nmetadata added following GHRSST Data Specification. \nLevel-3 Uncollated (L3U) \ndata product \nL2 data granules remapped to a regular latitude/longitude grid without \ncombining observations from multiple source files. L3U files will typically \nbe “sparse”, corresponding to a single satellite orbit. \nLevel-3 Collated (L3C) \ndata product \nSST observations from a single instrument combined into a space -time \ngrid. In this project, a typical L3C file may contain all the observations \nfrom a single instrument in a 24-hour period. \nLevel-3 Super -Collated \n(L3S) data product \nSST observations from many instruments combined into a space -time \ngrid. In this project, a typical L3S file may contain all the observations \nfrom all available instruments in a 24-hour period. \nLevel 4 (L4) data product SST observations from multiple instruments using an analysis system \n(e.g. optimal interpolation) to produce a gridded, gap-free product. \nSea Ice Corresponds to ocean surface covered by sea ice (>70%) thus the surface \ntemperature is classified as sea-ice surface temperature (IST). \nSea Ice Concentration Fraction (percentage) of the sea surface area of the grid cell \ncontaining sea-ice. \nSea Surface Temperature \n(SST) \nSST is the temperature of the ocean water close to the surface. \nSea Surface Temperature \nat the base of the thermal \nlayer (SSTfoundation) \nThe sea surface foundation temperature ( SSTfoundation) represents the \naverage temperature of the upper ocean layer, free from diurnal (daily) \nfluctuations, such as those caused by solar heating. \nSea Surface Temperature \nat the base of the skin \nlayer (SSTsub-skin) \nThe sea surface subskin temperature (SST sub-skin) is the sea surface \ntemperature at the base of the ocean's \"skin layer,\" a very thin (less than \n1 mm) layer where heat transfer is dominated by conduction, not \nturbulence. \nThermal skin layer The layer within which the long -wave radiation penetrates the ocean, \ntypically less than 1mm, where ocean-atmosphere heat exchange takes \nplace and temperature is measured using Infra-red sensors. \n \n \n \n \n \n \nProducts \nSST_BAL_PHY_SUBSKIN_L4_NRT_010_034 \nRef",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the SST_BAL_PHY_SUBSKIN_L4_NRT_010_034 product, which is a Level-4 near real-time diurnal subskin sea surface temperature analysis for the Baltic Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service Thematic Assembly Centre"
+    },
+    "product_line": {
+      "product_id": "SST_BAL_PHY_SUBSKIN_L4_NRT_010_034",
+      "name": "Baltic Sea Diurnal Subskin SST Analysis",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SSTsub-skin",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature at the base of the skin layer (SST sub-skin)",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SSTfoundation",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature at the base of the thermal layer (SST foundation)",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature (SST)",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration Fraction (percentage)",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2542,
+  "_tokens_out": 866,
+  "_eval_s": 6.38
+}

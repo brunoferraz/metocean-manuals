@@ -1,0 +1,82 @@
+{
+  "doc_id": "6681daba26620311",
+  "legacy_doc_id": "a18113e33bdf",
+  "filename": "GEBCO_2023_grid_docs.md",
+  "filepath": "docs/gebco_docs/GEBCO_2023_grid_docs.md",
+  "extension": ".md",
+  "file_size_mb": 0.02,
+  "pages": 6,
+  "text_preview": "# GEBCO Documentation\n\nSource: https://www.gebco.net/data-products/gridded-bathymetry-data/gebco2023-grid\n\n---\n\n-\n\nThe GEBCO_2023 Grid | GEBCO\n\n[\nSkip to main content\n](#main-content)\n\n# The GEBCO_2023 Grid\n\nImage:\n\n### Introduction\n\nThe GEBCO_2023 Grid is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid of 43200 rows x 86400 columns, giving 3,732,480,000 data points. The data values are pixel-centre registered i.e. they refer to elevations, in meters, at the centre of grid cells.\n\n[Download the GEBCO_2023 Grid](/data-products/historical-data-sets)\n\nThe data are available to download according to the [Terms of Use](/data-products/gridded-bathymetry/terms-of-use) provided below.\n\nThe grid is accompanied by a Type Identifier (TID) Grid, giving information on the types of source data that the GEBCO_2023 Grid is based on.\n\nThe primary GEBCO_2023 grid contains land and ice surface elevation information. A version is also made available with under-ice topography/bathymetry information for Greenland and Antarctica.\n\nThe grid was published in April 2023 and is the fifth GEBCO grid developed through The Nippon Foundation-GEBCO [Seabed 2030 Project](https://seabed2030.org/). This is a collaborative project between the [Nippon Foundation](https://www.nippon-foundation.or.jp/en/) of Japan and [GEBCO](https://www.gebco.net/). The Seabed 2030 Project aims to bring together all available bathymetric data to produce the definitive map of the world ocean floor and make it available to all.\n\n### Grid development\n\nThe GEBCO_2023 Grid is a continuous, global terrain model for ocean and land with a spatial resolution of 15 arc seconds. It uses as a ‘base’ version 2.5.5 of the [SRTM15+ data set](https://topex.ucsd.edu/WWW_html/srtm15_plus.html) between latitudes of 50° South and 60° North. This data set is a fusion of land topography with measured and estimated seafloor topography. This version of SRTM15+ is similar to version 2.1 [Tozer et al., 2019] but includes additional data sets. It uses predicted depths based on the V32 gravity model [Sandwell et al., 2019].\n\nThe SRTM15+ base grid has been augmented with the gridded bathymetric data sets developed by the four Seabed 2030 Regional Centers to produce the GEBCO_2023 Grid. The Regional Centers have compiled gridded bathymetric data sets, largely based on multibeam data, for their areas of responsibility. These regional grids were then provided to the Global Center. For areas outside of the polar regions (primarily south of 60°N and north of 50°S), these data sets are in the form of 'sparse grids', i.e. only grid cells that contain data were populated. For the polar regions, complete grids were provided due to the complexities of incorporating data held in polar coordinates.\n\nThe compilation of the GEBCO_2023 Grid from these regional data grids was carried out at the Global Centre, with the aim of producing a seamless global terrain model. For the 2020 and 2021 releases of the GEBCO grid, the data sets provided as sparse grids by the Regional Centers were included on to the base grid without any blending. This led to discontinuities at the boundary between the regional grids and the base grids in some areas, largely in regions where the base grid is not constrained by measured data, i.e. areas of large differences between the data sets.\n\nFor the 2022 and 2023 GEBCO grid releases, the sparse regional grids have been included on to the base grid using a ‘remove-restore’ blending procedure (Smith and Sandwell, 1997; Becker, Sandwell and Smith, 2009 and Hell and Jakobsson, 2011). This is a two-stage process of computing the difference between the new data and the ‘base’ grid and then gridding the difference and adding the difference back to the existing ‘base’ grid. The aim is to achieve a smooth transition between the 'new' and 'base' data sets with the minimum of perturbation of the existing base data set. However, please note that there may be differences between the 2022 and 2021 grid in regions outside areas of measured data due to the grid merging process. For the polar data sets supplied in the form of complete grids these data sets were included using feather blending techniques from GlobalMapper software version 23.0.1 made available by Blue Marble Geographics. Some additional edits were made to the final grid to remove erroneous values identified in the previous grid and notified to the Global Centre.\n\nThe GEBCO_2023 Grid includes data sets from a number of international and national data repositories and regional mapping initiatives. Information on the data sets included in the grid is given in our [data contributors](/about-us/acknowledgements/our-data-contributors) list.\n\nPlease see the accompanying documentation for more information on the development of the grid.\n\nImage:\n\n[Documentation for the GEBCO_2023 Grid](/sites/default/files/documents/GEBCO_2023_Grid.pdf) (0.1 MB)\n\n### Ice-surface elevation and u",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "The GEBCO_2023 Grid is a global terrain model for ocean and land, providing elevation data on a 15 arc-second interval grid. It includes both land and ice surface elevation information as well as under-ice topography/bathymetry for Greenland and Antarctica.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "GEBCO"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "GEBCO_2023 Grid",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "elevation",
+        "cf_standard_name": "surface_altitude",
+        "long_name": "Elevation data in meters",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "15 arc-seconds",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

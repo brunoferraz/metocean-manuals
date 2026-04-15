@@ -1,0 +1,82 @@
+{
+  "doc_id": "a1f0222605219856",
+  "legacy_doc_id": "a3a4cefd93c1",
+  "filename": "SST_BS_SST_L4_NRT_OBSERVATIONS_010_006_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_BS_SST_L4_NRT_OBSERVATIONS_010_006_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.85,
+  "pages": 41,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors: A. Pisano, C. Fanelli, C. Tronconi, A. Massi, F. La Padula, C. Cesarini, B. \nBuongiorno Nardelli, D. Ciani \n \nApproval Date: November 2025 \n \nFor Sea Surface Surface (SST) Products over the \nBlack Sea \n \n SST_BS_SST_L4_NRT_OBSERVATIONS_010_006 \nSST_BS_SST_L3S_NRT_OBSERVATIONS_010_013 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for SST_BS_SST_L4_NRT_OBSERVATIONS_010_006 and \nSST_BS_SST_L3S_NRT_OBSERVATIONS_010_013 \n \n   \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-004-012 \nIssue 1.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description \nof Change Author Validated \nBy \n1.0 2025/05/28 All Initial version \nA. Pisano, C. Fanelli, C. Tronconi, \nA. Massi, C. Cesarini, F. La Padula, \nB. Buongiorno Nardelli, D. Ciani \nCopernicus \nMarine \nProduct \nManagement \n \n      \n      \n \n \n \n3 Product User Manual for SST_BS_SST_L4_NRT_OBSERVATIONS_010_006 and \nSST_BS_SST_L3S_NRT_OBSERVATIONS_010_013 \n \n   \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-004-012 \nIssue 1.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 9 \nc) Dataset details .................................................................................................... 10 \nd) Additional information on some parameters ................................................ 13 \ne) Processing information ...................................................................................... 14 \nf) Catalogue updating ......................................................................................... 14 \ng) Time averaging ................................................................................................... 14 \nh) Product use and impact ................................................................................... 14 \n3) FILE FORMAT .................................................................................................... 15 \n4) FILES NOMENCLATURE..................................................................................... 15 \n4.1   FILE SIZE .............................................................................................................. 15 \n4.2  STRUCTURE OF FILES ........................................................................................... 17 \n5) REFERENCES ..................................................................................................... 18 \n6) ANNEX ............................................................................................................. 19 \n \n  \n \n \n \n4 Product User Manual for SST_BS_SST_L4_NRT_OBSERVATIONS_010_006 and \nSST_BS_SST_L3S_NRT_OBSERVATIONS_010_013 \n \n   \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-004-012 \nIssue 1.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nGHRSST Group for High Resolution SST \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observations and/or less accurate than in a \nbest-analysis",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Sea Surface Temperature (SST) products over the Black Sea, specifically SST_BS_SST_L4_NRT_OBSERVATIONS_010_006 and SST_BS_SST_L3S_NRT_OBSERVATIONS_010_013. It provides detailed information on product specifications, file format, nomenclature, references, and annexes.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_BS_SST_L4_NRT_OBSERVATIONS_010_006, SST_BS_SST_L3S_NRT_OBSERVATIONS_010_013",
+      "name": "Sea Surface Temperature Products for the Black Sea",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_BS_SST_L4_NRT_OBSERVATIONS_010_006, SST_BS_SST_L3S_NRT_OBSERVATIONS_010_013",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

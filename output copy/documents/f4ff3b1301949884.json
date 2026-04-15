@@ -1,0 +1,169 @@
+{
+  "doc_id": "f4ff3b1301949884",
+  "legacy_doc_id": "ca2d630e6dcb",
+  "filename": "ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/ARCTIC_MULTIYEAR_BGC_002_005_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.69,
+  "pages": 21,
+  "text_preview": "1 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : Caglar Yumruktepe (NERSC), Tsuyoshi Wakamatsu (NERSC), Laurent \nBertino (NERSC), Shuang Gao (NERSC), Hiroshi Sumata (Met.no) \n \nApproval Date : November 2025 \nFor Arctic Ocean BGC Reanalysis Product \n \n ARCTIC_MULTIYEAR_BGC_002_005 \nIssue: 1.0 \n \n\n2 \n \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_BGC_002_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-004 \nIssue 1.0 – November 2025 \n \nRECORD TABLE \n \n \n \n \n \n \n \n \n \n \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/28 All Initial version transferred \nfrom PUM all \nC. Yumruktepe, \nT. Wakamatsu, L. \nBertino, S. Gao, \nH. Sumata \nL. Bertino \n3 \n \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_BGC_002_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-004 \nIssue 1.0 – November 2025 \n \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 5 \nDATA ACCESS ............................................................................................................. 7 \n1) INTRODUCTION .................................................................................................. 8 \na) Summary ........................................................................................................... 8 \nb) Polar projections ............................................................................................... 8 \nc) Vertical coordinates ......................................................................................... 8 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................... 10 \na) General Information ....................................................................................... 10 \nb) Production System Description ..................................................................... 11 \nc) Dataset details ................................................................................................ 14 \nd) Additional information on some parameters .............................................. 15 \ne) Processing information ................................................................................... 15 \nf) Catalogue updating ...................................................................................... 15 \ng) Time and ensemble averaging ..................................................................... 15 \nh) Product use and impact ................................................................................ 15 \n3) FILE FORMAT .................................................................................................... 16 \n4) FILES NOMENCLATURE..................................................................................... 16 \n4.1)    FILE SIZE ........................................................................................................... 17 \n4.2)    STRUCTURE OF FILES ........................................................................................ 17 \n5) REFERENCES ..................................................................................................... 17 \n4 \n \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_BGC_002_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-004 \nIssue 1.0 – November 2025 \n \nANNEX ....................................................................................................................... 17 \n \n  \n5 \n \n \n \n \n Product User Manual for ARCTIC_MULTIYEAR_BGC_002_005 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-PUM-002-004 \nIssue 1.0 – November 2025 \n \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the number of available observations \nit’s not optimal (less observ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This Product User Manual describes the Arctic Ocean BGC Reanalysis product, providing details on its production system, dataset specifics, file format, and access methods.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_MULTIYEAR_BGC_002_005",
+      "name": "Arctic Multiyear BGC Reanalysis",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential Temperature of Sea Water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Sea Water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level",
+        "long_name": "Sea Surface Height Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "eastward_sea_water_velocity",
+        "long_name": "Eastward Sea Water Velocity Component",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "northward_sea_water_velocity",
+        "long_name": "Northward Sea Water Velocity Component",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      },
+      {
+        "native_name": "taux",
+        "cf_standard_name": "eastward_wind_stress",
+        "long_name": "Eastward Wind Stress Component",
+        "unit": "Pa",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "tauy"
+      },
+      {
+        "native_name": "tauy",
+        "cf_standard_name": "northward_wind_stress",
+        "long_name": "Northward Wind Stress Component",
+        "unit": "Pa",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "taux"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 60,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2305,
+  "_tokens_out": 1206,
+  "_eval_s": 8.69
+}

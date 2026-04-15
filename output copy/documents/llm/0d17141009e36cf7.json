@@ -1,0 +1,100 @@
+{
+  "doc_id": "0d17141009e36cf7",
+  "legacy_doc_id": "160ca4d08b3a",
+  "filename": "ncepupp_postprocessor.pdf",
+  "filepath": "docs/gfs_docs/ncepupp_postprocessor.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.34,
+  "pages": 35,
+  "text_preview": "NCEP’s UNIFIED POST NCEP’s UNIFIED POST PROCESSOR (UPP)PROCESSOR (UPP)Hui-Ya Chuang\nPresented by Matthew Pyle\nOutlineOutline–Introduction–Components and Functions–Sample fields generated–Installation–Running wrfpost•Controlling output generation–Running copygb•Specifying target grid–Visualization\nThe critical big picture overviewThe critical big picture overview•The WRF post package (WPP) generates output in GRIB.•Processes model output from both the NMM and the ARW dynamical cores.•The WPP enables product generation on any output grid.\nWPP – I/OWPP – I/O•The WRF post reads in model output in either binary or netCDF format using the WRF I/O API.•Users are encouraged to use netCDF formatted model output for simplicity.  NCEP uses binary output for speed.\nComponents of the WPPComponents of the WPP\nwrfout Fileswrfpostcopygb(primarily ARW)\nThe WPP has two components:  wrfpost and copygb.\nwrf_cntrl.parmVisualization",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes NCEP's Unified Post Processor (UPP) and its role in generating output from WRF model runs, including the use of GRIB format for data exchange.",
+    "provider": {
+      "provider_id": "noaa",
+      "name": "National Centers for Environmental Prediction"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "WRF",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind",
+        "cf_standard_name": "10m_wind_speed",
+        "long_name": "Wind Speed at 10 meters",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "10m_wind_direction"
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": "grib2",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 1468,
+  "_tokens_out": 558,
+  "_eval_s": 3.95
+}

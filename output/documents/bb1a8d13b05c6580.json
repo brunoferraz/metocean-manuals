@@ -1,0 +1,82 @@
+{
+  "doc_id": "bb1a8d13b05c6580",
+  "legacy_doc_id": "062dc18772fe",
+  "filename": "OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.53,
+  "pages": 14,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nOMI Ocean Health Chl OceanColour  \n \nOMI_HEALTH_CHL_ARCTIC_OCEANCOLOUR_area_averaged_mean \nOMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_area_averaged_mean \nOMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_trend \n \nIssue 1.0 \n \n \nContributors: Jane Netting \nApproval Date: November 2022 \n \n \n \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 1.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-ARCTIC_ATLANTIC_GLOBAL-OCEANCOLOUR  \n2 \n \nChange Record \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2022/06/16 all Creation of the \ndocument \nJane Netting  Copernicus \nMarine Product \nManagement \n       \n       \n       \n       \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 1.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-ARCTIC_ATLANTIC_GLOBAL-OCEANCOLOUR  \n3 \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMDS Marine Data Store \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nOC Ocean Colour \nARC Arctic Ocean \nATL North Atlantic Ocean \nGLO Global Ocean \n \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 1.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-ARCTIC_ATLANTIC_GLOBAL-OCEANCOLOUR  \n4 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 5 \n DESCRIPTION OF THE PRODUCT ........................................................................... 6 \nII.1. General information ......................................................................................... 6 \n Arctic Ocean ..................................................................................................... 6 \n Atlantic Ocean ................................................................................................. 6 \n Global Ocean ................................................................................................... 7 \nII.2. Details of the datasets ...................................................................................... 8 \n Arctic Ocean ..................................................................................................... 8 \n Atlantic Ocean ................................................................................................. 8 \n Global Ocean ................................................................................................... 9 \nII.3. Product System Description ............................................................................. 9 \n Ocean Colour Trend ........................................................................................ 9 \n Ocean Colour Daily Mean Time Series ........................................................ 10 \n DOWNLOAD A PRODUCT ................................................................................... 11 \n FILES NOMENCLATURE AND FORMAT ............................................................. 12 \nIV.1. Nomenclature of files .................................................................................. 12 \nIV.2. File Format .................................................................................................... 12 \nIV.3. Reading Softwares ...................................................................................... 13 \n REFERENCES ........................................................................................................ 14 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health Chl OceanColour \nIssue : 1.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-ARCTIC_ATLANTIC_GLOBAL-OCEANCOLOUR  \n5 \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Ocean Monitoring Indicator (OMI). \nIt provides 1D (time) time series and 2D (latitude and longitude) data of chlorophyll \nconcentration trends for the period 1997-2021 for Arctic Sea, Atlantic Ocean and Global Ocean. ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI Ocean Health Chl OceanColour, providing details on chlorophyll concentration trends in the Arctic Sea, Atlantic Ocean, and Global Ocean from 1997 to 2021.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI Ocean Health Chl OceanColour",
+      "model_name": null,
+      "region": "Global | Arctic | Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chl_trend",
+        "cf_standard_name": "chlorophyll_concentration_in_sea_water_trend",
+        "long_name": "Chlorophyll concentration trend in the ocean",
+        "unit": "mg/m^3/year",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

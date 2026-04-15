@@ -1,0 +1,139 @@
+{
+  "doc_id": "980e9f648df87e28",
+  "legacy_doc_id": "e57355107311",
+  "filename": "IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/IBI_ANALYSISFORECAST_BGC_005_004_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 8.68,
+  "pages": 67,
+  "text_preview": " \n  \nAtlantic -Iberia Biscay Ireland- IBI Production Centre \n \nBiogeochemical \nAnalysis and Forecast Product \n \nIBI_ANALYSISFORECAST_BGC_005_004 \n \n \n Issue: 4.2 \nContributors: Elodie Gutknecht, Guillaume Reffray, Roland Aznar, Stefania Ciliberti. \nApproval date by the CMEMS product quality coordination team: 15/11/2024 \n \n \n \n \n  \n \n\nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_BGC_005_004 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-004 \n31 July 2024 \n4.2 \n \n \n                                                      Page 2/ 67 \nCHANGE RECORD \nWhen the quality of the products change s, the QUID is updated, and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the date of the Entry Into Service (EIS) of the new product and the version number to which \nthe change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 18/01/2017 All [EIS April 2017: IBI-V3 version]  \nCreation of the QUID document.  \nFirst release of the IBI biogeochemical analysis and \nforecast product.  \nOperational launch coincident with update of the \nphysical product (IBI-V3 version). \nM.G. Sotillo \nT. Dabrowski \nE. Gutknecht \nP. Bowyer \nP. Lorente \nG. Reffray   \nE. Álvarez Fanjul  \n2.0 18/01/2018 All [EIS March 2018: IBI-V4 version]  \nNew system version.  \nChanges on river inputs, permanent burial and \natmospheric pCO2.  \nOperational launch coincident with update of the \nphysical product. \nUpdate of the whole historical catalogue. \nM.G. Sotillo \nT. Dabrowski \nE. Gutknecht \nP. Bowyer \n P. Lorente \nG. Reffray \nE. Álvarez Fanjul \nA. Melet \n \n2.1 12/04/2019 All [EIS July 2019: IBI-V5 version]  \nNew variables distributed: pH, DIC and spCO2. \nT. Dabrowski \nE. Gutknecht \nP. Lorente \nG. Reffray \nM.G. Sotillo \n \n2.2 03/04/2020  [EIS July 2020: IBI-V5 version]  \nForecast horizon extended to +10 days. \nR. Aznar  \n3.0 \n \n25/09/2020 All [EIS December 2020: IBI-V6 version]  \nNew system version.  \nRevised river inputs.  \nPermanent burial function of bottom friction.  \nCI and OBC from new global system.   \nEffect of wave-current forcing in forecast mode. \nOperational launch coincident with update of the \nphysical product.  \nUpdate of the whole historical catalogue. \nJ.V. McGovern \nT. Dabrowski \nE. Gutknecht \nP. Lorente \nG. Reffray \nR. Aznar \nM.G. Sotillo \n \n4.0 08/08/2022 All [EIS November 2022: IBI-V7 version]  \nNew system version.  \nNew variable distributed: zooplankton. \nOperational launch coincident with update of the \nphysical product. \nUpdate of the whole historical catalogue. \nDelivery of IBI BIO best estimate: additional hindcast \nrun (coupled to the best and definitive IBI PHY \nanalysis). \nE. Gutknecht \nG. Reffray \nR. Aznar \nM. G. Sotillo \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_BGC_005_004 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-004 \n31 July 2024 \n4.2 \n \n \n                                                      Page 3/ 67 \nIssue Date § Description of Change Author Validated By \n4.1 16/06/2023 V, \nVI \n[EIS November 2023: IBI-V7 version]  \nUpgraded system nested into the new GLO -PHY NRT \nsystem (1/12° res., Nov 2022 EIS) and the new GLO-BIO \nNRT system (1/4° res., Nov 2023 EIS) \nE. Gutknecht \nG. Reffray \nS. Ciliberti \nS. Cailleau \n4.2 31/08/2024  [EIS November 2024: IBI-V7 version] \nNew variable distributed: diffusive attenuation \ncoefficient of light in sea water (Kd) \n \nElodie \nGutknecht, \nGuillaume \nReffray, \nStefania \nCiliberti. \nS. Cailleau \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_BGC_005_004 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-004 \n31 July 2024 \n4.2 \n \n \n                                                      Page 4/ 67 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 8 \nII Production system description .................................................................................................................. 10 \nII.1 PISCES biogeochemical model ................................................................................................................. 11 \nII.2 NEMO physical model ............................................................................................................................. 13 \nII.3 Coupling and configuration ..................................................................................................................... 13 \nIII Validation framework ............................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Underpinning Information Document (QUID) for IBI MFC Products, specifically detailing version IBI_ANALYSISFORECAST_BGC_005_004, which includes updates on biogeochemical analysis and forecast products with new variables such as pH, DIC, spCO2, zooplankton, and diffusive attenuation coefficient of light in sea water (Kd).",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_ANALYSISFORECAST_BGC_005_004",
+      "name": "Atlantic - Iberia Biscay Ireland Biogeochemical Analysis and Forecast Product",
+      "model_name": "PISCES biogeochemical model coupled with NEMO physical model",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_concentration",
+        "long_name": "Sea water pH",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DIC",
+        "cf_standard_name": "sea_water_carbonate_concentration",
+        "long_name": "Dissolved Inorganic Carbon",
+        "unit": "mol/kg",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "spCO2",
+        "cf_standard_name": "sea_water_carbon_dioxide_saturation_state",
+        "long_name": "Sea water partial pressure of carbon dioxide",
+        "unit": "Pa",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zooplankton",
+        "cf_standard_name": "zooplankton_concentration",
+        "long_name": "Zooplankton concentration",
+        "unit": "kg/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Kd",
+        "cf_standard_name": "diffusive_attenuation_coefficient_of_light_in_sea_water",
+        "long_name": "Diffusive attenuation coefficient of light in sea water",
+        "unit": "m^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -25,
+        "lon_max": 8,
+        "lat_min": 30,
+        "lat_max": 60
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 41,
+      "depth_min_m": 0.025,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,96 @@
+{
+  "doc_id": "6b91a56b532764c1",
+  "legacy_doc_id": "5a4edb564652",
+  "filename": "wallcraft_new_features_lom2013.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_new_features_lom2013.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 13.47,
+  "pages": 17,
+  "text_preview": "New Features of HYCOM\nAlan J. Wallcraft\nNaval Research Laboratory\n16th Layered Ocean Model Workshop\nMay 23, 2013\nMass Conservation - I\n• Mass conservation is important for climate studies\n◦ It is a powerfull debugging tool even for shorter\ntime scales\n• Many ocean models are Bousinessq\n◦ Density differences are neglected except in terms\nmultiplied by g\n◦ Implies conservation of volume, not mass\n⋄ Still want, and can get, tracer conservation\n• HYCOM is not Bousinessq, so it should conserve\nmass\n◦ Except that it assumes the non-steric SSH\nis a small fraction of the total depth\n⋄ Includes steric effects, such as mean SSH\nrise due to thermal expansion, but does not\nexactly conserve either mass or volume\n⋄ Not satisfactory for coastal domains\n◦ Replaces dp with dp’ nearly everywhere\nMass Conservation - II\n• HYCOM’s reputation for non-conservation is partially\ndue to using dp’ in mean calculations\n◦ Much better conservation properties when\ncorrectly using dp in region-wide means\n◦ HYCOM source code uses dp’ for means,\ni.e. this is a long standing “bug”\n• New option, btrmas=1, for exact mass conservation\n◦ From Remy Baraille at SHOM\n◦ Removes the dp’ “equals” dp approximation\n◦ Note that dp’ is still the prognostic variable\n⋄ Still dp’ in restart and archive ﬁles\n◦ Currently, btrmas=1 is less stable than btrmas=0\n⋄ Still working on making it more stable\n• As a test, 0.72 ◦ Global HYCOM was spun-up for 5\nyears with typical atmospheric forcing and then all\nforcing was removed\n◦ During “spin down” there should be no change to\nthe total heat and salt, i.e. to the mean T and S\nSpin Down Test of Conservation - I\n  3.63100000\n  3.63200000\n  3.63300000\n  3.63400000\n  3.63500000\n  3.63600000\n 0  5  10  15  20  25  30\ndegC\nday\nGLBT0.72, spin-down, Potential Temperature\nbtrmas=0, dp’\nbtrmas=0, dp\nbtrmas=1, dp\n 34.72310000\n 34.72312000\n 34.72314000\n 34.72316000\n 34.72318000\n 34.72320000\n 34.72322000\n 34.72324000\n 34.72326000\n 34.72328000\n 34.72330000\n 0  5  10  15  20  25  30\npsu\nday\nGLBT0.72, spin-down, Salinity\nbtrmas=0, dp’\nbtrmas=0, dp\nbtrmas=1, dp\nSpin Down Test of Conservation - II\n  3.63434700\n  3.63434800\n  3.63434900\n  3.63435000\n  3.63435100\n  3.63435200\n  3.63435300\n 0  5  10  15  20  25  30\ndegC\nday\nGLBT0.72, spin-down, Potential Temperature\nbtrmas=0, dp\nbtrmas=1, dp\n 34.72314150\n 34.72314155\n 34.72314160\n 34.72314165\n 34.72314170\n 0  5  10  15  20  25  30\npsu\nday\nGLBT0.72, spin-down, Salinity\nbtrmas=0, dp\nbtrmas=1, dp",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses improvements to HYCOM for better mass conservation, including a new option btrmas=1 that aims at exact mass conservation despite its current instability compared to the default setting.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM Model Documentation and Evaluation Report",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Potential Temperature",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential temperature of sea water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity of sea water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": "0.72deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

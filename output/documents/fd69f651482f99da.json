@@ -1,0 +1,153 @@
+{
+  "doc_id": "fd69f651482f99da",
+  "legacy_doc_id": "7e3aa4c1d015",
+  "filename": "IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/IBI_ANALYSISFORECAST_PHY_005_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 7.01,
+  "pages": 72,
+  "text_preview": " \n  \nAtlantic -Iberian Biscay Irish- Production Centre \nIBI_ANALYSISFORECAST_PHY_005_001 \n \n Issue: 6.2 \nContributors: Levier, B., Reffray, G., Escudier, R., Gutknecht, E., Amo-Baladrón, A., Ciliberti, S., Aznar, R., \nSotillo, M. G. \nApproval date by the CMEMS product quality coordination team: 30/10/2024 \n \n \n \n \n  \n \n\nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_PHY_005_001 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-001 \n30 June 2024 \n6.2 \n \n \n                                                      Page 2/ 72 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated  and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \nIssue Date § Description of Change Author Validated By \n1.0 \n \n \n08/01/2013 \n \n \nAll \n \n \n[MyOcean IBI-V3 version] \nUpdate to MyO2 and V3 changes. \n \nM. G. Sotillo \nP. Lorente \nB. Levier \nM. Drevillon \nJ. Chanut \nE. Álvarez \nFanjul \n1.1 05/02/2013 All [MyOcean IBI-V3 version] \nMinor changes after V3 Acceptance \nReview. \nM. G. Sotillo E. Álvarez \nFanjul \n1.2.1 20/02/2014 All [MyOcean IBI-V4 version] \nUpdate for IBI V4. \nB. Levier \nM. G Sotillo \nP. Lorente \nA. Amo \nE. Álvarez \nFanjul \n1.2.2 17/03/2014 All [MyOcean IBI-V4 version] \nMinor changes after V4 Acceptance \nReview. \nM. G. Sotillo \nB. Levier \nE. Álvarez \nFanjul \n1.3 01/05/2015 All [IBI-V2 version] \nChange format to fit Copernicus Marine \ngraphical rules. \nL. Crosnier  \n2.0 12/01/2016 All [IBI-V2 version] \nUpgrade including V2 changes. \nM. G. Sotillo \nB. Levier \nP. Lorente \nE. Álvarez \nFanjul \n2.1 12/09/2016 All [IBI-V2 version] \nInformation on the change of IBI boundary \nconditions (use of a new upgraded \nCopernicus Marine GLOBAL system) and its \nimpact on the IBI solution. \nB. Levier \nG. Reffray \nM. G. Sotillo \nE. Álvarez \nFanjul \n3.0 23/12/2016 All [EIS Apr 2017: IBI-V3 version] \nUpdate of the fresh water forcing: inclusion \nof an additional climatological runoff \nforcing (in monthly frequency) to \ncomplement the previous forcing based \nonly on 33 river point daily freshwater \nsources. \nM. G. Sotillo \nB. Levier \nP. Lorente \nE. Álvarez \nFanjul \n \n \n \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_PHY_005_001 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-001 \n30 June 2024 \n6.2 \n \n \n                                                      Page 3/ 72 \nIssue Date § Description of Change Author Validated By \n4.0 23/12/2017 All [EIS Mar 2018: IBI-V4 version] \nNew Data Assimilation scheme based on \nSAMv2 in place. \nNew hourly3D dataset, covering the \ncoastal and shelf IBI regions. \nUpdate of the historic best estimates on \nthe Copernicus Marine catalogue. \nM. G. Sotillo \nB. Levier \nP. Lorente \nE. Álvarez \nFanjul \n4.1 03/12/2019 All [EIS Dec 2019: IBI-V4 version] \nDelivery of new dataset with 15 minutes \nfrequency data for sea level and surface \ncurrents. \nK. Guihou \nR. Aznar \nA. Amo \nP. Lorente \nM. G. Sotillo \nM.G. Sotillo \n4.2 03/04/2020 All [EIS Jul 2020: IBI-V4 version] \nIntegration of new tidal forcing. \nUse of ECMWF hourly atmospheric forcing. \nK. Guihou \nR. Aznar \nM.G. Sotillo \n5.0 25/09/2020 All [EIS Dec 2020: IBI-V5 version] \nImplementation of the off-line wave \ncurrent coupling (only forecast run). \nModel upgrade. \nUpdate of the historic best estimates on \nthe catalogue. \nModification of product/datasets names \nfollowing new convention. \nB. Levier \nR. Aznar \nA. Amo \nL. Aouf \nM. Ghantous \nM.G. Sotillo \n5.1 15/01/2021 V, VI [EIS May 2021: IBI-V5 version] \nUpdate of freshwater forcing (upgrade of \ncoastal runoff). \nK. Guihou \nR. Aznar \nA. Amo \nM.G. Sotillo \n6.0 15/06/2022 All [EIS November 2022: IBI-V6 version] \nData Assimilation module update (new \nmodes, MDT derived for a long free run, \nnew model equivalent of SLA, SST HR \n+4D…). \nAdjustment of Gibraltar transport \n(correction of SSH at Med OBC).. \nUpdate of the historic best estimates on \nthe catalogue. \nB. Levier \nG. Reffray \nR. Escudier \nE. Gutknecht \nA. Amo \nR. Aznar \nM. G. Sotillo \n6.1 16/06/2023 V, VI [EIS November 2023: IBI-V6 version] \nUpgraded system nested into the new \nGLO-PHY NRT system (1/12° res., Nov 2022 \nEIS) \nB. Levier \nG. Reffray \nR. Escudier \nE. Gutknecht \nA. Amo \nR. Aznar \nS. Ciliberti \n S. Cailleau \n \n \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_PHY_005_001 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-001 \n30 June 2024 \n6.2 \n \n \n                                                      Page 4/ 72 \nIssue Date § Description of Change Author Validated By \n6.2 30/06/2024  [EIS November 2024: IBI-V6 version] \nAddition of new variables: vertical velocity \nand detided SSH and surface UV using \nDoodson filter. Extension of forecast length \nfrom 5 to 10 days. \nB. Levier \nG. Reffray \nR. Escudier \nE. Gutknecht \nLluis Castrillo \nR. Aznar \nS. Ciliberti \nS. Cailleau \n \n \nQUID for IBI MFC Products \nIBI_ANALYSISFORECAST_PHY_005_001 \nRef: \nDate: \nIssue: \nCMEMS-IBI-QUID-005-001 \n30 June 2024 \n6.2 \n \n \n           ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for IBI_ANALYSISFORECAST_PHY_005_001, detailing changes and updates to the product since its inception.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_ANALYSISFORECAST_PHY_005_001",
+      "name": "Atlantic - Iberian Biscay Irish Production Centre Analysis and Forecast Physical Products",
+      "model_name": "NEMO v4.2.2",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential Temperature of Sea Water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "so",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Sea Water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "uo",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "Zonal Component of Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "vo"
+      },
+      {
+        "native_name": "vo",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": "Meridional Component of Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "uo"
+      },
+      {
+        "native_name": "w",
+        "cf_standard_name": "upward_sea_water_velocity",
+        "long_name": "Vertical Component of Sea Water Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -9.5,
+        "lon_max": 7.5,
+        "lat_min": 35.5,
+        "lat_max": 51.5
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 40,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "1c914a73f31ecd34",
+  "legacy_doc_id": "b522201702b4",
+  "filename": "MEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.52,
+  "pages": 6,
+  "text_preview": " \n \n \n \n \n \nTEMPSAL sea temperature  \nextreme variability \nOcean Monitoring Indicator for \n \nBLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nIBI_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nMEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nNORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \n \n \n \n \n \n \n \n \n \n \nIssue: 1.2 \n \n \nContributors: Álvaro de Pascual Collar, Marcos García, Marta de Alfonso, Begoña Pérez Gómez, Enrique \nAlvarez. \n \n \nApproval date by the CMEMS product quality coordination team: 05/11/2021 \nQUID for CMEMS OMI:  \n \nTEMPSAL temp extreme variability  \n Ref:    \nDate: \nIssue: \nCMEMS-QUID-TEMPSAL-EXTREME-VAR-TEMP \n10 September 2021 \n1.2 \nPage 2 5 \n  \n \n \n \n \n \n \n \n \n  \n \n \nCHANGE RECORD \n \n \n \n \nIssue \n \nDate \n \n§ \n \nDescription of Change \n \nAuthor \n \nValidated By \n \n1.0 \n \n17/10/2019 \n \nAll \n \nCreation of the document Álvaro de Pascual \nCollar \nMarcos García \n1.1 15/04/2020 All Modifications related to the \nfirst review of the product. \nÁlvaro de Pascual \nCollar \n \n1.2 10/09/2021 All Addition of new region: \nNorth-West Shelf Seas \nÁlvaro de Pascual \nCollar \nMarie Drevillon \n \n  \n \nProducts name:  \nBLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly  \nIBI_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly  \nMEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly  \nNORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly  \n \n \nDatasets name:   \nblksea_omi_tempsal_extreme_var_temp_mean_and_anomaly \nibi_omi_tempsal_extreme_var_temp_mean_and_anomaly \nmedsea_omi_tempsal_extreme_var_temp_mean_and_anomaly \nnorthwestshelf_omi_tempsal_extreme_var_temp_mean_and_anomaly \n \n \nIndicator evaluation method: \n \nThe TEMPSAL sea temperature extreme variability indicator is based on the computation of the \n99th percentile (that represent approximately the 1% highest values of sea temperature) from \nmodel results , following the same approach applied by Woodworth and Blackman (2004)  to \nextreme sea levels. This method determines changes in the frequency distribution of the \nmeasured variables. \nQUID for CMEMS OMI:  \n \nTEMPSAL temp extreme variability  \n Ref:    \nDate: \nIssue: \nCMEMS-QUID-TEMPSAL-EXTREME-VAR-TEMP \n10 September 2021 \n1.2 \nPage 3 5 \n  \n \n \n \n \n \n \n \n \n \nAll the data used for the computation of the extremes variability indicators ha ve been \ndownloaded from Copernicus Marine Environment Monitoring Service (CMEMS). The analysis is \nperformed for the sea temperature for three CMEMS regions: Black Sea (BLKSEA), Iberia-Biscay-\nIreland (IBI), Mediterranean Sea (MEDSEA) , and North -West European Shelf (NWS) . For each \nregion, the analysis combines information  from both Mult i Year Products (MYP) and Analysis \nProducts (NRT). \n \nThe following table summarizes the CMEMS products used for the analysis for each region. \n \nBlack Sea \n(BLKSEA) \nMYP CMEMS product BLKSEA_REANALYSIS_PHYS_007_004 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-BS-PUM-007-004.pdf \nNRT CMEMS product BLKSEA_ANALYSIS_FORECAST_PHYS_007_001  \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-BS-PUM-007-001.pdf \nIberia-Biscay-\nIreland \n(IBI) \nMYP CMEMS product IBI_REANALYSIS_PHYS_005_002 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-IBI-PUM-005-002.pdf \nNRT CMEMS product IBI_ANALYSIS_FORECAST_PHYS_005_001 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-IBI-PUM-005-001.pdf \nMediterranean \nSea \n(MEDSEA) \nMYP CMEMS product MEDSEA_REANALYSIS_PHYS_006_004 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-MED-PUM-006-004.pdf \n NRT CMEMS product MEDSEA_ANALYSIS_FORECAST_PHY_006_013  \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-MED-PUM-006-013.pdf \nNorth-West \nShelf Seas \nMYP CMEMS product NWSHELF_MULTIYEAR_PHY_004_009 \nPUM: https://catalogue.marine.copernicus.eu/documents/PUM/CMEMS-NWS-PUM-\n004-009-011.pdf \nNRT CMEMS product NORTHWESTSHELF_ANALYSIS_FORECAST_PHY_004_013 \nPUM: https://catalogue.marine.copernicus.eu/documents/PUM/CMEMS-NWS-PUM-\n004-013-014.pdf \n \nThe first step of the methodology employed is to compute the 99 th mean annual percentile for \neach MYP product. This is calculated as the mean of the 99 th percentile from each year of data. \nIn a second step, the process is repeated for the last year available in the NRT prod uct, and the \nmean data are subtracted, producing the anomaly map of 99th percentile for the last year. \n \nQUID for CMEMS OMI:  \n \nTEMPSAL temp extreme variability  \n Ref:    \nDate: \nIssue: \nCMEMS-QUID-TEMPSAL-EXTREME-VAR-TEMP \n10 September 2021 \n1.2 \nPage 4 5 \n  \n \n \n \n \n \n \n \n \n \nFigure 1.: Iberia-Biscay-Ireland Surface Temperature  extreme variability: Map of the 99 th mean \npercentile computed from the Multi Year Product (left panel) and anomaly of the 99 th percentile in \n2018 computed from the Analysis product (right panel). T ransparent grey areas represent regions \nwhere anomaly exceeds the climatic standard deviation ( light grey) and twice the climatic standard \ndeviation (dark grey). \n \n \nMore details, including the consistency with the same OMI",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document describes the evaluation method for sea temperature extreme variability indicators using Ocean Monitoring Indicators (OMI) from CMEMS, focusing on four regions: Black Sea, Iberia-Biscay-Ireland, Mediterranean Sea, and North-West Shelf Seas.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly",
+      "name": "Sea Temperature Extreme Variability Indicator",
+      "model_name": null,
+      "region": "Mediterranean Sea",
+      "product_types": [
+        "reanalysis",
+        "forecast"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "medsea_omi_tempsal_extreme_var_temp_mean_and_anomaly",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2797,
+  "_tokens_out": 533,
+  "_eval_s": 3.95
+}

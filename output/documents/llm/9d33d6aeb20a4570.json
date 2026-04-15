@@ -1,0 +1,85 @@
+{
+  "doc_id": "9d33d6aeb20a4570",
+  "legacy_doc_id": "f71969c09e4a",
+  "filename": "OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.53,
+  "pages": 8,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n \n \nPRODUCT USER MANUAL \n \nFor \nMediterranean Ocean Heat Content Anomaly (0-700m) \n \nOMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies \nIssue 1.4 \n \n \nContributors: Rafael Gomes de Menezes, Vladyslav Lyubartsev, Ali Aydogdu, Pietro Miraglio, Lucia Gualtieri \nApproval Date : NOVEMBER 2025 \n \nApproval Date:  \n \n \n \n  \n2 Product User Manual for OMI_CLIMATE_OHC_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-CLIMATE_OHC \nIssue 1.4 – November 2025 \nChange Record \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 10-Sep-2018 all Creation of the \ndocument \nEmanuela Clementi   \n1.1 21-Jan-2019  Updated document \nafter MO reviews \nEmanuela Clementi   \n1.2 15-Jan-2021 all OMI time \nextension and \nupdated upstream \ndataset \nEmanuela Clementi, \nVladyslav Lyubartsev \n  \n1.3 16-Jun-2022 all Updated template \nOMI time \nextension \nEmanuela Clementi   \n1.4 28-May-2025 all Updated template, \nUpdated temporal \nextension, setup of \noperational \nextension and \nrenaming of the \nproduct name \nRafael Gomes de \nMenezes \nEmanuela Clementi Copernicus Marine \nProduct Management \n  \n \n \n  \n3 Product User Manual for OMI_CLIMATE_OHC_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-CLIMATE_OHC \nIssue 1.4 – November 2025 \nGLOSSARY AND ABBREVIATIONS \nARMOR ARMOR3D insitu observational dataset \nCGLOR C-GLORS reanalysis \nCORA CORA5.2 insitu observational dataset \nCMEMS Copernicus Marine Environment Monitoring Service \nFOAM FOAM Reanalysis \nGLO Global \nGLOR GLORYS2V4 reanalysis \nGREP Global Reanalysis Ensemble Product \nMED Mediterranean \nMEDREA Mediterranean Sea (Med-MFC) Reanalysis \nMFC Monitoring and Forecasting Center \nMOI Mercator Océan International \nNetCDF Network Common Data Form \nOHC Ocean Heat Content \nOMI Ocean Monitoring Indicator \nORAS ORAS5 reanalysis \nPUM Product User Manual \nQUID Quality Information Document \nTAC Thematic Assembly Center  \n  \n \n \n  \n4 Product User Manual for OMI_CLIMATE_OHC_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-CLIMATE_OHC \nIssue 1.4 – November 2025 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \nDATA ACCESS ............................................................................................................. 5 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 6 \n DESCRIPTION OF THE PRODUCT ........................................................................... 6 \nII.1. General information ......................................................................................... 6 \nII.2. Details of the dataset ....................................................................................... 7 \nII.3. Product System Description ............................................................................. 7 \n FILES NOMENCLATURE AND FORMAT ............................................................... 8 \nIII.1. Nomenclature of files .................................................................................... 8 \nIII.2.    File Format ........................................................................................................ 8 \n REFERENCES ....................................................................................................... 8 \n \n \n \n  \n5 Product User Manual for OMI_CLIMATE_OHC_MEDSEA \n© EU Copernicus Marine Service – Public \nCMEMS-MED-OMI-PUM-CLIMATE_OHC \nIssue 1.4 – November 2025 \nDATA ACCESS \n \nAfter registration, you will be able to download our data. To assist you, our \nHelpCenter is available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on \nour User Notification Service. If needed, you can contact us . \n \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Service  Ocean Monitoring \nIndicator (OMI) OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies. It provides a time \nseries of Ocean Heat Content (OHC) anomalies area-averaged over the Mediterranean Sea \n(30°N, 46°N; 6°W, 36°E), between 0 and 700 meters depth, excluding regions where the seafloor \nis shallower than 300  meters (see the QUID document for more details on the calculation \nmethod). \nThe product consists of a one-dimensional",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Copernicus Marine Service Ocean Monitoring Indicator (OMI) OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies, providing details on the time series of Ocean Heat Content (OHC) anomalies area-averaged over the Mediterranean Sea between 0 and 700 meters depth.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies",
+      "name": "Ocean Monitoring Indicator (OMI) OMI_CLIMATE_OHC_MEDSEA_area_averaged_anomalies",
+      "model_name": null,
+      "region": "Mediterranean",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "OHC_anomaly",
+        "cf_standard_name": "ocean_heat_content_anomaly",
+        "long_name": "Ocean Heat Content Anomaly (0-700m)",
+        "unit": "J/m^2",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 40,
+        "lat_min": 30,
+        "lat_max": 47
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 700
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2462,
+  "_tokens_out": 566,
+  "_eval_s": 4.11
+}

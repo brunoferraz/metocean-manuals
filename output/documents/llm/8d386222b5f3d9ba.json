@@ -1,0 +1,155 @@
+{
+  "doc_id": "8d386222b5f3d9ba",
+  "legacy_doc_id": "c94b30579d07",
+  "filename": "GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_MULTIYEAR_PHY_001_030_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.39,
+  "pages": 53,
+  "text_preview": "QUALITY INFORMATION DOCUMENT \n \n \nGlobal Ocean Reanalysis Products \nGLOBAL_REANALYSIS_PHY_001_030 \n \n \n Issue:  1.6 \nContributors: Marie Drévillon, Jean-Michel Lellouche, Charly Régnier, Gilles Garric, Clément Bricaud, Olga \nHernandez, Romain Bourdallé-Badie \nApproval Date by Quality Assurance Review Group: 23/11/2023 \n \n \n  \n \nQuality Information Document \nFor products  \nGLOBAL_REANALYSIS_PHY_001_030 \nRef \nDate \nIssue \nCMEMS-GLO-QUID-001-030 \nNovember 2023 \n1.6 \n \n \n© EU Copernicus Marine Service – Public      Page 2/ 53 \n  \nCHANGE RECORD \n \nIssue Date § Description of Change Author Checked By \n1.0 18 January \n2018 \nall First version of document   \n1.1 24 April \n2018 \ntitle Correct number of product in the \ndocument \nYann Drillet  \n1.3 11 \nDecember \n2020 \nNB Add note to describe the switch to \nERA5 forcing \nRomain Bourdallé -\nBadie \n \n1.4 13/01/2021 all Add dataset global-reanalysis-phy-\n001-030-monthly-climatology \nMarie Drévillon  Marie \nDrévillon \n1.5 03/12/2021 all First temporal extension (covering \n2020) \nRomain Bourdallé -\nBadie \n \n1.6 18/10/2023  Add description of interim production Romain Bourdallé -\nBadie \nMarie \nDrévillon \n \nQuality Information Document \nFor products  \nGLOBAL_REANALYSIS_PHY_001_030 \nRef \nDate \nIssue \nCMEMS-GLO-QUID-001-030 \nNovember 2023 \n1.6 \n \n \n© EU Copernicus Marine Service – Public      Page 3/ 53 \nTABLE OF CONTENTS \n \nI EXECUTIVE SUMMARY ............................................................................................................................ 5 \n Products covered by this document ........................................................................................................... 5 \n Summary of the results ............................................................................................................................... 6 \n Temperature ................................................................................................................................. 6 \n Salinity .......................................................................................................................................... 7 \n Ocean currents ............................................................................................................................. 7 \n Sea level......................................................................................................................................... 7 \n Transport ...................................................................................................................................... 8 \n Sea ice concentration ................................................................................................................... 8 \n Estimated Accuracy Numbers .................................................................................................................... 9 \nII Production Subsystem description .............................................................................................................. 10 \n GLORYS12V1 reanalysis (001_030) ...................................................................................................... 10 \nIII Validation framework ............................................................................................................................. 15 \nIV Validation results of GLORYS12V1 ........................................................................................................... 16 \n Temperature ........................................................................................................................................... 16 \n T-CLASS1-T3D-MEAN ............................................................................................................ 16 \n T-CLASS1-SST-MEAN ............................................................................................................. 17 \n T-CLASS1-SST-TREND ........................................................................................................... 18 \n T-CLASS2-MOORINGS ........................................................................................................... 19 \n T-CLASS3-SST_QNET_MEAN ............................................................................................... 21 \n T-CLASS3-HC_LAYER ........................................................................................................... 21 \n T-CLASS4-LAYER ................................................................................................................... 22 \nIV.1.7.1 Timeseries .......................................................................................................................... 23 \nIV.1.7.2 2D Maps ............................................................................................................................. 24 \n T-DA-INNO-STAT .................................................................................................................... 26 \n Salinity ...............................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for the GLOBAL_REANALYSIS_PHY_001_030 product, detailing its production subsystem, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_REANALYSIS_PHY_001_030",
+      "name": "Global Ocean Reanalysis Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "currents",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Ocean currents (u and v components)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      },
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea surface height above geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "transport",
+        "cf_standard_name": "ocean_transport",
+        "long_name": "Ocean transport",
+        "unit": "Sv",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_ice_concentration",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea ice concentration",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2064,
+  "_tokens_out": 1076,
+  "_eval_s": 7.84
+}

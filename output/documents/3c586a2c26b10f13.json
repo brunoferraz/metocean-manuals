@@ -1,0 +1,138 @@
+{
+  "doc_id": "3c586a2c26b10f13",
+  "legacy_doc_id": "6b5702c65f75",
+  "filename": "TIN_GFS_2014.pdf",
+  "filepath": "docs/gfs_docs/TIN_GFS_2014.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.09,
+  "pages": 7,
+  "text_preview": " \nNOUS41 KWBC 231555 CCA \nPNSWSH \n \nTechnical Implementation Notice 14-46 Corrected \nNational Weather Service Headquarters Washington DC \n1055 AM EST Tue Dec 23 2014 \n \nTo:      Subscribers: \n         -Family of Services \n         -NOAA Weather Wire Service \n         -Emergency Managers Weather Information Network \n         -NOAAPort \n         Other NWS Partners, Users and Employees \n \nFrom:    Timothy McClung \n         Chief, Science Plans Branch \n         Office of Science and Technology \n \nSubject: Corrected: Global Forecast Systems (GFS) Update: Effective \nJanuary 14, 2015 \n \nCorrected to: \n-Notify users that on February 3, 2015, beginning with the 1200 \nCoordinated Universal Time (UTC) run, the decimal precision within two \nfields will be fixed. \n-Specify which files will be available for downloading. \n-Remove a variable from forecast hour 00. \n \nEffective on or about January 14, 2015, beginning with the 1200 UTC run, \nthe National Centers for Environmental Prediction (NCEP) will upgrade the \nGFS Analysis and Forecast System as follows: \n \nChanges to the model components \nIncreases in horizontal resolution \nAddition of 0.25 degree gridded output \nAddition of new product fields \nChange to product naming convention \nChanges in product timeliness \nChanges to downstream model impacts \n \n1.  Model changes to the GFS Global Spectral Model: \n \nIncrease horizontal resolution of the first segment of the forecast from \nEulerian T574 (~27 km) to Semi-Lagrangian T1534 (~13 km), and extend the \nlength of forecast from 192 hours to 240 hours. \n \nIncrease horizontal resolution of the second segment of the forecast from \nEulerian T192 (~84 km) to semi-Lagrangian T574 (~35 km), and set forecast \ntime from 240 hours to 384 hours. \n \nChange from Eulerian dynamics to Semi-Lagrangian dynamics, which uses \nHermite interpolation in both vertical and horizontal directions. \n \nUse 5-minute daily Real-Time Global (RTG) Sea Surface Temperature (SST) to \n \nreplace 1.0 degree Reynolds 7-day SST analysis. \n \nInitialize ice at small inland lakes in the northern hemisphere with 4 km \nInteractive Multi-sensor Snow and Ice Mapping System (IMS) ice analysis \ndata from the National Ice Center.  For large water bodies, use 5-minute \nNCEP/Marine Modeling and Analysis Branch (MMAB) ice analysis data to \nreplace 30-minute ice data. \n \nUse 1982-2012 5-minute SST climatology (replacing 1982-2001 one degree SST \nclimatology). \n \nUse 1982-2012 30-minute sea ice concentration climatology (replacing 1982-\n2001 one degree climatology). \n \nReplace update of model snow depth by direct insertion of Air Force \nWeather Agency (AFWA) depth data with a blend of the model first guess \ndepth and the AFWA depth. \n \nUse X-number to prepare spectral transform base functions: X-number is a \nnumerical technique that uses paired numbers to represent real number to \navoid computational underflow or overflow that can occur in spectral \ntruncation for wave number larger than T1000. \n \nUse divergence damping in the stratosphere to reduce noise. \n \nAdd a tracer fixer for maintaining global column ozone mass. \n \nUse the Monte-Carlo Independent Column Approximation (McICA) for Rapid \nRadiative Transfer Model (RRTM) Radiation. \n \nReduce drag coefficient at high wind speeds. \n \nUse Hybrid Eddy-Diffusivity Mass-Flux Planetary Boundary Layer (EDMF PBL) \nscheme and Turbulent Kinetic Energy (TKE) dissipative heating. \n \nRe-tune ice and water cloud conversion rates, orographic gravity-wave \nforcing and mountain block; and reduce background diffusion of momentum. \n \nAdd stationary convective gravity wave drag. \n \nModify initialization of forecast state variables to reduce a sharp \ndecrease in cloud water in the first model time step. \n \nCorrect a bug in the condensation calculation after the digital filter is \napplied. \n \nReplace one degree bucket soil moisture climatology with CFS/Global Land \nData Assimilation System (GLDAS) climatology at T574 (~27 km). \n \nReplace one degree momentum roughness length climatology by using a look-\nup table based on vegetation type. \n \nAdd a dependence of the ratio of the thermal and momentum roughness on \nvegetation type. \n \n2.  Model changes to the GDAS/GFS Hybrid 3D-VAR Ensemble Kalman Filter \n(EnKF) Data Assimilation: \n \nIncrease EnKF resolution from T254L64 to T574L64. \n \nAssimilate hourly GOES and EUMETSAT atmospheric motion vectors. \n \nUpdate radiance assimilation: \n- Assimilate SSM/IS UPP LAS and Metop-B IASI radiances. \n- Use enhanced radiance bias correction scheme. \n- Update to version 2.1.3 of the Community Radiative Transfer Model \n(CRTM).  CRTM v2.1.3 improves specification of microwave sea surface \nemissivities.  This, in turn, improves the analysis of near surface \ntemperature over water, especially in the southern oceans. \n- Use stochastic physics in EnKF ensemble forecasts. \n- Change the dump window for GOES Satellite Wind (satwnd) data from 1 hour \nto 6 hours.  Subtypes will be added for (NOAA/METOP AVHRR SATWIND) \ninfrared c",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical notice from NWS regarding updates to the Global Forecast System (GFS) effective January 14, 2015, including changes in model resolution and new product fields.",
+    "provider": {
+      "provider_id": "noaa",
+      "name": "National Weather Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Global Forecast System (GFS)",
+      "model_name": "GFS Global Spectral Model",
+      "region": "Global",
+      "product_types": [
+        "forecast"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": 384
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "observation_qc",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ice analysis data",
+        "cf_standard_name": null,
+        "long_name": "Ice Analysis Data",
+        "unit": null,
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "snow depth",
+        "cf_standard_name": "land_snow_depth_water_equivalent",
+        "long_name": "Snow Depth Water Equivalent",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_1d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind Speed",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind direction"
+      },
+      {
+        "native_name": "radiance data",
+        "cf_standard_name": null,
+        "long_name": "Radiance Data",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "observation_qc",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25 degree",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

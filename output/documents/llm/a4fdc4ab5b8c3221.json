@@ -1,0 +1,99 @@
+{
+  "doc_id": "a4fdc4ab5b8c3221",
+  "legacy_doc_id": "9c07573c6049",
+  "filename": "ARCTIC_OMI_TEMPSAL_FWC_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_OMI_TEMPSAL_FWC_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.56,
+  "pages": 4,
+  "text_preview": " \n  \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nArctic Ocean Freshwater Content \n \n \n Issue: 1.0 \nContributors: Gilles Garric, Olga Hernandez \nApproval date by the CMEMS product quality coordination team:  \n \n \n \n \n  \n \nQUID for CMEMS OMIs: Arctic Ocean Freshwater Content \nOMI_TEMPSAL_FWC \nRef: \nDate: \nIssue: \nCMEMS-OMI-QUID-ARC-TEMPSAL-\nFWC  \n10 September 2018  \n1.0 \n \n \n    Page 2/ 4 \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub-sections have been updated.   The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 23/07/2018 All Creation of the document Gilles Garric  \n \n \n \n \nProduct name:  \nARCTIC_OMI_TEMPSAL_FWC  \n \nDataset name:  arctic_omi_tempsal_fwc \n \nIndicator evaluation method:  \nArctic liquid Freshwater Content (FWC in meters) is defined as the \nintegrated differences of the measured salinity and a reference salinity \nfrom the surface to the bottom per unit area in the Arctic region with a \nwater depth greater than 500m as: \n𝐹𝑊 = ∫ 𝑆𝑟𝑒𝑓 −  𝑆(𝑧)\n𝑆𝑟𝑒𝑓\n0\n𝑏𝑜𝑡𝑡𝑜𝑚\n𝑑𝑧 \nwhere S is salinity, dz the vertical cell thickness of the dataset and Sref \nthe salinity reference  set to 34.8 . Monthly means va lues are given here. \nWaters saltier than the salinity  reference are not included in the \nestimation.  \nArea averaged time series for Arctic Ocean freshwater  content and their \nerror bars are calculated for the Arctic region with a water depth greater \nthan 500m.  \nQUID for CMEMS OMIs: Arctic Ocean Freshwater Content \nOMI_TEMPSAL_FWC \nRef: \nDate: \nIssue: \nCMEMS-OMI-QUID-ARC-TEMPSAL-\nFWC  \n10 September 2018  \n1.0 \n \n \n    Page 3/ 4 \n \nScientific validation: \nMore details and full scientific evaluation can be found in the CMEMS Ocean State Report #2 \n(Garric and Hernandez, 2018). \nThe quality evaluation of ARCTIC_OMI_FW C_area_averaged_anomalies is based on the \n“multi-product” approach as introduced in the second issue of the Oce an State Report \n(CMEMS OSR, 2018). Three  global products have been used to build an ensemble mean, and \nits associated ensemble spread (Figure 1, dark red line and orange shaded area). Results of Fig. \n1 indicate how each member is distributed around the ensemble mean.  \n \n \n \nFigure 1: Monthly time series of area averaged ocean freshwater content over the specified Arctic \nregior. Time series are based on different data products, i.e. global ocean reanalysis GLORYS (dark \ngray), C-GLORS (blue), ORAS5 (light blue) and the ensemble mean (dark red) and the ensemble spread \n(orange shaded). Details on the products are given in the corresponding PUM for this OMI.  \n \nProduct used for indicator evaluation: \nThree global reanalyses  products, GLORYS, C -GLORS, ORAS5, have been used for the \nevaluation of area averaged (Arctic) ocean freshwater content. Details on the products are \ndelivered in the PUM of this OMI. \n \nReferences: \nGarric and Hernandez , 2018: Arctic Ocean freshwater content. In: The Copernicus Marine \nEnvironment Monitoring Service Ocean State Report, issue 2, Journal of Operational \nOceanography, under revision. \n\nQUID for CMEMS OMIs: Arctic Ocean Freshwater Content \nOMI_TEMPSAL_FWC \nRef: \nDate: \nIssue: \nCMEMS-OMI-QUID-ARC-TEMPSAL-\nFWC  \n10 September 2018  \n1.0 \n \n \n    Page 4/ 4 \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Ocean Monitoring Indicator (OMI) for Arctic Ocean Freshwater Content, detailing its evaluation method and scientific validation based on global reanalysis products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_OMI_TEMPSAL_FWC",
+      "name": "Arctic Ocean Freshwater Content",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "arctic_omi_tempsal_fwc",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "depth",
+        "cf_standard_name": "sea_floor_depth_below_geoid",
+        "long_name": "Depth Below Geoid",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 55.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 500.0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2190,
+  "_tokens_out": 624,
+  "_eval_s": 4.55
+}

@@ -1,0 +1,70 @@
+{
+  "doc_id": "909bc5bb3ed9716c",
+  "legacy_doc_id": "058b5a6c1fec",
+  "filename": "OMI_CLIMATE_OHC_GLOBAL_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_OHC_GLOBAL_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.37,
+  "pages": 13,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Maeva Monier, Corinne Derval, Elodie Fernandez \n \nApproval Date : November 2025 \n \nFor OMI_CLIMATE_OHC \n \n Issue: 5.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for OMI_CLIMATE_OHC \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-OHC \nIssue 5.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0  2018/01/01  All  Creation of the document  \nMaeva Monier, \nCorinne Derval, \nÉlodie \nFernandez  \nRenaud \nDussurget, \nKarina von \nSchuckmann  \n2.0  2018/09/10  All  Update of the document  \nMaeva Monier, \nCorinne Derval, \nÉlodie \nFernandez  \nC. Derval  \n3.0  2020/04/19  All  2018 update  \nMaeva Monier, \nCorinne Derval, \nÉlodie \nFernandez  \nC. Derval  \n4.0  2021/08/17  All  2019 update (essential changes)  \nMaeva Monier, \nCorinne Derval, \nÉlodie \nFernandez  \nC. Derval  \n5.0 2025/05/12 All Update of the document Flora Gues O. Le \nGalloudec \n \n \n \n3 Product User Manual for OMI_CLIMATE_OHC \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-OHC \nIssue 5.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \nb) History of changes................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Dataset details ...................................................................................................... 9 \n3) FILE FORMAT .................................................................................................... 12 \n4) FILES NOMENCLATURE..................................................................................... 12 \n5) REFERENCES ..................................................................................................... 13 \n  \n \n \n \n4 Product User Manual for OMI_CLIMATE_OHC \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-OHC \nIssue 5.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nCGLOR C-GLORS Reanalysis \nGLOR GLORYS2V4 Reanalysis \nGREP Global Reanalysis Ensemble Product \nORAS ORAS5 Reanalysis \nGLO Global \n \nCMEMS Copernicus Marine Environment Monitoring \nService \nOHC Ocean Heat Content \n \n  \n \n \n \n5 Product User Manual for OMI_CLIMATE_OHC \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-OHC \nIssue 5.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_CLIMATE_OHC, detailing its specifications and updates from various contributors at Mercator Ocean International.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Mercator Ocean International"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CLIMATE_OHC",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2205,
+  "_tokens_out": 321,
+  "_eval_s": 2.35
+}

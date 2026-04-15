@@ -1,0 +1,88 @@
+{
+  "doc_id": "f50611d335002e71",
+  "legacy_doc_id": "edfd60c9ad9f",
+  "filename": "OMI_CLIMATE_SI_ARCTIC_transport_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_SI_ARCTIC_transport_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.99,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Roshin P. Raj, Vidar S. Lien, Laurent Bertino \n \nApproval Date : March 2026 \n \nFor OMI_CLIMATE_SI_ARCTIC_transport \n \n Issue: 3.2 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 Quality Information Document for OMI_CLIMATE_SI_ARCTIC_transport \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-QUID-CLIMATE-SI \nIssue 3.2 – March 2026 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2021/01/10 All Creation of the document R. P. Raj, V. S. \nLien L. Bertino \n2.0 2021/09/10 All Document update \n \nR. P. Raj, V. S. \nLien L. Bertino \n3.0 2022/09/08 All Document update \n \nR. P. Raj, V. S. \nLien L. Bertino \n3.2 2025/09/08 All Document update \n \nR. P. Raj, V. S. \nLien L. Bertino \n \n \n \n3 Quality Information Document for OMI_CLIMATE_SI_ARCTIC_transport \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-QUID-CLIMATE-SI \nIssue 3.2 – March 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................4 \nb) Indicator Evaluation Method ...........................................................................4 \nc) Copernicus Marine products used as input for the computation ................5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \na) Sea-ice transport ...............................................................................................6 \n3) REFERENCES ....................................................................................................... 8 \n  \n \n \n \n4 Quality Information Document for OMI_CLIMATE_SI_ARCTIC_transport \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-QUID-CLIMATE-SI \nIssue 3.2 – March 2026 \n1) INTRODUCTION \na) Product Name  \n \nOMI_CLIMATE_SI_ARCTIC_transport \n \nb) Indicator Evaluation Method \n \nThe time series provided here represents: \n• Southward integrated sea -ice area and volume transport through the entire \nFram Strait between Spitsbergen and Greenland \n• Southward integrated sea -ice area and volume transport into the northern \nBarents Sea between Svalbard and Franz Josef Land  \n• Westward integrated sea-ice area and volume transport into the eastern Barents \nSea between Novaya Zemlya and Franz Josef Land \n \nThe sea-ice area export (km 2 month-1) is calculated as the sum of the width of each \nmodel grid cell times the sea-ice concentration within each grid cell times the sea-ice \nvelocity perpendicular to the section. The sea -ice volume transport (km 3 month-1) is \ncalculated similarly, but also includes each grid cell’s average sea -ice thickness. The \ntime series of modelled sea -ice area and volume transport are evaluated against \nobservation-based estimates reported in literature, assessing both the long -term \naverages and trends, and the seasonal variations. \n \n \n \n5 Quality Information Document for OMI_CLIMATE_SI_ARCTIC_transport \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-QUID-CLIMATE-SI \nIssue 3.2 – March 2026 \nc) Copernicus Marine products used as input for the computation \n \nProduct name (and Type) Documentation \nARCTIC_MULTIYEAR_PHY_002_00\n3 \n \nQUID: \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-ARC-QUID-002-003.pdf \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-ARC-PUM-002-003.pdf \nARCTIC_ANALYSISFORECAST_PH\nY_002_001 \nQUID:  \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-ARC-QUID-002-001.pdf \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-ARC-PUM-002-001.pdf \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the OMI_CLIMATE_SI_ARCTIC_transport product, detailing its method of calculating sea-ice area and volume transport through specific straits in the Arctic region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-ARC-OMI-QUID-CLIMATE-SI",
+      "name": "OMI_CLIMATE_SI_ARCTIC_transport",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "ARCTIC_MULTIYEAR_PHY_002_003",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "ARCTIC_ANALYSISFORECAST_PHY_002_001",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea-ice area and volume transport",
+        "cf_standard_name": null,
+        "long_name": "Southward integrated sea-ice area and volume transport through the entire Fram Strait between Spitsbergen and Greenland, into the northern Barents Sea between Svalbard and Franz Josef Land, and westward into the eastern Barents Sea between Novaya Zemlya and Franz Josef Land",
+        "unit": "km^2 month^-1 for area; km^3 month^-1 for volume",
+        "physical_quantity": "ice_fraction | ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,67 @@
+{
+  "doc_id": "532300d776d6b0be",
+  "legacy_doc_id": "b837d12d47af",
+  "filename": "OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.37,
+  "pages": 10,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : P. Lagemaa, U. Raudsepp, I. Maljutenko, V. Huess \n \nApproval Date : November 2025 \n \nFor  \nOMI_CLIMATE_OFC_BALTIC_area_averaged_ano\nmalies \n Issue: 2.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for \nOMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-PUM-CLIMATE-OFC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2024/09/01 all Creation of the document U. Raudsepp \nI. Maljutenko \nV. Huess \n2.0 2025/05/22 all Template change+ minor \nchanges \nP. Lagemaa  V. Huess \n      \n \n \n \n3 Product User Manual for \nOMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-PUM-CLIMATE-OFC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details ...................................................................................................... 8 \n3) FILE FORMAT ...................................................................................................... 9 \n4) FILES NOMENCLATURE....................................................................................... 9 \nd) Nomenclature of original files ............................................................................ 9 \n5) REFERENCES ....................................................................................................... 9 \n  \n \n \n \n4 Product User Manual for \nOMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-PUM-CLIMATE-OFC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \n \n  \n \n \n \n5 Product User Manual for \nOMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-PUM-CLIMATE-OFC-\narea-averaged-anomalies \nIssue 2.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies, providing details on the product specification, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-BAL-OMI-PUM-CLIMATE-OFC-area-averaged-anomalies",
+      "name": "OMI_CLIMATE_OFC_BALTIC_area_averaged_anomalies",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

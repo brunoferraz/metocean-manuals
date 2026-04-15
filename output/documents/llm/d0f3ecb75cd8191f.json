@@ -1,0 +1,99 @@
+{
+  "doc_id": "d0f3ecb75cd8191f",
+  "legacy_doc_id": "a3cbcf1fed32",
+  "filename": "MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.02,
+  "pages": 19,
+  "text_preview": " \n \nMulti Observation Thematic Assembly Centre \n \nMulti Observation Global Ocean Sea Surface Salinity \nand Sea Surface Density Product \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n \n Issue:  1.4 \nContributors: B. Buongiorno Nardelli, A. Pisano, M. Sammartino \nApproval date by the CMEMS product quality coordination team: 06/11/2024 \n \n \n \n \n  \n \n\nQUID for Multi Observation Global Ocean SSS and \nSSD Products  \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \nRef : CMEMS-MOB-QUID-015-013 \nDate : October 2024 \nIssue : 1.4 \n \n \n \n                                         \n  Page 2/ 19 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated  and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \nIssue Date § Description of Change Author Validated By \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n1.0 04/09/20 All Initial version of the document \nCreated from CMEMS-MOB-QUID-\n015-001 and CMEMS-MOB-QUID-\n015-002 \nB. Buongiorno Nardelli , \nA.Pisano \n S. Guinehut \n1.1 15/08/21 I.1 Minor changes to specify the update \nfrequency and the temporal \ncoverage of rep datasets \nB. Buongiorno Nardelli S. Guinehut \n1.2 16/06/2022 All Minor changes to specify the \ninclusion of SMAP observations  \nB. Buongiorno Nardelli, \nA. Pisano, M. \nSammartino \nS. Mulet \n1.2 01/08/2022 All Update of the validation statistics \ncomputed on the present version of \nthe nrt and rep products (L4 v8.0). \nUpdate of the comparison against \nthe previous version of the products \n(L4 v5.0) \nB. Buongiorno Nardelli, \nA. Pisano, M. \nSammartino \nS.Mulet \n1.3 16/06/2023 All Major upgrade to provide a n \nimproved product at higher spatial \nand temporal resolution \nB. Buongiorno Nardelli, \nA. Pisano, M. \nSammartino \nH.Etienne \n1.4 \n23/10/2024 All Updated description of processing \nalgorithm to account for adjustment \nprocedure applied to pre -satellite \nSSS period in MY datasets. Updated \nvalidation metrics including full MY \nperiod \nM. Sammartino, B. \nBuongiorno Nardelli \n H.Etienne \nQUID for Multi Observation Global Ocean SSS and \nSSD Products  \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \nRef : CMEMS-MOB-QUID-015-013 \nDate : October 2024 \nIssue : 1.4 \n \n \n \n                                         \n  Page 3/ 19 \nTABLE OF CONTENTS \n \n \nI Executive summary .................................................................................................................................. 4 \nI.1 Product covered by this document .......................................................................................................... 4 \nI.2 Summary of the results ........................................................................................................................... 5 \nI.3 Estimated Accuracy Numbers .................................................................................................................. 5 \nII Production Subsystem description ........................................................................................................... 6 \nII.1 MULTIOBS SSS/SSD processing ............................................................................................................... 6 \nII.1.1 Short description ............................................................................................................................... 6 \nII.1.2 Input data sets ................................................................................................................................... 7 \nII.1.3 Method .............................................................................................................................................. 8 \nIII Validation framework ........................................................................................................................ 10 \nIV Validation results............................................................................................................................... 11 \nIV.1 Sea surface salinity and density .......................................................................................................... 11 \nIV.1.1 SSS-W-CLASS4-TSG-RMSD-GLOBAL and SSS-W-CLASS4-TSG-AVAIL-GLOBAL ................................. 11 \nIV.1.2 SSS-W-CLASS1-PSD_XY-DOMAIN .................................................................................................... 13 \nIV.1.3 SSD-W-CLASS4-TSG-RMSD-GLOBAL and SSD-W-CLASS4-TSG-AVAIL-GLOBAL ................................ 14 \nIV.1.4 SSD-W-CLASS1-PSD_XY-DOMAIN .................................................................................................... 16 \nV System’s Noticeable events, outages or changes ................................................................................... 17 \nVI Quality changes since previous version .............................................................................................. 18 \nVI.1 History of changes ..",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density Products, detailing the product's history, processing methods, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013",
+      "name": "Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_salinity",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_density",
+        "cf_standard_name": "sea_surface_density",
+        "long_name": "Sea Surface Density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2339,
+  "_tokens_out": 629,
+  "_eval_s": 4.72
+}

@@ -1,0 +1,85 @@
+{
+  "doc_id": "1283616557fc2577",
+  "legacy_doc_id": "0319d13be0f5",
+  "filename": "OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.46,
+  "pages": 9,
+  "text_preview": " \n  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPRODUCT USER MANUAL \n \nFor \nBlack Sea Rim Current Intensity Index \n \nOMI_CIRCULATION_BOUNDARY_BLKSEA_\nrim_current_index \n \nIssue 2.0 \n \nContributors: Eric Jansen, Leonardo Lima, Rafael Gomes de Menezes, Rita Lecci \nApproval Date: November 2025 \n \n  \n\nProduct User Manual for OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index  \n2 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCIRCULATION_BOUNDARY_BLKSEA_rim_current_index \n Issue 2.0 – November 2025 \n \nChange Record \n \nIssue Date § Description of Change Author Checked by Validated by \n1.0 2023/06/15 all Creation of the document E.      Jansen   \n2.0 2025/05/28 all Update the time series based on the results \nfrom Black Sea Reanalysis version BSe4r1 and \ns     etup of o     perational e     xtensions \nE. Jansen, L. Lima, \nR. G. de Menezes \nR. Lecci Copernicus \nMarine \nProduct \nManagement \n       \nProduct User Manual for OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index  \n3 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCIRCULATION_BOUNDARY_BLKSEA_rim_current_index \n Issue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \nMOI Mercator Océan International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \n  \nProduct User Manual for OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index  \n4 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCIRCULATION_BOUNDARY_BLKSEA_rim_current_index \n Issue 2.0 – November 2025 \n \nTable of Content \n \nDATA ACCESS      ........................................................................................................ 5 \nI INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ................................................................................................................ 5 \nI.2. History of changes ................................................................................................ 6 \nII DESCRIPTION OF THE PRODUCT ........................................................................... 7 \nII.1. General information ............................................................................................ 7 \nII.2. Details of the dataset      ..................................................................................... 8 \nII.3. Product System Description ................................................................................ 8 \nIII FILES NOMENCLATURE AND FORMAT ............................................................... 9 \nIII.1. Nomenclature of files ....................................................................................... 9 \nIII.2. File Format .......................................................................................................... 9 \nIV REFERENCES ....................................................................................................... 9 \n \n  \nProduct User Manual for OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index  \n5 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCIRCULATION_BOUNDARY_BLKSEA_rim_current_index \n Issue 2.0 – November 2025 \n \nDATA ACCESS      \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is \navailable, and more specifically its section about download. \nInformation on operational issues on products and services can be found on our User \nNotification Service. If you have any questions, please contact us. \n \nI INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Service       Ocean Monitoring \nIndicator (OMI) OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index     . It provides an \nestimate of the intensity of the Black Sea R     im C     urrent                starting in 1993 and \nextended operationally on a yearly basis up to one year before the current year     . \nThe      product contains the Black Sea R     im C     urrent intensity index (BSRCI) calculated from \nthe BLKSEA_MULTIYEAR_PHY_007_004 reanalysis product. The RCI is a dimensionless quantity, \nexpressing the intensity of the R     im C     urrent in a particular year in relation to climatological \naverage. \nThe product is available for the Black Sea area and calculated as a time series with yearly \nfrequency. Three time series      are provided, corresponding to the BSRCI calculated for the \nnorthern R     im current, the      Southern R     im C     urrent and the combination of the two \nareas. More details about the calculation can be found in the corresponding Quality Information \nDocument (QUID) document. \nThe product is publi",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Copernicus Marine Service Ocean Monitoring Indicator (OMI) OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index, providing details on the Black Sea Rim Current Intensity Index calculated from reanalysis data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OMI_CIRCULATION_BOUNDARY_BLKSEA_rim_current_index",
+      "name": "Black Sea Rim Current Intensity Index",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "BLKSEA_MULTIYEAR_PHY_007_004",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "BSRCI",
+        "cf_standard_name": null,
+        "long_name": "Black Sea Rim Current Intensity Index",
+        "unit": "dimensionless",
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2380,
+  "_tokens_out": 509,
+  "_eval_s": 3.71
+}

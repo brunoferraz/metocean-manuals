@@ -1,0 +1,82 @@
+{
+  "doc_id": "d4ed3dcd3750bf75",
+  "legacy_doc_id": "55c2f5e8ff46",
+  "filename": "INSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.8,
+  "pages": 23,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor Global Ocean Reprocessed In Situ Observations \nof Carbon Product \nINSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050 \n \n \nIssue:  3.2 \n \nContributors : Rocío Castaño-Primo, Benjamin Pfeil, Steve Jones \nApproval Date : March 2024 \n\n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050 \nIssue : 3.2 \n2024/02 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-050 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2019/01/28 All Creation of the document \n \nB. Pfeil  \n2.0 2019/11/25 All Re-written text. Added information \nspecific to the product generation and \nquality control. \nR. Castaño-Primo \nB. Pfeil \nS. Jones \n \n3.0 2020/09/10 All Changed and adapted to the new \nformat and structure. \nOld Table 1: removed  \nFigure 1: made the figure version-\nagnostic (e.g. SOCATvxxxx instead of \nSOCATv2019) \nRemoved references to particular \nversions \nAdded descriptive tables for the \nproducts and datasets. \nRemoved “References” section \nAdded headers from each of the \ndatasets \nR. Castaño-Primo  \n3.1 2022/06/16 All New PUM format. New product and \ndataset names. Changes in FTP folder \nstructure (Figure 1), Table about \nplatform families removed \nR. Castaño-Primo S. Tarot \n3.2 2024/02/21 III Removed FTP instructions; added \nMDS \nR. Castaño-Primo S. Tarot \n \n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050 \nIssue : 3.2 \n2024/02 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-050 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 5 \nI.1 Summary......................................................................................................................................................... 5 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Production System Description ................................................................................................................. 12 \nII.4 Grid .............................................................................................................................................................. 13 \nII.5 Vertical Levels ............................................................................................................................................ 13 \nII.6 Processing information .............................................................................................................................. 13 \nII.6.1 Update Time ....................................................................................................................................... 13 \nII.6.2 Temporal extent ................................................................................................................................. 13 \nII.6.3 Time averaging .................................................................................................................................. 14 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 15 \nIII.1 Download a product through the Copernicus Marine Data Store  ....................................................... 15 \nIII.2 Download a product through the In Situ TAC website ......................................................................... 15 \nIII.2.1 Files structure ................................................................................................................................... 15 \nFILES NOMENCLATURE .................................................................................................................................... 17 \nIII.3 Nomenclature of files ................................................................................................................................ 17 \nII",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for Global Ocean Reprocessed In Situ Observations of Carbon Product, detailing its creation and updates through various versions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_BGC_CARBON_DISCRETE_MY_013_050",
+      "name": "Global Ocean Reprocessed In Situ Observations of Carbon Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": null,
+        "thermodynamic_form": null,
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": null,
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

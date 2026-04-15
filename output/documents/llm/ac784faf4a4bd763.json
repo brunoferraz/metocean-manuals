@@ -1,0 +1,113 @@
+{
+  "doc_id": "ac784faf4a4bd763",
+  "legacy_doc_id": "3d4c8c8080f8",
+  "filename": "NWSHELF_REANALYSIS_WAV_004_015_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/NWSHELF_REANALYSIS_WAV_004_015_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.96,
+  "pages": 25,
+  "text_preview": " \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \nPRODUCT USER MANUAL \n \n \nFor NWS Ocean Waves Reanalysis  \nProduct \nNWSHELF_REANALYSIS_WAV_004_015 \n \n \nIssue:  1.2 \n \n \n \n \nContributors: M. Tonani, A. Saulter, C.Stokes, T.Brüning \nApproval Date: September 2025 \n \n \n \n\nProduct User Manual for NWSHELF_REANALYSIS_WAV_004_015    \n \nPage 2 sur 25 \n2 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004_015 \nIssue 1.2 – September 2025 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 03/04/2020 All First version M. Tonani, A. Saulter M. Tonani \n1.1 02/02/2021 All added time series \nextension  \nM. Tonani, A. Saulter I. Ascione \n1.2 11/06/2025 II.2, \nIV.4, \nIV.7 \nAdjust information on \nstatic files and  \nmetadata changes in \nnetcdf-header   \nC.Stokes, T.Brüning Copernicus Marine \nProduct Management \n \n \n \nProduct User Manual for NWSHELF_REANALYSIS_WAV_004_015    \n \nPage 3 sur 25 \n3 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004_015 \nIssue 1.2 – September 2025 \nTABLE OF CONTENTS\nGLOSSARY AND ABBREVIATIONS .............................................................................................................................. 4 \nDATA ACCESS ................................................................................................................................................... 5 \nI INTRODUCTION................................................................................................................................................. 6 \nI.1 Summary......................................................................................................................................................... 6 \nII Product DESCRIPTION: NWSHELF_REANALYSIS_WAV _004_015 ................................................................... 7 \nII.1 General Information about products ............................................................................................................. 7 \nII.2 Details of the datasets .................................................................................................................................... 8 \nII.3 Product System Description ........................................................................................................................... 9 \nII.4 Processing information ................................................................................................................................. 12 \nII.4.1 Update Time .................................................................................................................................. 12 \nII.4.2 Time coverage ............................................................................................................................... 12 \nII.4.3 Time averaging .............................................................................................................................. 12 \nII.4.4 Time variable in netCDF files ....................................................................................................... 12 \nIII FILE FORMAT ......................................................................................................................................... 14 \nIV FILES NOMENCLATURE  ...................................................................................................................... 15 \nIV.1 Nomenclature of files when downloaded through  the Copernicus Marine Service Web Portal Service 15 \nIV.2 File size (netCDF4) ....................................................................................................................................... 15 \nIV.3 Remember: scale_factor  & add_offset / missing_value / land mask ....................................................... 15 \nIV.4 Reading Software ........................................................................................................................................ 16 \nIV.5 Structure of files ........................................................................................................................................ 16 \nV REFERENCES .............................................................................................................................................. 17 \nVI ANNEX ...................................................................................................................................................... 18 \n \nProduct User Manual for NWSHELF_REANALYSIS_WAV_004_015    \n \nPage 4 sur 25 \n4 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004_015 \nIssue 1.2 – September 2025 \nGLOSSARY AND ABBREVIATIONS \nMFC Monitoring and Forecasting Centre \nNWS North-West Shelf \nNetCDF Network Common Data Form \nCF Climate Forecast (conventi",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for NWSHELF_REANALYSIS_WAV_004_015, providing details about the product including its description, file format, nomenclature, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_REANALYSIS_WAV_004_015",
+      "name": "North-West Shelf Ocean Waves Reanalysis",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Atlantic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_peak_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -50,
+        "lon_max": 50,
+        "lat_min": -70,
+        "lat_max": 80
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2206,
+  "_tokens_out": 733,
+  "_eval_s": 5.49
+}

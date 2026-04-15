@@ -1,0 +1,71 @@
+{
+  "doc_id": "53933291dbeda64c",
+  "legacy_doc_id": "9ffddc25ec49",
+  "filename": "IFS_CY49R1_Part-V_EPS.pdf",
+  "filepath": "docs/ecmwf_docs/IFS_CY49R1_Part-V_EPS.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.33,
+  "pages": 24,
+  "text_preview": "Part V: Ensemble Prediction System\nIFS DOCUMENTA TION – Cy49r1\nOperational implementation 12 November 2024\nPART V: ENSEMBLE PREDICTION\nSYSTEM\n© Copyright 2020-\nEuropean Centre for Medium-Range Weather Forecasts\nShinﬁeld Park, Reading, RG2 9AX, UK\nThe content of this document is available for use under a Crea tive Commons Attribution 4.0 International\nPublic License. See the terms at https://creativecommons. org/licenses/by/4.0.\nIFS Documentation – Cy49r1 1\nREVISION HISTORY\nChanged in CY49R1\n• Chapter 1. Model uncertainties are represented by SPP\n• Chapter 1. Revision of the conﬁguration of reforecasts\n• Ensemble forecasts for lead times up to 46 days are now refer red to as sub-seasonal forecasts\nChanges since CY43R1\n• Chapter 2. Update to gamma value.\nChanges since CY41R2\n• Chapter Methodology sections updated: Introduction.\n• Chapter Computational details - initial perturbations : g amma values updated in section, Initial\nperturbation component based on singular vectors.\n• Equation 1.3 corrected.\n2 IFS Documentation – Cy49r1\nPart V: Ensemble Prediction System\nChapter 1\nMethodology\nT able of contents\n1.1 Introduction\n1.2 Initial condition perturbations\n1.3 Singular vectors\n1.3.1 Formulation of the singular vector computation\n1.3.2 Use of the total energy norm\n1.3.3 Use of the Hessian of the 3D-Var objective function\nAppendix A. Eigenvalue algorithms\nA.1 The Lanczos algorithm\nA.2 The Jacobi–Davidson algorithm\nA.3 Solution method\n1.1 INTRODUCTION\nEnsemble prediction is a method to predict the probability d istribution of forecast states, given a\nprobability distribution of random analysis error and mode l uncertainties. In ensemble systems, the\nimpact of analysis and model uncertainties on forecasts sta tes are simulated by starting the ensemble\nof forecasts from different initial conditions, and comput ing each forecast evolution using schemes\ndesigned to simulate model uncertainties. Since 1992, ensemble prediction systems have been part of the\noperational forecasting suite at ECMWF (\nPalmer et al., 1993) and NCEP (T oth and Kalnay, 1993, 1997). A\ngeneral description of the ﬁrst version of the ECMWF EPS can be found in Molteni et al. (1996), and more\nrecent versions of the operational ensemble forecasts are described by Leutbecher and Palmer (2008) and\nLang et al. (2021a).\nThe implementations by ECMWF and NCEP in the early 90-s were f ollowed in 1995 by MSC Canada\n(Houtekamer et al., 1996b,a) and in 1998 by BoM Australia. The reader is referred to Buizza et al. (2005)\nfor a comparison of the performance of the ECMWF , MSC and NCEP ensemble systems over the\nnorthern hemisphere, and to Bourke et al. (2005) for a comparison of the performance of the ECMWF and\nthe BoM systems over the southern hemisphere. In the past dec ade, other meteorological centres have\nstarted producing routinely ensemble-based probabilistic forecasts, see for example Park et al. (2008) for\ncomparison of the performance of eight global ensemble pred iction systems archived within the TIGGE\nproject. The reader is referred to Hagedorn et al. (2012) for a more recent comparison of the performance\nof the ECMWF EPS and multi-model ensemble systems deﬁned by t he TIGGE ensembles.\nThe atmospheric model IFS is coupled from initial time to the ocean model NEMO (see Madec,\n2008). The coupling uses the single executable framework descri bed by Mogensen et al. (2012b). The\nocean initial conditions come from the near-real-time comp onent of the operational ocean analysis\n(NEMOV AR, see Mogensen et al., 2012a) and from the Ocean ReAnalysis System 5 (ORAS5, see\nZuo et al., 2017) for re-forecasts. Further details on the coupling are give n in 3.1.\nThe 50+1 medium-range non-linear integrations from day 0 to day 15 have a resolution of TCo1279.\nThey are initialised twice daily at 00 and 12 UTC. In addition , 100+1 sub-seasonal (previously referred\nto as monthly or extended-range) integrations from day 0 to d ay 46 are initialised at 00 UTC with a\nresolution of TCo319. The sub-seasonal integrations have a daily frequency since 27 June 2023. In the\nvertical, all integrations have 137 levels, with the model t op at 1 Pa. The two separate ensembles for\nmedium-range and sub-seasonal supersede a variable-resol ution system, which was operational from\nIFS Documentation – Cy49r1 3\nChapter 1: Methodology\n12 September 2006 (V AREPS, see Buizza et al. (2007)) to 27 June 2023. Earlier conﬁgurations of the sub-\nseasonal ensemble are described by Vitart (2004) and Vitart et al. (2008). The separation into two separate\nensembles has the following advantages: (i) it made it feasi ble to double the ensemble size for the\nsub-seasonal forecasts from 50 to 100 perturbed members, (i i) it provides more ﬂexibility for future\nrevisions of the re-forecasts (see below), and (iii) it perm its users to generate dual-resolution ensemble\nforecast products based on 150 members for the medium-range (Leutbecher and Ben Bouall` egue, 2020;\nBaran et al., 2019).\nOn 11 March 2008, a new en",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides details on the Ensemble Prediction System (EPS) of the Integrated Forecasting System (IFS), version CY49R1, including methodology updates and revisions since previous versions.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "IFS CY49R1",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "twice_daily",
+        "forecast_length_hours": 360
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "TCo1279, TCo319",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 137,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2630,
+  "_tokens_out": 372,
+  "_eval_s": 2.73
+}

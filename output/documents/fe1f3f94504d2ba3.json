@@ -1,0 +1,110 @@
+{
+  "doc_id": "fe1f3f94504d2ba3",
+  "legacy_doc_id": "c662b7de1219",
+  "filename": "BLKSEA_MULTIYEAR_WAV_007_006_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BLKSEA_MULTIYEAR_WAV_007_006_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.37,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n PRODUCT USER MANUAL \n \nFor  \nBlack Sea Waves Reanalysis Product \n \nBLKSEA_MULTIYEAR_WAV_007_006 \nIssue:  4.1      \n \nContributors: Rafael Gomes de Menezes     , Marcel Ricker,      Arno Behrens , Rita \nLecci \nApproval Date: November 2025      \n\n \n \n \nProduct User Manual for \nBLKSEA_MULTIYEAR_WAV_007_006 \n \nIssue : 4.     \n1 \n11/2025      \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BLK-PUM-007-006 \n1 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 04.02.2018 all First version for V4 EIS O. Krueger, A. \nBehrens, J. Staneva, S. \nCiliberti \n \n1.1 21.01.2019 all General revision and addition \nof static files description \nR. Lecci, A. Behrens, J. \nStaneva C. Derval \n2.0 10.09.2020 all New product name with new \ndataset. New template \nR. Lecci,  A. Behrens, \nJ. Staneva, M. Ricker \nC. Derval \n2.1 15.01.2021 all Addition of interim dataset R. Lecci C. Derval \n3.0 29.11.2022 all \nQuality improvement; \nUpstream data change; \nDataset renaming \nR. Lecci, J. Staneva, \nM. Ricker, A. Behrens Copernicus \nMarine \nProduct \nmanageme\nnt \n3.1 30.11.2023 all \nAdditional dataset; time series \nextension to 1950; addition of \nLATEMAR max. variables \nR. Lecci, M. Ricker, J. \nStaneva, A. Behrens \nCopernicus \nMarine \nProduct \nmanageme\nnt \n3.2 18.06.2024 \nI.1, I.2, \nII.1, \nII.5.1, \nII.5.2 \nRemoval of cold start period \n(first week of 1950) \nR. Lecci, M. Ricker \n \n4.0 26.11.2024 all Updated dataset and \naddition of air-sea flux dataset \nR. Lecci, M. Ricker  \n4.1 28.05.2025 all Merging of the Interim and \nReanalysis datasets \nR. G. de Menezes, M. \nRicker, R. Lecci \nCopernicus \nMarine \nProduct \nmanageme\nnt \n \n \n \nProduct User Manual for \nBLKSEA_MULTIYEAR_WAV_007_006 \n \nIssue : 4.     \n1 \n11/2025      \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BLK-PUM-007-006 \n2 \n \n \nTABLE OF CONTENTS \n \nDATA ACCESS .......................................................................................................... 5 \nI INTRODUCTION .................................................................................................. 6 \nI.2 History of changes ......................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \nII.1 General Information ...................................................................................... 8 \nII.2 Datasets details      ...................................................................................... 10 \nII.3 Production System Description .................................................................. 13 \nII.4 Grid ................................................................................................................ 15 \nII.5 Processing information ................................................................................ 15 \nII.6 Update Time ................................................................................................. 15 \nII.7 Temporal extent of multi-year data stored on delivery mechanism .. 15 \nII.8 Time averaging ............................................................................................ 15 \nIII FILE FORMAT ................................................................................................. 16 \nIV IV  FILES NOMENCLATURE ............................................................................ 17 \nIV.1 IV.1 Other information: mean centre of Products, land mask value, \nmissing value .......................................................................................................... 18 \nIV.2 File size ........................................................................................................... 19 \nV REFERENCES ..................................................................................................... 20 \n \n \n \n \nProduct User Manual for \nBLKSEA_MULTIYEAR_WAV_007_006 \n \nIssue : 4.     \n1 \n11/2025      \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BLK-PUM-007-006 \n3 \nGLOSSARY AND ABBREVIATIONS \nBLK Black Sea \nCF Climate Forecast (convention for NetCDF) \nCLS Collecte Localisation Satellites \nCMAP CPC Merged Analysis of Precipitation \nCMS Copernicus Marine Service \nCTD Conductivity Temperature Depth \nDAC Dynamic Atmospheric Correction \nECMWF European Centre for Medium -Range Weather \nForecasts \nEOF  Empirical Orthogonal Function \nFAQ Frequently Asked Question \nHereon Helmholtz-Zentrum Hereon (former HZG) \nHZG Helmholtz-Zentrum Geesthacht \nMeridional Velocity South to North component of the horizontal velocity \nvector \nMFC Monitoring and Forecasting Centre \nNEMO Nucleus for European Modelling of the Ocean \nNetCDF Ne",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Black Sea Waves Reanalysis Product, providing details on its datasets, production system, grid information, and file format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_MULTIYEAR_WAV_007_006",
+      "name": "Black Sea Waves Reanalysis Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Black Sea",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 27,
+        "lon_max": 40,
+        "lat_min": 41,
+        "lat_max": 48
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

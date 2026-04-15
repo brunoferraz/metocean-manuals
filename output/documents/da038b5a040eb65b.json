@@ -1,0 +1,110 @@
+{
+  "doc_id": "da038b5a040eb65b",
+  "legacy_doc_id": "60ba6ebd8714",
+  "filename": "SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.45,
+  "pages": 30,
+  "text_preview": " \n  \nSI TAC Production Centre \nArctic Ocean - Sea and Sea-Ice Surface Temperature \nProducts \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 \nSEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022 \n \n Issue: 3.0 \nContributors: I. Karagali, W. Kolbe , G. Gacitúa, P. Englyst, I. Lundtorp Olsen, M. Barfod Suhr, J. Høyer. \nApproval date by the CMEMS product quality coordination team: 05/11/2025 \n \n \n \n \n  \n \n\nProducts \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008, \nSEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-008-022 \n09 May 2025 \n3.0 \n \n                                                      Page 2/ 30 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 December \n2014 \nAll First draft version, based on \nthe template from the OSI -\nTAC Wiki \nJ. Høyer Bruce Hackett \n1.1 March \n2015 \nAll Revised version based upon \nfeedback from QuARG \nJ. Høyer Bruce Hackett \n1.2 September \n2015 \nAll Change format to fit \nCMEMS graphical rules. \nIntroduce references to \nCMEMS. \nB. Hackett L. Crosnier \n1.3 January \n2017 \nAll Updated with SST results \nusing the version 3.0 SST \nbias correction method \nJ. Høyer  \n1.4 April 2019 All Updated with the inclusion \nof the Sentinel 3 SLSTR SST \ndata \nJ. Høyer Mercator Ocean \n1.5 January \n2020 \nAll Updated with the inclusion \nof Sentinel 3B, and \nVIIRS_NPP SST/IST and \nNOAA 20 SST data \nJ. Høyer Mercator Ocean \n1.6 September \n2021 \nAll Introduced new consistent \nsea ice product. \nI. Karagali, J. Høyer, \nP. Englyst \n \n2.0 June 2023 All New template, introduce \nvalidation of IST with \nSIMB3, introduce validation \nof error analysis field \nI. Karagali, M. \nBarfod Suhr, P. \nEnglyst \nC. Wettre \n2.1 July 2024 All Sea Ice Concentration input \ndata \nI. Karagali, P. \nEnglyst, I. Lundtorp \nOlsen \nC. Wettre \n3.0 May 2025 All New template, validation of \nL3S product \nI. Karagali, W. \nKolbe, G. Gacitúa \nC. Wettre \n \n \nProducts \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008, \nSEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-008-022 \n09 May 2025 \n3.0 \n \n                                                      Page 3/ 30 \nACRONYM TABLE \nAcronym Description \nArgo International profiling float network  \nAVHRR Advanced Very High Resolution Radiometer \nCCI Climate Change Initiative \nCDR Climate Data Record \nC3S Copernicus Climate Change Service \nDMI Danish Meteorological Institute \nEAN Estimated Accuracy Number \nEiS Entry into Service \nESA European Space Agency \nEUMETSAT European Meteorological Satellites \nGCOS Global Climate Observing System \nGHRSST Group for High Resolution Sea Surface Temperature \nICDR Interim Climate Data Record \nIST Sea-Ice Surface Temperature \nMetOp Meteorological Operational Satellites \nNASA National Aeronautics and Space Administration \nNOAA National Oceanic and Atmospheric Administration \nNPP National Polar-orbiting Partnership \nNRT Near Real Time \nOI Optimal Interpolation \nOSTIA Operational Sea Surface Temperature and Ice Analysis \nPMW Passive Microwave \nSAF Satellite Application Facility \nSI Sea Ice \nSIC Sea Ice Concentration \nSLSTR Sea and Land Surface Temperature Radiometer \nSST Sea Surface Temperature \nTAC Copernicus Marine Service Thematic Assembly Centre \nTIR Thermal Infrared \nVIIRS Visible Infrared Imaging Radiometer Suite \n \n \nProducts \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008, \nSEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-008-022 \n09 May 2025 \n3.0 \n \n                                                      Page 4/ 30 \nKEY DEFINITIONS \nSea Surface Temperature The temperature of the ocean water at 20 cm depth. \nSea-Ice Surface \nTemperature \nThe temperature of the sea-ice surface.  \nThermal skin layer The layer within which the long -wave radiation penetrates the ocean, \ntypically less than 1mm, where ocean-atmosphere heat exchange takes \nplace and temperature is measured using Infra-red sensors. \nSSTsub-skin Sea Surface Temperature at the base of the skin layer. \nSSTskin Sea Surface skin  temperature, which is the mean temperature of the \nthermal skin layer. \nSSTfoundation Sea Surface Temperature at the base of the thermal layer, the diurnal \nthermocline, which is considered representative of night -time and/or \nwell mixed conditions, i.e free of any diurnal signal. \nSea Ice Concentration  Fraction (percentage) of the grid cell where the sea surface temperature \nis quantified containing sea-ice.",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes two products related to Arctic Ocean sea and sea-ice surface temperature, including their quality information and change history.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "SI TAC Production Centre"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022",
+      "name": "Arctic Ocean - Sea and Sea-Ice Surface Temperature Products",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_PHY_SST_IST_L3S_NRT_011_022",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "IST",
+        "cf_standard_name": "sea_ice_surface_temperature",
+        "long_name": "Sea-Ice Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

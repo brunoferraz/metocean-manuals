@@ -1,0 +1,85 @@
+{
+  "doc_id": "c3005ade31da9b31",
+  "legacy_doc_id": "86f787670fd8",
+  "filename": "SEALEVEL_EUR_PHY_L3_MY_008_061_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEALEVEL_EUR_PHY_L3_MY_008_061_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 22,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors :Grassi Kelly, Marie-Isabelle Pujol and SL-TAC team. \nApproval Date  November 2025 \n \nFor Sea Level TAC - DUACS products \nSEALEVEL_GLO_PHY_L3_NRT _008_044 \nSEALEVEL_EUR_PHY_L3_NRT _008_059 \nSEALEVEL_GLO_PHY_L3_MY_008_062 \nSEALEVEL_EUR_PHY_L3_MY_008_061 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 \nProduct User Manual for SEALEVEL_[GLO/EUR]_PHY_L3_[NRT/MY] _008_0*  \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-044-059-061-062 \nIssue 1.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/28  \nChange Format file: \nsubdivision of unique PUM for \nL3/L4 products in 3 \ndocuments. This new doc \nconcern L3 products \nK Grassi M-I Pujol \n      \n      \n \n \n \n3 \nProduct User Manual for SEALEVEL_[GLO/EUR]_PHY_L3_[NRT/MY] _008_0*  \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-044-059-061-062 \nIssue 1.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................ ................................ ................................ ............................  6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ................................ ................................ ................................ .......... 7 \nb) Production System Description ................................ ................................ .........................  8 \nc) Dataset details ................................ ................................ ................................ ................... 8 \nd) Additional information on some parameters ................................ ................................ .. 12 \ne) Processing information ................................ ................................ ................................ .... 14 \nf) Catalogue updating ................................ ................................ ................................ .......... 14 \ng) Time averaging ................................ ................................ ................................ ................ 15 \nh) Product use and impact ................................ ................................ ................................ ... 15 \n3) FILE FORMAT .................................................................................................... 16 \n4) FILES NOMENCLATURE .................................................................................... 16 \nLevel-3 along-track products ................................ ................................ ................................ ...... 16 \n4.1  FILE SIZE ............................................................................................................... 17 \n4.2  STRUCTURE OF FILES ........................................................................................... 18 \n5) REFERENCES ..................................................................................................... 19 \n6) ANNEX ............................................................................................................. 20 \na) Level-3 along-track products ................................ ................................ ...........................  20 \n  \n \n \n \n4 \nProduct User Manual for SEALEVEL_[GLO/EUR]_PHY_L3_[NRT/MY] _008_0*  \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-044-059-061-062 \nIssue 1.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nA",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SEALEVEL_EUR_PHY_L3_MY_008_061, providing details on the product specification, production system description, dataset information, and file format for Sea Level products from MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_EUR_PHY_L3_MY_008_061",
+      "name": "Sea Level Product User Manual for SEALEVEL_EUR_PHY_L3_MY_008_061",
+      "model_name": null,
+      "region": "European",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_sealevel_eur_phy_my_l3-my_008_061",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2324,
+  "_tokens_out": 559,
+  "_eval_s": 4.12
+}

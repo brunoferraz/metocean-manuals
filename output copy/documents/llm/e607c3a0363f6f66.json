@@ -1,0 +1,70 @@
+{
+  "doc_id": "e607c3a0363f6f66",
+  "legacy_doc_id": "f56acfec565e",
+  "filename": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.04,
+  "pages": 36,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n         PRODUCT USER MANUAL \n \n \n \nFor Regional High Resolution Sea Ice Charts \nSvalbard and Greenland Region \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002 \n \n \n \nIssue:  3.0 \n \n \n \n \nContributors : Frode Dinessen, Bruce Hackett, Matilde Brandt Kreiner \nApproval Date: November 2024 \n \n \n \n\n \nPUM for SI TAC regional Arctic sea ice product \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002 \n2024/11 \nIssue : 3.0 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SEAICE-PUM-011-002 \n                           Page 2 / 36 \nCHANGE RECORD \nIssue Date § Description of Change Author Validated By \n1.0 \n \n16.09.2011 All Creation of the document Frode Dinessen Lars-Anders Breivik \n2.0 28.10.2011 layout Adaptation to new template   \n2.1 17-11-2011  Update Nomenclature of file L. Crosnier WP17  \n2.2 2014.05.15 II Add MFTP download \nmechanism \nBruce Hackett Lars-Anders Breivik \n2.3 2015.01.30 III Transition to Sentinel-1, \nCorrected SUBS download \nnomenclature \nFrode Dinessen, \nBruce Hackett \nL. Crosnier \n2.4 2015.05.20 all Change format to fit CMEMS \ngraphical rules  \n L. Crosnier \n2.5 2015.09.20 all Finish CMEMS rebranding Frode Dinessen, \nBruce Hackett \n \n2.6 2016.09.30 All Sentinel-1B data included in \nservice \nFrode Dinessen B. Hackett \n2.7 2018.01.15 All Updated description \nRebranding from OSI to SI TAC \nFrode Dinessen C. Wettre \n2.8 2019.12.06 All Greenland datasets  (former \n_011_003) product) \ninformation  included. \nMatilde B. Kreiner C. Wettre \n2.9 2020.09.09 All Updated with information of \nnew Greenland datasets. \nMatilde B. Kreiner C. Wettre \n3.0 2024.09.01 I, VI Updates of the Svalbard \ndataset \nFrode Dinessen C. Wettre \n \n \nPUM for SI TAC regional Arctic sea ice product \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002 \n2024/11 \nIssue : 3.0 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SEAICE-PUM-011-002 \n                           Page 3 / 36 \n \nTable OF CONTENTS \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCES ........................................................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 6 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 7 \nII.1 General Description ..................................................................................................................................... 7 \nII.2 General Information .................................................................................................................................... 7 \nII.3 Details of datasets ......................................................................................................................................... 9 \nII.4 Additional information about products .................................................................................................... 14 \nIII    FILE FORMAT .............................................................................................................................................. 15 \nIV NOMENCLATURE OF FILES .................................................................................................................... 16 \nIV.1 Nomenclature of files when downloaded through the CMEMS Web Portal Subset Service .............. 16 \nIV.2 Nomenclature of original files .................................................................................................................. 16 \nIV.3 Grid type and Geographical Projection .................................................................................................. 17 \nIV.4 Domain coverage (includes image of domain + projection used if any)  ............................................... 17 \nIV.5 Update Time .............................................................................................................................................. 19 \nIV.6 Temporal extent of analysis and forecast stored on delivery mechanism  ............................................ 19 \nIV.7 Other information: mean centre of Products, land mask value, mis",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Regional High Resolution Sea Ice Charts covering Svalbard and Greenland, providing details on data access, product description, file format, nomenclature of files, grid type, geographical projection, update time, and temporal extent of analysis and forecast stored on delivery mechanism.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_002",
+      "name": "Regional High Resolution Sea Ice Charts for Svalbard and Greenland Region",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "polar_stereographic",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2400,
+  "_tokens_out": 414,
+  "_eval_s": 3.03
+}

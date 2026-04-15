@@ -1,0 +1,142 @@
+{
+  "doc_id": "55bbc51e9928bf20",
+  "legacy_doc_id": "3346925c885e",
+  "filename": "MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.34,
+  "pages": 52,
+  "text_preview": " \n \nMulti Observation Production Centre  \nOcean 3D Temperature, Salinity, Geopotential Heights, \nGeostrophic Currents and 2D Mixed Layer Depth \nProduct \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n \n Issue: 2.0 \nContributors: Eric Greiner, Nathalie Verbrugge, Patricia Zunino \nApproval date by the CMEMS product quality coordination team: 15/11/2025 \n \n \n \n \n  \n \n\nProducts \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015_012 \n16 May 2025 \n2.0 \n \n                                                      Page 2/ 52 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \n \nIssue Date § Description of Change Author Validated By \n1.0 September \n2020 \nAll Initial version of the document \nCreated from CMEMS-MOB-QUID-\n015-001 and CMEMS-MOB-QUID-\n015-002 \nE. Greiner, N. \nVerbrugge, S. \nMulet, S. \nGuinehut \nS. Guinehut \n1.1 August \n2021 \nI.1 Minor changes to specify the \nupdate frequency and the temporal \ncoverage of rep datasets \nS. Guinehut S. Guinehut \n1.2 August \n2023  Reprocessing of the period 2015-\n2021 with input data updates (SSS \nSMOS+SMAP, SLA MY v2021 + \nECORA) + extension of the time \nseries to 2022 \nN. Verbrugge, \nE. Greiner, P. \nZunino \nH. Etienne \n2.0 May 2025 all Full reprocessing at a daily and 1/8° \nresolution (against weekly and 1/4° \nbefore). New correlation radii \ncomputed at each depth from T/S \nhistorical profiles. Review of the in \nsitu observations errors to limit \noverfitting. Updated upstreams: SSS \nat 1/8° and SLA L4 DUACS24 1/8°; \nNew MDT version, longitudes from -\n180 to 180° instead of 0 to 360°. \nNew static dataset with \ntemperature and salinity monthly \nuncertainties  \nN. Verbrugge, \nE. Greiner, P. \nZunino \nH. Etienne \n \n \n  \nProducts \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015_012 \n16 May 2025 \n2.0 \n \n                                                      Page 3/ 52 \nACRONYM TABLE \nAcronym Description \nArgo International profiling float network (www.argo.net) \nCTD Conductivity, Temperature, and Depth; It refers to a package of \nelectronic instruments that measure these properties \nDT Delayed Time \nEAN Estimated Accuracy Number \nEOF Extended Orthogonal Function \nGMSLA Global Mean Sea Level Anomaly \nMDT Mean Dynamic Topography \nMLD Mixed Layer Depth \nMY Multi-year \nNRT Near Real Time \nNRT Near Real Time \nREP Reprocessing \nRMS Root mean square \nSLA Sea Level Anomaly \nSSS Sea Surface Salinity \nSST Sea Surface Temperature \nSTD Standard deviation \nTAC Copernicus Marine Service Thematic Assembly Centre \nXBT Expendable Bathythermograph \n \n \n \n \n \n \n \n \n \n \n \nProducts \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015_012 \n16 May 2025 \n2.0 \n \n                                                      Page 4/ 52 \nKEY DEFINITIONS \nRMSD (Root mean square \ndifferences) 𝑅𝑀𝑆𝐷 = √1\n𝑁 ∑ (𝑋𝑝𝑖 − 𝑋𝑜𝑖 )\n2𝑛\n𝑖=1    ; N=samples number; Xp=product field \nvalue; Xo=observation value  \nThis metric measures the average magnitude of the difference of the \nproduct in comparison with a reference observed dataset. It is used in \nthe validation of the product \nQuantiles In statistics, quantiles are points that divide an ordered set of data \nequally. A quantile indicates the value below which a percentage of the \ndata lies. \nFor example, if the value of the quantile 67% is 0.5, this means that 67% \nof the data in the sample is below 0.5 and the rest of the data is above \n0.5. \nSTD 𝑆𝑇𝐷 = √1\n𝑁 ∑ (𝐷𝑖 − 𝐷̅)2𝑛\n𝑖=1  ; with D = Xp – Xo and Xp=product field value; \nXo=observation value; N=samples number  \nThis metric measures the dispersion of the errors around the mean error. \nIt is used in the validation of the product \nClimatology In the context of this document, a climatology is a static field that \nrepresents the average status of a variable over several years. \n \n \n \nRELEVANT DOCUMENT LIST \nSynthetic Overview \nDocument \nSQO associated to extended QUID: CMEMS-MOB-QUID-015-012 \nProduct User Manual Multi Observation Global Ocean 3D Temperature Salinity Heights \nGeostrophic Currents and MLD Product \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \n  \nProducts \nMULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015_012 \n16 May 2025 \n2.0 \n \n                                                      Page 5/ 52 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey d",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes a multi-observation product for ocean physics, including temperature, salinity, geopotential heights, geostrophic currents, and mixed layer depth in near real-time and reprocessed datasets.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012",
+      "name": "Multi Observation Global Ocean 3D Temperature Salinity Heights Geostrophic Currents and MLD Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_PHY_TSUV_3D_MYNRT_015_012",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Ocean Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Ocean Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "geopotential_heights",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Geopotential Heights",
+        "unit": "m2 s-2",
+        "physical_quantity": "other",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "geostrophic_currents",
+        "cf_standard_name": "sea_water_x_velocity sea_water_y_velocity",
+        "long_name": "Geostrophic Currents (u and v components)",
+        "unit": "m s-1",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "geostrophic_currents"
+      },
+      {
+        "native_name": "mixed_layer_depth",
+        "cf_standard_name": "sea_water_mixed_layer_thickness",
+        "long_name": "Mixed Layer Depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/8°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2755,
+  "_tokens_out": 1024,
+  "_eval_s": 7.73
+}

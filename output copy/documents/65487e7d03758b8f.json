@@ -1,0 +1,85 @@
+{
+  "doc_id": "65487e7d03758b8f",
+  "legacy_doc_id": "bf364de3c9ac",
+  "filename": "OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.51,
+  "pages": 8,
+  "text_preview": " \n  \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPRODUCT USER MANUAL \n \nFor \nBlack Sea Ocean Heat Content Anomaly \n(0-300m) \n \nOMI_CLIMATE_OHC_BLKSEA_area_averaged\n_anomalies \n \nIssue 2.0 \n \nContributors: Leonardo Lima, Rafael Gomes de Menezes, Rita Lecci \nApproval Date: November 2025 \n \n \n \n \n\nProduct User Manual for OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies \n2 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCLIMATE_OHC_BLKSEA_area_averaged_anomalies \n Issue 2.0 – November 2025 \n \nChange Record \n \nIssue Date § Description of Change Author Checked by Validated by \n1.0 2022/11/29 all Creation of the document L. Lima, R. \nLecci \n  \n2.0 2025/05/28 all Updated time series based \non BLK-REA BSe4r1 and \nsetup of operational \nextension \nL. Lima, R. G de \nMenezes \nR. Lecci Copernicus \nMarine Product \nManagement \n       \n  \nProduct User Manual for OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies \n3 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCLIMATE_OHC_BLKSEA_area_averaged_anomalies \n Issue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \nMOI Mercator Océan International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \n  \nProduct User Manual for OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies \n4 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCLIMATE_OHC_BLKSEA_area_averaged_anomalies \n Issue 2.0 – November 2025 \n \nTable of Content \n \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \nDATA ACCESS      ........................................................................................................ 5 \nI INTRODUCTION ..................................................................................................... 6 \nII DESCRIPTION OF THE PRODUCT ........................................................................... 7 \nIII FILES NOMENCLATURE AND FORMAT ............................................................... 8 \nIV REFERENCES ....................................................................................................... 8 \n \n  \nProduct User Manual for OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies \n5 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- \nCLIMATE_OHC_BLKSEA_area_averaged_anomalies \n Issue 2.0 – November 2025 \nDATA ACCESS      \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is \navailable, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If you have any questions, please contact us. \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This Product User Manual describes the Black Sea Ocean Heat Content Anomaly product, providing details on its data access, file nomenclature, and format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CLIMATE_OHC_BLKSEA_area_averaged_anomalies",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "OHC_anomaly",
+        "cf_standard_name": "ocean_heat_content_anomaly",
+        "long_name": "Ocean Heat Content Anomaly (0-300m)",
+        "unit": "J/m^2",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 300.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2051,
+  "_tokens_out": 478,
+  "_eval_s": 3.46
+}

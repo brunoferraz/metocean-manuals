@@ -1,0 +1,14 @@
+{
+  "doc_id": "5477f02a2950d32d",
+  "legacy_doc_id": "b1a00d0bac5a",
+  "filename": "FV3GFS_OD_brief.pdf",
+  "filepath": "docs/gfs_docs/FV3GFS_OD_brief.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 24.33,
+  "pages": 111,
+  "text_preview": "1\n  \nNCEP OD Science and Decisional Briefs \nOctober 1, 2018 (slides 2-73)\nand April 1, 2019 (slides 74-94)\nImplementation of NGGPS/FV3GFS V1.0\nGDAS/GFS V15 for Q2FY2019\n \n1\n2\n  \nPresented by:\nVijay Tallapragada\nChief, Modeling and Data Assimilation Branch\nGeoff Manikin \nVerification, Post Processing and Product Generation Branch\nNCEP/EMC\nA Major Advancement and Foundation for NOAA’s Unified Forecast System\nNCEP OD Science and Decisional Brief \n-October 1, 2018\nImplementation of NGGPS/FV3GFS V1.0\nGDAS/GFS V15.0.0 for Q2FY2019\n \n2\n\n3\nQuad Chart\nOn Target\n4\nReview of Science changes\nTest Plan and Evaluation Strategy\nEvaluation of FV3GFS performance \nDownstream user and model evaluation\nEvaluation from Stakeholders\nResources\n  Topics\n5\nChange History of GFS Configurations\n Mon/Year Lev Truncations Z-cor/dyncore Major components upgrade\nAug  1980\n 12\n R30 (375km) Sigma Eulerian\n first global spectral model, rhomboidal \nOct 1983 12 R40 (300km) Sigma Eulerian\nApr  1985 18 R40 (300km) Sigma  Eulerian GFDL Physics\nAug 1987\n 18\n T80 (150km) Sigma  Eulerian\n First triangular truncation; diurnal cycle\nMar 1991\n 18\n T126 (105km) Sigma  Eulerian\nAug  1993\n 28\n T126 (105km) Sigma  Eulerian\n Arakawa-Schubert convection\nJun  1998 42 T170 (80km) Sigma  Eulerian Prognostic ozone; SW from GFDL to NASA\nOct  1998\n 28\n T170 (80km) Sigma  Eulerian\n the restoration\nJan  2000 42 T170 (80km) Sigma  Eulerian first on IBM\nOct  2002 64\n T254 (55km) Sigma  Eulerian\n RRTM LW; \nMay  2005 64 T382 (35km) Sigma  Eulerian 2L OSU to 4L NOAH LSM; high-res to 180hr\nMay  2007 64\n T382 (35km)\n Hybrid  Eulerian\n SSI to GSI\nJul 2010 64\n T574 (23km)\n Hybrid  Eulerian\n RRTM SW; New shallow cnvtion; TVD tracer\nJan 2015 64\n T1534 (13km)\n Hybrid Semi-Lag\n SLG;  Hybrid EDMF; McICA etc\nMay2016 64\n T1534 (13km)\n Hybrid Semi-Lag\n 4-D Hybrid En-Var DA\nJun2017 64\n T1534 (13km)\n Hybrid Semi-Lag\n NEMS GSM, advanced physics\nJAN 2019 64 FV3  (13km) Finite-Volume NGGPS FV3 dycore, GFDL MP\n5GSM has been in service for NWS operations for 38 years !",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": null,
+  "classification_error": null
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "7b39fa4958882658",
+  "legacy_doc_id": "691c80fc53cd",
+  "filename": "OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.49,
+  "pages": 12,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \nPRODUCT USER MANUAL \n \nOMI Ocean Health OceanColour Atlantic \nEutrophication \n \nOMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication \n \nIssue 3.0 \n \n \nContributors: Jane Netting \nApproval Date: November 2022 \n \n \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health OceanColour Atlantic \nEutrophication \nIssue : 3.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-EUTROPHICATION-OCEANCOLOUR  \n2 \n  \n \nChange Record \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2021/01/15 all Creation of the \ndocument. \n \nJ. Netting C. Derval C. Derval \n2.0 2021/09/10 all Update for EIS \nDecember 2021 \nJ. Netting  C. Derval \n3.0 2022/06/16 all Update for EIS \nNovember 2022 \nJane Netting  Copernicus \nMarine Product \nManagement \n       \n       \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health OceanColour Atlantic \nEutrophication \nIssue : 3.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-EUTROPHICATION-OCEANCOLOUR  \n3 \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMDS Marine Data Store \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nOC Ocean Colour \nATL Atlantic Ocean \n \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health OceanColour Atlantic \nEutrophication \nIssue : 3.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-EUTROPHICATION-OCEANCOLOUR  \n4 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 5 \n DESCRIPTION OF THE PRODUCT ........................................................................... 6 \nII.1. General information ......................................................................................... 6 \n Atlantic Ocean ................................................................................................. 6 \nII.2. Details of the datasets ...................................................................................... 7 \n Atlantic Ocean ................................................................................................. 7 \nII.3. Product System Description ............................................................................. 7 \n DOWNLOAD A PRODUCT ..................................................................................... 9 \n FILES NOMENCLATURE AND FORMAT ............................................................. 10 \nIV.1. Nomenclature of files .................................................................................. 10 \nIV.2. File Format .................................................................................................... 10 \nIV.3. Reading Softwares ...................................................................................... 11 \n REFERENCES ........................................................................................................ 12 \n \n  \n \nCopernicus Marine Service Product User \nManual for \nOMI Ocean Health OceanColour Atlantic \nEutrophication \nIssue : 3.0 \n2022/06/16 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-HEALTH-CHL-EUTROPHICATION-OCEANCOLOUR  \n5 \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Ocean Monitoring Indicator (OMI) \nOMI-HEALTH-EU: it provides 2D (latitude and longitude) data of eutrophication (relative to a \n1998 to 2017 reference period). \nThe document refers to these products:  \nOMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication \n \nThese data are computed using MY 1  data which provide chlorophyll concentrations from \nsatellite observations. The product is published on the Copernicus Marine dissemination server \nafter automatic and delayed -mode quality controls. The product is available online and \ndisseminated through t he MDS. Files downloaded are in  NetCDF format and follow CF -\n1.7 convention.  \n \nMY data are described in detail in the corresponding Quality Information Documents (QUID):  \nhttps://catalogue.marine.copernicus.eu/documents/QUID/CMEMS-OC-QUID-009-\n111to114-121to124.pdf \nOMI",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI Ocean Health OceanColour Atlantic Eutrophication, providing details on eutrophication data in the Atlantic Ocean relative to a 1998-2017 reference period.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OMI_HEALTH_CHL_ATLANTIC_OCEANCOLOUR_eutrophication",
+      "name": "OMI Ocean Health OceanColour Atlantic Eutrophication",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_blk_phy-temp_anfc_2.5km_P1D-m",
+        "temporal_resolution": "P1Y",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll_concentration",
+        "cf_standard_name": "chl",
+        "long_name": "Chlorophyll-a concentration in the water column",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "10km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -80.0,
+        "lon_max": 40.0,
+        "lat_min": -50.0,
+        "lat_max": 70.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

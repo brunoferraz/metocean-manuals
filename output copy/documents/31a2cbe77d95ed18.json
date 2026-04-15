@@ -1,0 +1,70 @@
+{
+  "doc_id": "31a2cbe77d95ed18",
+  "legacy_doc_id": "96a223984625",
+  "filename": "Reports_on_ICON_2022_09.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2022_09.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 5.64,
+  "pages": 30,
+  "text_preview": "ICONIC – ICON in the Cloud\nF. Prill, C. Eser\nMay 2022\nMax-Planck-Institut\n für Meteorologie\nIssue\n009 Reports on ICON\nDOI: 10.5676/DWD_pub/nwv/icon_009\nISSN: 2628-4898\nDOI: 10.5676/DWD_pub/nwv/icon_009\nISSN: 2628-4898\nThispublicationwasproducedwiththefinancialsupportoftheEuropeanUnion. Itscontentsarethesole\nresponsibilityoftheWorldBankandDWDanddonotnecessarilyreflecttheviewsoftheEuropeanUnion.\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 Oﬀenbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRené Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nflorian.prill@dwd.de\nICONIC – ICON in the Cloud F. Prill, C. Eser\nICONIC – ICON in the Cloud\nF. Prill, C. Eser\nDeutscher Wetterdienst\nAbstract\nThe commercial IT cloud market has evolved rapidly over the last decade. Running regional\nnumerical weather forecasts over the Internet, without the need for a local IT infrastructure,\nno longer seems impossible. The German Weather Service (DWD) therefore develops a gen-\neral, portable toolchain around user-defined small and medium-size regional weather forecasts.\nIn particular, DWD’s ICONIC project has investigated the potential of this approach in a pre-\noperational setup for Central Asia for the ICON-LAM numerical weather prediction model.\nResources have been funded 2021 – 2022 as a World Bank pilot, where this document repre-\nsents a report of the project work.\nKeywords: ICON, Cloud, Docker, Singularity, Scientific workloads, Mesoscale models,\nNumerical weather prediction/forecasting\nCorrespondence to: F. Prill(florian.prill@dwd.de)\n1. Introduction\nThe icosahedral non-hydrostatic model ICON has initially been developed by the German Weath-\ner Service (DWD) and the Max-Planck-Institute for Meteorology (MPI-M) as a numerical weather\nprediction (NWP) and climate modelling framework. In the wake of its successful introduction in\n2015, other important MetServices and institutes have joined the effort, including MeteoSwiss and\nthe Swiss Supercomputing Centre. Within the Consortium for Small-scale Modeling (COSMO,\nsee [13]) the ICON model is now used operationally by numerous regional and national meteoro-\nlogical services.\nApart from these partnerships, the German Weather Service (DWD) has been supporting na-\ntional hydrometeorological services worldwide for more than 20 years. DWD’s regional models\nare free of charge for developing countries and universities. Various support services are targeted\nat MetServices and scientific users who are planning to run DWD’s regional models. These sup-\nporting activities range from training events to “classical” support channels, e.g. mailing lists and\nF.A.Q. web sites, to site assistance in individual cases.\nHowever, the complexity of the ICON model and the heterogeneity of today’s computer plat-\nforms give rise to an increasing need for technical support: Users require advice on the model\nsetup and support during the installation phase on local computer systems. Parallel processing\nis applied on a massive scale, where workloads change in the short term and the dynamic require-\nments exceed the available local hardware. This increasingly complex setup and software stack\nReports on ICON- Issue009 3\nICONIC – ICON in the Cloud F. Prill, C. Eser\nis contrasted with the limited staff resources of small National Meteorological and Hydrological\nServices (NMHSs) or university groups. Even large developer communities, such as that of the\nICON model, do not have the necessary support capacity for this situation. Within the ICONIC\nproject two key answers to these problems have been identified: container deployment and cloud\nservice models.\n1.1. Containerization\nDuring the last decade the container technology has emerged as the natural extension of classical\nprogram binaries and libraries. Containers are based on so-called images, pre-configured ready for\nuse. An image is complete in itself: There is no need to consider software dependencies or library\nversions, and containers can be used and reproduced almost anywhere. This includes remote\nplatforms as well as running on-premise with very broad limits of portability (e.g. architecture\nchanges, outdated kernels). Furthermore, containers are not virtual machines, but processes\nisolated by kernel functions that run on the system like normal software. This means that there\nis practically no loss of performance.\nThe first attempts with a containerized ICON model have shown the feasability of the approach\nfor numerical weather prediction. The complete model environment is containerized and can be\nre-used without change on multiple machine types. Several pre- and postprocessing tools have\nbe",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the ICONIC project which explores running regional numerical weather forecasts using cloud computing resources, specifically focusing on Central Asia with the ICON-LAM model.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O | ICON-LAM",
+      "region": "Central Asia",
+      "product_types": [
+        "forecast"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2446,
+  "_tokens_out": 321,
+  "_eval_s": 2.31
+}

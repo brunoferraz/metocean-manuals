@@ -1,0 +1,114 @@
+{
+  "doc_id": "742b56ecb202bd8b",
+  "legacy_doc_id": "21433dbc9d18",
+  "filename": "NWSHELF_ANALYSISFORECAST_WAV_004_014_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/NWSHELF_ANALYSISFORECAST_WAV_004_014_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.86,
+  "pages": 23,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : C.Stokes, J.Tinker, T.Brüning \n \nApproval Date : November 2025 \nAtlantic - European North West Shelf - Ocean Wave Analysis \nand Forecast Product \n \nNWSHELF_ANALYSISFORECAST_WAV_004_014 \nIssue: 3.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_WAV_004_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004-014 \nIssue 3 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2020/08 All \nMerged PUM_004_013 and \n004_014. \nUpdated for Dec 2020 EIS. \nM. Tonani  \n1.1 2021/01 All Updated for May I. Ascione  \n1.2 2021/08 \nII.3 \nand \nII.4 \nDetails on vertical grid and vertical \ninterpolation \nM. Tonani and \nI. Ascione  \n1.3 2022/01 \nII.2 \nand \nII.4 \nUpgrade to GLO-HR boundary \nconditions and new MDT \nA. Saulter and I. \nAscione C. Derval \n2.0 2023/06/16 All \n[EIS September 2023] \nFirst release of the NWS wave \nanalysis and forecast product, as an \nextraction of the IBI operational \nsystem. \nA. Amo, C. \nToledano, L. \nCastrillo, R. \nAznar, L. Aouf \nM.G. Sotillo, \nS. Cailleau \n2.1 2024/05/31 All \n[EIS November 2024] \nModel system update: Resolution \nincreased from 1/20º to 1/36º. \nAssimilation system upgrade: \ninclusion of SWOT-NADIR and \nHY2B altimetric data. \nL. Castrillo, B. \nGómez, R. Aznar, \nL. Aouf \nM.G. Sotillo, \nS. Cailleau \n3.0 2025/05 All \n[EIS November 2025] \nRe-introduction of the NWS wave \nanalysis and forecasting product by \nthe UK Met Office \nC.Stokes, J.Tinker, \nT.Brüning \nCopernicus \nMarine Product \nManagement \n \n \n \n3 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_WAV_004_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004-014 \nIssue 3 – November 2025 \nTABLE OF CONTENTS \n \nRECORD TABLE ......................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS .......................................................................... 4 \nDATA ACCESS ............................................................................................................ 5 \n1) INTRODUCTION ............................................................................................... 6 \na) Summary ...............................................................................................................6 \nb) History of changes ..................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ..................................... 7 \na) General Information about products .........................................................................7 \nb) Production System Description ................................................................................8 \nc) Dataset details ......................................................................................................11 \nd) Additional information on some parameters ............................................................13 \ne) Processing information .........................................................................................14 \nf) Catalogue updating ...............................................................................................14 \ng) Time averaging ....................................................................................................15 \nh) Product use and impact .........................................................................................15 \n3) FILE FORMAT ................................................................................................ 16 \n4) FILES NOMENCLATURE ............................................................................... 16 \n4.1)    FILE SIZE ......................................................................................................... 16 \n4.2)    STRUCTURE OF FILES ................................................................................... 16 \n5) REFERENCES .................................................................................................. 17 \n6) ANNEX ............................................................................................................. 18 \na) Structure and semantic of NetCDF maps files..........................................................18 \n  \n \n \n \n4 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_WAV_004_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-004-014 \nIssue 3 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \nMFC Monitoring and Forecasting Centre \nNWS North-West Shelf \nTAC Thematic Assembly Center \nNRT  Near Real Time  \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment M",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the NWSHELF_ANALYSISFORECAST_WAV_004_014 product, detailing its history, specifications, and usage guidelines.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_ANALYSISFORECAST_WAV_004_014",
+      "name": "Atlantic - European North West Shelf - Ocean Wave Analysis and Forecast Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 24
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/36º",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 5,
+        "lat_min": 49,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2437,
+  "_tokens_out": 739,
+  "_eval_s": 5.39
+}

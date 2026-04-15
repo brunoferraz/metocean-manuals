@@ -1,0 +1,82 @@
+{
+  "doc_id": "acc351a5046b9a87",
+  "legacy_doc_id": "3c0898762071",
+  "filename": "SEAICE_ANT_PHY_L3_MY_011_018_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ANT_PHY_L3_MY_011_018_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.63,
+  "pages": 23,
+  "text_preview": " \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nPRODUCT USER MANUAL \n \n \nFor Antarctic Time series of ice drift \nSEAICE_ANT_PHY_L3_MY_011_018 \n \nIssue:  2.2 \n \n \n \n \nontributors : Fanny Ardhuin, Cédric Prévost, Dominique Briand \nApproval Date: November 2024 \n \n \n \n \n \n \n \n \n \n\n \n      \n \nPUM for SI TAC Antarctic Ice Drift Time Series \nSEAICE_ANT_PHY_L3_MY_011_018 \nJune 2024 \nIssue : 2.2 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-018 \n                                                  Page 2/ 23 \n \n \n \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 10.09.2021 All Creation of the \ndocument \nFanny Ardhuin, \nCédric Prévost \nC. Wettre \n2.0  16.06.2022 III.1 IV.4 Automatic temporal \nextension \nDominique \nBriand \nC. Wettre \n2.1      16.06.2023 VI.2 Format homogenization Dominique \nBriand \nC. Wettre \n2.2 28.05.2024 III, IV Add CFOSAT datasets C. Prevost C. Wettre \n  \n \n      \n \nPUM for SI TAC Antarctic Ice Drift Time Series \nSEAICE_ANT_PHY_L3_MY_011_018 \nJune 2024 \nIssue : 2.2 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-018 \n                                                  Page 3/ 23 \n \nTABLE OF CONTENTS \n \nGLOSSARY AND ABBREVIATIONS ...................................................................................................................................... 4 \nDATA ACCESS .................................................................................................................................................................... 5 \nI INTRODUCTION ......................................................................................................................................................... 7 \nII PRODUCT DESCRIPTION ............................................................................................................................................ 8 \nII.1 General information .......................................................................................................................................... 8 \nII.2 Details of datasets ............................................................................................................................................. 9 \nIII FILE FORMAT ........................................................................................................................................................... 11 \nIV ADDITIONAL INFORMATION ABOUT PRODUCTS .................................................................................................... 12 \nIV.1 Nomenclature of products .............................................................................................................................. 12 \nIV.2 Grid .................................................................................................................................................................. 12 \nIV.3 Domain coverage ............................................................................................................................................ 13 \nIV.4 Update Time .................................................................................................................................................... 13 \nIV.5 Temporal extend of analysis and forecast stored on delivery mechanism .................................................... 14 \nIV.6 Other information: mean centre of product, land mask value, missing value ............................................... 14 \nV VALIDATION AND ASSESSMENT/ QUALITY CONTROL DONE ON PRODUCTS ......................................................... 15 \nStructure of files .......................................................................................................................................................... 15 \n \n  \n \n      \n \nPUM for SI TAC Antarctic Ice Drift Time Series \nSEAICE_ANT_PHY_L3_MY_011_018 \nJune 2024 \nIssue : 2.2 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-018 \n                                                  Page 4/ 23 \n \n \nGLOSSARY AND ABBREVIATIONS \n \nTAC Thematic Assembly Centre \n \nSIW Sea Ice and Wind \n \nNetCDF Network Common Data Form \n \nCF Climate Forecast (convention for NetCDF) \n \nRMS Root mean square \n \nSDN SeaDataNet (climatology) \n \nPC Production Centre \n \nPU Production Unit \n \n  \n  \n  \nCMEMS Copernicus Marine Environment Monitoring Service \n \n \n \n \n \n \n \n \n      \n \nPUM for SI TAC Antarctic Ice Drift Time Series \nSEAICE_ANT_PHY_L3_MY_011_018 \nJune 2024 \nIssue : 2.2 \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-018 \n                                                  Page 5/ 23 \n \n \n \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our Help",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Antarctic Time series of ice drift, providing details on datasets, file format, and additional information about the products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ANT_PHY_L3_MY_011_018",
+      "name": "Antarctic Ice Drift Time Series",
+      "model_name": null,
+      "region": "Antarctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ANT_PHY_L3_MY_011_018",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "ice_drift",
+        "cf_standard_name": "sea_ice_velocity",
+        "long_name": "Ice drift velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "ice_drift"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": -60
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,102 @@
+{
+  "doc_id": "caf0202c69be5a61",
+  "legacy_doc_id": "bddd0be700e5",
+  "filename": "MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.58,
+  "pages": 16,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \n \n \n \nMulti Observation Global Ocean Sea Surface Salinity \nand Sea Surface Density Product \n \n \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n \n \nIssue :  1.3 \n \n \n \n \nContributors : B. Buongiorno Nardelli, M. Sammartino \nApproval Date : November 2023 \n \n \n \n \n\n \nProduct User Manual for \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n16.06.2023 \nIssue : 1.3 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SST-PUM-015-013 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 04/09/20 All Initial version of the \ndocument \nCreated from CMEMS-\nMOB-PUM-015-001 \nand CMEMS-MOB-\nQUID-015-002 \nB. Buongiorno Nardelli C. Derval \n1.1 15/08/2021 I.1, \nII.1, \nII.4.2 \nMinor changes to \nspecify the update \nfrequency and the \ntemporal coverage of \nrep datasets \nB. Buongiorno Nardelli C. Derval \n1.2 16/06/2022  Minor changes to \nspecify the inclusion of \nSMAP observations \nB. Buongiorno Nardelli, \nM. Sammartino \nCopernicus Marine \nProduct management \n \n1.3 16/06/2023  Major upgrade to \nprovide an improved \nproduct at higher \nspatial and temporal \nresolution \nB. Buongiorno Nardelli, \nM. Sammartino \nCopernicus Marine \nProduct management \n \n \n \n \n \nProduct User Manual for \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n16.06.2023 \nIssue : 1.3 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SST-PUM-015-013 \nCONTENT \nI INTRODUCTION................................................................................................................................................. 4 \nI.1 Summary .......................................................................................................................................................... 4 \nI.2 History of changes ........................................................................................................................................... 4 \nII PRODUCT DESCRIPTION ................................................................................................................................... 6 \nII.1 General Information about products ............................................................................................................. 6 \nII.2 Details of the datasets .................................................................................................................................... 7 \nII.3 Product System Description ........................................................................................................................... 7 \nII.4 Processing information ................................................................................................................................... 8 \nII.4.1 Update Time ......................................................................................................................................... 8 \nII.4.2 Time coverage ...................................................................................................................................... 8 \nIII DOWNLOAD A PRODUCT .................................................................................................................................. 9 \nIV FILES NOMENCLATURE and FORMAT ............................................................................................................ 10 \nIV.1 Nomenclature of files when downloaded through the Subsetter Service  ................................................ 10 \nIV.2 Nomenclature   of   files   when   downloaded   through   FTP Service  ...................................................... 10 \n• Dataset cmems_obs-mob_glo_phy-sss_nrt_multi_P1D/cmems_obs-mob_glo_phy-sss_my_multi_P1D :\n 10 \n• Dataset cmems_obs-mob_glo_phy-sss_nrt_multi_P1M/cmems_obs-mob_glo_phy-sss_my_multi_P1M \n: 10 \nIV.3 File Format and reading software ............................................................................................................... 11 \nIV.4 File size ......................................................................................................................................................... 11 \nIV.5 Scale_factor  & add_offset / missing_value / land mask ........................................................................... 11 \nIV.6 Structure and semantic of netCDF maps files............................................................................................. 11 \nIV.6.1 cmems_obs-mob_glo_phy-sss_nrt_multi_P1D ............................................................................. 12 \nIV.6.2 cmems_obs-mob_glo_phy-sss_my_multi_P1D ............................................................................ 14 \n \n \n \nProduct User Manual for \nMULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013 \n1",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density Product, detailing its specifications, updates, and usage instructions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_S_SURFACE_MYNRT_015_013",
+      "name": "Multi Observation Global Ocean Sea Surface Salinity and Sea Surface Density Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-mob_glo_phy-sss_nrt_multi_P1D",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems_obs-mob_glo_phy-sss_my_multi_P1M",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_salinity",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_density",
+        "cf_standard_name": "sea_surface_density",
+        "long_name": "Sea Surface Density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

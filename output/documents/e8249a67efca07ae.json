@@ -1,0 +1,96 @@
+{
+  "doc_id": "e8249a67efca07ae",
+  "legacy_doc_id": "891fe13efd2c",
+  "filename": "WIND_GLO_PHY_L3_NRT_012_002_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WIND_GLO_PHY_L3_NRT_012_002_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.07,
+  "pages": 39,
+  "text_preview": " \nQUALITY INFORMATION DOCUMENT  \n Global Ocean Wind Production Centre \nWIND_GLO_PHY_L3_NRT_012_002 \nWIND_GLO_PHY_L3_MY_012_005 \n \n Issue:  1.19 \nContributors: Tilly Driesenaar, Jos de Kloe, Maria Belmonte Rivas, Rianne Giesen et al. \nApproval Date by Quality Assurance Review Group: 18/04/2024 \n \n \n  \n \nQUID for Global Oceans Wind Product \nWIND_GLO_PHY_L3_NRT_012_002 \nWIND_GLO_PHY_L3_MY_012_005 \nRef: CMEMS-WIND-QUID-012-002-005 \nDate  : 1 February 2024  \nIssue : 1.19 \n \n \n     Page 2/ 39 \nCHANGE RECORD \n \nIssue Date § Description of Change Author Validated By \n1.0 2013-02-05 \n \nAll \n \nCreation of the document, Wind \nQUID split up from the SIW QUID. \nTilly Driesenaar, \nAbderrahim Bentamy \nAd Stoffelen \n \n1.1 2013-02-28 All Corrections after QuARG review Tilly Driesenaar, \nAbderrahim Bentamy \nAd Stoffelen \n \n1.2 2015-09-01 all Change format to fit CMEMS \ngraphical rules. Introduce \nreferences to CMEMS. \nB. Hackett L. Crosnier \n1.3 2015-12-09 all Change product ID from CLIM to \nREP \nB. Hackett  \n1.4 2016-01-19  Updated L3 product info Jos de Kloe B. Hackett \n1.4.1 2016-04-04 1.3, \n2.3 \nAdded EAN numbers Jos de Kloe  \n1.6 2016-07-12 all Add V2 datasets. Update scatterplot \nfigures. Minor edits. \nJos de Kloe B. Hackett \n1.7 2017-01-16 all Add L3 REP product Jos de Kloe C. Wettre \n 2017-03-16 1.3, \n2.1, \n3.1, \n4.1,  \n7 \nIn response to V3 review: add EAN \nfor curl.div, add figure 1, add \nequation for artificial input wind \nfield, and one extra reference \nJos de Kloe Ad Stoffelen \n1.8 2017-09-05  Extended ASCAT-A REP time-series \nand added ERS-1/ERS-2 REP data \nM. Belmonte Ad Stoffelen \n1.9 2018-01-26  Rebranded from OSI TAC to WIND \nTAC \nM. Belmonte Ad Stoffelen \n1.10 2018-08-23  Added Oceansat-2 OSCAT REP data \nand Scatsat-1 OSCAT NRT data. \nSome editing. \nM. Belmonte Ad Stoffelen \n1.11 2019-09-04  Added Metop-C ASCAT data Rianne Giesen  \n1.12 2019-12-16  Textual clarifications after review; \nadded list of data gaps caused by \nunavailable upstream data in \nChapter V. \nRianne Giesen, Ad \nStoffelen \nMercator Ocean \n1.13 2020-06-24  Figure and EAN updates after \nreview. Name change of L4 REP \nproduct and textual clarifications. \nUpdated list of data gaps to include \n2019 \nAbderrahim Bentamy, \nIsabel Garcia \nHermosa, Rianne \nGiesen \nMercator Ocean \n1.14 2020-09-09  Added NRT HY-2B HSCAT datasets. \nAdded information about time \nseries extension and L3 quality flags. \nUpdated list of data gaps. \nRianne Giesen  Ad Stoffelen \n \n \nQUID for Global Oceans Wind Product \nWIND_GLO_PHY_L3_NRT_012_002 \nWIND_GLO_PHY_L3_MY_012_005 \nRef: CMEMS-WIND-QUID-012-002-005 \nDate  : 1 February 2024  \nIssue : 1.19 \n \n \n     Page 3/ 39 \nIssue Date § Description of Change Author Validated By \n1.15 2021-09-01  Added NRT HY-2C HSCAT and REP \nMetop-B ASCAT datasets. Updated \ninformation about time series \nextension. Added recommendation \nabout wind speed calculation from \ncomponents. Updated list of data \ngaps. \nRianne Giesen Ad Stoffelen \n1.16 2022-03-30 2.1, \n5.1 \nChanged update frequency of \nMetop-B ASCAT REP datasets to \nmonthly (005). Metop-A ASCAT \ndatasets no longer updated after \nend-of-life (Nov 2021). Updated list \nof data gaps. \nRianne Giesen Rianne Giesen \n1.17 2022-06-13  Added HY-2D HSCAT NRT datasets, \nupdated list of data gaps. \nRianne Giesen Ad Stoffelen \n1.18 2023-09-06 All Changed product and dataset \nnames, add section about spatial \nderivatives, quality assessment of \nwinds closer to the coast for 0.125o \ndatasets. Updated list of data gaps. \nRianne Giesen Ad Stoffelen \n1.19 2024-02-01  Added Oceansat-3 OSCAT NRT \ndatasets, updated list of data gaps \nRianne Giesen Ad Stoffelen \n \n \nQUID for Global Oceans Wind Product \nWIND_GLO_PHY_L3_NRT_012_002 \nWIND_GLO_PHY_L3_MY_012_005 \nRef: CMEMS-WIND-QUID-012-002-005 \nDate  : 1 February 2024  \nIssue : 1.19 \n \n \n     Page 4/ 39 \nTABLE OF CONTENTS \n \nI. Executive summary ....................................................................................................................................... 5 \nI.1 Products covered by this document ................................................................................................... 5 \nI.2 Summary of the results ....................................................................................................................... 6 \nI.3 Estimated Accuracy Numbers ............................................................................................................ 6 \nII. Production Subsystem description ............................................................................................................ 8 \nII.1 L3 Global Ocean wind ......................................................................................................................... 8 \nII.2 Interpolation to the L3 grid .............................................................................................................. 11 \nII.3 L3 wind stress calculation ......................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the Global Ocean Wind Product, detailing its production process and quality control measures for near-real-time and multi-year datasets.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Global Ocean Wind Production Centre"
+    },
+    "product_line": {
+      "product_id": "WIND_GLO_PHY_L3_NRT_012_002, WIND_GLO_PHY_L3_MY_012_005",
+      "name": "Global Ocean Wind Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "WIND_GLO_PHY_L3_NRT_012_002, WIND_GLO_PHY_L3_MY_012_005",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10m above sea level",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_direction",
+        "cf_standard_name": "wind_from_direction",
+        "long_name": "Wind direction from which the wind is blowing",
+        "unit": "degree",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

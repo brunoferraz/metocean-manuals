@@ -1,0 +1,82 @@
+{
+  "doc_id": "d1f491e556e9ab9c",
+  "legacy_doc_id": "2530f0569d5b",
+  "filename": "OMI_EXTREME_SST_IBI_sst_mean_and_anomaly_obs_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_SST_IBI_sst_mean_and_anomaly_obs_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.74,
+  "pages": 8,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \nParc Technologique du Canal - 8-10 rue Hermès - 31520 Ramonville-Saint-Agne, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Service \nEXTREME SST \nSea surface temperature \nIssue: 2.1 \n \n \n \n \n \nContributors : Marta de Alfonso, Alejandro Gallardo, Fernando Manzano, Begoña Pérez Gómez \nApproval date : November 2025 \n  \n\n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME SST \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated  and a row is \nadded to this table.  The third column specifies which sections  or sub-sections \nhave been updated.   The fourth column should mention the version of the \nproduct to which the change applies. \n \nIssue Date § Description of \nChange \nAuthor Validated By \n \n \n \n22/07/2019 \n \nAll \n \nCreation of the \ndocument \nMarta de Alfonso, \nAlejandro Gallardo, \nFernando Manzano, \nBegoña Pérez Gómez \n \n \n1.0 \n \n02/10/2019 \n \nAll \n \nAdapt the document to \nthe new OMI structure \nand naming \n \nMarta de Alfonso \n \n \n2.0 02/09/2022  \nNew Product naming and \nnew template. \nChange of variable temp \nby sst. \nMarta de Alfonso Stéphane Tarot \n2.1 07/05/2025  Estimation of uncertainties \nwith standard deviation \nof percentiles \nMarta de Alfonso, \nBegoña Pérez Gómez, \nAlex Gallardo \nStéphane Tarot \n \n \n \n \n  \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME SST \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 Products used as input for the computations............................................................................................. 5 \nII SCIENTIFIC VALIDATION .............................................................................................................................. 6 \nIII REFERENCES ............................................................................................................................................... 8 \n \n \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME SST \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nOMI_EXTREME_SST_BALTIC_sst_mean_and_anomaly_obs \nOMI_EXTREME_SST_NORTHWESTSHELF_sst_mean_and_anomaly_obs \nOMI_EXTREME_SST_WAVE_IBI_sst_mean_and_anomaly_obs \nOMI_EXTREME_SST_MEDSEA_sst_mean_and_anomaly_obs \nI.2 Indicator evaluation method \nThe EXTREME SST indicators are based on the computation of the 99th and the \n1st percentiles (that represent approximately the 1% highest and lowest values, \nrespectively) from in situ data (observations), following the same approach \napplied by Woodworth and Blackman (2004) to extreme sea levels. This \nmethod determines changes in the frequency distribution of the measured \nvariables. \nAll the data used for the computation of these indicators have been \ndownloaded from Copernicus Marine Service In Situ Thematic Assembly Centre \n(In Situ TAC ) products. The analysis is performed for the following variable: sea \nsurface temperature (sst) measured by in situ buoys.  \nThe periods selected are based on our analysis of the data available in the \ndifferent In Situ TAC  regions that fulfilled specific criteria of data completeness \nand quality (Pérez Gómez et al 2016, Pérez Gómez et al 2018). Buoys were \nselected according to consolidated time series of hourly data in Copernicus \nMarine Service for the period 2000 to the target year. Within these periods, a \nminimum number of 10 years with completeness index larger than 70% is \nrequired for a station to be included.  These numbers can be reduced to 8 \nyears and 60% in case that the coverage is not enough to make the OMIs \nproperly representative. These data were then used to compute annually the \n99th and 1st percentile levels at each station. \nMore details can be found in the Copernicus Marine Service  Ocean State \nReport (Pérez Gómez et al., 2016; Pérez Gómez et al., 2018). \n \n Copernicus Marine Service Quality Information \nDocument for \nOMI EXTREME SST \nIssue : 2.1 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nI.3 Products used as input for the computations \n \nProduct name (and Type) Documentation \nINSITU_GLO_PHYBGCWAV_DISCRETE_\n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document outlines the evaluation method for Ocean Monitoring Indicators (OMI) related to extreme sea surface temperatures (SST) in various ocean regions, using percentile analysis of in situ data from Copernicus Marine Service In Situ Thematic Assembly Centre products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI EXTREME SST",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

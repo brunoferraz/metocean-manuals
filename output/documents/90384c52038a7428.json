@@ -1,0 +1,70 @@
+{
+  "doc_id": "90384c52038a7428",
+  "legacy_doc_id": "9cb5e862820e",
+  "filename": "ICON_docs_overview.md",
+  "filepath": "docs/icon_docs/ICON_docs_overview.md",
+  "extension": ".md",
+  "file_size_mb": 0.0,
+  "pages": 1,
+  "text_preview": "# ICON Documentation\n\nSource: https://docs.icon-model.org/\n\n---\n\nWelcome to the ICON Model documentation &#8212; ICON documentation\n\n-\n\n[Skip to main content](#main-content)\n\nBack to top\n\nCtrl+K\n\n[\nGitLab](https://gitlab.dkrz.de/icon/icon-model)\n\n-\n\n[\nicon-model.org](https://icon-model.org)\n\n# Welcome to the ICON Model documentation[#](#welcome-to-the-icon-model-documentation)\n\nIt’s the job that’s never started as takes longest to finish - J.R.R. Tolkien\n\nThis website contains a collection of ICON documentation including references to documentation available at other places. We do not claim that this documentation is complete, but we hope you will still find it helpful.\n\nRelease Information\n\nICON 2025.10-2 has been published and is available for download.\nInformation on the changes are available in the [Release Notes](https://gitlab.dkrz.de/icon/icon-model/-/blob/icon-2025.10-2-public/RELEASE_NOTES.md).\n\n[Getting Started](buildrun/buildrun_quickstart.html#ref-buildrun-quickstart)\n\n[Building](buildrun/buildrun_building.html#ref-buildrun-introduction) & [Running](buildrun/buildrun_running.html#ref-buildrun-running)\n\n[Supported Environments](buildrun/buildrun_environments.html#ref-buildrun-environments)\n\n[Grids & External Parameters](buildrun/buildrun_running.html#ref-buildrun-gridextpar)\n\n[Initial & Boundary Data](buildrun/buildrun_running.html#ref-buildrun-icbc)\n\n[Recommended Configurations](buildrun/buildrun_recommended.html#ref-buildrun-recommconf)\n\n[Interfaces & Tools](tools/tools.html#ref-tools)\n\n[Zonda](tools/tools.html#ref-tools-gridextpargui)\n\n[Coupling (YAC)](tools/tools.html#ref-tools-yac)\n\n[Data Analysis & Remapping (CDO)](tools/tools.html#ref-tools-cdo)\n\n[Community Interface (ComIn)](tools/comin/comin.html#ref-tools-comin)\n[Forward Operators](tools/forward-operators/forward-operators.html#ref-tools-fwo)\n\n[Atmosphere](atmosphere/atmosphere.html#ref-atmosphere)\n\n[Dynamical Core](atmosphere/atmosphere.html#ref-atmosphere-dycore)\n\n[Physical Parameterizations](atmosphere/atmosphere.html#ref-atmosphere-physics)\n\n[Aerosols & Reactive Trace gases (ART)](atmosphere/art/art.html#ref-atmosphere-art)\n\n[Ocean](ocean/ocean.html#ref-ocean-overview)\n\n[Sea-ice Model](ocean/ocean.html#ref-ocean-seaice)\n\n[Ocean Biogeochemistry](ocean/ocean.html#ref-ocean-biogeochem)\n\n[Waves](waves/waves.html#ref-waves-overview)\n\n[Configuration](waves/waves.html#ref-waves-config)\n\n[Output Parameters](waves/waves.html#ref-waves-output)\n\n[Land](land/land.html#ref-land)\n\n[Land Parameterizations](land/land.html#ref-land-schemes)\n\n[Dynamic Vegetation](land/land.html#ref-land-cover-change)\n\n[Carbon Cycle](land/land.html#ref-land-biogeochem)\n\n[Infrastructure](infrastructure/infrastructure.html#ref-infrastructure)\n\n[Parallelization](infrastructure/infrastructure.html#ref-infrastructure-parallelization)\n\n[Input & Output (I/O)](infrastructure/infrastructure.html#ref-infrastructure-io)\n\n[Testing](infrastructure/infrastructure.html#ref-infrastructure-testing)\n\n[Literature](literature/literature.html#ref-literature)\n\n[Tutorials](literature/literature.html#ref-literature-tutorials)\n\n[Technical Documentation](literature/literature.html#ref-literature-technical)\n\n[Scientific Documentation](literature/literature.html#ref-literature-science)\n\nso the DOM is not blocked -->",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides an overview of the ICON Model documentation, including information on releases, getting started guides, building and running instructions, supported environments, grids, external parameters, initial and boundary data, recommended configurations, interfaces, tools, atmosphere, ocean, waves, land, infrastructure, literature, tutorials, technical documentation, and scientific documentation.",
+    "provider": {
+      "provider_id": "dkrz",
+      "name": "Deutsches Klimarechenzentrum (DKRZ)"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ICON Model Documentation",
+      "model_name": "ICON-O | ICON-A",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "atmosphere",
+        "ocean_physics",
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "https",
+        "format": "html",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

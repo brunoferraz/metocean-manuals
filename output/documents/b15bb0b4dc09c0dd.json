@@ -1,0 +1,96 @@
+{
+  "doc_id": "b15bb0b4dc09c0dd",
+  "legacy_doc_id": "2f84627d9902",
+  "filename": "WIND_ARC_PHY_HR_L3_MY_012_105_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/WIND_ARC_PHY_HR_L3_MY_012_105_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.37,
+  "pages": 40,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’aérodrome de Montaudran, 31400 TOULOUSE, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor High-Resolution WIND Products \nWIND_ARC_PHY_HR_L3_NRT_012_100 \nWIND_ATL_PHY_HR_L3_NRT_012_101 \nWIND_BAL_PHY_HR_L3_NRT_012_102 \nWIND_BLK_PHY_HR_L3_NRT_012_103 \nWIND_MED_PHY_HR_L3_NRT_012_104 \nWIND_ARC_PHY_HR_L3_MY_012_105 \nWIND_ATL_PHY_HR_L3_MY_012_106 \nWIND_BAL_PHY_HR_L3_MY_012_107 \nWIND_BLK_PHY_HR_L3_MY_012_108 \nWIND_MED_PHY_HR_L3_MY_012_109 \n \nIssue:  1.2 \n \nContributors: CLS, IFREMER, OCEANSCOPE \nApproval Date: June 2025 \n \n\n CMEMS Product User Manual for Issue : 1.2 \n2025/01 \nWIND_ARC_PHY_HR_L3_NRT_012_100, \nWIND_ATL_PHY_HR_L3_NRT_012_101, \nWIND_BAL_PHY_HR_L3_NRT_012_102, \nWIND_BLK_PHY_HR_L3_NRT_012_103, \nWIND_MED_PHY_HR_L3_NRT_012_104 \nWIND_ARC_PHY_HR_L3_MY_012_105, \nWIND_ATL_PHY_HR_L3_MY_012_106, \nWIND_BAL_PHY_HR_L3_MY_012_107, \nWIND_BLK_PHY_HR_L3_MY_012_108, \nWIND_MED_PHY_HR_L3_MY_012_109 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-WIND-PUM-012-100to109 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n31/12/2023 All \n \nCreation of the document \n \nCLS, IFREMER, \nOCEANSCOPE \nRomain \nHusson \n1.1 31/07/2024  MY content added + small updates for \nNRT \nCLS, IFREMER, \nOCEANSCOPE \nRomain \nHusson \n1.2 20/01/2025  Addition of S1B dataset for MY. \nAddition of the longitude/latitude \nancillary variables for ARC product. \nMarine De Carlo, Jean-\nFrançois Piollé \nRomain \nHusson \n \n CMEMS Product User Manual for Issue : 1.2 \n2025/01 \nWIND_ARC_PHY_HR_L3_NRT_012_100, \nWIND_ATL_PHY_HR_L3_NRT_012_101, \nWIND_BAL_PHY_HR_L3_NRT_012_102, \nWIND_BLK_PHY_HR_L3_NRT_012_103, \nWIND_MED_PHY_HR_L3_NRT_012_104 \nWIND_ARC_PHY_HR_L3_MY_012_105, \nWIND_ATL_PHY_HR_L3_MY_012_106, \nWIND_BAL_PHY_HR_L3_MY_012_107, \nWIND_BLK_PHY_HR_L3_MY_012_108, \nWIND_MED_PHY_HR_L3_MY_012_109 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-WIND-PUM-012-100to109 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nDATA ACCESS ................................................................................................................................................... 4 \n1. INTRODUCTION ............................................................................................................................................ 6 \n1.1. Summary ................................................................................................................................................. 6 \n1.2. History of changes .................................................................................................................................. 8 \n2. DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 9 \n2.1. General Information .............................................................................................................................. 9 \n2.2. Details of datasets ................................................................................................................................. 10 \n2.3. Additional information ........................................................................................................................ 14 \n2.4. Production System Description ........................................................................................................... 16 \n2.5. Grid ........................................................................................................................................................ 20 \n2.6. Processing information ........................................................................................................................ 21 \n2.6.1. Update Time .................................................................................................................................. 21 \n2.6.2. Time averaging .............................................................................................................................. 21 \n2.6.3. Spatial averaging ........................................................................................................................... 21 \n3. FILE FORMAT .................................................................................................................................................... 22 \n4. FILES NOMENCLATURE ........................................................................................................................... 23 \n4.1. Nomenclature of files when downloaded through the Copernicus Marine Web Portal Subset \nService 23 \n4.2. Nomenclature of original files ..............................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for high-resolution wind products provided by MERCATOR OCEAN INTERNATIONAL, detailing specifications and updates for various datasets as of Issue 1.2 in June 2025.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "WIND_ARC_PHY_HR_L3_MY_012_105",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10m above sea level",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_direction",
+        "cf_standard_name": "wind_from_direction",
+        "long_name": "Wind direction from which the wind is blowing (meteorological convention)",
+        "unit": "degree",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

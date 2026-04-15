@@ -1,0 +1,113 @@
+{
+  "doc_id": "bba5f4c6f305c4d5",
+  "legacy_doc_id": "14bd3ab52be4",
+  "filename": "BALTICSEA_MULTIYEAR_WAV_003_015_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BALTICSEA_MULTIYEAR_WAV_003_015_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.54,
+  "pages": 25,
+  "text_preview": " Copernicus Marine Product User Manual for \nBALTICSEA_MULTIYEAR_WAV_003_015 \n \nIssue : 2.0 \n2024/11 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL  \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE  \n            Tél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n  \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nPRODUCT USER MANUAL \n \n \n \n \nFor Baltic Sea Wave Hindcast Product \nBALTICSEA_MULTIYEAR_WAV_003_015 \n \n \n \nIssue:  2.0 \n \n \n \nContributors: Elisa Lindgren, Laura Tuomi, Vibeke Huess, Hedi Kanarik \nApproval Date: November 2024 \n \n  \n\n Copernicus Marine Product User Manual for \nBALTICSEA_MULTIYEAR_WAV_003_015 \n \nIssue : 2.0 \n2024/11 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL  \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE  \n            Tél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n  \nmarine.copernicus.eu \nmercator-ocean.eu \n \nRECORD TABLE \nIssue Date § Description of \nChange Author Validated By \n1.0 \n \n \n2019/12 All \n \n \nNew product:  \nCMEMS-BAL-PUM-\n003-015 \nE. Lindgren \nL. Tuomi  \nV. Huess \nC. Derval \n1.1  2021/12  Static files included V. Huess C. Derval \n1.2 2023/06  Monthly climatology  \nincluded  \nH. Kanarik \n \nV.Huess \n2.0 2024/11 All Update of the whole \nproduct \nH. Kanarik V. Huess \n  \n Copernicus Marine Product User Manual for \nBALTICSEA_MULTIYEAR_WAV_003_015 \n \nIssue : 2.0 \n2024/11 \n \n \nMERCATOR OCEAN  \nINTERNATIONAL  \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE  \n            Tél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n  \nmarine.copernicus.eu \nmercator-ocean.eu \n \nTABLE OF CONTENT \nGLOSSARY AND ABBREVIATIONS ................................................................................................................................... 4 \nDATA ACCESS .................................................................................................................................................................. 5 \nI INTRODUCTION ........................................................................................................................................................ 6 \nI.1 Summary ................................................................................................................................................................. 6 \nI.2 History of changes ................................................................................................................................................. 6 \nII Product DESCRIPTION ............................................................................................................................................. 8 \nII.1 General Information about products ................................................................................................................. 8 \nII.2 Details of the datasets .......................................................................................................................................... 9 \nII.3 Product System Description ............................................................................................................................... 12 \nII.4 Processing information ....................................................................................................................................... 13 \nII.4.1 Time coverage .......................................................................................................................................... 13 \nII.4.2 Time averaging ......................................................................................................................................... 14 \nIII FILE FORMAT ....................................................................................................................................................... 15 \nIV FILES NOMENCLATURE ........................................................................................................................................... 16 \nIV.1 File size ................................................................................................................................................................ 16 \nIV.2 Remember: scale_factor  & add_offset / missing_value / land mask  ........................................................ 16 \nIV.3 Structure of file ................................................................................................................................................... 16 \nV References ................................................................................................................................................................. 17 \nVI. ANNEX................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for the Baltic Sea Wave Hindcast Product BALTICSEA_MULTIYEAR_WAV_003_015, detailing its history, description, file format, and access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_MULTIYEAR_WAV_003_015",
+      "name": "Baltic Sea Wave Hindcast Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Baltic",
+      "product_types": [
+        "hindcast"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth",
+        "long_name": "Mean wave period from variance spectral density directional bandwidth",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 10,
+        "lon_max": 30,
+        "lat_min": 54,
+        "lat_max": 67
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2300,
+  "_tokens_out": 744,
+  "_eval_s": 5.31
+}

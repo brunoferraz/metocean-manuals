@@ -1,0 +1,143 @@
+{
+  "doc_id": "0c6388de8952d84c",
+  "legacy_doc_id": "2f91fccda1c1",
+  "filename": "INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.29,
+  "pages": 35,
+  "text_preview": " \n \n \n \n \n \nIn Situ Thematic Assembly Centre \nRegional Multiparameter MYNRT products \n \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \n \n Issue: 2.5 \nContributors: H. Wehde, K. V. Schuckmann, S. Pouliquen, A. Grouazel, T. Bartolome, J. Tintore, M. De Alfonso \nAlonso-Munoyerro, T. Carval, V. Racapé and the In Situ TAC team \n \nApproval date by the CMEMS product quality coordination team: 06/11/2025 \n \n \nQUID for In Situ Pro-ducts \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030/  \n_ARC_ 013_031/ _BAL _013_032/ _IBI _013_033/ _BLK_013_034/ \n_MED _013_035/ _NWS_013_036 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-030-036 \n14 May 2025 \n2.5 \n \n                                                      Page 2/ 35 \n \nCHANGE RECORD \nWhen the quality of the products changes, the QuID is updated and a row is added to this table. \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n0.1 25/01/2012 all First version of document H. Wehde, K. V. \nSchuckmann, S. Pouliquen, \nA. Grouazel, T. Bartolome, \nJ. Tintore \n \n1.0 24/02/2012 all Document for V2 H. Wehde , K. V. \nSchuckmann, S. Pouliquen, \nA. Grouazel, T. Bartolome, \nJ. Tintore \n \n1.1 30/10/2012 Page 4 Merge NRT products S. Pouliquen  \n1.2 28/02/2013 all Move to MyO2 template. The \nQuID describes the Near Real \ntime products of Version 3 \nS. Pouliquen  \n1.3 02/05/2013 all Update of the document H. Wehde  \n1.4 May 1 2015 all Change format to fit CMEMS \ngraphical rules \n \nL. Crosnier \n1.5 Dec 9 2015 all Change MyOcean in CMEMS S. Pouliquen S. Pouliquen \n1.6 Nov 15 2016 all Update with NRT Wave product M. de Alfonso L. Petit de   la \nVilléon \n1.7 09/04/2019 all General revision for NetCDF4 \ntransition \nT. Carval L.   Petit   de   la \nVilléon \n2.0 04/09/2020 all References for Biogeochemical \ndata. New metrics for spatial \nand vertical coverage, minor \nupdates and typo corrections \nV. Racapé \nT. Carval \nM. de Alfonso \n \n2.1 07/01/2021 2.1 Add data sources chapter V. Racapé \nT. Carval \nS. Tarot \n2.1 07/01/2021 2.2 Add data sources references, \nincluding EMODnet Chemistry \nV. Racapé S. Tarot \n2.1 07/01/2021 3 Add flag 6 for EMODnet \nchemistry \nV. Racapé S. Tarot \n2.2 25/08/2022 all New names of \nproducts/datasets \nUse new template \nIn Situ TAC Partners S. Tarot \n2.3 30/08/2023 all Update document for Nov. 2023 \nrelease (update charts, text) \nIn Situ TAC Partners S. Tarot \nQUID for In Situ Pro-ducts \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030/  \n_ARC_ 013_031/ _BAL _013_032/ _IBI _013_033/ _BLK_013_034/ \n_MED _013_035/ _NWS_013_036 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-030-036 \n14 May 2025 \n2.5 \n \n                                                      Page 3/ 35 \n \n \nIssue Date § Description of Change Author Validated By \n2.4 15/06/2024 all Update document for Nov. 2024 \nrelease (update charts, text) \nIn Situ TAC Partners S. Tarot \n2.5 07/05/2025 3 change QC information by \ngeneral document reference \nV. Racapé S. Tarot \n \n \nQUID for In Situ Pro-ducts \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030/  \n_ARC_ 013_031/ _BAL _013_032/ _IBI _013_033/ _BLK_013_034/ \n_MED _013_035/ _NWS_013_036 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-030-036 \n14 May 2025 \n2.5 \n \n                                                      Page 4/ 35 \n \nACRONYM TABLE \nAcronym Description \nArgo International profiling float network (www.argo.net) \nCTD Conductivity, Temperature, and Depth; It refers to a package of \nelectronic instruments that measure these properties \nGOOS Global Ocean Observing System \nGOSUD Global Ocean Surface Underway Data \nGTS Global Telecommunication System \nHF  \nJCOMM Joint Technical Commission for Oceanography and Marine \nMeteorology \nMY Multi-year \nKPI Key performance Indicator \nNODC National Oceanographic Data Center \nNRT Near Real Time \nQC Quality control \nREP Reprocessing \nROOS Regional Ocean Observing System \nRTQC Real Time Quality Control \nSLA Sea Level Anomaly \nTAC Copernicus Marine Service Thematic Assembly Centre \nXBT Expendable Bathythermograph \n \nKEY DEFINITIONS \nN/A \n \nRELEVANT DOCUMENT LIST \n \nRD1 Copernicus In Situ tac Data Management Team (2025). Copernicus Marine In Situ TAC. \nQuality Control Procedure. Ref. CMEMS -INS-QualityControlProcedure. Copernicus \nMarine In Situ TAC. https://doi.org/10.13155/106219  \nRD2 Copernicus Marine In Situ Tac D",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for In Situ products related to ocean physics, biogeochemistry, and waves in various regions including Global, Arctic, Baltic, Black Sea, Mediterranean, and North West Shelf.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030",
+      "name": "In Situ Thematic Assembly Centre Regional Multiparameter MYNRT products",
+      "model_name": null,
+      "region": "Global, Arctic, Baltic, Black Sea, Mediterranean, North West Shelf",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry",
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wave_height",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height at sea surface",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10m above sea level",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind_direction"
+      },
+      {
+        "native_name": "wind_direction",
+        "cf_standard_name": "wind_from_direction",
+        "long_name": "Wind direction from which the wind is blowing",
+        "unit": "degree",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind_speed"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 42,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 3119,
+  "_tokens_out": 1018,
+  "_eval_s": 7.66
+}

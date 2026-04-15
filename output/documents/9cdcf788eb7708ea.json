@@ -1,0 +1,111 @@
+{
+  "doc_id": "9cdcf788eb7708ea",
+  "legacy_doc_id": "59a426a1d2ae",
+  "filename": "ICON_waves.md",
+  "filepath": "docs/icon_docs/ICON_waves.md",
+  "extension": ".md",
+  "file_size_mb": 0.01,
+  "pages": 2,
+  "text_preview": "# ICON Documentation\n\nSource: https://docs.icon-model.org/waves/waves.html\n\n---\n\nWaves &#8212; ICON documentation\n\n-\n\n[Skip to main content](#main-content)\n\nBack to top\n\nCtrl+K\n\n[\nGitLab](https://gitlab.dkrz.de/icon/icon-model)\n\n-\n\n[\nicon-model.org](https://icon-model.org)\n\n# Waves[#](#waves)\n\n🌊 The ocean surface gravity wave model ICON-waves (Dobrynin et al., GMD, in preparation) is designed to explicitly model ocean surface gravity waves and their feedbacks on the atmosphere and ocean within the Earth system. ICON-waves is a joint effort led by the Deutscher Wetterdienst (DWD) with contributions from the Max Planck Institute for Meteorology (MPI-M), the German Climate Computing Center (DKRZ) and the Helmholz research center HEREON. Surface waves influence the sea surface state, generate turbulence, modify ocean currents, and affect air-sea exchanges of heat, matter, and momentum. ICON-waves addresses these processes by providing a wave-spectrum-dependent interface within the ICON framework. ICON-waves introduces two-way coupling through the coupler YAC (Yet Another Coupler), providing dynamic feedback of wave-induced processes to both the atmosphere and ocean (under development). The integration of ICON-waves into the ICON framework represents a significant advancement in modeling the complexity of atmosphere-ocean feedbacks, enabling more realistic simulations of atmosphere-ocean interactions and offers potential benefits for weather and climate prediction.\n\n## Spectral approach of modeling of surface waves[#](#spectral-approach-of-modeling-of-surface-waves)\n\nICON-waves solves the spectral wave energy balance equation in geographical dimensions with latitude (𝜙) and longitude (𝜆), and spectral dimensions directions (𝜃) and frequencies (ω). The model computes the evolution of the wave spectrum 𝐹(𝜔,𝜃,𝜙,𝜆,𝑡), simulating the energy propogation distributed across directions and frequencies over space and time. The model employs advanced numerical techniques, such as the Flux Form Semi-Lagrangian (FFSL) finite-volume scheme for spatial transport, which is balanced by the source function, describing the wave physics. The source function includes the wind energy input, energy dissipation (including whitecapping, bottom friction, and depth-induced breaking), and nonlinear wave-wave interactions terms. The physical parameterizations of the source function is adapted from the well-established WAM model ([The Wamdi Group 1988](../literature/literature.html#term-The-Wamdi-Group-1988); [Komen et al 1996](../literature/literature.html#term-Komen-et-al-1996)) and is fully integrated into the ICON code infrastructure, allowing for seamless operation on ICON’s flexible icosahedral-triangular grid. Temporal integration uses a splitting method, treating advection and source terms separately. The source term integration allows full implicit schemes for stability.\n\n## Configuration and simulation modes[#](#configuration-and-simulation-modes)\n\nConceptually, the ICON-waves component is an integral part of the ICON framework, similar to the ICON Atmosphere (ICON-A) and Ocean (ICON-O) components. In general, within the ICON framework, a specific component can be run by combining configuration switches and setting the model type and model name in the master model namelist file. A set of provided configuration wrappers, located in the config folder for different computational systems, can be used. For example, for DKRZ’s Levante HPC, one of the configuration wrappers located in config/dkrz, along with the additional command line argument --enable-waves, will configure the ICON system to run the ICON-waves component as well (assuming the starting configuration is from the user-created build folder):\n\n../config/dkrz/levante.intel --enable-waves\n\nFor a specific experiment with ICON-waves, the settings in the master model namelist must be:\n\n&master_model_nml\nmodel_type = 98\nmodel_name = \"wave\"\n...\n\nICON-wave can be run in two modes: standalone and coupled. In both modes, the meridional and zonal components of the 10-meter wind speed, as well as ice concentration fields, are required (except for test case experiment, see below). In standalone mode, the forcing is provided through external files. In coupled mode with ICON-A, the forcing is exchanged via the YAC coupler. Following fields are exchanging in the coupled ICON-A - ICON-waves mode:\n\nsend from ICON-A to ICON-waves\n\nsend from ICON-waves to ICON-A\n\nZonal wind at 10 m\n\nSea surface roughness length\n\nMeridional wind at 10 m\n\nFraction of ocean covered by sea ice\n\nICON-waves test numerical experiments can be run using the provided experiment templates located in the run/checksuite.nwp folder. Following experements with ICON-waves are available:\n\nExperiment\n\nDescription\n\nnwpexp.run_ICON_18_R2B6_waves\n\nTest case simulation on grid R2B6 (no external files requeried)\n\nnwpexp.run_ICON_18_R2B4_waves_adv_nophys\n\nWaves with advection, no physics, on grid R2B4\n\nnwpexp.run_ICON_21_R2B4_waves_sta",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "The document describes ICON-waves, an ocean surface gravity wave model integrated into the ICON framework to simulate atmosphere-ocean interactions and provide realistic simulations for weather and climate prediction.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ICON-waves",
+      "model_name": "ICON-waves",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "waves",
+        "cf_standard_name": "wave_height",
+        "long_name": "Wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10 meters",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind_direction"
+      },
+      {
+        "native_name": "ice_concentration",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Fraction of ocean covered by sea ice",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "icosahedral",
+      "horizontal_resolution": "R2B6",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "html",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

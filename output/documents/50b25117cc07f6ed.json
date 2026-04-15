@@ -1,0 +1,166 @@
+{
+  "doc_id": "50b25117cc07f6ed",
+  "legacy_doc_id": "8e625c23f6a0",
+  "filename": "INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_BGC_DISCRETE_MY_013_046_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.08,
+  "pages": 78,
+  "text_preview": " \n  \nIN SITU Global Distribution Production Centre \nGlobal Ocean - Delayed Mode Biogeochemical product \nINSITU_GLO_BGC_DISCRETE_MY_013_046 \n Issue: 3.0 \nContributors: P. Jaccard, D. Ø. Hjermann, J. Ruohola, S. Marty, T. Kristiansen, K. Sørensen, S. Kaitala, A. Mangin, S.. \nPouliquen, S. Larsen, T. Hannant, V. S. Lien, H. Wehde, J. E. Ø. Nilsen, H. Vindenes, L. Perivoliotis, M. Bekiari, E.i \nVarotsou, M. Sotiropoulou, V. Racapé, D. Denaxa, S. Ehrhart, G. Anast asopoulou, A. Papapostolou, E. M. Jones, R. \nCastano Primo, Ø. Jakobsson \nApproval date by the CMEMS product quality coordination team: 10/11/2025 \n \n \n \n \n  \n \n\nProducts \nINSITU_GLO_BGC_DISCRETE_MY_013_046 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-046 \n17 May 2025 \n3.0 \n \n                                                      Page 2/ 78 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 17/04/2017 all First draft version P. Jaccard, D.Ø. Hjermann, J. \nRuohola, S. Marty, T. \nKristiansen, K. Sørensen, S. \nKaitala, A. Mangin, S. Pouliquen \n \n 18/04/2018  Reviewed S. Marty  \n 20/04/2018  Reviewed K. Sørensen  \n1.1 31/01/2019 all New Chl-a quality control \nprocedure \nStuart Larsen, Terry Hannant, \nVidar S. Lien \n \n1.1 31/01/2019 all Reviewed Henning Wehde  \n1.1 02/04/2019 all Reviewed Isabel Garcia Hermosa  \n1.1b 28/06/2019 all Revised Stuart Larsen, Vidar S. Lien Mercator Ocean \n1.2 05/09/2019 all New O2 quality control \nprocedure \nVirginie Racape, Jan Even Øie \nNilsen, Håvard Vindenes, \nLeonidas Perivoliotis, Margarita \nBekiari, Eirini Varotsou, Seppo \nKaitala, Stuart Larsen, Vidar S. \nLien \n \n2.0 31/03/2020 all Nutrients quality control \nprocedure;  \nHåvard Vindenes, Jan Even Øie \nNilsen, Kjell Gundersen, \nLeonidas Perivoliotis, Margarita \nBekiari, Maria Sotiropoulou, \nSeppo Kaitala, Vidar S. Lien, \nVirginie Racape \n \n2.1 04/09/2020 all Some updates to oxygen \nquality control procedures; \nsix-month extension of \nperiod covered (Jul-Dec \n2019) \nJan Even Øie Nilsen, Maria \nSotiropoulou, Virginie Racape, \nVidar S. Lien \n \n2.1 21/12/2020 all Revised version after \nremarks from Mercator \nVidar S. Lien S. Tarot \n2.2 08/01/2021  Some structural changes in \nSections III and IV \nJan Even Øie Nilsen, Virginie \nRacape, Vidar S. Lien, Sebastian \nEhrhart, Dimitra Denaxa \nS. Tarot \n2.3 31/08/2021  \nUpdated results, figures \nand tables; added text on \nEMODNET inclusion; \nJan Even Øie Nilsen, Virginie \nRacape, Vidar S. Lien, Sebastian \nEhrhart, Margarita Bekiari,  \nS. Tarot \n2.3 30/11/2021  Correction of external links Stéphane Tarot S. Tarot \nProducts \nINSITU_GLO_BGC_DISCRETE_MY_013_046 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-046 \n17 May 2025 \n3.0 \n \n                                                      Page 3/ 78 \n2.4 21/02/2022  Jan – Jun 2021 Extension + \nadded information on \nupdate frequency \nJan Even Øie Nilsen, Virginie \nRacape, Vidar S. Lien, Sebastian \nEhrhart, Margarita Bekiari \nS. Tarot \n2.5 30/08/2022 all Six-month extension; \nadded river mouth \ndetection algorithm \nJ. E. Ø. Nilsen, V. Racapé, S. \nEhrhart, G. Anastasopoulou \nS. Tarot \n2.6 18/08/2023 all Six-month extension; full \nreprocessing; improved \nregional ranges \nJ. E. Ø. Nilsen, V. Racapé, S. \nEhrhart, A. Papapostolou \nS. Tarot \n2.7 04/09/2024 all Six-month extension; full \nreprocessing; improved \nregional ranges (WOA23) \nJ. E. Ø. Nilsen, V. Racapé, S. \nEhrhart, A. Papapostolou \nS. Tarot \n3.0 15/05/2025 all New easy BGC dataset; \nnew Carbon dataset; new \nquality control reference \ndocument \nV. Racapé, E. M. Jones, R. \nCastano Primo, Ø. Jakobsson \nS. Tarot \n \n \n \n  \nProducts \nINSITU_GLO_BGC_DISCRETE_MY_013_046 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-046 \n17 May 2025 \n3.0 \n \n                                                      Page 4/ 78 \nACRONYM TABLE \nAcronym Description \nALKW Total alkalinity [µmol kg-1] \nArgo International profiling float network (www.argo.net) \nBGC Biogeochemical \nCHLT Total chlorophyll \nCPHL Chlorophyll-a \nCTD Conductivity, Temperature, and Depth; It refers to a package of \nelectronic instruments that measure these properties \nDOX1 Dissolved oxygen [ml l-1] \nDOX2 Dissolved oxygen [µmol kg-1] \nDOXY Dissolved oxygen [mmol m-3] \nEasy BGC Biogeochemical data sets in easy format \nEC European Commission \nFLU2 Chlorophyll-a fluorescence \nGLO Global \nHCMR Hellenic Centre for Marine Research \nHPLC High pressure liquid chromatography \nIfremer French Research Institute for Exploitation of ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the INSITU_GLO_BGC_DISCRETE_MY_013_046 product, detailing its updates and contributors over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_BGC_DISCRETE_MY_013_046",
+      "name": "Global Ocean Biogeochemical Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "ALKW",
+        "cf_standard_name": "alkalinity",
+        "long_name": "Total alkalinity",
+        "unit": "µmol kg-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "CHLT",
+        "cf_standard_name": "chlorophyll_concentration_in_sea_water",
+        "long_name": "Total chlorophyll",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "CPHL",
+        "cf_standard_name": "chlorophyll_a_concentration_in_sea_water",
+        "long_name": "Chlorophyll-a",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DOX1",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved oxygen [ml l-1]",
+        "unit": "ml l-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DOX2",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved oxygen [µmol kg-1]",
+        "unit": "µmol kg-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DOXY",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved oxygen [mmol m-3]",
+        "unit": "mmol m-3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "FLU2",
+        "cf_standard_name": "chlorophyll_a_fluorescence_in_sea_water",
+        "long_name": "Chlorophyll-a fluorescence",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

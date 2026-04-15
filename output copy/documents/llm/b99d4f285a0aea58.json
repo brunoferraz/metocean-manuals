@@ -1,0 +1,128 @@
+{
+  "doc_id": "b99d4f285a0aea58",
+  "legacy_doc_id": "7a6662c607a4",
+  "filename": "GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_ANALYSISFORECAST_WAV_001_027_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.07,
+  "pages": 19,
+  "text_preview": " \n \n \n  \nGlobal Production Center \nGLOBAL_ANALYSIS_FORECAST_WAV_001_027 \n \n Issue: 3.2 \nContributors: L. Aouf \nApproval date by the CMEMS product quality coordination team: 11/11/2024 \n \n \n \n \n  \n \nQUID for GLO MFC Products \nGLOBAL_ANALYSIS_FORECAST_WAV_001_027 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001_027 \n10 November 2024 \n3.2 \n \n \n \n \n Page 2/ 19 \nCHANGE RECORD \nWhen the quality of the products changes, the QuID  is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 January \n2018 \nAll Creation of the document. Lotfi Aouf Marie Drévillon, \nAngélique Melet \n2.0 January \n2018 \n Adjustment of the physics of the \nwave model MFWAM. \nLotfi Aouf  \n2.1 Dec 2020  Use of SWIM-nadir data in the \nassimilation and extension of \nforecast. \nLotfi Aouf  Marie Drévillon \n3.0 Sep 2022  Update of the assimilation with \nSWIM wave spectra and \nSentinel-6 SWH. \nLotfi Aouf Marie Drévillon \n3.1 Nov 2023  Addition of a new variable: \nmaximum crest-trough wave \nheight. \nAlice Dalphinet Marie Drévillon \n3.2 Nov 2024 I.1 Addition of a new variable: \nmaximum crest wave height. \nAlice Dalphinet Olivier Le \nGalloudec \n \n \nQUID for GLO MFC Products \nGLOBAL_ANALYSIS_FORECAST_WAV_001_027 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001_027 \n10 November 2024 \n3.2 \n \n \n \n \n Page 3/ 19 \nTABLE OF CONTENTS \nChange Record ................................................................................................................................................... 2 \nTable of contents ................................................................................................................................................. 3 \nI. Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.2.1 Summary of the results related to update with SWIM directional wave spectra and SWH from \nSentinel-6A (Version 4.2) ................................................................................................................................... 5 \nI.3 Estimated Accuracy Numbers after the update with SWIM nadir data  ....................................................... 5 \nII Production system description .................................................................................................................... 6 \nIII VALIDATION FRAMEWORK ......................................................................................................................... 8 \nIV VALIDATION RESULTS ............................................................................................................................... 10 \nIV.1 Results related to update with SWIM wave spectra and S6A SWH (V4.2)  .............................................. 10 \nIV.2 Results related to update with SWIM-nadir (V4.1) ................................................................................. 10 \nV System’s Noticeable events, outages or changes ...................................................................................... 13 \nVI Quality changes since previous versionS ................................................................................................... 14 \nVII References ............................................................................................................................................ 19 \n \n \n \n \n \nQUID for GLO MFC Products \nGLOBAL_ANALYSIS_FORECAST_WAV_001_027 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001_027 \n10 November 2024 \n3.2 \n \n \n \n \n Page 4/ 19 \nI.EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document is the quality information document for the Copernicus Marine Environment Monitoring \nService ( CMEMS) global analysis and forecast  wave product \nGLOBAL_ANALYSIS_FORECAST_WAV_001_027. This product provides aggregated analyses updated \ndaily and 10-day forecasts, all defined on a standard grid at 1/10 degree (approx. 10km)  resolution.  A \n2-years rolling archive is stored on the CMEMS server.  The assimilation system is updated with SWIM -\nnadir (Surface Waves Investigation and Monitoring instrument), Sentinel 6  and SWOT-nadir (Surface \nWater and Ocean Topography) Significant Wave Height (SWH) and wave spectra at beam 10°of CFOSAT \nmission (Chinese-French Oceanic SATellite). \nThe product is organised as 1 dataset ( cmems_mod_glo_wav_anfc_0.083deg_PT3H-i) containing 3 -\nhourly instantaneous values for the following variables: \n• Spectral significant wave height (Hm0) \n• Maximum crest-trough",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a quality information document for the Copernicus Marine Environment Monitoring Service's global analysis and forecast wave product, providing details on its production system, validation framework, results, and updates.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_ANALYSISFORECAST_WAV_001_027",
+      "name": "Global Analysis and Forecast Wave Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_glo_wav_anfc_0.083deg_PT3H-i",
+        "temporal_resolution": "PT3H",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Spectral significant wave height (Hm0)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMAX",
+        "cf_standard_name": "sea_surface_wave_maximum_height",
+        "long_name": "Maximum crest wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2328,
+  "_tokens_out": 877,
+  "_eval_s": 6.54
+}

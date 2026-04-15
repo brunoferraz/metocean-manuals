@@ -1,0 +1,85 @@
+{
+  "doc_id": "0f6b34a19c14d795",
+  "legacy_doc_id": "24ead976b3c5",
+  "filename": "INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.45,
+  "pages": 32,
+  "text_preview": "   \n \n   \n \n \n  \nIN SITU TAC  \nGlobal Ocean – Delayed mode sea level product \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \n \n \n Issue: 1.3 \nContributors: Jue Lin Ye, Begoña Pérez Gómez \nApproval date by the Copernicus Marine Service product quality coordination team: 13/11/2025 \n \n \n \n \n  \n \n\nProducts \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-053 \n16 May 2025 \n1.3 \n \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.  \nThe third column specifies which sections or sub-sections have been updated. The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TA C/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 28/08/2022 All First version of  the \ndocument \nBegoña Pérez \nGómez, Jue Lin Ye, \nElizabeth Bradshaw, \nAngela Hibbert  \nStéphane Tarot \n1.1 10/08/2023 All Second version: new \ndataset and improved \nquality tests \nBegoña Pérez \nGómez, Jue Lin Ye, \nAngela Hibbert \nStéphane Tarot \n1.2 24/06/2024 All Third version: first \nextension to global, with \nstations from GLOSS \ndata portals \nBegoña Pérez \nGómez, Jue Lin Ye, \nAngela Hibbert, \nElizabeth Bradshaw \nStéphane Tarot \n1.3 16/05/2025 All Fourth version: modified \nto account for \nimprovements in the de-\ntiding technique, better \ndescription of \nSLEV_ADJUSTED \nparameter. Reprocessing \nof the time series. \nExtension of tide-surge \ndataset to MED and \nBLACK Seas. \n \nJue Lin Ye, Begoña \nPérez Gómez \nStéphane Tarot \n \n \n \n \nProducts \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-053 \n16 May 2025 \n1.3 \n \n \nACRONYM TABLE \nAcronym Description \nTAC Copernicus Marine Service Thematic Assembly Centre \nNRT Near Real Time \nREP Reprocessing \nMY Multi-year \n \nKEY DEFINITIONS \nTechnical word Definition  \nBuddy checking Comparison of the sea level from the target tide gauge to the sea level \nfrom a nearby tide gauge \nCompleteness Index Index ranging from 0 to 1 that shows the percentage of complete data, in \ncomparison to the data-less intervals of time. \nTidal constituents Each one of the components that would add up to the astronomical tide  \n \nRELEVANT DOCUMENT LIST \nN/A \nProducts \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-053 \n16 May 2025 \n1.3 \n \n \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document .................................................................................................. 5 \nI.2 Summary of the results ........................................................................................................................ 7 \nI.3 Estimated Accuracy Numbers............................................................................................................. 8 \nII Production system description .................................................................................................................... 9 \nIII Validation framework ............................................................................................................................... 12 \nIII.1 Summary of metrics and tests used in the assessment  ............................................................ 14 \nIII.1.1 Tide computation and by-products generation .................................................................................... 14 \nIII.1.2 Automatic tests applied in delayed mode ............................................................................................. 16 \nIII.1.3 Datum adjustment for non-homogenous reference in a time series: ................................................... 19 \nIII.1.4 Visual inspection of the timeseries ....................................................................................................... 19 \nIV Validation results ...................................................................................................................................... 21 \nIV.1 Temporal coverage of the Sea Level REP product ..................................................................... 21 \nIV.2 Spatial coverage of the Sea Level REP product .......................................................................... 24 \nIV.3 Overview of data quality of the Sea Level REP product  ............................................................ 27 \nV System’s Noticeable events, outages or changes ...................................................................................... 30 \nVI Quality changes since previous version ..........................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 product, a global ocean delayed mode sea level product with updates on quality improvements and changes in detiding technique.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053",
+      "name": "Global Ocean Delayed Mode Sea Level Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SSH",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2333,
+  "_tokens_out": 516,
+  "_eval_s": 3.76
+}

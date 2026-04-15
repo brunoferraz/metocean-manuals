@@ -1,0 +1,82 @@
+{
+  "doc_id": "0883391f38f34f61",
+  "legacy_doc_id": "1250f866d1f9",
+  "filename": "IBI_OMI_SEASTATE_swi_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/IBI_OMI_SEASTATE_swi_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.39,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Álvaro de Pascual Collar \n \nApproval Date : NOVEMBER 2025 \n \nFor IBI Strong Wave Incidence index \nIBI_OMI_SEASTATE_swi \n \n Issue: 1.2 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 Quality Information Document for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_sw \nIssue 1.2 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2020/09/11 All Initial version Álvaro de \nPascual Collar  \n1.1 2021/02/23 \nrefe\nren\nces \nUpdate of reference Pascual \net al., 2020. \nÁlvaro de \nPascual Collar  \n1.2 2025/09/15 \nSec. \n1.c \nand \n2 \nReview of the document, \nincluding updates to the \nCopernicus product identifiers \nÁlvaro de \nPascual Collar \nCopernicus \nMarine \nProduct \nManageme\nnt \n \n \n \n3 Quality Information Document for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_sw \nIssue 1.2 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \n3) REFERENCES ....................................................................................................... 8 \n  \n \n \n \n4 Quality Information Document for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_sw \nIssue 1.2 – November 2025 \n1) INTRODUCTION \na) Product Name  \nIBI_OMI_SEASTATE_swi \n \nb) Indicator Evaluation Method \nThe Strong Wave Incidence index (SWI) is proposed to quantify the variability of strong \nwave conditions in the Iberia –Biscay–Ireland (IBI) regional seas. The anomaly in the \nexceedance of a significant wave height (SWH) threshold is used to characterize \nwave behavior. A sensitivity analysis was performed to evaluate the impact of using \ndifferent thresholds (75th, 80th, 85th, 90th, and 95th percentiles). Based on this analysis, \nthe 90th percentile was selected as the most representative, aligning with current \nstate-of-the-art practices. \n \nThe robustness of the proposed indicator has been assessed through: \n \n1. Comparison with the North Atlantic Oscillation (NAO) index, \n \n2. Verification of anomalous events detected in recent decades against \ndocumented events in the literature, and \n \n3. Analysis of the atmospheric patterns associated with the occurrence of intense \nwave events (Pascual et al., 2020). \n \n \n \n \n \n \n5 Quality Information Document for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_sw \nIssue 1.2 – November 2025 \nc) Copernicus Marine products used as input for the computation \n \nProduct name (and Type) Documentation \nIBI_MULTIYEAR_WAV_005_006 \nNumeriacl Models (reanalysis) \nQUID: \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-IBI-QUID-005-006.pdf \n \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-IBI-PUM-005-006.pdf \nIBI_ANALYSISFORECAST_WAV_00\n5_005 \nNumerical Models (analysis and \nforecast) \nQUID:  \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-IBI-QUID-005-005.pdf \n \nPUM:  \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-IBI-PUM-005-005.pdf \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document for IBI_OMI_SEASTATE_swi outlines the evaluation method, scientific validation, and references for the Strong Wave Incidence index in the Iberia-Biscay-Ireland region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "IBI_OMI_SEASTATE_swi",
+      "name": "Strong Wave Incidence index for IBI region",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "IBI_MULTIYEAR_WAV_005_006",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,128 @@
+{
+  "doc_id": "962f17977ea46b71",
+  "legacy_doc_id": "2303fc4dbf25",
+  "filename": "BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BLKSEA_ANALYSISFORECAST_BGC_007_010_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.24,
+  "pages": 39,
+  "text_preview": "1 \n \n  \n \n \n \n \n  \nBlack Sea Production Centre \nBLKSEA_ANALYSISFORECAST_BGC_007_010 \n \n \n Issue: 6.0 \nContributors: L. Vandenbulcke, L. Macé, M. Grégoire, E. Peneva, R. Lecci \nApproval date by the CMEMS product quality coordination team: 18/11/2025 \n \n \n \n \n  \n \nQUID for BLK MFC Products \nBLKSEA_ANALYSISFORECAST_BGC_007_010 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-010 \n       2025/05 \n6.0 \n \n \n2 \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID  is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 April 2019 All First version for product \n007_010 released at \nV201907 \nL. Vandenbulcke, A. Capet, \nM. Grégoire \n \n1.1 May 2019 All Final version for \nqualification of 007_010 \nproduct \nL. Vandenbulcke, A. Capet, \nM. Grégoire \nE. Peneva \n2.0 April 2020 All New version V202007 of \nthe product \nL. Vandenbulcke, A. Capet, \nM. Grégoire \nE. Peneva \n2.1 April 2021  New dataset with optical \nvariables \nL. Vandenbulcke, A. Capet, \nM. Grégoire \nE. Peneva \n3.0 August \n2022 \n New version V202211 of \nthe product \nL. Vandenbulcke, A. Capet, \nL. Mace, C. Meulders, A. \nMouchet, M. Grégoire \nE. Peneva \n4.0 November \n2023 \nAll New version V202311 of \nthe product \nL. Vandenbulcke, L. Macé, \nC. Meulders, A. Mouchet, \nM. Grégoire \nE. Peneva \n5.0 November \n2024 \nAll New version V202411 of \nthe product \nL. Vandenbulcke, L. Macé, \nM. Grégoire \nE. Peneva \n6.0 May 2025 All New version V202511 of \nthe product \nL. Vandenbulcke, M. \nGrégoire \nE. Peneva, R. Lecci \n \n \n \n \n  \nQUID for BLK MFC Products \nBLKSEA_ANALYSISFORECAST_BGC_007_010 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-010 \n       2025/05 \n6.0 \n \n \n3 \n \nACRONYM TABLE \n \nAcronym Description \nTAC Copernicus Marine Service Thematic Assembly Centre \nNRT Near Real Time \nREP Reprocessing \nMY Multi-year \nSST Sea Surface Temperature \nArgo International profiling float network (www.argo.net) \nBGC-ARGO Biogeochemical Argo \nEAN Estimated Accuracy Number \nEOF Extended Orthogonal Function \nMLD Mixed Layer Depth \nCIL Cold Intermediate Layer \nCCC Cold Content in the CIL \nDCM Deep Chlorophyll maximum \nDOX Dissolved oxygen \nCHL Chlorophyll \nNWS North-Western Shelf (of the Black Sea) \n \nKEY DEFINITIONS \n \nMLD Various criteria exist to define the MLD. In the Black Sea, the MLD is usually \ndefined as the depth at which density is 0.125 kg.m -3 larger than at the \nreference depth (usually 3m, but 10m in the current validation exercice) \nCIL In the Black Sea, a layer of water that is colder than the water above and \nbelow. It is considered to have less than 8.35°C. \n \nRELEVANT DOCUMENT LIST \nN/A  \nQUID for BLK MFC Products \nBLKSEA_ANALYSISFORECAST_BGC_007_010 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-010 \n       2025/05 \n6.0 \n \n \n4 \n \nTABLE OF CONTENTS \nContents \nACRONYM TABLE ........................................................................................................................................ 3 \nKEY DEFINITIONS ........................................................................................................................................ 3 \nRELEVANT DOCUMENT LIST ....................................................................................................................... 3 \nI EXECUTIVE SUMMARY ....................................................................................................................... 5 \nI.1 Products covered by this document ......................................................................................... 5 \nI.2 Summary of the results ............................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ................................................................................................... 6 \nII PRODUCTION SYSTEM DESCRIPTION................................................................................................. 7 \nII.1 Production centre details ................................................................................................................. 7 \nII.2 Description of the production system .............................................................................................. 7 \nII.3 Upstream data and boundary condition of the NEMO-BAMHBI model .......................................... 9 \nIII VALIDATION FRAMEWORK .............................................................................................................. 10 \nIV VALIDATION RESULTS ...................................................................................................................... 13 \nIV.1 Physical variables .......................................................................................................................... 13 \nIV.1.1 Mixed layer depth (MLD) ....................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for BLKSEA_ANALYSISFORECAST_BGC_007_010, detailing the production and validation of biogeochemical analysis and forecast products in the Black Sea.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_ANALYSISFORECAST_BGC_007_010",
+      "name": "Black Sea Biogeochemical Analysis and Forecast",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "analysis",
+        "forecast"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "CHL",
+        "cf_standard_name": "chlorophyll_a_concentration_in_sea_water",
+        "long_name": "Chlorophyll concentration in sea water",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DOX",
+        "cf_standard_name": "dissolved_oxygen_concentration",
+        "long_name": "Dissolved oxygen concentration in sea water",
+        "unit": "ml/L",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "MLD",
+        "cf_standard_name": "mixed_layer_depth",
+        "long_name": "Mixed layer depth in sea water",
+        "unit": "m",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "CIL",
+        "cf_standard_name": null,
+        "long_name": "Cold Intermediate Layer in sea water",
+        "unit": "°C",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2507,
+  "_tokens_out": 842,
+  "_eval_s": 6.22
+}

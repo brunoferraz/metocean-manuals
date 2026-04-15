@@ -1,0 +1,85 @@
+{
+  "doc_id": "c5673acf8c410f3a",
+  "legacy_doc_id": "0e4f9b94c9a1",
+  "filename": "GLOBAL_MULTIYEAR_PHY_001_030_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_MULTIYEAR_PHY_001_030_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.76,
+  "pages": 28,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nPRODUCT USER MANUAL \nContributors : M. Drévillon, E. Fernandez, J.M. Lellouche \nApproval Date : November 2025 \n \nFor the Global Ocean Physical Multi Year \nproduct \n  \nGLOBAL_MULTIYEAR_ PHY_001_030 \nIssue: 1.7\n \n\n \n \n \n \n2 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_PHY_001_030 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-030 \nIssue 1.7 – November 2025 \nRECORD TABLE \n \n \n  \nIssue Date § Description of Change Author Validated \nBy \n1.1 2018/02/16 All Initial version E. Fernandez, \nJ.M. Lellouche C. Derval \n1.2 2021/01/13 all Addition of climatology  dataset M Drevillon C. Derval \n1.3 2021/11/15 All Product and dataset \nNomenclature update C. Derval C. Derval \n1.4 2022/11/29 All New template A. Biardeau \nCopernicus \nMarine \nProduct \nManagement \n1.5 2023/06/16 All Add interim dataset O. Le Galloudec \nCopernicus \nMarine \nProduct \nManagement \n1.6 2024/05/31 All Interim dataset M-1 R. Bourdallé-\nBadie \nO. Le \nGalloudec \n1.7 2025/05/30 All Merge multi-year dataset and \nmulti year interim dataset \nR. Bourdallé-\nBadie \nO. Le \nGalloudec \n \n \n \n \n3 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_PHY_001_030 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-030 \nIssue 1.7 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Processing information ......................................................................................8 \nd) Details of datasets ...........................................................................................10 \ne) Additional Information on parameters .........................................................12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE..................................................................................... 14 \na) Nomenclature of files when downloaded through the Copernicus Marine \nService Web Portal Subset Service ..........................................................................14 \nb) Nomenclature of original files ........................................................................14 \nc) File size ..............................................................................................................15 \nd) scale_factor  & add_offset / missing_value / land mask ............................16 \ne) Structure of  files ...............................................................................................16 \n5) REFERENCES ..................................................................................................... 17 \n6) ANNEX ............................................................................................................. 17 \n  \n \n \n \n \n4 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_PHY_001_030 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-030 \nIssue 1.7 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCF Climate Forecast (convention for NetCDF) \nCMEMS Copernicus Marine Environment Monitoring Service \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nNetCDF Network Common Data Form \nPUM Product User Manual \nQUID Quality Information Document \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n5 Copernicus Marine Service PUM for GLOBAL_MULTIYEAR_PHY_001_030 \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-PUM-001-030 \nIssue 1.7 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If you have any questions, please contact us. \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Global Ocean Physical Multi Year product, detailing its specifications and updates from various contributors at MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_MULTIYEAR_PHY_001_030",
+      "name": "Global Ocean Physical Multi Year Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2362,
+  "_tokens_out": 446,
+  "_eval_s": 3.26
+}

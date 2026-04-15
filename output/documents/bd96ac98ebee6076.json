@@ -1,0 +1,96 @@
+{
+  "doc_id": "bd96ac98ebee6076",
+  "legacy_doc_id": "8f31926bdb14",
+  "filename": "SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.75,
+  "pages": 23,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \nP\nA\nG\nE \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors :  Ioanna Karagali, Wiebke M. Kolbe, Pia Englyst, Magnus Barfod \nSuhr, Ida Lundtorp Olsen, Jacob L. Høyer \n \nApproval Date : NOVEMBER 2025 \n \nFor Arctic Ocean Sea and Ice Surface \nTemperature Products \nSEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 \nSEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022 \n Issue: 2.0 \n \n \nIssue: 2.0 \n \nPRODUCT USER MANUAL \n \nProduct User Manual for SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 \nSEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022 \n \n \n \n  \n \n \nP\nA\nG\nE \n17 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-008-022 \nIssue 2.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2014/12/15 All \nFirst draft version, based on on \nthe template from the OSI-TAC \nWiki \nJacob L. Høyer \nLars-Anders \nBreivik \nL. Crosnier \n1.1 2015/05/01 All Change format to fit CMEMS \ngraphical rules Jacob L. Høyer L. Crosnier \n1.2 2016/01/15 All Rebranded for CMEMS Jacob L. Høyer B. Hackett \n1.3 2018/01/24 All Rebranded for SI TAC Jacob L. Høyer  \n1.4 2019/04/19 All Updated to include the SLSTR SST \nobservations Jacob L. Høyer  \n1.5 2019/12/06 All \nUpdated with the inclusion of \nSentinel 3b and, VIIRS_NPP SST/IST \nand NOAA 20 SST data \nJacob L. Høyer  \n1.6 2023/06/15 All Creation of the document in new \ntemplate format \nIoanna Karagali, \nMagnus Barfod \nSuhr \n \n1.6 2024/07/31 All Updated information on sea ice \nconcentration upstream data \nIoanna Karagali, \nPia Englyst, Ida \nLundtorp Olsen \n \n2.0 2025/05/09 All New template, inclusion of the \nL3S 011_022 description \nIoanna Karagali, \nWiebke M. Kolbe \n Copernicus \nMarine \nProduct \nManagement \n \nProduct User Manual for SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 \nSEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022 \n \n \n \n  \n \n \nP\nA\nG\nE \n17 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-008-022 \nIssue 2.0 – November 2025 \nTABLE OF CONTENTS \n \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 6 \n1. INTRODUCTION .................................................................................................. 7 \na) Summary.............................................................................................................7 \n2. DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ..........................................................................................8 \nb) Production System Description ......................................................................10 \nc) Dataset details .................................................................................................12 \nd) Processing information ....................................................................................14 \ne) Catalogue updating .......................................................................................14 \nf) Time averaging ................................................................................................14 \ng) Product use and impact .................................................................................14 \n3. FILE FORMAT .................................................................................................... 15 \n4. FILES NOMENCLATURE..................................................................................... 15 \n4.1. FILE SIZE .............................................................................................................15 \n4.2. STRUCTURE AND SEMANTIC OF NetCDF MAP FILES ......................................15 \n5. REFERENCES ..................................................................................................... 16 \n6. ANNEX ............................................................................................................. 17 \nStructure and semantic of NetCDF maps files .......................................................17 \n \n  \n \nProduct User Manual for SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 \nSEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022 \n \n \n \n  \n \n \nP\nA\nG\nE \n17 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-008-022 \nIssue 2.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nARC Arctic Monitoring and Forecasting Centre \nAVHRR Advanced Very High Resolution Radiometer –",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Arctic Ocean Sea and Ice Surface Temperature Products, specifically SEAICE_ARC_SEAICE_L4_NRT_OBSERVATIONS_011_008 and SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022. It provides details on the product specification, production system description, dataset information, processing information, file format, and access methods.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022",
+      "name": "Arctic Ocean Sea and Ice Surface Temperature Products",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_PHY_SST-IST_L3S_NRT_011_022",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ice_surface_temperature",
+        "cf_standard_name": "sea_ice_temperature",
+        "long_name": "Ice Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 65,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

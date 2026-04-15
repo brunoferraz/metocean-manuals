@@ -1,0 +1,80 @@
+{
+  "doc_id": "6978084ab42d7264",
+  "legacy_doc_id": "e2c82727d9d3",
+  "filename": "Reports_on_ICON_2021_07.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2021_07.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.86,
+  "pages": 42,
+  "text_preview": "The T racer T ransport Module\nPart II: Description and Validation\nof the Vertical T ransport Operator\nDaniel Reinert and Günther Zängl\nOctober 2021\nMax-Planck-Institut\n für Meteorologie\nIssue\n007 Reports on ICON\nDOI: 10.5676/DWD_pub/nwv/icon_007\nISSN: 2628-4898\nDOI: 10.5676/DWD_pub/nwv/icon_007\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRené Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nThe Tracer Transport Module Part II Daniel Reinert and Günther Zängl\nThe Tracer Transport Module\nPart II: Description and Validation of the Vertical Transport\nOperator\nDaniel Reinert and Günther Zängl\nDeutscher Wetterdienst\nThis document refers to release icon-2.6.2.\nAbstract\nWe describe the mathematical operator for vertical scalar transport in ICON's tracer\ntransport module. The speci\u001cc form of the operator follows the so called Flux Form Semi-\nLagrangian (FFSL) approach. The time integral of the instantaneous tracer mass \u001dux that\nemerges in any standard \u001cnite volume form of the tracer mass continuity equation, is recast\ninto an integral in space along 1 D backward trajectories (the characteristics). Albeit being\nfully explicit in time, this approach allows stable time integration for Courant numbers greater\nthan one. The unknown tracer subgrid distribution is approximated by piecewise parabolic\ninterpolants, which makes the scheme equivalent to the well known third order PPM method.\nA variant of PPM, known as the PSM method, has also been implemented and compared\nto PPM in a series of idealized transport tests. It is shown that PSM gives slightly but\nconsistently better results than PPM in terms of l 2 and l 1 error norms.\nMonotonicity preserving reconstruction limiters are presented for PPM and PSM, which\navoid the occurrence of spurious extrema in the vicinity of discontinuities or marginally re-\nsolved gradients. In order to reduce the tendency of those limiters to damp smooth (physical)\nextrema, a more selective detection algorithm from the literature has been tested. The re\u001cned\ndetection algorithm is shown to better discriminate between cells where limiting is necessary\nand where it should be avoided and, hence, e\u001eciently reduces the damping of smooth extrema.\nPerformance results are presented for the NEC SX AURORA, which provide insight into\nthe relative cost of the available limiter options and transport operators. It is shown that\nsemi-monotonic PSM is approximately 19 % more expensive than semi-monotonic PPM and\nthat the semi-monotonic limiter together with the selective detection algorithm can be a\ncost-e\u001ecient choice for time-critical real case applications.\nKeywords: vertical transport, \u001cnite volume, FFSL, PPM, PSM, reconstruction limiting\nCorrespondence to: Daniel Reinert (daniel.reinert@dwd.de)\nReports on ICON - Issue 007 3\nThe Tracer Transport Module Part II Daniel Reinert and Günther Zängl\nContents\n1. Introduction 5\n2. Vertical Transport Operator 6\n2.1. Flux Form Semi-Lagrangian Approach . . . . . . . . . . . . . . . . . . . . . . . . . 7\n2.2. Piecewise Parabolic Method (PPM) . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.2.1. Parabolic Interpolant . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9\n2.2.2. Edge Value Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . . . . 11\n2.2.3. Treatment of Boundaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13\n2.3. Parabolic Spline Method (PSM) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.1. Edge Value Reconstruction . . . . . . . . . . . . . . . . . . . . . . . . . . . 15\n2.3.2. Treatment of Boundaries . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16\n2.4. Comparison of PPM and PSM Reconstructions . . . . . . . . . . . . . . . . . . . . 17\n2.5. Flux Function for Parabolic Interpolants . . . . . . . . . . . . . . . . . . . . . . . . 18\n2.5.1. Extension to Large Time Steps . . . . . . . . . . . . . . . . . . . . . . . . . 20\n2.6. Idealized Tests for PPM and PSM . . . . . . . . . . . . . . . . . . . . . . . . . . . 22\n2.6.1. Transport of an In\u001cnitely Di\u001berentiable Gaussian Hill . . . . . . . . . . . . 22\n2.6.2. Transport of a Cosine-squared Hill . . . . . . . . . . . . . . . . . . . . . . . 23\n2.6.3. Hadley-like Meridional Circulation . . . . . . . . . . . . . . . . . . . . . . . 24\n3. Reconstruction Limiting 26\n3.1. Edge Value Limiting for PPM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26\n3.2. Edge Value Limiting for PSM . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27\n3.3. Limiting of S",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper describes and validates the vertical transport operator used in ICON's tracer transport module, focusing on the Flux Form Semi-Lagrangian approach and comparing Piecewise Parabolic Method (PPM) with Parabolic Spline Method (PSM).",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O",
+      "region": null,
+      "product_types": [],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,70 @@
+{
+  "doc_id": "20799345a8df706b",
+  "legacy_doc_id": "ee7eaf36da45",
+  "filename": "OMI_EXTREME_WAVE_BLKSEA_recent_changes_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_EXTREME_WAVE_BLKSEA_recent_changes_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.42,
+  "pages": 8,
+  "text_preview": " \nMERCATOR OCEAN \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99       \n marine.copernicus.eu \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024  mercator-\nocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nPRODUCT USER MANUAL \n \nFor \nBlack Sea Extreme Wave Events \n  \nOMI_EXTREME_WAVE_BLKSEA_recent_changes \n \n \nIssue: 1.1      \n \n \n \n \n \nContributors : Marcel Ricker, Arno Behrens     , Rafael Gomes de Menezes, Rita Lecci \nApproval Date:      November 2025      \n \n \n \n \n \n \n \n  \n \nProduct User Manual for OMI_EXTREME_WAVE_BLKSEA_recent_changes  2 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- EXTREME-     WAVE_     \nrecent_changes Issue 1.1 – May      2025 \n \n \nRECORD TABLE \n \n \nIssue Date § Description of Change Author Validated By \n      \n1.0 2024/11/26 All Initial version \nM. Ricker, A. \nBehrens, J. Staneva, \nR. Lecci \n \n1.1 2025/05     /2     \n8 All Few minor revisions M.      Ricker, R. G. de \nMenezes     , R. Lecci \nCopernicus \nMarine Product \nManagement \n \n \n  \n  \n \nProduct User Manual for OMI_EXTREME_WAVE_BLKSEA_recent_changes  3 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- EXTREME-     WAVE_     \nrecent_changes Issue 1.1 – May      2025 \n \n \nTABLE OF CONTENTS \n \nRECORD TABLE ................................................................................................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS .................................................................................................................................................... 4 \n    DATA ACCESS .................................................................................................................................................................................. 5 \n1) INTRODUCTION .................................................................................................................................................................... 6 \na) Summary .......................................................................................................................................................................... 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION .................................................................................................................. 7 \na) General Information ........................................................................................................................................................ 7 \nb) Production System Description .............................................................................................................................................. 7 \nc) Dataset details ........................................................................................................................................................................ 8 \n3) FILE FORMAT .............................................................................................................................................................................. 8 \n4) FILES NOMENCLATURE ......................................................................................................................................................... 8 \n5) REFERENCES ......................................................................................................................................................................... 8 \n \n   \n  \n \nProduct User Manual for OMI_EXTREME_WAVE_BLKSEA_recent_changes  4 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- EXTREME-     WAVE_     \nrecent_changes Issue 1.1 – May      2025 \n  \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \n \nNetCDF Network Common Data Form  \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual  \n \nQUID Quality Information Document \n \n  \n  \n \nProduct User Manual for OMI_EXTREME_WAVE_BLKSEA_recent_changes  5 \n© EU Copernicus Marine Service – Public \nCMEMS-BLK-OMI-PUM- EXTREME-     WAVE_     \nrecent_changes Issue 1.1 – May      2025 \n  \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter is available, \nand more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_EXTREME_WAVE_BLKSEA_recent_changes, detailing recent changes and providing information on the Black Sea Extreme Wave Events product.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_EXTREME_WAVE_BLKSEA_recent_changes",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2111,
+  "_tokens_out": 335,
+  "_eval_s": 2.48
+}

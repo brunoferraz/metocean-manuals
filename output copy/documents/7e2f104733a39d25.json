@@ -1,0 +1,99 @@
+{
+  "doc_id": "7e2f104733a39d25",
+  "legacy_doc_id": "9de058fd939d",
+  "filename": "GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.52,
+  "pages": 9,
+  "text_preview": "  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n  \n \n \n \n \n \n \n \n \n \n \n  \n \n \nPRODUCT USER MANUAL \n \nOMI_HEALTH_carbon \nOcean carbon \nGLOBAL_OMI_HEALTH_carbon_co2_flux_integrated \nGLOBAL_OMI_HEALTH_carbon_ph_area_averaged \n \nIssue5.0 \n \n \nContributors: Trang Chau, Marion Gehlen, Frederic Chevallier \nApproval Date: 01/2023 \n \n \n \n \n \n \n2 \nProduct User Manual for OMI_HEALTH_carbon \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-PUM-GLO-HEALTH-carbon \nIssue 1.0 – June 2022 \n \nChange Record \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 2019/01 all Creation of the \ndocument \nMarion Gehlen, \nTrang Chau \nStéphanie \nGuinehut \n \n1.1 2019/10 §II.2 Uncertainty variables \nadded in the \ndescription of the \ndatasets content \nMarion Gehlen, \nTrang Chau \nStéphanie \nGuinehut \n \n2.0 2019/12 §II.1 \n§II.2 \nTemporal extension Thi Tuyet Trang \nChau, Marion \nGehlen, Frédéric \nChevallier \nStéphanie \nGuinehut \nC. Derval \n3.0 2020/09 §II.1 \n \nTemporal extension \n \nThi Tuyet Trang \nChau, Marion \nGehlen, Frédéric \nChevallier \nStéphanie \nGuinehut \nC. Derval \n4.0 2021/09 §II.1 \n \nTemporal extension Thi Tuyet Trang \nChau, Marion \nGehlen, Frédéric \nChevallier \nStéphanie \nGuinehut \nC. Derval \n5.0 2022/09 §II.1 Temporal extension Thi Tuyet Trang \nChau, Marion \nGehlen, Frédéric \nChevallier \nS. Mulet Copernicus \nMarine \nProduct \nManagement \n \n \n  \n \n \n \n3 \nProduct User Manual for OMI_HEALTH_carbon \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-PUM-GLO-HEALTH-carbon \nIssue 1.0 – June 2022 \nGLOSSARY AND ABBREVIATIONS \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \n \n \n \n \n \n  \n \n \n \n4 \nProduct User Manual for OMI_HEALTH_carbon \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-PUM-GLO-HEALTH-carbon \nIssue 1.0 – June 2022 \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................... 3 \n INTRODUCTION ..................................................................................................... 5 \nI.1. Summary ........................................................................................................... 5 \nI.2. History of changes ............................................................................................ 5 \n DESCRIPTION OF THE PRODUCT ........................................................................... 6 \nII.1. General information ......................................................................................... 6 \nII.2. Details of the datasets ...................................................................................... 7 \nII.3. Product System Description ............................................................................. 7 \n DOWNLOAD A PRODUCT ..................................................................................... 8 \n FILES NOMENCLATURE AND FORMAT ............................................................... 8 \nIV.1. Nomenclature of files .................................................................................... 8 \nIV.2. File Format ...................................................................................................... 8 \nIV.3. Reading Softwares ........................................................................................ 9 \n REFERENCES .......................................................................................................... 9 \n \n  \n \n \n \n5 \nProduct User Manual for OMI_HEALTH_carbon \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-PUM-GLO-HEALTH-carbon \nIssue 1.0 – June 2022 \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Ocean Monitoring Indicator \n(OMI) GLOBAL_OMI_HEALTH_carbon. It contains 2 OMIs :  \n• GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated \n• GLOBAL_OMI_HEALTH_carbon_ph_area_averaged \n \nThe OMIs provide estimates of global yearly ocean CO2 uptake and area averaged yearly mean \nsurface sea water pH reported on total scale . These estimates are derived fro m the global \nreconstruction of monthly surface ocean downward flux of carbon dioxide, respectively surface \nwater pH reported on total scale distributed as part of \nMULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008 (see V).  Units are in PgC/yr  for CO 2 \nflux and pH units for pH. \n \nThe product is published on the Copernicus Marine dissemination server after automatic and \ndelayed-mode quality controls. Files downloaded are in NetCDF format and follow CF -1.7 \nconvention. \n \nDisclaimer: The quality of the product may vary during the proposed time series depending on \nthe possible update of the system. \n \nThe two OMIs are described in the Quality Information",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_HEALTH_carbon, providing details on two Ocean Monitoring Indicators: GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated and GLOBAL_OMI_HEALTH_carbon_ph_area_averaged. These indicators estimate global yearly ocean CO2 uptake and area-averaged yearly mean surface sea water pH.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-OMI-PUM-GLO-HEALTH-carbon",
+      "name": "Ocean Monitoring Indicator (OMI) Product User Manual for OMI_HEALTH_carbon",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008",
+        "temporal_resolution": "monthly",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated",
+        "cf_standard_name": "ocean_carbon_dioxide_uptake",
+        "long_name": "Global yearly ocean CO2 uptake",
+        "unit": "PgC/yr",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "GLOBAL_OMI_HEALTH_carbon_ph_area_averaged",
+        "cf_standard_name": "ocean_surface_sea_water_ph",
+        "long_name": "Area averaged yearly mean surface sea water pH reported on total scale",
+        "unit": "pH units",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2493,
+  "_tokens_out": 711,
+  "_eval_s": 5.21
+}

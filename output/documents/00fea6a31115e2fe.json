@@ -1,0 +1,110 @@
+{
+  "doc_id": "00fea6a31115e2fe",
+  "legacy_doc_id": "233d7c0d3f4f",
+  "filename": "SEAICE_GLO_PHY_L4_NRT_011_014_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_GLO_PHY_L4_NRT_011_014_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.03,
+  "pages": 25,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Stefan Hendricks, Lars Kaleschke, Jaakko Seppänen, Cecilie Wettre \n \nApproval Date : Mars 2026 \n \nFor Global Sea Ice Thickness Products \n \n SEAICE_GLO_PHY_L4_NRT_011_014 \nIssue: 2.2 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for SEAICE_GLO_PHY_L4_NRT_011_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-SI-PUM-011-014 \nIssue 2.2 – Mars 2026 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated \nBy \n1.0 31.10.2019 All Initial version Jaakko \nSeppänen C. Wettre \n1.1 15.01.2021 II.5 Update changed from \nweekly to daily \nJaakko \nSeppänen C. Wettre \n1.2 16.02.2022 \nI.1, \nIII.4, \nIII.5 \nUpdated product name \nfrom L3 to L4 \nJaakko \nSeppänen C. Wettre \n2.0 28.05.2024 All \nUpdate of the production \nsystem to version 3 of the \nsource dataset, including \nthe addition of data from \nthe Southern Hemisphere. \nStefan \nHendricks C. Wettre \n2.1 28.05.2025 All \nUpdate of SMOS input \ndata version in the \nnorthern hemisphere  \nStefan \nHendricks C. Wettre \n2.2 06.03.2025 \n2.a, \n2.b,  \n2.c, \n2.g, \n7 \nImplementing consistent \nterminology for temporal \ncoverage and resolution.  \nAdd OSI-SAF dataset \nDOI’s,  \nMinor editorial changes   \nStefan \nHendricks C. Wettre \n \n \n \n3 Product User Manual for SEAICE_GLO_PHY_L4_NRT_011_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-SI-PUM-011-014 \nIssue 2.2 – Mars 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary.............................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Dataset details .................................................................................................10 \nd) Additional information on some parameters ...............................................12 \ne) Processing information ....................................................................................13 \nf) Catalogue updating .......................................................................................13 \ng) Time averaging ................................................................................................14 \nh) Product use and impact .................................................................................14 \n3) FILE FORMAT .................................................................................................... 15 \n4) FILES NOMENCLATURE..................................................................................... 15 \n5) FILE SIZE ............................................................................................................ 15 \n6) STRUCTURE OF FILES ......................................................................................... 15 \n7) REFERENCES ..................................................................................................... 16 \n8) ANNEX ............................................................................................................. 18 \na) Structure and semantic of NetCDF maps files ..............................................18 \n  \n \n \n \n4 Product User Manual for SEAICE_GLO_PHY_L4_NRT_011_014 \n© EU Copernicus Marine Service – Public   \nCMEMS-SI-PUM-011-014 \nIssue 2.2 – Mars 2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nSI Sea Ice  \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nCIS  Central Information System \nDU  \nDissemination Unit. A Dissemination Unit is a kind of \nProduction Unit, with the ability to disseminate its own \nproducts or other Production Unit's products to the rest of \nCMEMS Production Centres and to external Users. \nDT Delayed Time \nEC European Commission \nECMWF European Centre for Medium Range Weather Forecast \nSAR Synthetic Aperture Radar \nSIC Sea Ice Concentration \nSIT Sea Ice Thickness \nSIType  Sea Ice Type (first-year / multi-year sea ice) \nTAC Thematic Assembly Centre \nSIT Sea Ice Thickness \nNetCDF Network Common Data Form \nCF Climate a",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for SEAICE_GLO_PHY_L4_NRT_011_014, detailing the specifications and usage of global sea ice thickness products provided by MERCATOR OCEAN INTERNATIONAL under the EU Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_GLO_PHY_L4_NRT_011_014",
+      "name": "Global Sea Ice Thickness Products",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIT",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea Ice Thickness",
+        "unit": "m",
+        "physical_quantity": "ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIType",
+        "cf_standard_name": null,
+        "long_name": "Sea Ice Type (first-year / multi-year sea ice)",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

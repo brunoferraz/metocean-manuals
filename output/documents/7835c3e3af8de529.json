@@ -1,0 +1,110 @@
+{
+  "doc_id": "7835c3e3af8de529",
+  "legacy_doc_id": "7a1d387bd3fb",
+  "filename": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.09,
+  "pages": 27,
+  "text_preview": " \n \n \n \n \n \n \n  \n \nSea Ice Thematic Assembly Centre \nFinnish Meteorological Institute (FMI) \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004 \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011 \nSEAICE_BAL_PHY_L4_MY_011_019 \n \n Issue: 1.3 \nContributors: J. Karvonen \nApproval date by the CMEMS product quality coordination team:  17/11/2025 \n \n \n \n \n  \n \n\nProducts \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/011/019 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-\n011-004/011/019 \n20 May 2025 \n1.3 \n \n                                                      Page 2/ 27 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the docu-\nment was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By  \n1.0 2.6.2023 All Creation of the document. The pre-\nvious document included many Sea \nIce TAC products and was split \n(CMEMS-SI-QUID-011-001to007-\n009to015-019-V2.17) \nJ. Karvonen C. Wettre  \n1.1 01.02.2024  Addition of Sea Ice Extent J. Karvonen C. Wettre  \n1.2 24.05.2024  Inclusion of the new ice thickness \nmosaic using all the available C- and \nX-band SAR data \nJ. Karvonen C. Wettre  \n1.3 20.05.2025  Included 011_011 SID mosaic infor-\nmation and adapted to the most re-\ncent template \nJ. Karvonen C. Wettre  \n1.3 05.10..202\n5 \n Updated according to reviewer \ncomments \nJ. Karvonen   \n \n \n \n \n \n  \nProducts \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/011/019 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-\n011-004/011/019 \n20 May 2025 \n1.3 \n \n                                                      Page 3/ 27 \nACRONYM TABLE \nAcronym Description \nAMSR2 JAXA MWR \nESA European Space Agency \nFMI Finnish Meteorological Institute \nJAXA Japanese Space Agency \nMWR Microwave radiometer \nMY Multi-year \nNRT Near Real Time \nRCM (1/2/3) Canadian Radarsat Contellation Mission C-band SAR \nRS-2 Canadian Radarsat-2 C-band SAR \nSAR Synthetic aperture Radar \nS-1(A/B/C/D) ESA Sentinel-1 C-band SAR \nSIC Sea ice concentration (=sea ice fraction) \nSID Sea ice drift \nSIE Sea ice extent \nSIT Sea ice thickness \nTAC Copernicus Marine Service Thematic Assembly Centre \nKEY DEFINITIONS \nL1D Average of the absolute difference between estimate and reference val-\nues. Used in the quality validation. \nBias Average of the  difference between the estimate and reference values. \nUsed in the quality validation. \nRMSD Root-Mean Squared Difference  between the estimate and reference \nvalues. Used in the quality validation. \n \nRELEVANT DOCUMENT LIST \nCMEMS-SEAICE-PUM-\n011-004_V1.2 \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004 product user \nmanual (https://documentation.marine.copernicus.eu/PUM/CMEMS-\nSEAICE-PUM-011-004-011.pdf) \nCMEMS-SEAICE-PUM-\n011-011_V1.2 \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_011 product user \nmanual (https://documentation.marine.copernicus.eu/PUM/CMEMS-\nSEAICE-PUM-011-004-011.pdf) \nCMEMS-SEAICE-PUM-\n011-019_V1.2 \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_019 product user \nmanual (MY data , URL https://documentation.marine.coperni-\ncus.eu/PUM/CMEMS-SI-PUM-011-019.pdf) \n  \nProducts \nSEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/011/019 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-\n011-004/011/019 \n20 May 2025 \n1.3 \n \n                                                      Page 4/ 27 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey definitions .................................................................................................................................................... 3 \nRelevant document List ....................................................................................................................................... 3 \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 6 \nI.3 Estimated Accuracy Numbers ................................................................................................................... 10 \nII Production system description .................................................................................................................. 11 \nIII Validat",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical note for sea ice products from the Finnish Meteorological Institute, detailing changes and updates to quality information documents (QuIDs) for near real-time observations of sea ice extent, concentration, and thickness.",
+    "provider": {
+      "provider_id": "fmi",
+      "name": "Finnish Meteorological Institute"
+    },
+    "product_line": {
+      "product_id": "SEAICE_BAL_SEAICE_L4_NRT_OBSERVATIONS_011_004/011/019",
+      "name": "Sea Ice Near Real Time Observations",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea ice concentration (=sea ice fraction)",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SID",
+        "cf_standard_name": "sea_ice_drift_velocity",
+        "long_name": "Sea ice drift",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "SID"
+      },
+      {
+        "native_name": "SIT",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea ice thickness",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

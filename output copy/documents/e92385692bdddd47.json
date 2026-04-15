@@ -1,0 +1,113 @@
+{
+  "doc_id": "e92385692bdddd47",
+  "legacy_doc_id": "095145961038",
+  "filename": "BALTICSEA_MULTIYEAR_WAV_003_015_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BALTICSEA_MULTIYEAR_WAV_003_015_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.87,
+  "pages": 35,
+  "text_preview": " \n  \nBaltic Sea Production Centre \nBALTICSEA_MULTIYEAR_WAV_003_015  \n \n Issue: 2.0 \nContributors: Hedi Kanarik, Laura Tuomi, Elisa Lindgren \nApproval date by the CMEMS product quality coordination team: 11/11/2024 \n \n \n \n \n  \n \n\nProducts \nBALTICSEA_MULTIYEAR_WAV_003_015 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-015 \nSeptember 2024 \n2.0 \n \n                                                      Page 2/ 35 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 January \n2020 \nAll First version of the QUID \nfor the BAL MFC wave \nhindcast \nElisa Lindgren, \nLaura Tuomi, \nVibeke Huess \nMercator Ocean \n1.1 September \n2023 \n1.1 Updated for operational \ntemporal extension \nV. Huess, Hedi \nKanarik \nVibeke Huess \n2.0 September \n2024 \nAll Update of the entire \nproduct \nHedi Kanarik, Laura \nTuomi \nVibeke Huess \n \n \n \n  \nProducts \nBALTICSEA_MULTIYEAR_WAV_003_015 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-015 \nSeptember 2024 \n2.0 \n \n                                                      Page 3/ 35 \nACRONYM TABLE \n \nAcronym Description \nTAC Copernicus Marine Service Thematic Assembly Centre \nMFC Copernicus Marine Service Monitoring Forecasting Centre \nSWH Significant Wave Height \nWTPK Peak Wave Period \nMWT Mean Wave Period \n \n  \nProducts \nBALTICSEA_MULTIYEAR_WAV_003_015 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-015 \nSeptember 2024 \n2.0 \n \n                                                      Page 4/ 35 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 7 \nII Production system description .................................................................................................................... 8 \nIII Validation framework ............................................................................................................................... 10 \nIII.1 Validation metrics .................................................................................................................................. 10 \nIII.2 Wave in-situ measurement sites ............................................................................................................ 11 \nIII.3 Wave altimeter measurements .............................................................................................................. 11 \nIV Validation results ...................................................................................................................................... 15 \nIV.1 Significant wave height .......................................................................................................................... 15 \nIV.2 Wave period at spectral peak ................................................................................................................ 19 \nIV.3 Mean wave period ................................................................................................................................. 20 \nV System’s Noticeable events, outages or changes ...................................................................................... 23 \nVI Quality changes since previous version ..................................................................................................... 24 \nVII References ............................................................................................................................................ 25 \nVIII Appendix .............................................................................................................................................. 27 \nVIII.1 SCATTER PLOTS OF SIGNIFICANT WAVE HEIGHT .................................................................................. 27 \nVIII.2 SCATTER PLOTS OF SIGNIFICANT PEAK PERIOD ......",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QuID) for the BALTICSEA_MULTIYEAR_WAV_003_015 product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_MULTIYEAR_WAV_003_015",
+      "name": "Baltic Sea Multi-Year Wave Hindcast",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Baltic",
+      "product_types": [
+        "hindcast"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "WTPK",
+        "cf_standard_name": "sea_surface_wave_peak_period",
+        "long_name": "Peak Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "MWT",
+        "cf_standard_name": "sea_surface_wave_mean_period",
+        "long_name": "Mean Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 10,
+        "lon_max": 30,
+        "lat_min": 54,
+        "lat_max": 66
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2113,
+  "_tokens_out": 727,
+  "_eval_s": 5.3
+}

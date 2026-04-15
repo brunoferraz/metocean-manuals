@@ -1,0 +1,141 @@
+{
+  "doc_id": "38c6691ae1bfba0c",
+  "legacy_doc_id": "b5b81bdefb01",
+  "filename": "halliwell_mellor_yamada.pdf",
+  "filepath": "docs/hycom_docs/halliwell_mellor_yamada.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.15,
+  "pages": 3,
+  "text_preview": "Mellor-Yamada Level 2.5 Turbulence Closure  \n \n1. Summary of the Algorithm \n \nThis mixing model is described in detail in Mellor and Yamada (1982) and in the Princeton \nOcean Model Users Guide (Mellor, 1998). To implement MY mixing in HYCOM, viscosity and \nscalar diffusivity are first parameterized as follows: \n ,\nMM\nHH\nKqlS\nKqlS\n=\n=  (1) \nwhere MS  and HS  are expressed as \n ( )[ ] 1\n22122\n1\n6\n13181HH\nA\nSABAAGA B\næö ÷ç-+=- ÷ç ÷çèø  (2) \nand \n ( ) ( )[ ] 1\n1211211\n1\n6\n1918913,MHHH\nA\nSAAGSAAAGAC B\næö ÷ç--+=-- ÷ç ÷çèø  (3) \nwith \n \n2\n2 0\nH\nlg\nG zq\nr\nr\n¶=- ¶  (4) \nbeing a Richardson number. In these expressions, q  is the turbulence velocity scale, l  is the \nturbulence length scale, and r  is the potential density. The variables 2q  (turbulent kinetic \nenergy) and 2ql  are prognostic variables in this model. The equations for these variables, written \nhere as a function of the generalized vertical coordinate s  for the purpose of HYCOM \nimplementation, are \n ( ) ( ) ( ) ( )2222 ssHsq\ns\nppppqqAqsqtsssss\n¶¶¶¶¶¶ éù+Ñ×-Ñ×Ñ+= êúêú¶¶¶¶¶¶ ëû\nV & L  (5) \nand \n \n( )( ) ( )( )\n( )( ) ( )( )\n22\n22 ,\n,\ns\ns\nsHsl\npp\nqlqltss\nppAqlsqlsss\n¶¶¶ +Ñ×¶¶¶\n¶¶¶-Ñ×Ñ+= ¶¶¶\nV\n& L  (6) \nwhere qL  and lL  represent the sum of all local processes. Equations (5) and (6) have the same \nform as the equations for T  and S  in generalized vertical coordinates. Terms two through four \nin both equations represent horizontal advection, horizontal diffusion, and fluxes across the \ngeneralized vertical coordinates when these coordinates are relocated ( 0s ¹& ) by the hybrid \ncoordinate adjustment algorithm. For T  and S , the local processes are surface forcing and \nvertical diffusivity. For 2q  and 2ql , the local processes are boundary forcing and vertical \ndiffusivity plus three additional forcing and damping mechanisms described in the following \nsection. \n \n2. Implementation Issues \n \nThe strategy for implementing this turbulence closure model in HYCOM is to solve the same \nlocal equations for 2q  and 2ql  that are solved in POM. The purely local equations are \n ( ) ( ) ( ) ( )\n22 3\n22\n01\n22\n2,qqMH\nuvgq\nqFKqKK\ntzzzzzBl\nr\nr\néù¶¶¶¶¶¶ éù êú=++++- êú êúêú¶¶¶¶¶¶ ëû ëû\n (7) \nand \n \n( ) ( )( )\n( ) ( ) ±\n22\n22 3\n13\n01\n,\nlq\nMH\nqlFKqltzz\nuvgqElKEKW zzzB\nr\nr\n¶¶¶ =+¶¶¶\néæöù ¶¶¶ ÷çêú+++- ÷ç ÷÷çêú ¶¶¶èøëû\n (8) \nwhere qF  and lF  represent local boundary forcing and the remaining four terms of each equation \nrepresent vertical diffusion, generation by vertical shear, conversion to and from potential \nenergy, and dissipation. The parameter ±W  is the wall proximity function given by \n± 21()WElkL=++ , with ( ) 111 ()LzHz h --- =-+- , where h is sea surface elevation \nand H  is water depth. The local solution procedure implemented in HYCOM is essentially the \nsame one used in POM. Values of the several constants used in HYCOM are the same as those \nused in POM (see Mellor, 1998). \nExisting HYCOM algorithms are employed to calculate changes in 2q  and 2ql  due to the two \nnonlocal terms and the s&  term in (5) and (6). Horizontal advection and diffusion of 2q  and 2ql  \nare performed in subroutine tsadvc.f, while the s&  flux terms are estimated in the hybrid vertical \ncoordinate subroutine hybgen.f. Both 2q  and 2ql  are carried at the two leap frog time steps, and \ntime smoothing is performed in the same manner as for other model layer variables. \nOne significant problem had to be overcome to implement the algorithm in this manner. In the \nPOM Mellor-Yamada algorithm, the variables 2q  and 2ql  are carried at vertical interfaces while \nHYCOM scalars are carried as layer variables. The strategy employed is to define a separate \nvertical coordinate system on which the one-dimensional solutions for 2q  and 2ql  are performed. \nThis MY vertical coordinate system is illustrated alongside the HYCOM vertical coordinate \nsystem in the Figure. MY interfaces are located at the central depths of HYCOM model layers. \nThere is one additional layer and one additional interface present in the MY coordinate system. \nWith 2q  and 2ql  defined on MY interfaces, implementation of the POM local solution procedure \nin HYCOM is straightforward. Since MY interfaces are located at the central depths of HYCOM \nlayers, values on MY interfaces are passed to the HYCOM routines that calculate the horizontal \nadvection, horizontal diffusion, and \ns&  flux terms of (5) and (6). After these algorithms are \nexecuted, the layer values of 2q  and 2ql  are passed as interface values on the MY grid to the \none-dimensional solution algorithm. When the one-dimensional routine is executed, HYCOM \nmomentum and thermodynamical layer variables must be vertically interpolated to the MY \nlayers. Since the central depth of each MY layer is located half way between the central depths \nof two HYCOM layers, the interpolated MY layer variables are calculated as the average values \nof these two HYCOM layers. \nInstead of employing the POM procedures to solve vertical diffusion equations for other \nmodel variable",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the implementation of the Mellor-Yamada Level 2.5 turbulence closure model within the HYCOM ocean circulation model, detailing equations and methods for calculating turbulent kinetic energy and length scale.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "q",
+        "cf_standard_name": "not_applicable",
+        "long_name": "turbulence velocity scale",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "l",
+        "cf_standard_name": "not_applicable",
+        "long_name": "turbulence length scale",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "r",
+        "cf_standard_name": "not_applicable",
+        "long_name": "potential density",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "2q",
+        "cf_standard_name": "not_applicable",
+        "long_name": "turbulent kinetic energy",
+        "unit": "m^2/s^2",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      },
+      {
+        "native_name": "2ql",
+        "cf_standard_name": "not_applicable",
+        "long_name": "turbulent kinetic energy length scale product",
+        "unit": "m^3/s^2",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": "null"
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "not specified in document",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "hybrid",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2723,
+  "_tokens_out": 928,
+  "_eval_s": 7.07
+}

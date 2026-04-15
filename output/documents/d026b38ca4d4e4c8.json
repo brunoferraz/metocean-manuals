@@ -1,0 +1,68 @@
+{
+  "doc_id": "d026b38ca4d4e4c8",
+  "legacy_doc_id": "4640485117fa",
+  "filename": "IFS_CY47R1_Part-VII_Wave-Model.pdf",
+  "filepath": "docs/ecmwf_docs/IFS_CY47R1_Part-VII_Wave-Model.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 10.56,
+  "pages": 114,
+  "text_preview": "Part VII: ECMWF Wave Model\nIFS DOCUMENTATION – Cy47r1\nOperational implementation 30 June 2020\nPAR T VII: ECMWF W A VE MODEL\nc⃝ Copyright 2020\nEuropean Centre for Medium-Range Weather Forecasts\nShinﬁeld Park, Reading, RG2 9AX, England\nLiterary and scientiﬁc copyrights belong to ECMWF and are re served in all countries. This publication is not\nto be reprinted or translated in whole or in part without the w ritten permission of the Director. Appropriate\nnon-commercial use will normally be granted under the condi tion that reference is made to ECMWF. The\ninformation within this publication is given in good faith a nd considered to be true, but ECMWF accepts no\nliability for error, omission and for loss or damage arising from its use.\nIFS Documentation – Cy47r1 1\nREVISION HISTORY\nChanges since CY46R1\n• New wave physics in CY46r1.\nChanges since CY43R1\nNone\nChanges since CY41R2\n• New subsection on Maximum Spectral Steepness in Chapter 2.\n• New chapter 10 based on ECMWF Post-processing section in Chapte r 6.\n2 IFS Documentation – Cy47r1\nPart VII: ECMWF Wave Model\nChapter 1\nIntroduction\nTable of contents\n1.1 Background\n1.2 Structure of the documentation\nThis document is partly based on Chapter III of “Dynamics and Mode lling of Ocean Waves” by Komen\net al. (1994). For more background information on the fundamentals of wave p rediction models this book\ncomes highly recommended. A comprehensive and more recent acco unt of the theory of surface gravity\nwaves (such as the coupling between wind and waves, nonlinear wave -wave interactions and freak waves)\nand the veriﬁcation of model results is given by Janssen (2004). Here, after a historical introduction, we\nwill describe the basic evolution equation, including a discussion of the parametrization of the source\nfunctions. This is then followed by a brief discussion of the ECMWF wav e data assimilation scheme. The\ndocument closes with a presentation of the ECMWF version of the nu merical scheme and the structure\nof the software.\n1.1 BACKGROUND\nThe principles of wave prediction were already well known at the begin ning of the 1960s. Yet none of the\nwave models developed in the 1960s and 1970s computed the wave sp ectrum from the full energy balance\nequation. Additional ad hoc assumptions have always been introduced to ensure that the wave spectrum\ncomplies with some preconceived notions of wave development that w ere in some cases not consistent\nwith the source functions.The reasons for introducing simpliﬁcation s in the energy balance equation\nwere twofold. On the one hand, the important role of the wave–wav e interactions in wave evolution was\nnot recognized. On the other hand, the limited computer power in th ose days precluded the use of the\nnonlinear transfer in the energy balance equation.\nThe ﬁrst wave models, which were developed in the 1960s and 1970s, assumed that the wave components\nsuddenly stopped growing as soon as they reached a universal sat uration level (\nPhillips, 1958). The\nsaturation spectrum, represented by the one-dimensional f − 5 frequency spectrum of Phillips and an\nempirical equilibrium directional distribution, was prescribed. Nowad ays it is generally recognized that a\nuniversal high-frequency spectrum (in the region between 1.5 and 3 times the peak frequency) does not\nexist because the high-frequency region of the spectrum not only depends on whitecapping but also on\nwind input and on the low-frequency regions of the spectrum throu gh nonlinear transfer. Furthermore,\nfrom the physics point of view, it has now become clear that these so -called ﬁrst generation wave models\nexhibit basic shortcomings by overestimating the wind input and disre garding nonlinear transfer.\nThe relative importance of nonlinear transfer and wind input became more evident after extensive wave\ngrowth experiments (Mitsuyasu, 1968, 1969; Hasselmann et al., 1973) and direct measurements of the wind\ninput to the waves ( Snyder et al. , 1981; Hasselmann et al. , 1986). This led to the development of second\ngeneration wave models which attempted to simulate properly the so -called overshoot phenomenon and\nthe dependence of the high-frequency region of the spectrum on the low frequencies. However, restrictions\nresulting from the nonlinear transfer parametrization eﬀectively r equired the spectral shape of the wind\nsea spectrum to be prescribed. The speciﬁcation of the wind sea sp ectrum was imposed either at the outset\nin the formulation of the transport equation itself (parametrical o r hybrid models) or as a side condition\nin the computation of the spectrum (discrete models). These mode ls therefore suﬀered basic problems in\nthe treatment of wind sea and swell. Although, for typical synoptic -scale wind ﬁelds the evolution towards\na quasi-universal spectral shape could be justiﬁed by two scaling a rguments ( Hasselmann et al. , 1976),\nIFS Documentation – Cy47r1 3\nChapter 1: Introduction\nnevertheless complex wind seas generated by rapidly varying wind ﬁe lds (in, for example",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a part of the IFS CY47R1 documentation, focusing on the ECMWF Wave Model and its operational implementation as of June 30, 2020.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ECMWF Wave Model",
+      "region": "Global",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

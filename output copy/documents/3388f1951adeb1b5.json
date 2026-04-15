@@ -1,0 +1,84 @@
+{
+  "doc_id": "3388f1951adeb1b5",
+  "legacy_doc_id": "6517b4ce5d5b",
+  "filename": "OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.35,
+  "pages": 6,
+  "text_preview": " \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : P. Lagemaa, U. Raudsepp, I. Maljutenko, V. Huess \n \nApproval Date : November 2025 \n \nFor  \nOMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend \n \n Issue: 4.0 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n \n \n \n \n \n \n2 Quality Information Document for OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-\nTEMPSAL-Stz-trend  \nIssue 4.0 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added to \nthis table.  The third column specifies which sections  or sub -sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2018/09/06 all Creation of the document U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n1.1 2019/02/21  Revision U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n2.0 2019/10/10  Update to 2018 data U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n2.1 2021/10/01 all Minor changes U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n3.0 2023/09/01 all Template change+ minor \nchanges \nU. Raudsepp \nI. Maljutenko \nP. Lagemaa \n4.0 2025/05/22 all Template change+ minor \nchanges \nP. Lagemaa  V. Huess \n      \n \n \n \n \n \n \n \n \n \n3 Quality Information Document for OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-\nTEMPSAL-Stz-trend  \nIssue 4.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 4 \n2) SCIENTIFIC VALIDATION ................................................................................... 5 \na) Subsurface salinity trend ..................................................................................... 5 \n3) REFERENCES ....................................................................................................... 6 \n  \n \n \n \n \n \n \n \n \n \n4 Quality Information Document for OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-\nTEMPSAL-Stz-trend  \nIssue 4.0 – November 2025 \n1) INTRODUCTION \na) Product Name  \nOMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend. \nb) Indicator Evaluation Method \nThis document provides to Copernicus Marine Service users information on the quality \nof the horizontally averaged salinity trend for the Baltic Sea. The linear trends/slopes/fits \nand their 95% confidence intervals have been calculated usi ng last square \nregression method described in Draper and Smith (1998) eq. 1.2.9 and 1.4.8.  \nThe daily salinity data is extracted from the BALTICSEA_MULTIYEAR_PHY_003_011 \nproduct. The accuracy of the index is directly dependent on the accuracy of the Baltic \nreanalysis product (BALTICSEA_MULTIYEAR_PHY_003_011) therefore evaluation is based \non the QUID documents of the aforementioned product. \nc) Copernicus Marine products used as input for the computation \nProduct name (and Type) Documentation \nBALTICSEA_MULTIYEAR_PHY_003\n_011 (model reanalysis) \nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/\nQUID/CMEMS-BAL-QUID-003-011.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/P\nUM/CMEMS-BAL-PUM-003-011_012.pdf \n  \n \n \n \n \n \n \n \n \n \n5 Quality Information Document for OMI_CLIMATE_TEMPSAL_BALTIC_Stz_trend \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-CLIMATE-\nTEMPSAL-Stz-trend  \nIssue 4.0 – November 2025 \n2) SCIENTIFIC VALIDATION  \na) Subsurface salinity trend  \nIn the CMEMS-BAL-QUID-003-011 the salinity of reanalysis product has been compared \nwith all available measurements across the Baltic for period of 1993-2024.  As the data \nassimilation is employed the model results of reanalysis show only small biases (<0. 3 \ng/kg) compare to observations at all observed depth ranges. The RMSE showed values \naround 0.48 – 0.73 g/kg in the layer of 0-80 m and decreased toward the deeper layers \nto up to 0.28 g/kg in the layer of 80-220 m.  \nThe linear trends/slopes/fits and their 95% confidence intervals (Figure 1) have been \ncalculated using last square regression  method described in Draper and Smith (1998) \neq. 1.2.9 and 1.4.8.  \nScientific evaluation can be fo und in the Copernicus Marine Service Ocean S",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the quality of horizontally averaged salinity trend for the Baltic Sea, providing details on the methodology and data sources used in its computation.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-BAL-OMI-QUID-CLIMATE-TEMPSAL-Stz-trend",
+      "name": "Baltic Sea Climate Salinity Trend Evaluation Report",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "CMEMS-BAL-QUID-003-011",
+        "temporal_resolution": null,
+        "update_frequency": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Baltic Sea Reanalysis Product",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "http",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2713,
+  "_tokens_out": 484,
+  "_eval_s": 3.56
+}

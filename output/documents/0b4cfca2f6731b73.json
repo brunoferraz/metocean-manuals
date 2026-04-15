@@ -1,0 +1,96 @@
+{
+  "doc_id": "0b4cfca2f6731b73",
+  "legacy_doc_id": "3c9e69a904af",
+  "filename": "SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ARC_PHY_CLIMATE_L3_MY_011_021_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.59,
+  "pages": 27,
+  "text_preview": "marine.copernicus.eu \nmercator-ocean.eu \n1  \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \n \n \n \n  \nContributors : Ioanna Karagali, Pia Englyst, Wiebke Kolbe, Jacob Høyer \n \nApproval Date : November 2025 \n \nFor Arctic Ocean Sea and Sea-Ice Surface \nTemperature Products \n \nSEAICE_ARC_PHY_CLIMATE_L4_MY_011_016  \nSEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021 \nIssue: 4.0 \nPRODUCT USER MANUAL \n\nProduct User Manual for SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016  \nSEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-016-021 \nIssue 4.0 – November 2025 \n2  \n \n \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2021/01/15 All Creation of the document Jacob L. Høyer  \n1.1 2021/09/08 All Regular extension \nWiebke Kolbe, \nPia Englyst, \nJacob Høyer \n \n2.0 2022/06/16 All Update of template, inclusion \nof L3S product description \nIoanna Karagali, \nWiebke Kolbe, \nPia Englyst, \nJacob Høyer \nC. Wettre \n3.0 2024/01/26 All \nUpdate of product description \ndue to reprocessing, temporal \nextension \nIoanna Karagali, \nWiebke Kolbe, \nPia Englyst, \nJacob Høyer \n \n4.0 2024/05/28 All Updated template, temporal \nextension \nIoanna Karagali, \nWiebke Kolbe C. Wettre \nProduct User Manual for SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016  \nSEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-016-021 \nIssue 4.0 – November 2025 \n3  \n \n \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary ................................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description ........................................................................ 10 \nc) Dataset details .................................................................................................... 11 \nd) Processing information ...................................................................................... 13 \ne) Catalogue updating ......................................................................................... 13 \nf) Time averaging ................................................................................................... 13 \ng) Product use and impact ................................................................................... 13 \n3) FILE FORMAT .................................................................................................... 15 \n4) FILES NOMENCLATURE..................................................................................... 15 \n4.1  FILE SIZE ............................................................................................................... 15 \n4.2  STRUCTURE OF FILES ........................................................................................... 15 \n5) REFERENCES ..................................................................................................... 16 \n6) ANNEX ............................................................................................................. 17 \n \n  \nProduct User Manual for SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016  \nSEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021 \n© EU Copernicus Marine Service – Public   \nCMEMS-SEAICE-PUM-011-016-021 \nIssue 4.0 – November 2025 \n4  \n \n \nGLOSSARY AND ABBREVIATIONS \n \nCCI Climate Change Initiative \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nAVHRR Advanced Very High Resolution Radiometer – Optical instrument \nonboard NOAA satellites \nC3S Copernicus Climate Change Service \nECV Essential Climate Variables \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nOI Optimal Interpolation \nMDS Marine Data Store \nESA European Space Agency \nERS European Remote-Sensing Satellite \nEUMETSAT European Meteorological Satellite agency \nGHRSST Group for High Resolution Sea Surface Temperature \nIST Ice surface temperature \nSST Sea Surface Temperature \nSAF Satellite Application Facility \nProduct User Manual for SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016  \nSEAICE_ARC_PHY_CLIMA",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Arctic Ocean Sea and Sea-Ice Surface Temperature Products, detailing specifications for SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016 and SEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021 products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_PHY_CLIMATE_L4_MY_011_016, SEAICE_ARC_PHY_CLIMATE_L3S_MY_011_021",
+      "name": "Arctic Ocean Sea and Sea-Ice Surface Temperature Products",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Ice Surface Temperature (IST)",
+        "cf_standard_name": "sea_ice_temperature",
+        "long_name": "Temperature of the sea ice surface",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Sea Surface Temperature (SST)",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Temperature of the sea surface",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 65.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3, netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

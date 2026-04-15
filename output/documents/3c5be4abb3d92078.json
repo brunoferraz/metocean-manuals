@@ -1,0 +1,82 @@
+{
+  "doc_id": "3c5be4abb3d92078",
+  "legacy_doc_id": "e0598f21a4b6",
+  "filename": "SST_MED_PHY_SUBSKIN_L4_NRT_010_036_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_MED_PHY_SUBSKIN_L4_NRT_010_036_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.41,
+  "pages": 20,
+  "text_preview": " \nQUALITY INFORMATION DOCUMENT  \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \n Issue:  1.0 \nContributors: Andrea Pisano (CNR), Bruno Buongiorno Nardelli (CNR), Claudia Cesarini (CNR) \nApproval date by the CMEMS product quality coordination team: 15/04/2021 \n \n \n  \n \nProducts \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nRef: CMEMS-SST-QUID-010-035-036 \nDate  : 15/01/2021 \nIssue : 1.0 \n \n© EU Copernicus Marine Service – Public      Page 2/ 20 \nCHANGE RECORD \n \n \nIssue Date § Description of \nChange Author Validated \nBy \n1.0 15/01/2021 all Initial version Andrea Pisano, Bruno Buongiorno Nardelli, \nClaudia Cesarini \n \n \nBruno \nBuongiorno \nNardelli \n \n \n \n \n \nProducts \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nRef: CMEMS-SST-QUID-010-035-036 \nDate  : 15/01/2021 \nIssue : 1.0 \n \n© EU Copernicus Marine Service – Public      Page 3/ 20 \nTABLE OF CONTENTS \n \nI Executive summary ........................................................................................................................................ 4 \nI.1 Products covered by this document ............................................................................................................. 4 \nI.2 Summary of the results ................................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ....................................................................................................................... 6 \nII Production Subsystem description ................................................................................................................ 7 \nII.1 SST Level-4 Processing chain and algorithms .............................................................................................. 7 \nII.1.1 Input upstream data ........................................................................................................................... 9 \nII.1.2 Algorithm .......................................................................................................................................... 9 \nII.1.3 Collection of inputs (M1) .................................................................................................................. 9 \nII.1.4 L3C data extraction, preliminary data selection and additional cloud screening (M2) ................... 10 \nII.1.5 Diurnal optimal interpolation algorithm: L3C to L4 (M3) .............................................................. 10 \nIII Validation frameworK ................................................................................................................................. 12 \nIV Validation results ......................................................................................................................................... 13 \nIV.1 Mediterranean Sea (product SST_MED_PHY_SUBSKIN_L4_NRT_010_036)  ........................................... 13 \nIV.2 Black Sea (product SST_BS_PHY_SUBSKIN_L4_NRT_010_035) ............................................................... 16 \nV Quality changes since previous version ...................................................................................................... 19 \nVI References .................................................................................................................................................... 20 \nProducts \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036 \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035 \nRef: CMEMS-SST-QUID-010-035-036 \nDate  : 15/01/2021 \nIssue : 1.0 \n \n© EU Copernicus Marine Service – Public      Page 4/ 20 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document describes the quality of the  CMEMS Mediterranean Sea (MED) and Black Sea \n(BS) diurnal gap-free (optimally interpolated, Level-4) Sea Surface T emperature ( SST) \nproducts (Table 1) , developed by CNR (Consiglio Nazionale delle Ricerche, Italian National \nResearch Council , Italy) , throughout a careful comparison with in situ data of the variable  \nprovided: \n * analysed_sst – hourly, optimally interpolated (L4) sub-skin SST \n \nProduct Name/Dataset Name Production Unit \nSST_MED_PHY_SUBSKIN_L4_NRT_010_036/ \ncmems_obs-sst_med_phy-sst_nrt_diurnal-oi-0.0625deg_PT1H-m \nCNR (Roma) \nSST_BS_PHY_SUBSKIN_L4_NRT_010_035/ \ncmems_obs-sst_blk_phy-sst_nrt_diurnal-oi-0.0625deg_PT1H-m \nCNR (Roma) \nTable 1. CMEMS Mediterranean Sea and Black Sea diurnal (hourly mean) L4 SST datasets. \n \nThese two diurnal products provide daily gap-free (L4) maps of hourly mean sub -skin SST at \n0.0625 deg. (1/16°) horizontal resolution by combining infrared satellite and model data. \nMED (SST_MED_PHY_SUBSKIN_L4_NRT_010_036) and BS \n(SST_BS_PHY_SUBSKIN_L4_NRT_010_035) diurnal products are available since 1st Janu ary \n2019 and since 1st January 2020 up to near-real time (-14H), respectively. \nThe sub-skin temperature is the temperature at the base of the thermal skin layer and ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the quality of CMEMS Mediterranean Sea and Black Sea diurnal gap-free Sea Surface Temperature products, developed by CNR through a comparison with in situ data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_MED_PHY_SUBSKIN_L4_NRT_010_036, SST_BS_PHY_SUBSKIN_L4_NRT_010_035",
+      "name": "CMEMS Mediterranean Sea and Black Sea diurnal L4 SST datasets",
+      "model_name": null,
+      "region": "Mediterranean | Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-sst_med_phy-sst_nrt_diurnal-oi-0.0625deg_PT1H-m, cmems_obs-sst_blk_phy-sst_nrt_diurnal-oi-0.0625deg_PT1H-m",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "analysed_sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "hourly, optimally interpolated (L4) sub-skin SST",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.0625deg (1/16°)",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": 1,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

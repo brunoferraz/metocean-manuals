@@ -1,0 +1,86 @@
+{
+  "doc_id": "f4b5b18e8d6d0e86",
+  "legacy_doc_id": "4d5e19d611eb",
+  "filename": "BALTICSEA_MULTIYEAR_PHY_003_011_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BALTICSEA_MULTIYEAR_PHY_003_011_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.77,
+  "pages": 22,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99  \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \nFor the two Baltic Sea Products: \n \n \n \nBiogeochemical Multi Year Product \nBALTICSEA_MULTIYEAR_BGC_003_012 \n& \nPhysical Multi Year Product \nBALTICSEA_MULTIYEAR_PHY_003_011 \n \nIssue:  1.0 \nContributors : Ida Ringgaard, Vasily Korabel, Lena Spruch, Anja Lindenthal, Vibeke Huess  \nApproval Date : June 2024 \n \n \n \n \n\n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2022/11 \n \n \n \n \n \n \n2023/02 \n2024/06 \nAll \n \n \n \n \n \n \nIV \nNew document including both the PHY \nand BGC reanalysis products: \nBALTICSEA_ \nMULTIYEAR_PHY_003_011 \n& \nBALTICSEA_ \nMULTIYEAR_BGC_003_012 \n \nCorrected Product filenames \nMinor update to include operational \ntemporal extensions \nIda Ringgaard, Vasily \nKorabel, Lena Spruch, \nAnja Lindenthal, Vibeke \nHuess \n \n \n \n \nVibeke Huess \nVibeke Huess \nVibeke \nHuess \n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 5 \nI.1 Summary......................................................................................................................................................... 5 \nI.2 History of changes .......................................................................................................................................... 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General Information .................................................................................................................................... 8 \nII.2 Details of datasets ....................................................................................................................................... 10 \nII.3 Production System Description ................................................................................................................. 14 \nII.3.1 Model system ................................................................................................................................. 14 \nII.3.2 Multi year (MY) production system .............................................................................................. 15 \nII.4 Grid .............................................................................................................................................................. 18 \nII.5 Processing information .............................................................................................................................. 18 \nII.5.1 Update Time .................................................................................................................................. 18 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 19 \nIV FILES NOMENCLATURE ....................................................................................................................... 20 \nIV.1 Nomenclature of files when downloaded through the Web Portal Subsetter Service  ......................... 20 \nIV.2 Nomenclature of files when downloaded through the FTP Service ...................................................... 20 \nIV.3 Other information: mean centre of Products, land mask value, missing value  ................................... 21 \nIV.4 File size ....................................................................................................................................................... 21 \nV FILE FORMAT ............................................................................................................................................. 22 \n Copernicus Marine Product User Manual for \nBALTICSEA_ MULTIYEAR_PHY_003_011 \nBALTICSEA_ MULTIYEAR_BGC_003_012 \nIssue : 1.0 \n2024/06 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BAL-PUM-003-006-007 \n4 \nGLOSSARY AND ABBREVIATIONS \nMFC Monitoring and Forecasting Centre \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nBAL Baltic \nCF Climate Forecast (",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for two Baltic Sea products, one biogeochemical and one physical multi-year product, detailing their specifications, datasets, production system description, grid information, processing details, download instructions, file nomenclature, and format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_MULTIYEAR_PHY_003_011 | BALTICSEA_MULTIYEAR_BGC_003_012",
+      "name": "Baltic Sea Multi-Year Products",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics | biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2298,
+  "_tokens_out": 492,
+  "_eval_s": 3.53
+}

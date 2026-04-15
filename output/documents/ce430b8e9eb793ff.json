@@ -1,0 +1,97 @@
+{
+  "doc_id": "ce430b8e9eb793ff",
+  "legacy_doc_id": "f10412505fa3",
+  "filename": "ECMWF_wave_products.md",
+  "filepath": "docs/ecmwf_docs/ECMWF_wave_products.md",
+  "extension": ".md",
+  "file_size_mb": 0.0,
+  "pages": 1,
+  "text_preview": "# ECMWF Documentation\n\nSource: https://www.ecmwf.int/en/forecasts/datasets/catalogue-ecmwf-real-time-products\n\n---\n\n-\n\nCatalogue of ECMWF real-time products | ECMWF\n\n[\n](#main-content)\n\n# Catalogue of ECMWF real-time products\n\nThe Catalogue outlines the real-time meteorological and oceanographic products available from the ECMWF forecasting system. These products are published under a [Creative Commons permissive CC-BY-4.0 licence](https://creativecommons.org/licenses/by/4.0/deed.en) and the [ECMWF Terms Of Use](https://apps.ecmwf.int/datasets/licences/general/) also apply. Service charges may apply for high-volume delivery or customisation of products.\n\nReaders are expected to have a background knowledge of atmospheric or oceanographic sciences and are encouraged to consult the [ECMWF Forecast User Guide](https://confluence.ecmwf.int/display/FUG/Section+1+Introduction).\n\nOther forms of meteorological and oceanographic services and products are available via the National Meteorological and Hydrological Services of ECMWF's Member and Co-operating States.\n\n## Group A: High-resolution forecast\n\n[Set I: Atmospheric Model high resolution 15-day forecast (HRES)](/en/forecasts/datasets/set-i)\n\nSingle prediction that uses observations, prior information about the Earth-system, and ECMWF's highest-resolution model.\n\n- [Set II - Ocean Wave Model high resolution 15-day Forecast (HRES-WAM) ](/en/forecasts/datasets/set-ii)\n\nHRES-WAM (Wave Model) coupled to the atmospheric model (HRES).\n\n## Group B: Ensemble forecast up to the sub-seasonal range\n\n- [Set III - Atmospheric model Ensemble 15-day forecast (ENS)](/en/forecasts/datasets/set-iii)\n\nEnsemble of forecasts providing an estimate of the reliability of a single forecast.\n\n- [Set IV - Ocean Wave Model Ensemble 15-day forecast (ENS-WAM)](/en/forecasts/datasets/set-iv)\n\nEnsemble of forecasts providing an estimate of the reliability of a single forecast.\n\n- [Set VI - Atmospheric Model Sub-seasonal forecast](/en/forecasts/datasets/set-vi)\n\nThe Sub-seasonal forecast comprises ensembles of individual forecasts up to 46 days as well as post-processed products of average conditions (e.g. weekly averages) and the associated uncertainty.\n\n## Group C: Seasonal forecast\n\n- [Set V - Seasonal 7-month forecast (SEAS)](/en/forecasts/datasets/set-v)\n\nSEAS comprises ensembles of individual forecasts coupled to an ocean model and post-processed products of average conditions (e.g. monthly averages) with the associated uncertainty. Products are available up to 7 months ahead.\n\n- [Set VII - Seasonal 13-month forecast (SEAS)](/en/forecasts/datasets/set-vii)\n\nSEAS comprises ensembles of individual forecasts coupled to an ocean model and post-processed products of average conditions (e.g. monthly averages) with the associated uncertainty. Products are available for month 8-13 ahead each quarter.\n\n## Group D: AIFS forecast\n\n- [Set IX - Deterministic AIFS forecast](/en/forecasts/datasets/set-ix)\n\nDeterministic AIFS forecast provides up to 15 days of forecast.\n\n- [Set X - AIFS Ensemble forecast](/en/forecasts/datasets/set-x)\n\nAIFS Ensemble forecast.\n\n## Group E: CAMS Global Atmospheric Composition Forecast\n\n- [Set XI - CAMS Global Atmospheric Composition Forecast (5 days)](/en/forecasts/dataset/cams-global-atmospheric-composition-forecasts)\n\nCAMS Global Atmospheric Composition Forecast provides up to 5 days of forecast.\n\n​[Configure and order real-time data](https://products.ecmwf.int/shopping-cart/orders/new)\n\nOther real-time data:\n\n- [Open data](/en/forecasts/datasets/open-data)\n\n- [WMO Essential](/en/forecasts/datasets/wmo-essential)\n\n- [WMO Additional](/en/forecasts/datasets/wmo-additional)\n\n- [Open Charts](https://charts.ecmwf.int/)\n\n- [ecCharts](https://eccharts.ecmwf.int/)\n\nexpand_less\n\nexpand_more",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document outlines ECMWF's real-time meteorological and oceanographic products, including high-resolution forecasts, ensemble forecasts up to sub-seasonal ranges, seasonal forecasts, AIFS forecast, and CAMS Global Atmospheric Composition Forecast.",
+    "provider": {
+      "provider_id": "ecmwf",
+      "name": "European Centre for Medium-Range Weather Forecasts"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "WAM 4.7 | N/A",
+      "region": "Global",
+      "product_types": [
+        "forecast"
+      ],
+      "categories": [
+        "wave",
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 360
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Wave Model high resolution forecast",
+        "unit": null,
+        "physical_quantity": "wave_height | wave_period | wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Atmospheric Model high resolution forecast",
+        "unit": null,
+        "physical_quantity": "atmosphere",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cds_api",
+        "format": "netcdf4 | grib2",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

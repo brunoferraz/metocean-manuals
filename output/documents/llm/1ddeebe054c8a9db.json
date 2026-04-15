@@ -1,0 +1,70 @@
+{
+  "doc_id": "1ddeebe054c8a9db",
+  "legacy_doc_id": "550876a8c2d1",
+  "filename": "halliwell_overview.pdf",
+  "filepath": "docs/hycom_docs/halliwell_overview.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.02,
+  "pages": 5,
+  "text_preview": "HYCOM Overview \n \nBy George Halliwell, 13 February 2002 \n \n \nGeneral Remarks \n \nThe HYbrid Coordinate Ocean Model (HYCOM; (Halliwell et al., 1998; 2000; Bleck, \n2001) is a primitive equation ocean general circulation model that evolved from the Miami \nIsopycnic-Coordinate Ocean Model (MICOM) developed by Rainer Bleck and colleagues. \nMICOM has become one of the premier ocean circulation models, having been subjected to \nvalidation studies (e.g. Chassignet et al., 1996; Roberts et al., 1996; Marsh et al., 1996) and used \nin numerous ocean climate studies (e.g., New and Bleck, 1995; New et al., 1995; Hu, 1996, \n1997; Halliwell, 1997, 1998; Bleck 1998 and references therein). HYCOM was developed to \naddress known shortcomings of the MICOM vertical coordinate scheme. MICOM vertical \ncoordinates are isopycnic except for model layer 1, which is a non-isopycnic slab mixed layer. \nThis leads to two significant problems: First, slab models must be used to govern mixed layer \nentrainment and detrainment. MICOM was equipped with a Kraus-Turner type model as \ndescribed in Niiler and Kraus (1977), but using the modified turbulent kinetic energy balance \nparameterization of Gaspar (1988). Second, vertical coordinates are “wasted” because all model \nlayers less dense than the mixed layer (layer 1) exist as zero-thickness layers at the mixed layer \nbase. Although MICOM has produced good scientific results, improvements in the \nrepresentation of vertical mixing, and the representation of oceanic flow in shallow-water and \nweakly stratified regions are constrained by these vertical coordinate limitations. \n \nVertical coordinates in HYCOM remain isopycnic in the open, stratified ocean. However, \nthey smoothly transition to z coordinates in the weakly-stratified upper-ocean mixed layer, to \nterrain-following sigma coordinate in shallow water regions, and back to level coordinates in \nvery shallow water. The latter transition prevents layers from becoming too thin where the water \nis very shallow. The vertical coordinates that were “wasted” in MICOM are used to provide \nvertical resolution within the surface mixed layer. This enables the use of more sophisticated \nnon-slab closure schemes. One important goal for HYCOM is to provide the capability of \nselecting among several different vertical mixing schemes for both the surface mixed layer and \nthe comparatively weak interior diapycnal mixing. No vertical mixing algorithm can provide a \nperfect representation of ocean mixing and its influence on ocean circulation and climate. When \nusing an ocean model to study processes sensitive to vertical mixing, it is a good idea to run \nsimulations with different mixing algorithms to quantify the sensitivity of scientific results to the \nmixing parameterizations. One specific example is the use of coupled ocean-atmosphere models \nto quantify global warming rates expected from greenhouse gas increases. This warming is likely \nto be sensitive to the parameterization of vertical mixing in the ocean model. HYCOM is \ndesigned to easily test these sensitivities whether used alone or in a coupled system. Sensitivity \nof ocean mixing to other factors such as the vertical structure and resolution of the vertical grid \ncan also be readily tested. \n \nThe the K-Profile Parameterization (KPP, Large et al., 1994; 1997) algorithm was included \nas the first non-slab mixed layer model for several reasons. It provides mixing throughout the \nwater column with an abrupt but smooth transition between the vigorous mixing in the surface \nboundary layer and the relatively weak diapycnal mixing in the ocean interior. It works on a \nrelatively coarse and unevenly spaced vertical grid. It parameterizes the influence of a larger \nsuite of physical processes than other commonly used mixing schemes. In the ocean interior, the \ncontribution of background internal wave breaking, shear instability mixing, and double \ndiffusion (both salt fingering and diffusive instability) are parameterized. In the surface boundary \nlayer, the influences of wind-driven mixing, surface buoyancy fluxes, and convective instability \nare parameterized. The KPP algorithm also parameterizes the influence of nonlocal mixing of T \nand S, which permits the development of countergradient fluxes. The Kraus-Turner slab model \nhas also been included in HYCOM. With the release of HYCOM version 2.1, two additional \nmixed layer models have been included: the dynamical instability model of Price et al. (1986), \nand the Mellor-Yamada level 2.5 turbulence closure used in the Princeton Ocean Model (Mellor \nand Yamada, 1982; Mellor, 1998). Other mixed layer models will be included in the near future, \nsuch as the model developed recently by Canuto (2000). \n \nHYCOM versions 1.0 and 2.0 have already been released, with development the result of \ncollaborative efforts between the University of Miami, the Los Alamos National Laboratory, and \nthe Naval Research Laboratory. The present set of documents describes a",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document provides an overview of the HYbrid Coordinate Ocean Model (HYCOM), detailing its evolution from MICOM and improvements in vertical coordinate systems, mixed layer models, and mixing schemes.",
+    "provider": {
+      "provider_id": "null",
+      "name": "George Halliwell"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "isopycnal",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2377,
+  "_tokens_out": 323,
+  "_eval_s": 2.46
+}

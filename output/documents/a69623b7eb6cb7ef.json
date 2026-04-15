@@ -1,0 +1,96 @@
+{
+  "doc_id": "a69623b7eb6cb7ef",
+  "legacy_doc_id": "d1f2b063b845",
+  "filename": "SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_GLO_SST_L4_NRT_OBSERVATIONS_010_001_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.07,
+  "pages": 27,
+  "text_preview": " \n  \nMet Office \nGlobal Ocean OSTIA Near Real Time Level 4 Sea Surface \nTemperature Product \nSST-GLO-SST-L4-NRT-OBSERVATIONS-010-001 \n Issue: 6.0 \nContributors: S. Good, C. Mao. \nApproval date by the CMEMS product quality coordination team: 31/10/2025 \n \n \n \n \n  \n \n\nProducts \nSST-GLO-SST-L4-NRT-OBSERVATIONS-010-001 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-001-v6.0 \n28 May 2025 \n6.0 \n \n                                                      Page 2/ 27 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column  specifies which sections, or sub -sections have been updated.  The fourth column  \nshould mention the reason for updating the document . Column 5  should include the names of the \nauthor(s) doing the changes. Including the name in c olumn 6  shows that the document has been \nvalidated by the TAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation \nmeans the document was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 15/12/20\n14 \nall First version of document A. McLaren et al.  \n1.1 26/02/20\n15 \nI, II Revision after V5 acceptance A. McLaren et al.  \n1.2 May 1 \n2015 \nall Change format to fit CMEMS \ngraphical rules \n L. Crosnier \n1.3 February \n23 2016 \nII.4, V Update for new data sources E. Fiedler B. Hackett \n1.4 Septembe\nr 20 2016 \nII.4, \nII.5.2, V \nUpdate reference instrument. S. Good, C. Mao  \n1.5 Septembe\nr 19 2017 \n Change data assimilation scheme \nto NEMOVAR. \nS. Good  \n1.6 January \n17 2019 \nII.3, II.4, \nII.5, V \nI.2, III, \ndoc ref \nImprovement to feature resolution \nand use SLSTR-A SSTs. \nUpdate references to CMEMS \nelements. \nS. Good  \n1.7 March 22 \n2019 \nall Review of the document S. Good Mercator Ocean \n1.8 Septembe\nr 6 2019 \nII.4, VI Upstream data change S. Good  \n1.9 Septembe\nr 10 2020 \nall Change to reference dataset used \nfor bias correcting satellite SSTs and \nother minor changes and \nformatting improvements \nS. Good  \n3.0 16 June \n2022 \nV, VI Upstream data change. S. Good A. Pisano \n4.0 15 \nDecember \n2022 \nI.1 Handover of activities due to Brexit D. Briand A. Pisano \n5.0 24 \nJanuary \n2025 \nall Updates for temporal extent of the \ndataset, removal of some datasets \nand general review \nS. Good A. Pisano \n6.0 24 June  \n2025 \n   S. Good, C. Mao A. Pisano \n  \nProducts \nSST-GLO-SST-L4-NRT-OBSERVATIONS-010-001 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-001-v6.0 \n28 May 2025 \n6.0 \n \n                                                      Page 3/ 27 \nACRONYM TABLE \nAcronym Description \nArgo International profiling float network (www.argo.net) \nEAN Estimated Accuracy Number \nGDS GHRSST Data Specification \nGHRSST Group of High-Resolution Sea Surface Temperature \nMY Multi-year \nNRT Near Real Time \nOSTIA Operational SST and Ice Analysis \nREP Reprocessing \n  \nSST Sea Surface Temperature \nTAC  Thematic Assembly Centre \nUK United Kingdom \n \nKEY DEFINITIONS \nFoundation sea surface \ntemperature \n CF Definition: The surface called \"surface\" means the lower boundary of \nthe atmosphere. The sea surface foundation temperature  is the water \ntemperature that is not influenced by a thermally stratified layer of \ndiurnal temperature variability (either by daytime warming or nocturnal \ncooling). The foundation temperature is named to indicate that it is the \ntemperature from which the growth of the diurnal thermocline develops \neach day, noting that on some occasions with a deep mixed layer, there \nis no clear foundation temperature in the surface layer. In general, sea \nsurface foundation temperature will be similar to a night-time minimum \nor pre-dawn value at depths of between approximately 1 and 5 meters. \nIn the absence of any diurnal signal , the foundation temperature is \nconsidered equivalent to the quantity with standard name \nsea_surface_subskin_temperature. The sea surface foundation \ntemperature defines a level in the upper water column that varies in \ndepth, space, and time depending on the local balance between thermal \nstratification and turbulent energy and is expected to change slowly over \nthe course of a day . If possible, a data variable with the standard name \nsea_surface_foundation_temperature should be used with a scalar \nvertical coordinate variable to specify the depth of the foundation level. \nSea surface foundation temperature is measured at the base of t he \ndiurnal thermocline or as close to the water surface as possible in the \nabsence of thermal stratification. Only in situ contact thermometry is \nable to measure the sea surface foundation temperature. Analysis \nprocedures must be used to estimate sea surfa ce foundation \nProducts \nSST-GLO-SST-L4-NRT-OBSERVATIONS-010-001 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-001-v6.0 \n28 May 2025 \n6.0 \n \n                                                      Page 4/ 27 \ntemperature value from radiometric satellite measurements of the \nquantities with standard names sea_sur",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Global Ocean OSTIA Near Real Time Level 4 Sea Surface Temperature Product, providing details on its version history, contributors, and key definitions related to sea surface temperature measurements.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Met Office"
+    },
+    "product_line": {
+      "product_id": "SST-GLO-SST-L4-NRT-OBSERVATIONS-010-001",
+      "name": "Global Ocean OSTIA Near Real Time Level 4 Sea Surface Temperature Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_foundation_temperature",
+        "cf_standard_name": "sea_surface_foundation_temperature",
+        "long_name": "Sea Surface Foundation Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

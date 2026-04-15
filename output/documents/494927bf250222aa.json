@@ -1,0 +1,130 @@
+{
+  "doc_id": "494927bf250222aa",
+  "legacy_doc_id": "3de19eff40d0",
+  "filename": "SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.19,
+  "pages": 16,
+  "text_preview": " \n \n  \n \nSea Ice Thematic Assembly Centre \n \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001 \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n \n \n Issue: 1.1 \n \n \nContributors: S. Eastwood and C. Wettre (MET Norway) \nApproval date by the CMEMS product quality coordination team: 04/03/2026 \n \n \n \n \n \n \n \n\n \nQUID for SI TAC Products \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001   \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-001-009 \n27 February 2026 \n1.1 \n \nPage 2/16 \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 15.09.2023  Creation of the document. The \nprevious document included many \nSea Ice TAC products and was split \n(CMEMS-SI-QUID-011-001to007-\n009to015-019-V2.17) \nSteinar \nEastwood, MET-\nNorway \nC. Wettre \n1.1 12.11.2025  Added two new datasets Steinar \nEastwood, MET \nNorway \nC. Wettre \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nQUID for SI TAC Products \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001   \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-001-009 \n27 February 2026 \n1.1 \n \nPage 3/16 \n \nACRONYM TABLE \nAcronym Description \nCDR Climate Data Record \nMYI Multi-year ice \nNH Northern Hemisphere \nNRT Near Real Time \nSI TAC Sea Ice Thematic Assembly Centre \nSH Southern Hemisphere \nOSI SAF EUMETSAT Ocean and Sea Ice Satellite Application Facility \n \nKEY DEFINITIONS \nN/A \nRELEVANT DOCUMENT LIST \nDocument title Document link \nOSI SAF sea ice concentration validation \nreport \nhttps://osi-saf.eumetsat.int/products/osi-401-d \nOSI SAF sea ice edge validation report https://osi-saf.eumetsat.int/products/osi-402-d \nOSI SAF sea ice type validation report https://osi-saf.eumetsat.int/products/osi-403-d \nOSI SAF LR sea ice drift validation report https://osi-saf.eumetsat.int/products/osi-405-c \nOSI SAF sea ice concentration climate data \nrecord validation report https://osi-saf.eumetsat.int/products/osi-450-a1 \nOSI SAF sea ice concentration climate data \nrecord validation report \nhttps://osi-saf.eumetsat.int/products/osi-458 \n   \n \nQUID for SI TAC Products \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001   \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-001-009 \n27 February 2026 \n1.1 \n \nPage 4/16 \n \n \nTABLE OF CONTENTS \n \nACRONYM TABLE .......................................................................................................................................... 3 \nKEY DEFINITIONS ........................................................................................................................................... 3 \nRELEVANT DOCUMENT LIST ....................................................................................................................... 3 \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ................................................................................................... 5 \nI.2 Summary of the results ...................................................................................................................... 5 \nI.2.1 Global near real time sea ice L4 – concentration, edge, type, drift ..................................................... 5 \nI.2.2 Global sea ice concentration climate data record time series ............................................................. 6 \nI.3 Estimated Accuracy Numbers ............................................................................................................. 6 \nII Production system description .................................................................................................................... 7 \nII.1 Global near real time sea ice L4 – concentration, edge, type, drift ..................................................... 7 \nII.2 Global sea ice concentration climate data record time series ............................................................. 8 \nIII Validation framework ................................................................................................................................. 9 \nIV Validation results ...................................................................................................................................... 10 \nIV.1 Global NRT sea ice products ...........",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Sea Ice Thematic Assembly Centre products, detailing two datasets: SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001 and SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009. It includes change records, acronyms, key definitions, relevant documents, production system descriptions, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Sea Ice Thematic Assembly Centre"
+    },
+    "product_line": {
+      "product_id": "SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001, SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009",
+      "name": "Global Sea Ice L4 Near Real Time and Repetitive Observations",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_001",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009",
+        "temporal_resolution": "static",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "seaice_concentration",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "seaice_edge_position",
+        "cf_standard_name": "sea_ice_edge_position",
+        "long_name": "Sea Ice Edge Position",
+        "unit": "degrees_east",
+        "physical_quantity": "longitude",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "seaice_type",
+        "cf_standard_name": "sea_ice_type",
+        "long_name": "Sea Ice Type",
+        "unit": "1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "seaice_drift",
+        "cf_standard_name": "sea_ice_velocity",
+        "long_name": "Sea Ice Drift Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "seaice_drift"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

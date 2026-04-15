@@ -1,0 +1,82 @@
+{
+  "doc_id": "afafca5a7c996282",
+  "legacy_doc_id": "b964b9cc061d",
+  "filename": "SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.84,
+  "pages": 25,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n PRODUCT USER MANUAL \n \n \n \nFor Global Ocean – High Resolution SAR Sea Ice Drift  \n \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006, \nSEAICE_GLO_PHY_L4_MY_011_020 \nIssue:  2.14 \n \n \n \nContributors : R. Saldo \nApproval Date : November 2023 \n \n \n\nPUM for SI TAC global ice drift product \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006 \nSEAICE_GLO_PHY_L4_MY_011_020 \n \nRef: CMEMS-SI-PUM-011-006-020 \nDate : November 30th 2023 \nIssue: 2.14 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SEAICE-PUM-011-006-020 \n2 \nCHANGE RECORD \nIssue Date § Description of Change Author Validated \nBy \n1.0 01.03.2011 All \n \nCreation of the document Roberto Saldo Lars-\nAnders \nBreivik \n2.0 28.10.2011 layout Adaptation to new template Roberto Saldo Lars-\nAnders \nBreivik \n2.1 17-11-2013  Remove SUBS info (leave only DGF) L. Crosnier L. \nCrosnier \n2.2 15.01.2014 II, V.2 Removed subsetter mechanism. \nNew quality variables \nRoberto Saldo, Bruce \nHackett \nLars-\nAnders \nBreivik \nL. \nCrosnier \n2.3 2014.05.15 II Add MFTP download mechanism Bruce Hackett Lars-\nAnders \nBreivik \nL.Crosnier \n2.4 2014.12.15 I, IV Inform of switch to Sentinel 1A. \nDGF nomenclature. \nRoberto Saldo, Bruce \nHackett \nL. \nCrosnier \n2.5 May 1 2015 all Change format to fit CMEMS \ngraphical rules \n L. \nCrosnier \n2.6 2016-01-15 All Complete CMEMS rebranding Roberto Saldo B. Hackett \n2.7 2016-09-30 I.2 Sentinel-1B added Roberto Saldo B. Hackett \n2.8 2018-01-25  Rebranded from OSI to SI TAC C. Wettre  \n2.9 2019-04-09 I.1, \nIII.3, \nIV.2 \nMOSAIC product contents \nexplained \nRoberto Saldo  \n2.10 2019-09-18 III.3 MOSAIC product contents \nexplained \nRoberto Saldo C. Derval \nPUM for SI TAC global ice drift product \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006 \nSEAICE_GLO_PHY_L4_MY_011_020 \n \nRef: CMEMS-SI-PUM-011-006-020 \nDate : November 30th 2023 \nIssue: 2.14 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SEAICE-PUM-011-006-020 \n3 \n2.11 2019-12-06 III.3 MOSAIC product contents \nexplained \nRoberto Saldo  \n2.12 2020-03-27  MOSAIC product added \ndeformation variables \nRoberto Saldo  \n2.13 2022-11-30 I.1 Sentinel-1B  loss repercussions in \nsummary \nRoberto Saldo  \n2.14 2023-05-30  New multiyear reprocessed \ncomposite dataset: \nSEAICE_GLO_PHY_L4_MY_011_020 \nRoberto Saldo C. Wettre \n2.14 30.11.2023 IV Updated description tables 1 and 2 Roberto Saldo C. Wettre \n \nPUM for SI TAC global ice drift product \nSEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006 \nSEAICE_GLO_PHY_L4_MY_011_020 \n \nRef: CMEMS-SI-PUM-011-006-020 \nDate : November 30th 2023 \nIssue: 2.14 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SEAICE-PUM-011-006-020 \n4 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 6 \nI.1 Summary......................................................................................................................................................... 6 \nI.2 History of changes .......................................................................................................................................... 7 \nIII FILES NOMENCLATURE ......................................................................................................................... 9 \nIII.1 Nomenclature of files when downloaded through the Copernicus Marine FTP  ................................... 9 \nIII.2 Nomenclature of files when downloaded through the Copernicus Marine Web Portal Subsetter \nService .................................................................................................................................................................. 9 \nIV DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 10 \nIV.1 General Information ................................................................................................................................. 10 \nIV.2 High resolution near real time single swath data ................................................................................... 10 \nIV.3 High resolution 24 hour mean value composite/multiyear reprocessed ............................................... 10 \nV DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 12 \nV.1 Details of datasets ....................................................................................................................................... 13 \nV.2 Grid and Geographical Projecti",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Global Ocean High Resolution SAR Sea Ice Drift, detailing product specifications and updates from MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006, SEAICE_GLO_PHY_L4_MY_011_020",
+      "name": "Global Ocean High Resolution SAR Sea Ice Drift",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_GLO_SEAICE_L4_NRT_OBSERVATIONS_011_006, SEAICE_GLO_PHY_L4_MY_011_020",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "seaice_drift",
+        "cf_standard_name": "sea_ice_velocity",
+        "long_name": "Sea Ice Drift Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "seaice_drift"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,155 @@
+{
+  "doc_id": "4ab687fa3796c6af",
+  "legacy_doc_id": "defe9a5eab0e",
+  "filename": "BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BALTICSEA_MULTIYEAR_PHY_003_011_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 5.41,
+  "pages": 57,
+  "text_preview": " \n \n  \nBaltic Sea Production Centre \nBALTICSEA_MULTIYEAR_PHY_003_011 \n \n \n Issue: 4.1 \nContributors: Tabea Panteleit, Svetlana Verjovkina, Simon Jandt-Scheelke, Lena Spruch, Vibeke Huess \nApproval date by the CMEMS product quality coordination team: 28/04/2025 \n \n \n \n \n  \n \n\nQUID for BAL MFC Products  \nBALTICSEA_MULTIYEAR_PHY_003_011 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-011 \n February 2025 \n4.1 \n \n                                                      Page 2/ 57 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 January \n2018 \nAll Creation of the document Lars Axell  \n1.1  12/2 2018 All Minor editing  V. Huess  \n2.0 12th April \n2019 \nAll Update of document: In-\ncluding data for 2017 \nIncluding rerun of period: \n2012-2016 \nS. Jandt  \n2.1 3.7.19 All Minor editing and addition \nof update plans \nFabian Schwichtenberg, \nIna Lorkowski \nMercator Ocean \n2.2 16.8.2019 All Minor editing Simon Jandt-Scheelke  \n2.3 22.8.2019 All Replacing figures for inno-\nvation statistics \nMinor editing \nLars Axell, Ye Liu  \n2.4 02.09.2019 All Proof reading Vibeke Huess  \n2.5 10.09.2019 All Editing Ye Liu \nSimon Jandt-Scheelke \nMercator Ocean \n3.0 07.06.2021 All Setup of new structure for \nthe new REA product \nSimon Jandt-Scheelke  \n4.0 30.11.2022 All Update for the new REA \nproduct (Draft) \nTabea Panteleit  \n4.0 28.01.2023 All Final validation of the new \nREA system NEMO-\nERGOM-PDAF \nTabea Panteleit, Simon \nJandt-Scheelke, Svet-\nlana Verjovkina \nV. Huess \n4.1 Feb 2025  Update of product extent \ninformation \nV. Huess V. Huess \n \n1.  \n  \nQUID for BAL MFC Products  \nBALTICSEA_MULTIYEAR_PHY_003_011 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-011 \n February 2025 \n4.1 \n \n                                                      Page 3/ 57 \nTABLE OF CONTENTS \nI Executive summary4 \nI.1 Products covered by this document4 \nI.2 Summary of the results4 \nI.3 Estimated Accuracy Numbers5 \nII Production system description7 \nIII Validation framework11 \nIII.1 Setup11 \nIII.2 Detailed description of applied procedures14 \nIII.2.1 Validation of Coastal Points using Tide Gauge data (sea level, temperature) 15 \nIII.2.2 Validation of Offshore Profiles using mooring and monitoring data (salinity, temperature, bottom \ntemperature, bottom salinity)16 \nIII.2.3 Validation of surface fields using satellite observations (temperature)17 \nIII.2.4 Validation of surface fields using charts (ice concentration, ice thickness) 18 \nIII.3 Defining equations19 \nIII.3.1 General equations19 \nIII.3.2 Definitions and equations for ice parameter22 \nIII.3.3 Definition of mixed layer depth22 \nIV Validation results23 \nIV.1 Sea level23 \nIV.2 Sea Ice27 \nIV.2.1 Validation of ice concentration and ice extent28 \nIV.2.2 Validation of ice thickness and ice volume30 \nIV.3 Salinity32 \nIV.3.1 Profile stations33 \nIV.4 Temperature38 \nIV.4.1 Sea Surface temperature38 \nIV.4.2 Station data42 \nIV.5 Mixed Layer Depth (MLD)49 \nIV.5.1 MLD time series49 \nV System’s Noticeable events, outages or changes53 \nVI Quality changes since previous version54 \nVI.1 Comparison of sea bottom salinity and sea bottom temperature 54 \nVII References56 \nQUID for BAL MFC Products  \nBALTICSEA_MULTIYEAR_PHY_003_011 \nRef: \nDate: \nIssue: \nCMEMS-BAL-QUID-003-011 \n February 2025 \n4.1 \n \n                                                      Page 4/ 57 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThe product BALTICSEA_MULTIYEAR_PHY_003_011 (Product reference: https://doi.org/10.48670/moi-\n00013) is a Baltic Sea physical reanalysis  covering the period January 1993 and up to as close as possi-\nble to present at a 1 nm resolution and 56 depth layers varying between 1 – 24 m. The product    pro-\nvides daily, monthly and yearly mean fields for the following variables: \n• Temperature \n• Salinity \n• Horizontal velocity \n• Sea Ice \n• Sea level \n• Mixed Layer Depth \nThe physical System uses the NEMO4.0 model and assimilates satellite sea surface temperature and in-\nsitu temperature and salinity profiles. The system is forced by ECMWFs ERA5 atmospheric dataset. \nThis reanalysis was released into the Copernicus Marine Service Product Catalogue in March 2023, and \nthe dataset included in this Quality Information Document covered the period 1/1 1993 - 31/12 2018 \nThe product in the Catalogue is extended in time on a yearly basis providing a homogenous time series \nof data. This \"final dataset\" will be available up to approximately present time minus 1 -2 years; de-\npending on the release of the needed forcing data. To provide a more \"close to present\" dataset we \nwill, from Spring 2025 and onwards, additionally provide a monthly extension of the product with a \ncoverage up to present time minus two months. These extensions, called ‘inte",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the Baltic Sea physical reanalysis product BALTICSEA_MULTIYEAR_PHY_003_011, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTICSEA_MULTIYEAR_PHY_003_011",
+      "name": "Baltic Sea Physical Reanalysis",
+      "model_name": "NEMO v4.0",
+      "region": "Baltic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "yearly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "horizontal_velocity",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Horizontal velocity components (u and v)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      },
+      {
+        "native_name": "ice_concentration, ice_thickness",
+        "cf_standard_name": "sea_ice_area_fraction, sea_ice_thickness",
+        "long_name": "Sea Ice Concentration and Thickness",
+        "unit": "1, m",
+        "physical_quantity": "ice_fraction, ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mixed_layer_depth",
+        "cf_standard_name": "sea_water_mixed_layer_thickness",
+        "long_name": "Mixed Layer Depth",
+        "unit": "m",
+        "physical_quantity": "mixed_layer",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1nm",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -5.0,
+        "lon_max": 28.0,
+        "lat_min": 54.0,
+        "lat_max": 67.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 56,
+      "depth_min_m": 1.0,
+      "depth_max_m": 24.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3, netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2777,
+  "_tokens_out": 1132,
+  "_eval_s": 8.37
+}

@@ -1,0 +1,124 @@
+{
+  "doc_id": "c89d690aff0ed746",
+  "legacy_doc_id": "430fb2237b23",
+  "filename": "halliwell_mesh.pdf",
+  "filepath": "docs/hycom_docs/halliwell_mesh.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.01,
+  "pages": 1,
+  "text_preview": "HYCOM Horizontal Mesh  \n \nBy George Halliwell, 25 August 2001 \n \nBoth HYCOM and MICOM use the “C” grid, but use different horizontal meshes. In the \nMICOM mesh, the positive x direction was southward and the positive y direction was eastward. \nThe HYCOM mesh was converted to standard Cartesian coordinates, with the x axis pointing \neastward and the y axis pointing northward. The HYCOM mesh is illustrated below for pressure \n(P), velocity component (U and V), and vorticity (Q) grid points. This case is for 7 x 7 pressure \ngrid points. The grid meshes for the other variables have 8 x 8 grid points. All fields in this case \nwould be dimensioned 8 x 8, with the eighth row and column unused for variables on pressure \ngrid points. \n  \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n \n    U       P      U      P      U      P      U      P      U     P     U      P     U      P     U \n \n    Q      V      Q      V      Q     V      Q     V      Q     V     Q     V     Q     V     Q \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the horizontal mesh used by HYCOM, detailing its conversion to standard Cartesian coordinates and illustrating the grid points for pressure, velocity components (U and V), and vorticity (Q).",
+    "provider": {
+      "provider_id": "null",
+      "name": "George Halliwell"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "P",
+        "cf_standard_name": "sea_water_pressure",
+        "long_name": "Pressure grid points",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "U",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "Velocity component in the x direction (eastward)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "V"
+      },
+      {
+        "native_name": "V",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": "Velocity component in the y direction (northward)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "U"
+      },
+      {
+        "native_name": "Q",
+        "cf_standard_name": "sea_water_vorticity",
+        "long_name": "Vorticity grid points",
+        "unit": null,
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "static",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

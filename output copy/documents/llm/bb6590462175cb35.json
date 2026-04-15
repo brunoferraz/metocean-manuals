@@ -1,0 +1,143 @@
+{
+  "doc_id": "bb6590462175cb35",
+  "legacy_doc_id": "3facdc82c97c",
+  "filename": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.74,
+  "pages": 28,
+  "text_preview": " \n  \nArctic – Monitoring Forecast Centre \nARCTIC_ANALYSISFORECAST_PHY_ICE_002_011 \n \n \n Issue: 1.4 \nContributors: Timothy Williams, Laurent Bertino, Arne Melsom \nApproval date by the CMEMS product quality coordination team: 23/10/2023 \n \n \n \n \n  \n \n\nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_ICE_002_011 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-011 \n9 August 2023 \n1.4 \n \n \n                                                      Page 2/ 28 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections  or sub -sections have been updated.   The f irst column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 June 2020 All Creation of the document A. Melsom L. Bertino, \nARC MFC \nleader \n1.1 September \n2020 \nI, IV, V Updated model code, new \nanalysis period \nA. Melsom, T. Williams L. Bertino, \nARC MFC \nleader \n1.2 September \n2021 \nI, IV, V Updated model code, new \nanalysis period \nA. Melsom, T. Williams L. Bertino, \nARC MFC \nleader \n1.3 September \n2022 \nAll Added validation of results \nfor sea ice type, surface \nalbedo. Reprocessed \nvalidation with results from \nmodel version upgrade. \nA. Melsom, T. Williams L. Bertino, \nARC MFC \nleader \n1.4 August \n2023 \nAll Updated model code, added \nvalidation of results for \nconcentration of young ice \nand volume fraction of \nyoung ice; expanded \nsections with results for sea \nice thickness and sea ice \ntype/age. \nA. Melsom, T. Williams L. Bertino, \nARC MFC \nleader \n \n \n \n \n  \nQUID for ARC MFC Products \nARCTIC_ANALYSISFORECAST_PHY_ICE_002_011 \nRef: \nDate: \nIssue: \nCMEMS-ARC-QUID-002-011 \n9 August 2023 \n1.4 \n \n \n                                                      Page 3/ 28 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 6 \nII.1 neXtSIM Production Cycle at NERSC .......................................................................................................... 7 \nII.2 Observational Data ................................................................................................................................... 7 \nIII Validation framework ................................................................................................................................. 8 \nIII.1 Model results ........................................................................................................................................... 8 \nIII.2 External operational products .................................................................................................................. 9 \nIII.3 Validation products .................................................................................................................................. 9 \nIV Validation results ...................................................................................................................................... 11 \nIV.1 Sea Ice Concentration, Sea Ice Area, Edge Position vs passive microwave data  ..................................... 11 \nIV.1.1 Sea ice concentration..................................................................................................................... 11 \nIV.1.2 Sea ice area .................................................................................................................................... 12 \nIV.1.3 Ice edge position ............................................................................................................................ 13 \nIV.2 Sea Ice Drift vs synthetic aperture radar data ........................................................................................ 14 \nIV.3 Sea Ice Thickness vs SMOS-derived data ................................................................................................ 16 \nIV.4 Sea Ice Thickness vs CS2-SMOS data ...................................................................................................... 18 \nIV.5 Sea Ice Type vs multi-sensor analysis ..................................................................................................... 19 \nIV.6 Sea ice age vs ESA-NERSC product .........................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Underpinning Information Document (QUID) for ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011, detailing the validation and production system description of Arctic monitoring forecast products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Arctic Monitoring Forecast Centre"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_ANALYSISFORECAST_PHY_ICE_002_011",
+      "name": "Arctic Analysis and Forecast Products",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics",
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea ice concentration",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Fraction of sea surface covered by ice",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea ice thickness",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Thickness of sea ice",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea ice drift",
+        "cf_standard_name": "sea_ice_velocity",
+        "long_name": "Drift of sea ice",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "sea ice drift"
+      },
+      {
+        "native_name": "sea ice type",
+        "cf_standard_name": "sea_ice_type",
+        "long_name": "Type of sea ice",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea ice age",
+        "cf_standard_name": "sea_ice_age",
+        "long_name": "Age of sea ice",
+        "unit": "years",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2122,
+  "_tokens_out": 923,
+  "_eval_s": 6.8
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "47139c8cbab249fe",
+  "legacy_doc_id": "b17a48bd097b",
+  "filename": "IBI_OMI_CURRENTS_cui_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/IBI_OMI_CURRENTS_cui_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.43,
+  "pages": 11,
+  "text_preview": "                                                    \n \n       \n \nPRODUCT USER MANUAL \nIBI_OMI_CURRENTS_cui \n IBI Coastal Upwelling Index \n \nIssue 1.4 \n \n \n \n \nContributors: Álvaro de Pascual Collar \nApproval Date: March 2021 \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nIBI_OMI_CURRENTS_cui \nDate : \n15/01/2021 \nIssue : 1.4 \n \n \n© EU Copernicus Marine Service – Public                   Ref: CMEMS-IBI-PUM-IBI_OMI_CURRENTS_cui               1 \n \nCHANGE RECORD \nIssue Date § Description of Change Author Validated By \n1.0 2018/09/10 all Creation of the document Álvaro de \nPascual Collar \nC. Derval \n1.1 2020/04/03 II.1 Minor changes related to the \ntemporal extension of the \nIBI_OMI_CURRENTS_cui \nproduct. \nÁlvaro de \nPascual Collar \n \n1.2 2020/09/10 II.1 Minor changes related to the \ntemporal extension of the \nIBI_OMI_CURRENTS_cui \nproduct. \nÁlvaro de \nPascual Collar \n \n1.3 2021/01/15 Gloss\nary \nChange in CMEMS product \nreferences. \nÁlvaro de \nPascual Collar \n \n1.4 2021/01/15 II.1 Minor changes related to the \ntemporal extension of the \nIBI_OMI_CURRENTS_cui \nproduct. \nÁlvaro de \nPascual Collar \nC. Derval \n \n  \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nIBI_OMI_CURRENTS_cui \nDate : \n15/01/2021 \nIssue : 1.4 \n \n \n© EU Copernicus Marine Service – Public                   Ref: CMEMS-IBI-PUM-IBI_OMI_CURRENTS_cui               2 \n \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMOI Mercator Océan International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nCUI Coastal Upwelling Index \nIBI-MYP CMEMS product IBI_MULTIYEAR_PHY_005_002 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-IBI-PUM-005-002.pdf \nQUID: http://marine.copernicus.eu/documents/QUID/CMEMS-IBI-QUID-005-002.pdf \nIBI-NRT CMEMS product IBI_ANALYSISFORECAST_PHYS_005_001 \nPUM: http://marine.copernicus.eu/documents/PUM/CMEMS-IBI-PUM-005-001.pdf \nQUID: http://marine.copernicus.eu/documents/QUID/CMEMS-IBI-QUID-005-001.pdf \n \n  \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nIBI_OMI_CURRENTS_cui \nDate : \n15/01/2021 \nIssue : 1.4 \n \n \n© EU Copernicus Marine Service – Public                   Ref: CMEMS-IBI-PUM-IBI_OMI_CURRENTS_cui               3 \n \n \nTable of Content \nCHANGE RECORD .............................................................................................................. 1 \nGLOSSARY AND ABBREVIATIONS ....................................................................................... 2 \n1 INTRODUCTION .......................................................................................................... 4 \n1.1 Summary ...................................................................................................................... 4 \n1.2 History of changes ....................................................................................................... 4 \n2 DESCRIPTION OF THE PRODUCT ................................................................................. 5 \n2.1 General information .................................................................................................... 5 \n2.2 Details of the dataset .................................................................................................. 6 \n2.3 Product System Description ........................................................................................ 6 \n2.4 Download a product .................................................................................................... 7 \n2.4.1Download a product through the CMEMS Web Portal Ftp Service  ............................................... 7 \n3 FILES NOMENCLATURE AND FORMAT ......................................................................... 8 \n3.1 Nomenclature of files when downloaded through the CMEMS FTP Services ............ 8 \n3.2 File Format ................................................................................................................... 8 \n3.3 File size ......................................................................................................................... 9 \n3.4 Reading Softwares ....................................................................................................... 9 \n4 REFERENCES ............................................................................................................. 10 \n \n  \n \n \n \nPUM for CMEMS Ocean Monitoring Indicator \nIBI_OMI_CURRENTS_cui \nDate : \n15/01/2021 \nIssue : 1.4 \n \n \n© EU Copernicus Marine Service – Public                   Ref: CMEMS-IBI-PUM-IBI_OMI_CURRENTS_cui               4 \n \n1 INTRODUCTION \n1.1 SUMMARY \nThis document is the user manual for the CMEMS Ocean Monitoring I ndicator (OMI) \nIBI_OMI_CURRENTS_cui: it provides data of upwelling index in the coast of IBI domain from \n26N to 42N. \nOMI_OMI_CURRENTS_cui product is organised of two datasets:  \n• IBI_OMI_CURRENTS_cui_index which contains monthly mean time series of upwelling \nindex in the continental coasts of",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the CMEMS Ocean Monitoring Indicator IBI_OMI_CURRENTS_cui, providing details on upwelling index data in the coastal areas of the IBI domain from 26N to 42N.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "IBI_OMI_CURRENTS_cui",
+      "name": "IBI Coastal Upwelling Index",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "upwelling_index",
+        "cf_standard_name": "upwelling_index",
+        "long_name": "Monthly mean time series of upwelling index in the continental coasts of IBI domain from 26N to 42N.",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 26.0,
+        "lat_max": 42.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

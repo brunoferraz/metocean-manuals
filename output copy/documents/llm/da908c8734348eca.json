@@ -1,0 +1,113 @@
+{
+  "doc_id": "da908c8734348eca",
+  "legacy_doc_id": "5ffaaa09e947",
+  "filename": "halliwell_kpp.pdf",
+  "filepath": "docs/hycom_docs/halliwell_kpp.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.11,
+  "pages": 5,
+  "text_preview": "KPP Vertical Mixing \n \n1. Diapycnal Diffusivity in the Ocean Interior \n \nThe K-Profile Parameterization (KPP) model is described in detail in Large et al. (1994). To \nsummarize the implementation of KPP mixing in HYCOM, model variables are first \ndecomposed into mean (denoted by an overbar) and turbulent (denoted by a prime) components. \nDiapycnal diffusivities and viscosity parameterized in the ocean interior as follows: \n '','','', Sm\nSwwSw\nzzzq\nqqnnn ∂∂∂=−=−=−\n∂∂∂\nvv  (1) \nwhere ( ),, Smqnnn  are the interior diffusivities of potential temperature, salinity (which includes \nother scalars), and momentum (viscosity), respectively. Interior diffusivity/viscosity is assumed \nto consist of three components, which is illustrated here for potential temperature: \n ,swd\nqqqqnnnn=++  (2) \nwhere s\nqn  is the contribution of resolved shear instability, w\nqn  is the contribution of unresolved \nshear instability due to the background internal wave field, and d\nqn  is the contribution of double \ndiffusion. Only the first two processes contribute to viscosity. \nThe contribution of shear instability is parameterized in terms of the gradient Richardson \nnumber calculated at model interfaces: \n \n2\n22 ,g\nNRi\nuv\nzz\n=\n∂∂ +∂∂\n (3) \nwhere mixing is triggered when 0 0.7gRiRi=< . Vertical derivatives are estimated at model \ninterfaces as follows: Given model layer k  bounded by interfaces k  and 1k + , the vertical \nderivative of u  at interface k is estimated as \n ( )\n1\n10.5*\nkk\nkk\nuuu\nz hhdd\n-\n-\n¶-\n=¶ +  (4) \nwhere the denominator contains the thickness of layers k  and 1k - . The contribution of shear \ninstability is the same for q  diffusivity, S  diffusivity, and viscosity ( )ssss\nSmqnnnn=== , and is \ngiven by \n \n0\n2\n00\n0\n00\n10\n10,\n0\ns\ng\nP\ns\ng\ng\ns\ng\nRi\nRi RiRiRi\nRiRi\nn\nn\nu\nu\nn\nn\n =<\n\n =−<<  \n =>\n (5) \nwhere 042-15010msn −=× , 0 0.7Ri = , and 3P = . \nThe diffusivity that results from unresolved background internal wave shear is given by \n 42-10.110ms.ww\nSqnn −==×  (6) \nBased on the analysis of Peters et al. (1988), Large et al. (1994) determined that viscosity should \nbe an order of magnitude larger: \n 42-11.010ms.w\nmn −=×  (7) \n \nRegions where double diffusive processes are important are identified using the double diffusion \ndensity ratio calculated at model interfaces: \n ,zR\nS\nz\nr\nqa\nb\n∂\n∂= ∂\n∂\n (8) \n \nwhere a  and b are the thermodynamic expansion coefficients for temperature and salinity, \nrespectively. For salt fingering (warm, salty water overlying cold, fresh water), salinity/scalar \ndiffusivity is given by \n \n2\n0\n0\n0\n111.0\n1 ,\n0\nP\nd\nS\nd\nfS\ndf\nS\nf\nR RR\nR\nRR\nr\nrr\nr\nrr\nn\nnn\nn n\nn\n   − =−<<  − = \n\n=≥\n\n (9) \nand temperature diffusivity is given by \n 0.7,dd\nSqnn =  (10) \nwhere 42-11010msfn −=× , 0 1.9Rr = , and 3P = .  For diffusive convection, temperature \ndiffusivity is given by \n ( ){ }10.909exp4.6exp0.541,\nd\nRq\nr\nn\nn\n−=−−   (11) \nwhere n  is the molecular viscosity for temperature, while salinity/scalar diffusivity is given by \n ( )\n( )\n11.850.850.51\n0.150.5\ndd\nS\ndd\nS\nRRR\nRR\nqrrr\nqrr\nnn\nnn\n−=−≤≤\n=<\n (12) \n \n2. Diagnosis of the Surface Boundary Layer Thickness \n \nThe diagnosis of bh  is based on the bulk Richardson number \n ( )\n( )2 2\nr\nb\nr t\nBBdRi\nV\n−=\n−+vv\n (13) \nwhere B  is buoyancy, d is depth, the subscript r  denotes reference values, and where the two \nterms in the denominator represent the influence of resolved vertical shear and unresolved \nturbulent velocity shear, respectively. Reference values are averaged over the depth range de , \nwhere 0.1e = . At depth bdh= , the reference depth bhe  represents the thickness of the surface \nlayer where Monin-Obukhov similarity theory applies. In practice, if model layer 1 is more than \n7.5m thick, reference values in (13) are set to those of layer one. Otherwise, averaging is \nperformed over the depth range de . \nThe surface boundary layer thickness (which is distinct from mixed layer thickness) is the \ndepth range over which turbulent boundary layer eddies can penetrate before becoming stable \nrelative to the local buoyancy and velocity. It is estimated as the minimum depth at which bRi  \nexceeds the critical value 0.3cRi = . The Richardson number bRi  is estimated in (13) as a layer \nvariable, and thus assumed to represent the Richardson number at the middle depth of each layer. \nMoving downward from the surface, bRi  is calculated for each layer. When the first layer is \nreached where 0.3bRi > , bh  is estimated by linear interpolation between the central depths of \nthat layer and the layer above. \nThe unresolved turbulent velocity shear in the denominator of (13) is estimated from \n ( ) ( )\n1/2\n1/22\n2 ,sT\ntss\nc\nCVcdNw\nRi\nb e\nk\n−−=  (14) \nwhere sC  is a constant between 1 and 2, Tb  is the ratio of entrainment buoyancy flux to surface \nbuoyancy flux, 0.4k =  is the von Karman constant, and sw  is the salinity/scalar turbulent \nvelocity scale. The latter scale is estimated using \n \n( ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the implementation of KPP mixing in HYCOM, focusing on diapycnal diffusivities and viscosity parameterization for potential temperature, salinity, and momentum.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "potential temperature",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential Temperature of Sea Water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical Salinity of Sea Water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "momentum",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Momentum of Sea Water (u and v components)",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 3044,
+  "_tokens_out": 682,
+  "_eval_s": 5.26
+}

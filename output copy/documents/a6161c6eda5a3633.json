@@ -1,0 +1,85 @@
+{
+  "doc_id": "a6161c6eda5a3633",
+  "legacy_doc_id": "472485c591cc",
+  "filename": "WAVE_GLO_PHY_SWH_L4_NRT_014_003_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WAVE_GLO_PHY_SWH_L4_NRT_014_003_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 9.08,
+  "pages": 40,
+  "text_preview": "WAVE  Production Centr e\nWAVE_GLO_ PHY _SWH_ L4_ NRT  _014_003\ncmems_obs-wave_glo_phy-swh_nrt_multi-l4-2deg_P1D-m\ncmems_obs-wave_glo_phy-swh_nrt_multi-l4-2deg_P1D-i\nIssue: 1. 7\nContributors:  E. Charles, N. Taburet, R. Husson , A. Philip, M. Ghantous , C. Béchonnet\nApproval date by the CMEMS product quality coordination team: 12/11/2024\n\nQUID for WAVE TAC Product\nWAVE_GLO_PHY_SWH_L4_NRT_014_003\nRef:\nDate:\nIssue:\nCMEMS-WAVE-QUID-014 - 003\n17  June 2024\n1 . 7\n                                                    Page 2 / 40\nCHANGE RECORD\nWhen the quality of the products changes, the QUality Information Document ( QuID ) is updated, and a\nrow is added to this table. The third column specifies which Sections or Sub-sections have been updated.\nThe fourth column should mention the version of the product to which the change applies.\nIssue Date § Description of Change Author Validated By\n1.0 April 2019 All First version of document E .  Charles, R .  \nHusson, N .  Taburet\n1.1 September\n2019\nUpdate to account for the\nenhancement of upstream\nL3 product (new denoising\nmethod) and addition of\nCFOSAT mission\nE. Charles\n1.2 April 2020 Update to account for the \naddition of HaiYang -2B \nmission\nE. Charles\n1.3 September\n2020\nImprovement of the \nmapping method\nE. Charles E. Charles\n1. 4 October\n2022\nUpdate of the absolute \ncalibration\nIntegration of HaiYang-2C  \nand Sentinel-6A  mission s\nM. Ghantous M. Ghantous\n1. 5 February\n2023\nCorrections to validation \nand extension of \nvalidation period to 12 \nmonths\nM. Ghantous M. Ghantous\n1.6 October\n2023\nUpdate for the addition of \nSWOT nadir mission  in \nsections I; II.4.1; IV.2.1 and\nV.2\nA.  Philip P. Zunino\n1.7 June 2024 II.4.2 ;\nIV.1 ;I\nV.2 ;IV\n.3 ;V.1\n ; VI ; X\nNew mapping method for \ninstantaneous SWH field\nC. Béchonnet P. Zunino\nQUID for WAVE TAC Product\nWAVE_GLO_PHY_SWH_L4_NRT_014_003\nRef:\nDate:\nIssue:\nCMEMS-WAVE-QUID-014 - 003\n17  June 2024\n1 . 7\n                                                    Page 3 / 40\nLIST OF ACRONYMS\nAL Saral/ AltiKa\nC2 Cryosat-2\nCLS   Collecte  Localisation Satellite\nCMEMS Copernicus Marine Environment Monitoring Service\nEAN Estimated Accuracy numbers\nHY-2B HaiYang-2B\nHY-2C HaiYang-2C\nIGDR Intermediate Geophysical Data Record\nJ3 Jason-3\nL2/L2P/L3/L4 Level 2 / Level 2 Plus / Level 3 / Level 4\nLRM Low Resolution Mode\nMIOST Multiscale Inversion of Ocean Surface Topography\nNetCDF Network Common Data Form\nNRT Near Real Time\nPLRM Pseudo LRM\nQUID QUality  Information Document\nRMSD Root Mean Square Difference\nS3A Sentinel-3A\nS3B Sentinel-3B\nS6A Sentinel-6A\nSAR Synthetic Aperture Radar\nSARIn Synthetic  Aperture  Radar  (SAR) Interferometric\nSWH Significant Wave Height\nSWOT Surface Water and Ocean Topography\nTAC Thematic Assembly Center\nVAVH Visual AVerage  Height\nQUID for WAVE TAC Product\nWAVE_GLO_PHY_SWH_L4_NRT_014_003\nRef:\nDate:\nIssue:\nCMEMS-WAVE-QUID-014 - 003\n17  June 2024\n1 . 7\n                                                    Page 4 / 40\nTABLE OF CONTENTS\nContents\nI Executive summary .................................................................................................................................... 7\nI.1 Products covered by this document .......................................................................................................... 7\nI.2 Summary of the results ............................................................................................................................. 7\nI.3 Estimated Accuracy Numbers .................................................................................................................... 8\nII Production system description ................................................................................................................. 10\nII.1 Production centre name ......................................................................................................................... 10\nII.2 Operational system name ...................................................................................................................... 10\nII.3 Basics of altimeter-derived SWH measurements .................................................................................... 10\n ................................................................................................................................................................... 12\nII.4 Production centre description for the version covered by this document ............................................... 12\nII.4.1 Pre-processing .................................................................................................................................... 12\nII.4.2 Interpolation ....................................................................................................................................... 14\nII.4.3 Masking ............................................................................................................................................... 15\nII.4.4 File generation ...........................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the WAVE_GLO_PHY_SWH_L4_NRT_014_003 product, detailing its production system description and changes over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SWH_L4_NRT_014_003",
+      "name": "Global Wave Significant Wave Height Level 4 Near Real Time Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs-wave_glo_phy-swh_nrt_multi-l4-2deg_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2480,
+  "_tokens_out": 524,
+  "_eval_s": 3.82
+}

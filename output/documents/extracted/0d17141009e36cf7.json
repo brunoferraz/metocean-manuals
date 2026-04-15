@@ -1,0 +1,14 @@
+{
+  "doc_id": "0d17141009e36cf7",
+  "legacy_doc_id": "160ca4d08b3a",
+  "filename": "ncepupp_postprocessor.pdf",
+  "filepath": "docs/gfs_docs/ncepupp_postprocessor.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.34,
+  "pages": 35,
+  "text_preview": "NCEP’s UNIFIED POST NCEP’s UNIFIED POST PROCESSOR (UPP)PROCESSOR (UPP)Hui-Ya Chuang\nPresented by Matthew Pyle\nOutlineOutline–Introduction–Components and Functions–Sample fields generated–Installation–Running wrfpost•Controlling output generation–Running copygb•Specifying target grid–Visualization\nThe critical big picture overviewThe critical big picture overview•The WRF post package (WPP) generates output in GRIB.•Processes model output from both the NMM and the ARW dynamical cores.•The WPP enables product generation on any output grid.\nWPP – I/OWPP – I/O•The WRF post reads in model output in either binary or netCDF format using the WRF I/O API.•Users are encouraged to use netCDF formatted model output for simplicity.  NCEP uses binary output for speed.\nComponents of the WPPComponents of the WPP\nwrfout Fileswrfpostcopygb(primarily ARW)\nThe WPP has two components:  wrfpost and copygb.\nwrf_cntrl.parmVisualization",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": null,
+  "classification_error": null
+}

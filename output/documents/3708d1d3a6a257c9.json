@@ -1,0 +1,122 @@
+{
+  "doc_id": "3708d1d3a6a257c9",
+  "legacy_doc_id": "2a61ce55decb",
+  "filename": "WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.12,
+  "pages": 40,
+  "text_preview": "   \n \n   \n \n  \n  \nWAVE Thematic Assembly Centre: \nWAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002 \ncmems-obs-wave_glo_phy_spc-fwk_nrt_s1a_l3_PT15S-i \ncmems-obs-wave_glo_phy_spc-fwk_nrt_s1b_l3_PT15S-i \ncmems-obs-wave_glo_phy_spc-fwk_nrt_cfo_l3_PT15S-i \n Issue: 1.5 \nContributors: M. De Carlo, P. Zunino, R. Husson, G. Goimard, A. Mouche and H. Wang \nApproval date by the CMEMS product quality coordination team: 17/11/2025 \n \n \n \n \n \n \n  \n \n\nQUID for WAVE TAC Products \nWAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-002 \n27.05.2025 \n1.5 \n \n  Page 2/ 40 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated, and a row is added to this table. The \nthird column specifies which Sections or Sub-sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 June2018 All First version of document at \nCMEMS V4, done from previous \nWave-TAC QUID for the SAR \nwave component \nR Husson, G. \nGoimard \nMercator Océan \n1.1 26.04. 2019  Feedbacks from Mercator on \nQuid + New processing to \nimprove long swell description \nR Husson  \n1.1 09.07. 2019  Feedbacks from Mercator on \nQuid \nR Husson Mercator Ocean \n1.2 03.04. 2020  Addition of Quality Flag from L2 \nswell partitions \nR Husson  \n1.3 10.09. 2021  EIS of the CFOSAT/SWIM L3 SPC \nproducts \nR Husson Mercator Ocean \n1.4 10.10. 2024  Indicating the end of mission for \nS1B \nRename of product and datasets \nP. Zunino P. Zunino \n1.5 21.05.2025  Enhancement of filtering of \nCFOSAT input data. \nRenaming of dataset \nM. De Carlo P. Zunino \nQUID for WAVE TAC Products \nWAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-002 \n27.05.2025 \n1.5 \n \n  Page 3/ 40 \nACRONYM TABLE \nAcronym Description \nCFOSAT China-France Oceanography SATetille \nCLS Collecte Localisation Satellite \nCNES Centre National d’Etudes Spatiales \nECMWF European Center for Medium-Range Weather Forecasts \nEIS Entry Into Service \nESA European Space Agency \nFWK Fireworks \nHs Significant wave height (referring to the wave parameter) \nL1 Level-1 \nL2 Level-2 \nL2 OCN Level-2 OCeaN  \nL2 OSW Level-2 Ocean SWell  \nL2P Level-2 Plus  \nL3 Level-3 \nL4 Level-4 \nMY Multi-year \nNDBC National Data Buoy Center \nNetCDF network Common Data Form \nNOAA National Oceanic and Atmospheric Administration \nNRT Near Real Time \nOSISAF Ocean and Sea Ice Satellite Application Facility \nPCC Pearson Correlation Coefficient \nPUM Product User Manual \nQUID Quality information Document \nREP Reprocessing \nRMSD Root-mean Square Deviation \nS1 Sentinel-1 (ESA’s serie of SAR satellite) \nQUID for WAVE TAC Products \nWAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-002 \n27.05.2025 \n1.5 \n \n  Page 4/ 40 \nS1A Sentinel-1 A \nS1B Sentinel-1 B \nSAR Synthetic Aperture Radar \nSI Scatter Index \nSPC Spectral \nSWH Significant Wave Height (referring to products that only contain the Hs \nparameter) \nSWIM Surface Wave Investigation and Monitoring \nTAC Copernicus Marine Service Thematic Assembly Centre \nUSA United States of America \nVAVH Visual Average Height (variable name associated to Significant Wave Height) \nVPED Peak direction of wave system (variable name in file) \nVTPK Peak period of wave system (variable name in file) \nQUID for WAVE TAC Products \nWAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002 \nRef: \nDate: \nIssue: \nCMEMS-WAVE-QUID-014-002 \n27.05.2025 \n1.5 \n \n  Page 5/ 40 \nKEY DEFINITIONS  \n Description \nDate format Throughout this document, the format for dates is DD.MM.YYYY \nFireworks name of the propagation and storm refocusing algorithm described in \nHusson, 2012 \nLevel-2 Plus for CFOSAT data: similar to a L2 with some additional information (such \nas flags) \nLevel-2 OCeaN for Sentinel 1 data: L2 with the particular Ocean process applied, \nincludes information with the OSW process \nLevel-2 Ocean SWell for Sentinel 1 data: part of the L2 OCN product with only the information \npertaining to swell \nPearson correlation \ncoefficient \nIn statistics, the Pearson correlation coefficient (PCC)[a] is a correlation \ncoefficient that measures linear correlation between two sets of data. \nIt is the ratio between the covariance of two variables and the product \nof their standard deviations. \n[from Wikipedia Pearson correlation coefficient] \nQ-Q plot Plot to compare 2 probability distributions by plotting their quantiles \nagainst each other. A point (x, y) on the plot corresponds to one of the \nquantiles of the second distribution (y-coordinate) plotted against the \nsame quantile of the first distribution (x-coordinate).  \n[from Wikipedia Q-Q plot] \nSWIM Payload onboard CFOSAT (the satellite), composed by a rotating \nantenna which allow to obtain wave spectra. For more information, see \nhttps://www.aviso.altimetry.fr/en/missions/current-\nmissions/cfosat/instruments/swim.html  \nTREX Name of CNES’s computing facility (not an Acronym) ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for WAVE TAC Products, specifically version WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002, detailing the quality and changes of SAR wave component products from CMEMS.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SPC-FWK_L3_NRT_014_002",
+      "name": "Global Wave Spectral Products Near Real Time",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems-obs-wave_glo_phy_spc-fwk_nrt_s1a_l3_PT15S-i",
+        "temporal_resolution": "PT15S",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems-obs-wave_glo_phy_spc-fwk_nrt_s1b_l3_PT15S-i",
+        "temporal_resolution": "PT15S",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "cmems-obs-wave_glo_phy_spc-fwk_nrt_cfo_l3_PT15S-i",
+        "temporal_resolution": "PT15S",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "significant_wave_height",
+        "long_name": "Significant Wave Height (referring to the wave parameter)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "peak_wave_period",
+        "long_name": "Peak period of wave system (variable name in file)",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "peak_wave_direction",
+        "long_name": "Peak direction of wave system (variable name in file)",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

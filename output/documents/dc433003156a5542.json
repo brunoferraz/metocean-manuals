@@ -1,0 +1,96 @@
+{
+  "doc_id": "dc433003156a5542",
+  "legacy_doc_id": "1ba10237ba5d",
+  "filename": "INSITU_GLO_PHY_TS_OA_NRT_013_002_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/INSITU_GLO_PHY_TS_OA_NRT_013_002_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.69,
+  "pages": 22,
+  "text_preview": " \n  \nIn Situ TAC  \nObjective Analysis products \nINSITU_GLO_PHY_TS_OA_NRT_013_002 \n \n \n Issue: 1.5 \nContributors: T. Szekely, D. Dobler \nApproval date by the CMEMS product quality coordination team:  18/02/2026 \n \n \n \n \n  \n \n\nQUID for In Situ TAC Product \nINSITU_GLO_PHY_TS_OA_NRT_013_002 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-002 \n27-10-2025 \n1.5 \n \n                                                      Page 2/ 22 \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Checked By \n1.0 18/01/2017 All Creation of the \ndocument T. Szekely L. Petit de la Villéon \n1.1 13/03/2020 All \nNew Version of the ISAS \nsoftware and of the \nclimatology first guess \nD. Dobler L. Petit de la Villéon \n1.2 25/11/2022 All \nDataset name change \nDocument template \nchange \nT. Szekely S. Tarot \n1.3 28/08/2023 All Dataset Update T. Szekely S. Tarot \n1.4 19/06/2024 All Extension to 5500 m \ndepth T. Szekely S. Tarot \n1.5 27/10/2025 All Update of the First \nguess climatology T. Szekely S. Bengoufa \n \n \n \n \n \n \n \n \n \n \n \nQUID for In Situ TAC Product \nINSITU_GLO_PHY_TS_OA_NRT_013_002 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-002 \n27-10-2025 \n1.5 \n \n                                                      Page 3/ 22 \nACRONYM TABLE \n \nAcronym Description \nArgo International profiling float network (www.argo.net) \nCORA  Coriolis Ocean Dataset for Reanalysis \nCTD Conductivity, Temperature, and Depth sensor \nFSD Falst Salty Drift \nHST  Halosteric height anomaly  \nISAS  In Situ Analysis System \nLOPS Laboratoire d’Océanographie Physique et Spatiale  \n MBT Mechanical bathythermographs \nOA Objective analysis \nPCTVAR  percentage of the product parameter variance associated to the in -\nsitu measurements \nPSU  PSU  \nQC Quality Checks \nRMS  Root Mean Square \nSSS Sea Surface Salinity \nXBT expandable bathythermographs  \n \nKEY DEFINITIONS \nNA \n \nRELEVANT DOCUMENT LIST \nNA \n  \nQUID for In Situ TAC Product \nINSITU_GLO_PHY_TS_OA_NRT_013_002 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-002 \n27-10-2025 \n1.5 \n \n                                                      Page 4/ 22 \n \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey definitions .................................................................................................................................................... 3 \nRelevant document List ....................................................................................................................................... 3 \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 6 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 7 \nII Production system description .................................................................................................................. 10 \nII.1 ISAS Calculation method ......................................................................................................................... 10 \nII.2 Correction of the ARGO fast salinity drift ................................................................................................ 13 \nIII Validation framework ............................................................................................................................... 15 \nIV Validation results ...................................................................................................................................... 16 \nIV.1 Comparison of salinity fields and temperature fields ............................................................................. 16 \nIV.2 Global Ocean Heat Content anomaly comparison .................................................................................. 18 \nV System noticiable events, outages or changes .......................................................................................... 20 \nVI Quality changes since previous version ..................................................................................................... 21 \nVII References ............................................................................................................................................ 22 \n \n \n \n \n \nQUID for In Situ TAC Product \nINSITU_GLO_PHY_TS_OA_NRT_013_002 \nRef: \nDate: \nIssue: \nCMEMS-INS-QUID-013-002 \n27-10-2025 \n1.5 \n \n                                                      Page 5/ 22 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThe document describes the quality of the glob",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical note for In Situ TAC Objective Analysis products, detailing product quality and validation results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service Information"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_TS_OA_NRT_013_002",
+      "name": "In Situ TAC Objective Analysis Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0,
+      "depth_max_m": 5500
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

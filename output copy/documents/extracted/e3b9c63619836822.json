@@ -1,0 +1,14 @@
+{
+  "doc_id": "e3b9c63619836822",
+  "legacy_doc_id": "22d4962f9a0e",
+  "filename": "halliwell_advdiff.pdf",
+  "filepath": "docs/hycom_docs/halliwell_advdiff.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.01,
+  "pages": 1,
+  "text_preview": "Horizontal Advection/Diffusion in HYCOM  \n \nby George Halliwell, 25 August 2001 \n \n \nHYCOM uses the same fundamental algorithms for horizontal advection and diffusion that \nwere used by MICOM. These algorithms are described in MICOM documentation, and also in \nthe review paper by Bleck (1998). This note describes simple modifications of these algorithms \nfor implementation in HYCOM. \n \nWhen HYCOM is run with isopycnic vertical coordinates (MICOM mode), horizontal \nadvection/diffusion is performed in the same manner as in MICOM. Temperature and salinity are \nadvected and diffused in layer 1. Only salinity is advected and diffused in deeper layers, with \ntemperature diagnosed from the equation of state to maintain constant density in these layers. \nWhen HYCOM is run with hybrid vertical coordinates, the user selects whether temperature and \nsalinity, or just salinity, are advected and diffused within the upper hybn  layers that the user \ndeclares to be hybrid layers. This option was included because the effects of cabbeling when \nboth temperature and salinity are advected and diffused can lead to problems with the adjustment \nof vertical coordinates by the hybrid coordinate algorithm, particularly if the user selects to flux \nboth temperature and salinity across the moving vertical coordinates.. (See the separate \ndocumentation of the hybrid coordinate algorithm.) When salinity only is advected/diffused, \nthese problems do not appear, but the tradeoff is that temperature is no longer conserved. In low-\nresolution simulations of Atlantic Ocean climate, the non-conservation of temperature did not \nhave a large influence on simulated fields. \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": null,
+  "classification_error": null
+}

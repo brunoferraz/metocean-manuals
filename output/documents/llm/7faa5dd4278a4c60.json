@@ -1,0 +1,129 @@
+{
+  "doc_id": "7faa5dd4278a4c60",
+  "legacy_doc_id": "063e2e8d9bf1",
+  "filename": "INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.8,
+  "pages": 94,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor In Situ Products \n \n \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \nIssue:  2.3 \n \nContributors : In Situ TAC partners \nApproval Date : NOVEMBER 2025 \n \n\n Copernicus Marine Service Product User Manual for \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \nIssue : 2.3  \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-030-036 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 2011/10/30 All \n \nCreation of the document S Pouliquen and In Situ \nTAC Partners   \n1.1 2012/10/30 9 Merging NRT products S Pouliquen   \n1.2 2013/02/07   Adding History Directory S Pouliquen   \n1.3 2015/05/01 All \n \nChange format to fit Copernicus \nMarine Service graphical rules     \n1.4 Dec 2015 All Update from MyOcean to Copernicus \nMarine Service S Pouliquen   \n1.5 January 2016   Updates from SRC Thierry Carval   \n1.6 May 27 2016 All \nAll Typos corrections after C. Derval \ncomments. \nIV.1 Add temporal coverage \nL.Petit de la Villéon   \n1.6.1 May 31 2016 5.1 The monthly directory contains 5 years \nof data L.Petit de la Villéon   \n1.7 Jan 18 2017 1 Add wave parameters in description L.Petit de la Villéon   \n Copernicus Marine Service Product User Manual for \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \nIssue : 2.3  \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-030-036 \n3 \n1.71 23/01/2019 5.2 \nNew chapter for file types (was in §5.1) \nAdd file types for HF radars \nS. Tarot   \n1.71 23/01/2019 5.3 Add data types for HF radars S. Tarot   \n1.71 23/01/2019 6.2.4 Add data types for HF radars S. Tarot   \n1.8 09/04/2019 - General revision for NetCDF4 \ntransition T. Carval   \n1.9 29/11/2019 All \nMarch 2020 Release \n- Remove regional TS REP products \n- Add data type for wave spectra, \nsaildrone and vessel ADCP \n- Wave REP was missing in §4 \nS. Tarot   \n1.10 01/09/2020   \nUse the new PUM manual template \nInclude changes from the new version \nof SRD \nhttp://dx.doi.org/10.13155/40846 \nF. Manzano, T. Carval   \n1.10 01/09/2020   \nAdd CARBON-NRT product \n  \nR. Castano Primo   \n1.11 08/01/2021   Add information about EMODnet \nchemistry integration \nT. Carval, D. Leroy, V. \nRacapé   \n Copernicus Marine Service Product User Manual for \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \nIssue : 2.3  \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-030-036 \n4 \n1.12 19/04/2021   \nUpdate flag 6 from “not used” to \n“value below detection” (EMODnet \nchemistry) \nAdd \"MBT profiles\" to XB data type \nAdd CO and TX data types \nL. Drouineau   \n1.13 06/09/2021   Remove reference to Carbon \n \nL. Drouineau   \n1.14 16/06/2022 All \nUse new template \nUse new product name \nIn Situ TAC Partners  \n2.0 15/11/2022 All \nReorganisation of content \nIncluded relevant information for users \nextracted from previous System \nRequirements Document \nReference tables moved to reference \ndocument RD[1] Copernicus Marine In \nSitu NetCDF Format Manual \nF. Manzano, I. Pérez \nand In Situ TAC \nPartners \nS. Tarot \n2.1 30/01/2024  Remove reference directory L. Drouineau S. Tarot \n2.2 30/05/2024  \nUpdate index format \nUpdate file access L. Drouineau S. Tarot \n2.3 14/05/2025  Add metadata index folder L. Drouineau S. Tarot \n \n Copernicus Marine Service Product User Manual for \nINSITU_GLO_PHYBGCWAV_DISCRETE_MYNRT_013_030 \nINSITU_ARC_PHYBGCWAV_DISCRETE_MYNRT_013_031 \nINSITU_BAL_PHYBGCWAV_DISCRETE_MYNRT_013_032 \nINSITU_IBI_PHYBGCWAV_DISCRETE_MYNRT_013_033 \nINSITU_BLK_PHYBGCWAV_DISCRETE_MYNRT_013_034 \nINSITU_MED_PHYBGCWAV_DISCRETE_MYNRT_013_035 \nINSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036 \nIssue : 2.3",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for various INSITU products related to ocean physics, biogeochemistry, and waves, provided by the Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036",
+      "name": "In Situ Observations for North West Shelf",
+      "model_name": null,
+      "region": "North West Shelf",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics",
+        "biogeochemistry",
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "INSITU_NWS_PHYBGCWAV_DISCRETE_MYNRT_013_036",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wave_height",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed_of_gust",
+        "long_name": "Wind Speed of Gust",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 42,
+      "depth_min_m": 0,
+      "depth_max_m": 5000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 3396,
+  "_tokens_out": 886,
+  "_eval_s": 6.86
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "39659475331a98eb",
+  "legacy_doc_id": "fb9f1b1bb4f0",
+  "filename": "OMI_EXTREME_WAVE_BLKSEA_recent_changes_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_EXTREME_WAVE_BLKSEA_recent_changes_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.75,
+  "pages": 10,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \n \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring \nService \nRecent Changes of the Black Sea Wave Extreme \nEvents \nIssue: 1.0 \n \n \n \nContributors : Marcel Ricker, Joanna Staneva, Arno Behrens \nApproval date by the CMEMS product quality coordination team : November 2024 \n \n  \n\n CMEMS Quality Information Document for \nRecent Changes of the Black Sea Wave Extreme Events \nIssue : 1.0 \nNov. 2024/11 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nRECORD TABLE \n \nWhen the quality of the products change s, the QuID is updated and a row is \nadded to this table.  The third column specifies which sections or sub -sections \nhave been updated.  The fourth column should mention the version of the \nproduct to which the change applies. \n \nIssu\ne \nDate § Description of \nChange \nAuthor Validated By \n1.0 2024/05/31 All Creation of the \ndocument \nM. Ricker, J. \nStaneva, A. \nBehrens \nE. Peneva \n      \n      \n      \n      \n      \n \n \n \n \n  \n CMEMS Quality Information Document for \nRecent Changes of the Black Sea Wave Extreme Events \nIssue : 1.0 \nNov. 2024/11 \n \n \n© EU Copernicus Marine Service – Public   \n3 \nTABLE OF CONTENTS \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 CMEMS products used as input for the computations ............................................................................... 5 \nII SCIENTIFIC VALIDATION .............................................................................................................................. 6 \nII.1 Black Sea extreme wave events ................................................................................................................ 6 \nIII REFERENCES ............................................................................................................................................. 10 \n \n \n CMEMS Quality Information Document for \nRecent Changes of the Black Sea Wave Extreme Events \nIssue : 1.0 \nNov. 2024/11 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \n \nI.1 Product name  \nOMI_EXTREME_WAVE_BLKSEA_recent_changes \nI.2 Indicator evaluation method \nExtreme wave characteristics are computed by analysing single storm events \nand their long -term means and trends. These storm events were detected \nusing the method proposed by Weisse and Gün ther (2007). The basis of the \nmethod is the definition of a severe event threshold (SET), which we define as \nthe 99th percentile of the significant wave height (SWH). Then, the \nexceedance and shortfall of the SWH at every grid point was determined and \ncounted as a storm event. The analysis of extreme wave events also comprises \nthe following three parameters but are not part of this OMI. The time period \nbetween each exceedance and shortfall of the SET is the lifetime of an event. \nThe difference in the maximu m SWH of each event and the SET is defined as \nthe event intensity. The geographic area of storm events and exceedance of \nthe SET are defined as the maximum event area. The number, lifetime, and \nintensity of events were averaged over each year. Finally, the  yearly values \nwere used to compute the long -term means. In addition to these parameters, \nwe estimated the difference (anomaly) of the last available year in the \nmultiyear dataset compared against the long -term average as well as the \nlinear trend. To show multiyear variability, each event, fulfilling the above -\ndescribed definition, is considered in the statistics. This was done independent \nof the events’ locations within the domain. To obtain long -term trends, a linear \nregression was applied to the yearly t ime series. The statistics are based on the \nperiod 1950 to -1Y. \n \n \n \n CMEMS Quality Information Document for \nRecent Changes of the Black Sea Wave Extreme Events \nIssue : 1.0 \nNov. 2024/11 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nI.3 CMEMS products used as input for the computations \n \nProduct name (and Type) Documentation \nBLKSEA_MULTIYEAR_WAV_007_006 QUID: \nhttps://catalogue.marine.copernicus.eu/docu\nments/QUID/CMEMS-BLK-QUID-007-006.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/docu\nments/PUM/CMEMS-BLK-PUM-007-006.pdf \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates recent changes to the Black Sea Wave Extreme Events Ocean Monitoring Indicator, detailing its evaluation method and input products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_EXTREME_WAVE_BLKSEA_recent_changes",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "BLKSEA_MULTIYEAR_WAV_007_006",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

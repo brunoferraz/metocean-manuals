@@ -1,0 +1,67 @@
+{
+  "doc_id": "6c3b8a61590d9f58",
+  "legacy_doc_id": "c5e4febba87b",
+  "filename": "OCEANCOLOUR_BLK_BGC_L3_MY_009_153_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OCEANCOLOUR_BLK_BGC_L3_MY_009_153_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 7.31,
+  "pages": 67,
+  "text_preview": " \n \n  \n \nOCEAN COLOUR PRODUCTION CENTRE \n \nOcean Colour Mediterranean and Black Sea \nObservation Product \n \nOCEANCOLOUR_MED_BGC_L3_NRT_009_141 \nOCEANCOLOUR_MED_BGC_L4_NRT_009_142 \nOCEANCOLOUR_MED_BGC_L3_MY_009_143 \nOCEANCOLOUR_MED_BGC_L4_MY_009_144 \nOCEANCOLOUR_BLK_BGC_L3_NRT_009_151 \nOCEANCOLOUR_BLK_BGC_L4_NRT_009_152 \nOCEANCOLOUR_BLK_BGC_L3_MY_009_153 \nOCEANCOLOUR_BLK_BGC_L4_MY_009_154 \n \n Issue: 4.2 \nContributors: S. Colella, V. E. Brando, A. Di Cicco, D. D’Alimonte, V. Forneris, M. Bracaglia \nApproval date by Quality Assurance Review Group: 30/09/2025 \n \n \n \n \n\nQUID for the OCTAC Products \nOcean Colour Mediterranean and Black Sea \nObservation Product \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-141to144-151to154 \n25 June 2025 \n4.2 \n \n    \n Page 2/ 67 \nCHANGE RECORD \n \nIssue Date § Description of \nChange Author Validated By \n1.0 21/02/2022 all Catalogue \nReorganization  \nFirst version of \ndocument \n \n(former product 009-034-\n036-047-046-066-067-\n068-069-087-088-090-\n091-092) \nS. Colella, A. Di Cicco, V. E. \nBrando \nA. Mangin \nShubha \nSathyendranath \n1.1 26/04/2022 V Added noticeable \nevent \nS. Colella, A. Di Cicco, V. E. \nBrando \nV. E. Brando \n2.0 16/06/2022  Updates for Entry \ninto Service ( EIS) \nNovember 2022 \nS. Colella, A. Di Cicco, V. E. \nBrando \nA. Mangin \nShubha \nSathyendranath \n3.0 16/06/2023  Updates for EIS \nNovember 2023 \nS. Colella, A. Di Cicco, V. E. \nBrando, L. Gonzalez Vilas \nA. Mangin \nG. Volpe \n4.0 30/06/2024 all Updates for EIS \nNovember 2024 \nS. Colella, A. Di Cicco, V. E. \nBrando, L. Gonzalez Vilas , E. \nBöhm \nA. Mangin \nG. Volpe \n4.1 March \n2025 \nV.1 Addition of recent \nupstream data \nincidents \nS. Colella, A. Di Cicco, V. E. \nBrando, L. Gonzalez Vilas, E. \nBöhm \nA. Mangin \nG. Volpe \n4.2 25/06/2025 V.1 Addition of \nupstream data \nincident \nS. Colella, A. Di Cicco, V. E. \nBrando, L. Gonzalez Vilas, E. \nBöhm \nA. Mangin \nG. Volpe \nQUID for the OCTAC Products \nOcean Colour Mediterranean and Black Sea \nObservation Product \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-141to144-151to154 \n25 June 2025 \n4.2 \n \n    \n Page 3/ 67 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 7 \nII.1 Product chain ............................................................................................................................................ 8 \nII.1.1 Single sensor pre-processing ........................................................................................................... 9 \nII.1.2 Multi-sensor processing: Rrs spectra ............................................................................................. 14 \nII.1.3 Level-3 geophysical products ......................................................................................................... 17 \nII.1.4 Level-4 interpolation for merged products.................................................................................... 32 \nIII Validation framework ............................................................................................................................... 34 \nIII.1 Offline Validation ................................................................................................................................... 34 \nIII.2 Online Validation ................................................................................................................................... 38 \nIV Validation results ...................................................................................................................................... 39 \nIV.1 Details of Estimated Accuracy Numbers ................................................................................................. 39 \nIV.2 Offline Validation ................................................................................................................................... 40 \nIV.2.1 Multi-Sensor datasets .................................................................................................................... 40 \nIV.2.2 OLCI datasets qualification ............................................................................................................ 51 \nIV.3 Online Validation ................................................................................................................................... 57 \nV System",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Ocean Colour Mediterranean and Black Sea Observation Products, detailing product descriptions, production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "European Marine Observation and Data Network"
+    },
+    "product_line": {
+      "product_id": "OCEANCOLOUR_BLK_BGC_L3_MY_009_153",
+      "name": "Ocean Colour Black Sea Biogeochemical L3 Multi-Year Product",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "OCEANCOLOUR_BLK_BGC_L3_MY_009_153",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

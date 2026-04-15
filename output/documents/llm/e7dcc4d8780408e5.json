@@ -1,0 +1,85 @@
+{
+  "doc_id": "e7dcc4d8780408e5",
+  "legacy_doc_id": "a91db9d98be8",
+  "filename": "OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.49,
+  "pages": 7,
+  "text_preview": "1 \n \nMERCATOR OCEAN  \nINTERNATIONAL \n \n \n \n \n  \nContributors : Vittorio E. Brando \n \nApproval Date : NOVEMBER 2025 \nFor Ocean Health Bloom BALTIC OceanColour \n \n Issue: 1.0 \nQUALITY INFORMATION \nDOCUMENT \n\nQuality Information Document for Ocean Health Bloom BALTIC \nOceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-QUID-BLOOM-BALTIC \nIssue 1.0 – May 2025 \n2 \n \n \nRECORD TABLE \n \n \nIssue Date § Description of \nChange Author Validated By \n1.0 2025/05/28 All Initial version Vittorio E. Brando Vittorio E. \nBrando \n      \n      \n  \nQuality Information Document for Ocean Health Bloom BALTIC \nOceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-QUID-BLOOM-BALTIC \nIssue 1.0 – May 2025 \n3 \n \n \nTABLE OF CONTENTS \n \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION ...................................................................................................... 4 \na) Product Name ....................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................... 4 \nc) Copernicus Marine products used as input for the computation ................... 5 \n2) SCIENTIFIC VALIDATION ........................................................................................ 6 \na) Ocean Health Bloom BALTIC OceanColour ........................................... 6 \n3) REFERENCES ........................................................................................................... 7 \n  \nQuality Information Document for Ocean Health Bloom BALTIC \nOceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-QUID-BLOOM-BALTIC \nIssue 1.0 – May 2025 \n4 \n \n \n1) INTRODUCTION \na) Product Name  \n \nOMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage \nb) Indicator Evaluation Method \nThe CMEMS Ocean Colour OMIs are derived from the reprocessed (MY) regional \ngridded chlorophyll products generated and distributed by the CMEMS OC-TAC. The \ninput dataset are the spectral remote sensing reflectances (Rrs) produced by the \nPlymouth Marine Laboratory (PML) using an ad-hoc configuration for CMEMS of the ESA \nOC-CCI processor version 6 (OC- CCIv6) to merge at 1km resolution (rather than at 4km \nas for OC-CCI) MERIS, MODIS-AQUA, SeaWiFS, NPP-VIIRS and OLCI-A data. The \nchlorophyll product is derived from a Multi-Layer Perceptron neural-net (MLP) \ndeveloped on field measurements collected within the BiOMaP program of JRC/EC \n(Zibordi et al., 2011). The algorithm is an ensemble of different MLPs that use Rrs at \ndifferent wavelengths as input. The processing chain and the techniques used to \ndevelop the algorithm are detailed in Brando et al. (2021; 2024). \n \nIn the Baltic Sea, the phytoplankton blooms occurring during summer are dominated \nby nitrogen-fixing cyanobacteria. These blooms can have subsurface and/or surface \naccumulations, depending on the age of the bloom. Consistent with the HELCOM \nenvironmental reporting (e.g. Öberg 2018) the cyanobacterial subsurface and surface \nsummer blooms are detected by applying the thresholds on Rrs at the wavelength of \n555 and 670 nm (Hansson and Håkansson 2007). The thresholds applied to daily Rrs \nimages were set at Rrs (555) > 4.25 10−3 sr−1 and Rrs (670) > 1.22 10−3 sr−1 for the \nsubsurface and surface blooms, respectively, as defined in Kahru et al (2007). This Rrs-\nbased approach to detect cyanobacterial blooms allows overcoming the difficulty of \nretrieving accurate Chla values in summer bloom conditions (Hansson and Håkansson \n2007; Brando et al 2021).  \n \nThe chlorophyll dataset of the Baltic Sea MY contain the cyanobacteria summer bloom \nmask variable (CYANOBLOOM), which has the same dimension as the chlorophyll data \nand reports whether the thresholds for the subsurface and surface blooms was \nexceeded on the daily Rrs images. As cyanobacterial blooms are extremely patchy \nand the surface scum is unlikely to totally cover a 1 km resolution pixel, it is possible for \nboth thresholds to be exceeded concurrently. \n \nProduct: OMI_HEALTH_BLOOM_BALTIC_spatiotemporal_coverage \nThis product includes the time series of the total coverage of surface and subsurface \nblooms in summer for the whole basin on annual basis. Following Hansson and \nHåkansson (2007), the cyanobacteria summer bloom mask variable (CYANOBLOOM) \nin the MY regional chlorophyll dataset was aggregated from from June to September \n(i.e., days 161 to 270) of each year for the three possible values (subsurface =1; \nsurface=2, and 3: both subsurface and surface summer blooms detected). Then the \ncumulative maps for every year for the three bloom classes were summarized as a \nspatiotemporal coverage and expressed in day km2.  \nQuality Information Document for Ocean Health Bloom BALTIC \nOceanColour \n© EU Copernicus Marine Service – Public   \nCMEMS-OC-OMI-QUID-BLOOM-BALTIC \nIssue 1.",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the Ocean Health Bloom BALTIC OceanColour product, detailing its evaluation method and data sources.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-OC-OMI-QUID-BLOOM-BALTIC",
+      "name": "Ocean Health Bloom BALTIC OceanColour",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "CYANOBLOOM",
+        "cf_standard_name": null,
+        "long_name": "Cyanobacterial bloom mask variable",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2476,
+  "_tokens_out": 465,
+  "_eval_s": 3.39
+}

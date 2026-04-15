@@ -1,0 +1,67 @@
+{
+  "doc_id": "e5ef8d491b1d3bd0",
+  "legacy_doc_id": "5de981aab682",
+  "filename": "Reports_on_ICON_2020_05.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2020_05.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.63,
+  "pages": 19,
+  "text_preview": "The Tracer Transport Module\nPart I: A Mass Consistent Finite\nVolume Approach with Fractional\nSteps\nDaniel Reinert\nDecember 2020\nMax-Planck-Institut\n für Meteorologie\nIssue\n5 Reports on ICON\nDOI: 10.5676/DWDpub/nwv/icon005\nISSN: 2628-4898\nDOI: 10.5676/DWDpub/nwv/icon005\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRen´e Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nThe Tracer Transport Module Part I Daniel Reinert\nThe Tracer Transport Module\nPart I: A Mass Consistent Finite Volume Approach with\nFractional Steps\nDaniel Reinert\nDeutscher Wetterdienst\nThis document refers to release icon-2.6.0.\nAbstract\nThe tracer transport module of ICON is presented and the consistency with the continuity\nequation for air mass is discussed. The transport module solves the continuity equation\nfor tracer mass and, as such, describes the large-scale transport of gaseous, liquid or solid\natmospheric constituents due to air motion. Finite volume methods are applied and combined\nwith the fractional step approach (operator splitting) in order to derive mathematically\nsimpler subproblems for the horizontal and vertical directions. The mathematical derivation\nof the discretized equation set is presented. Speciﬁc measures are taken in order to achieve\nconsistency with continuity (CWC). These include the reuse of time-averaged mass ﬂuxes\nfrom the discretized air mass continuity equation, as well as the re-integration of the air mass\ncontinuity equation as part of the fractional step approach. Results of an ICON forecast run\nare presented in order to highlight that CWC is maintained, provided that the aforementioned\nmeasures are taken.\nKeywords: transport, continuity equation, ﬁnite volume, fractional steps, consistency with\ncontinuity\nCorrespondence to: Daniel Reinert (daniel.reinert@dwd.de)\n1. Introduction\nThe transport module is an important building block of any numerical weather prediction (NWP)\nor climate model, as it predicts the large-scale redistribution of water substances, chemical\nconstituents or aerosols in the atmosphere due to air motion. Mathematically, it solves one of the\nfundamental laws of physics, namely the equation of tracer mass continuity.\nWhen developing a transport module for the atmosphere one is faced with several, partially\ncontradicting design objectives. One major challenge is posed by the contrasting requirements of\nnumerical accuracy on the one hand and computational eﬃciency (in terms of time-to-solution\nand memory consumption) on the other hand. As the total number of prognostic tracers can reach\nseveral dozen or even exceed 100 if atmospheric chemistry is taken into account, the transport\nmodule can easily become one of the most time consuming parts of a NWP or climate model. A\nReports on ICON - Issue 5 3\nThe Tracer Transport Module Part I Daniel Reinert\npragmatic trade-oﬀ between accuracy and eﬃciency is thus unavoidable. On top of that there\nexist many more important design objectives, such as high parallel eﬃciency, mass conservation,\nconsistency between tracer mass and air mass, or consistency among diﬀerent tracers. See e.g.\nLauritzen et al. (2011b) for an extended list.\nPart I of this report series aims to present the underlying equations in continuous form and to\nprovide an introduction into the numerical discretization and solution procedure based on the\nﬁnite volume approach. We start in Section 2 with a description of the continuous form of the\ntracer mass continuity equation and the connection to its nearest relative, the continuity equation\nfor air mass. Section 3 deals with the cell-integrated form, which forms the basis for ICON’s\nﬁnite volume discretization. This is followed in Section 4 by a description of the basic solution\nprocedure based on fractional steps. Details of the vertical and horizontal transport operators\nwill be presented in Part II and III of this report series.\n2. The Tracer Mass Continuity Equation\nIn mathematical terms, the tracer mass continuity equation is a ﬁrst-order linear hyperbolic\npartial diﬀerential equation with source terms. For an arbitrary species χ it reads in ﬂux form\n∂ρqχ\n∂t +∇· (ρqχ v) = Qρqχ , (1)\nwhere ρ denotes the air density, v is the 3D velocity vector, t is the time,∇· represents a three-\ndimensional ﬂux divergence, and qχ denotes the tracer mass fraction. In ICON, the prognostic\n(moist) air density ρ is the sum of the dry air density ρd, the density of water vapour, and all\ncondensates. Hence, qχ is deﬁned wrt moist air density as follows\nqχ = ρχ\nρ = ρχ∑\nk ρk\n,\nwhere ρχ is th",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the tracer transport module of ICON, focusing on a mass consistent finite volume approach with fractional steps to solve the continuity equation for tracer mass.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON-O",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

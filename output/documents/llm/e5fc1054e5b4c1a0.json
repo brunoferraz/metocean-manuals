@@ -1,0 +1,127 @@
+{
+  "doc_id": "e5fc1054e5b4c1a0",
+  "legacy_doc_id": "e6f641891b98",
+  "filename": "OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 7.22,
+  "pages": 75,
+  "text_preview": "   \n \n \n  \n \nOCEAN COLOUR PRODUCTION CENTRE \nHigh resolution Ocean Colour Product  \n \nOCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201 \nOCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202 \nOCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203 \nOCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204 \nOCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205 \nOCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206 \nOCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207 \nOCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208 \nOCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209 \nOCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210 \nOCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211 \nOCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212 \n \n Issue: 4.0 \nContributors: Dimitry Van der Zande, Kerstin Stelzer, Carole Lebreton, Antoine Dille, Roman Shevchuk, Joao Santos, \nMartin Böttcher, Quinten Vanhellemont, Jorrit Scholze \nApproval date by the CMEMS product quality coordination team: 06/11/2025 \n \n \n  \n\nQUID for HR OC Products \nOCEANCOLOUR_BGC_HR_009_201to212 \nRef: \nDate: \nIssue: \nCMEMS-HR-OC-QUID-009-201to212 \n28 May 2025 \n4.0 \n \n \n                                                      Page 2/ 75 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated, and a row is added to this table.  The \nthird column specifies which sections, or sub -sections have been updated.   The first column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 15.01.\n2021 \nAll Initial version  of the document , EIS \nMay 2021 \nD. Van der Zande, K. \nStelzer, M. Böttcher, \nJ. Santos, Quinten \nVanhellemont, C. \nLebreton, S. Sterckx \nV. Brando and \nE. Böhm \n1.1 10.09.\n2021 \nV Update of noticeable events K. Stelzer V. Brando and \nE. Böhm \n1.2 14.12.\n2021 \nV Update of noticeable events K. Stelzer V. Brando and \nE. Böhm \n1.3 31.03.\n2022 \n Assessment of influence of Sentinel-2 \nMSI A/B production baseline update \n04.00 \nK. Stelzer, A. Dille, D. \nVan der Zande \n \n2.0 16.06.\n2022 \nall  Description of improving flagging \napproach for pixels impacted by cloud \nshadow, bottom reflection  \nupdate of formulas in section III.2.1 \nupdate of noticeable events in section \nV \nK. Stelzer, A. Dille, J. \nScholze, R. \nShevchuk, D. Van \nder Zande \nV. Brando and \nE. Böhm \n3.0 20.11.\n2024 \n Description of Top-of-Atmosphere \nGlint Correction applied to remove \nbanding effects in S2/MSI products \nUpdated validation results with TGC \nresults (fig 19, 20, 21, 22, 23, Table 1, \nTable 7) \nD. Van der Zande, Q. \nVanhellemont, K. \nStelzer, C. Lebreton, \nM. Böttcher \nV. Brando and \nE. Böhm \n4.0 28.05.\n2025 \nII Update of text to reflect the inclusion \nof Sentinel-2C imagery in the \nprocessing chain. \nUpdate text to emphasize the \ntransition of the HROC product format \nfrom UTM tiles to regional mosaic \ncomposites. \nD. Van der Zande, Q. \nVanhellemont, K. \nStelzer, C. Lebreton, \nM. Böttcher \nV. Brando  and \nC. Lapucci \n  \nQUID for HR OC Products \nOCEANCOLOUR_BGC_HR_009_201to212 \nRef: \nDate: \nIssue: \nCMEMS-HR-OC-QUID-009-201to212 \n28 May 2025 \n4.0 \n \n \n                                                      Page 3/ 75 \nACRONYM TABLE \n \nAcronym Description \nAC  Atmospheric Correction \nARC Arctic region \nBAL Baltic region \nBBP  Particulate Backscatter Coefficient \nBC Brockmann Consult \nBLK Black Sea region \nC2RCC Case 2 Regional CoastColour processor \nCHL  Chlorophyll-a concentration \ncRMSD Centre-pattern Root Mean Square Difference \nDINEOF  Data Interpolating Empirical Orthogonal Functions \nEAN Estimated Accuracy Number \nEO  Earth Observation \nEOF Empirical Orthogonal Function \nESA  European Space Agency \nHROC  High Resolution Ocean Colour \nIBI Iberia-Biscay-Ireland \nL2  Level-2 (swath/orbit data) \nL3  Level-3 (single daily snapshot mapped on regular grid) \nL4  Level-4 (time-averaged/interpolated datasets) \nMAPD Median Absolute Percentage Difference \nMED Mediterranean region \n N Number of matchups \nNetCDF Network Common Data Form \nNRT Near Real Time \nNWS North-West Shelf region \nOCTAC Copernicus Marine Service Ocean Colour Thematic Assembly Centre \nP1D Period 1 Day (daily aggregation) \nP1M  Period 1 Month (monthly aggregation) \nQA  Quality Assessment \nQC  Quality Control  \nQI Quality Index \nQUID  Quality Information Document \nPU Production Unit \nPUM Product User Manual \nRBINS Royal Belgian Institute of Natural Sciences \nRMSD  Root Mean Square Difference \nRRS  Remote Sensing Reflectance \nQUID for HR OC Products \nOCEANCOLOUR_BGC_HR_009_201to212 \nRef: \nDate: \nIssue: \nCMEMS-HR-OC-QUID-009-201to212 \n28 May 2025 \n4.0 \n \n \n                                                      Page 4/ 75 \nAcronym Description \nS2-MSI Sentinel-2 MultiSpectral Imager \nS3-OLCI  Sentinel-3 Ocean and Land Colour Instrument  \nSPM  Suspended Particulate Matter \nTGC  Top-of-Atmosphere Glint Correction \nTOA Top of Atmosphere \nTUR  Turbidity \nUTM  Universal Transverse Mercator \nKEY DEFINITIONS \nRemote Sensing \nReflectance (RRS) \nThe ratio of water -leaving radiance to incident down-welling irradiance just \nabove the water surface, measured at specific wavelengths. \nParticulate Backscatter \nCoefficie",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for High Resolution Ocean Colour Products, detailing updates and changes to product quality and processing methods.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201",
+      "name": "High Resolution Ocean Colour Product",
+      "model_name": null,
+      "region": "Arctic, Baltic, Black Sea, Iberia-Biscay-Ireland, Mediterranean",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "CHL",
+        "cf_standard_name": "chlorophyll_a_concentration_in_sea_water",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "BBP",
+        "cf_standard_name": "backscattering_coefficient_of_sea_water_inherent_optical_properties",
+        "long_name": "Particulate Backscatter Coefficient",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SPM",
+        "cf_standard_name": "suspended_sediment_concentration",
+        "long_name": "Suspended Particulate Matter",
+        "unit": "g/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "TUR",
+        "cf_standard_name": "turbidity_in_sea_water",
+        "long_name": "Turbidity",
+        "unit": "NTU",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2982,
+  "_tokens_out": 891,
+  "_eval_s": 6.67
+}

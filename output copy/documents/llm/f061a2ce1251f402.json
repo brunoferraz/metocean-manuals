@@ -1,0 +1,170 @@
+{
+  "doc_id": "f061a2ce1251f402",
+  "legacy_doc_id": "ab4131206e42",
+  "filename": "NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/NWSHELF_ANALYSISFORECAST_PHY_004_013_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 22,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors: J. Tinker, T. Brüning \n \nApproval Date: November 2025 \nAtlantic - European North West Shelf - Ocean Physics \nAnalysis and Forecast Product \n \nNWSHELF_ANALYSISFORECAST_PHY_004_013 \nIssue: 3.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_PHY_004_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-013 \nIssue 3.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2020/08 All \nMerged PUM_004_013 and \n004_014. \nUpdated for Dec 2020 EIS. \nM. Tonani  \n1.1 2021/01 All Updated for May I. Ascione  \n1.2 2021/08 \nII.3 \nand \nII.4 \nDetails on vertical grid and vertical \ninterpolation \nM. Tonani and \nI. Ascione  \n1.3 2022/01 \nII.2 \nand \nII.4 \nUpgrade to GLO-HR boundary \nconditions and new MDT \nA. Saulter and I. \nAscione C. Derval \n2.0 2023/06/16 All \n[EIS September 2023] \nFirst release of the NWS ocean \ncirculation analysis and forecast \nproduct, as an extraction of the IBI \noperational system. \nR. Aznar, A. Amo, \nL. Castrillo, G. \nReffray, R. \nEscudier \nS. Cailleau,  \nM. G. Sotillo \n2.1 2024/05/31 All \n[EIS November 2024] \nNew variables distributed: Detided \nsurface currents and mean sea level, \nand vertical \nvelocity. Forecast horizon increased \nfrom 5 to 10 days. \nR. Aznar, L. \nCastrillo, G. \nReffray, R. \nEscudier \nS. Cailleau,  \nM. G. Sotillo \n3.0 2025/05 All \n[EIS November 2025] \nRe-introduction of the NWS physical \nanalysis and forecasting product by \nthe UK Met Office \nJ. Tinker, T. \nBrüning \nCopernicus \nMarine Product \nManagement \n \n \n \n3 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_PHY_004_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-013 \nIssue 3.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ...................................................................................................................... 2 \nGLOSSARY AND ABBREVIATIONS .................................................................................... 4 \nDATA ACCESS .......................................................................................................................... 6 \n1) INTRODUCTION ........................................................................................................... 7 \na) Summary ........................................................................................................................... 7 \nb) History of changes ............................................................................................................. 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION.......................................... 8 \na) General Information .......................................................................................................... 8 \nb) Production System Description ......................................................................................... 9 \nc) Dataset details ................................................................................................................. 13 \nd) Additional information on some parameters ................................................................... 15 \ne) Processing information .................................................................................................... 16 \nf) Catalogue updating .......................................................................................................... 16 \ng) Time averaging ................................................................................................................ 17 \nh) Product use and impact ................................................................................................... 17 \n3) FILE FORMAT ............................................................................................................. 18 \n4) FILES NOMENCLATURE ......................................................................................... 18 \n4.1)    FILE SIZE ...................................................................................................................... 18 \n4.2)    STRUCTURE AND SEMANTIC OF NetCDF MAP FILES .................................... 19 \n5) REFERENCES .............................................................................................................. 20 \n6) ANNEX ........................................................................................................................... 21 \n \n \n \n4 \nProduct User Manual for NWSHELF_ANALYSISFORECAST_PHY_004_013 \n© EU Copernicus Marine Service – Public   \nCMEMS-NWS-PUM-013 \nIssue 3.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nNWS North-West Shelf \nTAC Thematic Assembly Centre \nGLO  Gl",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for NWSHELF_ANALYSISFORECAST_PHY_004_013, detailing the ocean physics analysis and forecast product provided by MERCATOR OCEAN INTERNATIONAL under the EU Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_ANALYSISFORECAST_PHY_004_013",
+      "name": "Atlantic - European North West Shelf - Ocean Physics Analysis and Forecast Product",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 240
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": null,
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0.0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": null,
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "u_velocity",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v_velocity"
+      },
+      {
+        "native_name": "v_velocity",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "u_velocity"
+      },
+      {
+        "native_name": "detided_surface_currents",
+        "cf_standard_name": null,
+        "long_name": null,
+        "unit": null,
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mean_sea_level",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": null,
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "vertical_velocity",
+        "cf_standard_name": "upward_sea_water_velocity",
+        "long_name": null,
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 49,
+        "lat_max": 62
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": 50,
+      "depth_min_m": 0.0,
+      "depth_max_m": 1000.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2397,
+  "_tokens_out": 1202,
+  "_eval_s": 8.82
+}

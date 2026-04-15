@@ -1,0 +1,113 @@
+{
+  "doc_id": "0fe0be314212f4d5",
+  "legacy_doc_id": "2aeecb4abff8",
+  "filename": "WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.57,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nFor WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004 \n \nIssue: 1.0 \nPRODUCT USER MANUAL \nContributors : Marine De Carlo (CLS), Françoise Mertz (CLS), Romain Husson (CLS), Nicolas Taburet \n(CLS), Elodie Charles (CLS), Jean-Jacques Estimbre (CLS), Malek Ghantous (CLS), Annabelle Ollivier \n(CLS), Patricia Zunino (CLS) \n \nApproval Date: November 2025 \n \n \n \n \n2 Product User Manual for WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004 \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-PUM-014-004 \nIssue 1.0 – May 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/15 All \nNew format of the PUM \nincluding the information of \nthe last version of the  CMEMS-\nWAV-PUM-014-001-002-003-\n004-009-V3. \nEIS November 2025 : Modification \nof Product name  and dataset \nname  \nMarine De Carlo Patricia \nZunino \n      \n      \n \n \n \n3 Product User Manual for WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004 \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-PUM-014-004 \nIssue 1.0 – May 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary.............................................................................................................7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \nb) General Information ..........................................................................................8 \nc) Production System Description ......................................................................10 \nd) Dataset details .................................................................................................10 \ne) Additional information on some parameters ...............................................11 \nf) Processing information ....................................................................................12 \ng) Catalogue updating .......................................................................................12 \nh) Time averaging ................................................................................................12 \ni) Product use and impact .................................................................................12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE .................................................................................... 13 \n4.1)   FILE SIZE ............................................................................................................ 13 \n4.2)   STRUCTURE OF FILES ......................................................................................... 14 \n5) REFERENCES ..................................................................................................... 15 \n6) ANNEX ............................................................................................................. 16 \nStructure and semantic of NetCDF SPC level-4 files ..............................................16 \n  \n \n \n \n4 Product User Manual for WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004 \n© EU Copernicus Marine Service – Public   \nCMEMS-WAV-PUM-014-004 \nIssue 1.0 – May 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nADD Architecture and Design Document \nAL Saral/AltiKa \nC2 Cryosat-2 \nCalVal Calibration/Validation \nCF Climate Forecast (convention for NetCDF) \nCFO CFOSAT \nCLS  Collecte Localisation Satellite \nCMEMS Copernicus Marine Environment Monitoring Service \nDT Delayed Time \nDU Dissemination Unit \nGDR Geophysical Data Record \nGOP Geophysical Ocean Product \nHY-2B Hai Yang 2B \nHY-2C Hai Yang 2C \nIGDR Intermediate Geophysical Data Record \nJ3 Jason-3 \nKPI Key Production Indicator \nL2/L2P/L3/L4 Level 2 / Level 2 Plus / Level 3 / Level 4 \nLRM Low Resolution Mode \nNetCDF Network Common Data Form \nNOP NRT Ocean Product \nNRT  Near Real Time \nOE Orbit Error \nOGDR Operational Geophysical data record \nOLA Operational Level Agreement \nPIT Product Information Table \nPLRM Pseudo LRM \nPQ Product Quality \nPU Production Unit \nPUM Product User Manual \nQUID QUality Information Document \nRMS Root Mean Square \nRPC Remote Protocol Client \nRT Real Time \nS1A Sentinel-1A \nS1B Sentinel-1B \nS3A Sentinel-3A \nS3B Sentinel-3B \nS6A Sentinel-6A \nSAR Synthetic Aperture Radar \nSARIn SAR Interfero",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004, detailing the product specification and usage guidelines for near real-time wave data provided by MERCATOR OCEAN INTERNATIONAL as part of the Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "WAVE_GLO_PHY_SPC-FWK_L4_NRT_014_004",
+      "name": "Near Real Time Wave Product Specification Framework Level-4",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_peak_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2401,
+  "_tokens_out": 704,
+  "_eval_s": 5.08
+}

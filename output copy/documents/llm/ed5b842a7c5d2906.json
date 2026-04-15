@@ -1,0 +1,127 @@
+{
+  "doc_id": "ed5b842a7c5d2906",
+  "legacy_doc_id": "913202da479d",
+  "filename": "halliwell_diapycnal.pdf",
+  "filepath": "docs/hycom_docs/halliwell_diapycnal.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.04,
+  "pages": 6,
+  "text_preview": "Interior Diapycnal Mixing in HYCOM  \n \nBy Rainer Bleck, Shan Sun, George Halliwell, 27 August 2001 \n \n \nGeneral Remarks \n \nThere are three diapycnal mixing algorithms included in HYCOM version 1.0/2.0. When \nHYCOM is run with hybrid vertical coordinates and the Kraus-Turner mixed layer model is \nused, one of two interior diapycnal mixing algorithms must be selected. The first choice is is \nessentially the implicit KPP mixing scheme with the surface boundary layer algorithm stripped \nout, and is presented as model 1 below. The second choice is the explicit MICOM algorithm \nmodified to run with hybrid vertical coordinates, which is presented as model 2 below. When \nHYCOM is run with isopycnic vertical coordinates (MICOM mode), the explicit MICOM \nalgorithm (the one embedded in MICOM 2.8) is used, which is presented as model 3 below. \n \nBoth versions of the explicit model mix only the thermodynamical variables and scalars \ncarried at pressure grid points. The explicit KPP-like model also mixes momentum at u  and v  \ngrid points. \n \nModel 1: Hybrid Coordinate Implicit Algorithm (Interior Mixing From KPP) \n \nThis model consists of the interior ocean part of the KPP vertical mixing algorithm. Model \nvariables are decomposed into mean (denoted by an overbar) and turbulent (denoted by a prime) \ncomponents. Diapycnal diffusivities and viscosity parameterized in the ocean interior as follows: \n '','','', Sm\nSwKwSKwK zzzq\nqq ∂∂∂=−=−=−\n∂∂∂\nvv  (1) \nwhere ( ),, SmKKKq  are the interior diffusivities of potential temperature, salinity (plus other \nscalars), and momentum (viscosity), respectively. Interior diffusivity/viscosity is assumed to \nconsist of three components, which is illustrated here for potential temperature: \n ,swdKKKKqqqq=++  (2) \nwhere sKq  is the contribution of resolved shear instability, wKq  is the contribution of unresolved \nshear instability due to the background internal wave field, and dKq  is the contribution of double \ndiffusion. Only the first two processes contribute to viscosity. \n \nThe contribution of shear instability is parameterized in terms of the gradient Richardson \nnumber calculated at model interfaces: \n \n2\n22 ,g\nNRi\nuv\nzz\n=\n∂∂ +∂∂\n \nwhere mixing is triggered when 0 0.7gRiRi=< . The contribution of shear instability is the same \nfor q  diffusivity, S  diffusivity, and viscosity ( )ssss\nSmKKKK q=== , and is given by \n \n0\n2\n00\n0\n00\n10\n10,\n0\ns\ng\nP\ns\ng\ng\ns\ng\nK RiK\nRiK RiRiKRi\nK RiRiK\n=<\n =−<<  \n=>\n (3) \nwhere 042-15010msK −=× , 0 0.7Ri = , and 3P = . \n \nThe diffusivity that results from unresolved background internal wave shear is given by \n 42-10.110ms.ww\nSKKq\n−==×  (4) \nBased on the analysis of Peters et al. (1988), Large et al. (1994) determined that viscosity due to \nunresolved background internal waves should be an order of magnitude larger, and is thus \nassumed to be \n 42-11.010ms.w\nmK −=×  (5) \n \nRegions where double diffusive processes are important are identified using the double \ndiffusion density ratio: \n ,zR\nS\nz\nr\nqa\nb\n∂\n∂=\n∂\n∂\n (6) \n \nwhere a  and b  are thermal expansion coefficients for temperature and salinity, respectively. \nFor salt fingering (warm, salty water overlying cold, fresh water), salinity/scalar diffusivity is \ngiven by \n \n2\n0\n0\n0\n111.0 1\n0\nP\nd\nS\nf\nd\nS\nf\nRK RRKR\nK RRK\nr\nrr\nr\nrr\n  −=−<<  − \n=≥\n (7) \nand temperature diffusivity is given by \n \n 0.7,dd\nSKKq =  (8) \nwhere 42-11010msfK −=× , 0 1.9Rr = , and 3P = .  For diffusive convection, temperature \ndiffusivity is given by \n ( ){ }10.909exp4.6exp0.541,\ndK Rq\nr\nqn\n−=−−   (9) \nwhere Tn  is the molecular diffusivity of temperature, while salinity/scalar diffusivity is given by \n \n \n( )\n( )\n11.850.850.51\n0.150.5\ndd\nS\ndd\nS\nKKRRR\nKKRR\nqrrr\nqrr\n−=−≤≤\n=<\n (10) \n \nGiven the resulting K  profiles, the vertical diffusion equation is solved using the same \ntechnique as the full KPP mixing scheme. Refer to the document “Solution of the HYCOM \nVertical Diffusion Equation” for more information. Although the full KPP algorithm is a semi-\nimplicit method, only one iteration is necessary for this interior diapycnal-mixing algorithm \nbecause the mixing is so weak. After mixing is performed at the pressure grid points, the \nviscosity coefficients are interpolated to u  and v  grid points, then the momentum components \nare mixed. \n \nModel 2: Hybrid Coordinate Explicit Algorithm \n \nThe explicit diapycnal-mixing algorithm used in MICOM is based on the model of \nMcDougall and Dewar (1998). The central problem in implementing diapycnal mixing in an \nisopycnic coordinate model is to exchange potential temperature ( )q , salinity ( )S , and mass \n(layer thickness, expressed as /p r∂∂ ) between model layers while preserving the isopycnic \nreference density in each layer, at the same time satisfying the following conservation laws: \n pF\nttpp\nq\nr\nqrq\nr\n∂∂∂∂∂ +=− ∂∂∂∂∂ \n (11) \n SSpSF\nttppr\nr\nr\n∂∂∂∂∂ +=− ∂∂∂∂∂ \n (12) \n 0.pp\ntt r\nr\nrrr\n∂∂∂∂∂ +=∂∂∂∂∂\n (13) \nThe ex",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes two diapycnal mixing algorithms included in HYCOM version 1.0/2.0, detailing their implementation and parameters for both hybrid vertical coordinates and isopycnic vertical coordinates.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "q",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential temperature of sea water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "S",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity of sea water",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "v",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "X component of sea water velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "u"
+      },
+      {
+        "native_name": "u",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": "Y component of sea water velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v"
+      }
+    ],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "hybrid | isopycnic",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "null",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2988,
+  "_tokens_out": 801,
+  "_eval_s": 6.01
+}

@@ -1,0 +1,82 @@
+{
+  "doc_id": "8226eb80a84574ce",
+  "legacy_doc_id": "fa9f3cb801db",
+  "filename": "Reports_on_ICON_2019_02.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2019_02.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.46,
+  "pages": 7,
+  "text_preview": "Calculation of Potential Vorticity on\nthe ICON Grid\nTobias Selz\nApril 2019\nMax-Planck-Institut\n für Meteorologie\nIssue\n002 Reports on ICON\nDOI: 10.5676/DWDpub/nwv/icon002\nISSN: 2628-4898\nDOI: 10.5676/DWDpub/nwv/icon002\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRen´e Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nPotential Vorticity Tobias Selz\nCalculation of Potential Vorticity on the ICON Grid\nTobias Selz\nLudwig-Maximilians-Universit¨ at M¨ unchen\nAbstract\nThis article describes the calculation of Potential Vorticity (PV) on the ICON grid. The\nalgorithm has been implemented into the model and the PV is available as output variable on\nmodel-, pressure-, height-, and isentropic surfaces.\nKeywords: Potential Vorticity\nCorrespondence to: Tobias Selz (tobias.selz@lmu.de)\n1. Introduction\nPotential vorticity (PV) is deﬁned according to Ertel (1942) by\nPV = 1\nρ (∇× va)·∇θ,\nwith the air density ρ, the three-dimensional absolute wind va and the potential temperature θ.\nThe absolute wind is deﬁnded as the sum of the wind relative to the rotating earth, v = (u,v,w )\nand the velocity of the rotation itself,vr = Ω×r. With the Coriolis parameterf =∇×(Ω×r) = 2Ω\nthe PV can be written as\nPV = 1\nρ (∇× v + f)·∇θ. (1)\nTo derive a numerical method to calculate PV on the ICON grid, equation (1) will be transformed\nto spherical coordinates, locally rotated to the edge-coordinate system of the grid and ﬁnally\ntransformed to a generalized vertical coordinate system. The resulting equation can then be used\nfor discretisation with already implemented standard ICON methods.\nReports on ICON - Issue 002 3\nPotential Vorticity Tobias Selz\n2. Spherical coordinates\nFollowing Vallis (2006), the curl of a vector ﬁeld B in geographic spherical coordinates can be\nwritten as\n∇× B =\n(\n∂yBz−∂zBy− By\nre +z\n)\nx\n+\n(\n∂zBx−∂xBz + Bx\nre +z\n)\ny\n+\n(\n∂xBy−∂yBx + tanϑ\nre +zBx\n)\nz,\nwhere the latitude ϑ, the longitude φ and the distance to the earth midpoint r have already been\nreplaced with the usual local-cartesian coordinates x =rφ cosϑ, y =rϑ and z =r−re, with the\nearth radius re. With this, the PV on the sphere is given by\nρ PV =\n\n\n∂yw−∂zv− v\nre +z +fx\n∂zu−∂xw + u\nre +z +fy\n∂xv−∂yu + u tanϑ\nre +z +fz\n\n\n·\n\n\n∂xθ\n∂yθ\n∂zθ\n\n. (2)\n3. Local rotation to edge coordinate system\nAt the edge midpoints on the ICON grid, an orthogonal coordinate system is deﬁned by the vector\nn, pointing normal to the edge, the vector t, pointing tangential to the edge and the vertical\ndirection k, with t× n = k and k pointing away from the earth midpoint. The horizontal part of\nthe scalar product in (2) is invariant under a rotation of the coordinate system around the z-axis.\nIn addition, the vorticity can equally be expressed in such a rotated coordinate system. Thus\nwith y→n and x→t the PV equation can be rewritten as\nρ PV =\n\n\n∂nw−∂zvn− vn\nre+z +ft\n∂zvt−∂tw + vt\nre+z +fn\n∂tvn−∂nvt + u tanϑ\nre+z +fz\n\n·\n\n\n∂tθ\n∂nθ\n∂zθ\n\n.\n4. Generalized vertical coordinate\nThe ﬁnal step is to transform PV to the models vertical coordinate, h : (t,n,η )→ (t,n,z ), with\nz =z(t,n,η ). The Jacobian D of this transformation reads\nDh = ∂(t,n,z )\n∂(t,n,η ) =\n\n\n1 0 0\n0 1 0\n∂z\n∂t\n∂z\n∂n\n∂z\n∂η\n\n.\n4 Reports on ICON - Issue 002\nPotential Vorticity Tobias Selz\nFigure 1: Example of a PV ﬁeld on 300 hPa on a native R2B4-grid.\nLet now gη be a scalar ﬁeld, expressed in the ( t,n,η )-coordinates and gz be the same scalar ﬁeld,\nexpressed in (t,n,z )-coordinates. Then gη =gz◦h and\nDgη = (Dgz)· (Dh),\nwhich leads to\n∂gz\n∂t = ∂gη\n∂t − ∂gη\n∂η\n∂z\n∂t\n(\n∂z\n∂η\n)−1\n∂gz\n∂n = ∂gη\n∂n − ∂gη\n∂η\n∂z\n∂n\n(\n∂z\n∂η\n)−1\n∂gz\n∂z = ∂gη\n∂η\n(\n∂z\n∂η\n)−1\n.\nWith the shortcut γ =∂z/∂η this gives us the equation for PV in the model coordinate system:\nρ PV =\n\n\n∂nw + ∂nz\nγ ∂ηw + 1\nγ∂ηvn− vn\nre+z +ft\n− 1\nγ∂ηvt−∂tw− ∂tz\nγ ∂ηw + vt\nre+z +fn\n∂tvn−∂nvt + u tanϑ\nre+z + ∂tz\nγ ∂ηvn− ∂nz\nγ ∂ηvt +fz\n\n·\n\n\n∂tθ + ∂tz\nγ ∂ηθ\n∂nθ + ∂nz\nγ ∂ηθ\n− 1\nγ∂ηθ\n\n.\nNote that the wind vector (vt,vn,w ) in the model is still expressed in the original ( t,n,z )-system,\nwhich implies that the wind components have to be treated as scalar ﬁelds.\n5. Implementation\nThe calculation of the PV is done in the subroutine compute field pv which is deﬁned in the ﬁle\nmo util phys.f90. Regardless of the setting for the dynamical core the PV calculation makes\nReports on ICON - Issue 002 5",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper describes the calculation of Potential Vorticity (PV) on the ICON grid, detailing the algorithm's implementation and its availability as an output variable in various model configurations.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ICON Model Documentation",
+      "model_name": "ICON-O",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Potential Vorticity",
+        "cf_standard_name": "atmosphere_potential_vorticity",
+        "long_name": "Potential vorticity calculated on the ICON grid",
+        "unit": "m^2 s^-1 K^-1 kg^-1",
+        "physical_quantity": "vorticity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "icosahedral",
+      "horizontal_resolution": "R2B4",
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "pressure | height | isentropic",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

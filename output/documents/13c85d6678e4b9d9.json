@@ -1,0 +1,68 @@
+{
+  "doc_id": "13c85d6678e4b9d9",
+  "legacy_doc_id": "77fd2d0de0ab",
+  "filename": "Reports_on_ICON_2024_11.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2024_11.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.09,
+  "pages": 14,
+  "text_preview": "CAMS 3D climatology and\nforecasted aerosols as an option in\necRAD radiation in ICON\nHarel Muskatel, Daniel Rieger, Pavel Khain, and\nMartin Köhler\nAugust 2024\nMax-Planck-Institut\n für Meteorologie\nIssue\n011 Reports on ICON\nDOI: 10.5676/DWD_pub/nwv/icon_011\nISSN: 2628-4898\nDOI: 10.5676/DWD_pub/nwv/icon_011\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 Oﬀenbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRené Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nflorian.prill@dwd.de\nCAMS Aerosols in ICON H. Muskatel et al.\nCAMS 3D climatology and forecasted aerosols as new options in\necRAD radiation\nHarel Muskatel (1), Daniel Rieger (2), Pavel Khain (1), Martin Köhler (2)\n(1) Israel Meteorological Service,\n(2) Deutscher Wetterdienst\nThis document refers to release icon-2024-07.\nAbstract\nThe Copernicus Atmosphere Monitoring Service (CAMS) 3D climatology and forecasted\naerosols are now implemented in ICON model as an input to the ecRAD radiation scheme.\nFor more than a decade CAMS model was used as a reliable source of air quality forecasting\nsystem around the globe. These kinds of models require huge computational resources. Using\ntheir products as an “offline” model is a reasonable intermediate solution between the costly\nfully-coupled aerosol model and the cheaper aerosols climatology. These forecasted aerosols\nare interpolated in space and time and treated as a background to the radiation scheme (no\ninternal advection inside ICON). The second option which is now implemented in ICON, is the\nCAMS 3D climatology. It has several advantages over the Tegen 2D climatology as explained\nin the introduction. This report contains the description of how to run ICON using each of\nthe new developments: the 3D CAMS climatology (irad_aero = 7) and the CAMS forecasted\naerosols (irad_aero = 8).\nKeywords: Aerosols, Radiation\nCorrespondence to: Harel Muskatel(muskatelh@ims.gov.il)\n1. Introduction\nAerosols in the atmosphere have a significant impact on weather and climate. They directly\ninteract with both incoming solar radiation and outgoing thermal radiation through absorption\nand scattering. Furthermore, they are necessary for cloud formation which effects not only the\nradiative fluxes but also precipitation and other atmospheric processes. The direct effect on\nradiation can be easily seen in dust outbreaks and volcanic ash eruptions, but even on regular\nconditions aerosols concentration can have large day-to-day variability imposing significant errors\nwhen climatological averages are used. For many years, many NWP models including ICON\n(Zängl et al., 2015), used the Tegen 2D monthly climatology (Tegen et al., 1997). In this dataset,\nthe total column AOD of five generalized species of aerosols is available for one wavelength (550\nnm). This single number is used to evaluate the optical properties at each vertical level assuming\nsome exponential vertical density profile. Correction factors are then used to calculate these\nproperties to other model’s spectral intervals. These assumptions (i.e. constant size distr. and\nReports on ICON - Issue 011 3\nCAMS Aerosols in ICON H. Muskatel et al.\nchemical composition, no hygroscopical growth) are not needed when using the CAMS 3D aerosols.\nThe Copernicus Atmosphere Monitoring Service (CAMS) is an ECMWF project, which provides\nglobal air quality analysis and forecast including aerosols and other tracers (Morcrette et al.,\n2009). The model is based on IFS and has a coarser spatial resolution but with the same vertical\nresolution (137 levels). The output forecast lead time is 5 days with a 3-hours temporal resolution.\n3D mixing ratios of 11 aerosols tracers are calculated: 3 size bins of mineral dust, 3 size bins of\nsea salt, sulphate, hydrophobic and hydrophilic tracers of both black carbon and organic matter.\nThe optical properties were pre-calculated by ECMWF for all ecRAD’s thirty spectral intervals.\nAnother advantage is that the optical properties for the hydrophilic aerosols are relative-humidity\ndependent. CAMS climatology (A. Bozzo et al., 2017) is based on the reanalysis (2003-2014) of\nCAMS model for the mentioned aerosol species in a 60-levels vertical resolution. In this case,\nthe vertical profiles are a result of actual dynamics resulting a monthly climatology of aerosols\nprofiles (A. Bozzo et al., 2017). The dataset contains monthly averages of layer integrated mass\nfrom which the 3D mixing ratios are calculated and used as an input to ecRAD scheme.\nWe performed several tests using both schemes in regional and global scales and the direct effect\non radiation was evaluated with positive results. In ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the implementation of CAMS 3D climatology and forecasted aerosols as new options in the ecRAD radiation scheme within the ICON model, providing a detailed description of how to run ICON using these developments.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON",
+      "region": null,
+      "product_types": [
+        "forecast",
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

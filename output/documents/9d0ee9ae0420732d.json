@@ -1,0 +1,82 @@
+{
+  "doc_id": "9d0ee9ae0420732d",
+  "legacy_doc_id": "168bbd170974",
+  "filename": "BLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 9,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Álvaro de Pascual Collar, Marcos García, Marta de Alfonso, Begoña \nPérez Gómez, Enrique Alvarez. \n \nApproval Date : NOVEMBER 2025 \n \nFor SEASTATE significant wave height  \nextreme variability \nBLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nMEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \n \n Issue: 1.2 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 \nQuality Information Document for \nBLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nMEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \n© EU Copernicus Marine Service – Public   \nOMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIssue 1.2 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2019/10/17 All Initial version Álvaro de \nPascual Collar \nMarcos \nGarcía \n1.1 2020/04/15  Minor modifications related to the \nfirst review of the product \nÁlvaro de \nPascual Collar  \n1.2 2025/09/15 All \nUpdate of the upstream products \nused and the links to \ndocumentation. \nRedrafting of Section 2: Scientific \nValidation. \nÁlvaro de \nPascual Collar \nCopernicus \nMarine \nProduct \nManagement \n \n \n \n3 \nQuality Information Document for \nBLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nMEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \n© EU Copernicus Marine Service – Public   \nOMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIssue 1.2 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \n2) SCIENTIFIC VALIDATION  .................................................................................. 7 \n3) REFERENCES ....................................................................................................... 9 \n  \n \n \n \n4 \nQuality Information Document for \nBLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nMEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \n© EU Copernicus Marine Service – Public   \nOMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIssue 1.2 – November 2025 \n1) INTRODUCTION \na) Product Name  \nBLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nIBI_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nMEDSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly \nb) Indicator Evaluation Method \nThe SEASTATE significant wave height extreme variability indicators are based on the \ncomputation of the 99th percentile - which represents approximately the highest 1% of \nsignificant wave height (SWH) values  - derived from model  outputs. This approach \nfollows the methodology applied by Woodworth and Blackman (2004) for extreme \nsea level analysis and is used to detect changes in the frequency distribution of the \nvariable of interest. \n \nAll data used for the computation of the extre me variability indicators were obtained \nfrom the Copernicus Marine Environment Monitoring Service (CMEMS). The analysis is \nperformed on SWH data for three CMEMS regions: the Black Sea (BLKSEA), Iberia -\nBiscay-Ireland (IBI), and the Mediterranean Sea (MEDSEA ). For each region, the \nanalysis combines information from both Multi -Year Products (MYP) and Near Real -\nTime (NRT) Analysis Products. \n \nThe following table summarizes the CMEMS products used for the analysis for each \nregion. \n \nBlack Sea \n(BLKSEA) \nMYP CMEMS product BLKSEA_MULTIYEAR_WAV_007_006 \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-\nBLK-PUM-007-006.pdf \nQUID: \nhttps://documentation.marine.copernicus.eu/QUID/CMEMS-\nBLK-QUID-007-006.pdf \nNRT CMEMS product BLKSEA_ANALYSISFORECAST_WAV_007_003  \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-\nBLK-PUM-007-003.pdf \nQUID: \nhttps://documentation.marine.copernicus.eu/QUID/CMEMS-\nBLK-QUID-007-006.pdf \nIberia-Biscay-\nIreland \nMYP CMEMS product IBI_MULTIYEAR_WAV_005_006 \nPUM: \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-\n \n \n \n5 \nQuality Information Documen",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for SEASTATE significant wave height extreme variability indicators, focusing on the Black Sea, Iberia-Biscay-Ireland, and Mediterranean Sea regions using Copernicus Marine Environment Monitoring Service (CMEMS) data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_OMI_SEASTATE_extreme_var_swh_mean_and_anomaly",
+      "name": null,
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Black Sea, Iberia-Biscay-Ireland, Mediterranean Sea",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "swh",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

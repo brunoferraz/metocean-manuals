@@ -1,0 +1,67 @@
+{
+  "doc_id": "ab89c47f574cd452",
+  "legacy_doc_id": "267e945722d0",
+  "filename": "halliwell_hybrid.pdf",
+  "filepath": "docs/hycom_docs/halliwell_hybrid.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.12,
+  "pages": 6,
+  "text_preview": "Hybrid Vertical Coordinate Grid Generator  \n \nBleck (2002) describes the hybrid vertical coordinate grid generator along with its initial \nimplementation in a global version of HYCOM. The following description also describes the \nsubstantial modification to this algorithm that has occurred since then. \n \n1. Vertical Coordinate Adjustment in the Open Ocean \n \nThe algorithm controlling the transition between isopycnic and level ( p ) coordinates in the \nopen ocean works as follows: Consider three consecutive isopycnic layers labeled 0, 1, and 2 in a \nstratified water column where the user has set the minimum thicknesses to 0d , 1d , and 2d , \nrespectively. Suppose that specific volume 1a  differs from its isopycnic reference value µ1a . To \nrestore isopycnic conditions, it is necessary to re-discretize the water column in a manner that \npreserves the overall height of the column, represented by the integral dpa∫ , while changing 1a  \nto µ1a . Conservation of the integral requires that one or more layer interfaces must be relocated to \ndifferent pressure levels. If layer 1 is too dense ( µ11aa< ), the upper interface is moved upward to \ntransfer less-dense water from layer 0 to layer 1. If layer 1 is too light ( µ11aa> ), the lower \ninterface is moved downward to transfer denser water from layer 2 to layer 1. This method does \nnot work for the model layer in contact with the bottom if it is too light. A special algorithm \ndescribed below is included to handle this case by extruding water into the layer above. \nThe two cases µ11aa<  and µ11aa>  are discussed separately. For the first case where the layer \nis too dense ( µ11aa< ), the upper interface is moved upward and mass is exchanged between \nlayers 0 and 1. Conservation of dpa∫  requires that the upper interface be moved to the new \npressure interface \n µ µ\nµ\n110121\n1\n10\n()()\n.ppp aaaa\naa\n−+−=\n−\n (1) \nSince the weight assigned to 2p  is negative, (1) will not necessarily yield a solution µ 01pp>  for \nlarge differences between 1a  and µ1a . This is no problem because the minimum thickness \nconstraint is applied to layer 0 by replacing µ1p  by \n ° µ12100min,max(,),pppp =+Δ   (2) \nwhere 0Δ  is a specified minimum layer thickness. Of course, moving the interface to °p  instead \nof µp  no longer permits isopycnic conditions to be restored. \nFollowing Bleck and Benjamin (1993), the user chooses the absolute minimum thickness 0d . \nThe actual minimum thickness 0Δ  is then calculated in a manner that insures a smooth transition \nbetween the isopycnic and non-isopycnic domains. The function 0D  is determined by a \ncontinuously differentiable “cushion” function, which for large positive arguments µ10pppΔ≡−  \nreturns the argument pΔ (meaning that ° µ11pp= ) and for large negative arguments returns 0d : \n \nomin\n0\n2\n0\n0minmax\nmax000\n                                                         if            \n11  if       \n                          p     \nab\np q\nppp CCqqq\nd\nd\nd\nddd\nΔ ≤\n  ΔΔΔΔ=+−<<   \nΔ max\n0\n,\n                          if            p qd\n\n\n\n\n\n Δ ≥\n (3) \nwhere the constants are given by \n ( )\n( )\n2\nminmax 1\nmin2\nmaxmin\n1\n,.ab\nqq\nCCq\nqq\n--\n==\n-\n (4) \nThe limits minq  and maxq  control the width of the transition zone between isopycnic and z  \ncoordinates, and are set to default values of min 2q =-  and max 4q = . When the upper interface \nmust be raised, lighter water is entrained to increase 1a  to a value °1a : \n ° °\n°\n12101 11\n2 1\n()()\n.pppp\npp\naaa −+−=\n−\n (5) \nHowever, application of the minimum thickness requirement can make it necessary for the upper \ninterface to be lowered ( ° 11pp > ) and thus modify layer 0. Conservation of dpa∫  then leads to \n ° °\n°\n1001010\n01\n()()\n.pppp\npp\naaa −+−=\n−\n (6) \nThe preservation of minimum layer thickness by increasing the thickness of layer 0 always \noverrides attempts to restore isopycnic conditions. \nFor the second case where layer 1 is too light ( µ11aa> ), the lower interface is moved \ndownward and mass from layer 2 is entrained into layer 1. Conservation of dpa∫  yields the new \npressure level to which the interface must be relocated: \n µ µ\nµ\n111212\n2\n1 2\n()()\n.ppp aaaa\naa\n−+−=\n−\n (7) \nTo maintain the minimum thickness of layer 2 µ 2p  is replaced by \n ° µ2232 min(,),ppp=−Δ  (8) \nwhere 2Δ  is determined from the cushion function \n              \n2min\n2\n2\n2\n2minmax\nmax222\n                                                         if            \n11  if       \n                          p     \nab\np q\nppp CCqqq\nd d\nd\nddd\nΔ ≤\n  ΔΔΔΔ=+−<<    \nΔ max\n2\n.\n                          if            p qd\n\n\n\n\n\n Δ ≥\n (9) \nwith µ3 2pppΔ≡− . The following additional limitations are imposed on 2p% : \n ( ) ( )[ ]{ }111123222 minmax,,max/2,.ppppppp dd=+-+-%%  (10) \nIf layer 1 is the deepest layer with nonzero thickness and it is too light, interface 2 cannot \nmove downward to restore isopycnic conditions and a special algori",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the hybrid vertical coordinate grid generator and its modifications for ocean models, focusing on the algorithm that controls the transition between isopycnic and level coordinates in the open ocean.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": "null",
+      "crs": "null",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "hybrid",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

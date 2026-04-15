@@ -1,0 +1,114 @@
+{
+  "doc_id": "c58e7867987ea89a",
+  "legacy_doc_id": "b24cbadd2507",
+  "filename": "NWSHELF_ANALYSISFORECAST_WAV_004_014_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/NWSHELF_ANALYSISFORECAST_WAV_004_014_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.29,
+  "pages": 41,
+  "text_preview": "13  \n  \nNorth West European Shelf Production Centre  \nNWSHELF_ANLYSIS_FORECAST_WAV_004_014  \n \n \n \n Issue: 4.0 \nContributors: Christopher Stokes, Andy Saulter, Richard Davies, Jonathan Tinker \nApproval date by the CMEMS product quality coordination team: 13/11/2025 \n \n \n \n \n  \n \n\nProducts \nNWSHELF_ANALYSIS_FORECAST_WAV_004_014 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-014 \n22 May 2025 \n4.0 \n \n                                                      Page 2/ 41 \nCHANGE RECORD \n \nWhen the quality of the products changes, the Quality Information Document (QuID) is updated, and a \nrow is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document . Column 5 should include the names of the author (s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means th e \ndocument was checked for contents, formats and consistency with other documents. \n \nIssue Date § Description of Change Author Validated By \n1.0 12/09/2018  Preliminary Draft Andy Saulter Marina Tonani \n1.0 30/11/2018  Release Document Andy Saulter CMEMS PQ Coordination \nTeam \n1.1 28/08/2020  Science Update – \nCoupled Ocean-Wave \nModel \nAndy Saulter Marina Tonani, Nieves \nValiente \n2.0  31/07/2023   [EIS September 2023] \nComplete system update \nimplying change of the \nmodelling system \nconfiguration and \nresolution.  \nStefania Ciliberti, \nCristina \nToledano, Lotfi \nAouf, Alice \nDalphinet, \nRoland Aznar  \nSylvain Cailleau and Marcos \nGarcia Sotillo  \n3.0  30/08/2024   [EIS November 2024] \nNew product at 1/36° \nresolution  \nB. Gomez, L. \nAouf, A. \nDalphinet, A. \nAlonso, S. \nCiliberti  \nS. Cailleau, M. G. Sotillo  \n4.0 22/05/2025  [EIS November 2025] \nRe-entry into service of \nMet Office coupled \nwave-physics analysis \nforecast system \nChristopher \nStokes, Andy \nSaulter, Richard \nDavies, Jonathan \nTinker \nChristine Pequignet  and \nThorger Brüning \n \n \n  \nProducts \nNWSHELF_ANALYSIS_FORECAST_WAV_004_014 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-014 \n22 May 2025 \n4.0 \n \n                                                      Page 3/ 41 \nACRONYM TABLE \nAcronym  Description  \nAMM15 Atlantic Margin Model, 1.5 km resolution \nEAN  Estimated Accuracy Number  \nIBI Iberia-Biscay-Ireland \nMFC Copernicus Marine Service Monitoring and Forecasting Centre \nMY  Multi-year  \nNRT  Near Real Time  \nNWS North West Shelf \nTAC  Copernicus Marine Service Thematic Assembly Centre  \nWAV Wave product \nWWIII Wavewatch 3 wave model \n \nProducts \nNWSHELF_ANALYSIS_FORECAST_WAV_004_014 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-014 \n22 May 2025 \n4.0 \n \n                                                      Page 4/ 41 \nKEY DEFINITIONS  \nAnalysis Incorporation of an observation data assimilation step  to a model \nprediction system in order to achieve an optimal estimate of the true state \nof the atmospheric or marine system at a given point in time.  \nAverage zero -upcrossing \nperiod  \n(model VTM02) \nAverage time interval between consecutive waves as they cross the mean \nsea level in an upward direction. \nAverage wave direction  \n(model VMDR) \nAverage direction of wave approach in a given sea state. \nCoastal Waters Approximately 5  km or less from the coastline and where bathymetric \nvariability is less than a kilometre in scale. \nForecast A simulation that uses a numerical model to predict a future \nperiod (typically days-weeks in the future) \nHindcast A simulation that uses a numerical model to recreate a historical \nperiod (typically days-decades in the past) \nMatch-up Co-location in space and time between a model prediction and a real-world \nmeasurement. \nOpen Waters Approximately 5 km or more from the coastline and where bathymetric \nvariability is on the scale of a kilometre or greater. \nPeak wave period  \n(model VTPK) \nInterval in seconds between wave crests associated with the peak wave \nenergy frequency. \nSignificant wave height \n(model VHM0) \nAverage height of the largest 1/3rd of waves in a given sea state. Computed \nusing sea surface elevations (four times the standard deviation of the \nsurface elevation) or from the zeroth-order moment of the wave spectrum \nfrom a wave model. \n  \nProducts \nNWSHELF_ANALYSIS_FORECAST_WAV_004_014 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-014 \n22 May 2025 \n4.0 \n \n                                                      Page 5/ 41 \nRELEVANT DOCUMENT LIST  \n  \nRef  Title  Version  \nCMEMS-NWS-PUM-004-014  Product User Manual for the corresponding product \nNWSHELF_ANALYSISFORECAST_WAV_004_014. \n3.0 \nCMEMS-NWS-PUM-004-013  Product User Manual for  equivalent NWS physical  \nproduct \nNWSHELF_ANALYSISFORECAST_PHY_004_013  which \nuses the same bathymetry and domain as the WWIII-\nAMM15 configuration described in this document. \n3.0 \nCMEMS-NWS-QUID-004-013 Quality Information Document for  the equivalent \nNWS physical  product \nNWSHEL",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QuID) for the NWSHELF_ANALYSIS_FORECAST_WAV_004_014 product, detailing its history of changes and key definitions related to wave products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_ANALYSISFORECAST_WAV_004_014",
+      "name": "North West European Shelf Wave Analysis and Forecast",
+      "model_name": "WWIII-AMM15",
+      "region": "Atlantic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_peak_period",
+        "long_name": "Peak wave period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Average wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1/36°",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10.0,
+        "lon_max": 5.0,
+        "lat_min": 49.0,
+        "lat_max": 62.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2710,
+  "_tokens_out": 741,
+  "_eval_s": 5.75
+}

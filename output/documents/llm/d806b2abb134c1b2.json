@@ -1,0 +1,127 @@
+{
+  "doc_id": "d806b2abb134c1b2",
+  "legacy_doc_id": "63a59915ef5c",
+  "filename": "GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_MULTIYEAR_WAV_001_032_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 7.77,
+  "pages": 65,
+  "text_preview": " \n  \nGlobal High Resolution Production Centre \nGLOBAL_MULTIYEAR_WAV_001_032 \n \n \n Issue: 1.5 \nContributors: S. Law Chune, L. Aouf, B. Levier and A. Dalphinet \nApproval date by the CMEMS product quality coordination team: 25/10/2024 \n \n \n \n \n  \n \n\nQUID for GLO MFC Products \nGLOBAL_MULTIYEAR_WAV_001_032 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-032 \n31 May 2024 \n1.5 \n \n \n                                                      Page 2/ 65 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 August \n2019 \nAll Creation of the \ndocument \nStéphane LAW-\nCHUNE  \nMercator Ocean \n1.2 March 2020 All  Quality improvement \nwith V1.1 \nStéphane LAW-\nCHUNE \nMercator Ocean \n1.3 July 2021 All 2020 Time extension Stéphane LAW-\nCHUNE \n Mercator Ocean  \n1.4 July 2023 All Interim + 2022 Time \nextension  \nStéphane LAW-\nCHUNE \n Marie Drevillon (PQ \nLeader) \n1.5 June 2024  All  1980 backward \nextension \nStéphane LAW-\nCHUNE \nO. Le Galloudec \n \n \n \n \n \n  \nQUID for GLO MFC Products \nGLOBAL_MULTIYEAR_WAV_001_032 \nRef: \nDate: \nIssue: \nCMEMS-GLO-QUID-001-032 \n31 May 2024 \n1.5 \n \n \n                                                      Page 3/ 65 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 5 \nI.1 Products covered by this document ........................................................................................................... 5 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nIII Validation framework ................................................................................................................................. 9 \nIV Validation Results ..................................................................................................................................... 12 \nIV.1 Significant wave height (SWH) .......................................................................................................... 12 \nIV.1.1 Large scale and open ocean validation: comparison to HY-2A altimeter ...................................... 12 \nIV.1.2 Coastal and in-situ validation: comparison to CMEMS in situ data ............................................... 19 \nIV.1.3 Inter-annual consistency: comparison to ERA5 wave climatology ................................................ 27 \nIV.2 Peak wave period (PWP) .................................................................................................................. 28 \nIV.2.1 Coastal and in-situ validation: comparison to CMEMS in situ data ............................................... 28 \nIV.2.2 Inter-annual consistency: comparison to ERA5 wave climatology ................................................ 35 \nIV.3 Mean wave period ........................................................................................................................... 36 \nIV.3.1 Coastal and in-situ validation: comparison to CMEMS in situ data ............................................... 36 \nIV.4 Mean wave direction (MWD) ........................................................................................................... 39 \nIV.4.1 Coastal and in-situ validation: comparison to CMEMS in situ data ............................................... 39 \nIV.4.2 Inter-annual consistency: comparison to ERA5 wave climatology ................................................ 44 \nIV.5 Wave rose diagram........................................................................................................................... 44 \nV System’s Noticeable events, outages or changes ...................................................................................... 47 \nVI Quality changes since previous version ..................................................................................................... 48 \nVI.1 Version 1.1: 2019 time extension + bug fix (EIS 2020) ............................................................................ 48 \nVI.1.1 Correction of biases caused by the first altimetry missions .......................................................... 48 \nVI.1.2 Correction of assimilation for some altimetry missions ................................................................ 48 \nVI.1.3 Correction for first swell period ........................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the GLOBAL_MULTIYEAR_WAV_001_032 product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Mercator Ocean"
+    },
+    "product_line": {
+      "product_id": "GLOBAL_MULTIYEAR_WAV_001_032",
+      "name": "Global Multi-Year Wave Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "PWP",
+        "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_density_maximum",
+        "long_name": "Peak Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "MWP",
+        "cf_standard_name": "sea_surface_wave_mean_period",
+        "long_name": "Mean Wave Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "MWD",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Mean Wave Direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2198,
+  "_tokens_out": 830,
+  "_eval_s": 6.02
+}

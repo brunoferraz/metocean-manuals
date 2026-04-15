@@ -1,0 +1,82 @@
+{
+  "doc_id": "160e322930243090",
+  "legacy_doc_id": "783837679981",
+  "filename": "ANTARCTIC_OMI_SI_extent_obs_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/ANTARCTIC_OMI_SI_extent_obs_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.5,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \nPRODUCT USER MANUAL \n \nOMI_SI \nANTARCTIC_OMI_SI_extent_obs \n \nIssue 2.2 \n \n \nContributors: T. Lavergne \nApproval Date: June June 20202023 \n \n \n2 \n \nCopernicus Marine Service Product User \nManual for \nANTARCTIC_OMI_SI_extent_obs \nIssue : 3.0 \n2023/06/20 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-SI-extent-ant-obs \nChange Record \n \nIssue Date § Description of \nChange Author Validated By \n1.0 25.01.2018 all Creation of the \ndocument \nThomas Lavergne Cecilie Wettre \n2.0 12.04.2019 All Revision for \nextension to 2018, \nand using OSISAF \nproducts OSI-450 \nand OSI-430-b as \nsource. \nThomas Lavergne Cecilie Wettre \n2.1 28.04.2020 All Revision for \nextension to 2019 \nT. Lavergne C. Wettre \n2.2 20.06.2023 All Revision for 2023 \nrelease, use OSI \nSAF OSI-420 v2.2 \nas source \nT. Lavergne C. Wettre \n \n \n \n  \n3 \n \nCopernicus Marine Service Product User \nManual for \nANTARCTIC_OMI_SI_extent_obs \nIssue : 3.0 \n2023/06/20 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-SI-extent-ant-obs \n \nTable of Content \nGLOSSARY AND ABBREVIATIONS ............................................................................. 4 \n INTRODUCTION ................................................................................................... 5 \nI.1. SUMMARY ..................................................................................................... 5 \n THE OSI SAF OSI-420 SEA ICE INDEX ....................................................... 5 \n THE COPERNICUS MARINE OMI SEA ICE EXTENT ..................................... 5 \nI.2. HISTORY OF CHANGE .................................................................................. 6 \n DESCRIPTION OF THE PRODUCT SPECIFICATION .............................................. 6 \nII.1. GENERAL INFORMATION ABOUT PRODUCTS .............................................. 6 \nII.2. CLIMATOLOGY PERIOD ............................................................................... 6 \nII.3. DETAILS OF THE DATASETS............................................................................ 6 \n ANTARCTIC_OMI_SI_EXTENT_OBS ........................................................ 7 \nII.4. PRODUCT SYSTEM DESCRIPTION ................................................................. 7 \n DOWNLOAD A PRODUCT ................................................................................ 7 \n FILES NOMENCLATURE AND FORMAT ................................................................ 7 \nIV.1. NOMENCLATURE OF FILES............................................................................ 7 \nIV.2. FILE FORMAT ................................................................................................. 8 \nIV.3. READING SOFTWARES .................................................................................. 8 \n REFERENCES ........................................................................................................ 8 \n \n \n  \n4 \n \nCopernicus Marine Service Product User \nManual for \nANTARCTIC_OMI_SI_extent_obs \nIssue : 3.0 \n2023/06/20 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-SI-extent-ant-obs \n \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMOI Mercator Océan International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nTAC Thematic Assembly Centre \nSI Sea Ice \nCDR Climate Data Record \nCF Climate Forecast (convention for NetCDF) \nICDR Interim Climate Data Record \nNRT Near-Real-Time \nOSISAF EUMETSAT’s Ocean and Sea Ice Satellite Application Facility \nRMS Root mean square \nSIC Sea Ice Concentration \nSIE Sea Ice Extent \nPC Production Center \nPU Production Unit  \nftp Protocol to download files \nOpenDAP Open-Source Project for a Network Data Access Protocol. Protocol to download subset of data from a n-\ndimensional gridded dataset (ie: 4 dimensions: lon-lat,depth,time)  \nSubsetter CMEMS service tool to download a NetCDF file of a selected geographical box using values of longitude an \nlatitude, and time range \n  \n5 \n \nCopernicus Marine Service Product User \nManual for \nANTARCTIC_OMI_SI_extent_obs \nIssue : 3.0 \n2023/06/20 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef: CMEMS-OMI-PUM-SI-extent-ant-obs \n INTRODUCTION \nI.1. Summary \nThis document contains the Product User Manual for the Copernicus Marine Ocean Monitoring \nIndicator (OMI) ANTARCTIC_OMI_SI_extent_obs. The data are monthly averaged Sea Ice Extent (SIE) \ntime series. \nThe OMI product is a reformatting of the Southern Hemisphere monthly SIEs from the Sea Ice Index \n(OSI-420) product from the EUMETSAT Ocean and Sea Ice Satellite Application Facility (OSI S",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Copernicus Marine Ocean Monitoring Indicator (OMI) ANTARCTIC_OMI_SI_extent_obs, which provides monthly averaged Sea Ice Extent time series data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "ANTARCTIC_OMI_SI_extent_obs",
+      "model_name": null,
+      "region": "Antarctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIE",
+        "cf_standard_name": "sea_ice_extent",
+        "long_name": "Monthly averaged Sea Ice Extent time series",
+        "unit": "1",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": -60.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "opendap",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

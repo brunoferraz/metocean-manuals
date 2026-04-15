@@ -1,0 +1,113 @@
+{
+  "doc_id": "39751facd3bd7f78",
+  "legacy_doc_id": "5df4d788bc39",
+  "filename": "OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.0,
+  "pages": 40,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors: K. Stelzer, D. Van der Zande, M. Böttcher, C. Lebreton \n \nApproval Date: NOVEMBER 2025 \nFor OCEANCOLOUR_HR Products \n OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201 \nOCEANCOLOUR_BAL_BGC_HR_L3_NRT_009_202 \nOCEANCOLOUR_NWS_BGC_HR_L3_NRT_009_203 \nOCEANCOLOUR_IBI_BGC_HR_L3_NRT_009_204 \nOCEANCOLOUR_MED_BGC_HR_L3_NRT_009_205 \nOCEANCOLOUR_BLK_BGC_HR_L3_NRT_009_206 \nOCEANCOLOUR_ARC_BGC_HR_L4_NRT_009_207 \nOCEANCOLOUR_BAL_BGC_HR_L4_NRT_009_208 \nOCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209 \nOCEANCOLOUR_IBI_BGC_HR_L4_NRT_009_210 \nOCEANCOLOUR_MED_BGC_HR_L4_NRT_009_211 \nOCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212 \nIssue: 3.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201 to \nOCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212 \n© EU Copernicus Marine Service – Public   \nCMEMS-HROC-PUM-009-201to212 \nIssue 3.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2021/01/15 all Initial version EIS May 2021 \nK. Stelzer, D. \nVan der Zande, \nM. Böttcher \nV.Brando, E. \nBöhm \n1.1 2021/04/07 all \nRemoval of MYNRT for \ncompliance with PIT and QuID. \nDelivery mechanism changed \nfrom “Subsetter” to “FTP”. \nK. Stelzer, D. \nVan der Zande, \nM. Böttcher \nE.Böhm; V. \nBrando \n1.2 2021/06/24  Inclusion of description of full-\nregion mosaic datasets K. Stelzer  \n1.3 2022/03/30  upgrade of processing  baseline \nfor Sentinel-2 MSI (4.00) \nK. Stelzer, A. \nDille, D. Van der \nZande \n \n2.0 2022/06/16  \nInclusion of improved quality \nflagging (corrupt pixels, bottom \nreflection, cloud shadow) \nK. Stelzer, A. \nDille, J. Scholze \nD. Van der \nZande, C. \nLebreton \nE.Böhm; V. \nBrando \n3.0 2025/05/28 all \nUpdate following format change \nof HROC products; EiS Nov 2025 \nUpdate to new Template \nK. Stelzer, D. \nVan der Zande, \nC. Lebreton \nE.Böhm; V. \nBrando \n      \n      \n      \n      \n \n \n \n3 Product User Manual for OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201 to \nOCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212 \n© EU Copernicus Marine Service – Public   \nCMEMS-HROC-PUM-009-201to212 \nIssue 3.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 6 \n1) INTRODUCTION .................................................................................................. 7 \na) Summary ................................................................................................................ 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Dataset details .................................................................................................... 11 \nd) Additional information on some parameters ................................................ 19 \ne) Processing information ...................................................................................... 21 \nf) Catalogue updating ......................................................................................... 21 \ng) Time averaging ................................................................................................... 21 \nh) Product use and impact ................................................................................... 22 \n3) FILE FORMAT .................................................................................................... 23 \n4) FILES NOMENCLATURE .................................................................................... 23 \n4.1 FILE SIZE ............................................................................................................ 25 \n4.2   STRUCTURE OF FILES .......................................................................................... 26 \n5) REFERENCES ..................................................................................................... 27 \n6) ANNEX ............................................................................................................. 28 \n  \n \n \n \n4 Product User Manual for OCEANCOLOUR_ARC_BGC_HR_L3_NRT_009_201 to \nOCEANCOLOUR_BLK_BGC_HR_L4_NRT_009_212 \n© EU Copernicus Marine Service – Public   \nCMEMS-HROC-PUM-009-201to212 \nIssue 3.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nARC Arctic region \nBAL Baltic Sea",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OCEANCOLOUR_HR products, detailing specifications and usage instructions for various ocean colour datasets from the Copernicus Marine Service.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OCEANCOLOUR_NWS_BGC_HR_L4_NRT_009_209",
+      "name": "Ocean Colour High Resolution Biogeochemical Product Line",
+      "model_name": null,
+      "region": "North West Shelf",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_blk_phy-temp_anfc_2.5km_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlor_a",
+        "cf_standard_name": "chl_concentration",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "kd490",
+        "cf_standard_name": "downwelling_radiance_coefficient",
+        "long_name": "Downwelling radiance coefficient at 490 nm",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "bbp412",
+        "cf_standard_name": "backscattering_coefficient",
+        "long_name": "Backscattering coefficient at 412 nm",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -80.0,
+        "lon_max": 50.0,
+        "lat_min": -70.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2687,
+  "_tokens_out": 789,
+  "_eval_s": 5.81
+}

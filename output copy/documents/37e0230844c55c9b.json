@@ -1,0 +1,70 @@
+{
+  "doc_id": "37e0230844c55c9b",
+  "legacy_doc_id": "4dd590793471",
+  "filename": "OCEANCOLOUR_GLO_BGC_L3_MY_009_103_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OCEANCOLOUR_GLO_BGC_L3_MY_009_103_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.77,
+  "pages": 141,
+  "text_preview": " \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \nPRODUCT USER MANUAL \n \nFor Ocean Colour Products \nOCEANCOLOUR_GLO_BGC_L3_NRT_009_101 \nOCEANCOLOUR_GLO_BGC_L4_NRT_009_102 \nOCEANCOLOUR_GLO_BGC_L3_MY_009_103 \nOCEANCOLOUR_GLO_BGC_L4_MY_009_104 \nOCEANCOLOUR_GLO_BGC_L3_MY_009_107 \nOCEANCOLOUR_GLO_BGC_L4_MY_009_108 \nOCEANCOLOUR_ATL_BGC_L3_NRT_009_111 \nOCEANCOLOUR_ATL_BGC_L4_NRT_009_112 \nOCEANCOLOUR_ATL_BGC_L3_MY_009_113 \nOCEANCOLOUR_ATL_BGC_L4_MY_009_114 \nOCEANCOLOUR_ATL_BGC_L4_NRT_009_116 \nOCEANCOLOUR_ATL_BGC_L4_MY_009_118 \nOCEANCOLOUR_ARC_BGC_L3_NRT_009_121 \nOCEANCOLOUR_ARC_BGC_L4_NRT_009_122 \nOCEANCOLOUR_ARC_BGC_L3_NRT_009_123 \nOCEANCOLOUR_ARC_BGC_L4_NRT_009_124 \nOCEANCOLOUR_BAL_BGC_L3_NRT_009_131 \nOCEANCOLOUR_BAL_BGC_L4_NRT_009_132 \nOCEANCOLOUR_BAL_BGC_L3_MY_009_133 \nOCEANCOLOUR_MED_BGC_L3_NRT_009_141 \nOCEANCOLOUR_MED_BGC_L4_NRT_009_142 \nOCEANCOLOUR_MED_BGC_L3_MY_009_143 \nOCEANCOLOUR_MED_BGC_L4_MY_009_144 \nOCEANCOLOUR_BLK_BGC_L3_NRT_009_151 \nOCEANCOLOUR_BLK_BGC_L4_NRT_009_152 \nOCEANCOLOUR_BLK_BGC_L3_MY_009_153 \nOCEANCOLOUR_BLK_BGC_L4_MY_009_154 \n \nIssue:  7.0 \n \nContributors : S. Colella, E. Böhm, C. Cesarini,  Q. Jutard, V.E. Brando \nApproval Date : March  2026 \n \n\n Copernicus Marine Product User Manual \nfor Ocean Colour Products \nIssue : 7.0 \n03/2026 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-OC-PUM-7.0 \n2 \nRECORD TABLE \nIss\nue Date § Description of Change Author Validated \nBy \n1.0 2022/02/21 \nAll \n \nCreation of the document for Ocean \nColour Catalogue Reorganization \nSa. Colella, E. Böhm, \nC. Cesarini, P. \nGarnesson, J.Netting, \nB. Calton \nV. Brando \n2.0 2022/06/22 All Updates for EIS November 2022 \nS. Colella, E. Böhm, C. \nCesarini, P. \nGarnesson, J.Netting, \nB. Calton \nV. Brando \n3.0 2022/11/30 All Updates for March 2023 EIS \nS. Colella, E. Böhm, C. \nCesarini, Q. Jutard, C. \nBrockmann, K. Stelzer \nV. Brando \n4.0 2023/06/16 All Updates for November2023 EIS \nS. Colella, E. Böhm, C. \nCesarini, Q. Jutard, C. \nBrockmann, K. Stelzer \nV. Brando \n5.0 2024/05/31 All Updates for November 2024 EIS S. Colella, E. Böhm, C. \nCesarini, Q. Jutard V. Brando \n6.0 2025/05/28 All Updates for November 2025 EIS S. Colella, E. Böhm, C. \nCesarini, Q. Jutard V. Brando \n7.0 2025/11/12 All Updates for March 2026 EIS S. Colella, E. Böhm, C. \nCesarini, Q. Jutard V. Brando \n \n Copernicus Marine Product User Manual \nfor Ocean Colour Products \nIssue : 7.0 \n03/2026 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-OC-PUM-7.0 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 5 \nDATA ACCESS ................................................................................................................................................... 6 \nI INTRODUCTION ............................................................................................................................................ 7 \nI.1 Summary......................................................................................................................................................... 7 \nI.2 History of changes ........................................................................................................................................ 11 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ........................................................................... 19 \nII.1 General Information .................................................................................................................................. 19 \nII.1.1 Product Levels ............................................................................................................................... 19 \nII.1.2 Product processing mode and temporal coverage .......................................................................... 19 \nII.1.3 Operational Near real Time (NRT) products ................................................................................. 20 \nII.1.4 Reprocessed (MY) products .......................................................................................................... 20 \nII.2 Details of the products................................................................................................................................ 21 \nII.2.1 Global Ocean (Copernicus-GlobColour) ....................................................................................... 22 \nII.2.2 Global Ocean (OC-CCI) ................................................................................................................ 24 \nII.2.3 Atlantic ........................................................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Ocean Colour Products by MERCATOR OCEAN INTERNATIONAL, detailing various ocean colour products and their specifications.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Global | Atlantic | Arctic | Baltic | Black Sea | Mediterranean",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "OCEANCOLOUR_GLO_BGC_L3_MY_009_103",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2818,
+  "_tokens_out": 343,
+  "_eval_s": 2.49
+}

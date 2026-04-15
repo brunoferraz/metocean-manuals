@@ -1,0 +1,82 @@
+{
+  "doc_id": "4b757263074ab5a9",
+  "legacy_doc_id": "9b90e37ca55f",
+  "filename": "GLOBAL_OMI_HEALTH_carbon_ph_trend_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_OMI_HEALTH_carbon_ph_trend_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.07,
+  "pages": 11,
+  "text_preview": " \n \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring Service \nGlobal surface ocean pH trends \nIssue: 2.0 \n \n \n \n \n \n \nContributors : T. T. Trang Chau, Marion Gehlen, Frédéric Chevallier \nApproval date by the CMEMS product quality coordination team : January 2024 \n \n  \n\n \n CMEMS Quality Information Document for \nGlobal surface ocean pH trends \nIssue : 2.0 \n2023/09/21 \n \n1 \n \n© EU Copernicus Marine Service – Public   \n \nP\nA\nG\nE   \n\\* \nM\nER\nG\nEF\nO\nR\nM\nAT\n1 \n CHANGE RECORD  \n \n \n \nIssue Date § Description of Change Author Validated By \n1.0 January 2022 All Creation of the document Thi Tuyet Trang Chau, \nMarion Gehlen, \nFrédéric Chevallier  \nS. Mulet \n1.1 2022/09 / Update results with respect \nto the new release of input \ndata (see I.3) \nThi Tuyet Trang Chau, \nMarion Gehlen, \nFrédéric Chevallier \nM. \nDrevillon \n2.0 2023/09 / Update results with respect \nto the new release of input \ndata (see I.3) \nThi Tuyet Trang Chau, \nMarion Gehlen, \nFrédéric Chevallier \nHélène \nEtienne \n \n \n \n \n  \n \n CMEMS Quality Information Document for \nGlobal surface ocean pH trends \nIssue : 2.0 \n2023/09/21 \n \n2 \n \n© EU Copernicus Marine Service – Public   \n \nP\nA\nG\nE   \n\\* \nM\nER\nG\nEF\nO\nR\nM\nAT\n1 \n \nI INTRODUCTION .......................................................................................................................................... 3 \nI.1 Product name ......................................................................................................................................... 3 \nI.2 Indicator evaluation method .................................................................................................................. 3 \nI.3 CMEMS products used as input for the computations ............................................................................ 5 \nII SCIENTIFIC EVALUATION ............................................................................................................................. 6 \nIII REFERENCES ............................................................................................................................................. 10 \n \n \n \n \n CMEMS Quality Information Document for \nGlobal surface ocean pH trends \nIssue : 2.0 \n2023/09/21 \n \n3 \n \n© EU Copernicus Marine Service – Public   \n \nP\nA\nG\nE   \n\\* \nM\nER\nG\nEF\nO\nR\nM\nAT\n1 \nI INTRODUCTION \n \nI.1 Product name  \nGLOBAL_OMI_HEALTH_carbon_ph_trend \n \nI.2 Indicator evaluation method \nSecular trends and the associated uncertainties ( ±1σ) of seawater pH over the \nglobal surface ocean are computed from the 100 -member ensemble of pH time \nseries. This ensemble covering the period since 1985 was randomly regenerated \nwith a Gaussian distribution where the mean and the standard deviation are, \nrespectively, the best estimate and the total uncertainty of pH available in the \nSurface Carbon field MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008 \n(Chau et al., 2023a). Surface ocean pH is reported on total scale and the units of \nits trend and uncertainty are yr -1 in numerical data files. For a concise \npresentation, this document sh ows the units of pH tre nds and uncertainty in \ndecade-1. \nDenote µij and σij as a linear trend and its uncertainty computed from a batch of \n100 yearly mean pH time series (pH t,ij,n) at each 0.25°×0.25° -grid cell ij, where t \nstands for time and n indicates a member in the 100-member ensemble. A linear \nleast-squares regression was used to fit a linear function between two sets of data \n(i.e., pH t,ij,n against t values) and derive estimates of its slope (µ ij) and residual \nstandard deviation (σij).  An illustration of the method of linear fits on the pH data \nat some stations is shown in Figure 1. \nThe global maps of pH trend and uncertainty are presented in Figure 2 (a,b). A \nthreshold on \n𝜎\n|𝜇| of  10% is empirically defined to mask the regions with uncertain \n \n CMEMS Quality Information Document for \nGlobal surface ocean pH trends \nIssue : 2.0 \n2023/09/21 \n \n4 \n \n© EU Copernicus Marine Service – Public   \n \nP\nA\nG\nE   \n\\* \nM\nER\nG\nEF\nO\nR\nM\nAT\n1 \nestimates of pH local trend (Figure s 2c, 2d). The global pH trend map and this \nmask are reproduced in Figure 3 - a representative map for this OMI for surface \nocean pH trend.  \n \nFigure 1. Linear fits on the 100-member ensemble of yearly mean pH at HOT and Iceland Sea \nstations (see also in Table 1). Grey points represent pH data in the ensemble and black (blue) \nlines stand for their linear fits over the full period (sub-periods).  µij ±σij denotes estimates of \na linear slope and its uncertainty. \n \nFigure 2. (a) Global surface seawater pH trend and (b) uncertainty computed over the p",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the Ocean Monitoring Indicator for global surface ocean pH trends, detailing the methodology and results of secular trend analysis since 1985 using a 100-member ensemble of pH time series data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Global surface ocean pH trends",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "pH",
+        "cf_standard_name": "sea_water_phosphate_excess",
+        "long_name": "Surface ocean pH on total scale",
+        "unit": "yr-1 (converted to decade-1 for presentation)",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 0
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

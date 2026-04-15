@@ -1,0 +1,113 @@
+{
+  "doc_id": "e1f042acdc41c6e2",
+  "legacy_doc_id": "e4e12235f074",
+  "filename": "halliwell_state.pdf",
+  "filepath": "docs/hycom_docs/halliwell_state.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.01,
+  "pages": 2,
+  "text_preview": "HYCOM Equation of State and Related Issues  \n \nBy George Halliwell, 26 August 2001 \n \n \nThis note summarizes three aspects of HYCOM 1.0/2.0 thermodynamics: the equation of \nstate, cabbeling, and thermobaric compressibility. \n \nThe equation of state embedded in HYCOM is the approximation to the UNESCO equation \nof state described by Brydon et al. (2001). At a given reference pressure level p , the density in \nsigma units is given by a seven term polynomial function cubic in potential temperature q  and \nlinear in salinity S : \n \n( ) 232\n1234567,,()()()()()()().SpCpCpCpSCpCpSCpCpSsqqqqqq =++++++  \n \nOne advantage of this simple polynomial representation is that it can be inverted to calculate \n( ),,Spqs  and ( ),,Spsq .  \n \nThree sets of coefficients are provided in HYCOM for reference pressures of 0, 20, and 40 \nMpa. The sigma values calculated with these sets of coefficients are referred to as 0s , 2s , and \n4s , respectively. If the user selects 0s  to represent model vertical coordinates, the density \nstructure will be represented reasonably well in the upper ocean. In the deep ocean, however, \nregions will exist where 0s  does not increase monotonically with depth, causing model vertical \ncoordinate interfaces to fold over. The user must consider this problem in choosing the proper set \nof density coordinates for model simulations. \n \nCabbeling is not an issue when HYCOM is run in MICOM mode since there is no \npenetrating shortwave radiation, and since salinity alone is advected and diffused within \nisopycnic layers. When HYCOM is run with hybrid vertical coordinates, however, cabbeling is \nan issue because temperature and salinity are always mixed in the vertical and shortwave \nradiation can penetrate into the isopycnic coordinate domain. Horizontal advection and diffusion \nof temperature and salinity, and fluxes of temperature and salinity across vertical coordinates \nrelocated by the hybrid coordinate algorithm can also contribute to cabbeling. When HYCOM is \nrun with hybrid vertical coordinates, reliance is placed on the hybrid vertical coordinate \nadjustment algorithm to restore and maintain isopycnic conditions. \n \nThere are two ways by which the user can reduce the influence of cabbeling. HYCOM \ncontains the option of horizontally advecting and diffusing salinity and density, or temperature \nand density, instead of temperature and salinity. HYCOM also has the option to flux salinity and \ndensity, or temperature and density, instead of temperature and salinity, across vertical \ncoordinates relocated by the hybrid coordinate algorithm. For further information on the \nproblems that can be caused by cabbeling, refer to the documentation of the HYCOM horizontal \nadvection/diffusion algorithms and the HYCOM hybrid vertical.  \n \nHYCOM 1.0/2.0 is equipped with the algorithm of Sun et al. (1999) to account for the \ndynamical influence of thermobaric compressibility, or thermobaricity. \n \nReferences \n \nBrydon, D., S. Sun, and R. Bleck, 2001: A new approximation of the equation of state for \nseawater, suitable for numerical models. \n \nSun, S., R. Bleck, C. Rooth, J. Dukowicz, E. Chassignet, and P. Killworth, 1999: Inclusion of \nthermobaricity in isopycnic-coordinate ocean models, J. Phys. Oceanogr., 29, 2719-2729. \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This technical note discusses the equation of state, cabbeling, and thermobaric compressibility aspects of HYCOM 1.0/2.0 thermodynamics.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "HYCOM",
+      "name": "HYbrid Coordinate Ocean Model",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "density",
+        "cf_standard_name": "sea_water_density",
+        "long_name": "Density of seawater",
+        "unit": "kg/m^3",
+        "physical_quantity": "density",
+        "thermodynamic_form": "potential (density)",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity of seawater",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential temperature of seawater",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "null",
+      "horizontal_resolution": "null",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "sigma",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "pdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2046,
+  "_tokens_out": 691,
+  "_eval_s": 5.11
+}

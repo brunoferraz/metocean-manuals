@@ -1,0 +1,67 @@
+{
+  "doc_id": "900d8fa7b5bf2482",
+  "legacy_doc_id": "793f421f0d3e",
+  "filename": "BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.51,
+  "pages": 13,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : M. Reithmeier, K. Hartmann, E. Kras, R. White, G. Spoelstra \n \nApproval Date : November 2025 \n \nFor Global Static Coastal Satellite-Derived \nBathymetry Product \n \nBATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \n© EU Copernicus Marine Service – Public   \nCMEMS-SDB-PUM-016-001 \nIssue 1.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/07/15 All Initial version \nM. Reithmeier, \nK. Hartmann, E. \nKras, R. White, \nG. Spoelstra \nCopernicus \nMarine \nProduct \nManagement \n \n \n \n3 Product User Manual for BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \n© EU Copernicus Marine Service – Public   \nCMEMS-SDB-PUM-016-001 \nIssue 1.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary.............................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Dataset details ...................................................................................................8 \nd) Additional information on some parameters .................................................9 \ne) Product use and impact .................................................................................10 \n3) FILE FORMAT .................................................................................................... 11 \n4) FILES NOMENCLATURE..................................................................................... 11 \n4.1)   FILE SIZE ............................................................................................................ 11 \n4.2)   OTHER INFORMATION ...................................................................................... 12 \n4.3)   STRUCTURE OF FILES ......................................................................................... 12 \n5) REFERENCES ..................................................................................................... 12 \n6) ANNEX ............................................................................................................. 13 \n  \n \n \n \n4 Product User Manual for BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \n© EU Copernicus Marine Service – Public   \nCMEMS-SDB-PUM-016-001 \nIssue 1.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nCMEMS Copernicus Marine Environment Monitoring Service \nMDS Marine Data Store \nMFC Monitoring and Forecasting Centre \nNetCDF Network Common Data Form \nPUM Product User Manual \nQUID Quality Information Document \nSDB Satellite-Derived Bathymetry \nTAC Thematic Assembly Center \nWKB Wave Kinematics Bathymetry \n \n  \n \n \n \n5 Product User Manual for BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001 \n© EU Copernicus Marine Service – Public   \nCMEMS-SDB-PUM-016-001 \nIssue 1.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Global Static Coastal Satellite-Derived Bathymetry product, providing details on its specification, production system, dataset information, file format, and data access.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "BATHYMETRY_GLO_PHY_COASTAL_L4_MY_016_001",
+      "name": "Global Static Coastal Satellite-Derived Bathymetry Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_bathy_glo_phy_l4_my_016_001",
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

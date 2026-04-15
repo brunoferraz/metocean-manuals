@@ -1,0 +1,85 @@
+{
+  "doc_id": "101cc1a78b802ce6",
+  "legacy_doc_id": "eb49dfb5ed27",
+  "filename": "MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/MULTIOBS_GLO_PHY_SSS_L4_MY_015_015_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.62,
+  "pages": 16,
+  "text_preview": "marine.copernicus.eu \nmercator-ocean.eu \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n \n \n PRODUCT USER MANUAL \n \nMulti Observation Global Ocean Sea Surface Salinity \nOptimal Interpolation Product  \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \n \nIssue:  2.0 \n \n \n \n \nContributors : S. Tarot \nApproval Date : June 2024  \n\n2 \n Copernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nIssue : 2.0 \n2024/01/29 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-015 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 2022/06/15 All Creation of the document S. Tarot Copernicus \nMarine product \nmanagement \n2.0 2024/01/29 All Extension of the series to \nSMOS+SMAP data \nS. Tarot Copernicus \nMarine product \nmanagement \n  \n3 \n Copernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nIssue : 2.0 \n2024/01/29 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-015 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 4 \nI INTRODUCTION ............................................................................................................................................ 5 \nI.1 Summary......................................................................................................................................................... 5 \nI.2 History of changes .......................................................................................................................................... 6 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 7 \nII.1 General Information .................................................................................................................................... 7 \nII.2 Details of datasets ......................................................................................................................................... 8 \nII.3 Production System Description ................................................................................................................... 9 \nII.4 Grid ................................................................................................................................................................ 9 \nII.5 Vertical Levels .............................................................................................................................................. 9 \nII.6 Processing information ................................................................................................................................ 9 \nII.6.1 Processing steps ................................................................................................................................... 9 \nII.6.2 Satellite unavailability ........................................................................................................................ 10 \nIII DOWNLOAD A PRODUCT ...................................................................................................................... 11 \nIV FILES NOMENCLATURE ........................................................................................................................... 12 \nIV.1 Nomenclature of files when downloaded through the Copernicus Marine Service Web Portal \nSubsetter Service ............................................................................................................................................... 12 \nIV.2 Nomenclature of files when downloaded through the Copernicus Marine Service FTP Service  ....... 12 \nIV.3 File size ....................................................................................................................................................... 12 \nV FILE FORMAT ............................................................................................................................................. 13 \nV.1 NetCDF ........................................................................................................................................................ 13 \nV.2 Structure and semantic of NetCDF maps files ......................................................................................... 13 \nVI REFERENCES .............................................................................................................................................. 16 \n \n4 \n Copernicus Marine Service Product User Manual for \nMULTIOBS_GLO_PHY_SSS_L4_MY_015_015 \nIssue : 2.0 \n2024/01/29 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-MOB-PUM-015-015 \nGLOSSARY AND ABBREVIATIONS \nATBD Algorithm Theorical Basis Document ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Multi Observation Global Ocean Sea Surface Salinity Optimal Interpolation Product, providing details on its datasets, production system, grid, vertical levels, processing information, and file format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_SSS_L4_MY_015_015",
+      "name": "Multi Observation Global Ocean Sea Surface Salinity Optimal Interpolation Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SSS",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2117,
+  "_tokens_out": 506,
+  "_eval_s": 3.65
+}

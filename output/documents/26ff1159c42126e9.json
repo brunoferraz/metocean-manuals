@@ -1,0 +1,152 @@
+{
+  "doc_id": "26ff1159c42126e9",
+  "legacy_doc_id": "34c24ef2a226",
+  "filename": "halliwell_giss.pdf",
+  "filepath": "docs/hycom_docs/halliwell_giss.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.09,
+  "pages": 2,
+  "text_preview": "NASA GISS Level 2 Turbulence Closure  \n \nThe GISS model was developed at the NASA Goddard Institute for Space Studies, and, and is \nbriefly summarized here. Further details of this model are presented in Canuto et al. (2001; \n2002). A. Howard and V. Canuto of GISS provided the one-dimensional code. \nIn this local Reynolds stress model, temperature, scalar, and momentum diffusivities are \nparameterized as follows: \n \n( )\n( )\n( )\n,,,\n,,,,\n,,,\nT\nMM\nT\nTT\nT\nSS\nKfRNRi\nKfRNRi\nKfRNRi\nr\nr\nr\ne\ne\ne\n=\n=\n=\n (1) \nwhere Rr  is the density ration given by \n ( )\n1\n,STR zzr ba\n-¶¶= ¶¶  (2) \nN is the Brunt-Vaisala frequency given by \n ( )2 1,\ngT\nNgR\nzz r\nr\nar\n¶¶=-=-¶¶  (3) \nTRi  is a gradient Richardson number where both large-scale (resolved) and small-scale \n(unresolved) flow contributes to the vertical shear 222\nT ¢å=å+å : \n \n2\n2 ,T\nT\nN\nRi = å  (4) \nand e  is the turbulent kinetic energy dissipation rate. The resolved wind-driven shear makes the \ndominant contribution to TRi  in the mixed layer while the unresolved shear, resulting primarily \nfrom internal waves, makes the dominant contribution in the interior ocean. Given the \ndominance of unresolved shear in the interior ocean, the GISS model specifies TRi  as a function \nof the density ratio: \n ( ),TRicfR r=  (5) \nso that the interior ocean parameterization of the diffusivity coefficients become: \n \n( )\n( )\n( )\n,,\n,,.\n,,\nMM\nTT\nSS\nKfRN\nKfRN\nKfRN\nr\nr\nr\ne\ne\ne\n=\n=\n=\n (6) \nThis mixing model is valid for the following four cases (Canuto et al., 2002): doubly stable \n( /0Tz¶¶> , /0Sz¶¶< , 0Rr < , 0TRi > ), doubly unstable ( /0Tz¶¶< , \n/0Sz¶¶> , 0Rr > , 0TRi < ), salt fingering ( /0Tz¶¶> , /0Sz¶¶> , 0Rr > , \n0TRi > ), and diffusive convection ( /0Tz¶¶< , /0Sz¶¶< , 0Rr > , 0TRi > ). \nTo implement the model, the diffusivities are represented by the following functional forms: \n \n( )\n( )\n( )\n22\n22\n22\n1\n, 2\n1,, 2\n1, 2\nMMMM\nTTTT\nSSSS\nKNNS\nKNNS\nKNNS\net\net\net\n-\n-\n-\n=GG=\n=GG=\n=GG=\n (7) \nwhere \n,,MTSGGG  represent mixing efficiencies, 2/Ete= , with E  representing turbulent \nkinetic energy, is the dynamical timescale, and ,,MTSSSS  are structure functions. It is then \nnecessary to evaluate the functions E , e , G , and S  to derive the diffusivity profiles. This is \nachieved in the GISS model by deriving and solving the equations for second order moments. \nDetails of this procedure are presented in Canuto et al., 2002). It must be emphasized that the \nmodel is solved differently in two domains depending on whether resolved or unresolved shear \nhas the dominant influence on stability [Equations (1) and (6)]. The former domain represents \nthe surface boundary layer while the latter represents the comparatively quiescent ocean interior. \nThe boundary layer is distinguished as the region where the value of TRi  based on resolved \nshear only is less than a critical value. Different parameterizations of e  are used in the two \ndomains. \nImplementation of the GISS model in HYCOM was straightforward. Although substantial \nreorganization of the code was necessary, it was only necessary to provide vertical profiles of \nmodel layer variables and to calculate the appropriate Richardson numbers on model interfaces. \n \nREFERENCES \n \nCanuto, V. M., A. Howard, Y. Cheng, and M. S. Dubovikov, 2001: Ocean turbulence. Part I: \nOne-point closure model. Momentum and heat vertical diffusivities. J. Phys. Oceanogr., \n31, 1413-1426. \nCanuto, V. M., A. Howard, Y. Cheng, and M. S. Dubovikov, 2002: Ocean turbulence. Part II: \nVertical diffusivities of momentum, heat, salt, mass, and passive scalars. J. Phys. \nOceanogr., 32, 240-264. \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes the NASA GISS Level 2 Turbulence Closure model, detailing its parameterization of temperature, scalar, and momentum diffusivities in oceanic turbulence.",
+    "provider": {
+      "provider_id": "null",
+      "name": "NASA Goddard Institute for Space Studies"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "T",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "S",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "u, v",
+        "cf_standard_name": "eastward_sea_water_velocity, northward_sea_water_velocity",
+        "long_name": "Eastward and Northward sea water velocity components",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "v"
+      },
+      {
+        "native_name": "N",
+        "cf_standard_name": "brunt_vaisala_frequency",
+        "long_name": "Brunt-Väisälä frequency",
+        "unit": "s^-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "TRi",
+        "cf_standard_name": null,
+        "long_name": "Gradient Richardson number",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "e",
+        "cf_standard_name": "turbulent_kinetic_energy_dissipation_rate",
+        "long_name": "Turbulent kinetic energy dissipation rate",
+        "unit": "m^2/s^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

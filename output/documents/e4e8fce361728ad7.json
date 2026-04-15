@@ -1,0 +1,110 @@
+{
+  "doc_id": "e4e8fce361728ad7",
+  "legacy_doc_id": "fb6a4c800a9f",
+  "filename": "SEAICE_ARC_PHY_AUTO_L4_MY_011_025_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_ARC_PHY_AUTO_L4_MY_011_025_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.85,
+  "pages": 14,
+  "text_preview": " \n  \nSea Ice TAC \nArctic Sea Ice Age \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025  \n \n Issue: 1.0 \nContributors: Anton Korosov \nApproval date by the CMEMS product quality coordination team: 11/02/2026 \n \n \n \n \n  \n \n\nProducts \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-025 \n11 November 2025 \n1.0 \n \n                                                      Page 2/ 14 \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Validated By \n1.0 November \n2025 \nAll Creation of the document A. Korosov C. Wettre \n      \n      \n      \n      \n \n \n \n  \nProducts \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-025 \n11 November 2025 \n1.0 \n \n                                                      Page 3/ 14 \nACRONYM TABLE \nAcronym Description \nEAN Estimated Accuracy Number \nEASE Equal-Area Scalable Earth \nFYI First-year ice \nMYI Multi-year ice \nNRT Near Real Time \nOSI SAF Ocean and Sea Ice Satellite Application Facilities \nSIAge Sea Ice Age \nSIC Sea ice concentration \nSID Sea Ice drift \nTAC Copernicus Marine Service Thematic Assembly Centre \n \nKEY DEFINITIONS \nSea Ice Age \nIntuitively, age is a measure of time, and, therefore, the sea ice age is the time since the beginning of ice \nfreezing. However, it makes sense to consider age as a measure of time only when discussing individual \nfloes of sea ice. A finite volume, which is represented by a pixel on satellite observations or an element \nin a model grid, always contains a mixture of floes with different ages. The proportion of floes with \nvarying ages in this mixture evolves with  time as ice freezes  laterally, drifts and mixes with other ice, \nconverges or diverges and refreezes from opened water  in the leads and polynyas . Therefore, \ncharacterisation of the age of sea ice in a pixel (or model element) with one number is not sufficiently \ninformative. \nTo overcome this problem, we provide a distribution of sea ice age fractions (see below) and a weighted \naverage sea ice age in every pixel. Hereafter, this distribution is referred to as the “Sea Ice Age”. \nIce age fraction \nFraction of ice in a pixel with a given age category. The fraction is provided as a percentage of the total \nconcentration. The age categories are provided with a precision of one year, counting from the start of \nthe freezing season. Example age categories: \nFirst-year ice (1YI): ice formed during the ongoing freezing season that has not yet experienced melting. \nSecond-year ice (2YI): ice formed during the previous freezing season and that has survived one melting \nseason. \nExample sea ice age information in a pixel of the Arctic Sea Ice Age product: \nCategory 1YI 2YI 3YI 4YI 5YI 6YI 7YI \nPercentage 10% 25% 25% 20% 15% 10% 5% \n \n \nProducts \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-025 \n11 November 2025 \n1.0 \n \n                                                      Page 4/ 14 \nAverage sea ice age in the dataset \nThe average sea ice age is computed as a weighted average of age of ice fractions with weight equal ti \nthe concentration of the ice fraction (see Equation 6). \nMaximum sea ice age in the dataset \nThe maximum age is computed as the age of the fraction of ice covering a percentage of the total \nconcentration within a pixel above 15%. \nAge derived from the drifting buoy \nThe age derived from a drifting buoy equals the time since the buoy was deployed on sea ice. If the buoy \nended up in open water during the melting season, the age of the buoy is computed as time since \nrefreeze of the ice around the buoy \nAccuracy \nThe accuracy of the product is computed as the ratio of correct age predictions (i.e., age from the \nproduct ≤ age from the buoy) to the total number of matchups. \nMatchups \nCollocated in space and time observations by the sea ice age dataset and the drifting buoys. \nFirst-year ice \nIce formed during the ongoing freezing season that has not yet experienced melting. \nSecond-year ice  \nIce formed during the previous freezing season that has survived one melting season. \nTriangular mesh \nA 2D triangular mesh is a collection of triangles connecting vertices (points) to discretize and represent \na 2D surface or shape, commonly used in computer graphics and finite element analysis (FEA). \n \nRELEVANT DOCUMENT LIST \nCMEMS-SEAICE-PUM-\n011-025-v1.0 \nProduct user manual for the Arctic Sea Ice Age, \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nCMEMS-SEAICE-SQO-011-\n025-v1.0 \nSynthetic quality overview for the Arctic Sea Ice Age, \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \n  \nProducts \nSEAICE_ARC_PHY_SIAGE_L4_MY_011_025 \nRef: \nDate: \nIssue: \nCMEMS-SEAICE-QUID-011-025 \n11 November 2025 \n1.0 \n \n                                                      Page 5/ 14 \nTABLE OF CONTENTS \nAcronym Table .................................................................................................................................................... 3 \nKey definitions ............................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Arctic Sea Ice Age product, detailing its characteristics, accuracy measures, and relevant definitions.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_PHY_SIAGE_L4_MY_011_025",
+      "name": "Arctic Sea Ice Age",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_PHY_SIAGE_L4_MY_011_025",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SIAge",
+        "cf_standard_name": "sea_ice_age",
+        "long_name": "Sea Ice Age",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SIC",
+        "cf_standard_name": "sea_ice_concentration",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SID",
+        "cf_standard_name": "sea_ice_drift",
+        "long_name": "Sea Ice Drift",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "SID"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 65.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

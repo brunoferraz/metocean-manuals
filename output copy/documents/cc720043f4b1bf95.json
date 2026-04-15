@@ -1,0 +1,99 @@
+{
+  "doc_id": "cc720043f4b1bf95",
+  "legacy_doc_id": "06386074611a",
+  "filename": "GLOBAL_OMI_TEMPSAL_sst_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_TEMPSAL_sst_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.32,
+  "pages": 10,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : S. Good \n \nApproval Date : November 2025 \n \nFor GLOBAL_OMI_TEMPSAL \nsst_area_averaged_anomalies \nsst_trend \n \n Issue: 3.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for GLOBAL_OMI_TEMPSAL \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-OMI-PUM-\nGLO_OMI_TEMPSAL \nIssue 3.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2019/08/16 All Creation of the document S. Good  \n1.1 2020/09/10  Addition of 2019 S. Good  \n1.2 2021/08/05 All New document template and \naddition of 2020 \nS. Good  \n2.0 2022/06/16 All New document template and \naddition of 2022 \nS. Good  \n3.0 2025/05/16 All \nNew document template, \nupdated input dataset, \nclimatology period and temporal \nextent \nS. Good \nCopernicus \nMarine \nProduct \nManagement \n \n \n \n3 Product User Manual for GLOBAL_OMI_TEMPSAL \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-OMI-PUM-\nGLO_OMI_TEMPSAL \nIssue 3.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 8 \nc) Dataset details ...................................................................................................... 8 \n3) FILE FORMAT ...................................................................................................... 9 \n4) FILES NOMENCLATURE....................................................................................... 9 \n5) REFERENCES ..................................................................................................... 10 \n  \n \n \n \n4 Product User Manual for GLOBAL_OMI_TEMPSAL \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-OMI-PUM-\nGLO_OMI_TEMPSAL \nIssue 3.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \n \n  \n \n \n \n5 Product User Manual for GLOBAL_OMI_TEMPSAL \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-OMI-PUM-\nGLO_OMI_TEMPSAL \nIssue 3.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for GLOBAL_OMI_TEMPSAL, providing details about the product specification, production system description, dataset details, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "GLO_OMI_TEMPSAL",
+      "name": "GLOBAL_OMI_TEMPSAL",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sst_area_averaged_anomalies",
+        "cf_standard_name": "sea_surface_temperature_anomaly",
+        "long_name": "Area-averaged sea surface temperature anomalies",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sst_trend",
+        "cf_standard_name": "sea_surface_temperature_trend",
+        "long_name": "Trend in sea surface temperature",
+        "unit": "degC/year",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2083,
+  "_tokens_out": 623,
+  "_eval_s": 4.51
+}

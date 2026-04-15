@@ -1,0 +1,85 @@
+{
+  "doc_id": "0716c793543e29c7",
+  "legacy_doc_id": "cab946084bda",
+  "filename": "SST_MED_PHY_L3S_MY_010_042_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_MED_PHY_L3S_MY_010_042_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.96,
+  "pages": 27,
+  "text_preview": " \n  \nSea Surface Temperature Production Centre \n \nMediterranean Sea and Black Sea  \nSea Surface Temperature Reprocessing  \nSST_MED_SST_L4_REP_OBSERVATIONS_010_021 \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \nSST_MED_PHY_L3S_MY_010_042 \n \n \n Issue: 4.0 \nContributors: A. Pisano, C. Fanelli, A. Massi, C. Tronconi, C. Cesarini, F. La Padula, B. Buongiorno Nardelli , \nD. Ciani \nApproval date by the CMEMS product quality coordination team: 15/11/2024 \n \n \n \n \n  \n \n\nQUID for SST TAC Products \nSST_MED_SST_L4_REP_OBSERVATIONS_010_021 \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \nSST_MED_PHY_L3S_MY_010_042 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-021-022-041-042 \n31 May 2024 \n4.0 \n \n                                                      Page 2/ 27 \nCHANGE RECORD \nWhen the quality of the products change s, the QuID is updated  and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated \nBy \n1.0 10/2/2015 All Reformatted for \nMYOFO \nB. Buongiorno Nardelli  \n1.1 05/03/2015 2, 3, 5 Modified after QUARG \nreview \nB. Buongiorno Nardelli, A. \nPisano \n \n1.2 01/09/2015 All Change format to fit \nCMEMS graphical rules. \nIntroduce references to \nCMEMS. \nB. Hackett L. Crosnier \n1.3 26/08/2016 All Added description of \ninterim REP data for \nrecent years  \nB. Buongiorno Nardelli, \nA.Pisano \n \n1.4 12/09/2018 All Update to Pathfinder \nV.5.3 \nB. Buongiorno Nardelli, A. \nPisano \nMercator \nOcean \n1.5 03/04/2020 All Update to ESA CCI \nSST/C3S v.2.0 \nA. Pisano, B. Buongiorno \nNardelli, C. Cesarini \nMercator \nOcean \n1.6 14/12/2021 All Automatic temporal \nextension \nA. Pisano, C. Fanelli, C. \nCesarini, B. Buongiorno \nNardelli \nA. Pisano \n1.7 11/04/2022 II.1.1, \nII.1.5 \nUpstream data change A. Pisano, C. Fanelli, \nC.Tronconi, C.Cesarini, \nB.Buongiorno Nardelli \nA. Pisano \n2.0 16/06/2022 All Release of MED-L3S-\nREP and BS-L3S-REP \nproducts \nA. Pisano, C. Fanelli, \nC.Tronconi, C.Cesarini, \nFlavio La Padula, \nB.Buongiorno Nardelli \nA. Pisano \n3.0 16/06/2023 I.1, \nII.1.1, \nII.1.3, \nII.1.5, V \nAutomatic temporal \nextension \nA. Pisano, C. Fanelli, C. \nTronconi, C. Cesarini, Flavio \nLa Padula, B.Buongiorno \nNardelli \nA. Pisano \n4.0 31/05/2024 All Full reprocessing based \non ESA CCI SST v.3.0 \n \nA. Pisano, C. Fanelli, A. \nMassi, C. Tronconi, C. \nCesarini, F. La Padula, B. \nBuongiorno Nardelli, D. \nCiani \nA. Pisano \n  \nQUID for SST TAC Products \nSST_MED_SST_L4_REP_OBSERVATIONS_010_021 \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \nSST_MED_PHY_L3S_MY_010_042 \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-021-022-041-042 \n31 May 2024 \n4.0 \n \n                                                      Page 3/ 27 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nII.1 SST Processing chain and algorithms ......................................................................................................... 7 \nII.1.1 Input upstream data ............................................................................................................................ 8 \nII.1.2 Algorithms ............................................................................................................................................ 9 \nIII Validation framework ............................................................................................................................... 13 \nIV Validation results ...................................................................................................................................... 14 \nIV.1 Mediterranean Sea ................................................................................................................................ 14 \nIV.2 Black Sea ................................................................................................................................................ 19 \nV System’s Noticeable events, outages or changes ...................................................................................... 24 \nVI Quality changes since previous version ............................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for Sea Surface Temperature (SST) products in the Mediterranean and Black Seas, detailing production processes, validation results, and quality changes.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SST_MED_SST_L4_REP_OBSERVATIONS_010_021 | SST_BS_SST_L4_REP_OBSERVATIONS_010_022 | SST_BS_PHY_L3S_MY_010_041 | SST_MED_PHY_L3S_MY_010_042",
+      "name": "Sea Surface Temperature Reprocessing Observations",
+      "model_name": null,
+      "region": "Mediterranean Sea and Black Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_MED_SST_L4_REP_OBSERVATIONS_010_021 | SST_BS_SST_L4_REP_OBSERVATIONS_010_022 | SST_BS_PHY_L3S_MY_010_041 | SST_MED_PHY_L3S_MY_010_042",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2619,
+  "_tokens_out": 630,
+  "_eval_s": 4.58
+}

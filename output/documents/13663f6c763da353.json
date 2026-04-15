@@ -1,0 +1,67 @@
+{
+  "doc_id": "13663f6c763da353",
+  "legacy_doc_id": "6c99ecd1618d",
+  "filename": "OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.38,
+  "pages": 10,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Roshin P. Raj, Vidar S. Lien, Laurent Bertino \n \nApproval Date : March 2026 \n \nFor OMI_CIRCULATION_VOLTRANS_ARCTIC \n \n Issue: 4.2 \nPRODUCT USER MANUAL \n\n \nCopernicus Marine Product User Manual for \nOMI_CIRCULATION_VOLTRANS_ARCTIC_averaged \nIssue : 4.2 \n03/2026 \n \n \n \n2 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-PUM-CIRCULATION \nIssue 4.2 – 03/2026 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2018/09/11 All Creation of the document R. P. Raj, V. S. \nLien L. Bertino \n2.0 2021/01/10 All Document update R. P. Raj, V. S. \nLien L. Bertino \n3.0 2021/09/01 All Document update R. P. Raj, V. S. \nLien L. Bertino \n4.0 2022/08/15 All Document update R. P. Raj, V. S. \nLien L. Bertino \n4.1 2025/05/27 All Document update V. S. Lien L. Bertino \n4.2 2025/11/12 All Document update R. P. Raj, V. S. \nLien L. Bertino \n \nCopernicus Marine Product User Manual for \nOMI_CIRCULATION_VOLTRANS_ARCTIC_averaged \nIssue : 4.2 \n03/2026 \n \n \n \n3 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-PUM-CIRCULATION \nIssue 4.2 – 03/2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 7 \nc) Dataset details ...................................................................................................... 8 \n3) FILE FORMAT ...................................................................................................... 9 \n4) FILES NOMENCLATURE....................................................................................... 9 \n5) REFERENCES ..................................................................................................... 10 \n  \n \nCopernicus Marine Product User Manual for \nOMI_CIRCULATION_VOLTRANS_ARCTIC_averaged \nIssue : 4.2 \n03/2026 \n \n \n \n4 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-PUM-CIRCULATION \nIssue 4.2 – 03/2026 \nGLOSSARY AND ABBREVIATIONS \n \n \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \n \n  \n \nCopernicus Marine Product User Manual for \nOMI_CIRCULATION_VOLTRANS_ARCTIC_averaged \nIssue : 4.2 \n03/2026 \n \n \n \n5 \n© EU Copernicus Marine Service – Public   \nCMEMS-ARC-OMI-PUM-CIRCULATION \nIssue 4.2 – 03/2026 \n \n \nDATA ACCESS \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged, providing details on data access and product specifications.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OMI_CIRCULATION_VOLTRANS_ARCTIC_averaged",
+      "name": "Arctic Ocean Circulation Volume Transport",
+      "model_name": null,
+      "region": "Arctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

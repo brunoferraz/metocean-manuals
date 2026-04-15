@@ -1,0 +1,82 @@
+{
+  "doc_id": "dde9985fc80ed37e",
+  "legacy_doc_id": "2db9ae3c36f6",
+  "filename": "SEALEVEL_GLO_PHY_L4_MY_008_047_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEALEVEL_GLO_PHY_L4_MY_008_047_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.7,
+  "pages": 18,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Marie-Isabelle Pujol (CLS). Kelly Grassi (CLS) \n \nApproval Date : November 2025 \n \nFor Sea Level Altimeter products \n SEALEVEL_GLO_PHY_L4_NRT_ 008_046 \nSEALEVEL_EUR_PHY_L4_NRT_ 008_060 \nSEALEVEL_GLO_PHY_L4_MY_008_047 \nSEALEVEL_EUR_PHY_L4_MY_008_068 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for Sealevel L4 NRT and MY product (-046-047-060-068) \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-046-047-060-068  \nIssue 0.1 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/28  \nChange Format file: subdivision of \nunique PUM for L3/L4 products in 3 \ndocuments. This new doc concern \nL4 products \nNew NRT demo dataset : NRT L4 \nwith SWOT-KaRIn  \nNew MY demo dataset : \nReprocessed L4 with enhanced \nMIOST technique \n \nK Grassi M-I Pujol \n      \n      \n \n \n \n3 Product User Manual for Sealevel L4 NRT and MY product (-046-047-060-068) \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-046-047-060-068  \nIssue 0.1 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary.............................................................................................................6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ..........................................................................................7 \nb) Production System Description ........................................................................8 \nc) Dataset details ...................................................................................................8 \nd) L4 MY datasets ...................................................................................................9 \ne) Additional information on some parameters ...............................................11 \nf) Processing information ....................................................................................12 \ng) Catalogue updating .......................................................................................12 \nh) Time averaging ................................................................................................13 \ni) Product use and impact .................................................................................13 \n3) FILE FORMAT .................................................................................................... 14 \n4) FILES NOMENCLATURE .................................................................................... 14 \nNomenclature of original files: Level-4 gridded products .....................................14 \n4.1)   FILE SIZE ............................................................................................................ 15 \n4.2)   STRUCTURE OF FILES ......................................................................................... 15 \n5) REFERENCES ..................................................................................................... 15 \n6) ANNEX ............................................................................................................. 16 \n  \n \n \n \n4 Product User Manual for Sealevel L4 NRT and MY product (-046-047-060-068) \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SL-PUM-008-046-047-060-068  \nIssue 0.1 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for Medium Range Weather forecast \nGLO Global \nMFWAM Meteo France WAve Model \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \nFORECAST An assessment of the future state of the ocean variables made \nusing numerical models. \nHINDCAST \nAn assessment of the past state of the ocean variables made \nusing numerical models with or without data assimilation. \nSimulations and analyses are hindcasts.  \nSIMULATION  An hindcast done without data assimilation. \nNRT-ANALYSIS:  \nAn hindcast done with data assimilation for a period very close \nto present. The quality and the numb",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Sea Level L4 Near Real Time and Multi Year products, providing details on product specifications, file format, nomenclature, dataset information, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_GLO_PHY_L4_MY_008_047",
+      "name": "Global Sea Level L4 Multi Year Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEALEVEL_GLO_PHY_L4_MY_008_047",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level",
+        "long_name": "Sea Surface Height Anomaly",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

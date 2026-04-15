@@ -1,0 +1,97 @@
+{
+  "doc_id": "36f9b3dfe002708f",
+  "legacy_doc_id": "18301427aa43",
+  "filename": "ARCTIC_ANALYSIS_FORECAST_WAV_002_014_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_ANALYSIS_FORECAST_WAV_002_014_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.68,
+  "pages": 21,
+  "text_preview": " \n \nArctic Ocean Wave analysis and Forecast Product \nARCTIC_ANALYSIS_FORECAST_WAV_002_014 \n \n \n   \n Issue: 1.8    \n  Contributors: Patrik Bohlinger, Ana Carrasco, Øyvind Saetra    \n  Approval date by the CMEMS product quality coordination team: 11/11/2024    \n \n   \n \n \n \n   \n  \n \n\nQUID for ARC MFC Product \nARCTIC_ANALYSIS_FORECAST_WAV_002_014 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-014 \n27 August 2024 \n1.8 \n \n2 \n \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 January \n2017 \nAll Creation of the document Øyvind Saetra, Ana \nCarrasco, Johannes \nRöhrs, Arild Burud \nMalte Muller \n1.1 March \n2017 \nAll Updated version after \nfeedback from Mercator \nØyvind Saetra, Ana \nCarrasco \nMalte Muller \n1.2 January \n2018 \nAll Updated with new V4 \nwave product \nMalte Müller  \n1.3 November \n2018 \nI.1 \nII \nV \nUpdated version with \ncurrents and wave under \nsea ice  \nØyvind Saetra Malte Müller \n1.4 September \n2019 \nAll Two forecasts a day and \ngrid size reduced from \n6.25 to 3km  \nPatrik Bohlinger, \nAna Carrasco \n \n1.5 October \n2019 \nI.3 \nVI \nValidation period \nextended from 2 to 3 \nmonths \nPatrik Bohlinger A. Melsom  \nL. Bertino \n1.6 February \n2022 \nI.2 I.3  \nIII IV \nQuality improvement \nwith new validation \nPatrik Bohlinger A. Melsom \n1.7 May 2023 I.2 I.3 \nIII IV .1 \nNew formulation for \nwave propagation under \nsea ice \nPatrik Bohlinger, \nAna Carrasco \nA. Melsom \n1.8 August \n2024 \nAll Assimilation of altimetry \ndata for significant wave \nheight \nPatrik Bohlinger A. Melsom \n \n \n \n  \nQUID for ARC MFC Product \nARCTIC_ANALYSIS_FORECAST_WAV_002_014 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-014 \n27 August 2024 \n1.8 \n \n3 \n \n \nTABLE OF CONTENTS \nChange Record ............................................................................................................................................................ 2 \nTable of contents ......................................................................................................................................................... 3 \nI Executive summary .............................................................................................................................................. 4 \nI.1 ....... Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 ....... Estimated Accuracy Numbers ................................................................................................................... 5 \nII Production system description ............................................................................................................................. 7 \nIII Validation framework .................................................................................................................................... 11 \nIV Validation results .............................................................................................................................................. 14 \nIV .1 Significant Wave Height (Hs) .................................................................................................................. 15 \nIV .2 Peak Period (Tp) ...................................................................................................................................... 17 \nV System’s Noticeable events, outages or changes ................................................................................................ 19 \nVI Quality changes since previous version ............................................................................................................. 20 \nReferences ................................................................................................................................................................. 21 \n \nQUID for ARC MFC Product \nARCTIC_ANALYSIS_FORECAST_WAV_002_014 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-014 \n27 August 2024 \n1.8 \n \n4 \n \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document covers the Copernicus Marine Environment Monitoring Service (CMEMS) product: \nARCTIC_ANALYSIS_FORECAST_WA VE_002_014 which is the near -real time analysis and \nforecast of ocean wave parameters for the Arctic. \n \nThe product is produced by the Arctic Monitoring and Forecasting Centre (Arctic MFC) using the \nWAM numerical prediction model, which consists of the following elements: \n• The WAM numerical wave model version at MET Norway. \n• Spatial resolution of 3x3 km on a polar stereographic grid. \n• Wave propagation under sea ice and wave -current int",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a QUID for the CMEMS product ARCTIC_ANALYSIS_FORECAST_WAV_002_014, detailing the Arctic Ocean wave analysis and forecast using the WAM numerical prediction model with a spatial resolution of 3x3 km on a polar stereographic grid.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_ANALYSIS_FORECAST_WAV_002_014",
+      "name": "Arctic Ocean Wave Analysis and Forecast",
+      "model_name": "WAM 4.7",
+      "region": "Arctic",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": 24
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant Wave Height (Hs)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tp",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density",
+        "long_name": "Peak Period (Tp)",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "polar_stereographic",
+      "horizontal_resolution": "3x3 km",
+      "crs": null,
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 65.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

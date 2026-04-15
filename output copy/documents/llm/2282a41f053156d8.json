@@ -1,0 +1,85 @@
+{
+  "doc_id": "2282a41f053156d8",
+  "legacy_doc_id": "1704cb2c795d",
+  "filename": "GEBCO_gridded_bathymetry_overview.md",
+  "filepath": "docs/gebco_docs/GEBCO_gridded_bathymetry_overview.md",
+  "extension": ".md",
+  "file_size_mb": 0.01,
+  "pages": 3,
+  "text_preview": "# GEBCO Documentation\n\nSource: https://www.gebco.net/data-products/gridded-bathymetry-data/\n\n---\n\n-\n\nGridded Bathymetry Data | GEBCO\n\n[\nSkip to main content\n](#main-content)\n\n# Gridded Bathymetry Data\n\n## Global ocean & land terrain models\n\nGEBCO’s current gridded bathymetric data set, the GEBCO_2025 Grid, is a global terrain model for ocean and land, providing elevation data, in meters, on a 15 arc-second interval grid. It is accompanied by a Type Identifier (TID) Grid that gives information on the types of source data that the GEBCO_2025 Grid is based.\n\nThis release includes a version of the grid with under-ice topography/bathymetry information for Greenland and Antarctica.\n[Download global coverage grids](#global)\n- [Download data for user-defined areas](#area)\n- [Multi-resolution grid product](#multi)\n- [Access the GEBCO grid via OPeNDAP](#opendap)\n\nMore [information](/data-products-gridded-bathymetry-data/gebco2025-grid) about the grid, its terms of use and attribution. [Provide feedback](https://www.gebco.net/data-products/gridded-bathymetry-data/feedback/), tell us how you are using the grid.\n\nGEBCO releases a new global grid every year, generally in July. Find out more about the [grid generation process](/data-products/gridded-bathymetry-data/grid-development).\n\n## Download global coverage grids\n\nThe GEBCO_2025 Grid and TID Grid can be download as global files in netCDF format or a set of 8 tiles (each with an area of 90° x 90°), giving global coverage, in Esri ASCII raster and data GeoTiff formats. The data filea are included in a zip file along with the data set documentation.\n\nGEBCO_2025 Grid (ice surface elevation)[netCDF](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/ice_surface_elevation/netcdf/gebco_2025.zip?download=1) (4 Gbytes, 7.5 Gbytes uncompressed)[Data GeoTiff](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/ice_surface_elevation/geotiff/gebco_2025_geotiff.zip?download=1)[ ](https://www.bodc.ac.uk/data/open_download/gebco/gebco_2024/geotiff/)(4 Gbytes, 8 Gbytes uncompressed)[Esri ASCII raster](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/ice_surface_elevation/esri_ascii_raster/gebco_2025_ascii.zip?download=1) (5 Gbytes, 20 Gbytes uncompressed)GEBCO_2025 Grid (sub-ice topo/bathy)[netCDF](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/sub_ice_topography_bathymetry/netcdf/gebco_2025_sub_ice_topo.zip?download=1)[ ](https://www.bodc.ac.uk/data/open_download/gebco/gebco_2024_sub_ice_topo/zip/)(4 Gbytes, 7.5 Gbytes uncompressed)[Data GeoTiff](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/sub_ice_topography_bathymetry/geotiff/gebco_2025_sub_ice_topo_geotiff.zip?download=1)[ ](https://www.bodc.ac.uk/data/open_download/gebco/gebco_2024_sub_ice_topo/geotiff/)(4 Gbytes, 8 Gbytes uncompressed)[Esri ASCII raster](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/sub_ice_topography_bathymetry/esri_ascii_raster/gebco_2025_sub_ice_topo_ascii.zip?download=1) (5 Gbytes, 20 Gbytes uncompressed)GEBCO_2025 TID Grid[netCDF](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/type_identifier_grid/netcdf/gebco_2025_tid.zip?download=1) (90 Mbytes, 4 Gbytes uncompressed)[Data GeoTiff](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/type_identifier_grid/geotiff/gebco_2025_tid_geotiff.zip?download=1) (96 Mbytes, 7 Gbytes uncompressed)[Esri ASCII raster](https://dap.ceda.ac.uk/bodc/gebco/global/gebco_2025/type_identifier_grid/esri_ascii_raster/gebco_2025_tid_ascii.zip?download=1) (108 Mbytes, 9.5 Gbytes uncompressed)\n\nPlease note that the size of the uncompressed files.\n\n## Download data for user-defined areas\n\nUse our [application](https://download.gebco.net/) to select and download data in netCDF, Esri ASCII raster and data GeoTiff formats.\n\nPLEASE NOTE: On the 16th March we have released a new GEBCO download application. Please provide any feedback at\n\n[gdacc@seabed2030.org](mailto:gdacc@seab%65d2030.or%67)\n\n[\n\nImage:\n\n](https://download.gebco.net)\n## Multi-resolution grids\n\nThe global GEBCO grid is currently made available as a global 15 arc-second interval grid. However, in some regions, it is based on data at higher resolutions. To accommodate users who want access to higher resolution gridded bathymetry data, where it exists, a [test multi-resolution grid product](/data-products/gridded-bathymetry-data/multi-res) has been developed. This is now available through the new download application.\n\n## Access the GEBCO grid via OPeNDAP\n\nGEBCO’s gridded data sets are now available for [direct download](https://data.ceda.ac.uk/bodc/gebco/global/gebco_2025) from the Natural Environment Research Council's (NERC) Centre for Environmental Data Analysis (CEDA).\n\nThrough CEDA, GEBCO’s gridded data sets can also be accessed via [OPeNDAP](https://www.opendap.org/) – allowing direct access to the data sets through a number of applications.\n\nTo access the GEBCO_2025 Grid via OPeNDAP – navigate to the directory that contains the netCDF data file for the gridded data set that you are interested",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes GEBCO's Gridded Bathymetry Data, specifically the GEBCO_2025 Grid and TID Grid, which provide elevation data for ocean and land on a global scale.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "General Bathymetric Chart of the Oceans (GEBCO)"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Gridded Bathymetry Data",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "elevation",
+        "cf_standard_name": "sea_floor_depth_below_mean_sea_level",
+        "long_name": "Elevation data for ocean and land terrain models",
+        "unit": "meters",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "15 arc-second interval",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "opendap",
+        "format": "netcdf",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2765,
+  "_tokens_out": 503,
+  "_eval_s": 3.66
+}

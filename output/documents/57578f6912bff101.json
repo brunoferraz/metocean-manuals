@@ -1,0 +1,88 @@
+{
+  "doc_id": "57578f6912bff101",
+  "legacy_doc_id": "618c7c3a08e8",
+  "filename": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.69,
+  "pages": 15,
+  "text_preview": " \n \n \n \n \n \nSea Ice Thematic Assembly Centre \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nSEAICE_ANT_PHY_L3_MY_011_018 \n \n \n Issue: 1.1 \nContributors: Dominique Briand, Fanny Ardhuin, Cédric Prevost, Jean François Piolle \nApproval date by the CMEMS product quality coordination team: 8/11/2024 \n \n \n \n \n  \n\n \nQUID for Sea Ice TAC Products \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nSEAICE_ANT_PHY_L3_MY_011_018 \nRef: \nDate: \nIssue: \nCMEMS_SEAICE_QUID_011_010-018 \n31/05/2024 \n1.1 \n \n \n                                                    \n  Page 2/ 15 \n \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 August 2023 All Creation of the document. The previous \ndocument included many Sea Ice TAC \nproducts and was split (CMEMS-SI-QUID-\n011-001to007-009to015-019-V2.17) \nDominique \nBriand  \nCédric Prevost \nFanny Arduin  \nC. Wettre \n1.1 May 2024 All Addition of CFOSAT datasets Cédric Prévost C. Wettre \n \n \n \n  \n \nQUID for Sea Ice TAC Products \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nSEAICE_ANT_PHY_L3_MY_011_018 \nRef: \nDate: \nIssue: \nCMEMS_SEAICE_QUID_011_010-018 \n31/05/2024 \n1.1 \n \n \n                                                    \n  Page 3/ 15 \n \n \nTABLE OF CONTENTS \n \nI Executive summary4 \nI.1 Products covered by this document4 \nI.2 Summary of the results4 \nI.3 Estimated Accuracy Numbers5 \nII Production system description6 \nII.1 Data collection6 \nII.2 Per sensor drift processing7 \nII.3 Sea ice drifts7 \nIII Validation framework8 \nIII.1 Arctic ice drift time series8 \nIII.2 Antarctic ice drift time series9 \nIV Validation results10 \nIV.1 Arctic ice drift time series10 \nIV.2 Antarctic ice drift time series12 \nV System’s Noticeable events, outages or changes13 \nVI Quality changes since previous version14 \nVII References15 \n \n \n \n \n \n \n \n \n \n \nQUID for Sea Ice TAC Products \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \nSEAICE_ANT_PHY_L3_MY_011_018 \nRef: \nDate: \nIssue: \nCMEMS_SEAICE_QUID_011_010-018 \n31/05/2024 \n1.1 \n \n \n                                                    \n  Page 4/ 15 \n \n \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nSEAICE_ARC_SEAICE_REP_OBSERVATIONS_011_010 \nSea ice drift maps are estimated in the Arctic from several scatterometers and radiometers. Single drift \nfields are combined at the same resolution into a “merged” field, built at two- three- six- and thirty-day \nlags (depending on the sensor(s) used), duri ng the winter seasons (September until May).   ASCAT1 and \nmerged ASCAT/SSMI 2 ASCAT/QUIKSCAT3 and also CFOSAT  SCAT4 and merged CFOSAT SCAT/SSMI \ndatasets are ~62.5 km (0.5 degree) spatial resolution while AMSR5 datasets are ~31.25 km (0.25 degree) \nspatial resolution. The CFOSAT data are time limited, covering the 2020-2022 period. \nSEAICE_ANT_PHY_L3_MY_011_018 \nSea ice drift maps are estimated in the Antarctic from AMSR radiometer datasets at ~31.25  km \n(0.25 degree) spatial resolution since 2003 at two - and three -day lags, during the winter seasons \n(October until April).  CFOSAT SCAT data are also used to build sea ice drift maps at two -, three- and \nthirty-day lags. CFOSAT SCAT and merged CFOSAT SCAT/SSMI datasets are ~62.5 km (0.5 degree) spatial \nresolution for the 2020-2022 period. \nI.2 Summary of the results \nI.2.1 Arctic sea ice drift \nSEAICE_ARC_SEAICE_REP_OBSERVATIONS_011_010 \nThe low resolution Arctic Sea ice drift products have been compared to buoy data (US Interagency Arctic \nBuoy Program (IABP6)). The validation shows good correlation between the reference and the product \nand standard deviation is 7.5  km for 3 -day lag drifts and 8.9 km for 6 -day lag drifts for both velocity \ncomponents.  \nIn order to generate the drift maps, the same processing method is applied with the QUIKSCAT, SSMI, \nASCAT and CFOSAT data.  \nBe aware that the original CFOSAT data are still to be assessed by the space Chinese agency. \nThe medium resolution Arctic Sea ice drift products have also been compared to buoy data (US IABP). \nThe validation (see Table 1) shows good correlation between the reference and the product and \n \n1 Advanced Scatterometer sensors developed for the MetOp A, B and C missions.  \n2 Special Sensor Microwave Imager instrument (passive microwave radiometer) developed for the Defense \nMeteorological Satellite Program (DMSP). \n3 The NASA QuikSCAT (Quick Scatterometer) was an Earth observation satellite carrying the SeaWinds \nscatterometer. \n4 SCAT is a wind-scatterometer on board the Chinese-French Oceanic SATellite (CFOSAT) \n5 Advanced Microwave Scanning Radiometer on board Aqua and GCOM -W satellites. \n6 https://www.ncei.noaa.gov/products/international-arctic-buoy-program \n \nQUID for Sea Ice TAC Products \nSEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010 \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes Sea Ice TAC products for both Arctic and Antarctic regions, detailing data collection methods, validation frameworks, and results from buoy comparisons.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Sea Ice Thematic Assembly Centre"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010, SEAICE_ANT_PHY_L3_MY_011_018",
+      "name": "Sea Ice TAC Products",
+      "model_name": null,
+      "region": "Arctic, Antarctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_ARC_SEAICE_L3_REP_OBSERVATIONS_011_010",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "SEAICE_ANT_PHY_L3_MY_011_018",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea ice drift",
+        "cf_standard_name": "sea_ice_drift_velocity",
+        "long_name": "Sea Ice Drift Velocity",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "sea ice drift"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "~62.5km, ~31.25km (0.5 degree, 0.25 degree)",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

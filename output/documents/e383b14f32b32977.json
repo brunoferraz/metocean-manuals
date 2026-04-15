@@ -1,0 +1,82 @@
+{
+  "doc_id": "e383b14f32b32977",
+  "legacy_doc_id": "573c4022ce60",
+  "filename": "GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/GLOBAL_OMI_HEALTH_carbon_co2_flux_integrated_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.64,
+  "pages": 7,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the \nCopernicus Marine Environment Monitoring Service \nGlobal yearly ocean CO2 sink \nIssue: 6.0 \n \n \n \n \n \n \nContributors : Thi Tuyet Trang Chau, Marion Gehlen, Frédéric Chevallier \nApproval date by the Copernicus Marine Environment Monitoring Service product quality coordination \nteam: January 2024 \n \n  \n\n Copernicus Marine Environment Monitoring \nService Quality Information Document for \nGlobal yearly CO2 sink \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nCHANGE RECORD \n \n \nIssu\ne \nDate § Description of Change Author Validated \nBy \n1.0  2019/10  all  Creation of the document  Marion Gehlen, Thi Tuyet \nTrang Chau  \n  \n2.0  2019/12  /  Update of Figure, references  \nModification of method \ndescription and validation  \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \n  \n3.0  2020/09  /  Update of Figure, references  \nModification of evaluation \nresults  \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \n  \n4.0  2021/09  /  Update of Figure, references \nModification of evaluation \nresults  \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \nStéphanie \nGuinehut  \n4.1  2021/11    Correction following MOi review  Thi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier  \nSandrine \nMulet \n5.0 2022/09 / Update of Figure, references  \nModification of evaluation \nresults \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier \nM. \nDrevillon \n6.0 2023/09 / Update of Figure, references  \nModification of evaluation \nresults \nThi Tuyet Trang Chau, \nMarion Gehlen, Frédéric \nChevallier \nHélène \nEtienne \n \n \n \n \n \n  \n Copernicus Marine Environment Monitoring \nService Quality Information Document for \nGlobal yearly CO2 sink \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION .......................................................................................................................................... 4 \nI.1 Product name ............................................................................................................................................ 4 \nI.2 Indicator evaluation method ..................................................................................................................... 4 \nI.3 Copernicus Marine Environment Monitoring Service  products used as input for the computations ......... 4 \nII SCIENTIFIC EVALUATION ............................................................................................................................. 5 \nREFERENCES ........................................................................................................................................................ 7 \n \n \n \n Copernicus Marine Environment Monitoring \nService Quality Information Document for \nGlobal yearly CO2 sink \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \n \nI.1 Product name  \nGLOBAL_OMI_HEALTH_carbon_co2_flux_integrated \n \nI.2 Indicator evaluation method \nThe OMI global yearly ocean CO2 sink represents the ocean uptake of CO2 from the atmosphere \ncomputed over the whole ocean. It is computed by multiplying the 12-month running mean of \nthe surface ocean downward CO 2 mass flux (fgco2 ) [ molC m -2 yr -1], a variable from the \nMULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008 product, by the area of each grid cell, \nand then taking the sum over all cells. The unit is finally converted to PgC per year (Figure 1). \nThe yearly estimate of the ocean CO2 sink corresponds to the mean of a 100-member ensemble \n(see the method described in Chau et al . (2022, 2023 ) in the QUID for \nGLOBAL_OMI_HEALTH_carbon_ph_area_averaged). In line with Friedlingstein et al. ( 2022), \nyearly uncertainties are estimated as their corresponding ensemble standard deviation (1σ). \nI.3 Copernicus Marine Environment Monitoring Service  products used as \ninput for the computations \n \nProduct name (and Type) Documentation \nMULTIOBS_GLO_BIO_CARBON_S\nURFACE_REP_015_008 \nQUID: \nhttps://catalogue.marine.copernicus.eu/docu\nments/QUID/CMEMS-MOB-QUID-015-008.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/docu\nments/PUM/CMEMS-MOB-PUM-015-008.pdf \n \n \n Copernicus Marine Environment Monitoring \nService Quality Information Document for \nGlobal yearly CO2 sink \nIssue : 6.0 \n21.09.2023 \n \n \n© EU Copernicus Marine Service – Public   \n5 \nII SCIENTIFIC EVALUATION \n \n \nFigure 1: Area-integrated yearly surface downward flux of total CO2 for 1985-2022. Plain line: mean of \n100 samples; range: empirical 68 % confidence interval (mean estimate ± standard deviation) \ncomputed from 100 samples.  Trend",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the Ocean Monitoring Indicator for global yearly ocean CO2 sink, detailing its computation method and scientific evaluation based on Copernicus Marine Environment Monitoring Service products.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "fgco2",
+        "cf_standard_name": "downward_ocean_carbon_flux_in_sea_water",
+        "long_name": "surface ocean downward CO2 mass flux",
+        "unit": "molC m-2 yr-1",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

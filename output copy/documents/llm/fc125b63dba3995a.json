@@ -1,0 +1,99 @@
+{
+  "doc_id": "fc125b63dba3995a",
+  "legacy_doc_id": "663fe494cb52",
+  "filename": "INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_PHY_TS_DISCRETE_MY_013_001_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.77,
+  "pages": 69,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n PRODUCT USER MANUAL \n \nIn Situ TAC T&S REP Product \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \n \n \nIssue:  1.17 \n \n \nContributors : Tanguy Szekely \nApproval Date : November 2025 \n \n\n \n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nIssue: 1.17 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-001 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 10/06/2013 \n \n \n \n \n \n \nCreation of the document \n \n \n \nGROUAZEL Antoine S Pouliquen \n1.2 16/01/2014  Update for CORA-GLOBAL 4.0 GROUAZEL Antoine S Pouliquen \n1.3 \n \n \n \n15/12/2014  Update for CORA 4.1 Tanguy Szekely L. Crosnier \n1.4 May 1 2015 all Change format to fit CMEMS \ngraphical rules \n L. Crosnier \n1.5 Dec 10 2015 All Change MyOcean in CMEMS \nUpdate for CMEMS V2 \nS. Pouliquen \nTanguy Szekely \nS. Pouliquen \n1.6  All Update for CORA4,2 Tanguy Szekely  \n1.7 19/12/2016  Update for CORA 5.0 Tanguy Szekely  \n1.8 01/03/2018  Update for CORA 5.1 Tanguy Szekely  \n \n \n1.9 04/04/2019  Update for CORA 5.2 and Easy \nCORA \nTanguy Szekely  \n \n 1.10 10/09/2019  Cora version no longer in dataset \nname \nStéphane Tarot  \nTanguy Szekely \n \n1.11 11/09/2020  Switch to the Netcdf file format Tanguy Szekely  \n1.12 25.06.2021  Update of the data validation  Tanguy Szekely  \n1.13 10/02/2022  Spring 2022 release update Tanguy Szekely \n \nS. Tarot \n1.14 12/05/2022  Change template and \nproduct/dataset names \nChange file bigram format \n \n \n \n \n \n \nTanguy Szekely S. Tarot \n1.15 15/06/2023  Dataset update – File format \nupdate \nTanguy Szekely Copernicus Marine \nProduct management \nteam \n1.16 22/05/2024  Dataset update – File Format \nupdate \nTanguy Szekely S. Tarot \n1.17 14/04/2025  Dataset update Tanguy Szekely S. Tarot \n \n \n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_PHY_TS_DISCRETE_MY_013_001 \nIssue: 1.17 \n11/2025 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-001 \n3 \nTable of contents \nGLOSSARY AND ABBREVIATIONS..................................................................................................................... 5 \nI INTRODUCTION ............................................................................................................................................ 7 \nI.1 Scope of this document .................................................................................................................................. 7 \nI.2 The Copernicus Marine Service ................................................................................................................... 7 \nI.3 Short introduction to the product ................................................................................................................. 7 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................. 8 \nII.1 General information ..................................................................................................................................... 8 \nII.2 History of the product .................................................................................................................................. 9 \nII.3 Content of the product and datasets ......................................................................................................... 12 \nII.4 Details of the datasets ................................................................................................................................. 15 \nIII PRODUCT DISTRIBUTION .................................................................................................................... 18 \nIII.1 Dataset release time schedule ................................................................................................................... 18 \nIII.2 Which Download mechanism is available for this product? ................................................................. 19 \nIII.3 Data access ................................................................................................................................................. 19 \nIV CORA FILES NOMENCLATURE AND FORMAT .................................................................................... 21 \nIV.1 Nomenclature of files ................................................................................................................................ 21 \nIV.2 File Format ................................................................................................................................................ 22 \nIV.3 Structure and semantic of NetCDF maps ...................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for INSITU_GLO_PHY_TS_DISCRETE_MY_013_001, detailing the product specifications and distribution information of in situ temperature and salinity data from MERCATOR OCEAN INTERNATIONAL.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_TS_DISCRETE_MY_013_001",
+      "name": "In Situ TAC T&S REP Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "INSITU_GLO_PHY_TS_DISCRETE_MY_013_001",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "In-situ temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2471,
+  "_tokens_out": 611,
+  "_eval_s": 4.7
+}

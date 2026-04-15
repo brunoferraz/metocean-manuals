@@ -1,0 +1,67 @@
+{
+  "doc_id": "5d0ce683397eab34",
+  "legacy_doc_id": "2d00cc77933e",
+  "filename": "SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.42,
+  "pages": 14,
+  "text_preview": " \n \n \n \n         PRODUCT USER MANUAL \n \nFor Reprocessed Sea Ice Concentration from  \nEUMETSAT OSI SAF \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n \n \nIssue:  2.20 \n \n \n \n \nContributors: Atle M Sørensen, Thomas Lavergne, Steinar Eastwood \n \nApproval Date: March 2026 \n \n \n\n \nPUM for products \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n11/2025 \nIssue : 2.20 \n \n \n© EU Copernicus Marine Service – Public         Ref: CMEMS-SEAICE-PUM-011-009                        Page 2 / 14 \nCHANGE RECORD \nIssue Date § Description of Change Author Validated By \n1.0 \n \n2011.03.15 \n \nAll \n \nCreation of the document. Thomas Lavergne Steinar Eastwood \n1.1 2011.10.28 layou\nt \nAdaptation to new template Steinar Eastwood Lars-Anders Breivik \n2.1 2014.05.15 II Add MFTP download \nmechanism. Further \nadaptation to template. \nBruce Hackett Lars-Anders Breivik \n2.2 2015.02.07 II Add SUBS download \nmechanism. \nBruce Hackett, Arild \nBurud \nLars-Anders Breivik \n2.3 2015.05.01 all Change format to fit \nCMEMS graphical rules \nBruce Hackett L. Crosnier \n2.4 2015.12.09 All Update Annex to V2P2 \nversion of OSI SAF PUM. \nChange MyOcean to \nCMEMS references \nBruce Hackett  \n2.5 2016.06.30 All Added continuous reproc Steinar Eastwood Cecilie Wettre \n2.6 2016.12.16 II.1 Corrected error  Bruce Hackett Cecilie Wettre \n2.7 2019.12.08 All Updated to new OSI SAF \nversions of products, OSI-\n450 and OSI-430-b \nSteinar Eastwood Cecilie Wettre \n2.8 2020.11.09  Added links to OSI SAF \ndocuments \nC. Wettre C. Derval \n2.9 2021.08.24  Updated links to OSI SAF \nwebportal \nS Eastwood C Wettre \n2.10 2023.05.31  New version v3 from OSI \nSAF  \nS Eastwood C Wettre \n2.20 2025.11.12  New dataset from OSI SAF S Eastwood C Wettre \n \nPUM for products \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n11/2025 \nIssue : 2.20 \n \n \n© EU Copernicus Marine Service – Public         Ref: CMEMS-SEAICE-PUM-011-009                        Page 3 / 14 \n \n \nPUM for products \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n11/2025 \nIssue : 2.20 \n \n \n© EU Copernicus Marine Service – Public         Ref: CMEMS-SEAICE-PUM-011-009                        Page 4 / 14 \n \nTABLE OF CONTENTS \nI INTRODUCTION ............................................................................................................................................ 7 \nI.1 Description summary of Products covered by this document .................................................................... 7 \nI.2 Product licensed ............................................................................................................................................. 7 \nI.3 Document organisation .................................................................................................................................. 7 \nII ALGORITHM DESCRIPTION ....................................................................................................................... 9 \nIII PRODUCT DESCRIPTION ...................................................................................................................... 10 \nIV FILES NOMENCLATURE AND FORMAT ................................................................................................ 12 \nIV.1 Nomenclature of files when downloaded through the Subsetter Service  ............................................. 12 \nIV.2 Nomenclature of files when downloaded through the Copernicus Marine FTP Service  .................... 12 \nIV.3 Land mask and missing values ................................................................................................................. 13 \nIV.4 File Format ................................................................................................................................................ 13 \nIV.5 Structure of files ........................................................................................................................................ 13 \nV REFERENCES .............................................................................................................................................. 14 \n \n \nPUM for products \nSEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009 \n11/2025 \nIssue : 2.20 \n \n \n© EU Copernicus Marine Service – Public         Ref: CMEMS-SEAICE-PUM-011-009                        Page 5 / 14 \n \nGLOSSARY AND ABBREVIATIONS \n \nCalval  Calibration Validation \nMIS Marine Information System \nDU Dissemination Unit. A Dissemination Unit is a kind of Production Unit, with the ability \nto disseminate its own products or other Production Unit's products to the rest of \nCMEMS Production Centres and to external Users. \nEC  European Commission \nDT Delayed Time \nECMWF  European Centre for Medium Range Weather Forecast \nECV  Essential Climate Variables \nEO Earth Observation \nESA  European Space Agency \nEU  European Union \nEUMETSAT  European Meteorological Satellite agency \nGCOS  Global Climate Observing System \nGLO  Global Monitoring and Forecasting Centre \nGMES  Global Monitoring for Environment and Security \nGTS  Mete",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for reprocessed Sea Ice Concentration from EUMETSAT OSI SAF, detailing product descriptions, file nomenclature and format, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "EU Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009",
+      "name": "Reprocessed Sea Ice Concentration from EUMETSAT OSI SAF",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SEAICE_GLO_SEAICE_L4_REP_OBSERVATIONS_011_009",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

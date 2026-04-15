@@ -1,0 +1,211 @@
+{
+  "doc_id": "8a394e6093fc1e57",
+  "legacy_doc_id": "ee6408d4e8b0",
+  "filename": "MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MEDSEA_MULTIYEAR_BGC_006_008_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 6.43,
+  "pages": 76,
+  "text_preview": " \n  \nMediterranean Sea Production Centre \nMEDSEA_MULTIYEAR_BGC_006_008 \n \n Issue: 3.3 \nContributors: A. Teruzzi, V. Di Biagio, L. Feudale, G. Bolzon, P. Lazzari, S. Salon, S. Piani, G. Cossarini \nApproval date by the CMEMS product quality coordination team: 16/10/2025 \n \n \n \n \n  \n \n\nQUID for MED MFC Products \nMEDSEA_MULTIYEAR_BGC_006_008 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-008 \n28/05/2025 \n3.3 \n \n Page 2/ 76 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0  26/01/2016 all First version of document \nat CMEMS V2 \nG. Cossarini, S. Salon, G. \nBolzon, A. Teruzzi, P. \nLazzari, E. Clementi \nE. Clementi \n1.1 04/04/2016 IV  Revised version after \nAcceptance Review \nReport and with \nassimilation of the \nupdated V2  ESA -CCI data \nset  \nG. Cossarini, S. Salon, G. \nBolzon, A. Teruzzi, P. \nLazzari, E. Clementi \nE. Clementi \n2.0 18/01/2017 all Version of document at \nCMEMS V3 \nG. Cossarini, S. Salon, G. \nBolzon, A. Teruzzi, P. \nLazzari \n \n2.1 07/02/2017 all Updates of the version of \ndocument at CMEMS V3 \nG. Cossarini, S. Salon, G. \nBolzon, A. Teruzzi, P. \nLazzari \n \n2.2 16/02/2018 all Updates of the version of \ndocument at CMEMS V4 \nG. Cossarini, S. Salon, G. \nBolzon, A. Teruzzi, P. \nLazzari, L. Feudale \nMercator Ocean \n2.3 21/01/2019 all Updates of the version of \ndocument for temporal \nextension Q1 2019 \nA. Teruzzi, G. Cossarini, \nS. Salon, G. Bolzon, P. \nLazzari, L. Feudale \n \n2.4 03/09/2019 all Updates of the version of \ndocument for temporal \nextension Q4 2019 \nA. Teruzzi, G. Cossarini, \nS. Salon, G. Bolzon, P. \nLazzari, L. Feudale \n \n3.0 15/01/2021 all New version of the \ndocument for the new \nreanalysis at horizontal \nresolution equal to 1/24° \nA. Teruzzi, V. Di Biagio, \nL. Feudale, G. Bolzon, P. \nLazzari, S. Salon, G. \nCoidessa, G. Cossarini  \nEmanuela Clementi  \n3.1 03/09/2021  Updated document \nincluding INTERIM \ndataset  \nA. Teruzzi, V. Di Biagio, \nL. Feudale, G. Bolzon, P. \nLazzari, S. Salon, G. \nCoidessa, G. Cossarini \nEmanuela Clementi  \n3.2 14/06/2022  Updated document for \nsubstitution of 2016-2020 \ntime series and extension \ntill June2021  \nA. Teruzzi, V. Di Biagio, \nL. Feudale, G. Bolzon, P. \nLazzari, S. Salon, G. \nCoidessa, G. Cossarini \nAnna Chiara Goglio \n(PQ Leader) \n \nQUID for MED MFC Products \nMEDSEA_MULTIYEAR_BGC_006_008 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-008 \n28/05/2025 \n3.3 \n \n Page 3/ 76 \nIssue Date § Description of Change Author Validated By \n3.3 28/05/2025  Merging of Reanalysis \nand Interim  \nA. Teruzzi, V. Di Biagio, \nL. Feudale, G. Bolzon, P. \nLazzari, S. Salon, \nS. Piani, G. Cossarini \nLucia gualtieri \n \n  \nQUID for MED MFC Products \nMEDSEA_MULTIYEAR_BGC_006_008 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-008 \n28/05/2025 \n3.3 \n \n Page 4/ 76 \nACRONYM TABLE \nAcronym Description \nOGS National Institute of Oceanography and Applied Geophysics \nMED Mediterranean \nMFC Monitoring Forecasting Centre \nGODAE the Global Ocean Data Assimilation Experiment \nPFTs Phytoplankton Functional Types \nBFM Biogeochemical Flux Model \nGLODAP Global Ocean Data Analysis Project \nDIC dissolved inorganic carbon \nALK Alkalinity \nMod Model \nSat Satellite \nOC Ocean Colour \nBFM Biogeochemical Flux Model \nESA-CCI European Space Agency – Climate Change Initiative \nECMWF European Centre for Medium-Range Weather Forecast \nTAC Copernicus Marine Service Thematic Assembly Centre \nNRT Near Real Time \nREP Reprocessing \nArgo International profiling float network (www.argo.net) \nMODIS Moderate-Resolution Imaging Spectroradiometer \nRMSD Root Mean Square Difference \nEAN Estimated Accuracy Number \nEOF Extended Orthogonal Function \nDCM Deep Chlorophyll Maximum \nWBL Winter Bloom Layer \nMLD Mixed Layer Depth \nSOCAT Surface Ocean CO2 Atlas \nEMODnet The European Marine Observation and Data Network \nQUID for MED MFC Products \nMEDSEA_MULTIYEAR_BGC_006_008 \nRef: \nDate: \nIssue: \nCMEMS-MED-QUID-006-008 \n28/05/2025 \n3.3 \n \n Page 5/ 76 \nKEY DEFINITIONS \nGODAE metrics used in the document (Hernandez et al., 2009) \nClass1 Metrics that allow consistency assessment (i.e., comparison to climatologies) \nClass4 Metrics that aim to measure the performance of the forecasting system, its capability \nto describe the processes \n \nLevels of skill performance adopted in the document \nLevel 1 Model capability to reproduce basin-wide spatial gradients, mean annual values in sub-\nbasins and average vertical profiles based on GODAE Class1 metrics \nLevel 2 Model capability to reproduce the variability due to mesoscale and daily dynamics \nbased on GODAE Class4 metrics (Hernandez et al., 2018) \nLevel 3 Model capability to reproduce key biogeochemical processes based on specific metrics \n(Salon et al., 2019) \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for MEDSEA_MULTIYEAR_BGC_006_008, detailing the quality and changes of Mediterranean Sea biogeochemical products from CMEMS.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MEDSEA_MULTIYEAR_BGC_006_008",
+      "name": "Mediterranean Sea Multiyear Biogeochemical Product",
+      "model_name": null,
+      "region": "Mediterranean",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "annual",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea Water Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea Water Practical Salinity",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "chlorophyll_a",
+        "cf_standard_name": "mass_concentration_of_chlorophyll_a_in_sea_water",
+        "long_name": "Mass Concentration of Chlorophyll-a in Sea Water",
+        "unit": "mg/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "nitrate",
+        "cf_standard_name": "mole_concentration_of_nitrate_in_sea_water",
+        "long_name": "Mole Concentration of Nitrate in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "phosphate",
+        "cf_standard_name": "mole_concentration_of_phosphate_in_sea_water",
+        "long_name": "Mole Concentration of Phosphate in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "silicate",
+        "cf_standard_name": "mole_concentration_of_silicate_in_sea_water",
+        "long_name": "Mole Concentration of Silicate in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "oxygen",
+        "cf_standard_name": "mole_concentration_of_dissolved_molecular_oxygen_in_sea_water",
+        "long_name": "Mole Concentration of Dissolved Molecular Oxygen in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "DIC",
+        "cf_standard_name": "mole_concentration_of_carbon_dioxide_in_sea_water",
+        "long_name": "Mole Concentration of Carbon Dioxide in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "ALK",
+        "cf_standard_name": "mole_concentration_of_total_carbonate_in_sea_water",
+        "long_name": "Mole Concentration of Total Carbonate in Sea Water",
+        "unit": "mol/m^3",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pCO2",
+        "cf_standard_name": "mole_fraction_of_carbon_dioxide_in_sea_water",
+        "long_name": "Mole Fraction of Carbon Dioxide in Sea Water",
+        "unit": "uatm",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 8951,
+  "_tokens_out": 4633,
+  "_eval_s": 35.48
+}

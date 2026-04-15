@@ -1,0 +1,85 @@
+{
+  "doc_id": "57685ef6c21bf4e4",
+  "legacy_doc_id": "75eceea39a8d",
+  "filename": "OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_sag_area_mean_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_HEALTH_CHL_GLOBAL_OCEANCOLOUR_oligo_sag_area_mean_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.7,
+  "pages": 8,
+  "text_preview": " \n \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \nQuality Information Document \n \nOcean Monitoring Indicator (OMI) of the Copernicus \nMarine Environment Monitoring Service \nOcean Health Oligotrophic Gyres \nIssue: 4.0 \n \n \n \n \n \nContributors: Jane Netting, Ben Howey, Shubha Sathyendranath, Bror Jonsson \nApproval date by the CMEMS product quality coordination team: November 2022 \n \n  \n\n CMEMS Quality Information Document for \nOcean Health Oligotrophic Gyres \nIssue : 4.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n2 \nChange Record \n \nWhen the quality of the products change s, the QuID  is updated and a row is added to this \ntable.  The third column specifies which sections or sub -sections have been updated.  The \nfourth column should mention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 2020/05/04 All Creation of the \ndocument \nJane Netting  \n2.0 2021/01/15 All May 2021 EiS Jane Netting, \n Ben Howey,  \nShubha \nSathyendranath,  \nBror Jonsson \n \n3.0 2021/09/10 All December 2021 EiS Jane Netting, \n Ben Howey,  \nShubha \nSathyendranath,  \nBror Jonsson \n \n3.0 2021/09/10 All December 2021 EiS Jane Netting, \n Ben Howey,  \nShubha \nSathyendranath,  \nBror Jonsson \n \n4.0 2022/06/16 All December 2022 EiS Jane Netting, \n Ben Howey,  \nShubha \nSathyendranath,  \nBror Jonsson \n \n      \n \n \n \n  \n CMEMS Quality Information Document for \nOcean Health Oligotrophic Gyres \nIssue : 4.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n3 \n \nI INTRODUCTION 4 \nI.1 Product name 4 \nI.2 Indicator evaluation method 4 \nI.3 CMEMS products used as input for the computations 6 \nII SCIENTIFIC VALIDATION 7 \nII.1 Input datasets 7 \nII.2 Time series and anomalies 7 \nIII REFERENCES 8 \n \n \n \n CMEMS Quality Information Document for \nOcean Health Oligotrophic Gyres \nIssue : 4.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n4 \nI INTRODUCTION \nI.1 Product name  \nProduct name Dataset name \nOMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_nag_area_mean omi_health_chl_global_omi_nag_area_mean \nOMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_npg_area_mean omi_health_chl_global_omi_npg_area_mean \nOMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_sag_area_mean omi_health_chl_global_omi_sag_area_mean \nOMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_spg_area_mean omi_health_chl_global_omi_spg_area_mean \nI.2 Indicator evaluation method \nThe CMEMS Ocean Colour OMIs are derived from the reprocessed (MY) global chlorophyll \nproducts generated and distributed by the CMEMS OC -TAC. The input dataset to produce  \nGLOBAL MY are the spectral Rrs produced by the Plymouth Marine Laboratory (PML) using the \nESA OC-CCI processor version 5 (OC_CCI v5) to merge at 1km resolution (rather than at 4km as \nfor OC-CCI) MERIS, MODIS -AQUA, SeaWiFS, VIIRS and OLCI -S3A data. The OC -CCIv5 is based \non the NASA reprocessing R2018.0.  The MY global was then used to compute daily and \nmonthly regional mean time series. \n \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_nag_area_mean \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_npg_area_mean \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_sag_area_mean \nProduct: OMI_HEALTH_CHL_GLOBAL_OceanColour_oligo_spg_area_mean \nThe monthly mean area (km2) with surface chlorophyll less than or equal to the gyre \ndefinition threshold of 0.07mg/m -3 were derived from the monthly 4km chlorophyll products \nusing the ESA OC-CCI processor version 5 (OC_CCI v5) based on the NASA reprocessing 2018.0.  \nMonthly gyre area estimations have been computed using an object labelling and hole filling \nalgorithm.  Daily regional mean values are calculated by performing the average (weighted by \npixel area) over these extracted areas.  \n  \n CMEMS Quality Information Document for \nOcean Health Oligotrophic Gyres \nIssue : 4.0 \n16.06.2022 \n \n \n© EU Copernicus Marine Service – Public   \n5 \n \nChlorophyll-a an d gyre area time series and trend (1997 -2021): \nNorth Pacific Gyre \nChlorophyll-a and gyre area time series and trend (1997 -2021): \nSouth Pacific Gyre \n  \nChlorophyll-a and gyre area time series and trend (1997 -2020): \nNorth Atlantic Gyre \nChlorophyll-a and g yre area time series and trend (1997 -2020): \nSouth Atlantic Gyre \n  \nFigure 1:  Top left – North Pacific Gyre, Top right – South Pacific gyre, Bottom right – North \nAtlantic Gyre, Bottom left – South Atlantic gyre \nTime series and trend (1997 -2020) of (uppe r panel) mean area, based on CMEMS product \nOCEANCOLOUR_GLO_BGC_L4_MY_009_108.  The monthly mean time series is shown in black, \nwith the deseasonalized time series in green and the linear trend in blue (normalized by the \nJan 2000 datum area)  and   (bottom panel) area satellite chlorophyll, based on CMEMS",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document for Ocean Monitoring Indicators (OMIs) related to ocean health, specifically focusing on oligotrophic gyres in the global ocean. It provides details about the evaluation method and input datasets used to compute regional mean time series of chlorophyll-a and gyre area.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Ocean Health Oligotrophic Gyres",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_blk_phy-temp_anfc_2.5km_P1D-m",
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlorophyll-a",
+        "cf_standard_name": "chl_a",
+        "long_name": "Chlorophyll-a concentration in the ocean surface layer",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2819,
+  "_tokens_out": 547,
+  "_eval_s": 4.08
+}

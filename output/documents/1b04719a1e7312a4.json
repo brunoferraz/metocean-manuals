@@ -1,0 +1,80 @@
+{
+  "doc_id": "1b04719a1e7312a4",
+  "legacy_doc_id": "d2305d27022e",
+  "filename": "IHO-IOC_GEBCO_CookBook_2019.pdf",
+  "filepath": "docs/gebco_docs/IHO-IOC_GEBCO_CookBook_2019.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 51.19,
+  "pages": 493,
+  "text_preview": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOctober 2019    IHO Publication B-11 \nIOC Manuals and Guides, 63 \nThe  \nIHO-IOC GEBCO \nCook Book \n\n \n 2 \nContributors \n \n \nDirectorate of Hydrography and Navigation (DHN) \nBrazilian Navy, Brazil \nhttp://www.marinha.mil.br/dhn/  \n \n \n \nBritish Oceanographic Data Centre (BODC), UK \nhttp://www.bodc.ac.uk \n \n \n \n \nCanadian Hydrographic Service, Canada \nhttp://www.charts.gc.ca\n \n \n \n \n \nCARIS Geospatial Software Solutions, Canada \nhttp://www.caris.com\n \n \n \nCenter for Coastal & Ocean Mapping  \nJoint Hydrographic Center \nUniversity of New Hampshire, USA \nhttp://ccom.unh.edu\n \n \n \n \nCentro de Investigáciones Oceanograficas e Hidrográficas (CIOH), \nColombia \nhttp://www.cioh.org.co/\n \n \n \nCooperative Institute for Research in Environmental Sciences (CIRES) \nUniversity of Colorado at Boulder \nhttp://cires.colorado.edu  \n\n \n 3 \n \n \nInternational Hydrographic Organization, Monaco \nhttp://www.iho.int \n \n \n \n \nGeological Survey of Israel, Israel \nhttp://www.gsi.gov.il\n \n \n \n \nNational Oceanography Centre, UK \nhttp://noc.ac.uk/\n \n \n \n \n \nNaval Research Laboratory, USA \nhttp://www.nrl.navy.mil\n \n \n \n \n  \n Nigerian Navy Hydrographic Office \n Lagos, Nigeria \n http://www.nnho.ng/\n \n \n \n \n \nNOAA Laboratory for Satellite Altimetry, USA \nhttp://www.star.nesdis.noaa.gov/sod/lsa/\n \n \n \n \n \nNOAA National Centers for Environmental Information, USA \nhttp://www.ngdc.noaa.gov\n \n \n  \n\n \n 4 \n \nGeological Institute of Russian Academy of Sciences \nLaboratory of Geomorphology and Ocean Floor Tectonics, Russia \nhttp://atlantic.ginras.ru/index.html \n \n \nScripps Institution of Oceanography \nUniversity of California at San Diego \nhttp://www.sio.ucsd.edu \n \n \n \nService Hydrographique et Océanographique de la Marine \nBrest, France \nhttp://www.shom.fr\n \n \n \n \n Instituto Hidrografico de la Marina \n Cádiz, Spain \n http://www.armada.mde.es\n \n \n \nDepartment of Geological Sciences \nStockholm University, Sweden \nhttp://www.su.se \n \n \n \n \n \n \n \n \n\n \n 5 \n \n \n \n \n© Copyright International Hydrographic Organization [2012] \nThis work is copyright. Apart from any use permitted in accordance with the Berne Convention for \nthe Protection of Literary and Artistic Works  (1886), and except in the circumstances described \nbelow, no part may be translated, reproduced by any process, adapted, communicated or \ncommercially exploited without prior written permission from the International Hydrographic \nBureau (IHB). Copyright in some of the material in this publication may be owned by another party \nand permission for the translation and/or reproduction of that material must be obtained from the \nowner. \nThis document or partial material from this document may be translated, reproduced or distributed \nfor general information, on no more than a cost recovery basis. Copies may not be sold or distributed \nfor profit or gain without prior written agreement of the IHB and any other copyright holders.  \nIn the event that this document or partial material from this document  is reproduced, \ntranslated or distributed under the terms described above, the following statements are to \nbe included: \n“Material from IHO publication [reference to extract: Title, Edition] is reproduced with the \npermission of the International Hydrographic Bureau (IHB) (Permission No ……./…) acting \nfor the International Hydrographic Organization (IHO), which does not accept \nresponsibility for the correctness of the material as reproduced: in case of doubt, the IHO’s \nauthentic text shall prevail.    The inc orporation of material sourced from IHO shall not be \nconstrued as constituting an endorsement by IHO of this product.”  \n“This [document/publication] is a translation of IHO [document/publication] [name]. The \nIHO has not checked this translation and theref ore takes no responsibility for its accuracy. \nIn case of doubt the source version of [name] in [language] should be consulted.” \n \nThe IHO Logo or other identifiers shall not be used in any derived product without \nprior written permission from the IHB. \n \n \n ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "The IHO-IOC GEBCO Cook Book is a comprehensive guide published by the International Hydrographic Organization and Intergovernmental Oceanographic Commission, providing detailed information on bathymetric data compilation and quality control procedures.",
+    "provider": {
+      "provider_id": "gebco",
+      "name": "General Bathymetric Chart of the Oceans (GEBCO)"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": null,
+      "region": null,
+      "product_types": [],
+      "categories": [
+        "bathymetry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Bathymetry data compilation and quality control procedures",
+        "unit": null,
+        "physical_quantity": "bathymetry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

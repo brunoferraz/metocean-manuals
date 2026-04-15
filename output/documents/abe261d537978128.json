@@ -1,0 +1,96 @@
+{
+  "doc_id": "abe261d537978128",
+  "legacy_doc_id": "9b4987219893",
+  "filename": "SEAICE_ANT_PHY_AUTO_L3_NRT_011_012_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SEAICE_ANT_PHY_AUTO_L3_NRT_011_012_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.93,
+  "pages": 19,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse , FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor Antarctic Ocean high resolution sea ice product \nSEAICE_ANT_PHY_AUTO_L3_NRT_011_012 \nIssue:  1.0 \n \n \n \n \nContributors : Matilde Brandt Kreiner (DMI), Tore Wulf (DMI) \nApproval Date : NOV 2022 \n \n \n\n Copernicus Marine Product User Manual for \nSEAICE_ANT_PHY_AUTO_L3_NRT_011_012 \nIssue : 1.0 \n2022/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-012 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated By \n1.0 2022/11/30 All Creation of the document. Initial \nversion. \nM. B. Kreiner, T. \nWulf (DMI) C. Wettre \n \n Copernicus Marine Product User Manual for \nSEAICE_ANT_PHY_AUTO_L3_NRT_011_012 \nIssue : 1.0 \n2022/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-012 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS ................................ ................................ ................................ ................  4 \nI INTRODUCTION ................................ ................................ ................................ ................................ ...... 5 \nI.1 Summary ................................ ................................ ................................ ................................ ..................  5 \nI.2 History of changes ................................ ................................ ................................ ................................ .... 6 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION................................ ................................ .......... 7 \nII.1 General Information ................................ ................................ ................................ ...............................  7 \nII.2 Details of datasets ................................ ................................ ................................ ................................ . 10 \nII.3 Additional Information on parameters ................................ ................................ ................................  11 \nII.4 Production System Description ................................ ................................ ................................ ............  11 \nII.5 Grid ................................ ................................ ................................ ................................ .......................  12 \nII.6 Vertical Levels ................................ ................................ ................................ ................................ ...... 12 \nII.7 Processing information ................................ ................................ ................................ .........................  12 \nII.7.1 Update Time ................................ ................................ ................................ ...............................  12 \nII.7.2 Time coverage ................................ ................................ ................................ .............................  12 \nII.7.3 Time averaging ................................ ................................ ................................ ...........................  12 \nIII DOWNLOAD A PRODUCT ................................ ................................ ................................ .................  13 \nIV FILES NOMENCLATURE................................ ................................ ................................ ......................  14 \nIV.1 Nomenclature of files when downloaded through the Web Portal Subsetter Service ........................  14 \nIV.2 Nomenclature of files when downloaded through the Web Portal FTP Service ................................  14 \nIV.3 Other information: mean centre of Products, land mask value, missing value ................................ .. 15 \nIV.4 File size ................................ ................................ ................................ ................................ ................  15 \nV FILE FORMAT ................................ ................................ ................................ ................................ ....... 16 \nV.1 Structure and semantic of netCDF maps files ................................ ................................ ......................  16 \nVI REFERENCES ................................ ................................ ................................ ................................ ........ 19 \n Copernicus Marine Product User Manual for \nSEAICE_ANT_PHY_AUTO_L3_NRT_011_012 \nIssue : 1.0 \n2022/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-SI-PUM-011-012 \n4 \nGLOSSARY AND ABBREVIATIONS \nAMSR2 Advanced Microwave Scanning Radiometer 2 \nCF Climate Forecast (convention for NetCDF) ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for Antarctic Ocean high resolution sea ice product SEAICE_ANT_PHY_AUTO_L3_NRT_011_012, detailing its creation and initial version as of November 2022.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEAICE_ANT_PHY_AUTO_L3_NRT_011_012",
+      "name": "Antarctic Ocean High Resolution Sea Ice Product",
+      "model_name": null,
+      "region": "Antarctic",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_ice_concentration",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea Ice Concentration",
+        "unit": "%",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_ice_thickness",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea Ice Thickness",
+        "unit": "m",
+        "physical_quantity": "ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": -60
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

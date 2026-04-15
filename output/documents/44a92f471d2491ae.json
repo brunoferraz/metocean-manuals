@@ -1,0 +1,109 @@
+{
+  "doc_id": "44a92f471d2491ae",
+  "legacy_doc_id": "9be80162a85b",
+  "filename": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SST_ATL_SST_L4_REP_OBSERVATIONS_010_026_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.25,
+  "pages": 23,
+  "text_preview": " \n  \n \n \nSea Surface Temperature Production Centre \n \nODYSSEA Level 3S and L4 multi-year Sea Surface \nTemperature products for the European Northwest Shelf/ \nIberia, Biscay and Irish Sea area, and Level 3S for the Global \nOcean \n \nSST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nSST_ATL_PHY_L3S_MY_010_038 \nSST_GLO_PHY_L3S_MY_010_039 \n \n \n Issue: 1.0 \nContributors: Emmanuelle Autret (Ifremer), Jean-François Piollé (Ifremer), Pierre Tandéo (IMT) \nApproval date by the CMEMS product quality coordination team: 17/11/2025 \n \n \n \n \n  \n \nProducts \nSST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nSST_ATL_PHY_L3S_MY_010_038  \nSST_GLO_PHY_L3S_MY_010_039 \n \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-026-038-039 \n31 May 2025 \n1.0 \n \n                                                      Page 2/ 23 \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/31 All \nCreation of the document. Automatic \ntemporal extension to one month \nbefore real time - Split of  product \n10_044 \nE. Autret, J.F. \nPiollé A. Pisano \n \n  \nProducts \nSST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nSST_ATL_PHY_L3S_MY_010_038  \nSST_GLO_PHY_L3S_MY_010_039 \n \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-026-038-039 \n31 May 2025 \n1.0 \n \n                                                      Page 3/ 23 \nACRONYM TABLE \nAcronym Description \nCMEMS Copernicus Marine Environment Monitoring Service \nEAN Estimated Accuracy Number \nGHRSST Group for High Resolution SST \nHR High spatial Resolution \nINS Copernicus Marine Service In-Situ \nMDS Copernicus Marine Data Store \nMY Multi-year \nNRT Near Real Time \nPUM Product User Manual \nQC quality control \nREP Reprocessing \nSST Sea Surface Temperature   \nTAC Copernicus Marine Service Thematic Assembly Centre \nUHR Ultra High spatial Resolution \nL3C Level 3 (gridded) mono-satellite data \nL3S Level 3 (gridded) multi-satellite data  \nL4 Level 4 satellite product (gridded and gap-free data) \nCCI Climate Change Initiave \nC3S Copernicus Climate Change Service \nESA European Space Agency \n \n \n \n \n \n \n \n \n \n \n \nProducts \nSST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nSST_ATL_PHY_L3S_MY_010_038  \nSST_GLO_PHY_L3S_MY_010_039 \n \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-026-038-039 \n31 May 2025 \n1.0 \n \n                                                      Page 4/ 23 \nKEY DEFINITIONS \nFoundation SST Foundation Sea Surface Temperature (Foundation SST)  refers \nto the temperature of the uppermost layer of the ocean  \n(typically at a depth of a few centimetres to several meters) \nthat is not affected by diurnal warming or surface cooling  due \nto solar radiation or wind mixing. It represents the baseline or \nbackground sea surface temperature, usually estimated during \nthe night-time or under well-mixed conditions, making it more \nstable and suitable for climate studies and model assimilation. \nadjusted_sea_surface_temperature daily (nighttime), satellite multi -sensor composite of \nfoundation sea surface temperature (SST) in L3S products. \nanalysed_sst Gap-free daily foundation sea surface temperature (SST) in L4 \nproducts, interpolated from L3S SSTs. \n \nProducts \nSST_ATL_SST_L4_REP_OBSERVATIONS_010_026 \nSST_ATL_PHY_L3S_MY_010_038  \nSST_GLO_PHY_L3S_MY_010_039 \n \nRef: \nDate: \nIssue: \nCMEMS-SST-QUID-010-026-038-039 \n31 May 2025 \n1.0 \n \n                                                      Page 5/ 23 \nRELEVANT DOCUMENT LIST \nGHRSST GDS  The Recommended GHRSST Data Specification (GDS) Revision 2.1, June \n2022, https://ghrsst.org    https://www.ghrsst.org/ghrsst-\nnews/updated-ghrsst-data-specification-2-1-now-available-for-\ndownload/ \nProduct User Manual \n(PUM) for ODYSSEA MY  \nSST \nRelated Product User Manual, \nCMEMS-SST-PUM-010-026-038-029 ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes Sea Surface Temperature products for specific regions and globally, including Level 4 reprocessed data and multi-year Level 3S data from the European Northwest Shelf/Iberia, Biscay, Irish Sea area, and global ocean.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026, SST_ATL_PHY_L3S_MY_010_038, SST_GLO_PHY_L3S_MY_010_039",
+      "name": "Sea Surface Temperature Products",
+      "model_name": null,
+      "region": "Atlantic | Global",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "SST_ATL_SST_L4_REP_OBSERVATIONS_010_026",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "SST_ATL_PHY_L3S_MY_010_038",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      },
+      {
+        "dataset_id": "SST_GLO_PHY_L3S_MY_010_039",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "analysed_sst",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Gap-free daily foundation sea surface temperature (SST) in L4 products, interpolated from L3S SSTs.",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "adjusted_sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "daily (nighttime), satellite multi-sensor composite of foundation sea surface temperature (SST) in L3S products.",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.1deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -90,
+        "lon_max": 90,
+        "lat_min": 35,
+        "lat_max": 70
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

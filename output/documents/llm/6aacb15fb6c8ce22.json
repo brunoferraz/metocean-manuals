@@ -1,0 +1,113 @@
+{
+  "doc_id": "6aacb15fb6c8ce22",
+  "legacy_doc_id": "387a55b73224",
+  "filename": "OCEANCOLOUR_GLO_BGC_L3_MY_009_107_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OCEANCOLOUR_GLO_BGC_L3_MY_009_107_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.58,
+  "pages": 24,
+  "text_preview": " \nGlobal Reprocessed Observation Product \nFor the Atlantic and Arctic \nObservation Products \nOCEANCOLOUR_GLO_BGC_L3_MY_009_107 \nOCEANCOLOUR_GLO_BGC_L4_MY_009_108 \n \n \n \n Issue: 3.0 \n       Contributors: C. Brockmann, K. Stelzer \n       Approval Date by Quality Assurance Review Group: 14/02/2022 \n \n \n \n \n\nQUID for the OC TAC Products \nGlobal Reprocessed Observation \nRef : CMEMS-OC-QUID-009-107to108 \nDate  : 30/11/2022 \nIssue : 3.0 \n \n     Page 2/ 24 \nCHANGE RECORD \n \n \nIssue Date § Description of Change Author Validated By \n1.0 21/02/2021  all Catalogue Reorganization First version \nof document \n(previous products 009-065-064-093) \nS. Pardo, J. Netting, \nB. Calton, B. Howey \nShubha \nSathyendranath \n2.0 16/06/2022 all Updates for EIS November 2022 J. Netting, B. Calton , \nB. Howey \nV.E. Brando \n3.0 30/11/2022 all New Production Unit C. Brockmann, K. \nStelzer \nV.E. Brando \n \nQUID for the OC TAC Products \nGlobal Reprocessed Observation \nRef : CMEMS-OC-QUID-009-107to108 \nDate  : 30/11/2022 \nIssue : 3.0 \n \n     Page 3/ 24 \nTABLE OF CONTENTS \n \nEXECUTIVE SUMMARY ........................................................................................................................................... 4 \nProducts covered by this document .................................................................................................................. 4 \nSummary of the results ...................................................................................................................................... 5 \nEstimated Accuracy Numbers ............................................................................................................................ 6 \nPRODUCTION SUBSYSTEM DESCRIPTION .............................................................................................................. 7 \nProduction Centre: Ocean Colour Thematic Assembly Centre ......................................................................... 7 \nProduction subsystem: PU: OC-BC-HAMBURG-GE ............................................................................................ 7 \nThe ESA Ocean Colour Climate Change Initiative (OC-CCI) Processor at PML .................................................. 7 \nThe PFT Processor at PML ........................................................................................................................... 10 \nVALIDATION FRAMEWORK .................................................................................................................................. 11 \nIntroduction ..................................................................................................................................................... 11 \nOff-line (in situ) Validation .............................................................................................................................. 11 \nVALIDATION RESULTS ........................................................................................................................................... 14 \nSYSTEM’S NOTICEABLE EVENTS, OUTAGES OR CHANGES ................................................................................... 21 \nQUALITY CHANGES SINCE PREVIOUS VERSION ................................................................................................... 22 \nREFERENCES .......................................................................................................................................................... 23 \nQUID for the OC TAC Products \nGlobal Reprocessed Observation \nRef: \nDate: \nIssue: \nCMEMS-OC-QUID-009-107to108  \n30/11/2022 \n3.0 \n \n \nPage 4/ 24 \nEXECUTIVE SUMMARY \nProducts covered by this document \nThis document covers the CMEMS global, reprocessed, observation dataset (GLO MY). The input dataset for the \nproduction of GLO MY was made available to CMEMS by the ESA Ocean Colour Climate Change Initiative (ESA \nOC-CCI) project. The OC-CCI project developed and implemented a method of band-shifting, bias-correcting and \nmerging data from multiple ocean colour sensors: SeaWiFS (GAC  and LAC), MODIS Aqua, MERIS , VIIRS (OC-CCI \n2014a) OLCI-3A, and in the latest version of CCI, OLCI -3B. The performance of the available atmospheric \ncorrection and in -water algorithms was assessed in an open process and the best performing algorithms were \nselected according to published criteria (OC-CCI 2014b, OC-CCI 2014c). The initial OC-CCI system was developed \nas described in OC -CCI 2012, and has been updated in every subsequent version. The resulting global products \nwere validated by OC -CCI; compared to th e time series of individual sensor data; and compared to the \nGlobColour dataset (OC-CCI 2014d). A summary of OC-CCI products is provided in Sathyendranath et al. (2019). \nThe CMEMS MY products described in this document have been generated from  the most recent  OC-CCI v6 \ndataset, which incorporates the latest NASA reprocessing (NASA R2018.0) for MODIS, VIIRS and SeaWiFS data.  \nThe input dataset for the g",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the CMEMS global reprocessed observation dataset for ocean colour, covering Atlantic and Arctic regions, generated from ESA OC-CCI v6 data.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "OCEANCOLOUR_GLO_BGC_L3_MY_009_107",
+      "name": "Global Reprocessed Observation Product for Ocean Colour",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "OCEANCOLOUR_GLO_BGC_L3_MY_009_107",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "chlor_a",
+        "cf_standard_name": "chl_concentration",
+        "long_name": "Chlorophyll-a concentration",
+        "unit": "mg/m^3",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "kd490",
+        "cf_standard_name": "downwelling_radiance_coefficient",
+        "long_name": "Downwelling radiance coefficient at 490 nm",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "bbp490",
+        "cf_standard_name": "backscattering_coefficient",
+        "long_name": "Backscattering coefficient at 490 nm",
+        "unit": "m^-1",
+        "physical_quantity": "biogeochemistry",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "1km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -80.0,
+        "lon_max": 80.0,
+        "lat_min": 50.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2315,
+  "_tokens_out": 782,
+  "_eval_s": 5.88
+}

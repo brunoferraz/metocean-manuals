@@ -1,0 +1,96 @@
+{
+  "doc_id": "37663f1a14f9083d",
+  "legacy_doc_id": "0a4d69ac4904",
+  "filename": "GLOBAL_OMI_HEALTH_carbon_ph_trend_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/GLOBAL_OMI_HEALTH_carbon_ph_trend_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.48,
+  "pages": 9,
+  "text_preview": " \n  \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, , FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \n \nGlobal surface ocean pH trends \n \nIssue 1.0 \n \n \n \nContributors: T. T. Trang Chau, Marion Gehlen, Frédéric Chevallier \nApproval Date: 01/2023 \n \n \n \n2 \n \n \n  \nProduct User Manual for Global surface ocean pH trends \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-GLO-HEALTH-carbon-ph-trend \nIssue 1.0 – June 2022 \n \nChange Record \n \n \nIssue Date § Description of \nChange Author Checked by Validated by \n1.0 January \n2022 \nall Creation of the \ndocument \nThi Tuyet Trang Chau, \nMarion Gehlen, \nFrédéric Chevallier \nS. Mulet Copernicus Marine \nProduct Management \n  \n3 \n \n \n  \nProduct User Manual for Global surface ocean pH trends \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-GLO-HEALTH-carbon-ph-trend \nIssue 1.0 – June 2022 \n1. GLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \n \nMOI Mercator Océan International \n \nNetCDF Network Common Data Form \n \nOMI Ocean Monitoring Indicator \n \nPUM Product User Manual \n \nQUID Quality Information Document \n \n \n \n \n \n \n  \n4 \n \n \n  \nProduct User Manual for Global surface ocean pH trends \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-GLO-HEALTH-carbon-ph-trend \nIssue 1.0 – June 2022 \nTable of Content \n1. GLOSSARY AND ABBREVIATIONS ....................................................................... 3 \nI INTRODUCTION .................................................................................................... 5 \nI.1. Summary .......................................................................................................... 5 \nI.2. History of changes ........................................................................................... 5 \nII DESCRIPTION OF THE PRODUCT .......................................................................... 6 \nII.1. General information ..................................................................................... 6 \nII.2. Details of the datasets ................................................................................. 7 \nII.3. Product System Description ........................................................................ 7 \nIII DOWNLOAD A PRODUCT .................................................................................... 8 \nIV FILES NOMENCLATURE AND FORMAT ................................................................. 8 \nIV.1. Nomenclature of files when downloaded through the CMEMS FTP \nServices ....................................................................................................................... 8 \nIV.2. File Format: format name ............................................................................ 8 \nIV.3. Reading Softwares ....................................................................................... 9 \nV REFERENCES .......................................................................................................... 9 \n \n  \n5 \n \n \n  \nProduct User Manual for Global surface ocean pH trends \n© EU Copernicus Marine Service – Public   \nCMEMS-OMI-QUID-GLO-HEALTH-carbon-ph-trend \nIssue 1.0 – June 2022 \nI INTRODUCTION \nI.1. Summary \nThis document is the user manual for the Copernicus Marine Ocean Monitoring Indicator (OMI) \nGLOBAL_OMI_HEALTH_carbon_ph_trend. It includes estimates of secular trends and the \nassociated uncertainty of surface seawater pH over the global ocean.  These estimates are \nderived from the global reconstruction of surface water pH reported on total scale d istributed \nas part of MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008 (see V). Units are in pH units \nper year for its trend and the associated uncertainty. \n \nThe product is published on the Copernicus Marine dissemination server after automatic and \ndelayed-mode quality controls. Files downloaded are in NetCDF format and follow CF -1.7 \nconvention. \n \nDisclaimer: The quality of the product may vary during the proposed time series depending on \nthe possible update of the system. \n \nThe OMI is described in the Quality Information Document (QUID)  \n \n \n \nI.2. History of changes \nMarch 2022 1st publication of GLOBAL_OMI_HEALTH_carbon_ph_trend \n \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Copernicus Marine Ocean Monitoring Indicator (OMI) GLOBAL_OMI_HEALTH_carbon_ph_trend, providing details on surface ocean pH trends and their uncertainty over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-OMI-QUID-GLO-HEALTH-carbon-ph-trend",
+      "name": "Global surface ocean pH trends",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "biogeochemistry"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_BIO_CARBON_SURFACE_REP_015_008",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "pH_trend",
+        "cf_standard_name": "surface_sea_water_phosphate_trend",
+        "long_name": "Secular trends of surface seawater pH",
+        "unit": "pH units per year",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "pH_uncertainty",
+        "cf_standard_name": "surface_sea_water_phosphate_uncertainty",
+        "long_name": "Uncertainty of surface seawater pH trends",
+        "unit": "pH units per year",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "biogeochemistry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,67 @@
+{
+  "doc_id": "ca603bb4fe4a6304",
+  "legacy_doc_id": "f1c62313037c",
+  "filename": "OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_700_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/OMI_CLIMATE_THSL_GLOBAL_area_averaged_anomalies_0_700_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.35,
+  "pages": 13,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Corinne Derval, Maeva Monier \n \nApproval Date : November 2025 \n \nFor OMI_CLIMATE_ThSL \n \n Issue: 4.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for OMI_CLIMATE_ThSL \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-ThSL \nIssue 5.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2018/06/15 All Creation of the document  Renaud \nDussurget, \nKarina von \nSchuckmann \n2.0 2020/04/29 All Update and addition of one \nproduct \n C. Derval \n3.0 2021/08/17 All Major update  C. Derval \n4.0 2025/05/12 All Update of the document Flora Gues O. Le \nGalloudec \n \n \n \n3 Product User Manual for OMI_CLIMATE_ThSL \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-ThSL \nIssue 5.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \nb) History of changes................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Dataset details ...................................................................................................... 9 \n3) FILE FORMAT .................................................................................................... 12 \n4) FILES NOMENCLATURE..................................................................................... 12 \n5) REFERENCES ..................................................................................................... 13 \n  \n \n \n \n4 Product User Manual for OMI_CLIMATE_ThSL \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-ThSL \nIssue 5.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nCGLOR C-GLORS Reanalysis \nGLOR GLORYS2V4 Reanalysis \nGREP Global Reanalysis Ensemble Product \nORAS ORAS5 Reanalysis \nGLO Global \n \nCMEMS Copernicus Marine Environment Monitoring \nService \nThSL Thermosteric Sea Level \n \n  \n \n \n \n5 Product User Manual for OMI_CLIMATE_ThSL \n© EU Copernicus Marine Service – Public   \nCMEMS-GLO-OMI-PUM-ThSL \nIssue 5.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for OMI_CLIMATE_ThSL, providing details about the product specification, production system description, dataset details, file format, and data access information.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "CMEMS-GLO-OMI-PUM-ThSL",
+      "name": "OMI_CLIMATE_ThSL Product User Manual",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

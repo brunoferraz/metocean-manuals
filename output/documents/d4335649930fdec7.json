@@ -1,0 +1,110 @@
+{
+  "doc_id": "d4335649930fdec7",
+  "legacy_doc_id": "c3cf716dc6a3",
+  "filename": "halliwell_ice.pdf",
+  "filepath": "docs/hycom_docs/halliwell_ice.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.02,
+  "pages": 2,
+  "text_preview": "Energy Loan Sea Ice Model  \n \nBy Rainer Bleck, 6 September 2000 \n \nSlightly Updated for HYCOM 1.0/2.0 by George Halliwell, 27 August 2001 \n \nOverview \n \nAn energy loan sea ice model was developed to manage the energetics of water phase \nchanges in a consistent yet simple manner. The model, which has much in common with the one \ndeveloped by Semtner (1976, Appendix) focuses on two aspects of the influence of sea ice: (1) \nthe stabilization of ocean temperature near the freezing point through ice formation and melting, \nand (2) the impact of the ice surface on ocean-atmosphere energy fluxes. \n \nConcerning the stabilization of ocean temperature, the energy loan concept of the ice model \nensures that the oceanic mixed layer temperature does not drop below the freezing point (-1.8 o C) \nwhen the surface heat flux removes heat from the ocean. At each model grid point, the ocean \nborrows energy from an “energy bank” to stabilize temperature at the freezing point. The energy \nrequired to maintain this temperature comes from freezing an appropriate amount of seawater. \nConversely, if the surface heat flux adds heat to the ocean, the energy loan must be repaid before \nthe ocean temperature in a grid box is permitted to rise above freezing. \n \nThe influence of ice on surface fluxes is large, both by virtue of its high albedo compared to \nwater and because an ice surface can be much colder than open water. In the present ice model, \nsurface temperature is calculated based on the assumption that the system is energetically in a \nsteady state; i.e., the heat flux through the ice matches the atmospheric heat flux. \nSpecifics \n \nTo illustrate this approach, the atmospheric heat flux is written as ()airiaFaTT=− , and the \nheat flux through the ice as ()icewiFaTT=− , where iT , aT , and wT  represents ice, air, and water \ntemperature while a  and b  are proportionality factors. Given aT , wT , and a first guess of iT  (the \nunknown in this problem), iT  is modified by an amount iTΔ  to minimize the difference between \nairF  and iceF : \n ()(),iiawiiaTTTbTTT+Δ−=−−Δ   \nwhich yields \n .aw\nii\naTbTTT\nab\n+Δ=−\n+  (1) \nTo make this formula applicable in situations where airF is a mixture of sensible, latent, and \nradiative heat fluxes, the expressions iiaTaT−  and iibTbT−  are added to the numerator of (1), \nthen the original definitions of airF  and iceF  are substituted: \n .iceair\ni\nFF\nT ab\n−Δ= +  (2) \nThe new temperature obviously must not be allowed to exceed the freezing point until the ice has \nmelted completely.  \n \nPractical application of (2) requires knowledge of the coefficients a  and b  which represent \nthe derivatives /airidFdT  and /iceidFdT , respectively. Guidance on the magnitude of a  can be \nobtained from the conventional heat flux bulk formula. It suggests that tpaccU r=  where tc  is a \nnondimensional transfer coefficient (similar to the drag coefficient), r  is the air density, pc  is \nthe specific heat of air at constant pressure, and U  is the wind speed. The formula for radiative \nenergy loss, 4Ts , suggests that the previous estimate for a  should be increased by an amount 34 Ts . A reasonable choice for b  is the ratio of ice thermal conductivity to ice thickness, \n/iceicekH . \n \nIn the interest of computational efficiency in coupled climate models, information exchange \nwith the atmosphere should be minimized. The coefficient a  is therefore assumed to be \nindependent of atmospheric state variables. To avoid oscillatory behavior in (2), a should be \nchosen somewhat larger than “typical” values of 34tpccUTrs + ; in other words, a strategy of \nprudent under-relaxation of iT  is adopted. \n \nFinally, a statement is needed to relate the rate of energy borrowing or repaying to the \n“composite” atmospheric heat flux: \n (1),iceopwFcFcF=+−  (3) \nwhere opwF  is the thermal energy flux over open water and c  is the fractional ice coverage. As \ndefined in (3), F  is the energy flux felt by the ocean irrespective of the presence of ice. In other \nwords, we assume that the energy flux between the atmosphere and ice, iceF , equals the energy \nflux between ice and ocean. This assumption is compatible with the steady state (zero heat flux \ndivergence) made to derive (2). \n \nConcerning implementation of the ice model in HYCOM 1.0/2.0, the surface temperature is \nrepresented by the temperature of layer 1 regardless of whether the model is run with hybrid \nvertical coordinates or in MICOM mode. When the model is run with hybrid vertical coordinates \nand a non-slab mixed layer model, no attempt is made to reduce the thickness of layer 1 at a \ngiven grid point when ice forms. \n \nReference \n \nSemtner, A. J., Jr., 1976: A model for the thermodynamic growth of sea ice in numerical \nsimulations of climate. J. Phys. Oceanogr., 6, 379-389. ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document describes an energy loan sea ice model developed to manage water phase changes and stabilize ocean temperature near freezing point, focusing on the impact of sea ice on ocean-atmosphere energy fluxes.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "HYCOM",
+      "region": null,
+      "product_types": [
+        "other"
+      ],
+      "categories": [
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Ice surface temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Atmospheric heat flux",
+        "unit": "W/m^2",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": null,
+        "cf_standard_name": null,
+        "long_name": "Ocean surface temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

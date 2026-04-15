@@ -1,0 +1,96 @@
+{
+  "doc_id": "3d88ab701286320d",
+  "legacy_doc_id": "11bf0251ee6b",
+  "filename": "ARCTIC_MULTIYEAR_WAV_002_013_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/ARCTIC_MULTIYEAR_WAV_002_013_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 1.82,
+  "pages": 21,
+  "text_preview": " \n \n \nArctic Production Centre \nArctic Ocean Wave Multi Year Product \nARCTIC_MULTIYEAR_WAV_002_013 \n \n \n Issue: 1.4 \nContributors: Patrik Bohlinger, Ana Carrasco, Arne Melsom \nApproval date by the CMEMS product quality coordination team: 20/10/2025 \n \n \n  \n \n\nQUID for Arctic Ocean Wave Multi Year Product \nARCTIC_MULTIYEAR_WAV_002_013 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-013 \n20 October 2025 \n1.4 \n \n2 \n \nCHANGE RECORD \n \nWhen the quality of the products changes, the QuID is updated and a row is added to this table. The \nthird column specifies which sections or sub-sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 September \n2020 \nAll Creation of the document Patrik Bohlinger, \nAna Carrasco \nArne Melsom  \n1.1 August 2022 V Extension of time series Ana Carrasco Arne Melsom \n1.2 1 June 2023 I.1, V, \nVI \nExtension of time series, new \ndataset \nArne Melsom Arne Melsom \n1.3 16 April 2024 I.1, II, \nV, VI \nExtension of time series, \ndescription of initialization \nArne Melsom Arne Melsom \n1.4 28 October \n2025 \nAll Extension of time series Patrik Bohlinger, \nAna Carrasco, \nArne Melsom \nLaurent Bertino \n \nACRONYM TABLE \nAcronym Description \nARC MFC Arctic Monitoring and Forecasting Centre \nCMEMS Copernicus Marine Environment Monitoring Service \nEU European Union \nQuID Quality Information Document \nRMSD Root Mean Square Difference \n \nKEY DEFINITIONS \nHs Significant wave height  is related to the wave energy integrated over all directions and \nfrequencies (Eq. 6). This commonly corresponds to the average height of the highest 33% of \nwaves. \nTp Peak period  defines the period where the maximum of the 1-dimensional spectrum is \nlocated (Eq. 7). \n \nQUID for Arctic Ocean Wave Multi Year Product \nARCTIC_MULTIYEAR_WAV_002_013 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-013 \n20 October 2025 \n1.4 \n \n3 \nRELEV ANT DOCUMENT LIST  \nCMEMS ARC MFC \nMULTIYEAR WA V PUM \nProduct User Manual for the Arctic Ocean multiyear WA V product1 \nIFS documentation ECMWF wave model2 \n \n \n1 https://documentation.marine.copernicus.eu/PUM/CMEMS-ARC-PUM-002-013.pdf \n2  https://www.ecmwf.int/sites/default/files/elibrary/112024/81629-ifs-documentation-cy49r1-part-vii-ecmwf-wave-\nmodel.pdf \nQUID for Arctic Ocean Wave Multi Year Product \nARCTIC_MULTIYEAR_WAV_002_013 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-013 \n20 October 2025 \n1.4 \n \n4 \nTABLE OF CONTENTS \nChange Record ........................................................................................................................................................ 2 \nTable of contents...................................................................................................................................................... 4 \nI Executive summary .......................................................................................................................................... 5 \nI.1 Products covered by this document 5 \nI.2 Summary of the results 6 \nI.3 Estimated Accuracy Numbers 7 \nII Production system description ......................................................................................................................... 8 \nIII Validation framework .................................................................................................................................... 14 \nIV Validation results ........................................................................................................................................... 16 \nIV.1 Significant Wave Height (Hs) 17 \nIV.2 Peak Period (Tp) 18 \nV System’s Noticeable events, outages or changes ............................................................................................ 19 \nVI Quality changes since previous version .......................................................................................................... 20 \nReferences ............................................................................................................................................................. 21 \n \nQUID for Arctic Ocean Wave Multi Year Product \nARCTIC_MULTIYEAR_WAV_002_013 \nRef:  \nDate:  \nIssue: \nCMEMS-ARC-QUID-002-013 \n20 October 2025 \n1.4 \n \n5 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document covers the CMEMS product: \nARCTIC_MULTIYEAR_WAV_002_013 which is a multi-year product of ocean wave parameters for the Arctic.  \nThe product is produced by the Arctic Monitoring and Forecasting Centre (Arctic MFC) using the WAM \nnumerical prediction model, \nThe product covers the Arctic region within the time period 19 64-01-01 to 2025-03-31. The product which \nhas two datasets is available from the Copernicus Marine Service Catalogue. \nDataset cmems_mod_arc_wav_my_3km_PT1H-i \nThis dataset contains results for the full time period with a temporal resolution of 1 hour , as instantaneous \nfields. We assess the product quality in terms of significant ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QuID) for the Arctic Ocean Wave Multi Year Product, detailing its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "ARCTIC_MULTIYEAR_WAV_002_013",
+      "name": "Arctic Ocean Wave Multi Year Product",
+      "model_name": "WAM 4.7",
+      "region": "Arctic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_arc_wav_my_3km_PT1H-i",
+        "temporal_resolution": "PT1H",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Hs",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tp",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density",
+        "long_name": "Peak period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "3km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": 55.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

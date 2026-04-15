@@ -1,0 +1,99 @@
+{
+  "doc_id": "7283a49d8d83591d",
+  "legacy_doc_id": "7a275a9dcf86",
+  "filename": "SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.75,
+  "pages": 50,
+  "text_preview": " \n  \nSea Level TAC  \nMDT products: \nSEALEVEL_GLO_PHY_MDT_008_063 \nSEALEVEL_MED_PHY_MDT_L4_STATIC_008_066 \nSEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067 \nSEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070 \n \n Issue: 4.0 \nContributors: S. Mulet, S. Jousset, M.I. Pujol. \nApproval date by the CMEMS product quality coordination team: 14/10/2024 \n \n \n \n \n  \n \n\nSea Level TAC DUACS Products \nSEALEVEL_GLO_PHY_MDT_008_063 \nSEALEVEL_MED_PHY_MDT_L4_STATIC_008_066 \nSEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067 \nSEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-063-070 \n09 october 2024 \n4.0 \n \n  Page 2/ 50 \n \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table. The \nthird column specifies which sections or sub -sections have been updated.  The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 15/01/2021 All Creation S. Mulet; S. \nJousset M.I. Pujol \n2.0 10/09/2021  \nUpdated \nSEALEVEL_GLO_PHY_MDT_008_063 \nproduct \nS. Jousset M.I. Pujol \n3.0 07/07/2023  \nUpdated \nSEALEVEL_GLO_PHY_MDT_008_063 \nproduct \nS. Jousset M.I. Pujol \n4.0 31/05/2024 \nI \nII \nIV.4 \nAdded \nSEALEVEL_EUR_PHY_MDT_L4_STATIC_0\n08_070 product (update of section I.1.2 \nand add section V.4) \nS. Jousset M.I. Pujol \n5.0 09/10/2024 All Major revision of the document to adapt \nit to the QUID 1.2 template. S. Jousset M.I Pujol \n \n \n  \nSea Level TAC DUACS Products \nSEALEVEL_GLO_PHY_MDT_008_063 \nSEALEVEL_MED_PHY_MDT_L4_STATIC_008_066 \nSEALEVEL_BLK_PHY_MDT_L4_STATIC_008_067 \nSEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070 \nRef: \nDate: \nIssue: \nCMEMS-SL-QUID-008-063-070 \n09 october 2024 \n4.0 \n \n  Page 3/ 50 \n \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ............................................................................................................... 4 \nI.1.1 Global Product .............................................................................................................................. 4 \nI.1.2 Regional products ......................................................................................................................... 4 \nI.2 Summary of the results .................................................................................................................................. 5 \nI.3 Estimated Accuracy Numbers ......................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nII.1 Production center name ................................................................................................................................ 7 \nII.2 Operational system name ............................................................................................................................. 7 \nII.3 Production centre description ....................................................................................................................... 7 \nII.3.1 Key definitions .............................................................................................................................. 7 \nII.3.2 Mean Dynamic Topography computation methodology .............................................................. 8 \nII.3.3 Standards and improvements of differents products ................................................................. 10 \nIII Validation framework ............................................................................................................................... 15 \nIV Validation RESULTS ................................................................................................................................... 16 \nIV.1 Global MDT_HYBRID_CNES_CLS22_CMEMS2020 ....................................................................................... 16 \nIV.1.1 Mean Dynamic Topography height ............................................................................................. 16 \nIV.1.2 Mean Geostrophic Currents ....................................................................................................... 20 \nIV.2 Regional Black Sea MDT CMEMS_2020_BLK ............................................................................................... 25 \nIV.2.1 MDT overview ............................................................................................................................. 25 \nIV.2.2 Mean Dynamic Topography height ............................................................................................. 26 \nIV.2.3 Mean Geostrophic Currents ....................................................................................................... 28",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This document is a technical note for Sea Level TAC DUACS products, specifically focusing on SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070 and other related regional and global products. It includes details about the production system, validation framework, and results of mean dynamic topography height and geostrophic currents.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "SEALEVEL_EUR_PHY_MDT_L4_STATIC_008_070",
+      "name": "European Sea Level Mean Dynamic Topography",
+      "model_name": null,
+      "region": "Europe",
+      "product_types": [
+        "static"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sea_level",
+        "cf_standard_name": "sea_surface_height_above_mean_sea_level",
+        "long_name": "Mean Dynamic Topography height",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "geostrophic_currents",
+        "cf_standard_name": "eastward_sea_water_velocity, northward_sea_water_velocity",
+        "long_name": "Mean Geostrophic Currents",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "geostrophic_currents"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": 0.0,
+      "depth_max_m": 0.0
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2323,
+  "_tokens_out": 673,
+  "_eval_s": 4.97
+}

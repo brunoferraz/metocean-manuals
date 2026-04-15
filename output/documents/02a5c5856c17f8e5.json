@@ -1,0 +1,114 @@
+{
+  "doc_id": "02a5c5856c17f8e5",
+  "legacy_doc_id": "5d38512954c5",
+  "filename": "BLKSEA_ANALYSISFORECAST_WAV_007_003_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/BLKSEA_ANALYSISFORECAST_WAV_007_003_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.67,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \n \n \nFor Black Sea Waves Analysis and \nForecasting Product \nBLKSEA_ANALYSISFORECAST_WAV_007_003 \nIssue:  4.0 \n \n \n \n \nContributors: Rita Lecci, Marcel Ricker, Arno Behrens, Joanna Staneva  \nApproval Date: November 2024 \n \n \n\n  \n \nProduct User Manual for \nBLKSEA_ANALYSISFORECAST_WAV_007_003 \n \nIssue : 4.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BLK-PUM-007-003 \n2 \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 20.11.16 all First version of PUM doc for \nWaves prod. \nS. Ciliberti, A. \nBehrens, J.  \nStaneva \nC. Derval \n1.1 21.01.19 all \nGeneral revision in the \nframework of Q2/2019 and \naddition of static files \ndescription \nR. Lecci, A. \nBehrens, J.  \nStaneva \nC. Derval \n1.2 03.04.20 all \nChange of target delivery \ntime from 00UTC to 12UTC \nNew template and new \ntimeseries temporal \ncoverage \nR. Lecci, A. \nBehrens, J.  \nStaneva \nC. Derval \n2.0 10.09.20 all New product name including \nnew dataset \nJ. Staneva, A. \nBehrens, M. \nRicker, R. Lecci \nC. Derval \n3.0 10.09.21 all New product \nR. Lecci, J. \nStaneva, M. \nRicker, A. \nBehrens \nC. Derval \n3.1 29.11.22 all Addition of data assimilation \nR. Lecci, J. \nStaneva, M. \nRicker, A. \nBehrens \nCopernicus \nProduct \nManageme\nnt \n3.2 30.11.23 all \nAddition of LATEMAR \nmaximum variables; new \ntemplate. \nR. Lecci, M. \nRicker, J. \nStaneva, A. \nBehrens \nCopernicus \nProduct \nManageme\nnt \n4.0 26.11.24 all \nAddition of a second \nforecast cycle and domain \nextension to include Azov \nSea \nR. Lecci, M. \nRicker, J. \nStaneva, A. \nBehrens \n \n \n  \n \nProduct User Manual for \nBLKSEA_ANALYSISFORECAST_WAV_007_003 \n \nIssue : 4.0 \n2024/11 \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-BLK-PUM-007-003 \n3 \nTable of Contents \nGLOSSARY AND ABBREVIATIONS ............................................................................................................ 4 \nDATA ACCESS ........................................................................................................................................... 6 \nI INTRODUCTION ................................................................................................................................. 7 \nI.1 Summary .......................................................................................................................................... 7 \nI.2 History of changes .......................................................................................................................... 8 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................................................ 9 \nII.1 General Information ...................................................................................................................... 9 \nII.2 Details of datasets ....................................................................................................................... 10 \nII.3 Production System Description .................................................................................................. 13 \nII.4 Grid ................................................................................................................................................ 15 \nII.5 Processing information ................................................................................................................ 15 \nII.5.1 Update Time ....................................................................................................................... 15 \nII.5.2 Temporal extent of analysis and forecast stored on delivery mechanism  ................ 15 \nII.5.3 Time averaging .................................................................................................................. 15 \nIII FILE FORMAT ........................................................................................................................................ 16 \nIV FILES NOMENCLATURE ....................................................................................................................... 17 \nIV.1 Nomenclature of files when downloaded through the Copernicus Marine Web Portal \nsubset Service .................................................................................................................................... 17 \nIV.2 Other information: mean centre of Products, land mask value, missing value ................. 19 \nIV.3 File size......................................................................................................................................... 19 \nV REFERENCES .................................................................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for the Black Sea Waves Analysis and Forecasting product, detailing its specifications, datasets, production system description, grid information, processing details, file format, nomenclature, and references.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_ANALYSISFORECAST_WAV_007_003",
+      "name": "Black Sea Waves Analysis and Forecasting Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "Black Sea",
+      "product_types": [
+        "forecast",
+        "analysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_blk_wav-anfc_2.5km_P1D-m",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_mean_direction",
+        "long_name": "Mean wave direction",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VPED",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_directional_bandwidth",
+        "long_name": "Mean wave period from variance spectral density directional bandwidth",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -40,
+        "lon_max": 40,
+        "lat_min": 39,
+        "lat_max": 48
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2359,
+  "_tokens_out": 768,
+  "_eval_s": 5.64
+}

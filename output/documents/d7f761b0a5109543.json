@@ -1,0 +1,83 @@
+{
+  "doc_id": "d7f761b0a5109543",
+  "legacy_doc_id": "9c825e7fe682",
+  "filename": "SST_BS_SST_L4_REP_OBSERVATIONS_010_022_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/SST_BS_SST_L4_REP_OBSERVATIONS_010_022_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.63,
+  "pages": 21,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Andrea Pisano, Claudia Fanelli, Andrea Massi, Cristina Tronconi, \nClaudia Cesarini, Flavio La Padula, Bruno Buongiorno Nardelli, Daniele Ciani \n \nApproval Date : November 2025 \n \nFor Black Sea L4 and L3S SST Reprocessed \nProducts \n \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022  \nSST_BS_PHY_L3S_MY_010_041 \nIssue: 1.0 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \n \n \n  \nSST_BS_SST_L4_REP_OBSERVATIONS_010_021 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-022-041 \nIssue 1.0 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2025/05/28 All Initial version \nA. Pisano, C. \nFanelli, C. \nTronconi, A. \nMassi, C. \nCesarini, F. La \nPadula, B. \nBuongiorno \nNardelli, D. Ciani \nCopernicus \nMarine \nProduct \nManagement \n      \n      \n \n \n \n3 Product User Manual for \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \n \n \n  \nSST_BS_SST_L4_REP_OBSERVATIONS_010_021 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-022-041 \nIssue 1.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 7 \na) General Information ............................................................................................ 7 \nb) Production System Description .......................................................................... 9 \nc) Dataset details .................................................................................................... 10 \nd) Additional information on some parameters ................................................ 11 \ne) Processing information ...................................................................................... 12 \nf) Catalogue updating ......................................................................................... 12 \ng) Time averaging ................................................................................................... 12 \nh) Product use and impact ................................................................................... 12 \n3) FILE FORMAT .................................................................................................... 13 \n4) FILES NOMENCLATURE..................................................................................... 13 \n4.1  FILE SIZE ............................................................................................................... 13 \n4.2   STRUCTURE OF FILES .......................................................................................... 13 \n5) REFERENCES ..................................................................................................... 14 \n6) ANNEX ............................................................................................................. 15 \n  \n \n \n \n4 Product User Manual for \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \n \n \n  \nSST_BS_SST_L4_REP_OBSERVATIONS_010_021 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-022-041 \nIssue 1.0 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMFC Monitoring and Forecasting Centre \nTAC Thematic Assembly Center \nECMWF European Centre for BSium Range Weather forecast \nBS Black Sea \nGHRSST Group for High Resolution SST \nREP Reprocessed \nNRT Near Real Time \nMY Multi Year \nPUM Product User Manual \nQUID Quality Information Document \nCMEMS Copernicus Marine Environment Monitoring Service \nNetCDF Network Common Data Form \nCF Climate Forecast (convention for NetCDF) \nMDS Marine Data Store \n \n  \n \n \n \n5 Product User Manual for \nSST_BS_SST_L4_REP_OBSERVATIONS_010_022 \nSST_BS_PHY_L3S_MY_010_041 \n \n \n  \nSST_BS_SST_L4_REP_OBSERVATIONS_010_021 \n \n© EU Copernicus Marine Service – Public   \nCMEMS-SST-PUM-010-022-041 \nIssue 1.0 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \nInformation on operational issues on products a",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for reprocessed Black Sea Level 4 and Level 3S Sea Surface Temperature products, detailing their specifications, production system, dataset details, processing information, and file format.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": "SST_BS_SST_L4_REP_OBSERVATIONS_010_022, SST_BS_PHY_L3S_MY_010_041",
+      "name": "Black Sea Level 4 and Level 3S Reprocessed Products",
+      "model_name": null,
+      "region": "Black Sea",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_obs_sst_blk_l4-rt_nrt_p1d_202311",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SST",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 27,
+        "lon_max": 40,
+        "lat_min": 41,
+        "lat_max": 48
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

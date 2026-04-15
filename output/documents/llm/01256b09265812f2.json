@@ -1,0 +1,85 @@
+{
+  "doc_id": "01256b09265812f2",
+  "legacy_doc_id": "1c002f5728af",
+  "filename": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.32,
+  "pages": 25,
+  "text_preview": " \n  \nMulti Observation Production Centre \nMulti Observation Global Ocean Daily SMOS Sea \nSurface Salinity Product \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \n \n \n Issue: 2.0  \nContributors: Ana Parracho, Jacqueline Boutin, Stéphane Tarot \nApproval date by the CMEMS product quality coordination team: 15/11/2024 \n \n \n \n \n  \n \n\nQUID for Multi Observation Global Ocean Daily SMOS \nSea Surface Salinity Product \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-014 \nJune 2024 \n2.0 \n \n \n                                                      Page 2/ 25 \nCHANGE RECORD \n \nIssue Date § Description of Change Author Validated By \n1.0 June 2022 All Creation of the document (draft) Ana Parracho, \nJacqueline Boutin, \nStéphane Tarot \n \n1.0 September \n2022 \nAll Creation of the first version Ana Parracho, \nJacqueline Boutin, \nStéphane Tarot \nS. Mulet \n2.0 June 2024 All Update with new quality check flag Ana Parracho, \nJacqueline Boutin, \nStéphane Tarot \nH. Etienne \n \n \n \n \n  \nQUID for Multi Observation Global Ocean Daily SMOS \nSea Surface Salinity Product \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-014 \nJune 2024 \n2.0 \n \n \n                                                      Page 3/ 25 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 6 \nII.1 General Description .................................................................................................................................. 6 \nII.2 Processing Overview ................................................................................................................................. 7 \nII.2.1 Correction of latitudinal bias and land-sea contamination ............................................................. 7 \nII.2.2 Rain correction ................................................................................................................................. 8 \nII.2.3 Quality check ................................................................................................................................... 9 \nIII Validation framework ............................................................................................................................... 11 \nIV Validation results ...................................................................................................................................... 12 \nIV.1 Sea surface salinity ................................................................................................................................ 12 \nIV.1.1 Description of the data match up .................................................................................................. 12 \nIV.1.2 SSS-CLASS4-INS-MEAN-STD ........................................................................................................... 13 \nIV.2 Sea surface salinity error ........................................................................................................................ 19 \nV System’s Noticeable events, outages or changes ...................................................................................... 23 \nV.1 Production gaps ...................................................................................................................................... 23 \nVI Quality changes since previous version ..................................................................................................... 24 \nVI.1 New QC flag definition ........................................................................................................................... 24 \nVII References ............................................................................................................................................ 25 \nQUID for Multi Observation Global Ocean Daily SMOS \nSea Surface Salinity Product \nMULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014 \nRef: \nDate: \nIssue: \nCMEMS-MOB-QUID-015-014 \nJune 2024 \n2.0 \n \n \n                                                      Page 4/ 25 \nI EXECUTIVE SUMMARY \nI.1 Products covered by this document \nThis document covers the external product MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014, which is \nthe Sea Surface Salinity (SSS) from the Soil Moisture Ocean Salinity ( SMOS) satellite Level-3 daily data \n(ascending and",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document describes the Multi Observation Global Ocean Daily SMOS Sea Surface Salinity Product, providing details on its production system, validation framework, and results.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014",
+      "name": "Multi Observation Global Ocean Daily SMOS Sea Surface Salinity Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "MULTIOBS_GLO_PHY_SSS_L3_MYNRT_015_014",
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "sssalt",
+        "cf_standard_name": "sea_surface_salinity",
+        "long_name": "Sea Surface Salinity from SMOS satellite Level-3 daily data",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2110,
+  "_tokens_out": 524,
+  "_eval_s": 3.87
+}

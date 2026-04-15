@@ -1,0 +1,70 @@
+{
+  "doc_id": "c7beb2700ee3e9ee",
+  "legacy_doc_id": "8faf5b64cb09",
+  "filename": "Reports_on_ICON_2022_10.pdf",
+  "filepath": "docs/icon_docs/Reports_on_ICON_2022_10.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.12,
+  "pages": 28,
+  "text_preview": "Subgrid scale Lightning Potential\nIndex for ICON with\nparameterized convection\nGuido Schröder, T obias Göcke, Martin Köhler\nAugust 2022\nMax-Planck-Institut\n für Meteorologie\nIssue\n010 Reports on ICON\nDOI: 10.5676/DWD_pub/nwv/icon_010\nISSN: 2628-4898\nDOI: 10.5676/DWD_pub/nwv/icon_010\nISSN: 2628-4898\nThe CC license “BY-NC-ND” allows others only to download the publication and share it\nwith others as long as they credit the publication, but they can’t change it in any way or\nuse it commercially.\nPublisher\nDeutscher Wetterdienst\nBusiness Area “Research and Development”\nFrankfurter Straße 135\n63067 O/uniFB00enbach\nwww.dwd.de\nEditors\nSebastian Rast, MPI-M\nsebastian.rast@mpimet.mpg.de\nRené Redler, MPI-M\nrene.redler@mpimet.mpg.de\nDaniel Reinert, DWD,\ndaniel.reinert@dwd.de\nDaniel Rieger, DWD,\ndaniel.rieger@dwd.de\nFlorian Prill, DWD,\nﬂorian.prill@dwd.de\nSubgrid scale Lightning Potential Index Guido Schröder, Tobias Göcke, Martin Köhler\nSubgrid scale Lightning Potential Index for ICON with\nparameterized convection\nGuido Schröder, Tobias Göcke, Martin Köhler\nDeutscher Wetterdienst\nThis document refers to release icon-2.6.4-nwp5.\nAbstract\nA subgrid scale lightning potential index (LPI) based on parameterized deep convection\nas well as a modiﬁed version of this index (MLPI) have been developed and implemented in\nICON.\nIt is based on the LPI formula of Lynn and Yair (2010) for models with resolved convec-\ntion. Following the idea of Lopez (2016), the quantities (e.g. vertical velocity) needed in the\nLPI formula are derived from the updraft of the Bechtold-Tiedtke parameterization scheme\n(Bechtold et al., 2008, 2014). In case of MLPI the formula is further improved by taking into\naccount the vertical equivalent potential temperature gradient (i.e. the KO-index). LPI and\nMLPI are tested in ICON with 20km resolution (ICON-20).\nThe MLPI is veriﬁed against LINET lightning data (Betz et al., 2009) over central Europe\nfor the months 06/07 2020 and 03/2021-08/2021. The MLPI is also compared to the LPI\nand the lightning ﬂash density (LFD, Lopez, 2016), all computed in ICON-20. A grid scale\nveriﬁcation for the test period shows that the MLPI outperforms the LPI and LFD. However,\nwhen the location error is removed, LPI performs best.\nKeywords: Lightning, Deep convection\nCorrespondence to: Guido Schröder(guido.schroeder@dwd.de)\n1. Introduction\nThe occurrence of lightning is diﬃcult to predict with numerical models. Forecasters rely mostly\non ingredient based methods taking into account large scale indices for moisture, instability,\ndynamically forced lifting and shear. These indices are usually derived from numerical model\nsimulations.\nThey have also been used to understand the impact of climate change on thunderstorm occur-\nrence. E.g., Taszarek et al. (2021) analyzed ERA5 data to ﬁnd trends in environments beneﬁcial\nfor the development of thunderstorms and lightning in Europe and the US.\nReports on ICON - Issue 010 3\nSubgrid scale Lightning Potential Index Guido Schröder, Tobias Göcke, Martin Köhler\nHowever, it is desirable to develop methods to forecast lightning directly. For numerical models,\npurely statistical methods are available. Stolz et al. (2017) for example used a region dependent\nmulti-linear regression model with global reanalysis data as predictors and the total lightning\ndensity as predictand.\nFor convection permitting models Lynn and Yair (2010) derived a lightning potential index\n(LPI) based on physical assumptions. This index has already been implemented in ICON in\nthe past and can be used when using convection permitting resolutions like in ICON-D2. Their\nformulation requires information on the updraft region like the distribution of hydrometeors and\nthe vertical wind speed.\nFor models with non-convection-permitting resolution the forecast of lightning is more complex.\nCharn and Parishani (2021) applied a superparameterization to a coarse resolution model where\neach grid box contained a nested cloud resolving model (CRM) with 2km grid size. They tested\nseveral proxies, e.g. proxies based on the variables of the cloud microphysics schemes as well\nas more simple proxies like the product of CAPE and precipitation. They found that using a\ntwo-moment cloud microphysics scheme all indices have a higher correlation with lightning than\nusing a one-moment scheme. The best performance had the GFLUX proxy for lightning based\non McCaul et al. (2009) which corresponds to the vertical graupel ﬂux at -15◦C in the updraft\nof the cloud.\nTippett and Koshak (2018) also used the product of CAPE and precipitation as a proxy for\nlightning. Using the NCEP Global Ensemble Forecast System (GEFS) they showed with this\nproxy that there is statistically signiﬁcant skill to forecast lightning even for week 2.\nLopez (2016) developed a parameterization for the lightning ﬂash density (LFD) for large\nscale models with parameterized deep convection based on physical assumptions. The LFD uses\nquantities from the Bechtold-Tiedtke parameterization s",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "scientific_paper",
+    "relevance_score": 1.0,
+    "summary": "This paper discusses the development and implementation of a subgrid scale lightning potential index (LPI) and its modified version (MLPI) in ICON, focusing on their performance evaluation against LINET lightning data over central Europe.",
+    "provider": {
+      "provider_id": "dwd",
+      "name": "Deutscher Wetterdienst"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": null,
+      "model_name": "ICON",
+      "region": null,
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": "20km",
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2596,
+  "_tokens_out": 331,
+  "_eval_s": 2.39
+}

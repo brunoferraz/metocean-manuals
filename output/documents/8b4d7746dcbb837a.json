@@ -1,0 +1,268 @@
+{
+  "doc_id": "8b4d7746dcbb837a",
+  "legacy_doc_id": "c1d5d5393c47",
+  "filename": "cdw_variable_cross_reference.md",
+  "filepath": "docs/cdw_variable_cross_reference.md",
+  "extension": ".md",
+  "file_size_mb": 0.02,
+  "pages": 6,
+  "text_preview": "# Referência cruzada de variáveis oceanográficas em cinco fontes de dados globais\n\n**As cinco fontes de dados oceânicos globais mais utilizadas — CMEMS, GFS, HYCOM, ERA5 e GEBCO — diferem significativamente em nomenclatura de variáveis, unidades, convenções de coordenadas e estrutura de grade.** A construção de uma camada de harmonização exige o mapeamento cuidadoso de pelo menos 14 regras críticas de conversão: Kelvin para Celsius nas temperaturas do ERA5/GFS, Pascal para hectopascal na pressão, rotação de longitude 0–360 para ±180° no GFS/HYCOM/ERA5, e inversão de sinal de profundidade no GEBCO. Este documento referencia cada nome de variável, unidade, convenção de coordenadas e armadilha conhecida nas nove categorias de variáveis oceanográficas, fornecendo a especificação completa necessária para um pipeline de integração multi-fonte.\n\n---\n\n## Tabela mestra de referência cruzada de variáveis\n\nA tabela abaixo mapeia cada variável física em todas as cinco fontes. Células vazias indicam que a variável não está disponível naquela fonte.\n\n| Categoria | CMEMS | GFS | HYCOM | ERA5 | GEBCO |\n|---|---|---|---|---|---|\n| **Temperatura (3D)** | `thetao` <br> °C <br> temp. potencial <br> 50 níveis | — | `water_temp` <br> °C <br> temp. in-situ <br> 40 níveis | — | — |\n| **TSM (superfície)** | `thetao` <br> em depth=0.49m <br> °C | `TMP` na superfície <br> K (temp. de pele) | `sst` (arquivo ice) ou `water_temp` em depth=0 <br> °C | `sst` <br> K (condição de contorno prescrita) | — |\n| **Corrente zonal (3D)** | `uo` <br> m/s <br> 50 níveis | — | `water_u` <br> m/s <br> 40 níveis | — | — |\n| **Corrente meridional (3D)** | `vo` <br> m/s <br> 50 níveis | — | `water_v` <br> m/s <br> 40 níveis | — | — |\n| **Salinidade (3D)** | `so` <br> 1e-3 (PSU) <br> 50 níveis | — | `salinity` <br> PSU <br> 40 níveis | — | — |\n| **Elevação da superfície do mar** | `zos` <br> m (sem marés/IB) | — | `surf_el` <br> m (anomalia SSH do modelo) | — | — |\n| **Batimetria** | `deptho` (arquivo estático) <br> m | — | — | — | `elevation` <br> m (negativo=oceano) |\n| **Concentração de gelo marinho** | `siconc` <br> fração (0–1) | `ICEC` <br> fração (0–1) | `sic` <br> fração (0–1) | `siconc` <br> fração (0–1) | — |\n| **Espessura de gelo marinho** | `sithick` <br> m | `ICETK` <br> m | `sih` <br> m | — | — |\n| **Profundidade da camada de mistura** | `mlotst` <br> m | — | `mixed_layer_thickness` <br> m (apenas GOFS 3.1) | — | — |\n| **Vento U a 10m** | — | `UGRD` a 10m <br> m/s | — | `u10` <br> m/s | — |\n| **Vento V a 10m** | — | `VGRD` a 10m <br> m/s | — | `v10` <br> m/s | — |\n| **Pressão ao nível do mar** | — | `PRMSL` <br> Pa | — | `msl` <br> Pa | — |\n| **Altura significativa de onda** | — | — | — | `swh` <br> m (grade 0.5°) | — |\n\n---\n\n## Geometria de grade e convenções de coordenadas\n\nEntender as diferenças de coordenadas é a fonte mais comum de bugs em integrações. A tabela abaixo captura cada convenção que precisa ser reconciliada.\n\n| Propriedade | CMEMS | GFS | HYCOM | ERA5 | GEBCO |\n|---|---|---|---|---|---|\n| **Resolução espacial** | 1/12° (~0.083°) | 0.25° / 0.50° / 1.0° | 0.08° lon × 0.04° lat | 0.25° (atmo) / 0.5° (ondas) | 15 arc-sec (~0.004°) |\n| **Dimensões da grade** | 4320 × 2041 | 1440 × 721 (0.25°) | 4500 × 4251 | 1440 × 721 (0.25°) | 86400 × 43200 |\n| **Faixa de longitude** | **−180 a +180** | **0 a 360** | **0 a 360** | **0 a 360** (padrão) | **−180 a +180** |\n| **Faixa de latitude** | −80 a 90 | −90 a 90 | −80 a 90 | −90 a 90 | −90 a 90 |\n| **Convenção de profundidade** | positiva para baixo (0.49–5728 m) | N/A (atmosférico) | positiva para baixo (0–5000 m) | N/A (atmosférico) | elevação: positiva para cima |\n| **Níveis de profundidade** | 50 níveis Z | — | 40 níveis Z | — | — |\n| **Tipo de grade** | Lat/lon regular (de ORCA12) | Lat/lon regular | Lat/lon regular (de curvilínea) | Lat/lon regular (de Gaussiana reduzida) | Lat/lon regular, pixel-center |\n| **Registro da grade** | Centro da célula | Ponto de grade | Centro da célula | Ponto de grade | Centro do pixel |\n| **Ordem de varredura** | S→N, W→E | N→S, W→E | S→N, W→E | N→S, W→E | S→N, W→E |\n\n**A longitude é a conversão de maior prioridade.** CMEMS e GEBCO usam −180/+180; GFS, HYCOM e ERA5 usam 0/360 por padrão. Qualquer camada de harmonização deve implementar `lon = ((lon + 180) % 360) - 180` ou seu inverso. Falhar nisso faz os dados aparecerem deslocados por metade do globo ou produz subconjuntos preenchidos com NaN ao solicitar longitudes negativas de fontes 0–360.\n\n---\n\n## Resolução temporal e épocas de referência de tempo\n\nCada fonte usa uma época diferente para sua coordenada temporal, criando bugs silenciosos ao mesclar datasets sem conversão explícita.\n\n| Propriedade | CMEMS | GFS | HYCOM | ERA5 | GEBCO |\n|---|---|---|---|---|---|\n| **Resolução temporal** | Horária (superfície) / 6h / Diária / Mensal | 1h (F001–F120), 3h (F120–F384) | 3-horária (3D), 1-horária (SSH/ice no ESPC-D-V02) | Horária | Estático |\n| **Unidades de tempo** | horas desde **1950-01-01** | referenc",
+  "extraction_method": "text",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "technical_note",
+    "relevance_score": 1.0,
+    "summary": "This technical note provides a cross-reference table for oceanographic variable names, units, coordinate conventions, and grid structures across five global data sources: CMEMS, GFS, HYCOM, ERA5, and GEBCO.",
+    "provider": {
+      "provider_id": "null",
+      "name": "null"
+    },
+    "product_line": {
+      "product_id": "null",
+      "name": "null",
+      "model_name": "null",
+      "region": "Global",
+      "product_types": [
+        "observation",
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics",
+        "atmosphere",
+        "bathymetry",
+        "ice"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "null",
+        "temporal_resolution": "static | PT1H | P1D",
+        "update_frequency": "daily | static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "thetao",
+        "cf_standard_name": "sea_water_potential_temperature",
+        "long_name": "Potential temperature of sea water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "water_temp",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "In-situ temperature of sea water",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "in_situ",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "water_u",
+        "cf_standard_name": "sea_water_x_velocity",
+        "long_name": "Zonal velocity of sea water",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "water_v"
+      },
+      {
+        "native_name": "water_v",
+        "cf_standard_name": "sea_water_y_velocity",
+        "long_name": "Meridional velocity of sea water",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "water_u"
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Practical salinity of sea water",
+        "unit": "PSU",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "zos",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea surface height above geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "deptho",
+        "cf_standard_name": "sea_floor_depth_below_geoid",
+        "long_name": "Depth of sea floor below geoid",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "bathymetry",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "siconc",
+        "cf_standard_name": "sea_ice_area_fraction",
+        "long_name": "Sea ice area fraction",
+        "unit": "fraction (0-1)",
+        "physical_quantity": "ice_fraction",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sithick",
+        "cf_standard_name": "sea_ice_thickness",
+        "long_name": "Sea ice thickness",
+        "unit": "m",
+        "physical_quantity": "ice_thickness",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ice",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mlotst",
+        "cf_standard_name": "mixed_layer_thickness",
+        "long_name": "Mixed layer thickness",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "UGRD",
+        "cf_standard_name": "eastward_wind",
+        "long_name": "Eastward wind speed at 10m",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "VGRD"
+      },
+      {
+        "native_name": "VGRD",
+        "cf_standard_name": "northward_wind",
+        "long_name": "Northward wind speed at 10m",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "UGRD"
+      },
+      {
+        "native_name": "PRMSL",
+        "cf_standard_name": "air_pressure_at_sea_level",
+        "long_name": "Pressure at sea level",
+        "unit": "Pa",
+        "physical_quantity": "pressure",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "swh",
+        "cf_standard_name": "significant_wave_height",
+        "long_name": "Significant wave height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.083deg | 0.25deg | 15 arc-sec",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels | surface_only",
+      "n_levels": 50,
+      "depth_min_m": 0.49,
+      "depth_max_m": 5728
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

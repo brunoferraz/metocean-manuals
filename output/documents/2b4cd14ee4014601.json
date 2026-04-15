@@ -1,0 +1,110 @@
+{
+  "doc_id": "2b4cd14ee4014601",
+  "legacy_doc_id": "f6063c56fda1",
+  "filename": "OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_CLIMATE_OHC_IBI_area_averaged_anomalies_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.71,
+  "pages": 8,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Álvaro de Pascual Collar, Roland Aznar, Arancha Amo, Marcos G. \nSotillo, Stefania Ciliberti \n \nApproval Date: March 2026 \n \nFor Iberian-Biscay-Ireland \nOcean Heat Content (0-2000m) \n \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \n \n Issue: 1.1 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n2 Quality Information Document for \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-QUID-\nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \nIssue 1.1 – March 2026 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added \nto this table.  The third column specifies which sections or sub-sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2022/06/16 All Initial version \nde Pascual \nCollar, A. \nAznar, R. \nAmo, A. \nSotillo, M.G. \n \n1.1 2026/03/31 All \nCopernicus dataset IBI-INT added \nto the ensemble \nAdded information published in \nOSR#7 \nde Pascual \nCollar, A. \nCiliberti, S. \nCopernicus \nMarine \nProduct \nManagement \n      \n \n \n \n3 Quality Information Document for \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-QUID-\nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \nIssue 1.1 – March 2026 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................4 \nb) Indicator Evaluation Method ...........................................................................4 \nc) Copernicus Marine products used as input for the computation ................5 \n2) SCIENTIFIC VALIDATION ................................................................................... 6 \n3) REFERENCES ....................................................................................................... 8 \n  \n \n \n \n4 Quality Information Document for \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-QUID-\nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \nIssue 1.1 – March 2026 \n1) INTRODUCTION \na) Product Name  \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies  \n \nb) Indicator Evaluation Method \nThe Iberia-Biscay-Ireland (IBI) Ocean Heat Content (OHC) indicator provides annually \naveraged, spatially averaged time series of OHC for the IBI region (26°N –56°N, 19°W–\n5°E), along with the associated error bars. \n \nThe error bars of the product are derived from the computation of the same parameter \nusing a set of gridded Copernicus products available for the region (see Section 1.c). \n \nFor each specific ensemble product, OHC is computed following the methodology \ndescribed in Lima et al. (2020) and Mayer et al. (2021), using the following equation: \n \n2\n0 p mth clim\n1\nz\nOHC = ρ c (T - T )dz\nz\n\n \n \nwhere Tclim corresponds to the average temperature over entire data record, including \nall available temporal record, T mth corresponds to the temperature averaged for a \nspecific month. \nA reference density of 0 = 1030 kg·m-3 and a specific heat capacity of cp = 3980 J/kg°C \nwere used (e.g. von Schuckmann et al., 2009). This variable is closely proportional to the \naverage temperature change from z1 = 0 m to z2 = 2000 m depth. \n \n \n \n \n5 Quality Information Document for \nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \n© EU Copernicus Marine Service – Public   \nCMEMS-IBI-QUID-\nOMI_CLIMATE_OHC_IBI_area_averaged_anomalies \nIssue 1.1 – March 2026 \nc) Copernicus Marine products used as input for the computation \n \nProduct reference ID, type and \na cronim \nDocumentation \nIBI_MULTIYEAR_PHY_005_002 \nReanalysis \nIBI-MYP \n• PUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-IBI-PUM-005-002.pdf \n \n• QUID: \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-IBI-QUID-005-002.pdf \nIBI_MULTIYEAR_PHY_005_002 \nInterim \nIBI-INT \nGLOBAL_MULTIYEAR_PHY_001_030 \nReanalysis \nGLO-MYP \n \n• PUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-GLO-PUM-001-030.pdf \n \n• QUID: \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-GLO-QUID-001-030.pdf \nINSITU_GLO_PHY_TS_OA_MY_013_05\n2 \nObservations \nCORA \n \n• PUM: \nhttps://documentation.marine.copernicus.eu/PUM/C\nMEMS-INS-PUM-013-002-052.pdf \n \n• QUID: \nhttps://documentation.marine.copernicus.eu/QUID/C\nMEMS-INS-QUID-013-052.pdf \nMULTIOBS_GLO_PHY_TSUV_3D_MYN\nRT_015_012 \nReprocessed observations \nARMOR \n \n",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document describes the OMI_CLIMATE_OHC_IBI_area_averaged_anomalies product, detailing its evaluation method and input Copernicus Marine products for the Iberia-Biscay-Ireland region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "MERCATOR OCEAN INTERNATIONAL"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "OMI_CLIMATE_OHC_IBI_area_averaged_anomalies",
+      "model_name": null,
+      "region": "Atlantic",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "IBI_MULTIYEAR_PHY_005_002",
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Tclim",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Average temperature over entire data record",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "T mth",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Temperature averaged for a specific month",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "OHC",
+        "cf_standard_name": "integral_of_sea_water_heat_content",
+        "long_name": "Ocean Heat Content",
+        "unit": "J/m^2",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "0.25deg",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -19,
+        "lon_max": 5,
+        "lat_min": 26,
+        "lat_max": 56
+      }
+    },
+    "vertical": {
+      "vertical_type": "z_levels",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": 2000
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

@@ -1,0 +1,197 @@
+{
+  "doc_id": "bf79b8cf71fa9381",
+  "legacy_doc_id": "ebcc662d832e",
+  "filename": "wallcraft_HYCOM_2.2_code_devel.pdf",
+  "filepath": "docs/hycom_docs/wallcraft_HYCOM_2.2_code_devel.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 5.0,
+  "pages": 12,
+  "text_preview": "HYCOM code development\nAlan J. Wallcraft\nNaval Research Laboratory\nHYCOM NOPP GODAE Meeting\nOct 29, 2004\nHYCOM 2.2 (I)\n\u0000\nFirst public release of HYCOM 2.2\n\u0001\nScheduled for December, 2004\n\u0000\nMaintain all features of HYCOM 2.1\n\u0001\nOrthogonal curvilinear grids\n\u0001\nCan emulate Z or Sigma or Sigma-Z models\n\u0001\nExplicit support for 1-D and 2-D domains\n\u0001\nKPP or Kraus-Turner or\nMellor-Yamada 2.5 or Price-Weller-Pinkel\n\u0001\nRivers as bogused surface precipitation\n\u0001\nMultiple tracers\n\u0001\nOff-line one-way nesting\n\u0001\nScalability via OpenMP or MPI or both\n\u0002\nBit-for-bit multi-cpu reproducibility\n\u0000\nNew diagnostics within HYCOM\n\u0001\nTime-averaged ﬁelds (in archive ﬁles)\n\u0001\nDrifters\nHYCOM 2.2 (II)\n\u0000\nAlternative scalar advection techniques\n\u0001\nDonor Cell, FCT (2nd and 4th order), MPDATA\n\u0000\nVertical coordinate changes\n\u0001\nVertical remapping uses PLM for ﬁxed\ncoordinate layers\n\u0001\nThin deep iso-pycnal layers\n\u0001\nSpatially varying iso-pycnal layer target densities\n\u0001\nStability from locally referenced potential density\n\u0000\nAtmospheric forcing changes\n\u0001\nOption to input ustar ﬁelds\n\u0001\nOption to relax to observed SST ﬁelds\n\u0001\nImproved COARE 3.0 bulk exchange coefﬁcients\n\u0001\nBlack-body correction to longwave ﬂux\n\u0000\nMixed layer changes\n\u0001\nGISS mixed layer model\n\u0001\nKPP bottom boundary layer\n\u0001\nKPP tuning\n\u0001\nLatitudinally dependent background diffusion\nHYCOM 2.2 (III)\n\u0000\nImproved support for rivers\n\u0001\nStill bogused surface precipitation\n\u0001\nBetter control of low salinity proﬁles\n\u0001\nOption for mass (vs salinity) ﬂux\n\u0000\nNesting no longer requires co-located grids\n\u0001\nGeneral archive to archive horizontal\ninterpolation\n\u0000\nHybrid to ﬁxed vertical grid remapper\n\u0001\nAllows ﬁxed-coordinate nests inside hybrid\ncoordinate outer domains\n\u0002\nHYCOM to (ﬁxed-grid) HYCOM\n\u0002\nHYCOM to NCOM\n\u0000\nDiagnostic ﬁelds to netCDF and other ﬁle formats\n\u0001\nAll x-y “hycomproc” ﬁelds\n\u0002\nLayer space\n\u0002\nVelocity interpolated to the p-grid\n\u0001\nAll 3-D archive ﬁelds interpolated to z-space\n\u0002\nOn p-grid, or\n\u0002\nSampled along arbitrary tracks\n\u0001\nForcing input ﬁelds\nHYCOM CURVI-LINEAR GRIDS and NetCDF\n\u0000\nMost basin-scale cases use a Mercator grid\n\u0001\n1-D latitude and longitude axes\n\u0001\nHandled well by many netCDF packages\n\u0000\nGlobal HYCOM’s Arctic patch grid is curvi-linear\n\u0000\nHYCOM netCDF use the CF-1.0 conventions, which\nsupport curvi-linear grids\n\u0001\nIf latitude and longitude are 2-D grids\n\u0002\n1-D axes are array indexes\n\u0002\nLongitude and latitude arrays are also in the\nﬁle and identiﬁed as alternative coordinates\n\u0000\nMost netCDF packages are not CF-1.0 aware\n\u0001\nCan plot in “logical” (array) space\n\u0001\nInterpolate to a 1-D latitude and longitude\ngrid off-line\n\u0002\nGeneral archive to archive horizontal\ninterpolation\n\u0000\nArchive to archive remapper can also be used for\nstandard (non-native) grids\n\u0001\nMersea grid is uniform 1/8\n\u0003",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document outlines the features and improvements of HYCOM version 2.2, including new diagnostics, alternative advection techniques, vertical coordinate changes, atmospheric forcing updates, mixed layer modifications, enhanced river support, nesting capabilities, diagnostic fields to netCDF formats, and grid handling.",
+    "provider": {
+      "provider_id": "null",
+      "name": "Alan J. Wallcraft, Naval Research Laboratory"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "HYCOM",
+      "model_name": "HYCOM",
+      "region": "Global",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_water_temperature",
+        "long_name": "Sea water temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Sea water practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "velocity",
+        "cf_standard_name": "sea_water_x_velocity, sea_water_y_velocity",
+        "long_name": "Sea water velocity components",
+        "unit": "m/s",
+        "physical_quantity": "velocity",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": true,
+        "is_vector_component": true,
+        "vector_pair": "sea_water_y_velocity"
+      },
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10m above surface",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea surface temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "sea_surface_salinity",
+        "cf_standard_name": "sea_surface_practical_salinity",
+        "long_name": "Sea surface practical salinity",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "mixed_layer_depth",
+        "cf_standard_name": "mixed_layer_thickness",
+        "long_name": "Mixed layer depth",
+        "unit": "m",
+        "physical_quantity": "depth",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "river_discharge",
+        "cf_standard_name": "river_transport",
+        "long_name": "River discharge",
+        "unit": "m^3/s",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "atmospheric_forcing",
+        "cf_standard_name": "surface_downward_water_flux_in_storm, surface_upward_sensible_heat_flux, surface_upward_latent_heat_flux",
+        "long_name": "Atmospheric forcing fields",
+        "unit": "W/m^2, kg/m/s",
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": "unknown",
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "curvilinear",
+      "horizontal_resolution": "variable, depending on the specific application",
+      "crs": "EPSG:4326 or other",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": -90,
+        "lat_max": 90
+      }
+    },
+    "vertical": {
+      "vertical_type": "sigma, hybrid, isopycnal",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "null",
+        "format": "netcdf4",
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2082,
+  "_tokens_out": 1465,
+  "_eval_s": 10.58
+}

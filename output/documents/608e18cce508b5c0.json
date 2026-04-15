@@ -1,0 +1,96 @@
+{
+  "doc_id": "608e18cce508b5c0",
+  "legacy_doc_id": "7941988038f8",
+  "filename": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/WIND_GLO_PHY_CLIMATE_L4_MY_012_003_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 4.5,
+  "pages": 34,
+  "text_preview": " \n  \nWind Thematic Assembly Centre  \nGlobal Ocean Monthly Wind and Stress Product \nWIND_GLO_PHY_CLIMATE_L4_MY_012_003 \n \n Issue: 1.2 \nContributors: Rianne Giesen and Ad Stoffelen \nApproval date by the CMEMS product quality coordination team: 14/10/2024 \n \n \n \n \n  \n \n\nQUID for Global Oceans Monthly Wind and Stress \nProduct \nWIND_GLO_PHY_CLIMATE_L4_MY_012_003 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-003 \n9 October 2024 \n1.2 \n \n \n                                                      Page 2/ 34 \nCHANGE RECORD \n \nWhen the quality of the products change s, the QuID is updated and a row is added to this table.  The \nthird column specifies which sections or sub -sections have been updated. The fourth column should \nmention the version of the product to which the change applies. \n \nIssue Date § Description of Change Author Validated By \n1.0 14/10/2022 All Creation of the document  Rianne Giesen  Ad Stoffelen \n1.1 13/09/2023 All \nUpdate for backward extension \nwith QuikSCAT Seawinds \nobservations, no change in \nproduct version  \nRianne Giesen Ad Stoffelen \n1.2 02/09/2024 All \nUpdate for backward extension \nwith ERS SCAT observations and \nadditional wind speed and wind \nstress variables \nRianne Giesen Ad Stoffelen \n 09/10/2024 All Updated after external review Rianne Giesen Ad Stoffelen \n \n \n \n \n  \nQUID for Global Oceans Monthly Wind and Stress \nProduct \nWIND_GLO_PHY_CLIMATE_L4_MY_012_003 \nRef: \nDate: \nIssue: \nCMEMS-WIND-QUID-012-003 \n9 October 2024 \n1.2 \n \n \n                                                      Page 3/ 34 \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 5 \nII Production system description .................................................................................................................... 6 \nII.1 Monthly averaged fields from the ECMWF model ..................................................................................... 8 \nII.2 Bias corrections from the L3 wind product ................................................................................................ 8 \nII.3 Corrected ECMWF monthly fields ............................................................................................................ 12 \nII.4 Related products ..................................................................................................................................... 13 \nIII Validation framework ............................................................................................................................... 15 \nIII.1 Sampling effects ..................................................................................................................................... 15 \nIII.2 Buoy comparison ................................................................................................................................... 15 \nIII.3 Related products .................................................................................................................................... 16 \nIV Validation results ...................................................................................................................................... 17 \nIV.1 Sampling effects .................................................................................................................................... 17 \nIV.2 Buoy comparison ................................................................................................................................... 17 \nIV.3 Related products .................................................................................................................................... 21 \nV System’s Noticeable events, outages or changes ...................................................................................... 24 \nV.1 Data gaps resulting from unavailable upstream data .............................................................................. 24 \nV.2 Changes in scatterometer combinations ................................................................................................. 24 \nV.3 System changes ...................................................................................................................................... 30 \nVI Quality changes since previous version ..................................................................................................... 31 \nVII References ...............................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "dataset_description",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QUID) for the Global Ocean Monthly Wind and Stress Product, detailing its production system, validation framework, results, and quality changes.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "WIND_GLO_PHY_CLIMATE_L4_MY_012_003",
+      "name": "Global Ocean Monthly Wind and Stress Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1M",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "wind_speed",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10m above sea level",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "wind_stress",
+        "cf_standard_name": "wind_stress",
+        "long_name": "Wind stress vector components at 10m above sea level",
+        "unit": "N/m^2",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "wind_stress"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

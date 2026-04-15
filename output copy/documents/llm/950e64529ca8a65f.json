@@ -1,0 +1,127 @@
+{
+  "doc_id": "950e64529ca8a65f",
+  "legacy_doc_id": "eb84389c0add",
+  "filename": "NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/NWSHELF_REANALYSIS_WAV_004_015_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 3.91,
+  "pages": 45,
+  "text_preview": "    \n  \nNorth West European Shelf Production Centre \nNWSHELF_REANALYSIS_WAV_004_015 \n \n \n Issue: 1.1 \nContributors: Andy Saulter \nApproval date by the CMEMS product quality coordination team: 23/03/2021 \n \n \n \n \n  \n \nQUID for NWS MFC Products \nNWSHELF_REANALYSIS_WAV_004_015 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-015 \n3rd February 2021 \n1.1 \n \n \n2 \n \nCHANGE RECORD \n \n \nIssue Date § Description of \nChange \nAuthor Validated By \n1.0 06/01/2020  Preliminary Draft Andy Saulter  \n1.0 17/03/2020  Met Office waves \nteam review \nAndy Saulter Chris Bunney \n1.1 03/02/2021 V and VI  Andy Saulter Marina Tonani \n      \n      \n      \n \n \n \n \n  \nQUID for NWS MFC Products \nNWSHELF_REANALYSIS_WAV_004_015 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-015 \n3rd February 2021 \n1.1 \n \n \n3 \n \nTABLE OF CONTENTS \nI Executive summary ..................................................................................................................................... 4 \nI.1 Products covered by this document ........................................................................................................... 4 \nI.2 Summary of the results .............................................................................................................................. 4 \nI.2.1 Model quality ....................................................................................................................................... 4 \nI.3 Estimated Accuracy Numbers ..................................................................................................................... 6 \nII Production system description .................................................................................................................... 7 \nII.1 Production centre’s name ......................................................................................................................... 7 \nII.2 Production system name ........................................................................................................................... 7 \nII.3 System Description ................................................................................................................................... 7 \nIII Validation framework ............................................................................................................................... 13 \nIII.1 Description of the product quality assessment ...................................................................................... 13 \nIII.2 Description of the hindcast detailed validation experiment ................................................................... 14 \nIII.3 Summary of tested metrics .................................................................................................................... 15 \nIII.4 Observation datasets ............................................................................................................................. 15 \nIII.5 Matchup and sample rejection ............................................................................................................... 18 \nIII.6 Analysis of long term consistency .......................................................................................................... 18 \nIV Validation results ...................................................................................................................................... 19 \nIV.1 Significant wave height (VHM0) ............................................................................................................. 20 \nIV.2 Peak wave period (VTPK) ....................................................................................................................... 24 \nIV.3 Average zero-upcrossing period (VTM02) .............................................................................................. 27 \nIV.4 Average wave direction (VMDR) ............................................................................................................ 29 \nIV.5 Long term evaluation of significant wave height (VHM0) against observations  ..................................... 31 \nIV.6 Long term evaluation of significant wave height (VHM0) monthly means  ............................................. 35 \nIV.7 Discussion of wave model hindcast performance .................................................................................. 39 \nV System’s Noticeable events, outages or changes ...................................................................................... 42 \nVI Quality changes since previous version ..................................................................................................... 43 \nVII References ............................................................................................................................................ 44 \nQUID for NWS MFC Products \nNWSHELF_REANALYSIS_WAV_004_015 \nRef: \nDate: \nIssue: \nCMEMS-NWS-QUID-004-015 \n3rd February 2021 \n1.1 \n \n \n4 \n \nI EXECUTIVE SUMMARY \nI.1 Products",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Underpinning Information Document (QUID) for NWS MFC Products, specifically focusing on wave reanalysis data in the North West European Shelf region.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "North West European Shelf Production Centre"
+    },
+    "product_line": {
+      "product_id": "NWSHELF_REANALYSIS_WAV_004_015",
+      "name": "Wave Reanalysis Product",
+      "model_name": "WAM 4.7 | WW3",
+      "region": "North West European Shelf",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "VHM0",
+        "cf_standard_name": "sea_surface_wave_significant_height",
+        "long_name": "Significant wave height (VHM0)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTPK",
+        "cf_standard_name": "sea_surface_wave_period_at_variance_spectral_peak",
+        "long_name": "Peak wave period (VTPK)",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VTM02",
+        "cf_standard_name": "sea_surface_wave_mean_period_from_variance_spectral_density_second_frequency_moment",
+        "long_name": "Average zero-upcrossing period (VTM02)",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "VMDR",
+        "cf_standard_name": "sea_surface_wave_from_direction",
+        "long_name": "Average wave direction (VMDR)",
+        "unit": "degree",
+        "physical_quantity": "wave_direction",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -10,
+        "lon_max": 8,
+        "lat_min": 49,
+        "lat_max": 63
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2049,
+  "_tokens_out": 866,
+  "_eval_s": 6.38
+}

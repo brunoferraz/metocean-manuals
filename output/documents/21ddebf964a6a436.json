@@ -1,0 +1,82 @@
+{
+  "doc_id": "21ddebf964a6a436",
+  "legacy_doc_id": "b3991ba6598f",
+  "filename": "INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.72,
+  "pages": 29,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n PRODUCT USER MANUAL \n \nFor SEA LEVEL Reprocessed In Situ Product \n      INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \n \n \nIssue:  1.3 \n \nContributors: Begoña Pérez Gómez, Jue Lin Ye, Alejandro Gallardo, Elizabeth \nBradshaw, Angela Hibbert, Fernando Manzano and In Situ TAC partners \nApproval Date: November 2025 \n\n \n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \n \nIssue : 1.3 \n11/2025 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-053 \n2 \n \nRECORD TABLE \nIssue Date § Description of Change Author Validated \nBy \n1.0 \n \n2022/06/06 All \n \nCreation of the document \n \n  \nBegoña Pérez Gómez, \nJue Lin Ye, Alejandro \nGallardo and In Situ TAC \nPartners \nStéphane \nTarot \n1.1 2023/06/01 All Addition of new dataset including tide \nand surge for the IBI region \nBegoña Pérez Gómez, \nJue Lin Ye, Alejandro \nGallardo and In Situ TAC \nPartners \nStéphane \nTarot \n1.2 2024/05/24 All Extension to global, including data \nfrom GLOSS data portals \nUpdate index format \nUpdate file access \nUpdate TS  file examples \nBegoña Pérez Gómez, \nJue Lin Ye, Alejandro \nGallardo, Elizabeth \nBradshaw, Angela \nHibbert, Fernando \nManzano and In Situ \nTAC Partners \nStéphane \nTarot \n1.3 2025/05/09 II.2 \nII.5.1 \n \nII.2 \nRenaming of dataset for tide and \nsurge time series \nNew directory “metadata” to store \nindexes \nMention of SLEV_ADJUSTED use in \noriginal time sampling dataset \nBegoña Pérez Gómez, \nJue Lin Ye, Alejandro \nGallardo \nStéphane \nTarot \n \n \n \nCopernicus Marine Service Product User Manual for \nINSITU_GLO_PHY_SSH_DISCRETE_MY_013_053 \n \nIssue : 1.3 \n11/2025 \n \n \n \n© EU Copernicus Marine Service – Public   \nRef : CMEMS-INS-PUM-013-053 \n3 \n \nTable of Contents \nGLOSSARY AND ABBREVIATIONS .................................................................................................. 4 \nDATA ACCESS ................................................................................................................................ 5 \nI INTRODUCTION ................................................................................................................... 6 \nI.1 Summary ............................................................................................................................. 6 \nI.2 History of changes ............................................................................................................... 8 \nII DESCRIPTION OF THE PRODUCT SPECIFICATION ................................................................ 9 \nII.1 General Information .......................................................................................................... 9 \nII.2 Details of datasets ............................................................................................................ 10 \nII.3 Production System Description ....................................................................................... 10 \nII.4 Processing information .................................................................................................... 11 \nII.4.1 Update Time ........................................................................................................ 11 \nII.4.2 Time averaging .................................................................................................... 11 \nII.4.3 Detiding for the european regions ..................................................................... 11 \nII.5 Data distribution .............................................................................................................. 12 \nII.5.1 Data organisation ................................................................................................ 12 \nII.5.2 Index file .............................................................................................................. 12 \nII.5.3 File generation rules ........................................................................................... 14 \nIII FILE NOMENCLATURE ....................................................................................................... 15 \nIV FILE FORMAT ..................................................................................................................... 16 \nIV.1 In Situ TAC NetCDF Format Implementation .................................................................. 16 \nIV.2 Structure of files ............................................................................................................. 17 \nV REFERENCES ...................................................................................................................... 18 \nVI Annex ....................................................................................",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This is a Product User Manual for the Copernicus Marine Service reprocessed in situ sea level product INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053, detailing its history of changes and specifications.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053",
+      "name": "Reprocessed In Situ Sea Level Product",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "INSITU_GLO_PHY_SSH_DISCRETE_MY_013_053",
+        "temporal_resolution": null,
+        "update_frequency": null,
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "SSH",
+        "cf_standard_name": "sea_surface_height_above_geoid",
+        "long_name": "Sea Surface Height above Geoid",
+        "unit": "m",
+        "physical_quantity": "sea_level",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null
+}

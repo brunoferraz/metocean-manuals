@@ -1,0 +1,85 @@
+{
+  "doc_id": "4694a7f115ccf60e",
+  "legacy_doc_id": "7ee55abc2c9a",
+  "filename": "NORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/NORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.58,
+  "pages": 12,
+  "text_preview": " \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \nParc Technologique du Canal - 8-10 rue Hermès - 31520 Ramonville-Saint-Agne, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00016 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n            \n \n \n  \nPRODUCT USER MANUAL \n \nTEMPSAL sea temperature  \nextreme variability  \nOcean Monitoring Indicator for \nBLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nIBI_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nMEDSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nNORTHWESTSHELF_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \n \n \nIssue 1.2 \n \n \nContributors: Álvaro de Pascual Collar, Marcos García, Marta de Alfonso, Begoña Pérez Gómez, Enrique \nAlvarez. \n \nApproval Date: DEC. 2021 \n \n \n \n \nCMEMS Product User Manual for \nTEMPSAL temp extreme variability \nIssue : 1.2 \n2021/12/14 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef:  CMEMS-OMI-PUM-TEMPSAL-EXTREME-VAR-TEMP  \n2 \n \nChange Record \n \n \nIssue \n \nDate \n \n§ \n \nDescription of \nChange \n \nAuthor \n \nValidated By \n \n1.0 \n \n2019.10.17 \n \nall \n \nCreation of the \ndocument \nÁlvaro de Pascual \nCollar \nMarcos García \n1.1 2020.04.15 all Modifications related to \nthe first review of the \nproduct \nÁlvaro de Pascual \nCollar \nC. Derval \n1.2 2021.09.10 all Addition of new \nregion: North-\nWest Shelf Seas \nÁlvaro de Pascual \nCollar \nC. Derval \n \n  \n \nCMEMS Product User Manual for \nTEMPSAL temp extreme variability \nIssue : 1.2 \n2021/12/14 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef:  CMEMS-OMI-PUM-TEMPSAL-EXTREME-VAR-TEMP  \n3 \nGLOSSARY AND ABBREVIATIONS \nCMEMS Copernicus Marine Environment Monitoring Service \nMO Mercator Océan \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nCUI Coastal Upwelling Index \nSWH Significant Wave Height \nSST Sea Surface Temperature \nSSH Sea Surface Height \nBLK-NRT CMEMS product BLKSEA_ANALYSIS_FORECAST_PHYS_007_001 \n \nIBI-MYP CMEMS product IBI_REANALYSIS_PHYS_005_002 \n \nIBI-NRT CMEMS product IBI_ANALYSIS_FORECAST_PHYS_005_001 \nMED-MYP CMEMS product MEDSEA_REANALYSIS_PHYS_006_004 \nMED-NRT CMEMS product MEDSEA_ANALYSIS_FORECAST_PHY_006_013 \nNWS-MYP CMEMS product NWSHELF_MULTIYEAR_PHY_004_009 \nNWS-NRT CMEMS product NORTHWESTSHELF_ANALYSIS_FORECAST_PHY_004_013 \n \n  \n \nCMEMS Product User Manual for \nTEMPSAL temp extreme variability \nIssue : 1.2 \n2021/12/14 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef:  CMEMS-OMI-PUM-TEMPSAL-EXTREME-VAR-TEMP  \n4 \n \nTable of Content \nGLOSSARY AND ABBREVIATIONS ........................................................................................... 3 \n INTRODUCTION ................................................................................................................ 5 \nI.1. Summary ...................................................................................................................... 5 \nI.2. History of changes ....................................................................................................... 7 \n DESCRIPTION OF THE PRODUCT ....................................................................................... 7 \nII.1. General information .................................................................................................... 7 \nII.2. Details of the dataset .................................................................................................. 8 \nII.3. Product System Description ........................................................................................ 9 \n DOWNLOAD A PRODUCT .............................................................................................. 10 \n FILES NOMENCLATURE AND FORMAT............................................................................ 10 \nIV.1. Nomenclature of files when downloaded through the CMEMS FTP Services .... 10 \nIV.2. File Format .............................................................................................................. 10 \nIV.3. File size .................................................................................................................... 11 \nIV.4. Reading Softwares ................................................................................................. 11 \n REFERENCES ................................................................................................................... 12 \n \n  \n \nCMEMS Product User Manual for \nTEMPSAL temp extreme variability \nIssue : 1.2 \n2021/12/14 \n \n \n \n© EU Copernicus Marine Service – Public  \nRef:  CMEMS-OMI-PUM-TEMPSAL-EXTREME-VAR-TEMP  \n5 \n INTRODUCTION \nI.1. Summary \nThis document is the user manual for the CMEMS Sea Temperature extreme variability Ocean \nMonitoring Indicators (OMIs): \n \nBLKSEA_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nIBI_OMI_TEMPSAL_extreme_var_temp_mean_and_anomaly \nMEDSEA",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for CMEMS Sea Temperature extreme variability Ocean Monitoring Indicators, detailing information about the product and its usage.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Environment Monitoring Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "Sea Temperature extreme variability Ocean Monitoring Indicators",
+      "model_name": null,
+      "region": "Northwest Shelf Seas, Black Sea, IBI, Mediterranean Sea",
+      "product_types": [
+        "observation"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "temperature",
+        "cf_standard_name": "sea_surface_temperature",
+        "long_name": "Sea Surface Temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "potential",
+        "framework": "eos80",
+        "reference_pressure_dbar": 0,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2511,
+  "_tokens_out": 455,
+  "_eval_s": 3.31
+}

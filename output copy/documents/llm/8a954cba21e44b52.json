@@ -1,0 +1,155 @@
+{
+  "doc_id": "8a954cba21e44b52",
+  "legacy_doc_id": "a69163089ff6",
+  "filename": "GFSv16_SOO_evaluation.pdf",
+  "filepath": "docs/gfs_docs/GFSv16_SOO_evaluation.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 23.32,
+  "pages": 138,
+  "text_preview": "GFSv16 Evaluation\nSTI SOO GFSv16 Evaluation Team\n17 September 2020\n            MEG STI GFSv16 Evaluation Team\n● Purpose: Help evaluate readiness of GFSv16 for implementation \nfrom the perspective of the NWS Regions and Centers\n● Team Members\n2\nGeoff Manikin (EMC) Warren Blier (Western Region)\nChris Karstens (SPC) Mike Fowle (Central Region)\nMark Klein (WPC) Bill Martin (Eastern Region)\nSteverino Silberberg (AWC) Emily Niebuhr and David Levin (Alaska Region)\nBen Trabing & Brian Zachry (NHC) Jack Settelmaier (Southern Region)\nBob Ballard (Pacific Region) \n                               Background\n• A major outcome of the National 2015 SOO/DOH Meeting was to have \nSOOs and DOHs contribute to national and regional projects that support \nWeather Ready Nation goals\n• The STI leadership team oversees these projects/teams and solicits \nvolunteers to join the teams for approved projects  (D. Myrick, National SOO)\n• The MEG has been invoking SOO/DOH teams to assist with evaluation \nactivities since 2016, as the expertise of forecasters at the local and regional \nlevel is invaluable       2020 AMS Presentation\n• A team was organized in late spring 2020 to help evaluate GFSv16 and have \nits members contribute to their Region’s/Center’s official recommendation on \nthe proposed upgrade\n3\n                      Subjective Assessments\n● Each team member was asked to examine GFSv15 and GFSv16 \nperformance for a set of cases relevant to their Region/Center\n● Members were asked to assess performance on 2m temperatures, 2m dew \npoints, QPF, instability, synoptic performance, soundings, and overall utility\n● The forecasts were split into extended range (days 7-10), medium range \n(days 4-6), and short range (days 1-3)\n● For each item in each forecast range, embers were asked to use a rating \nsystem with a range of -3 to +3 ( -3 indicating that GFSv15 was clearly \nbetter to +3 indicating that GFSv16 was clearly better, with 0 representing \nno discernible difference)\n● In the following tables, we group “as good or better” (0 to +3) together, \nsince in the big picture, it is acceptable for v16 to match the performance of \nv15\n4\n                            2m Temperature Ratings\n5\n12z Valid Time Mean Rating\n-3 to +3\n%  GFSv16 as \ngood or better \nthan GFSv15\n % GFSv16 \nworse than \nGFSv15\nExtended Range         0.13           71           29\nMedium Range         0.23           82           18\nShort Range         0.23           95            5     \n• Mean rating shows \nmodest improvements \nat all time ranges, with \nslightly larger gains at \n00z valid times\n• The high percentages \nof “as good or better” for \nall three time ranges \nreflect that there were a \nlot of ‘0’ ratings \nExtended Range         0.29           80           20\nMedium Range         0.41           90           10\nShort Range         0.36           87           13     \n00z Valid Time",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This report evaluates the readiness of GFSv16 for implementation from the perspective of NWS Regions and Centers, focusing on performance metrics such as temperature, dew points, QPF, instability, synoptic performance, soundings, and overall utility.",
+    "provider": {
+      "provider_id": "noaa",
+      "name": "National Weather Service"
+    },
+    "product_line": {
+      "product_id": null,
+      "name": "GFSv16 Evaluation Report",
+      "model_name": "GFS v16",
+      "region": "Global",
+      "product_types": [
+        "forecast"
+      ],
+      "categories": [
+        "atmosphere"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "daily",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "2m_temperature",
+        "cf_standard_name": "air_temperature",
+        "long_name": "Near-surface air temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "2m_dew_point_temperature",
+        "cf_standard_name": "dew_point_temperature",
+        "long_name": "Near-surface dew point temperature",
+        "unit": "degC",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "QPF",
+        "cf_standard_name": "precipitation_amount",
+        "long_name": "Quantitative Precipitation Forecast",
+        "unit": "mm",
+        "physical_quantity": "rainfall",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "instability",
+        "cf_standard_name": "atmospheric_instability_index",
+        "long_name": "Atmospheric instability index",
+        "unit": "K",
+        "physical_quantity": "temperature",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "synoptic_performance",
+        "cf_standard_name": null,
+        "long_name": "Synoptic performance metric",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "soundings",
+        "cf_standard_name": null,
+        "long_name": "Atmospheric soundings data",
+        "unit": null,
+        "physical_quantity": "other",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": null,
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180.0,
+        "lon_max": 180.0,
+        "lat_min": -90.0,
+        "lat_max": 90.0
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": null,
+        "format": null,
+        "auth_required": false
+      }
+    ]
+  },
+  "classification_error": null,
+  "_tokens_in": 2030,
+  "_tokens_out": 1050,
+  "_eval_s": 7.64
+}

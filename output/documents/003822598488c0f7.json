@@ -1,0 +1,82 @@
+{
+  "doc_id": "003822598488c0f7",
+  "legacy_doc_id": "136f515136e1",
+  "filename": "IBI_OMI_SEASTATE_swi_PUM.pdf",
+  "filepath": "docs/copernicus_docs/PUM/IBI_OMI_SEASTATE_swi_PUM.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.43,
+  "pages": 12,
+  "text_preview": " \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : Álvaro de Pascual,  \n \nApproval Date : NOVEMBER 2025 \n \nFor IBI Strong Wave Incidence index \nIBI_OMI_SEASTATE_swi \n \n Issue: 1.2 \nPRODUCT USER MANUAL \n\n \n \n \n2 Product User Manual for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_swi \nIssue 1.2 – November 2025 \nRECORD TABLE \n  \nIssue Date § Description of Change Author Validated By \n1.0 2020/09/11 All Initial version Álvaro de \nPascual Collar  \n1.1 2021/02/23  Changes in dataset \nIBI_OMI_SEASTATE_swi_anomaly \nÁlvaro de \nPascual Collar C. Derval \n1.2 2025/09/15 All \nReview of the document, \nincluding updates to the \nCopernicus product identifiers \nand the climatological reference \nperiod (1980–2024). \nÁlvaro de \nPascual Collar \nCopernicus \nMarine \nProduct \nManagement \n \n \n \n \n3 Product User Manual for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_swi \nIssue 1.2 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \nGLOSSARY AND ABBREVIATIONS ............................................................................... 4 \nDATA ACCESS ............................................................................................................. 5 \n1) INTRODUCTION .................................................................................................. 6 \na) Summary ................................................................................................................ 6 \nb) History of Changes ............................................................................................... 7 \n2) DESCRIPTION OF THE PRODUCT SPECIFICATION ............................................. 8 \na) General Information ............................................................................................ 8 \nb) Production System Description .......................................................................... 9 \nc) Dataset details ...................................................................................................... 9 \n3) FILE FORMAT .................................................................................................... 11 \n4) FILES NOMENCLATURE .................................................................................... 11 \n5) REFERENCES ..................................................................................................... 12 \n  \n \n \n \n4 Product User Manual for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_swi \nIssue 1.2 – November 2025 \nGLOSSARY AND ABBREVIATIONS \n \n \nMOI Mercator Ocean International \nNetCDF Network Common Data Form \nOMI Ocean Monitoring Indicator \nPUM Product User Manual \nQUID Quality Information Document \nSWI Strong Wave Incidence \nIBI-WAV-MYP \nCMEMS product \nIBI_MULTIYEAR_WAV_005_006 \nDOI: https://doi.org/10.48670/moi-00030 \nIBI-WAV-NRT \nCMEMS product \nIBI_ANALYSISFORECAST_WAV_005_005 \nDOI: https://doi.org/10.48670/moi-00025 \nSWI Significant Wave Height \n \n  \n \n \n \n5 Product User Manual for IBI_OMI_SEASTATE_swi \n© EU Copernicus Marine Service – Public   \nIBI_OMI_SEASTATE_swi \nIssue 1.2 – November 2025 \nDATA ACCESS \n \n \nAfter registration, you will be able to download our data. To assist you, our HelpCenter \nis available, and more specifically its section about download. \n \n \nInformation on operational issues on products and services can be found on our User \nNotification Service. If needed, you can contact us . \n  ",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "PUM",
+    "relevance_score": 1.0,
+    "summary": "This document is a Product User Manual for IBI_OMI_SEASTATE_swi, version 1.2, published by Mercator Ocean International in November 2025. It provides details about the product specification, production system description, dataset information, file format, and data access.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Mercator Ocean International"
+    },
+    "product_line": {
+      "product_id": "IBI_MULTIYEAR_WAV_005_006",
+      "name": "Strong Wave Incidence Index (Multiyear)",
+      "model_name": null,
+      "region": "Global",
+      "product_types": [
+        "climatology"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "static",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "swi",
+        "cf_standard_name": "significant_wave_height",
+        "long_name": "Strong Wave Incidence Index",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": null,
+      "horizontal_resolution": null,
+      "crs": null,
+      "coverage": {
+        "lon_min": null,
+        "lon_max": null,
+        "lat_min": null,
+        "lat_max": null
+      }
+    },
+    "vertical": {
+      "vertical_type": "surface_only",
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf3 | netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

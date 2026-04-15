@@ -1,0 +1,124 @@
+{
+  "doc_id": "8643d2d58f73b718",
+  "legacy_doc_id": "3ad427c872da",
+  "filename": "BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/BLKSEA_MULTIYEAR_WAV_007_006_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 2.96,
+  "pages": 53,
+  "text_preview": "1 \n \n \n \n \n \n \nBlack Sea Production Centre \nBLKSEA_MULTIYEAR_WAV_007_006 \n \nIssue: 4.1 \n \nContributors: J. Staneva, M. Ricker, A. Behrens, N. T. Pham, E. Peneva, R. Lecci \nApproval date by the CMEMS product quality coordination team: 20/10/2025 \n \n \n \n \n  \n\nProducts \nBLKSEA_MULTIYEAR _WAV_007_006 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-006 \n28 May 2025 \n4.1 \n \n Page 2/ 53 \n \nCHANGE RECORD \n \n \nWhen the quality of the products changes, the QuID is updated, and a row is added to this table.   \nThe third column specifies which sections or sub-sections have been updated.  The fourth column should \nmention the reason for updating the document. Column 5 should include the names of the author(s) \ndoing the changes. Including the name in column 6 shows that the document has been validated by the \nTAC/MFC PQ leader or deputy (or TAC/MFC PQ leader or the deputy). This validation means the \ndocument was checked for contents, formats and consistency with other documents.  \n \nIssue Date § Description of Change Author Validated By \n1.0 01/09/2019 All First version of document \nof CMEMS V4 \nJ. Staneva, A. \nBehrens, G. Gayer, \nO. Krüger \nE. Peneva \n2.0 07/12/2020 All Complete revision due to \nnew model version \nJ. Staneva, A. \nBehrens, M. Ricker, \nG. Gayer \nE. Peneva \n2.1 15/01/2021 §I, \n§VI \nAddition of the interim \ndataset \nJ. Staneva, A. \nBehrens \nE. Peneva \n2.2 10/09/2021 §VI Addition of the 2020 time \nseries extension \nJ. Staneva, M. Ricker, \nA. Behrens \nE. Peneva \n3.0 29/11/2022 All Complete revision due to \nnew model version \nJ. Staneva, M. Ricker, \nA. Behrens \nE. Peneva \n3.1 30/11/2023 All Addition of time series \nextension to 1950 and \naddition of LATEMAR max. \nvariables \nJ. Staneva, M. Ricker, \nA. Behrens \nE. Peneva \n3.2 18/06/2024 I.1, \nI.2, \nIII, VI \nRemoval of the cold start \nperiod (first week of 1950) \nM. Ricker E. Peneva \n4.0 26/11/2024 All Addition of PHY forcing \n(sea surface height and \nsurface currents) and of a \nnew air-sea-flux dataset \nJ. Staneva, M. Ricker, \nA. Behrens, N. T. \nPham \nE. Peneva \n4.1 28/05/2025 All Merging of the Interim \nand Reanalysis datasets, \nAdaption to latest \ntemplate \nM. Ricker E. Peneva, R.Lecci \n \n \n \n \nProducts \nBLKSEA_MULTIYEAR _WAV_007_006 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-006 \n28 May 2025 \n4.1 \n \n Page 3/ 53 \n \n ACRONYM TABLE \nAcronym Description \nADCP Acoustic Doppler Current Profiler \nAVISO Archiving, Validation and Interpretation of Satellite Oceanographic \ndata (service of French space agency CNES) \nBLK Black Sea \nEAN Estimated Accuracy Number \nECMWF European Centre for Medium-Range Weather Forecasts \nEIS Entry Into Service \nHmax Maximum Wave Height \nJS1/2/3 Jason-1/2/3 Satellite Missions \nM Month \nMFC Monitoring Forecasting Centre \nMY Multi-year \nMYP Multi-Year Product \nNRT Near Real Time \nOI Optimal Interpolation \nSWH Significant Wave Height (VHM0) \nTAC Copernicus Marine Service Thematic Assembly Centre \nTM02 TM02 Mean Wave Period \nTp Wave Peak Period \nU10 Wind speed at 10 metre height \nWAM WAve Model (numerical wave model) \nWAV Waves \nY Year \n \nKEY DEFINITIONS \nNumerical wave model Numerical model based on gravity wave spectra solving the energy \ndensity balance equation. \nSignificant wave height Average height of the highest one-third of the waves (computed from \nspectra by: 𝑆𝑊𝐻 = 4√𝑚0 with 𝑚0 = zeroth spectral moment). \nSwell Waves not correlated with the local wind field (wave phase speed > \nwind speed). \nWave spectrum Wave energy at each wave frequency for each direction. \nWind sea Waves generated and characterised by local winds (wave phase speed < \nwind speed). \n \nProducts \nBLKSEA_MULTIYEAR _WAV_007_006 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-006 \n28 May 2025 \n4.1 \n \n Page 4/ 53 \n \nRELEVANT DOCUMENT LIST \n[DA1] CMEMS-BLK-PUM-\n007-006 \nBlack Sea Waves Reanalysis Product User Manual: \nhttps://documentation.marine.copernicus.eu/PUM/CMEMS-BLK-\nPUM-007-006.pdf \n[DA2] CMEMS-BLK-SQO-\n007-006 \nBlack Sea Waves Reanalysis Synthesis Quality Overview Document: \nhttps://documentation.marine.copernicus.eu/SQO/CMEMS-BLK-SQO-\n007-006.pdf \n  \nProducts \nBLKSEA_MULTIYEAR _WAV_007_006 \nRef: \nDate: \nIssue: \nCMEMS-BLK-QUID-007-006 \n28 May 2025 \n4.1 \n \n Page 5/ 53 \n \nTABLE OF CONTENTS \nAcronym Table ................................................................................................................................................ 3 \nKey definitions ................................................................................................................................................. 3 \nRelevant document List ................................................................................................................................... 4 \nI Executive summary ................................................................................................................................. 6 \nI.1 Products covered by this document ........................................................................................................ 6 \nI.2 Summary of th",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "model_documentation",
+    "relevance_score": 1.0,
+    "summary": "This document is a Quality Information Document (QuID) for Black Sea multi-year wave products, detailing product specifications and changes over time.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BLKSEA_MULTIYEAR_WAV_007_006",
+      "name": "Black Sea Multi-Year Waves",
+      "model_name": "WAM 4.7",
+      "region": "Black Sea",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "wave"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": null,
+        "temporal_resolution": "P1D",
+        "update_frequency": "monthly",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "Hmax",
+        "cf_standard_name": "wave_height",
+        "long_name": "Maximum Wave Height",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "SWH",
+        "cf_standard_name": "significant_wave_height",
+        "long_name": "Significant Wave Height (VHM0)",
+        "unit": "m",
+        "physical_quantity": "wave_height",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "Tp",
+        "cf_standard_name": "wave_period",
+        "long_name": "Wave Peak Period",
+        "unit": "s",
+        "physical_quantity": "wave_period",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "wave",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      },
+      {
+        "native_name": "U10",
+        "cf_standard_name": "wind_speed",
+        "long_name": "Wind speed at 10 metre height",
+        "unit": "m/s",
+        "physical_quantity": "wind",
+        "thermodynamic_form": "not_applicable",
+        "framework": null,
+        "reference_pressure_dbar": null,
+        "category": "atmosphere",
+        "is_3d": false,
+        "is_vector_component": true,
+        "vector_pair": "V10"
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": 27,
+        "lon_max": 41,
+        "lat_min": 40,
+        "lat_max": 48
+      }
+    },
+    "vertical": {
+      "vertical_type": null,
+      "n_levels": null,
+      "depth_min_m": null,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}

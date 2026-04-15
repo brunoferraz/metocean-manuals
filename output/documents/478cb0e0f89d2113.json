@@ -1,0 +1,82 @@
+{
+  "doc_id": "478cb0e0f89d2113",
+  "legacy_doc_id": "f8cd3ba4eac0",
+  "filename": "OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm_QUID.pdf",
+  "filepath": "docs/copernicus_docs/QUID/OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm_QUID.pdf",
+  "extension": ".pdf",
+  "file_size_mb": 0.47,
+  "pages": 6,
+  "text_preview": " \n \n \n \n \nMERCATOR OCEAN  \nINTERNATIONAL \n2 avenue de l’Aérodrome de Montaudran, 31400 Toulouse, FRANCE \nTél : +33 5 61 39 38 02 - Fax : +33 5 61 39 38 99 \nSociété civile de droit français au capital de 2 000 000 € - 522 911 577 RCS Toulouse - SIRET 522 911 577 00024 \n1 \nmarine.copernicus.eu \nmercator-ocean.eu \n \n \n \n \n  \nContributors : P. Lagemaa, U. Raudsepp, I. Maljutenko, V. Huess \n \nApproval Date : November 2025 \n \nFor  \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity\n_arkona_bornholm \n \n Issue: 4.0 \nQUALITY INFORMATION \nDOCUMENT \n\n \n \n \n \n \n \n \n \n \n2 Quality Information Document for \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-HEALTH-\nTEMPSALOXY-mbi-bottom-salinity-arkona-\nbornholm \nIssue 4.0 – November 2025 \nRECORD TABLE \n \nWhen the quality of the products changes, the QuID is updated and a row is added to \nthis table.  The third column specifies which sections  or sub -sections have been \nupdated.  The fourth column should mention the version of the product to which the \nchange applies. \n \n \n  \nIssue Date § Description of Change Author Validated By \n1.0 2018/09/06 all Creation of the document U. Raudsepp \nI. Maljutenko \nJ. Linders \nP. Lagemaa \n1.1 2019/02/21  Revision U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n2.0 2019/10/10  Update to 2018 data U. Raudsepp \nI. Maljutenko \nP. Lagemaa \n2.1 2021/10/01 all Remove temporal extension \nspecific details \nU. Raudsepp \nI. Maljutenko \nP. Lagemaa \n3.0 2023/09/01 all Template change+ minor \nchanges \nU. Raudsepp \nI. Maljutenko \nP. Lagemaa \n4.0 2025/05/22 all Template change+ minor \nchanges \nP. Lagemaa  V. Huess \n      \n \n \n \n \n \n \n \n \n \n3 Quality Information Document for \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-HEALTH-\nTEMPSALOXY-mbi-bottom-salinity-arkona-\nbornholm \nIssue 4.0 – November 2025 \nTABLE OF CONTENTS \nRECORD TABLE ............................................................................................................ 2 \n1) INTRODUCTION .................................................................................................. 4 \na) Product Name ...................................................................................................... 4 \nb) Indicator Evaluation Method ............................................................................. 4 \nc) Copernicus Marine products used as input for the computation ............... 4 \n2) SCIENTIFIC VALIDATION ................................................................................... 5 \na) Major Baltic Inflow: bottom salinity .................................................................... 5 \n3) REFERENCES ....................................................................................................... 6 \n  \n \n \n \n \n \n \n \n \n \n4 Quality Information Document for \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-HEALTH-\nTEMPSALOXY-mbi-bottom-salinity-arkona-\nbornholm \nIssue 4.0 – November 2025 \n1) INTRODUCTION \na) Product Name  \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm. \nb) Indicator Evaluation Method \nThis document provides to Copernicus Marine Service users information on the quality \nof the bottom salinity in the Arkona and Bornholm Basins of the Baltic Sea. These sites \nwere chosen to represent the inflow events of the Baltic Sea and therefore grouped as \na separate CMEMS product which is named \nBALTIC_OMI_WMHE_mbi_bottom_salinity_arkona_bornholm.  \nThe bottom salinity data in the Arkona and Bornholm Basins are daily values extracted \nfrom the BALTICSEA_MULTIYEAR_PHY_003_011 product  processed with 7 -day moving \naverage filter. \nc) Copernicus Marine products used as input for the computation \nProduct name (and Type) Documentation \nBALTICSEA_MULTIYEAR_PHY_003\n_011 (model reanalysis) \nQUID: \nhttps://catalogue.marine.copernicus.eu/documents/\nQUID/CMEMS-BAL-QUID-003-011.pdf \nPUM: \nhttps://catalogue.marine.copernicus.eu/documents/P\nUM/CMEMS-BAL-PUM-003-011_012.pdf \n  \n \n \n \n \n \n \n \n \n \n5 Quality Information Document for \nOMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm \n© EU Copernicus Marine Service – Public   \nCMEMS-BAL-OMI-QUID-HEALTH-\nTEMPSALOXY-mbi-bottom-salinity-arkona-\nbornholm \nIssue 4.0 – November 2025 \n2) SCIENTIFIC VALIDATION  \na) Major Baltic Inflow: bottom salinity  \nThe accuracy of the index is directly dependent on the accuracy of the Baltic reanalysis \nproduct (BALTICSEA_MULTIYEAR_PHY_003_011).  \nThe model bottom salinity product is validated against long term time series \nmeasurements. At the Arkona Basin, the mean bi as of the bottom salinity and cRMSD \nare -0.01 and 1.95 PSU, respectively. At the monitoring station BMPK2 which is the closest \nto the Bornholm Basin, the bottom salinity bias and cRMSD are -0.01 and 0. 45 PSU, \nrespectively. Direct comparison with in-sit",
+  "extraction_method": "pypdf",
+  "extraction_error": null,
+  "catalog_entry": {
+    "doc_type": "evaluation_report",
+    "relevance_score": 1.0,
+    "summary": "This Quality Information Document evaluates the bottom salinity data for the Arkona and Bornholm Basins of the Baltic Sea, providing details on its accuracy and validation against long-term measurements.",
+    "provider": {
+      "provider_id": "cmems",
+      "name": "Copernicus Marine Service"
+    },
+    "product_line": {
+      "product_id": "BALTIC_OMI_WMHE_mbi_bottom_salinity_arkona_bornholm",
+      "name": "OMI_HEALTH_TEMPSALOXY_BALTIC_mbi_bottom_salinity_arkona_bornholm",
+      "model_name": null,
+      "region": "Baltic",
+      "product_types": [
+        "reanalysis"
+      ],
+      "categories": [
+        "ocean_physics"
+      ]
+    },
+    "datasets": [
+      {
+        "dataset_id": "cmems_mod_balt_phy_my_011_025",
+        "temporal_resolution": "P1D",
+        "update_frequency": "static",
+        "forecast_length_hours": null
+      }
+    ],
+    "variables": [
+      {
+        "native_name": "bottom_salinity",
+        "cf_standard_name": "sea_water_practical_salinity",
+        "long_name": "Bottom salinity in the Arkona and Bornholm Basins of the Baltic Sea",
+        "unit": "psu",
+        "physical_quantity": "salinity",
+        "thermodynamic_form": "practical",
+        "framework": "eos80",
+        "reference_pressure_dbar": null,
+        "category": "ocean_physics",
+        "is_3d": false,
+        "is_vector_component": false,
+        "vector_pair": null
+      }
+    ],
+    "grid": {
+      "grid_type": "regular_latlon",
+      "horizontal_resolution": "2.5km",
+      "crs": "EPSG:4326",
+      "coverage": {
+        "lon_min": -180,
+        "lon_max": 180,
+        "lat_min": 54,
+        "lat_max": 65
+      }
+    },
+    "vertical": {
+      "vertical_type": "seafloor_only",
+      "n_levels": null,
+      "depth_min_m": 0,
+      "depth_max_m": null
+    },
+    "access": [
+      {
+        "protocol": "cmems_api",
+        "format": "netcdf4",
+        "auth_required": true
+      }
+    ]
+  },
+  "classification_error": null
+}
